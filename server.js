@@ -1,5 +1,3 @@
-
-
 // API boilerplate
 const express = require('express');
 
