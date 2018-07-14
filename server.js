@@ -38,6 +38,11 @@ app.use(morgan('combined', { stream: accessLogStream }));
 // Load up the routes
 app.use('/', routes);
 
+// Executing the importer
+const importers = require('./importers/main');
+
+importers.combinedImporter();
+
 // Start the API
 app.listen(config.apiPort);
 console.log(`API running on port ${config.apiPort}`);
