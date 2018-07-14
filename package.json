@@ -1,0 +1,25 @@
+{
+  "name": "api-template",
+  "main": "server.js",
+  "version": "0.0.1",
+  "author": "Jared Petersen <jaredtoddpetersen@gmail.com> (https://github.com/jaredpetersen)",
+  "license": "MIT",
+  "repository": "https://github.com/jaredpetersen/nodejs-api-template.git",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "test-coverage": "./node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- --reporter spec --recursive"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "config": "^1.24.0",
+    "express": "^4.14.0",
+    "file-stream-rotator": "0.0.7",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}
