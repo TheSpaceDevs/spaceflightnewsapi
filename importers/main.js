@@ -1,5 +1,5 @@
 const nsf = require('./nasaspaceflight');
 
 exports.combinedImporter = () => {
-  nsf.importArticles();
+  setInterval(nsf.importArticles, 900000);
 };
