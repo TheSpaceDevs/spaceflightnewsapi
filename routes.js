@@ -1,5 +1,3 @@
-
-
 const router = require('express').Router();
 
 // Middleware
@@ -7,11 +5,12 @@ const middleware = require('./controllers/middleware');
 
 router.use(middleware.doSomethingInteresting);
 
-// Tasks
-const tasks = require('./controllers/tasks');
+// Articles
+const articles = require('./controllers/articles');
 
-router.get('/tasks', tasks.findAll);
-router.post('/buggyroute', tasks.buggyRoute);
+router.get('/articles/newssite/:newssite', articles.byNewsSite);
+router.get('/articles/category/:category', articles.findByCategory);
+router.get('/articles/tag/:tag', articles.findByTag);
 
 // Error Handling
 const errors = require('./controllers/errors');
