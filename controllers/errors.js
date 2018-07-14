@@ -1,5 +1,3 @@
-
-
 // Handle any errors that come up
 exports.errorHandler = (err, req, res, next) => {
   if (err.status) {
