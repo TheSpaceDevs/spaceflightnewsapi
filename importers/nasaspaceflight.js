@@ -27,6 +27,17 @@ exports.importArticles = () => {
                   });
               });
           });
+          // Since the article only have tag ID's, we need to find the name of the ID.
+          _.forEach(article.tags, (tagID) => {
+            axios.get(`https://www.nasaspaceflight.com/wp-json/wp/v2/tags/${tagID}`)
+              .then((tagResp) => {
+                // Now that we now the name of the category ID, update the article with that information.
+                Article.findOneAndUpdate({ id: article.id, date_gmt: article.date_gmt },
+                  { $addToSet: { tags: tagResp.data.name.toLowerCase() } }, (err) => {
+                    if (err) console.log(err);
+                  });
+              });
+          });
         });
       });
     })
