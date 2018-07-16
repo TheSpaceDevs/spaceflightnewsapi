@@ -1,9 +1,9 @@
 {
-  "name": "api-template",
+  "name": "spaceflight-news-api",
   "main": "server.js",
   "version": "0.0.1",
-  "author": "Jared Petersen <jaredtoddpetersen@gmail.com> (https://github.com/jaredpetersen)",
-  "license": "MIT",
+  "author": "Derk Weijers <derk@derkweijers.nl> (https://github.com/derkweijers)",
+  "license": "GPL-3.0-or-later",
   "repository": "https://github.com/jaredpetersen/nodejs-api-template.git",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec",
