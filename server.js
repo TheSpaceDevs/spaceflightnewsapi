@@ -13,7 +13,6 @@ const logDirectory = `${__dirname}/log`;
 
 // Config
 const mongoose = require('mongoose');
-const config = require('config');
 const routes = require('./routes');
 
 // BodyParser allows us to get data out of URLs
@@ -44,8 +43,8 @@ const importers = require('./importers/main');
 importers.combinedImporter();
 
 // Start the API
-app.listen(config.apiPort);
-console.log(`API running on port ${config.apiPort}`);
+app.listen(process.env.PORT);
+console.log(`API running on port ${process.env.PORT}`);
 
 // Export API server for testing
 module.exports = app;
