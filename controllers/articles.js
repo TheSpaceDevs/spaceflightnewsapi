@@ -1,5 +1,14 @@
 const Article = require('../models/article');
 
+exports.allArticles = (req, res) => {
+  req.params.limit = parseInt(req.params.limit);
+  Article.find({}, (err, article) => {
+    if (err) res.send(err);
+    res.send(article);
+  })
+    .limit(req.params.limit);
+};
+
 exports.byNewsSite = (req, res) => {
   Article.find({ news_site: req.params.newssite }, (err, articles) => {
     if (err) { res.send(err); }
@@ -23,13 +32,4 @@ exports.findByTag = (req, res) => {
     if (err) { res.send(err); }
     res.send(articles);
   });
-};
-
-exports.limitedResults = (req, res) => {
-  req.params.limit = parseInt(req.params.limit);
-  Article.find({}, (err, article) => {
-    if (err) res.send(err);
-    res.send(article);
-  })
-    .limit(req.params.limit);
 };
