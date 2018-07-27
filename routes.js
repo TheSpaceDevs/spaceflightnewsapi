@@ -11,6 +11,7 @@ const articles = require('./controllers/articles');
 router.get('/articles/newssite/:newssite', articles.byNewsSite);
 router.get('/articles/category/:category', articles.findByCategory);
 router.get('/articles/tag/:tag', articles.findByTag);
+router.get('/articles/limited/:limit', articles.limitedResults);
 
 // Error Handling
 const errors = require('./controllers/errors');

@@ -26,5 +26,10 @@ exports.findByTag = (req, res) => {
 };
 
 exports.limitedResults = (req, res) => {
-  Article.find().limit(req.params.limit);
+  req.params.limit = parseInt(req.params.limit);
+  Article.find({}, (err, article) => {
+    if (err) res.send(err);
+    res.send(article);
+  })
+    .limit(req.params.limit);
 };
