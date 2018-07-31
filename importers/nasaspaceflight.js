@@ -40,7 +40,7 @@ exports.importArticles = () => {
           });
           Article.find({ id: article.id }, (err, foundNewArticle) => {
             if (err) console.log(err);
-            console.log('The following article has been added:', foundNewArticle);
+            console.log('The following article has been added:', foundNewArticle.title);
           });
         });
       });
