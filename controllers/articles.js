@@ -2,12 +2,11 @@
 const Article = require('../models/article');
 
 exports.allArticles = (req, res) => {
-  req.params.limit = parseInt(req.params.limit);
   Article.find({}, (err, article) => {
     if (err) res.send(err);
     res.send(article);
   })
-    .limit(req.params.limit)
+    .limit(parseInt(req.params.limit))
     .sort({ date_published: -1 });
 };
 
