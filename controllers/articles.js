@@ -7,7 +7,8 @@ exports.allArticles = (req, res) => {
     if (err) res.send(err);
     res.send(article);
   })
-    .limit(req.params.limit);
+    .limit(req.params.limit)
+    .sort({ date_published: -1 });
 };
 
 exports.byNewsSite = (req, res) => {
