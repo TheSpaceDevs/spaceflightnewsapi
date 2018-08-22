@@ -1,3 +1,4 @@
+/* eslint-disable radix */
 const Article = require('../models/article');
 
 exports.allArticles = (req, res) => {
