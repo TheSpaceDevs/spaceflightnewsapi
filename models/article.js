@@ -3,13 +3,13 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
 const articleSchema = new Schema({
-  id: String,
+  news_site: String,
   title: String,
   url: String,
-  news_site: String,
-  date_gmt: String,
-  categories: Array,
+  date_published: Number,
+  date_added: Number,
   tags: Array,
+  categories: Array,
 });
 
 const Article = mongoose.model('Articles', articleSchema);
