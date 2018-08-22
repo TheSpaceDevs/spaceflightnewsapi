@@ -20,11 +20,6 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true }).catch(err =
 // Load up the routes
 app.use('/', routes);
 
-// Executing the importer
-const importers = require('./importers/main');
-
-importers.combinedImporter();
-
 // Start the API
 app.listen(process.env.PORT);
 console.log(`API running on port ${process.env.PORT}`);
