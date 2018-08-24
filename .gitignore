@@ -2,7 +2,7 @@
 # Created by https://www.gitignore.io/api/node,webstorm
 
 snapidocs/
-idea/
+.idea/
 
 ### Node ###
 # Logs
