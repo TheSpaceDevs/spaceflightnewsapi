@@ -13,6 +13,9 @@ router.get('/articles/category/:category', articles.findByCategory);
 router.get('/articles/tag/:tag', articles.findByTag);
 router.get('/articles/:limit*?', articles.allArticles);
 
+// Article
+router.get('/article/:id', articles.findByID);
+
 // Error Handling
 const errors = require('./controllers/errors');
 

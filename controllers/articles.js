@@ -34,3 +34,10 @@ exports.findByTag = (req, res) => {
     res.send(articles);
   });
 };
+
+exports.findByID = (req, res) => {
+  Article.find({ _id: req.params.id }, (err, article) => {
+    if (err) { res.send(err); }
+    res.send(article);
+  });
+};
