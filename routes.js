@@ -8,10 +8,10 @@ router.use(middleware.doSomethingInteresting);
 // Articles
 const articles = require('./controllers/articles');
 
-router.get('/articles/:limit*?', articles.allArticles);
 router.get('/articles/newssite/:newssite', articles.byNewsSite);
 router.get('/articles/category/:category', articles.findByCategory);
 router.get('/articles/tag/:tag', articles.findByTag);
+router.get('/articles/:limit*?', articles.allArticles);
 
 // Error Handling
 const errors = require('./controllers/errors');
