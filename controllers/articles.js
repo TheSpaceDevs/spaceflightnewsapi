@@ -1,7 +1,7 @@
 /* eslint-disable radix */
 const Article = require('../models/article');
 
-exports.allArticles = (req, res) => {
+exports.latestArticles = (req, res) => {
   Article.find({}, (err, article) => {
     if (err) res.send(err);
     res.send(article);
@@ -46,5 +46,7 @@ exports.titleCatTags = (req, res) => {
   Article.find({ $or: [{ title: { $regex: req.params.searchTerm, $options: 'i' } }, { categories: { $regex: req.params.searchTerm, $options: 'i' } }, { tags: { $regex: req.params.searchTerm, $options: 'i' } }] }, (err, article) => {
     if (err) { res.send(err); }
     res.send(article);
-  });
+  })
+    .limit(parseInt(req.params.limit))
+    .sort({ date_published: -1 });
 };
