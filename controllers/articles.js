@@ -11,7 +11,7 @@ exports.allArticles = (req, res) => {
 };
 
 exports.findByNewsSite = (req, res) => {
-  Article.find({ news_site: req.params.newssite }, (err, articles) => {
+  Article.find({ news_site: { $regex: req.params.newssite, $options: 'i' } }, (err, articles) => {
     if (err) { res.send(err); }
     if (!articles.length) {
       res.status(404).json({ message: 'Requested news site not found' });
@@ -22,14 +22,14 @@ exports.findByNewsSite = (req, res) => {
 };
 
 exports.findByCategory = (req, res) => {
-  Article.find({ categories: req.params.category }, (err, articles) => {
+  Article.find({ categories: { $regex: req.params.category, $options: 'i' } }, (err, articles) => {
     if (err) { res.send(err); }
     res.send(articles);
   });
 };
 
 exports.findByTag = (req, res) => {
-  Article.find({ tags: req.params.tag }, (err, articles) => {
+  Article.find({ tags: { $regex: req.params.tag, $options: 'i' } }, (err, articles) => {
     if (err) { res.send(err); }
     res.send(articles);
   });
