@@ -10,7 +10,7 @@ exports.allArticles = (req, res) => {
     .sort({ date_published: -1 });
 };
 
-exports.byNewsSite = (req, res) => {
+exports.findByNewsSite = (req, res) => {
   Article.find({ news_site: req.params.newssite }, (err, articles) => {
     if (err) { res.send(err); }
     if (!articles.length) {
