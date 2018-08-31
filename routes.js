@@ -11,8 +11,9 @@ const articles = require('./controllers/articles');
 router.get('/articles/newssite/:newssite', articles.findByNewsSite);
 router.get('/articles/category/:category', articles.findByCategory);
 router.get('/articles/tag/:tag', articles.findByTag);
-router.get('/articles/:searchTerm', articles.titleCatTags);
-router.get('/articles/:limit*?', articles.allArticles);
+router.get('/articles/latest/:limit*?', articles.latestArticles);
+router.get('/articles/:searchTerm?/:limit*?', articles.titleCatTags);
+
 
 // Article
 router.get('/article/:id', articles.findByID);
