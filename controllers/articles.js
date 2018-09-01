@@ -50,3 +50,12 @@ exports.titleCatTags = (req, res) => {
     .limit(parseInt(req.params.limit))
     .sort({ date_published: -1 });
 };
+
+exports.articlesEndpoint = (req, res) => {
+  Article.find({ $or: [req.query] }, (err, article) => {
+    if (err) { res.send(err); }
+    res.send(article);
+  })
+    .limit(parseInt(req.params.limit))
+    .sort({ date_published: -1 });
+};
