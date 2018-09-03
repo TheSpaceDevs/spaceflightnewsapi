@@ -18,12 +18,6 @@ module.exports = {
         NODE_ENV: 'production',
         MONGODB_URI: config.db.uri,
       },
-      env_dev: {
-        name: 'Spaceflight News API Dev',
-        PORT: 3000,
-        NODE_ENV: 'dev',
-        MONGODB_URI: config.db.uri,
-      },
     },
   ],
   deploy: {
