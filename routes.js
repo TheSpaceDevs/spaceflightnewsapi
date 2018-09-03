@@ -7,6 +7,7 @@ router.use(middleware.doSomethingInteresting);
 
 // Articles
 const articles = require('./controllers/articles');
+
 router.get('/articles/', articles.articlesEndpoint);
 
 // Article
