@@ -1,5 +1,5 @@
 // Optimized for pm2 deploy
-const config = require('../config');
+const config = require('../shared/config');
 
 module.exports = {
   apps: [
