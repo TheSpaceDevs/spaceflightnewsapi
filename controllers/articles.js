@@ -13,8 +13,8 @@ exports.articlesEndpoint = (req, res) => {
     .sort({ date_published: -1 });
 };
 
-exports.findByID = (req, res) => {
-  Article.find({ _id: req.params.id }, (err, article) => {
+exports.articleEndpoint = (req, res) => {
+  Article.find(req.query, (err, article) => {
     if (err) { res.send(err); }
     res.send(article);
   });

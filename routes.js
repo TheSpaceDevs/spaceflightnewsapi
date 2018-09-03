@@ -11,7 +11,7 @@ const articles = require('./controllers/articles');
 router.get('/articles/', articles.articlesEndpoint);
 
 // Article
-router.get('/article/:id', articles.findByID);
+router.get('/article/', articles.articleEndpoint);
 
 // Error Handling
 const errors = require('./controllers/errors');
