@@ -1,52 +1,59 @@
-/* eslint-disable radix */
+/* eslint-disable radix,camelcase */
 const Article = require('../models/article');
 
-exports.latestArticles = (req, res) => {
-  Article.find({}, (err, article) => {
-    if (err) res.send(err);
+exports.articlesEndpoint = (req, res) => {
+  const {
+    limit,
+    news_site,
+    tags,
+    categories,
+    title,
+    url,
+    date_published,
+    date_added,
+  } = req.query;
+  // We're getting the various paramets of the request and assign them to a new object.
+  // We do this so that we
+  // 1) only pass a request with valid parameters and
+  // 2) can change the object a bit and include a regex
+
+  // Building the new object (will be improved (looped) in the future).
+  // Only add something to the query object if it was in the request
+  const query = {};
+
+  if (news_site) {
+    query.news_site = { $regex: news_site, $options: 'i' };
+  }
+  if (tags) {
+    query.tags = { $regex: tags, $options: 'i' };
+  }
+  if (categories) {
+    query.categories = { $regex: categories, $options: 'i' };
+  }
+  if (title) {
+    query.title = { $regex: title, $options: 'i' };
+  }
+  if (url) {
+    query.url = { $regex: url, $options: 'i' };
+  }
+  if (date_published) {
+    query.date_published = { $regex: date_published, $options: 'i' };
+  }
+  if (date_added) {
+    query.date_added = { $regex: date_added, $options: 'i' };
+  }
+
+  Article.find({ $or: [query] }, (err, article) => {
+    if (err) { res.send(err); }
     res.send(article);
   })
-    .limit(parseInt(req.params.limit))
+    .limit(parseInt(limit))
     .sort({ date_published: -1 });
 };
 
-exports.findByNewsSite = (req, res) => {
-  Article.find({ news_site: { $regex: req.params.newssite, $options: 'i' } }, (err, articles) => {
-    if (err) { res.send(err); }
-    if (!articles.length) {
-      res.status(404).json({ message: 'Requested news site not found' });
-    } else {
-      res.send(articles);
-    }
-  });
-};
-
-exports.findByCategory = (req, res) => {
-  Article.find({ categories: { $regex: req.params.category, $options: 'i' } }, (err, articles) => {
-    if (err) { res.send(err); }
-    res.send(articles);
-  });
-};
-
-exports.findByTag = (req, res) => {
-  Article.find({ tags: { $regex: req.params.tag, $options: 'i' } }, (err, articles) => {
-    if (err) { res.send(err); }
-    res.send(articles);
-  });
-};
-
-exports.findByID = (req, res) => {
-  Article.find({ _id: req.params.id }, (err, article) => {
+exports.articleEndpoint = (req, res) => {
+  Article.find(req.query, (err, article) => {
     if (err) { res.send(err); }
     res.send(article);
   });
-};
-
-exports.titleCatTags = (req, res) => {
-  Article.find({ $or: [{ title: { $regex: req.params.searchTerm, $options: 'i' } }, { categories: { $regex: req.params.searchTerm, $options: 'i' } }, { tags: { $regex: req.params.searchTerm, $options: 'i' } }] }, (err, article) => {
-    if (err) { res.send(err); }
-    res.send(article);
-  })
-    .limit(parseInt(req.params.limit))
-    .sort({ date_published: -1 });
 };

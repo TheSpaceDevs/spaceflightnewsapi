@@ -15,7 +15,6 @@
     "config": "^2.0.1",
     "express": "^4.14.0",
     "file-stream-rotator": "0.3.1",
-    "lodash": "^4.17.10",
     "mongoose": "^5.2.1"
   },
   "devDependencies": {
