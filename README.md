@@ -23,6 +23,7 @@ I'd like thank/mention the following people/groups/services:
 * https://www.space.com/
 
 ## Changelog
+### v0.1.0 beta (03-09-2018)
 * Get a list of the latest articles
 * Find articles on title, category and tag
 * Find articles on only category or tag
