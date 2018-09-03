@@ -4,20 +4,22 @@ const config = require('../shared/config');
 module.exports = {
   apps: [
     {
-      name: 'Spaceflight News API',
       script: './server.js',
       watch: true,
       env: {
+        name: 'Spaceflight News API Test',
         PORT: 3001,
         NODE_ENV: 'test',
         MONGODB_URI: config.db.uri,
       },
       env_production: {
+        name: 'Spaceflight News API',
         PORT: 3002,
         NODE_ENV: 'production',
         MONGODB_URI: config.db.uri,
       },
       env_dev: {
+        name: 'Spaceflight News API Dev',
         PORT: 3000,
         NODE_ENV: 'dev',
         MONGODB_URI: config.db.uri,
