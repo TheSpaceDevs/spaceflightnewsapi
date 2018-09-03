@@ -1,5 +1,5 @@
 # Spacelaunch News API
-Spacelaunch News API was created as a solution for my problem when I wanted to develop an app for Spaceflight News: many (great!) news sites with different API's. 
+Spacelaunch News API was created as a solution for my problem when I wanted to develop an app for Spaceflight News: many (great!) news sites with different API's.
 
 To make it easier for myself, I began a project that would aggegrate metadata from those news sites and publish them through an API. Since there are others that might benefit from this API, I decided make the API publicly available.
 
@@ -18,3 +18,13 @@ I'd like thank/mention the following people/groups/services:
 ## Currently imported news sites
 
 * https://www.nasaspaceflight.com/
+* https://www.spaceflightnow.com/
+* https://www.spacex.com/
+* https://www.space.com/
+
+## Changelog
+* Get a list of the latest articles
+* Find articles on title, category and tag
+* Find articles on only category or tag
+* Find all articles by a news site
+* Find article by its ID
