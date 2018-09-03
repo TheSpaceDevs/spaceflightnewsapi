@@ -3,7 +3,6 @@
 
 snapidocs/
 .idea/
-ecosystem.config.js
 
 ### Node ###
 # Logs
