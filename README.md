@@ -10,11 +10,6 @@ I'd like thank/mention the following people/groups/services:
 
 * `Jared Petersen - (https://github.com/jaredpetersen/nodejs-api-template)`: Used template for this API;
 
-## Endpoints
-* `GET /articles/newssite/:newssite`: List all articles by a particular news site;
-* `GET /articles/category/:category`: List all articles from a specific catagory;
-* `GET /articles/tag/:tag`: List all articles from a specific tag;
-
 ## Currently imported news sites
 
 * https://www.nasaspaceflight.com/
@@ -23,6 +18,11 @@ I'd like thank/mention the following people/groups/services:
 * https://www.space.com/
 
 ## Changelog
+### v0.2.0 beta (03-09-2018)
+* Better logging
+* Automated testing
+* Get articles since n time
+
 ### v0.1.0 beta (03-09-2018)
 * Get a list of the latest articles
 * Find articles on title, category and tag
