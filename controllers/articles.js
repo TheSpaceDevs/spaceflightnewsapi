@@ -37,10 +37,10 @@ exports.articlesEndpoint = (req, res) => {
     query.url = { $regex: url, $options: 'i' };
   }
   if (date_published) {
-    query.date_published = { $regex: date_published, $options: 'i' };
+    query.date_published = date_published;
   }
   if (date_added) {
-    query.date_added = { $regex: date_added, $options: 'i' };
+    query.date_added = date_added;
   }
 
   Article.find({ $or: [query] }, (err, article) => {
