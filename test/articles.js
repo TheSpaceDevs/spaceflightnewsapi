@@ -76,10 +76,10 @@ describe('Articles', () => {
     });
   });
 
-  describe('GET /articles?date_added=1535666400', () => {
+  describe('GET /articles?date_added=1535402404', () => {
     it('Get all articles added at a certain date', (done) => {
       chai.request(server)
-        .get('/articles?date_added=1536006004')
+        .get('/articles?date_added=1535402404')
         .end((err, res) => {
           res.should.have.status(200);
           res.body.should.be.a('array');
