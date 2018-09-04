@@ -45,7 +45,11 @@ exports.articlesEndpoint = (req, res) => {
 
   Article.find({ $or: [query] }, (err, article) => {
     if (err) { res.send(err); }
-    res.send(article);
+    if (article === undefined || article.length == 0) {
+      res.status(404).json({ message: 'No articles found! Please refine your search. No worries, it happens to all of us sometimes.' });
+    } else {
+      res.send(article);
+    }
   })
     .limit(parseInt(limit))
     .sort({ date_published: -1 });
@@ -54,6 +58,10 @@ exports.articlesEndpoint = (req, res) => {
 exports.articleEndpoint = (req, res) => {
   Article.find(req.query, (err, article) => {
     if (err) { res.send(err); }
-    res.send(article);
+    if (article === undefined || article.length == 0) {
+      res.status(404).json({ message: 'Article not found! Please refine your search. No worries, it happens to all of us sometimes.' });
+    } else {
+      res.send(article);
+    }
   });
 };
