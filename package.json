@@ -1,10 +1,10 @@
 {
   "name": "spaceflight-news-api",
   "main": "server.js",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "author": "Derk Weijers <derk@derkweijers.nl> (https://github.com/derkweijers)",
   "license": "GPL-3.0-or-later",
-  "repository": "https://github.com/jaredpetersen/nodejs-api-template.git",
+  "repository": "https://github.com/spaceflightnewsapi/spaceflightnewsapi",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec",
     "test-coverage": "./node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- --reporter spec --recursive"
