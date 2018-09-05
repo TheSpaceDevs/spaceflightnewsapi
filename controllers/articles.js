@@ -14,11 +14,11 @@ exports.articlesEndpoint = (req, res) => {
     since_published,
     since_added,
   } = req.query;
+
   // We're getting the various parameters of the request and assign them to a new object.
-  // We do this so that we
+  // We do this so that we:
   // 1) only pass a request with valid parameters and
   // 2) can change the object a bit and include a regex
-
   const query = {};
 
   if (news_site) {
@@ -49,16 +49,21 @@ exports.articlesEndpoint = (req, res) => {
     query.date_added = { $gt: since_added };
   }
 
-  Article.find({ $or: [query] }, (err, article) => {
-    if (err) { res.send(err); }
-    if (article === undefined || article.length === 0) {
-      res.status(404).json({ message: 'No articles found! Please refine your search. No worries, it happens to all of us sometimes.' });
-    } else {
-      res.send(article);
-    }
-  })
-    .limit(parseInt(limit))
-    .sort({ date_published: -1 });
+  // Make sure people don't mix since_* and date_*
+  if () {
+    res.status(405).json({ message: 'Please do not mix since_* and date_*' });
+  } else { // Proceed if there's nothing mixed
+    Article.find({ $or: [query] }, (err, article) => {
+      if (err) { res.send(err); }
+      if (article === undefined || article.length === 0) {
+        res.status(404).json({ message: 'No articles found! Please refine your search. No worries, it happens to all of us sometimes.' });
+      } else {
+        res.send(article);
+      }
+    })
+      .limit(parseInt(limit))
+      .sort({ date_published: -1 });
+  }
 };
 
 exports.articleEndpoint = (req, res) => {
