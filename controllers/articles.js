@@ -50,8 +50,14 @@ exports.articlesEndpoint = (req, res) => {
   }
 
   // Make sure people don't mix since_* and date_*
-  if () {
-    res.status(405).json({ message: 'Please do not mix since_* and date_*' });
+  if (since_added && date_added) {
+    res.status(405).json({ message: 'Please do not mix since_added and date_added' });
+  } else if (since_added && date_published) {
+    res.status(405).json({ message: 'Please do not mix since_added and date_published' });
+  } else if (since_published && date_published) {
+    res.status(405).json({ message: 'Please do not mix since_published and date_published' });
+  } else if (since_published && date_added) {
+    res.status(405).json({ message: 'Please do not mix since_published and date_added' });
   } else { // Proceed if there's nothing mixed
     Article.find({ $or: [query] }, (err, article) => {
       if (err) { res.send(err); }
