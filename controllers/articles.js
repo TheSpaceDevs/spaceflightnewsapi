@@ -11,14 +11,14 @@ exports.articlesEndpoint = (req, res) => {
     url,
     date_published,
     date_added,
+    since_published,
+    since_added,
   } = req.query;
-  // We're getting the various paramets of the request and assign them to a new object.
+  // We're getting the various parameters of the request and assign them to a new object.
   // We do this so that we
   // 1) only pass a request with valid parameters and
   // 2) can change the object a bit and include a regex
 
-  // Building the new object (will be improved (looped) in the future).
-  // Only add something to the query object if it was in the request
   const query = {};
 
   if (news_site) {
@@ -42,10 +42,16 @@ exports.articlesEndpoint = (req, res) => {
   if (date_added) {
     query.date_added = date_added;
   }
+  if (since_published) {
+    query.date_published = { $gt: since_published };
+  }
+  if (since_added) {
+    query.date_added = { $gt: since_added };
+  }
 
   Article.find({ $or: [query] }, (err, article) => {
     if (err) { res.send(err); }
-    if (article === undefined || article.length == 0) {
+    if (article === undefined || article.length === 0) {
       res.status(404).json({ message: 'No articles found! Please refine your search. No worries, it happens to all of us sometimes.' });
     } else {
       res.send(article);
@@ -58,7 +64,7 @@ exports.articlesEndpoint = (req, res) => {
 exports.articleEndpoint = (req, res) => {
   Article.find(req.query, (err, article) => {
     if (err) { res.send(err); }
-    if (article === undefined || article.length == 0) {
+    if (article === undefined || article.length === 0) {
       res.status(404).json({ message: 'Article not found! Please refine your search. No worries, it happens to all of us sometimes.' });
     } else {
       res.send(article);
