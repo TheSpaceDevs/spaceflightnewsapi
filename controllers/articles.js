@@ -68,7 +68,8 @@ exports.articlesEndpoint = (req, res) => {
       }
     })
       .limit(parseInt(limit))
-      .sort({ date_published: -1 });
+      .sort({ date_published: -1 })
+      .select('-id');
   }
 };
 
