@@ -22,13 +22,20 @@ exports.articlesEndpoint = (req, res) => {
   const query = {};
 
   if (news_site) {
-    query.news_site = { $regex: news_site, $options: 'i' };
+    if (typeof news_site === 'string') {
+      query.news_site = news_site;
+    } else {
+      news_site.forEach((site) => {
+        query.news_site = ({ $regex: site, $options: 'i' });
+        console.log(query.news_site);
+      });
+    }
   }
   if (tags) {
     query.tags = { $regex: tags, $options: 'i' };
   }
   if (categories) {
-    query.categories = { $regex: categories, $options: 'i' };
+    query.categories = { $regex: categories , $options: 'i' };
   }
   if (title) {
     query.title = { $regex: title, $options: 'i' };
