@@ -1,4 +1,4 @@
-/* eslint-disable radix,camelcase */
+/* eslint-disable radix,camelcase,no-param-reassign */
 const Article = require('../models/article');
 
 exports.articlesEndpoint = (req, res) => {
