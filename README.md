@@ -18,6 +18,13 @@ I'd like thank/mention the following people/groups/services:
 * https://www.space.com/
 
 ## Changelog
+### v0.4.0 beta (17-09-2018)
+* Now possible to search on the same key multiple times
+
+### v0.3.0 beta (12-09-2018)
+* 'id' tag removed from the response
+* Added 'news_site_long' to the model
+
 ### v0.2.0 beta (03-09-2018)
 * Better logging
 * Automated testing
