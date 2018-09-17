@@ -1,24 +1,22 @@
-'use strict';
-
 process.env.NODE_ENV = 'test';
 
-let chai = require('chai');
-let chaiHttp = require('chai-http');
-let should = chai.should();
-let server = require('../server');
+const chai = require('chai');
+const chaiHttp = require('chai-http');
+
+const should = chai.should();
+const server = require('../server');
 
 chai.use(chaiHttp);
 
 describe('Articles', () => {
-
   describe('GET /articles', () => {
-    it('Lists all articles. Should be above 150.', (done) => {
+    it('Lists all articles. Should be above 123.', (done) => {
       chai.request(server)
         .get('/articles')
         .end((err, res) => {
           res.should.have.status(200);
           res.body.should.be.a('array');
-          res.body.length.should.above(150);
+          res.body.length.should.above(123);
           done();
         });
     });
@@ -32,32 +30,9 @@ describe('Articles', () => {
           res.should.have.status(200);
           res.body.should.be.a('array');
           res.body.length.should.equal(5);
-          done();
-        });
-    });
-  });
-
-  describe('GET /articles?tags=iSs', () => {
-    it('Lists all articles that have tag ISS (with Regex)', (done) => {
-      chai.request(server)
-        .get('/articles?tags=iSs')
-        .end((err, res) => {
-          res.should.have.status(200);
-          res.body.should.be.a('array');
-          res.body.length.should.above(5);
-          done();
-        });
-    });
-  });
-
-  describe('GET /articles?categories=Sls', () => {
-    it('Lists all articles that have category SLS (with Regex)', (done) => {
-      chai.request(server)
-        .get('/articles?categories=Sls')
-        .end((err, res) => {
-          res.should.have.status(200);
-          res.body.should.be.a('array');
-          res.body.length.should.above(3);
+          res.body.forEach((article) => {
+            chai.expect(article.news_site).to.eql('nasaspaceflight');
+          });
           done();
         });
     });
@@ -70,7 +45,9 @@ describe('Articles', () => {
         .end((err, res) => {
           res.should.have.status(200);
           res.body.should.be.a('array');
-          res.body.length.should.above(-1);
+          res.body.forEach((article) => {
+            chai.expect(article.date_published).to.be.at.least(1535666400);
+          });
           done();
         });
     });
@@ -83,7 +60,27 @@ describe('Articles', () => {
         .end((err, res) => {
           res.should.have.status(200);
           res.body.should.be.a('array');
-          res.body.length.should.above(-1);
+          res.body.forEach((article) => {
+            chai.expect(article.date_added).to.eql(1535402404);
+          });
+          done();
+        });
+    });
+  });
+
+  describe('GET /articles?tags=iss&categories=iss&date_published=1535669477&news_site=nasaspaceflight', () => {
+    it('Get an article on tag, category, date_published and news_site', (done) => {
+      chai.request(server)
+        .get('/articles?tags=iss&categories=iss&date_published=1535669477&news_site=nasaspaceflight')
+        .end((err, res) => {
+          res.should.have.status(200);
+          res.body.length.should.equal(1);
+          res.body.forEach((article) => {
+            chai.expect(article.tags).to.include('iss');
+            chai.expect(article.categories).to.include('iss');
+            chai.expect(article.date_published).to.eql(1535669477);
+            chai.expect(article.news_site).to.eql('nasaspaceflight');
+          });
           done();
         });
     });
@@ -91,7 +88,6 @@ describe('Articles', () => {
 });
 
 describe('Article', () => {
-
   describe('GET /article?_id=5b883685d736f46e52aad1c6', () => {
     it('Get a single article', (done) => {
       chai.request(server)
