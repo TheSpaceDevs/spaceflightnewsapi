@@ -1,5 +1,3 @@
-
-
 process.env.NODE_ENV = 'test';
 
 const chai = require('chai');
@@ -12,7 +10,7 @@ chai.use(chaiHttp);
 
 describe('Articles', () => {
   describe('GET /articles', () => {
-    it('Lists all articles. Should be above 150.', (done) => {
+    it('Lists all articles. Should be above 123.', (done) => {
       chai.request(server)
         .get('/articles')
         .end((err, res) => {
@@ -32,6 +30,9 @@ describe('Articles', () => {
           res.should.have.status(200);
           res.body.should.be.a('array');
           res.body.length.should.equal(5);
+          res.body.forEach((article) => {
+            chai.expect(article.news_site).to.eql('nasaspaceflight');
+          });
           done();
         });
     });
@@ -44,7 +45,9 @@ describe('Articles', () => {
         .end((err, res) => {
           res.should.have.status(200);
           res.body.should.be.a('array');
-          res.body.length.should.above(-1);
+          res.body.forEach((article) => {
+            chai.expect(article.date_published).to.be.at.least(1535666400);
+          });
           done();
         });
     });
@@ -57,7 +60,27 @@ describe('Articles', () => {
         .end((err, res) => {
           res.should.have.status(200);
           res.body.should.be.a('array');
-          res.body.length.should.above(-1);
+          res.body.forEach((article) => {
+            chai.expect(article.date_added).to.eql(1535402404);
+          });
+          done();
+        });
+    });
+  });
+
+  describe('GET /articles?tags=iss&categories=iss&date_published=1535669477&news_site=nasaspaceflight', () => {
+    it('Get an article on tag, category, date_published and news_site', (done) => {
+      chai.request(server)
+        .get('/articles?tags=iss&categories=iss&date_published=1535669477&news_site=nasaspaceflight')
+        .end((err, res) => {
+          res.should.have.status(200);
+          res.body.length.should.equal(1);
+          res.body.forEach((article) => {
+            chai.expect(article.tags).to.include('iss');
+            chai.expect(article.categories).to.include('iss');
+            chai.expect(article.date_published).to.eql(1535669477);
+            chai.expect(article.news_site).to.eql('nasaspaceflight');
+          });
           done();
         });
     });
