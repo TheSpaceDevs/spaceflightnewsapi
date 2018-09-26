@@ -1,5 +1,5 @@
 const Article = require('../models/article');
-var pjson = require('../package.json');
+const pjson = require('../package.json');
 
 exports.articlesCount = (req, res) => {
   Article.countDocuments({}, (err, count) => {
