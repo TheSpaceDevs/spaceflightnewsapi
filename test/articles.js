@@ -115,4 +115,18 @@ describe('Info', () => {
         });
     });
   });
+
+  describe('GET /info/version', () => {
+    it('Get the API version', (done) => {
+      chai.request(server)
+        .get('/info/version')
+        .end((err, res) => {
+          res.should.have.status(200);
+          res.body.should.be.a('object');
+          // TODO: Should be above current production version
+          res.body.api_version.should.equal('0.5.0');
+          done();
+        });
+    });
+  });
 });
