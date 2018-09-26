@@ -101,3 +101,18 @@ describe('Article', () => {
     });
   });
 });
+
+describe('Info', () => {
+  describe('GET /info/articlescount', () => {
+    it('Get a count of all articles', (done) => {
+      chai.request(server)
+        .get('/info/articlescount')
+        .end((err, res) => {
+          res.should.have.status(200);
+          res.body.should.be.a('object');
+          res.body.total_number_of_articles.should.be.above(130);
+          done();
+        });
+    });
+  });
+});
