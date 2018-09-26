@@ -9,7 +9,7 @@ exports.errorHandler = (err, req, res, next) => {
 
 // Handle case where user requests nonexistent endpoint
 exports.nullRoute = (req, res, next) => {
-  res.status(404).json({ message: 'not found' });
+  res.status(404).json({ Error: 'Nothing found! Please refine your search. No worries, it happens to all of us sometimes.' });
 };
 
 // Create an error for the api error handler
