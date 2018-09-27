@@ -14,8 +14,7 @@ router.get('/articles/', articles.articlesEndpoint);
 
 const info = require('./controllers/info');
 
-router.get('/info/articlescount', info.articlesCount);
-router.get('/info/version', info.version);
+router.get('/info', info.infoEndpoint);
 
 // Article
 router.get('/article/', articles.articleEndpoint);
