@@ -1,13 +1,12 @@
 const Article = require('../models/article');
 const pjson = require('../package.json');
 
-exports.articlesCount = (req, res) => {
+exports.infoEndpoint = (req, res) => {
   Article.countDocuments({}, (err, count) => {
     if (err) { res.send(err); }
-    res.json({ total_number_of_articles: count });
+    res.json({
+      total_number_of_articles: count,
+      api_version: pjson.version,
+    });
   });
-};
-
-exports.version = (req, res) => {
-  res.json({ api_version: pjson.version });
 };

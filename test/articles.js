@@ -103,27 +103,14 @@ describe('Article', () => {
 });
 
 describe('Info', () => {
-  describe('GET /info/articlescount', () => {
+  describe('GET API info', () => {
     it('Get a count of all articles', (done) => {
       chai.request(server)
-        .get('/info/articlescount')
+        .get('/info')
         .end((err, res) => {
           res.should.have.status(200);
           res.body.should.be.a('object');
           res.body.total_number_of_articles.should.be.above(130);
-          done();
-        });
-    });
-  });
-
-  describe('GET /info/version', () => {
-    it('Get the API version', (done) => {
-      chai.request(server)
-        .get('/info/version')
-        .end((err, res) => {
-          res.should.have.status(200);
-          res.body.should.be.a('object');
-          // TODO: Should be above current production version
           res.body.api_version.should.equal('0.5.0');
           done();
         });
