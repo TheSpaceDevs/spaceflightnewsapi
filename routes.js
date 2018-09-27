@@ -10,6 +10,12 @@ const articles = require('./controllers/articles');
 
 router.get('/articles/', articles.articlesEndpoint);
 
+// info
+
+const info = require('./controllers/info');
+
+router.get('/info', info.infoEndpoint);
+
 // Article
 router.get('/article/', articles.articleEndpoint);
 
