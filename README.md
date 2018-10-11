@@ -1,4 +1,7 @@
 # Spacelaunch News API
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/97dfbaef167f44a69bc85cf7f076f59a)](https://app.codacy.com/app/derkweijers/spaceflightnewsapi?utm_source=github.com&utm_medium=referral&utm_content=spaceflightnewsapi/spaceflightnewsapi&utm_campaign=Badge_Grade_Dashboard)
+
 Spacelaunch News API was created as a solution for my problem when I wanted to develop an app for Spaceflight News: many (great!) news sites with different API's.
 
 To make it easier for myself, I began a project that would aggegrate metadata from those news sites and publish them through an API. Since there are others that might benefit from this API, I decided make the API publicly available.
