@@ -15,6 +15,11 @@ const blogs = require('./controllers/blogs');
 
 router.get('/blogs/', blogs.blogsEndpoint);
 
+// ISS
+const iss = require('./controllers/iss');
+
+router.get('/iss/', iss.issEndpoint);
+
 // info
 
 const info = require('./controllers/info');
