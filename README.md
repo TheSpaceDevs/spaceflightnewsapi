@@ -18,6 +18,19 @@ I'd like thank/mention the following people/groups/services:
 * https://www.space.com/
 
 ## Changelog
+### v0.6.0 beta (TBD)
+* Blogs endpoint added
+* ISS endpoint added
+* Ability to retrieve ISS expedition data
+* Automated tests will now check if version was bumped
+
+### v0.5.0 beta (27-09-2018)
+* Added pagination
+* Added /info endpoint
+* Added version info to /info endpoint
+* Added total article count to /info endpoint
+* Heroku upgraded from stack 16 to 18
+
 ### v0.4.0 beta (17-09-2018)
 * Now possible to search on the same key multiple times
 
