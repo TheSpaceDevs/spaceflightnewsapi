@@ -16,9 +16,9 @@ const blogs = require('./controllers/blogs');
 router.get('/blogs/', blogs.blogsEndpoint);
 
 // ISS
-const issModel = require('./controllers/iss');
+const mannedFlights = require('./controllers/mannedFlights');
 
-router.get('/iss/', issModel.issEndpoint);
+router.get('/mannedFlights/', mannedFlights.mannedFlightsEndpoint);
 
 // info
 

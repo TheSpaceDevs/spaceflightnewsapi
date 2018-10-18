@@ -1,7 +1,7 @@
 /* eslint-disable radix,camelcase,no-param-reassign */
-const expeditions = require('../models/expedition');
+const expeditions = require('../models/mannedFlights');
 
-exports.issEndpoint = (req, res) => {
+exports.mannedFlightsEndpoint = (req, res) => {
   const reqLimit = parseInt(req.query.limit);
   const reqPage = parseInt(req.query.page);
   delete req.query.limit;
