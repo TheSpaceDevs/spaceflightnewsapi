@@ -1,5 +1,5 @@
 /* eslint-disable radix,camelcase,no-param-reassign */
-const expeditions = require('../models/mannedFlights');
+const mannedFlights = require('../models/mannedFlights');
 
 exports.mannedFlightsEndpoint = (req, res) => {
   const reqLimit = parseInt(req.query.limit);
@@ -18,7 +18,7 @@ exports.mannedFlightsEndpoint = (req, res) => {
   if (reqPage < 0 || reqPage === 0) {
     res.json({ Error: 'Requested page can not be 0' });
   } else {
-    expeditions.find(query)
+    mannedFlights.find(query)
       .limit(reqLimit)
       .skip(reqLimit * (reqPage - 1))
       .select('-status')
@@ -30,4 +30,38 @@ exports.mannedFlightsEndpoint = (req, res) => {
         }
       });
   }
+};
+
+exports.issStatus = (req, res) => {
+  // First we define the object to be send
+  const iss = {
+    name_long: 'International Space Station',
+    name_short: 'ISS',
+    astronauts: [],
+    current_expedition_name: '',
+    current_expedition_number: null,
+  };
+
+  // Lets find all the ISS Expeditions, push them to the ISS object and send it
+  mannedFlights.find({
+    destination: 'ISS',
+    flight_status: 'docked',
+  })
+    .then((issMannedFlihts) => {
+      issMannedFlihts.forEach((foundFlight) => {
+        foundFlight.astronauts.forEach((astronaut) => {
+          iss.astronauts.push(astronaut);
+        });
+      });
+    })
+    .then(mannedFlights.findOne({
+        destination: 'ISS',
+        status: 'current',
+      })
+        .then((currentExpedition) => {
+          iss.current_expedition_name = currentExpedition.name;
+          iss.current_expedition_number = currentExpedition.expedition_number;
+        })
+        .then(() => { res.json(iss); })
+    )
 };
