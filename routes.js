@@ -15,10 +15,14 @@ const blogs = require('./controllers/blogs');
 
 router.get('/blogs/', blogs.blogsEndpoint);
 
-// ISS
-const iss = require('./controllers/iss');
+// Mannend flights endpoint
+const mannedFlights = require('./controllers/mannedFlights');
 
-router.get('/iss/', iss.issEndpoint);
+router.get('/mannedFlights/', mannedFlights.mannedFlightsEndpoint);
+
+// ISS
+
+router.get('/iss/', mannedFlights.issStatus);
 
 // info
 
