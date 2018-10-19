@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 
 // Connecting to the database
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true }).catch(err => console.log(err));
-mongoose.connection.on('connected', () => {console.log('Connected!')});
+mongoose.connection.on('connected', () => { console.log('Connected to the database!'); });
 
 // Load up the routes
 app.use('/', routes);
