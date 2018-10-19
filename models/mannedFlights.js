@@ -15,6 +15,6 @@ const expeditionSchema = new Schema({
   expedition_crew_pic: String,
 });
 
-const expeditionModel = mongoose.model('expeditions', expeditionSchema);
+const expeditionModel = mongoose.model('mannedflights', expeditionSchema);
 
 module.exports = expeditionModel;
