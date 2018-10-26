@@ -35,6 +35,7 @@ router.get('/info', info.infoEndpoint);
 const astronauts = require('./controllers/astronauts');
 
 router.get('/astronauts', astronauts.astronautsEndpoint);
+router.get('/astronaut/:id', astronauts.astronautEndpoint);
 
 // Error Handling
 const errors = require('./controllers/errors');
