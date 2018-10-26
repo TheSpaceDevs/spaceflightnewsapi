@@ -1,5 +1,5 @@
 /* eslint-disable radix,camelcase,no-param-reassign */
-const mannedFlights = require('../models/mannedFlights');
+const mannedFlights = require('../models/mannedFlight');
 
 exports.mannedFlightsEndpoint = (req, res) => {
   const reqLimit = parseInt(req.query.limit);
@@ -38,13 +38,11 @@ exports.issStatus = (req, res) => {
     name_long: 'International Space Station',
     name_short: 'ISS',
     astronauts: [],
-    current_expedition_name: '',
-    current_expedition_number: null,
   };
 
   // Lets find all the ISS Expeditions, push them to the ISS object and send it
   mannedFlights.find({
-    destination: 'ISS',
+    destination: 'iss',
     flight_status: 'docked',
   })
     .then((issMannedFlihts) => {
@@ -54,14 +52,5 @@ exports.issStatus = (req, res) => {
         });
       });
     })
-    .then(mannedFlights.findOne({
-        destination: 'ISS',
-        status: 'current',
-      })
-        .then((currentExpedition) => {
-          iss.current_expedition_name = currentExpedition.name;
-          iss.current_expedition_number = currentExpedition.expedition_number;
-        })
-        .then(() => { res.json(iss); })
-    )
+    .then(() => { res.json(iss); });
 };
