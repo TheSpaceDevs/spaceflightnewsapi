@@ -16,6 +16,7 @@ describe('Astronauts', () => {
         .end((err, res) => {
           res.should.have.status(200);
           res.body.should.be.a('array');
+          res.body.length.should.equal(4);
           done();
         });
     });
