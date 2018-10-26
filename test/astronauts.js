@@ -8,11 +8,11 @@ const server = require('../server');
 
 chai.use(chaiHttp);
 
-describe('mannedflights', () => {
-  describe('GET /mannedflights', () => {
-    it('Lists all manned flights.', (done) => {
+describe('Astronauts', () => {
+  describe('GET /astronauts', () => {
+    it('Lists all astronauts.', (done) => {
       chai.request(server)
-        .get('/mannedflights')
+        .get('/astronauts')
         .end((err, res) => {
           res.should.have.status(200);
           res.body.should.be.a('array');
