@@ -10,6 +10,9 @@ const articles = require('./controllers/articles');
 
 router.get('/articles/', articles.articlesEndpoint);
 
+// Article
+router.get('/article/', articles.articleEndpoint);
+
 // Blogs
 const blogs = require('./controllers/blogs');
 
@@ -21,17 +24,17 @@ const mannedFlights = require('./controllers/mannedFlights');
 router.get('/mannedFlights/', mannedFlights.mannedFlightsEndpoint);
 
 // ISS
-
 router.get('/iss/', mannedFlights.issStatus);
 
-// info
-
+// Info
 const info = require('./controllers/info');
 
 router.get('/info', info.infoEndpoint);
 
-// Article
-router.get('/article/', articles.articleEndpoint);
+// Astronauts
+const astronauts = require('./controllers/astronauts');
+
+router.get('/astronauts', astronauts.astronautsEndpoint);
 
 // Error Handling
 const errors = require('./controllers/errors');

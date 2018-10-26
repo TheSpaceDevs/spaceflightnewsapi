@@ -1,5 +1,5 @@
 /* eslint-disable radix,camelcase,no-param-reassign */
-const mannedFlights = require('../models/mannedFlights');
+const mannedFlights = require('../models/mannedFlight');
 
 exports.mannedFlightsEndpoint = (req, res) => {
   const reqLimit = parseInt(req.query.limit);
