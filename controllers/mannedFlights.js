@@ -38,6 +38,7 @@ exports.issStatus = (req, res) => {
     name_long: 'International Space Station',
     name_short: 'ISS',
     astronauts: [],
+    docked_vehicles: [],
   };
 
   // Lets find all the ISS Expeditions, push them to the ISS object and send it
@@ -45,11 +46,12 @@ exports.issStatus = (req, res) => {
     destination: 'iss',
     flight_status: 'docked',
   })
-    .then((issMannedFlihts) => {
-      issMannedFlihts.forEach((foundFlight) => {
+    .then((issMannedFlights) => {
+      issMannedFlights.forEach((foundFlight) => {
         foundFlight.astronauts.forEach((astronaut) => {
           iss.astronauts.push(astronaut);
         });
+        iss.docked_vehicles.push(foundFlight.spacecraft);
       });
     })
     .then(() => { res.json(iss); });
