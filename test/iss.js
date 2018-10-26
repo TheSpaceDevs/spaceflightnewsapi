@@ -10,7 +10,7 @@ chai.use(chaiHttp);
 
 describe('ISS', () => {
   describe('GET /iss', () => {
-    it('Lists all ISS expeditions. Should be at least 1.', (done) => {
+    it('Lists all ISS expeditions.', (done) => {
       chai.request(server)
         .get('/iss')
         .end((err, res) => {
