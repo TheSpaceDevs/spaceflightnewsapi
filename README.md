@@ -18,7 +18,13 @@ I'd like thank/mention the following people/groups/services:
 * https://www.space.com/
 
 ## Changelog
-### v0.6.0 beta (TBD)
+### v0.7.0 beta (11-11-2018)
+* /astronauts endpoint can now receive queries;
+* Link to astronaut portrait added;
+* Daily ISS reports are now being imported;
+* /iss endpoint will have the latest daily ISS report.
+
+### v0.6.0 beta (30-10-2018)
 * Blogs endpoint added
 * ISS endpoint added
 * Ability to retrieve ISS expedition data
