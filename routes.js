@@ -9,15 +9,31 @@ router.use(middleware.doSomethingInteresting);
 const articles = require('./controllers/articles');
 
 router.get('/articles/', articles.articlesEndpoint);
+router.get('/article/', articles.articleEndpoint);
 
-// info
+// Blogs
+const blogs = require('./controllers/blogs');
 
+router.get('/blogs/', blogs.blogsEndpoint);
+
+// Mannend flights endpoint
+const mannedFlights = require('./controllers/mannedFlights');
+
+router.get('/mannedFlights/', mannedFlights.mannedFlightsEndpoint);
+
+// ISS
+router.get('/iss/', mannedFlights.issStatus);
+
+// Info
 const info = require('./controllers/info');
 
-router.get('/info', info.infoEndpoint);
+router.get('/info/', info.infoEndpoint);
 
-// Article
-router.get('/article/', articles.articleEndpoint);
+// Astronauts
+const astronauts = require('./controllers/astronauts');
+
+router.get('/astronauts/', astronauts.astronautsEndpoint);
+router.get('/astronaut/', astronauts.astronautEndpoint);
 
 // Error Handling
 const errors = require('./controllers/errors');

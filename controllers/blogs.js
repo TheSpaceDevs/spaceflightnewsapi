@@ -1,7 +1,7 @@
 /* eslint-disable radix,camelcase,no-param-reassign */
-const Article = require('../models/article');
+const Blogs = require('../models/blog');
 
-exports.articlesEndpoint = (req, res) => {
+exports.blogsEndpoint = (req, res) => {
   const reqLimit = parseInt(req.query.limit);
   const reqPage = parseInt(req.query.page);
   delete req.query.limit;
@@ -18,28 +18,17 @@ exports.articlesEndpoint = (req, res) => {
   if (reqPage < 0 || reqPage === 0) {
     res.json({ Error: 'Requested page can not be 0' });
   } else {
-    Article.find(query)
+    Blogs.find(query)
       .limit(reqLimit)
       .skip(reqLimit * (reqPage - 1))
       .sort({ date_published: -1 })
       .select('-id')
-      .then((articles) => {
-        if (articles === undefined || articles.length === 0) {
+      .then((blogs) => {
+        if (blogs === undefined || blogs.length === 0) {
           res.status(404).json({ Error: 'Nothing found! Please refine your search. No worries, it happens to all of us sometimes.' });
         } else {
-          res.send(articles);
+          res.send(blogs);
         }
       });
   }
-};
-
-exports.articleEndpoint = (req, res) => {
-  Article.find(req.query, (err, article) => {
-    if (err) { res.send(err); }
-    if (article === undefined || article.length === 0) {
-      res.status(404).json({ Error: 'Article not found! Please refine your search. No worries, it happens to all of us sometimes.' });
-    } else {
-      res.send(article);
-    }
-  });
 };
