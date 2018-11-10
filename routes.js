@@ -15,6 +15,7 @@ router.get('/article/', articles.articleEndpoint);
 const blogs = require('./controllers/blogs');
 
 router.get('/blogs/', blogs.blogsEndpoint);
+router.get('/blog/', blogs.blogEndpoint);
 
 // Mannend flights endpoint
 const mannedFlights = require('./controllers/mannedFlights');
