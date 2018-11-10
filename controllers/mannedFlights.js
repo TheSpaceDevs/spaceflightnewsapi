@@ -1,5 +1,7 @@
 /* eslint-disable radix,camelcase,no-param-reassign */
 const mannedFlights = require('../models/mannedFlight');
+const reports = require('../models/report');
+
 
 exports.mannedFlightsEndpoint = (req, res) => {
   const reqLimit = parseInt(req.query.limit);
@@ -39,9 +41,10 @@ exports.issStatus = (req, res) => {
     name_short: 'ISS',
     astronauts: [],
     docked_spacecrafts: [],
+    daily_report: '',
   };
 
-  // Lets find all the ISS Expeditions, push them to the ISS object and send it
+  // Lets find all the ISS Expeditions and daily reports, push them to the ISS object and send it
   mannedFlights.find({
     destination: 'iss',
     flight_status: 'docked',
@@ -54,5 +57,15 @@ exports.issStatus = (req, res) => {
         iss.docked_spacecrafts.push(foundFlight.spacecraft);
       });
     })
-    .then(() => { res.json(iss); });
+    .then(() => {
+      reports.find()
+        .limit(1)
+        .sort({ date_published: -1 })
+        .then((dailyReports) => {
+          dailyReports.forEach((dailyReport) => {
+            iss.daily_report = dailyReport._id;
+          });
+        })
+        .then(() => { res.json(iss); });
+    });
 };
