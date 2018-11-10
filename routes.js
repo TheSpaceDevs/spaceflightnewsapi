@@ -23,6 +23,7 @@ router.get('/mannedFlights/', mannedFlights.mannedFlightsEndpoint);
 
 // ISS
 router.get('/iss/', mannedFlights.issStatus);
+router.get('/iss/dailyreports', mannedFlights.issDailyReports);
 
 // Info
 const info = require('./controllers/info');
