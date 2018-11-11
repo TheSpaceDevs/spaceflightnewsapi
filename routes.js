@@ -15,6 +15,7 @@ router.get('/article/', articles.articleEndpoint);
 const blogs = require('./controllers/blogs');
 
 router.get('/blogs/', blogs.blogsEndpoint);
+router.get('/blog/', blogs.blogEndpoint);
 
 // Mannend flights endpoint
 const mannedFlights = require('./controllers/mannedFlights');
@@ -23,6 +24,8 @@ router.get('/mannedFlights/', mannedFlights.mannedFlightsEndpoint);
 
 // ISS
 router.get('/iss/', mannedFlights.issStatus);
+router.get('/iss/dailyreports', mannedFlights.issDailyReports);
+router.get('/iss/dailyreport', mannedFlights.issDailyReport);
 
 // Info
 const info = require('./controllers/info');
