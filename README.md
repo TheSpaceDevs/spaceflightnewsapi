@@ -18,6 +18,10 @@ I'd like thank/mention the following people/groups/services:
 * https://www.space.com/
 
 ## Changelog
+### v0.8.0 beta (28-11-2018)
+* entered queries are now case-insensitive;
+* added the /articles/search endpoint so you can search for articles
+
 ### v0.7.0 beta (11-11-2018)
 * /astronauts endpoint can now receive queries;
 * Link to astronaut portrait added;
