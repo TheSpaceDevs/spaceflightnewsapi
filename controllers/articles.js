@@ -34,6 +34,18 @@ exports.articlesEndpoint = (req, res) => {
   }
 };
 
+exports.articleSearchEndpoint = (req, res) => {
+  Article.find({ $text: { $search: req.query.term } }, { score: { $meta: 'textScore' } })
+    .sort({ score: { $meta: 'textScore' } })
+    .then((articles) => {
+      if (articles === undefined || articles.length === 0) {
+        res.status(404).json({ Error: 'Nothing found! Please refine your search. No worries, it happens to all of us sometimes.' });
+      } else {
+        res.send(articles);
+      }
+    });
+};
+
 exports.articleEndpoint = (req, res) => {
   Article.findOne(req.query, (err, article) => {
     if (err) { res.send(err); }
