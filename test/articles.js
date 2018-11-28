@@ -94,8 +94,7 @@ describe('Article', () => {
         .get('/article?_id=5b883685d736f46e52aad1c6')
         .end((err, res) => {
           res.should.have.status(200);
-          res.body.should.be.a('array');
-          res.body.length.should.equal(1);
+          res.body.should.be.a('object');
           done();
         });
     });
