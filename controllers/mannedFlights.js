@@ -1,4 +1,4 @@
-/* eslint-disable radix,camelcase,no-param-reassign */
+/* eslint-disable radix,camelcase,no-param-reassign,no-underscore-dangle */
 const mannedFlights = require('../models/mannedFlight');
 const reports = require('../models/report');
 
@@ -24,6 +24,7 @@ exports.mannedFlightsEndpoint = (req, res) => {
       .limit(reqLimit)
       .skip(reqLimit * (reqPage - 1))
       .select('-status')
+      .collation({ locale: 'en', strength: 2 })
       .then((expedition) => {
         if (expedition === undefined || expedition.length === 0) {
           res.status(404).json({ Error: 'Nothing found! Please refine your search. No worries, it happens to all of us sometimes.' });
@@ -91,6 +92,7 @@ exports.issDailyReports = (req, res) => {
       .limit(reqLimit)
       .skip(reqLimit * (reqPage - 1))
       .select('-status')
+      .sort({ date_published: -1 })
       .then((foundReports) => {
         if (foundReports === undefined || foundReports.length === 0) {
           res.status(404).json({ Error: 'Nothing found! Please refine your search. No worries, it happens to all of us sometimes.' });
