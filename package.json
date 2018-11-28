@@ -1,7 +1,7 @@
 {
   "name": "spaceflight-news-api",
   "main": "server.js",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "author": "Derk Weijers <derk@derkweijers.nl> (https://github.com/derkweijers)",
   "license": "GPL-3.0-or-later",
   "repository": "https://github.com/spaceflightnewsapi/spaceflightnewsapi",

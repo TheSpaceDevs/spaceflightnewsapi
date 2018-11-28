@@ -9,6 +9,7 @@ router.use(middleware.doSomethingInteresting);
 const articles = require('./controllers/articles');
 
 router.get('/articles/', articles.articlesEndpoint);
+router.get('/articles/search/', articles.articleSearchEndpoint);
 router.get('/article/', articles.articleEndpoint);
 
 // Blogs

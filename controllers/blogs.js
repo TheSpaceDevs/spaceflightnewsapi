@@ -23,6 +23,7 @@ exports.blogsEndpoint = (req, res) => {
       .skip(reqLimit * (reqPage - 1))
       .sort({ date_published: -1 })
       .select('-id')
+      .collation({ locale: 'en', strength: 2 })
       .then((blogs) => {
         if (blogs === undefined || blogs.length === 0) {
           res.status(404).json({ Error: 'Nothing found! Please refine your search. No worries, it happens to all of us sometimes.' });
