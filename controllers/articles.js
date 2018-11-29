@@ -49,7 +49,7 @@ exports.articleSearchEndpoint = (req, res) => {
 exports.articleEndpoint = (req, res) => {
   Article.findOne(req.query, (err, article) => {
     if (err) { res.send(err); }
-    if (article === undefined || article.length === 0) {
+    if (article === undefined || !article) {
       res.status(404).json({ Error: 'Article not found! Please refine your search. No worries, it happens to all of us sometimes.' });
     } else {
       res.send(article);
