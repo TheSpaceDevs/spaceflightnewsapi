@@ -106,7 +106,7 @@ exports.issDailyReports = (req, res) => {
 exports.issDailyReport = (req, res) => {
   reports.findOne(req.query, (err, foundReport) => {
     if (err) { res.send(err); }
-    if (foundReport === undefined || foundReport.length === 0) {
+    if (foundReport === undefined || !foundReport) {
       res.status(404).json({ Error: 'Article not found! Please refine your search. No worries, it happens to all of us sometimes.' });
     } else {
       res.send(foundReport);

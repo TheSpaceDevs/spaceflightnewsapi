@@ -37,7 +37,7 @@ exports.astronautsEndpoint = (req, res) => {
 exports.astronautEndpoint = (req, res) => {
   Astronauts.findOne(req.query)
     .then((astronaut) => {
-      if (astronaut === undefined || astronaut.length === 0) {
+      if (astronaut === undefined || !astronaut) {
         res.status(404).json({ Error: 'Nothing found! Please refine your search. No worries, it happens to all of us sometimes.' });
       } else {
         res.send(astronaut);
