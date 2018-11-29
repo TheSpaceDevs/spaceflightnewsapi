@@ -37,7 +37,7 @@ exports.blogsEndpoint = (req, res) => {
 exports.blogEndpoint = (req, res) => {
   Blogs.findOne(req.query, (err, blog) => {
     if (err) { res.send(err); }
-    if (blog === undefined || blog.length === 0) {
+    if (blog === undefined || !blog) {
       res.status(404).json({ Error: 'Article not found! Please refine your search. No worries, it happens to all of us sometimes.' });
     } else {
       res.send(blog);
