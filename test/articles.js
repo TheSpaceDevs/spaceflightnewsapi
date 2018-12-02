@@ -85,6 +85,36 @@ describe('Articles', () => {
         });
     });
   });
+
+  describe('GET /articles?since_added=1543500022', () => {
+    it('Get articles since a specific date', (done) => {
+      chai.request(server)
+        .get('/articles?since_added=1543500022')
+        .end((err, res) => {
+          res.should.have.status(200);
+          res.body.should.be.a('array');
+          res.body.forEach((article) => {
+            chai.expect(article.date_added).to.be.at.least(1543500022);
+          });
+          done();
+        });
+    });
+  });
+
+  describe('GET /articles?since_published=1543446000', () => {
+    it('Get articles since a specific date', (done) => {
+      chai.request(server)
+        .get('/articles?since_published=1543446000')
+        .end((err, res) => {
+          res.should.have.status(200);
+          res.body.should.be.a('array');
+          res.body.forEach((article) => {
+            chai.expect(article.date_published).to.be.at.least(1543446000);
+          });
+          done();
+        });
+    });
+  });
 });
 
 describe('Article', () => {
