@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/spaceflightnewsapi/spaceflightnewsapi.svg?branch=master)](https://travis-ci.org/spaceflightnewsapi/spaceflightnewsapi)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5ad094cb6a3847b48985345309d579b0)](https://www.codacy.com/app/derkweijers/spaceflightnewsapi?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=spaceflightnewsapi/spaceflightnewsapi&amp;utm_campaign=Badge_Grade)
+![Discord](https://img.shields.io/discord/482110141131522058.svg)
+![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m781471335-50a622775755ea51d2e440e5.svg)
+
 # Spacelaunch News API
 Spacelaunch News API was created as a solution for my problem when I wanted to develop an app for Spaceflight News: many (great!) news sites with different API's.
 
@@ -9,18 +14,38 @@ There are great apps out on the internet, that are connected to services like ht
 I'd like thank/mention the following people/groups/services:
 
 * `Jared Petersen - (https://github.com/jaredpetersen/nodejs-api-template)`: Used template for this API;
+* `Caleb Jones - (https://github.com/ItsCalebJones)`: Initial testing and onboard in the SpaceLaunchNow apps;
+
+## Docs
+You can find the docs over at Read the Docs: https://spaceflight-news-api.readthedocs.io/en/latest/
 
 ## Currently imported news sites
 
 * https://www.nasaspaceflight.com/
 * https://www.spaceflightnow.com/
 * https://www.spacex.com/
-* https://www.space.com/
+* https://www.spacenews.com/
+* https://www.nasa.gov/
+
+## Currently imported blog sites
+
+* http://www.planetary.org/
+* https://www.jpl.nasa.gov/blog/
+
+## ISS Info
+Daily reports are being imported from https://blogs.nasa.gov/stationreport/.
+The ISS endpoint also provides info on which astronauts are aboard the ISS and which vehicles are docked.
 
 ## Changelog
+### v0.8.2 beta (02-12-2018)
+* Since_added and since_published work again.
+
+### v0.8.1 beta (29-11-2018)
+* Getting a single article with specifc articles won't result in an error anymore.
+
 ### v0.8.0 beta (28-11-2018)
 * entered queries are now case-insensitive;
-* added the /articles/search endpoint so you can search for articles
+* added the /articles/search endpoint so you can search for articles.
 
 ### v0.7.0 beta (11-11-2018)
 * /astronauts endpoint can now receive queries;
