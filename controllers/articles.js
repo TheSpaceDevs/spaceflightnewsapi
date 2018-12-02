@@ -4,8 +4,12 @@ const Article = require('../models/article');
 exports.articlesEndpoint = (req, res) => {
   const reqLimit = parseInt(req.query.limit);
   const reqPage = parseInt(req.query.page);
+  const sinceAdded = parseInt(req.query.since_added);
+  const sincePublished = parseInt(req.query.since_published);
   delete req.query.limit;
   delete req.query.page;
+  delete req.query.since_added;
+  delete req.query.since_published;
   const query = Object.keys(req.query).reduce((mappedQuery, key) => {
     const param = req.query[key];
     if (param) {
@@ -13,6 +17,14 @@ exports.articlesEndpoint = (req, res) => {
     }
     return mappedQuery;
   }, {});
+
+  if (sinceAdded) {
+    query.date_added = { $gte: sinceAdded };
+  }
+
+  if (sincePublished) {
+    query.date_published = { $gte: sincePublished };
+  }
 
   // Making sure we don't continue if we get page 0.
   if (reqPage < 0 || reqPage === 0) {
