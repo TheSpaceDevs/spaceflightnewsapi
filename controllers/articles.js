@@ -2,10 +2,10 @@
 const Article = require('../models/article');
 
 exports.articlesEndpoint = (req, res) => {
-  const reqLimit = parseInt(req.query.limit);
-  const reqPage = parseInt(req.query.page);
-  const sinceAdded = parseInt(req.query.since_added);
-  const sincePublished = parseInt(req.query.since_published);
+  const reqLimit = parseInt(req.query.limit, 10);
+  const reqPage = parseInt(req.query.page, 10);
+  const sinceAdded = parseInt(req.query.since_added, 10);
+  const sincePublished = parseInt(req.query.since_published, 10);
   delete req.query.limit;
   delete req.query.page;
   delete req.query.since_added;

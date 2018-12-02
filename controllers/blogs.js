@@ -2,8 +2,8 @@
 const Blogs = require('../models/blog');
 
 exports.blogsEndpoint = (req, res) => {
-  const reqLimit = parseInt(req.query.limit);
-  const reqPage = parseInt(req.query.page);
+  const reqLimit = parseInt(req.query.limit, 10);
+  const reqPage = parseInt(req.query.page, 10);
   delete req.query.limit;
   delete req.query.page;
   const query = Object.keys(req.query).reduce((mappedQuery, key) => {
