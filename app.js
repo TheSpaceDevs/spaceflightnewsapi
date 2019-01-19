@@ -10,14 +10,9 @@ const articlesRouter = require('./routes/articles.router');
 const blogsRouter = require('./routes/blogs.router');
 const infoRouter = require('./routes/info.router');
 
-try {
-  mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true})
-} catch (e) {
-  console.log(e)
-}
+const swaggerOptions = require('./config/swaggerOptions');
 
 const app = express();
-
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
@@ -29,5 +24,14 @@ app.use('/users', usersRouter);
 app.use('/articles', articlesRouter);
 app.use('/blogs', blogsRouter);
 app.use('/info', infoRouter);
+
+const expressSwagger = require('express-swagger-generator')(app);
+expressSwagger(swaggerOptions);
+
+try {
+  mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true})
+} catch (e) {
+  console.log(e)
+}
 
 module.exports = app;
