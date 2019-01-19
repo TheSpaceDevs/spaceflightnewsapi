@@ -8,6 +8,7 @@ const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const articlesRouter = require('./routes/articles.router');
 const blogsRouter = require('./routes/blogs.router');
+const infoRouter = require('./routes/info.router');
 
 try {
   mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true})
@@ -27,5 +28,6 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/articles', articlesRouter);
 app.use('/blogs', blogsRouter);
+app.use('/info', infoRouter);
 
 module.exports = app;
