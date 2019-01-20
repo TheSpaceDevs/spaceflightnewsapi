@@ -13,6 +13,7 @@
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "express-swagger-generator": "^1.1.11",
+    "helmet": "^3.15.0",
     "mongoose": "^5.4.5",
     "mongoose-paginate-v2": "^1.0.18",
     "morgan": "~1.9.0"

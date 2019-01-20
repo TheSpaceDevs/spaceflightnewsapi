@@ -3,12 +3,12 @@ const router = express.Router();
 const ArticleController = require('../controllers/articles.controller');
 
 /**
- * Returns an object that contains an array with articles.
+ * Returns an object that contains metadata an array with found articles.
  * @route GET /articles
  * @group Articles
  * @param {string} title.query - Title of the article.
- * @param {string} news_site.query - Short and stripped down name of the news site the published the article.
- * @param {string} news_site_long.query - Long name of the news site the published the article.
+ * @param {string} news_site.query - Short and stripped down name of the news site that published the article.
+ * @param {string} news_site_long.query - Long name of the news site that published the article.
  * @param {string} _id.query - The ID of an article.
  * @param {string} url.query - The URL of an article.
  * @param {string} sort.query - Sort on what field. Default: -date_published.
