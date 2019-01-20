@@ -1,0 +1,6 @@
+{
+  "SwaggerOptions": {
+    "url": "spaceflightnewsapi-test.herokuapp.com",
+    "schemes": ["https"]
+  }
+}

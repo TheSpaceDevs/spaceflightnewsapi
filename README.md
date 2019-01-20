@@ -10,14 +10,8 @@ To make it easier for myself, I began a project that would aggegrate metadata fr
 
 There are great apps out on the internet, that are connected to services like <https://www.launchlibrary.net/>. By making this API available to everyone, I hope to open new doors for the developers of these apps.
 
-## Acknowledgments
-I'd like thank/mention the following people/groups/services:
-
-* `Jared Petersen - (https://github.com/jaredpetersen/nodejs-api-template)`: Used template for this API;
-* `Caleb Jones - (https://github.com/ItsCalebJones)`: Initial testing and onboard in the SpaceLaunchNow apps;
-
 ## Docs
-You can find the docs over at Read the Docs: https://spaceflight-news-api.readthedocs.io/en/latest/
+Docs can be found at...
 
 ## Currently imported news sites
 
@@ -26,22 +20,29 @@ You can find the docs over at Read the Docs: https://spaceflight-news-api.readth
 * https://www.spacex.com/
 * https://www.spacenews.com/
 * https://www.nasa.gov/
+* https://www.phys.org/
 
 ## Currently imported blog sites
 
 * http://www.planetary.org/
 * https://www.jpl.nasa.gov/blog/
 
-## ISS Info
-Daily reports are being imported from https://blogs.nasa.gov/stationreport/.
-The ISS endpoint also provides info on which astronauts are aboard the ISS and which vehicles are docked.
-
 ## Changelog
+### v1.0.0 (tbd)
+* Searching for articles is now on the /articles resource itself;
+* Documentation generated from the code;
+* Authentication support;
+* Added support to post and delete documents;
+* Metadata on the /articles and /blogs resources;
+* removed since_added and since_published;
+* Removed the /astronauts, /mannedflights and /iss resources. The Space Launch Now API will provide these.
+* Removed the /article and /blog resource;
+
 ### v0.8.2 beta (02-12-2018)
 * Since_added and since_published work again.
 
 ### v0.8.1 beta (29-11-2018)
-* Getting a single article with specifc articles won't result in an error anymore.
+* Getting a single article with specific articles won't result in an error anymore.
 
 ### v0.8.0 beta (28-11-2018)
 * entered queries are now case-insensitive;
