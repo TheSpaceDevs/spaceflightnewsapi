@@ -1,17 +1,14 @@
-const path = require('path');
-
 module.exports = {
   swaggerDefinition: {
     info: {
-      description: 'This is a sample server',
-      title: 'Swagger',
+      description: 'The Spaceflight News API Documentation',
+      title: 'Spaceflight News API',
       version: '1.0.0',
     },
     host: 'localhost:3000',
     basePath: '/',
     produces: [
-      "application/json",
-      "application/xml"
+      "application/json"
     ],
     schemes: ['http','https'],
     securityDefinitions: {
