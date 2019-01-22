@@ -3,6 +3,8 @@ const config = require('config');
 const url = config.get('SwaggerOptions.url');
 const schemes = config.get('SwaggerOptions.schemes');
 
+console.log('NODE_CONFIG_DIR: ' + config.util.getEnv('NODE_CONFIG_DIR'));
+
 module.exports = {
   swaggerDefinition: {
     info: {
