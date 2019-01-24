@@ -1,0 +1,6 @@
+{
+  "SwaggerOptions": {
+    "url": "testapi.spaceflightnewsapi.net",
+    "schemes":["https"]
+  }
+}

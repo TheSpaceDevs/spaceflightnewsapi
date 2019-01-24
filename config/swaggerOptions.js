@@ -1,3 +1,7 @@
+const config = require('config');
+
+const swaggerOptions = config.get('SwaggerOptions');
+
 module.exports = {
   swaggerDefinition: {
     info: {
@@ -5,12 +9,12 @@ module.exports = {
       title: 'Spaceflight News API',
       version: '1.0.0',
     },
-    host: process.env.HOST,
+    host: swaggerOptions.url,
     basePath: '/',
     produces: [
       "application/json"
     ],
-    schemes: ['http', 'https'],
+    schemes: swaggerOptions.schemes,
     securityDefinitions: {
       JWT: {
         type: 'apiKey',
