@@ -10,7 +10,7 @@ module.exports = {
     produces: [
       "application/json"
     ],
-    schemes: process.env.SCHEME,
+    schemes: ['http', 'https'],
     securityDefinitions: {
       JWT: {
         type: 'apiKey',
