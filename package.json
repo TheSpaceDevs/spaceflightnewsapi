@@ -6,7 +6,7 @@
   "license": "GPL-3.0-or-later",
   "repository": "https://github.com/spaceflightnewsapi/spaceflightnewsapi",
   "scripts": {
-    "start": "npm  install && node ./bin/www"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -19,5 +19,10 @@
     "mongoose": "^5.4.5",
     "mongoose-paginate-v2": "^1.0.18",
     "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "supertest": "^3.4.2"
   }
 }
