@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh weijers@voyager01.spaceflightnewsapi.net <<EOF
+ cd ~/spaceflightnewsapi
+ git pull
+ npm install
+ pm2 restart all
+ exit
+EOF
