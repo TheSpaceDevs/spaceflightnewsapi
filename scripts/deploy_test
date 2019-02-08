@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh derk@voyager01.spaceflightnewsapi.net <<EOF
+ssh -tt derk@voyager01.spaceflightnewsapi.net <<EOF
  cd ~/spaceflightnewsapi-test
  git pull
  npm install
