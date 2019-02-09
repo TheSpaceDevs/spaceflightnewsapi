@@ -10,7 +10,7 @@ module.exports = {
       version: '1.0.0',
     },
     host: swaggerOptions.url,
-    basePath: '/',
+    basePath: '/api/v1/',
     produces: [
       "application/json"
     ],
