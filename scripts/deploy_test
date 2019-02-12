@@ -1,0 +1,8 @@
+ssh derk@voyager01.spaceflightnewsapi.net <<EOF
+ cd ~/spaceflightnewsapi-test
+ git pull
+ npm install
+ pm2 delete spaceflightnewsapi-test
+ NODE_ENV=test MONGODB_URI=$1 pm2 start -f bin/www --name spaceflightnewsapi-test --watch
+ exit
+EOF
