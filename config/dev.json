@@ -1,6 +1,2 @@
 {
-  "SwaggerOptions": {
-    "url": "localhost:3000",
-    "schemes":["http"]
-  }
 }

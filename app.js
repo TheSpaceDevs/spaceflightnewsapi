@@ -12,8 +12,6 @@ const articlesRouter = require('./routes/articles.router');
 const blogsRouter = require('./routes/blogs.router');
 const infoRouter = require('./routes/info.router');
 
-const swaggerOptions = require('./config/swaggerOptions');
-
 const app = express();
 app.use(helmet());
 app.use(logger('dev'));
@@ -29,9 +27,6 @@ app.use('/api/v1/users', usersRouter);
 app.use('/api/v1/articles', articlesRouter);
 app.use('/api/v1/blogs', blogsRouter);
 app.use('/api/v1/info', infoRouter);
-
-const expressSwagger = require('express-swagger-generator')(app);
-expressSwagger(swaggerOptions);
 
 try {
   mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true})
