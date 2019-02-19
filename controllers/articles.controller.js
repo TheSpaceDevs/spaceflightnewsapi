@@ -1,4 +1,5 @@
-const ArticleModel = require('../models/article.model');
+const jwt = require('jsonwebtoken');
+const Article = require('../models/article.model');
 
 module.exports.getArticles = async (req, res, next) => {
   const options = {
@@ -15,7 +16,7 @@ module.exports.getArticles = async (req, res, next) => {
 
   if (!req.query.search) {
     try {
-      let result = await ArticleModel.paginate(req.query, options);
+      let result = await Article.paginate(req.query, options);
       res.send(result);
     } catch (e) {
       res.send({'message': 'Uh-oh, something went wrong. Please try again!'});
@@ -23,11 +24,34 @@ module.exports.getArticles = async (req, res, next) => {
     }
   } else {
     try {
-      let result = await ArticleModel.paginate({$text: {$search: req.query.search}}, options);
+      let result = await Article.paginate({$text: {$search: req.query.search}}, options);
       res.send(result);
     } catch (e) {
       res.send({'message': 'Uh-oh, something went wrong. Please try again!'});
       console.log(e)
     }
   }
+};
+
+module.exports.postArticles = (req, res) => {
+  jwt.verify(req.token, process.env.SECRET, async (err, authData) => {
+    if (err || !authData.user.roles.includes('admin')) {
+      return res.sendStatus(403);
+    }
+
+    const newArticle = new Article(req.body);
+
+    try {
+      const result = await newArticle.save();
+      return res.status(201).json({
+        message: 'Article saved',
+        article: result
+      })
+    } catch (e) {
+      if (e.name === 'ValidationError') {
+        return res.status(400).json({error: 'title, url and _id must be unique'})
+      }
+      return res.status(500).json({message: 'error'})
+    }
+  });
 };
