@@ -1,4 +1,5 @@
 const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
 const User = require('../models/user.model');
 
 const isEmail = (email) => {
@@ -10,33 +11,39 @@ const isEmail = (email) => {
   return emailRegex.test(email);
 };
 
-module.exports.register = async (req, res) => {
-  try {
-    const {email, password} = req.body;
-    if (!isEmail(email)) {
-      throw new Error('Email must be a valid email address.');
-    }
-    if (typeof password !== 'string') {
-      throw new Error('Password must be a string.');
-    }
-    const user = new User({email, password});
-    await user.save();
+module.exports.register = (req, res) => {
+  jwt.verify(req.token, process.env.SECRET, async (err) => {
+    if (err) {
+      res.sendStatus(403);
+    } else {
+      try {
+        const {email, password} = req.body;
+        if (!isEmail(email)) {
+          throw new Error('Email must be a valid email address.');
+        }
+        if (typeof password !== 'string') {
+          throw new Error('Password must be a string.');
+        }
+        const user = new User({email, password});
+        await user.save();
 
-    res.status(201).json({
-      title: 'User Registration Successful',
-      detail: 'Successfully registered new user',
-    });
-  } catch (err) {
-    res.status(400).json({
-      errors: [
-        {
-          title: 'Registration Error',
-          detail: 'Something went wrong during registration process.',
-          errorMessage: err.message,
-        },
-      ],
-    });
-  }
+        res.status(201).json({
+          title: 'User Registration Successful',
+          detail: 'Successfully registered new user',
+        });
+      } catch (err) {
+        res.status(400).json({
+          errors: [
+            {
+              title: 'Registration Error',
+              detail: 'Something went wrong during registration process.',
+              errorMessage: err.message,
+            },
+          ],
+        });
+      }
+    }
+  });
 };
 
 module.exports.login = async (req, res) => {
@@ -73,10 +80,14 @@ module.exports.login = async (req, res) => {
       throw new Error();
     }
 
+    const token = jwt.sign({user: user}, process.env.SECRET, {expiresIn: '1m'});
+
     res.json({
       title: 'Login Successful',
       detail: 'Successfully validated user credentials',
+      token: token
     });
+
   } catch (err) {
     res.status(401).json({
       errors: [
@@ -87,5 +98,16 @@ module.exports.login = async (req, res) => {
         },
       ],
     });
+  }
+};
+
+module.exports.verifyToken = (req, res, next) => {
+  const bearerHeader = req.headers['authorization'];
+  if (typeof bearerHeader !== 'undefined') {
+    const bearer = bearerHeader.split(' ');
+    req.token = bearer[1];
+    next();
+  } else {
+    res.sendStatus(403);
   }
 };
