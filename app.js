@@ -7,7 +7,7 @@ const helmet = require('helmet');
 const bodyParser = require('body-parser');
 
 const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
+const usersRouter = require('./routes/users.router');
 const articlesRouter = require('./routes/articles.router');
 const blogsRouter = require('./routes/blogs.router');
 const infoRouter = require('./routes/info.router');
@@ -23,10 +23,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use('/api/v1', indexRouter);
-app.use('/api/v1/users', usersRouter);
 app.use('/api/v1/articles', articlesRouter);
 app.use('/api/v1/blogs', blogsRouter);
 app.use('/api/v1/info', infoRouter);
+app.use('/auth', usersRouter);
 
 try {
   mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true})
