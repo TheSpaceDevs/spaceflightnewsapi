@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const BlogsController = require('../controllers/blogs.controller');
+const jwtVerify = require('../helpers/jwtVerify');
 
 /**
  * Returns an object that contains metadata an array with found blogs.
@@ -19,5 +20,6 @@ const BlogsController = require('../controllers/blogs.controller');
  * @returns {object} 200 - An object that contains metadata an array with found blogs.
  */
 router.get('/', BlogsController.getBlogs);
+router.post('/', jwtVerify, BlogsController.postBlogs);
 
 module.exports = router;
