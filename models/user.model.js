@@ -15,6 +15,10 @@ const UserSchema = new mongoose.Schema({
     required: true,
     minlength: 8,
   },
+  roles: {
+    type: Array,
+    default: ['user']
+  }
 });
 
 UserSchema.plugin(uniqueValidator);

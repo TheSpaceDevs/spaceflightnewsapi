@@ -12,8 +12,8 @@ const isEmail = (email) => {
 };
 
 module.exports.register = (req, res) => {
-  jwt.verify(req.token, process.env.SECRET, async (err) => {
-    if (err) {
+  jwt.verify(req.token, process.env.SECRET, async (err, authData) => {
+    if (err || !authData.user.roles.includes('admin')) {
       res.sendStatus(403);
     } else {
       try {
@@ -80,7 +80,7 @@ module.exports.login = async (req, res) => {
       throw new Error();
     }
 
-    const token = jwt.sign({user: user}, process.env.SECRET, {expiresIn: '1m'});
+    const token = jwt.sign({user: user}, process.env.SECRET);
 
     res.json({
       title: 'Login Successful',
