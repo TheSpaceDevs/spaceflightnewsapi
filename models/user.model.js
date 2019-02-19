@@ -18,6 +18,10 @@ const UserSchema = new mongoose.Schema({
   roles: {
     type: Array,
     default: ['user']
+  },
+  createdAt: {
+    type: Number,
+    default: Math.floor(Date.now() / 1000)
   }
 });
 
