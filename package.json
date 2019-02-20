@@ -5,6 +5,10 @@
   "author": "Derk Weijers <derk@derkweijers.nl> (https://github.com/derkweijers)",
   "license": "GPL-3.0-or-later",
   "repository": "https://github.com/spaceflightnewsapi/spaceflightnewsapi",
+  "apidoc": {
+    "title": "Spaceflight News API",
+    "url" : "https://spaceflightnewsapi.net/api"
+  },
   "scripts": {
     "start": "node ./bin/www"
   },
