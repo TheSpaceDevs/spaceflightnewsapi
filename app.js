@@ -21,7 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.use('/api/v1', express.static('public'));
+app.use('/api/v1', express.static(path.join(__dirname, 'public')));
 app.use('/api/v1/articles', articlesRouter);
 app.use('/api/v1/blogs', blogsRouter);
 app.use('/api/v1/info', infoRouter);
