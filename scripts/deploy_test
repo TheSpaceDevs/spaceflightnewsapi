@@ -1,4 +1,5 @@
 ssh derk@voyager01.spaceflightnewsapi.net <<EOF
+  rm -rf spaceflightnewsapi-test
 	if [ ! -d ~/spaceflightnewsapi-test ]; then
 	 git clone https://github.com/spaceflightnewsapi/spaceflightnewsapi -b test spaceflightnewsapi-test
 	fi
