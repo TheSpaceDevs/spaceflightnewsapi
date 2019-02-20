@@ -6,6 +6,14 @@ define({ "api": [
     "name": "GetArticles",
     "group": "Articles",
     "version": "1.0.0",
+    "description": "<p>Retrieves a list of articles. Can be queries on Title and News Site.</p> <p>Also supports page, limit and offset options.</p>",
+    "examples": [
+      {
+        "title": "Search for articles where SpaceX is in the title",
+        "content": "https://spaceflightnewsapi.net/api/v1/articles?title=spacex",
+        "type": "json"
+      }
+    ],
     "parameter": {
       "fields": {
         "Parameter": [
