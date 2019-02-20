@@ -413,6 +413,7 @@
     "name": "Login",
     "group": "Auth",
     "version": "1.0.0",
+    "description": "<p>Login and retrieve a JWT token. Takes username and password as body.</p>",
     "success": {
       "examples": [
         {
@@ -459,6 +460,7 @@
         "name": "admin"
       }
     ],
+    "description": "<p>Registers a new users. Takes a body with the desired username and password. Only possible by an admin.</p>",
     "success": {
       "examples": [
         {

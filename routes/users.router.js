@@ -10,6 +10,9 @@ const jwtVerify = require('../helpers/jwtVerify');
  * @apiVersion 1.0.0
  * @apiHeader {String} Authorization A bearer token
  * @apiPermission admin
+ * @apiDescription Registers a new users.
+ * Takes a body with the desired username and password.
+ * Only possible by an admin.
  *
  * @apiSuccessExample Success-Response:
  * HTTP/1.1 201 Created
@@ -41,6 +44,7 @@ router.post('/register', jwtVerify, UsersController.register);
  * @apiName Login
  * @apiGroup Auth
  * @apiVersion 1.0.0
+ * @apiDescription Login and retrieve a JWT token. Takes username and password as body.
  *
  * @apiSuccessExample Success-Response:
  * HTTP/1.1 200 OK
