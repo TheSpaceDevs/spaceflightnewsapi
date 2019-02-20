@@ -1,12 +1,10 @@
 ssh derk@voyager01.spaceflightnewsapi.net <<EOF
+  pm2 delete spaceflightnewsapi-test
   rm -rf spaceflightnewsapi-test
-	if [ ! -d ~/spaceflightnewsapi-test ]; then
-	 git clone https://github.com/spaceflightnewsapi/spaceflightnewsapi -b test spaceflightnewsapi-test
-	fi
+	git clone https://github.com/spaceflightnewsapi/spaceflightnewsapi -b test spaceflightnewsapi-test
 	cd ~/spaceflightnewsapi-test
 	git pull
 	npm install
-	pm2 delete spaceflightnewsapi-test
 	NODE_ENV=test MONGODB_URI=$1 SECRET=$2 pm2 start -f bin/www --name spaceflightnewsapi-test --watch
 	exit
 EOF
