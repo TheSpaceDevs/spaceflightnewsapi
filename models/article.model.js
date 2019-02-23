@@ -39,7 +39,7 @@ const articleSchema = new Schema({
   }
 });
 
-articleSchema.index({news_site: 'text', news_site_long: 'text', title: 'text'});
+articleSchema.index({news_site: 'text', news_site_long: 'text'});
 
 articleSchema.plugin(mongoosePaginate);
 articleSchema.plugin(uniqueValidator);

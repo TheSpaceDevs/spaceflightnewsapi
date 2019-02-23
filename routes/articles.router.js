@@ -8,12 +8,12 @@ const jwtVerify = require('../helpers/jwtVerify');
  * @apiName GetArticles
  * @apiGroup Articles
  * @apiVersion 1.0.0
- * @apiDescription Retrieves a list of articles. Can be queries on Title and News Site.
+ * @apiDescription Retrieves a list of articles. Can be queried on the news_site.
  *
  * Also supports page, limit and offset options.
  *
- * @apiExample Search for articles where SpaceX is in the title
- * https://spaceflightnewsapi.net/api/v1/articles?title=spacex
+ * @apiExample Search for articles published by SpaceX
+ * https://spaceflightnewsapi.net/api/v1/articles?news_site=spacex
  *
  * @apiParam {String} title Title of the article.
  * @apiParam {String} news_site News site that published the article.
