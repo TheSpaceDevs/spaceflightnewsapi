@@ -80,7 +80,7 @@ module.exports.login = async (req, res) => {
       throw new Error();
     }
 
-    const token = jwt.sign({user: user}, process.env.SECRET, {expiresIn: '24h'});
+    const token = jwt.sign({user: user}, process.env.SECRET, {expiresIn: '1m'});
 
     res.json({
       title: 'Login Successful',
