@@ -144,4 +144,16 @@ router.get('/', BlogsController.getBlogs);
  */
 router.post('/', jwtVerify, BlogsController.postBlogs);
 
+/**
+ * @api {delete} /v1/blogs Delete blogs
+ * @apiName DeleteBlogs
+ * @apiGroup Blogs
+ * @apiVersion 1.0.0
+ * @apiHeader {String} Authorization A bearer token
+ * @apiPermission admin
+ *
+ * @apiParam {String} _id ID's of the blogs that you want to delete. Chain to delete multiple at the same time.
+ */
+router.delete('/', jwtVerify, BlogsController.deleteBlogs);
+
 module.exports = router;

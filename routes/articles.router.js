@@ -144,4 +144,16 @@ router.get('/', ArticleController.getArticles);
  */
 router.post('/', jwtVerify, ArticleController.postArticles);
 
+/**
+ * @api {delete} /v1/articles Delete articles
+ * @apiName DeleteArticles
+ * @apiGroup Articles
+ * @apiVersion 1.0.0
+ * @apiHeader {String} Authorization A bearer token
+ * @apiPermission admin
+ *
+ * @apiParam {String} _id ID's of the articles that you want to delete. Chain to delete multiple at the same time.
+ */
+router.delete('/', jwtVerify, ArticleController.deleteArticles);
+
 module.exports = router;
