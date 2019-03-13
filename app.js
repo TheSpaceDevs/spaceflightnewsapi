@@ -28,7 +28,7 @@ app.use('/api/v1/info', infoRouter);
 app.use('/auth', usersRouter);
 
 try {
-  mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true})
+  mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useCreateIndex: true})
 } catch (e) {
   console.log(e)
 }

@@ -55,3 +55,19 @@ module.exports.postBlogs = (req, res) => {
     }
   });
 };
+
+module.exports.deleteBlogs = async (req, res) => {
+  jwt.verify(req.token, process.env.SECRET, async (err, authData) => {
+    if (err || !authData.user.roles.includes('admin')) {
+      return res.sendStatus(403);
+    }
+
+    try {
+      await Blog.deleteMany({_id: {$in: req.query._id}});
+      return res.json({deleted: req.query._id})
+    } catch (e) {
+      console.log(e);
+      return res.json({error: 'Something went wrong with deleting!'})
+    }
+  });
+};

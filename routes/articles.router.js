@@ -8,12 +8,17 @@ const jwtVerify = require('../helpers/jwtVerify');
  * @apiName GetArticles
  * @apiGroup Articles
  * @apiVersion 1.0.0
- * @apiDescription Retrieves a list of articles. Can be queries on Title and News Site.
+ * @apiDescription Retrieves a list of articles. You can query this endpoint with parameter 'news_site' to return
+ * articles provided by a particular news site. This endpoint can also be queried with 'search' to search
+ * for articles which match your search parameter.
  *
- * Also supports page, limit and offset options.
+ * Also supports page, limit, offset and sort options.
  *
- * @apiExample Search for articles where SpaceX is in the title
- * https://spaceflightnewsapi.net/api/v1/articles?title=spacex
+ * @apiExample Search for articles
+ * https://spaceflightnewsapi.net/api/v1/articles?search=dragon
+ *
+ * @apiExample Search for articles published by SpaceX
+ * https://spaceflightnewsapi.net/api/v1/articles?news_site=spacex
  *
  * @apiParam {String} title Title of the article.
  * @apiParam {String} news_site News site that published the article.
@@ -138,5 +143,17 @@ router.get('/', ArticleController.getArticles);
  *     Forbidden
  */
 router.post('/', jwtVerify, ArticleController.postArticles);
+
+/**
+ * @api {delete} /v1/articles Delete articles
+ * @apiName DeleteArticles
+ * @apiGroup Articles
+ * @apiVersion 1.0.0
+ * @apiHeader {String} Authorization A bearer token
+ * @apiPermission admin
+ *
+ * @apiParam {String} _id ID's of the articles that you want to delete. Chain to delete multiple at the same time.
+ */
+router.delete('/', jwtVerify, ArticleController.deleteArticles);
 
 module.exports = router;

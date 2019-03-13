@@ -8,6 +8,17 @@ const jwtVerify = require('../helpers/jwtVerify');
  * @apiName GetBlogs
  * @apiGroup Blogs
  * @apiVersion 1.0.0
+ * @apiDescription Retrieves a list of blogs. You can query this endpoint with parameter 'news_site' to return
+ * blogs provided by a particular news site. This endpoint can also be queried with 'search' to search
+ * for blogs which match your search parameter.
+ *
+ * Also supports page, limit, offset and sort options.
+ *
+ * @apiExample Search for blogs
+ * https://spaceflightnewsapi.net/api/v1/blogs?search=bennu
+ *
+ * @apiExample Search for articles published by SpaceX
+ * https://spaceflightnewsapi.net/api/v1/blogs?news_site=planetarysociety
  *
  * @apiParam {String} title Title of the blog.
  * @apiParam {String} news_site News site that published the blog.
@@ -132,5 +143,17 @@ router.get('/', BlogsController.getBlogs);
  *     Forbidden
  */
 router.post('/', jwtVerify, BlogsController.postBlogs);
+
+/**
+ * @api {delete} /v1/blogs Delete blogs
+ * @apiName DeleteBlogs
+ * @apiGroup Blogs
+ * @apiVersion 1.0.0
+ * @apiHeader {String} Authorization A bearer token
+ * @apiPermission admin
+ *
+ * @apiParam {String} _id ID's of the blogs that you want to delete. Chain to delete multiple at the same time.
+ */
+router.delete('/', jwtVerify, BlogsController.deleteBlogs);
 
 module.exports = router;
