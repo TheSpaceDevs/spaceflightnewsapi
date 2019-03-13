@@ -7,11 +7,11 @@ const { Schema } = mongoose;
 const articleSchema = new Schema({
   news_site: {
     type: String,
-    required: true
+    required: true,
   },
   news_site_long: {
     type: String,
-    required: true
+    required: true,
   },
   title: {
     type: String,
@@ -39,7 +39,7 @@ const articleSchema = new Schema({
   }
 });
 
-articleSchema.index({news_site: 'text', news_site_long: 'text'});
+articleSchema.index({title: 'text', news_site: 'text', news_site_long: 'text'});
 
 articleSchema.plugin(mongoosePaginate);
 articleSchema.plugin(uniqueValidator);
