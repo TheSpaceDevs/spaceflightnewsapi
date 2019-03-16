@@ -10,7 +10,8 @@
     "url": "https://spaceflightnewsapi.net/api"
   },
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "./node_modules/.bin/mocha --exit"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -28,8 +29,8 @@
     "morgan": "~1.9.0"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "mocha": "^5.2.0",
-    "should": "^13.2.3",
-    "supertest": "^3.4.2"
+    "chai-http": "^4.2.1"
   }
 }
