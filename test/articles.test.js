@@ -63,4 +63,21 @@ describe('Articles', () => {
         done()
       });
   });
+
+  it('Post a new article without auth, expecting a 403 and forbidden', (done) => {
+    chai.request(app)
+      .post('/api/v1/articles')
+      .send({
+        'news_site': 'test_site',
+        'news_site_long': 'Test Site',
+        'title': 'Test Article',
+        'url': 'https://spaceflightnewsapi.net',
+        'featured_image': 'https://snapi.space'
+      })
+      .end((err, res) => {
+        expect(res).to.have.status(403);
+        expect(res.forbidden).eql(true);
+        done()
+      });
+  });
 });
