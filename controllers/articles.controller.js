@@ -14,9 +14,9 @@ module.exports.getArticles = async (req, res, next) => {
     }
   }
 
-  if (!req.query.search) {
+  if (req.query.search) {
     try {
-      let result = await Article.paginate(req.query, options);
+      let result = await Article.paginate({$text: {$search: req.query.search}}, options);
       res.send(result);
     } catch (e) {
       res.send({'message': 'Uh-oh, something went wrong. Please try again!'});
@@ -24,7 +24,7 @@ module.exports.getArticles = async (req, res, next) => {
     }
   } else {
     try {
-      let result = await Article.paginate({$text: {$search: req.query.search}}, options);
+      let result = await Article.paginate(req.query, options);
       res.send(result);
     } catch (e) {
       res.send({'message': 'Uh-oh, something went wrong. Please try again!'});
