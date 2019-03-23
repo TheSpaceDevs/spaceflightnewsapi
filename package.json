@@ -14,12 +14,16 @@
     "test": "./node_modules/.bin/mocha --exit"
   },
   "dependencies": {
+    "admin-bro": "^0.6.0",
+    "admin-bro-expressjs": "^0.1.5",
+    "admin-bro-mongoose": "^0.2.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "config": "^3.0.1",
     "cookie-parser": "^1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.0",
+    "express-session": "^1.15.6",
     "express-swagger-generator": "^1.1.13",
     "helmet": "^3.16.0",
     "jsonwebtoken": "^8.5.0",
