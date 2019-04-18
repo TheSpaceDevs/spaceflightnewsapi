@@ -11,6 +11,7 @@ const articlesRouter = require('./routes/articles.router');
 const blogsRouter = require('./routes/blogs.router');
 const infoRouter = require('./routes/info.router');
 const adminRouter = require('./routes/admin-bro.router');
+const reportsRouter = require('./routes/reports.router');
 
 const app = express();
 
@@ -26,13 +27,24 @@ app.use(bodyParser.json());
 app.use('/api/v1', express.static(path.join(__dirname, 'public')));
 app.use('/api/v1/articles', articlesRouter);
 app.use('/api/v1/blogs', blogsRouter);
+app.use('/api/v1/reports', reportsRouter);
 app.use('/api/v1/info', infoRouter);
 app.use('/auth', usersRouter);
 app.use('/admin', adminRouter);
 
 try {
-  mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useCreateIndex: true})
-  console.info('[x] Connected to database')
+  mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useCreateIndex: true, auto_reconnect: true});
+  mongoose.connection.on('connected', function() {
+    console.log('MongoDB connected!');
+  });
+  mongoose.connection.on('error', function(error) {
+    console.log('MongoDB error: ' + error);
+    mongoose.disconnect()
+  });
+  mongoose.connection.on('disconnected', function(error) {
+    console.log('MongoDB disconnected!');
+    mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useCreateIndex: true, auto_reconnect: true});
+  });
 } catch (e) {
   console.log(e)
 }

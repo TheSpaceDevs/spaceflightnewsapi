@@ -5,10 +5,11 @@ const bcrypt = require('bcryptjs');
 const Article = require('../models/article.model');
 const Blog = require('../models/blog.model');
 const User = require('../models/user.model');
+const Report = require('../models/report.model');
 
 AdminBro.registerAdapter(require('admin-bro-mongoose'));
 const adminBro = new AdminBro({
-  resources: [Article, Blog, User],
+  resources: [Article, Blog, User, Report],
   branding: {
     companyName: 'Spaceflight News API',
     logo: 'https://spaceflightnewsapi.net/favicon.ico'
