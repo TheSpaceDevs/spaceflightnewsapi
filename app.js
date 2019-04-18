@@ -31,8 +31,18 @@ app.use('/auth', usersRouter);
 app.use('/admin', adminRouter);
 
 try {
-  mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useCreateIndex: true})
-  console.info('[x] Connected to database')
+  mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useCreateIndex: true, auto_reconnect: true});
+  mongoose.connection.on('connected', function() {
+    console.log('MongoDB connected!');
+  });
+  mongoose.connection.on('error', function(error) {
+    console.log('MongoDB error: ' + error);
+    mongoose.disconnect()
+  });
+  mongoose.connection.on('disconnected', function(error) {
+    console.log('MongoDB disconnected!');
+    mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useCreateIndex: true, auto_reconnect: true});
+  });
 } catch (e) {
   console.log(e)
 }

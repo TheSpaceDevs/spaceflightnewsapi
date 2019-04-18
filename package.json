@@ -1,6 +1,6 @@
 {
   "name": "spaceflight-news-api",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "author": "Derk Weijers <derk@derkweijers.nl> (https://github.com/derkweijers)",
   "license": "GPL-3.0-or-later",
