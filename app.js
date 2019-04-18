@@ -11,6 +11,7 @@ const articlesRouter = require('./routes/articles.router');
 const blogsRouter = require('./routes/blogs.router');
 const infoRouter = require('./routes/info.router');
 const adminRouter = require('./routes/admin-bro.router');
+const reportsRouter = require('./routes/reports.router');
 
 const app = express();
 
@@ -26,6 +27,7 @@ app.use(bodyParser.json());
 app.use('/api/v1', express.static(path.join(__dirname, 'public')));
 app.use('/api/v1/articles', articlesRouter);
 app.use('/api/v1/blogs', blogsRouter);
+app.use('/api/v1/reports', reportsRouter);
 app.use('/api/v1/info', infoRouter);
 app.use('/auth', usersRouter);
 app.use('/admin', adminRouter);
