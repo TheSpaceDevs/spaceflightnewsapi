@@ -29,7 +29,11 @@ Docs can be found at https://spaceflightnewsapi.net/api/v1/
 * https://www.jpl.nasa.gov/blog/
 
 ## Changelog
-### v1.0.0 (23-04-2019)
+### v1.1.0 (18-04-2019)
+* Improved reconnect logic for MongoDB
+* Re-introduced reports endpoint
+
+### v1.0.0 (23-03-2019)
 * Searching for articles is now on the /articles resource itself;
 * Documentation generated from the code;
 * Authentication support;
