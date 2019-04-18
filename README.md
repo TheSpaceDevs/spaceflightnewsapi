@@ -11,7 +11,7 @@ To make it easier for myself, I began a project that would aggegrate metadata fr
 There are great apps out on the internet, that are connected to services like <https://www.launchlibrary.net/>. By making this API available to everyone, I hope to open new doors for the developers of these apps.
 
 ## Docs
-Docs can be found at...
+Docs can be found at https://spaceflightnewsapi.net/api/v1/
 
 ## Currently imported news sites
 
@@ -20,7 +20,8 @@ Docs can be found at...
 * https://www.spacex.com/
 * https://www.spacenews.com/
 * https://www.nasa.gov/
-* https://www.phys.org/
+* https://www.esa.int/
+* https://www.arstechnica.com/
 
 ## Currently imported blog sites
 
@@ -28,7 +29,7 @@ Docs can be found at...
 * https://www.jpl.nasa.gov/blog/
 
 ## Changelog
-### v1.0.0 (tbd)
+### v1.0.0 (23-04-2019)
 * Searching for articles is now on the /articles resource itself;
 * Documentation generated from the code;
 * Authentication support;
