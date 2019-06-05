@@ -14,6 +14,9 @@
     "test": "./node_modules/.bin/mocha --exit"
   },
   "dependencies": {
+    "admin-bro": "^0.8.8",
+    "admin-bro-expressjs": "^0.1.7",
+    "admin-bro-mongoose": "^0.2.2",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "config": "^3.1.0",
