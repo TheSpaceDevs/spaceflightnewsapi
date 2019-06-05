@@ -31,7 +31,7 @@ describe('Blogs', () => {
 
   it('Get a single blog, expect it to be an array with a length of 10 and status code 200', (done) => {
     chai.request(app)
-      .get('/api/v1/blogs?_id=5c8188932568aa81ffc44fe1')
+      .get('/api/v1/blogs?_id=5cb2683adbfe2d276f324025')
       .end((err, res) => {
         expect(res).to.have.status(200);
         expect(res.body.docs).to.be.an('array');
