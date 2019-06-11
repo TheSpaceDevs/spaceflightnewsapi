@@ -28,7 +28,6 @@ app.use('/api/v1/articles', articlesRouter);
 app.use('/api/v1/blogs', blogsRouter);
 app.use('/api/v1/reports', reportsRouter);
 app.use('/api/v1/info', infoRouter);
-app.use('/auth', usersRouter);
 
 try {
   mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useCreateIndex: true, auto_reconnect: true});
