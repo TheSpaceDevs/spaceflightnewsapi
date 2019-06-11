@@ -4,6 +4,11 @@ const uniqueValidator = require('mongoose-unique-validator');
 
 const { Schema } = mongoose;
 
+const slnSchema = new Schema({
+  launches: [String],
+  events: [String]
+}, { _id : false });
+
 const articleSchema = new Schema({
   news_site: {
     type: String,
@@ -37,7 +42,7 @@ const articleSchema = new Schema({
     type: String,
     required: true
   },
-  sln_launches: [Number]
+  sln: slnSchema
 });
 
 articleSchema.index({title: 'text', news_site: 'text', news_site_long: 'text'});
