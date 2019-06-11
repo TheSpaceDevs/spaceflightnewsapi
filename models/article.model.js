@@ -41,7 +41,7 @@ const articleSchema = new Schema({
   events: [String]
 });
 
-articleSchema.index({title: 'text', news_site: 'text', news_site_long: 'text', sln: "text"});
+articleSchema.index({title: 'text', news_site: 'text', news_site_long: 'text'});
 
 articleSchema.plugin(mongoosePaginate);
 articleSchema.plugin(uniqueValidator);
