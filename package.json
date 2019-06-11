@@ -7,7 +7,7 @@
   "repository": "https://github.com/spaceflightnewsapi/spaceflightnewsapi",
   "apidoc": {
     "title": "Spaceflight News API",
-    "url": "https://spaceflightnewsapi.net/api"
+    "url": "https://spaceflightnewsapi.net/api/v1/"
   },
   "scripts": {
     "start": "node ./bin/www",
