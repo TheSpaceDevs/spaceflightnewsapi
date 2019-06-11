@@ -6,7 +6,6 @@ const mongoose = require('mongoose');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
 
-const usersRouter = require('./routes/users.router');
 const articlesRouter = require('./routes/articles.router');
 const blogsRouter = require('./routes/blogs.router');
 const infoRouter = require('./routes/info.router');
