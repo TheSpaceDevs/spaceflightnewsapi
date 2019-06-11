@@ -4,19 +4,14 @@ const uniqueValidator = require('mongoose-unique-validator');
 
 const { Schema } = mongoose;
 
-const slnSchema = new Schema({
-  launches: [String],
-  events: [String]
-}, { _id : false });
-
 const articleSchema = new Schema({
   news_site: {
     type: String,
-    required: true,
+    required: true
   },
   news_site_long: {
     type: String,
-    required: true,
+    required: true
   },
   title: {
     type: String,
@@ -42,14 +37,23 @@ const articleSchema = new Schema({
     type: String,
     required: true
   },
-  sln: slnSchema
+  launches: [String],
+  events: [String]
 });
 
-articleSchema.index({title: 'text', news_site: 'text', news_site_long: 'text'});
+articleSchema.index({title: 'text', news_site: 'text', news_site_long: 'text', sln: "text"});
 
 articleSchema.plugin(mongoosePaginate);
 articleSchema.plugin(uniqueValidator);
 
 const ArticleModel = mongoose.model('Articles', articleSchema);
+
+ArticleModel.on('index', (err) => {
+  if (err) {
+    console.error('Article index error: %s', err);
+  } else {
+    console.info('Article indexing complete');
+  }
+});
 
 module.exports = ArticleModel;
