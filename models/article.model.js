@@ -36,7 +36,8 @@ const articleSchema = new Schema({
   featured_image: {
     type: String,
     required: true
-  }
+  },
+  sln_launches: [Number]
 });
 
 articleSchema.index({title: 'text', news_site: 'text', news_site_long: 'text'});
