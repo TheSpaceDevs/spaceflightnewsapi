@@ -6,11 +6,9 @@ const mongoose = require('mongoose');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
 
-const usersRouter = require('./routes/users.router');
 const articlesRouter = require('./routes/articles.router');
 const blogsRouter = require('./routes/blogs.router');
 const infoRouter = require('./routes/info.router');
-const adminRouter = require('./routes/admin-bro.router');
 const reportsRouter = require('./routes/reports.router');
 
 const app = express();
@@ -29,8 +27,6 @@ app.use('/api/v1/articles', articlesRouter);
 app.use('/api/v1/blogs', blogsRouter);
 app.use('/api/v1/reports', reportsRouter);
 app.use('/api/v1/info', infoRouter);
-app.use('/auth', usersRouter);
-app.use('/admin', adminRouter);
 
 try {
   mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useCreateIndex: true, auto_reconnect: true});

@@ -36,7 +36,9 @@ const blogSchema = new Schema({
   featured_image: {
     type: String,
     required: true
-  }
+  },
+  launches: [String],
+  events: [String]
 });
 
 blogSchema.index({news_site: 'text', news_site_long: 'text', title: 'text'});
@@ -45,5 +47,13 @@ blogSchema.plugin(mongoosePaginate);
 blogSchema.plugin(uniqueValidator);
 
 const BlogModel = mongoose.model('Blogs', blogSchema);
+
+BlogModel.on('index', (err) => {
+  if (err) {
+    console.error('Blog index error: %s', err);
+  } else {
+    console.info('Blog indexing complete');
+  }
+});
 
 module.exports = BlogModel;

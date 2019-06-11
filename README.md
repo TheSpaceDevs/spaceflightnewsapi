@@ -28,7 +28,16 @@ Docs can be found at https://spaceflightnewsapi.net/api/v1/
 * http://www.planetary.org/
 * https://www.jpl.nasa.gov/blog/
 
+## Space Launch Now integration
+Starting from version 1.2, we now have Space Launch Now integration. All documents have new key values
+'launches' and 'events'. These are arrays that will be filled with id's from the SLN API to get the associated
+launch or event. Nice if you want to combine the two in your app!
+
 ## Changelog
+### v1.2.0 (11-06-2019)
+* Added support for Space Launch Now launches and events;
+* Changed to a different CMS provider;
+
 ### v1.1.1 (05-06-2019)
 * Packages updated
 * Fix in the documentation
