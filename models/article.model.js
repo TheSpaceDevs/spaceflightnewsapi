@@ -38,7 +38,8 @@ const articleSchema = new Schema({
     required: true
   },
   launches: [String],
-  events: [String]
+  events: [String],
+  ll: [String]
 });
 
 articleSchema.index({title: 'text', news_site: 'text', news_site_long: 'text'});
