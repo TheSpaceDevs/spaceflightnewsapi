@@ -34,6 +34,7 @@ const jwtVerify = require('../helpers/jwtVerify');
  * @apiParam {Number} date_added Date when article was added to SNAPI
  * @apiParam {String} launches ID that maps to a launch in the SLN API
  * @apiParam {String} events ID that maps to an event in the SLN API
+ * @apiParam {String} ll ID that maps to a launch from the Launch Library
  *
  * @apiSuccess {String} title Title of the article.
  * @apiSuccess {String} news_site News site that published the article.
@@ -48,6 +49,7 @@ const jwtVerify = require('../helpers/jwtVerify');
  * @apiSuccess {Array} tags Array with tags.
  * @apiSuccess {Array} launches Array with SLN API launch ID's.
  * @apiSuccess {Array} events Array with SLN API event ID's.
+ * @apiSuccess {Array} ll Array with Launch Library launch ID's.
  *
  * @apiSuccessExample Success-Response:
  * HTTP/1.1 200 OK
@@ -95,6 +97,7 @@ router.get('/', ArticleController.getArticles);
  * @apiParam {Number} date_added Date when article was added to SNAPI
  * @apiParam {Array} categories Array with categories.
  * @apiParam {Array} tags Array with tags.
+ * @apiParam {String} ll ID that maps to a launch from the Launch Library
  *
  * @apiSuccess {String} title Title of the article.
  * @apiSuccess {String} news_site News site that published the article.
@@ -107,6 +110,7 @@ router.get('/', ArticleController.getArticles);
  * @apiSuccess {Number} date_added Date when article was added to SNAPI.
  * @apiSuccess {Array} categories Array with categories.
  * @apiSuccess {Array} tags Array with tags.
+ * @apiSuccess {Array} ll Array with Launch Library launch ID's.
  *
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 201 Created
