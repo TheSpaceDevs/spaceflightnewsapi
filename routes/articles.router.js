@@ -4,7 +4,7 @@ const ArticleController = require('../controllers/articles.controller');
 const jwtVerify = require('../helpers/jwtVerify');
 
 /**
- * @api {get} /v1/articles Get articles
+ * @api {get} /api/v1/articles Get articles
  * @apiName GetArticles
  * @apiGroup Articles
  * @apiVersion 1.2.0
@@ -77,7 +77,7 @@ const jwtVerify = require('../helpers/jwtVerify');
 router.get('/', ArticleController.getArticles);
 
 /**
- * @api {post} /v1/articles Post articles
+ * @api {post} /api/v1/articles Post articles
  * @apiName PostArticles
  * @apiGroup Articles
  * @apiVersion 1.0.0
@@ -150,7 +150,7 @@ router.get('/', ArticleController.getArticles);
 router.post('/', jwtVerify, ArticleController.postArticles);
 
 /**
- * @api {delete} /v1/articles Delete articles
+ * @api {delete} /api/v1/articles Delete articles
  * @apiName DeleteArticles
  * @apiGroup Articles
  * @apiVersion 1.0.0

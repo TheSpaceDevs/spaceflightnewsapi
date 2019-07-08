@@ -3,7 +3,7 @@ const router = express.Router();
 const ReportController = require('../controllers/reports.controller');
 
 /**
- * @api {get} /v1/reports Get reports
+ * @api {get} /api/v1/reports Get reports
  * @apiName GetReports
  * @apiGroup Reports
  * @apiVersion 1.1.0

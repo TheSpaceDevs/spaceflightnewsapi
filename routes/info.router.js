@@ -3,7 +3,7 @@ const router = express.Router();
 const InfoController = require('../controllers/info.controller');
 
 /**
- * @api {get} /v1/info Get general info
+ * @api {get} /api/v1/info Get general info
  * @apiName GetInfo
  * @apiGroup Info
  * @apiVersion 1.0.0

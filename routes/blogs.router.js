@@ -4,7 +4,7 @@ const BlogsController = require('../controllers/blogs.controller');
 const jwtVerify = require('../helpers/jwtVerify');
 
 /**
- * @api {get} /v1/blogs Get blogs
+ * @api {get} /api/v1/blogs Get blogs
  * @apiName GetBlogs
  * @apiGroup Blogs
  * @apiVersion 1.2.0
@@ -77,7 +77,7 @@ const jwtVerify = require('../helpers/jwtVerify');
 router.get('/', BlogsController.getBlogs);
 
 /**
- * @api {post} /v1/blogs Post blogs
+ * @api {post} /api/v1/blogs Post blogs
  * @apiName PostBlogs
  * @apiGroup Blogs
  * @apiVersion 1.0.0
@@ -150,7 +150,7 @@ router.get('/', BlogsController.getBlogs);
 router.post('/', jwtVerify, BlogsController.postBlogs);
 
 /**
- * @api {delete} /v1/blogs Delete blogs
+ * @api {delete} /api/v1/blogs Delete blogs
  * @apiName DeleteBlogs
  * @apiGroup Blogs
  * @apiVersion 1.0.0
