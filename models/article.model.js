@@ -37,10 +37,6 @@ const articleSchema = new Schema({
     type: String,
     required: true
   },
-  featured: {
-    type: Boolean,
-    default: false
-  },
   launches: [String],
   events: [String],
   ll: [String]
