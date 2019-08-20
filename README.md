@@ -34,6 +34,12 @@ Starting from version 1.2, we now have Space Launch Now integration. All documen
 launch or event. Nice if you want to combine the two in your app!
 
 ## Changelog
+### v1.4.0 (14-08-2019)
+* Added a new property: featured. You can now add featured news to your applications, that has been selected by the SNAPI crew.
+
+### v1.3.0 (01-07-2019)
+* Added Launch Library integration
+
 ### v1.2.0 (11-06-2019)
 * Added support for Space Launch Now launches and events;
 * Changed to a different CMS provider;
