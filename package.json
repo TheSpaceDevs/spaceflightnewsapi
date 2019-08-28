@@ -1,8 +1,8 @@
 {
   "name": "spaceflight-news-api",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "private": true,
-  "author": "Derk Weijers <derk@derkweijers.nl> (https://github.com/derkweijers)",
+  "author": "Derk Weijers <derk@spaceflightnewsapi.net> (https://github.com/spaceflightnewsapi)",
   "license": "GPL-3.0-or-later",
   "repository": "https://github.com/spaceflightnewsapi/spaceflightnewsapi",
   "apidoc": {
