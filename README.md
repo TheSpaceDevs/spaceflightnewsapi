@@ -34,6 +34,9 @@ Starting from version 1.2, we now have Space Launch Now integration. All documen
 launch or event. Nice if you want to combine the two in your app!
 
 ## Changelog
+### v.1.5.0 (28-08-2019)
+* Added the publised_date property, which is a full representation of date and time (https://jira.go4liftoff.com/browse/SNAPI-24)
+
 ### v1.4.0 (14-08-2019)
 * Added a new property: featured. You can now add featured news to your applications, that has been selected by the SNAPI crew.
 
