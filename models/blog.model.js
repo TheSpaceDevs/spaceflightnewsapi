@@ -38,7 +38,13 @@ const blogSchema = new Schema({
     required: true
   },
   launches: [String],
-  events: [String]
+  events: [String],
+  published_date: {
+    type: Date
+  },
+  imported_date: {
+    type: Date
+  }
 });
 
 blogSchema.index({news_site: 'text', news_site_long: 'text', title: 'text'});

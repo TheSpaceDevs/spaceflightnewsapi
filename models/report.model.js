@@ -30,6 +30,12 @@ const reportSchema = new Schema({
   date_added: {
     type: Number,
     default: Math.floor(Date.now() / 1000)
+  },
+  published_date: {
+    type: Date
+  },
+  imported_date: {
+    type: Date
   }
 });
 

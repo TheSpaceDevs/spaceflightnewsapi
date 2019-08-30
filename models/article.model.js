@@ -46,6 +46,9 @@ const articleSchema = new Schema({
   ll: [String],
   published_date: {
     type: Date
+  },
+  imported_date: {
+    type: Date
   }
 });
 
