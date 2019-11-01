@@ -17,14 +17,14 @@ module.exports.register = (req, res) => {
       res.sendStatus(403);
     } else {
       try {
-        const {email, password} = req.body;
+        const { email, password } = req.body;
         if (!isEmail(email)) {
           throw new Error('Email must be a valid email address.');
         }
         if (typeof password !== 'string') {
           throw new Error('Password must be a string.');
         }
-        const user = new User({email, password});
+        const user = new User({ email, password });
         await user.save();
 
         res.status(201).json({
@@ -48,7 +48,7 @@ module.exports.register = (req, res) => {
 
 module.exports.login = async (req, res) => {
   try {
-    const {email, password} = req.body;
+    const { email, password } = req.body;
     if (!isEmail(email)) {
       return res.status(400).json({
         errors: [
@@ -69,7 +69,7 @@ module.exports.login = async (req, res) => {
         ],
       });
     }
-    const user = await User.findOne({email});
+    const user = await User.findOne({ email });
     if (!user) {
       throw new Error();
     }
@@ -80,14 +80,15 @@ module.exports.login = async (req, res) => {
       throw new Error();
     }
 
-    const token = jwt.sign({user: user}, process.env.SECRET, {expiresIn: '1m'});
+    const token = jwt.sign({ user: user }, process.env.SECRET, {
+      expiresIn: '1m',
+    });
 
     res.json({
       title: 'Login Successful',
       detail: 'Successfully validated user credentials',
-      token: token
+      token: token,
     });
-
   } catch (err) {
     res.status(401).json({
       errors: [

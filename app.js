@@ -19,7 +19,7 @@ const app = express();
 
 app.use(helmet());
 app.use(express.json());
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -36,7 +36,7 @@ const mongoOptions = {
   useNewUrlParser: true,
   useCreateIndex: true,
   auto_reconnect: true,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
 };
 
 try {
@@ -46,14 +46,14 @@ try {
   });
   mongoose.connection.on('error', function(error) {
     console.log('MongoDB error: ' + error);
-    mongoose.disconnect()
+    mongoose.disconnect();
   });
   mongoose.connection.on('disconnected', function(error) {
     console.log('MongoDB disconnected!');
     mongoose.connect(process.env.MONGODB_URI, mongoOptions);
   });
 } catch (e) {
-  console.log(e)
+  console.log(e);
 }
 
 module.exports = app;

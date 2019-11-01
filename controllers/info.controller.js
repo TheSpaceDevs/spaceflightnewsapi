@@ -8,7 +8,6 @@ module.exports.getInfo = async (req, res, next) => {
   res.send({
     total_number_of_articles: count,
     api_version: pjson.version,
-    news_sites: newsSites
+    news_sites: newsSites,
   });
-
 };
