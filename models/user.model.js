@@ -17,12 +17,12 @@ const UserSchema = new mongoose.Schema({
   },
   roles: {
     type: Array,
-    default: ['user']
+    default: ['user'],
   },
   createdAt: {
     type: Number,
-    default: Math.floor(Date.now() / 1000)
-  }
+    default: Math.floor(Date.now() / 1000),
+  },
 });
 
 UserSchema.plugin(uniqueValidator);
