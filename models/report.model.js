@@ -16,30 +16,34 @@ const reportSchema = new Schema({
   title: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
   },
   url: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
   },
   date_published: {
     type: Number,
-    default: Math.floor(Date.now() / 1000)
+    default: Math.floor(Date.now() / 1000),
   },
   date_added: {
     type: Number,
-    default: Math.floor(Date.now() / 1000)
+    default: Math.floor(Date.now() / 1000),
   },
   published_date: {
-    type: Date
+    type: Date,
   },
   imported_date: {
-    type: Date
-  }
+    type: Date,
+  },
 });
 
-reportSchema.index({title: 'text', news_site: 'text', news_site_long: 'text'});
+reportSchema.index({
+  title: 'text',
+  news_site: 'text',
+  news_site_long: 'text',
+});
 
 reportSchema.plugin(mongoosePaginate);
 reportSchema.plugin(uniqueValidator);

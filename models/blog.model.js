@@ -2,52 +2,52 @@ const mongoose = require('mongoose');
 const mongoosePaginate = require('mongoose-paginate-v2');
 const uniqueValidator = require('mongoose-unique-validator');
 
-const {Schema} = mongoose;
+const { Schema } = mongoose;
 
 const blogSchema = new Schema({
   news_site: {
     type: String,
-    required: true
+    required: true,
   },
   news_site_long: {
     type: String,
-    required: true
+    required: true,
   },
   title: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
   },
   url: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
   },
   date_published: {
     type: Number,
-    default: Math.floor(Date.now() / 1000)
+    default: Math.floor(Date.now() / 1000),
   },
   date_added: {
     type: Number,
-    default: Math.floor(Date.now() / 1000)
+    default: Math.floor(Date.now() / 1000),
   },
   tags: [String],
   categories: [String],
   featured_image: {
     type: String,
-    required: true
+    required: true,
   },
   launches: [String],
   events: [String],
   published_date: {
-    type: Date
+    type: Date,
   },
   imported_date: {
-    type: Date
-  }
+    type: Date,
+  },
 });
 
-blogSchema.index({news_site: 'text', news_site_long: 'text', title: 'text'});
+blogSchema.index({ news_site: 'text', news_site_long: 'text', title: 'text' });
 
 blogSchema.plugin(mongoosePaginate);
 blogSchema.plugin(uniqueValidator);
