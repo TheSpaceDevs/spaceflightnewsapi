@@ -5,8 +5,7 @@ module.exports.getArticles = async (req, res, next) => {
   const options = {
     page: parseInt(req.query.page, 10) || 1,
     limit: parseInt(req.query.limit, 10) || 10,
-    sort: req.query.sort || '-date_published',
-    offset: req.query.offset || 0
+    sort: req.query.sort || '-date_published'
   };
 
   for (const key in options) {
