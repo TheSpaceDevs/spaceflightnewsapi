@@ -34,6 +34,10 @@ Starting from version 1.2, we now have Space Launch Now integration. All documen
 launch or event. Nice if you want to combine the two in your app!
 
 ## Changelog
+### v1.6.2 (27-11-2019)
+* Removed the offset parameter since the page parameter offers the same functionality;
+* Updated all libraries;
+
 ### v.1.5.0 (28-08-2019)
 * Added the publised_date property, which is a full representation of date and time (https://jira.go4liftoff.com/browse/SNAPI-24)
 
