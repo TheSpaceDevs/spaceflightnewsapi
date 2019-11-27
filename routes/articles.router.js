@@ -7,12 +7,12 @@ const jwtVerify = require('../helpers/jwtVerify');
  * @api {get} /api/v1/articles Get articles
  * @apiName GetArticles
  * @apiGroup Articles
- * @apiVersion 1.5.1
+ * @apiVersion 1.6.2
  * @apiDescription Retrieves a list of articles. You can query this endpoint with parameter 'news_site' to return
  * articles provided by a particular news site. This endpoint can also be queried with 'search' to search
  * for articles which match your search parameter.
  *
- * Also supports page, limit, offset and sort options.
+ * Also supports page, limit and sort options.
  *
  * @apiExample Search for articles
  * https://spaceflightnewsapi.net/api/v1/articles?search=dragon

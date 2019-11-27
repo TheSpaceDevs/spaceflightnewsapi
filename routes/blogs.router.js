@@ -7,12 +7,12 @@ const jwtVerify = require('../helpers/jwtVerify');
  * @api {get} /api/v1/blogs Get blogs
  * @apiName GetBlogs
  * @apiGroup Blogs
- * @apiVersion 1.5.1
+ * @apiVersion 1.6.2
  * @apiDescription Retrieves a list of blogs. You can query this endpoint with parameter 'news_site' to return
  * blogs provided by a particular news site. This endpoint can also be queried with 'search' to search
  * for blogs which match your search parameter.
  *
- * Also supports page, limit, offset and sort options.
+ * Also supports page, limit and sort options.
  *
  * @apiExample Search for blogs
  * https://spaceflightnewsapi.net/api/v1/blogs?search=bennu

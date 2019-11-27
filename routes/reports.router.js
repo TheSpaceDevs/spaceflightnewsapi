@@ -6,12 +6,12 @@ const ReportController = require('../controllers/reports.controller');
  * @api {get} /api/v1/reports Get reports
  * @apiName GetReports
  * @apiGroup Reports
- * @apiVersion 1.5.1
+ * @apiVersion 1.6.2
  * @apiDescription Retrieves a list of reports. You can query this endpoint with parameter 'news_site' to return
  * reports provided by a particular news site. This endpoint can also be queried with 'search' to search
  * for reports which match your search parameter.
  *
- * Also supports page, limit, offset and sort options.
+ * Also supports page, limit and sort options.
  *
  * @apiExample Search for reports
  * https://spaceflightnewsapi.net/api/v1/reports?search=iss
