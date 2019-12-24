@@ -11,6 +11,7 @@ const articlesRouter = require('./routes/articles.router');
 const blogsRouter = require('./routes/blogs.router');
 const infoRouter = require('./routes/info.router');
 const reportsRouter = require('./routes/reports.router');
+const usersRouter = require('./routes/users.router');
 
 const logger = pino({ level: process.env.LOG_LEVEL || 'info' });
 const expressLogger = expressPino({ logger });
@@ -31,6 +32,7 @@ app.use('/api/v1/articles', articlesRouter);
 app.use('/api/v1/blogs', blogsRouter);
 app.use('/api/v1/reports', reportsRouter);
 app.use('/api/v1/info', infoRouter);
+app.use('/api/v1/users', usersRouter  );
 
 const mongoOptions = {
   useNewUrlParser: true,
