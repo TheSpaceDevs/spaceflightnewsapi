@@ -1,5 +1,6 @@
 const User = require('../models/user.model');
 const jwt = require('jsonwebtoken');
+const checkAdmin = require('../helpers/checkAdmin');
 const bcrypt = require('bcrypt');
 
 const getUsers = async (req, res) => {
@@ -7,14 +8,19 @@ const getUsers = async (req, res) => {
 };
 
 const addUser = async (req, res) => {
-  const user = new User(req.body);
-  try {
-    await user.save();
-    return res.status(201).send({message: 'user created', user: {email: user.email}})
-  } catch (ValidationError) {
-    if (ValidationError.errors.email.kind === 'unique') {
-      return res.status(409).send({error: 'user already exists'})
+  const admin = await checkAdmin(req.token);
+  if (admin) {
+    const user = new User(req.body);
+    try {
+      await user.save();
+      return res.status(201).send({message: 'user created', user: {email: user.email}})
+    } catch (ValidationError) {
+      if (ValidationError.errors.email.kind === 'unique') {
+        return res.status(409).send({error: 'user already exists'})
+      }
     }
+  } else {
+    return res.status(401).send({error: 'you are not allowed to do that'})
   }
 };
 
