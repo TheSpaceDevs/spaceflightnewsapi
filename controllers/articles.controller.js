@@ -22,6 +22,9 @@ module.exports.getArticles = async (req, res, next) => {
       );
       res.send(result);
     } catch (e) {
+      if (e.name === 'CastError' && e.path === '_id') {
+        return res.status(400).send({error: 'wrong _id format received. do not wrap it on quotes'})
+      }
       res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
       console.log(e);
     }
@@ -30,6 +33,9 @@ module.exports.getArticles = async (req, res, next) => {
       let result = await Article.paginate(req.query, options);
       res.send(result);
     } catch (e) {
+      if (e.name === 'CastError' && e.path === '_id') {
+        return res.status(400).send({error: 'wrong _id format received. do not wrap it on quotes'})
+      }
       res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
       console.log(e);
     }
