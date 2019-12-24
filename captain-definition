@@ -1,7 +1,4 @@
  {
   "schemaVersion": 2,
-  "templateId": "node/10.15.3",
-  "dockerfileLines": [
-    "RUN apt install build-essential"
-  ]
+  "templateId": "node/10.15.3"
  }
