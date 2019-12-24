@@ -14,19 +14,27 @@ There are great apps out on the internet, that are connected to services like <h
 Docs can be found at https://spaceflightnewsapi.net/api/v1/
 
 ## Currently imported news sites
-
-* https://www.nasaspaceflight.com/
-* https://www.spaceflightnow.com/
-* https://www.spacex.com/
-* https://www.spacenews.com/
-* https://www.nasa.gov/
-* https://www.esa.int/
-* https://www.arstechnica.com/
+* Nasaspaceflight,
+* Spacex,
+* Spaceflightnow,
+* Space.com,
+* Spacenews,
+* Nasa,
+* Phys,
+* Arstechnica,
+* Blueorigin,
+* Spaceflightinsider,
+* Thejapantimes,
+* Theverge,
+* Teslarati,
+* Elonx,
+* Virgingalactic,
+* Esa
 
 ## Currently imported blog sites
 
-* http://www.planetary.org/
-* https://www.jpl.nasa.gov/blog/
+* Planetary Society
+* National Space Society
 
 ## Space Launch Now integration
 Starting from version 1.2, we now have Space Launch Now integration. All documents have new key values
@@ -34,6 +42,11 @@ Starting from version 1.2, we now have Space Launch Now integration. All documen
 launch or event. Nice if you want to combine the two in your app!
 
 ## Changelog
+### v1.7.0 (24-12-2019)
+* Updated all libraries;
+* Better error handling for incorrect input;
+* Prep work for own CMS (users, register, login and auth support);
+
 ### v1.6.2 (27-11-2019)
 * Removed the offset parameter since the page parameter offers the same functionality;
 * Updated all libraries;
