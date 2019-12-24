@@ -4,7 +4,13 @@ const checkAdmin = require('../helpers/checkAdmin');
 const bcrypt = require('bcrypt');
 
 const getUsers = async (req, res) => {
-  return res.send('Hello World!')
+  const admin = await checkAdmin(req.token);
+  if (admin) {
+    const users = await User.find({});
+    return res.status(200).json(users)
+  } else {
+    return res.status(403).send({error: 'you are not allowed to do that'})
+  }
 };
 
 const addUser = async (req, res) => {
@@ -20,7 +26,7 @@ const addUser = async (req, res) => {
       }
     }
   } else {
-    return res.status(401).send({error: 'you are not allowed to do that'})
+    return res.status(403).send({error: 'you are not allowed to do that'})
   }
 };
 
@@ -40,7 +46,7 @@ const loginUser = async (req, res) => {
         const token = jwt.sign({user}, process.env.SECRET, {expiresIn: '1h'});
         return res.status(200).send({message: 'logged in', token: token});
       } else {
-        return res.status(403).send({error: 'bad credentials'});
+        return res.status(401).send({error: 'bad credentials'});
       }
     }
     return res.status(404).send({error: 'user not found'})
