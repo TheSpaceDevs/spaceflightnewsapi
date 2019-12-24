@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const Blog = require('../models/blog.model');
 
-module.exports.getBlogs = async (req, res, next) => {
+getBlogs = async (req, res, next) => {
   const options = {
     page: parseInt(req.query.page, 10) || 1,
     limit: parseInt(req.query.limit, 10) || 10,
@@ -36,7 +36,7 @@ module.exports.getBlogs = async (req, res, next) => {
   }
 };
 
-module.exports.postBlogs = (req, res) => {
+postBlogs = (req, res) => {
   jwt.verify(req.token, process.env.SECRET, async (err, authData) => {
     if (err || !authData.user.roles.includes('admin')) {
       return res.sendStatus(403);
@@ -61,7 +61,7 @@ module.exports.postBlogs = (req, res) => {
   });
 };
 
-module.exports.deleteBlogs = async (req, res) => {
+deleteBlogs = async (req, res) => {
   jwt.verify(req.token, process.env.SECRET, async (err, authData) => {
     if (err || !authData.user.roles.includes('admin')) {
       return res.sendStatus(403);
@@ -75,4 +75,10 @@ module.exports.deleteBlogs = async (req, res) => {
       return res.json({ error: 'Something went wrong with deleting!' });
     }
   });
+};
+
+module.exports = {
+  getBlogs,
+  postBlogs,
+  deleteBlogs
 };
