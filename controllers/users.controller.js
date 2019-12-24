@@ -1,7 +1,7 @@
 const User = require('../models/user.model');
 const jwt = require('jsonwebtoken');
 const checkAdmin = require('../helpers/checkAdmin');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 const getUsers = async (req, res) => {
   const admin = await checkAdmin(req.token);
