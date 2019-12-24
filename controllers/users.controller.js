@@ -28,6 +28,7 @@ const loginUser = async (req, res) => {
   try {
     const user = await User.findOne({email: req.body.email}).select('+password');
     if (user) {
+      // Check the password
       const match = await bcrypt.compare(req.body.password, user.password);
       if (match) {
         const token = jwt.sign({user}, process.env.SECRET, {expiresIn: '1h'});
