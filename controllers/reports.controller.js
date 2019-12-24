@@ -1,6 +1,6 @@
 const Report = require('../models/report.model');
 
-module.exports.getReports = async (req, res, next) => {
+getReports = async (req, res, next) => {
   const options = {
     page: parseInt(req.query.page, 10) || 1,
     limit: parseInt(req.query.limit, 10) || 10,
@@ -33,4 +33,8 @@ module.exports.getReports = async (req, res, next) => {
       console.log(e);
     }
   }
+};
+
+module.exports = {
+  getReports
 };

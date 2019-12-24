@@ -1,7 +1,7 @@
 const ArticleModel = require('../models/article.model');
 const pjson = require('../package');
 
-module.exports.getInfo = async (req, res, next) => {
+getInfo = async (req, res, next) => {
   let count = await ArticleModel.countDocuments({});
   let newsSites = await ArticleModel.distinct('news_site');
 
@@ -10,4 +10,8 @@ module.exports.getInfo = async (req, res, next) => {
     api_version: pjson.version,
     news_sites: newsSites,
   });
+};
+
+module.exports = {
+  getInfo
 };

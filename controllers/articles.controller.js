@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const Article = require('../models/article.model');
 
-module.exports.getArticles = async (req, res, next) => {
+getArticles = async (req, res, next) => {
   const options = {
     page: parseInt(req.query.page, 10) || 1,
     limit: parseInt(req.query.limit, 10) || 10,
@@ -22,6 +22,9 @@ module.exports.getArticles = async (req, res, next) => {
       );
       res.send(result);
     } catch (e) {
+      if (e.name === 'CastError' && e.path === '_id') {
+        return res.status(400).send({error: 'wrong _id format received. do not wrap it on quotes'})
+      }
       res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
       console.log(e);
     }
@@ -30,13 +33,16 @@ module.exports.getArticles = async (req, res, next) => {
       let result = await Article.paginate(req.query, options);
       res.send(result);
     } catch (e) {
+      if (e.name === 'CastError' && e.path === '_id') {
+        return res.status(400).send({error: 'wrong _id format received. do not wrap it on quotes'})
+      }
       res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
       console.log(e);
     }
   }
 };
 
-module.exports.postArticles = (req, res) => {
+postArticles = (req, res) => {
   jwt.verify(req.token, process.env.SECRET, async (err, authData) => {
     if (err || !authData.user.roles.includes('admin')) {
       return res.sendStatus(403);
@@ -61,7 +67,7 @@ module.exports.postArticles = (req, res) => {
   });
 };
 
-module.exports.deleteArticles = async (req, res) => {
+deleteArticles = async (req, res) => {
   jwt.verify(req.token, process.env.SECRET, async (err, authData) => {
     if (err || !authData.user.roles.includes('admin')) {
       return res.sendStatus(403);
@@ -75,4 +81,10 @@ module.exports.deleteArticles = async (req, res) => {
       return res.json({ error: 'Something went wrong with deleting!' });
     }
   });
+};
+
+module.exports = {
+  getArticles,
+  postArticles,
+  deleteArticles
 };
