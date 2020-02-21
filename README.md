@@ -42,6 +42,12 @@ Starting from version 1.2, we now have Space Launch Now integration. All documen
 launch or event. Nice if you want to combine the two in your app!
 
 ## Changelog
+### v1.9.0 (24-12-2019)
+* Library updates
+
+### v1.8.0 (22-01-2019)
+* Library updates
+
 ### v1.7.0 (24-12-2019)
 * Updated all libraries;
 * Better error handling for incorrect input;
