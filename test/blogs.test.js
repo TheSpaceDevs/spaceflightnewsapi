@@ -29,7 +29,7 @@ describe('Blogs', () => {
       });
   });
 
-  it('Get a single blog, expect it to be an array with a length of 10 and status code 200', (done) => {
+  it('Get a single blog, expect it to be an array and status code 200', (done) => {
     chai.request(app)
       .get('/api/v1/blogs?_id=5e0df50d75bf2e9f5bd95fa9')
       .end((err, res) => {
@@ -40,7 +40,7 @@ describe('Blogs', () => {
       });
   });
 
-  it('Get all blogs by planetarysociety, expect it to be an array with a length of 10 and status code 200', (done) => {
+  it('Get all blogs by planetarysociety, expect it to be an array and status code 200', (done) => {
     chai.request(app)
       .get('/api/v1/blogs?news_site=planetarysociety')
       .end((err, res) => {

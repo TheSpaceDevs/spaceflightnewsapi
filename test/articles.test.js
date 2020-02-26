@@ -40,7 +40,7 @@ describe('Articles', () => {
       });
   });
 
-  it('Get all articles by SpaceX, expect it to be an array with a length of 10 and status code 200', (done) => {
+  it('Get all articles by SpaceX, expect it to be an array and status code 200', (done) => {
     chai.request(app)
       .get('/api/v1/articles?news_site=spacex')
       .end((err, res) => {
