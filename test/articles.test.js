@@ -31,7 +31,7 @@ describe('Articles', () => {
 
   it('Get a single article, expect it to be an array with a length of 10 and status code 200', (done) => {
     chai.request(app)
-      .get('/api/v1/articles?_id=5cb883985f55de37f115e54e')
+      .get('/api/v1/articles?_id=5e1d86133f939d8c65a308ff')
       .end((err, res) => {
         expect(res).to.have.status(200);
         expect(res.body.docs).to.be.an('array');
@@ -75,8 +75,8 @@ describe('Articles', () => {
         'featured_image': 'https://snapi.space'
       })
       .end((err, res) => {
-        expect(res).to.have.status(403);
-        expect(res.forbidden).eql(true);
+        expect(res).to.have.status(401);
+        expect(res.unauthorized).eql(true);
         done()
       });
   });
