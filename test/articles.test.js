@@ -29,7 +29,7 @@ describe('Articles', () => {
       });
   });
 
-  it('Get a single article, expect it to be an array with a length of 10 and status code 200', (done) => {
+  it('Get a single article, expect it to be an array and status code 200', (done) => {
     chai.request(app)
       .get('/api/v1/articles?_id=5e1d86133f939d8c65a308ff')
       .end((err, res) => {

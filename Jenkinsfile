@@ -7,6 +7,7 @@ pipeline {
 
     stage('Cloning Git') {
       steps {
+        cleanWs()
         git 'https://github.com/spaceflightnewsapi/spaceflightnewsapi.git'
       }
     }
