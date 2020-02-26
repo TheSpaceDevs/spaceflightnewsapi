@@ -5,13 +5,6 @@ pipeline {
 
   stages {
 
-    stage('Cloning Git') {
-      steps {
-        cleanWs()
-        git 'https://github.com/spaceflightnewsapi/spaceflightnewsapi.git'
-      }
-    }
-
     stage('Install dependencies') {
       steps {
         sh 'npm install'
