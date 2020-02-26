@@ -20,7 +20,7 @@ pipeline {
     stage('Test') {
         steps {
             withCredentials([
-              string(credentialsId: 'Mongo Credentials SNAPI (RO)', variable: 'mongo_uri'),
+              string(credentialsId: 'MONGODB_URI', variable: 'mongo_uri'),
               string(credentialsId: 'SECRET', variable: 'secret'),
               string(credentialsId: 'TESTPASS', variable: 'testpass'),
               string(credentialsId: 'TESTUSER', variable: 'testuser'),
