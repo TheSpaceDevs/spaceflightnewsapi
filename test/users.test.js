@@ -3,12 +3,13 @@ const expect = require('chai').expect;
 const chaiHttp = require('chai-http');
 
 const app = require('../app');
-var token = ""
 
 const userCredentials = {
-  email: 'derk@weijers.xyz', 
-  password: 'Welkom123'
+  email: process.env.TESTUSER, 
+  password: process.env.TESTPASS
 }
+
+var token = ""
 
 chai.use(chaiHttp);
 
