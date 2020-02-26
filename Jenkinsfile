@@ -24,7 +24,11 @@ pipeline {
         }
     }
 
-    stage('Build versioned Docker image') {
+
+        stage('Build versioned Docker image'){
+      when{
+    branch 'development'
+  }
         steps {
           withCredentials([
               string(credentialsId: 'docker', variable: 'docker'),
@@ -38,7 +42,24 @@ pipeline {
           }
             }
         }
-    }
+}
+
+    stage('Build production/latest Docker image'){
+      when{
+    branch 'master'
+  }
+  steps {
+              withCredentials([
+              string(credentialsId: 'docker', variable: 'docker'),
+              ]) {
+                script {
+                  sh 'docker login --username ironrain --password $docker'
+                  sh "docker build -t ironrain/spaceflightnewsapi:latest ."
+                  sh "docker push ironrain/spaceflightnewsapi:latest"
+          }
+            }
+  }
+}
     
   }
 }
