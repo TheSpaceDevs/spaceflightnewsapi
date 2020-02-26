@@ -25,7 +25,7 @@ pipeline {
               string(credentialsId: 'TESTPASS', variable: 'testpass'),
               string(credentialsId: 'TESTUSER', variable: 'testuser'),
               ]) {
-                sh 'TESTUSER=testuser TESTPASS=testpass SECRET=secret MONGODB_URI=$mongo_uri npm run test'
+                sh 'TESTUSER=$testuser TESTPASS=$testpass SECRET=$secret MONGODB_URI=$mongo_uri npm run test'
             }
         }
     }
