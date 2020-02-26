@@ -26,8 +26,10 @@ pipeline {
 
     stage('Build versioned Docker image') {
         steps {
+          script {
             def packageJSON = readJSON file: 'package.json'
             def packageJSONVersion = packageJSON.version
+          }
           sh "docker build -t ironrain/spaceflightnewsapi:${packageJSONVersion} ."
         }
     }
