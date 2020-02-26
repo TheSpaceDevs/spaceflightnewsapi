@@ -29,8 +29,9 @@ pipeline {
           script {
             def packageJSON = readJSON file: 'package.json'
             def packageJSONVersion = packageJSON.version
+            echo packageJSONVersion
           }
-          sh "docker build -t ironrain/spaceflightnewsapi:${packageJSONVersion} ."
+          // sh "docker build -t ironrain/spaceflightnewsapi:${packageJSONVersion} ."
         }
     }
     
