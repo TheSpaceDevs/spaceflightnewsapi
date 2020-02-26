@@ -30,6 +30,7 @@ pipeline {
             def packageJSON = readJSON file: 'package.json'
             def packageJSONVersion = packageJSON.version
             sh "docker build -t ironrain/spaceflightnewsapi:${packageJSONVersion} ."
+            sh "docker push ironrain/spaceflightnewsapi:${packageJSONVersion}"
           }
         }
     }
