@@ -12,8 +12,13 @@ const infoRouter = require('./routes/info.router');
 const reportsRouter = require('./routes/reports.router');
 const usersRouter = require('./routes/users.router');
 
+// Configure dotenv
+require('dotenv').config()
+
+// Setup the app
 const app = express();
 
+// Setting up some options
 app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -23,6 +28,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(morgan('combined'));
 
+// Setting up the routes
 app.use('/api/v1', express.static(path.join(__dirname, 'public')));
 app.use('/api/v1/articles', articlesRouter);
 app.use('/api/v1/blogs', blogsRouter);
@@ -30,6 +36,7 @@ app.use('/api/v1/reports', reportsRouter);
 app.use('/api/v1/info', infoRouter);
 app.use('/api/v1/users', usersRouter);
 
+// Connecting to the database
 const mongoOptions = {
   useNewUrlParser: true,
   useCreateIndex: true,
