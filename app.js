@@ -13,7 +13,7 @@ const reportsRouter = require('./routes/reports.router');
 const usersRouter = require('./routes/users.router');
 
 // Configure dotenv
-require('dotenv').config()
+require('dotenv').config();
 
 // Setup the app
 const app = express();
@@ -38,18 +38,20 @@ app.use('/api/v1/users', usersRouter);
 
 // Error handling
 app.use((req, res, next) => {
-  const error = new Error('Not Found')
+  const error = new Error('Not Found');
   res.status(404);
-  next(error)
+  next(error);
 });
 
+// We need the next() for a correct function signature
+// eslint-disable-next-line no-unused-vars
 app.use((error, req, res, next) => {
-  const statusCode = res.statusCode === 200 ? 500 : res.statusCode
+  const statusCode = res.statusCode === 200 ? 500 : res.statusCode;
   res.status(statusCode);
   res.json({
-    message: error.message
-  })
-})
+    message: error.message,
+  });
+});
 
 // Connecting to the database
 const mongoOptions = {
@@ -61,18 +63,26 @@ const mongoOptions = {
 
 try {
   mongoose.connect(process.env.MONGODB_URI, mongoOptions);
-  mongoose.connection.on('connected', function() {
+  mongoose.connection.on('connected', () => {
+    // We'd like to know this
+    // eslint-disable-next-line no-console
     console.log('MongoDB connected!');
   });
-  mongoose.connection.on('error', function(error) {
-    console.log('MongoDB error: ' + error);
+  mongoose.connection.on('error', (error) => {
+    // We'd like to know this.
+    // eslint-disable-next-line no-console
+    console.log(`MongoDB error: ${error}`);
     mongoose.disconnect();
   });
-  mongoose.connection.on('disconnected', function(error) {
-    console.log('MongoDB disconnected!');
+  mongoose.connection.on('disconnected', (error) => {
+    // We'd like to know this
+    // eslint-disable-next-line no-console
+    console.log(`MongoDB disconnected! :${error}`);
     mongoose.connect(process.env.MONGODB_URI, mongoOptions);
   });
 } catch (e) {
+  // We'd like to know this
+  // eslint-disable-next-line no-console
   console.log(e);
 }
 

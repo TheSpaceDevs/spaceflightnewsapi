@@ -12,7 +12,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "start:dev": "nodemon ./bin/www",
-    "test": "./node_modules/.bin/mocha --exit"
+    "test": "./node_modules/.bin/mocha --exit",
+    "lint": "eslint controllers/*.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -34,6 +35,9 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
     "mocha": "^6.2.2",
     "prettier": "1.19.1"
   }

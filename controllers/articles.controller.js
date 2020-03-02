@@ -1,48 +1,54 @@
 const jwt = require('jsonwebtoken');
 const Article = require('../models/article.model');
 
-getArticles = async (req, res, next) => {
+const getArticles = async (req, res) => {
   const options = {
     page: parseInt(req.query.page, 10) || 1,
     limit: parseInt(req.query.limit, 10) || 10,
-    sort: req.query.sort || '-date_published'
+    sort: req.query.sort || '-date_published',
   };
 
-  for (const key in options) {
+  Object.keys(options).forEach((key) => {
+    // since options has hard codes keys, we can disable no-prototype-builtins
+    // eslint-disable-next-line no-prototype-builtins
     if (options.hasOwnProperty(key)) {
       delete req.query[key];
     }
-  }
+  });
 
   if (req.query.search) {
     try {
-      let result = await Article.paginate(
+      const result = await Article.paginate(
         { $text: { $search: req.query.search } },
         options,
       );
-      res.send(result);
+      return res.send(result);
     } catch (e) {
       if (e.name === 'CastError' && e.path === '_id') {
-        return res.status(400).send({error: 'wrong _id format received. do not wrap it in quotes'})
+        return res.status(400).send({ error: 'wrong _id format received. do not wrap it in quotes' });
       }
-      res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
+      // TODO: implement Sentry
+      // eslint-disable-next-line
       console.log(e);
+      return res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
     }
-  } else {
-    try {
-      let result = await Article.paginate(req.query, options);
-      res.send(result);
-    } catch (e) {
-      if (e.name === 'CastError' && e.path === '_id') {
-        return res.status(400).send({error: 'wrong _id format received. do not wrap it in quotes'})
-      }
-      res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
-      console.log(e);
+  }
+
+  try {
+    const result = await Article.paginate(req.query, options);
+    return res.send(result);
+  } catch (e) {
+    if (e.name === 'CastError' && e.path === '_id') {
+      return res.status(400).send({ error: 'wrong _id format received. do not wrap it in quotes' });
     }
+    // TODO: implement Sentry
+    // eslint-disable-next-line
+    console.log(e);
+    return res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
   }
 };
 
-postArticles = (req, res) => {
+const postArticles = (req, res) => {
   jwt.verify(req.token, process.env.SECRET, async (err, authData) => {
     if (err || !authData.user.roles.includes('admin')) {
       return res.sendStatus(403);
@@ -67,16 +73,21 @@ postArticles = (req, res) => {
   });
 };
 
-deleteArticles = async (req, res) => {
+const deleteArticles = async (req, res) => {
   jwt.verify(req.token, process.env.SECRET, async (err, authData) => {
     if (err || !authData.user.roles.includes('admin')) {
       return res.sendStatus(403);
     }
 
     try {
+      // We need the _id
+      // eslint-disable-next-line
       await Article.deleteMany({ _id: { $in: req.query._id } });
+      // eslint-disable-next-line
       return res.json({ deleted: req.query._id });
     } catch (e) {
+      // TODO: implement Sentry
+      // eslint-disable-next-line
       console.log(e);
       return res.json({ error: 'Something went wrong with deleting!' });
     }
@@ -86,5 +97,5 @@ deleteArticles = async (req, res) => {
 module.exports = {
   getArticles,
   postArticles,
-  deleteArticles
+  deleteArticles,
 };

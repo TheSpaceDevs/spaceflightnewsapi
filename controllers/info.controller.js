@@ -1,9 +1,9 @@
 const ArticleModel = require('../models/article.model');
 const pjson = require('../package');
 
-getInfo = async (req, res, next) => {
-  let count = await ArticleModel.countDocuments({});
-  let newsSites = await ArticleModel.distinct('news_site');
+const getInfo = async (req, res) => {
+  const count = await ArticleModel.countDocuments({});
+  const newsSites = await ArticleModel.distinct('news_site');
 
   res.send({
     total_number_of_articles: count,
@@ -13,5 +13,5 @@ getInfo = async (req, res, next) => {
 };
 
 module.exports = {
-  getInfo
+  getInfo,
 };

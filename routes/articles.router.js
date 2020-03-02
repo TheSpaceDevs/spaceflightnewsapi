@@ -1,4 +1,6 @@
+/* eslint-disable max-len */
 const express = require('express');
+
 const router = express.Router();
 const ArticleController = require('../controllers/articles.controller');
 const jwtVerify = require('../helpers/jwtVerify');
@@ -137,7 +139,7 @@ router.get('/', ArticleController.getArticles);
  *       "_id": "5c6d3eb769e4a32ec36c7240",
  *       "news_site": "phys",
  *       "news_site_long": "Phys",
- *       "title": "Control of Russian radio telescopasdasde satellite sdfsdfsdfsdflostsdfgdfgsdfsdfsdfdfssdfsdfdf",
+ *       "title": "Control of Russian radio telescopasdasde satellite",
  *       "url": "https://phys.org/news/2019-01-rusasdasdsian-radio-tsdfsdfelescopesdf-satellite-lossdfsddfsdfsdfgdfgft.html",
  *       "featured_image": "https://dummyimage.com/1024x1024/2c3e50/fcfcfc&text=No+Image+Available",
  *       "__v": 0

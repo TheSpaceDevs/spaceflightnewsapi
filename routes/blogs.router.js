@@ -1,4 +1,6 @@
+/* eslint-disable max-len */
 const express = require('express');
+
 const router = express.Router();
 const BlogsController = require('../controllers/blogs.controller');
 const jwtVerify = require('../helpers/jwtVerify');

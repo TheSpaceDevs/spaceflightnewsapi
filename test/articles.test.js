@@ -31,7 +31,7 @@ describe('Articles', () => {
 
   it('Get a single article, expect it to be an array and status code 200', (done) => {
     chai.request(app)
-      .get('/api/v1/articles?_id=5e1d86133f939d8c65a308ff')
+      .get('/api/v1/articles?_id=5e5915da1d3dcda36111e750')
       .end((err, res) => {
         expect(res).to.have.status(200);
         expect(res.body.docs).to.be.an('array');
