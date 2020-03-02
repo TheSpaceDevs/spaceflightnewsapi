@@ -29,9 +29,9 @@ describe('Blogs', () => {
       });
   });
 
-  it('Get a single blog, expect it to be an array with a length of 10 and status code 200', (done) => {
+  it('Get a single blog, expect it to be an array and status code 200', (done) => {
     chai.request(app)
-      .get('/api/v1/blogs?_id=5cb2683adbfe2d276f324025')
+      .get('/api/v1/blogs?_id=5e0df50d75bf2e9f5bd95fa9')
       .end((err, res) => {
         expect(res).to.have.status(200);
         expect(res.body.docs).to.be.an('array');
@@ -40,7 +40,7 @@ describe('Blogs', () => {
       });
   });
 
-  it('Get all blogs by planetarysociety, expect it to be an array with a length of 10 and status code 200', (done) => {
+  it('Get all blogs by planetarysociety, expect it to be an array and status code 200', (done) => {
     chai.request(app)
       .get('/api/v1/blogs?news_site=planetarysociety')
       .end((err, res) => {
@@ -75,8 +75,8 @@ describe('Blogs', () => {
         'featured_image': 'https://snapi.space'
       })
       .end((err, res) => {
-        expect(res).to.have.status(403);
-        expect(res.forbidden).eql(true);
+        expect(res).to.have.status(401);
+        expect(res.unauthorized).eql(true);
         done()
       });
   });

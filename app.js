@@ -4,8 +4,7 @@ const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
-const pino = require('pino');
-const expressPino = require('express-pino-logger');
+const morgan = require('morgan');
 
 const articlesRouter = require('./routes/articles.router');
 const blogsRouter = require('./routes/blogs.router');
@@ -13,11 +12,13 @@ const infoRouter = require('./routes/info.router');
 const reportsRouter = require('./routes/reports.router');
 const usersRouter = require('./routes/users.router');
 
-const logger = pino({ level: process.env.LOG_LEVEL || 'info' });
-const expressLogger = expressPino({ logger });
+// Configure dotenv
+require('dotenv').config();
 
+// Setup the app
 const app = express();
 
+// Setting up some options
 app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -25,15 +26,34 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(expressLogger);
+app.use(morgan('combined'));
 
+// Setting up the routes
 app.use('/api/v1', express.static(path.join(__dirname, 'public')));
 app.use('/api/v1/articles', articlesRouter);
 app.use('/api/v1/blogs', blogsRouter);
 app.use('/api/v1/reports', reportsRouter);
 app.use('/api/v1/info', infoRouter);
-app.use('/api/v1/users', usersRouter  );
+app.use('/api/v1/users', usersRouter);
 
+// Error handling
+app.use((req, res, next) => {
+  const error = new Error('Not Found');
+  res.status(404);
+  next(error);
+});
+
+// We need the next() for a correct function signature
+// eslint-disable-next-line no-unused-vars
+app.use((error, req, res, next) => {
+  const statusCode = res.statusCode === 200 ? 500 : res.statusCode;
+  res.status(statusCode);
+  res.json({
+    message: error.message,
+  });
+});
+
+// Connecting to the database
 const mongoOptions = {
   useNewUrlParser: true,
   useCreateIndex: true,
@@ -43,18 +63,26 @@ const mongoOptions = {
 
 try {
   mongoose.connect(process.env.MONGODB_URI, mongoOptions);
-  mongoose.connection.on('connected', function() {
+  mongoose.connection.on('connected', () => {
+    // We'd like to know this
+    // eslint-disable-next-line no-console
     console.log('MongoDB connected!');
   });
-  mongoose.connection.on('error', function(error) {
-    console.log('MongoDB error: ' + error);
+  mongoose.connection.on('error', (error) => {
+    // We'd like to know this.
+    // eslint-disable-next-line no-console
+    console.log(`MongoDB error: ${error}`);
     mongoose.disconnect();
   });
-  mongoose.connection.on('disconnected', function(error) {
-    console.log('MongoDB disconnected!');
+  mongoose.connection.on('disconnected', (error) => {
+    // We'd like to know this
+    // eslint-disable-next-line no-console
+    console.log(`MongoDB disconnected! :${error}`);
     mongoose.connect(process.env.MONGODB_URI, mongoOptions);
   });
 } catch (e) {
+  // We'd like to know this
+  // eslint-disable-next-line no-console
   console.log(e);
 }
 

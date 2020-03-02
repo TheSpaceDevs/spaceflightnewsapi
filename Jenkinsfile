@@ -5,12 +5,6 @@ pipeline {
 
   stages {
 
-    stage('Cloning Git') {
-      steps {
-        git 'https://github.com/spaceflightnewsapi/spaceflightnewsapi.git'
-      }
-    }
-
     stage('Install dependencies') {
       steps {
         sh 'npm install'
@@ -19,10 +13,53 @@ pipeline {
 
     stage('Test') {
         steps {
-            withCredentials([string(credentialsId: 'Mongo Credentials SNAPI (RO)', variable: 'mongo_uri')]) {
-                sh 'MONGODB_URI=$mongo_uri npm test'
+            withCredentials([
+              string(credentialsId: 'MONGODB_URI', variable: 'mongo_uri'),
+              string(credentialsId: 'SECRET', variable: 'secret'),
+              string(credentialsId: 'TESTPASS', variable: 'testpass'),
+              string(credentialsId: 'TESTUSER', variable: 'testuser'),
+              ]) {
+                sh 'TESTUSER=$testuser TESTPASS=$testpass SECRET=$secret MONGODB_URI=$mongo_uri npm run test'
             }
         }
     }
+
+
+        stage('Build versioned Docker image'){
+      when{
+    branch 'development'
+  }
+        steps {
+          withCredentials([
+              string(credentialsId: 'docker', variable: 'docker'),
+              ]) {
+                script {
+                  def packageJSON = readJSON file: 'package.json'
+                  def packageJSONVersion = packageJSON.version
+                  sh 'docker login --username ironrain --password $docker'
+                  sh "docker build -t ironrain/spaceflightnewsapi:${packageJSONVersion} ."
+                  sh "docker push ironrain/spaceflightnewsapi:${packageJSONVersion}"
+          }
+            }
+        }
+}
+
+    stage('Build production/latest Docker image'){
+      when{
+    branch 'master'
+  }
+  steps {
+              withCredentials([
+              string(credentialsId: 'docker', variable: 'docker'),
+              ]) {
+                script {
+                  sh 'docker login --username ironrain --password $docker'
+                  sh "docker build -t ironrain/spaceflightnewsapi:latest ."
+                  sh "docker push ironrain/spaceflightnewsapi:latest"
+          }
+            }
+  }
+}
+    
   }
 }
