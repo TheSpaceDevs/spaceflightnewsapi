@@ -23,7 +23,7 @@ getArticles = async (req, res, next) => {
       res.send(result);
     } catch (e) {
       if (e.name === 'CastError' && e.path === '_id') {
-        return res.status(400).send({error: 'wrong _id format received. do not wrap it on quotes'})
+        return res.status(400).send({error: 'wrong _id format received. do not wrap it in quotes'})
       }
       res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
       console.log(e);
@@ -34,7 +34,7 @@ getArticles = async (req, res, next) => {
       res.send(result);
     } catch (e) {
       if (e.name === 'CastError' && e.path === '_id') {
-        return res.status(400).send({error: 'wrong _id format received. do not wrap it on quotes'})
+        return res.status(400).send({error: 'wrong _id format received. do not wrap it in quotes'})
       }
       res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
       console.log(e);

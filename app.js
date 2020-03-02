@@ -36,6 +36,21 @@ app.use('/api/v1/reports', reportsRouter);
 app.use('/api/v1/info', infoRouter);
 app.use('/api/v1/users', usersRouter);
 
+// Error handling
+app.use((req, res, next) => {
+  const error = new Error('Not Found')
+  res.status(404);
+  next(error)
+});
+
+app.use((error, req, res, next) => {
+  const statusCode = res.statusCode === 200 ? 500 : res.statusCode
+  res.status(statusCode);
+  res.json({
+    message: error.message
+  })
+})
+
 // Connecting to the database
 const mongoOptions = {
   useNewUrlParser: true,
