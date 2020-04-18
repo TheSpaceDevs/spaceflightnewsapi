@@ -1,7 +1,8 @@
-[![Build Status](https://travis-ci.org/spaceflightnewsapi/spaceflightnewsapi.svg?branch=master)](https://travis-ci.org/spaceflightnewsapi/spaceflightnewsapi)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5ad094cb6a3847b48985345309d579b0)](https://www.codacy.com/app/derkweijers/spaceflightnewsapi?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=spaceflightnewsapi/spaceflightnewsapi&amp;utm_campaign=Badge_Grade)
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/master)
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/development)
+![Node.js CI](https://github.com/spaceflightnewsapi/spaceflightnewsapi/workflows/Node.js%20CI/badge.svg)
 ![Discord](https://img.shields.io/discord/482110141131522058.svg)
-![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m781471335-50a622775755ea51d2e440e5.svg)
+![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m782215986-8b4d4ce5cf97cc49945e10b8)
 
 # Spacelaunch News API
 Spacelaunch News API was created as a solution for my problem when I wanted to develop an app for Spaceflight News: many (great!) news sites with different API's.
@@ -42,6 +43,10 @@ Starting from version 1.2, we now have Space Launch Now integration. All documen
 launch or event. Nice if you want to combine the two in your app!
 
 ## Changelog
+### v1.11.0
+* Library updates
+* Github Actions added
+
 ### v1.10.0 (02-03-2020)
 * Library updates
 * Improved testing
