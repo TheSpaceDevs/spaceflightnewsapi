@@ -25,7 +25,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
-    - run: npm run build --if-present
     - run: npm test
       env:
         CI: true
+        MONGODB_URI: ${{ secrets.MONGODB_URI }}
+        COOKIE_SECRET: ${{ secrets.COOKIE_SECRET }}
+        SECRET: ${{ secrets.SECRET }}
+        TESTUSER: ${{ secrets.TESTUSER }}
+        TESTPASS: ${{ secrets.TESTPASS }}
