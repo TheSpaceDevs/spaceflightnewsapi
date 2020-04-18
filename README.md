@@ -1,4 +1,5 @@
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/master)
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/development)
 ![Node.js CI](https://github.com/spaceflightnewsapi/spaceflightnewsapi/workflows/Node.js%20CI/badge.svg)
 ![Discord](https://img.shields.io/discord/482110141131522058.svg)
 ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m782215986-8b4d4ce5cf97cc49945e10b8)
