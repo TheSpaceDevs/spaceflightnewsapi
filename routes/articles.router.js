@@ -169,6 +169,6 @@ router.post('/', jwtVerify, ArticleController.postArticles);
  *
  * @apiParam {String} _id ID's of the articles that you want to delete. Chain to delete multiple at the same time.
  */
-router.delete('/', jwtVerify, ArticleController.deleteArticles);
+router.delete('/:id', jwtVerify, ArticleController.deleteArticles);
 
 module.exports = router;

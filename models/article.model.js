@@ -5,57 +5,54 @@ const uniqueValidator = require('mongoose-unique-validator');
 const { Schema } = mongoose;
 
 const articleSchema = new Schema({
-  news_site: {
-    type: String,
-    required: true,
-  },
-  news_site_long: {
-    type: String,
-    required: true,
-  },
   title: {
     type: String,
     required: true,
-    unique: true,
+    unique: [true, 'Your username cannot be blank.']
   },
   url: {
     type: String,
     required: true,
-    unique: true,
+    unique: true
   },
-  date_published: {
-    type: Number,
-    default: Math.floor(Date.now() / 1000),
-  },
-  date_added: {
-    type: Number,
-    default: Math.floor(Date.now() / 1000),
-  },
-  tags: [String],
-  categories: [String],
-  featured_image: {
+  imageUrl: {
     type: String,
     required: true,
   },
+  newsSite: {
+    type: String,
+    required: true
+  },
+  summary: {
+    type: String,
+    required: false,
+    default: "No summary available"
+  },
+  publishedAt: {
+    type: Date,
+    required: true,
+  },
+  launches: [{"provider": String, "id": {}}],
+  events: [{"provider": String, "id": {}}],
+  deleted: {
+    type: Boolean,
+    required: false,
+    default: false,
+    select: false
+  },
   featured: {
     type: Boolean,
-    default: false,
-  },
-  launches: [String],
-  events: [String],
-  ll: [String],
-  published_date: {
-    type: Date,
-  },
-  imported_date: {
-    type: Date,
-  },
+    required: false,
+    default: false
+  }
+}, {
+  timestamps: true,
+  versionKey: false
 });
 
 articleSchema.index({
   title: 'text',
-  news_site: 'text',
-  news_site_long: 'text',
+  newsSite: 'text'
 });
 
 articleSchema.plugin(mongoosePaginate);

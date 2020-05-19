@@ -3,7 +3,6 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
 const helmet = require('helmet');
-const bodyParser = require('body-parser');
 const morgan = require('morgan');
 
 const articlesRouter = require('./routes/articles.router');
@@ -24,17 +23,17 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
 app.use(morgan('combined'));
 
 // Setting up the routes
-app.use('/api/v1', express.static(path.join(__dirname, 'public')));
-app.use('/api/v1/articles', articlesRouter);
-app.use('/api/v1/blogs', blogsRouter);
-app.use('/api/v1/reports', reportsRouter);
-app.use('/api/v1/info', infoRouter);
-app.use('/api/v1/users', usersRouter);
+app.use('/v2', express.static(path.join(__dirname, 'public')));
+app.use('/v2/articles', articlesRouter);
+app.use('/v2/blogs', blogsRouter);
+app.use('/v2/reports', reportsRouter);
+app.use('/v2/info', infoRouter);
+app.use('/v2/users', usersRouter);
 
 // Error handling
 app.use((req, res, next) => {

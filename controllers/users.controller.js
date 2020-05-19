@@ -13,8 +13,7 @@ const getUsers = async (req, res) => {
 };
 
 const addUser = async (req, res) => {
-  const admin = await checkAdmin(req.token);
-  if (!admin) {
+  if (!await checkAdmin(req.token)) {
     return res.status(403).send({ error: 'you are not allowed to do that' });
   }
 
