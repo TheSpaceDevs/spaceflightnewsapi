@@ -8,7 +8,7 @@ const articleSchema = new Schema({
   title: {
     type: String,
     required: true,
-    unique: [true, 'Your username cannot be blank.']
+    unique: true
   },
   url: {
     type: String,
