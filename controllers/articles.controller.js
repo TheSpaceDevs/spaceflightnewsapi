@@ -1,4 +1,3 @@
-const jwt = require('jsonwebtoken');
 const Article = require('../models/article.model');
 
 const getArticles = async (req, res, next) => {
