@@ -1,22 +1,13 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const User = require('../models/user.model');
-const checkAdmin = require('../helpers/checkAdmin');
 
 const getUsers = async (req, res) => {
-  const admin = await checkAdmin(req.token);
-  if (admin) {
-    const users = await User.find({});
-    return res.status(200).json(users);
-  }
-  return res.status(403).send({ error: 'you are not allowed to do that' });
+  const users = await User.find({});
+  return res.status(200).json(users);
 };
 
 const addUser = async (req, res) => {
-  if (!await checkAdmin(req.token)) {
-    return res.status(403).send({ error: 'you are not allowed to do that' });
-  }
-
   const user = new User(req.body);
   try {
     await user.save();
