@@ -159,6 +159,8 @@ router.get('/', ArticleController.getArticles);
  */
 router.post('/', jwtVerify, ArticleController.postArticles);
 
+router.patch('/:id', jwtVerify, ArticleController.patchArticles)
+
 /**
  * @api {delete} /api/v1/articles Delete articles
  * @apiName DeleteArticles

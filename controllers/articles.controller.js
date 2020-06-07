@@ -3,7 +3,7 @@ const Article = require('../models/article.model');
 const checkAdmin = require('../helpers/checkAdmin');
 
 
-const getArticles = async (req, res) => {
+const getArticles = async (req, res, next) => {
   const options = {
     page: parseInt(req.query.page, 10) || 1,
     limit: parseInt(req.query.limit, 10) || 10,
@@ -22,16 +22,17 @@ const getArticles = async (req, res) => {
     const result = await Article.paginate({}, options);
     return res.send(result);
   } catch (e) {
-    // TODO: implement Sentry
-    // eslint-disable-next-line
-    console.log(e);
-    return res.status(500).send({ message: 'Uh-oh, something went wrong. Please try again!' });
+    const error = new Error("Uh-oh, something went wrong. Please try again!")
+    res.status(500)
+    return next(error)
   }
 };
 
-const postArticles = async (req, res) => {
+const postArticles = async (req, res, next) => {
   if (!await checkAdmin(req.token)) {
-    return res.status(403).send({ error: 'you are not allowed to do that' });
+    const error = new Error('you are not allowed to do that')
+    res.status(403)
+    return next(error)
   }
   const newArticle = new Article(req.body);
 
@@ -44,17 +45,36 @@ const postArticles = async (req, res) => {
   } catch (err) {
     console.log(err);
     if (err.name === 'ValidationError') {
-      return res
-        .status(422)
-        .json({ error: err.errors });
+      const error = new Error(err.errors)
+      res.status(422)
+      return next(error)
     }
-    return res.status(500).json({ message: 'error' });
   }
 };
 
-const deleteArticles = async (req, res) => {
+const patchArticles = async (req, res, next) => {
+  const {id} = req.params;
+
   if (!await checkAdmin(req.token)) {
-    return res.status(403).send({ error: 'you are not allowed to do that' });
+    const error = new Error('you are not allowed to do that')
+    res.status(403)
+    return next(error)
+  }
+
+  try {
+    await Article.findByIdAndUpdate({_id: id}, req.body);
+    const article = await Article.findById({_id: id});
+    return res.status(202).json(article);
+  } catch (err) {
+    return next(err);
+  }
+}
+
+const deleteArticles = async (req, res, next) => {
+  if (!await checkAdmin(req.token)) {
+    const error = new Error('you are not allowed to do that')
+    res.status(403)
+    return next(error)
   }
 
   try {
@@ -63,16 +83,14 @@ const deleteArticles = async (req, res) => {
     const result = await Article.deleteMany({ _id: { $in: req.params.id } });
     // eslint-disable-next-line
     return res.json({ deleted: req.params.id});
-  } catch (e) {
-    // TODO: implement Sentry
-    // eslint-disable-next-line
-    console.log(e);
-    return res.json({ error: 'Something went wrong with deleting!' });
+  } catch (err) {
+    return next(err)
   }
 };
 
 module.exports = {
   getArticles,
   postArticles,
+  patchArticles,
   deleteArticles,
 };

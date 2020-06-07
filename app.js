@@ -35,7 +35,7 @@ app.use('/v2/reports', reportsRouter);
 app.use('/v2/info', infoRouter);
 app.use('/v2/users', usersRouter);
 
-// Error handling
+// Handling the not found cases
 app.use((req, res, next) => {
   const error = new Error('Not Found');
   res.status(404);
@@ -58,6 +58,7 @@ const mongoOptions = {
   useCreateIndex: true,
   auto_reconnect: true,
   useUnifiedTopology: true,
+  useFindAndModify: false,
 };
 
 try {
