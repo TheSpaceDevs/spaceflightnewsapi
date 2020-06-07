@@ -3,7 +3,7 @@ const express = require('express');
 
 const router = express.Router();
 const ArticleController = require('../controllers/articles.controller');
-const jwtVerify = require('../helpers/jwtVerify');
+const {isAdmin, getToken} = require('../helpers/authHelpers')
 
 /**
  * @api {get} /api/v1/articles Get articles
@@ -157,9 +157,9 @@ router.get('/', ArticleController.getArticles);
  *     HTTP/1.1 403 Forbidden
  *     Forbidden
  */
-router.post('/', jwtVerify, ArticleController.postArticles);
+router.post('/', getToken, isAdmin, ArticleController.postArticle);
 
-router.patch('/:id', jwtVerify, ArticleController.patchArticles)
+router.patch('/:id', getToken, isAdmin, ArticleController.patchArticle)
 
 /**
  * @api {delete} /api/v1/articles Delete articles
@@ -171,6 +171,6 @@ router.patch('/:id', jwtVerify, ArticleController.patchArticles)
  *
  * @apiParam {String} _id ID's of the articles that you want to delete. Chain to delete multiple at the same time.
  */
-router.delete('/:id', jwtVerify, ArticleController.deleteArticles);
+router.delete('/:id', getToken, isAdmin, ArticleController.deleteArticle);
 
 module.exports = router;

@@ -3,7 +3,7 @@ const express = require('express');
 
 const router = express.Router();
 const BlogsController = require('../controllers/blogs.controller');
-const jwtVerify = require('../helpers/jwtVerify');
+const jwtVerify = require('../helpers/getToken');
 
 /**
  * @api {get} /api/v1/blogs Get blogs

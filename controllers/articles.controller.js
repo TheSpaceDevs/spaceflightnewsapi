@@ -1,7 +1,5 @@
 const jwt = require('jsonwebtoken');
 const Article = require('../models/article.model');
-const checkAdmin = require('../helpers/checkAdmin');
-
 
 const getArticles = async (req, res, next) => {
   const options = {
@@ -28,12 +26,7 @@ const getArticles = async (req, res, next) => {
   }
 };
 
-const postArticles = async (req, res, next) => {
-  if (!await checkAdmin(req.token)) {
-    const error = new Error('you are not allowed to do that')
-    res.status(403)
-    return next(error)
-  }
+const postArticle = async (req, res, next) => {
   const newArticle = new Article(req.body);
 
   try {
@@ -43,7 +36,6 @@ const postArticles = async (req, res, next) => {
       article: result,
     });
   } catch (err) {
-    console.log(err);
     if (err.name === 'ValidationError') {
       const error = new Error(err.errors)
       res.status(422)
@@ -52,14 +44,8 @@ const postArticles = async (req, res, next) => {
   }
 };
 
-const patchArticles = async (req, res, next) => {
+const patchArticle = async (req, res, next) => {
   const {id} = req.params;
-
-  if (!await checkAdmin(req.token)) {
-    const error = new Error('you are not allowed to do that')
-    res.status(403)
-    return next(error)
-  }
 
   try {
     await Article.findByIdAndUpdate({_id: id}, req.body);
@@ -70,19 +56,12 @@ const patchArticles = async (req, res, next) => {
   }
 }
 
-const deleteArticles = async (req, res, next) => {
-  if (!await checkAdmin(req.token)) {
-    const error = new Error('you are not allowed to do that')
-    res.status(403)
-    return next(error)
-  }
+const deleteArticle = async (req, res, next) => {
+  const {id} = req.params;
 
   try {
-    // We need the _id
-    // eslint-disable-next-line
-    const result = await Article.deleteMany({ _id: { $in: req.params.id } });
-    // eslint-disable-next-line
-    return res.json({ deleted: req.params.id});
+    await Article.deleteMany({ _id: { $in: id } });
+    return res.json({ deleted: id});
   } catch (err) {
     return next(err)
   }
@@ -90,7 +69,7 @@ const deleteArticles = async (req, res, next) => {
 
 module.exports = {
   getArticles,
-  postArticles,
-  patchArticles,
-  deleteArticles,
+  postArticle,
+  patchArticle,
+  deleteArticle,
 };
