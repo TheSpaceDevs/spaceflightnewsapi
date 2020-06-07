@@ -1,11 +1,10 @@
-const jwt = require('jsonwebtoken');
 const Blog = require('../models/blog.model');
 
-const getBlogs = async (req, res) => {
+const getBlogs = async (req, res, next) => {
   const options = {
     page: parseInt(req.query.page, 10) || 1,
     limit: parseInt(req.query.limit, 10) || 10,
-    sort: req.query.sort || '-date_published',
+    sort: req.query.sort || '-publishedAt',
   };
 
   Object.keys(options).forEach((key) => {
@@ -16,80 +15,60 @@ const getBlogs = async (req, res) => {
     }
   });
 
-  if (!req.query.search) {
-    try {
-      const result = await Blog.paginate(req.query, options);
-      return res.send(result);
-    } catch (e) {
-      // TODO: implement Sentry
-      // eslint-disable-next-line
-      console.log(e);
-      return res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
-    }
-  }
-
   try {
-    const result = await Blog.paginate(
-      { $text: { $search: req.query.search } },
-      options,
-    );
+    const result = await Blog.paginate({}, options);
     return res.send(result);
   } catch (e) {
-    // TODO: implement Sentry
-    // eslint-disable-next-line
-    console.log(e);
-    return res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
+    const error = new Error("Uh-oh, something went wrong. Please try again!")
+    res.status(500)
+    return next(error)
   }
 };
 
-const postBlogs = (req, res) => {
-  jwt.verify(req.token, process.env.SECRET, async (err, authData) => {
-    if (err || !authData.user.roles.includes('admin')) {
-      return res.sendStatus(403);
-    }
+const postBlog = async (req, res, next) => {
+  const newBlog = new Blog(req.body);
 
-    const newBlog = new Blog(req.body);
-
-    try {
-      const result = await newBlog.save();
-      return res.status(201).json({
-        message: 'Blog saved',
-        blog: result,
-      });
-    } catch (e) {
-      if (e.name === 'ValidationError') {
-        return res
-          .status(400)
-          .json({ error: 'title, url and _id must be unique' });
-      }
-      return res.status(500).json({ message: 'error' });
+  try {
+    const result = await newBlog.save();
+    return res.status(201).json({
+      message: 'Blog saved',
+      blog: result,
+    });
+  } catch (err) {
+    if (err.name === 'ValidationError') {
+      const error = new Error(err.errors)
+      res.status(422)
+      return next(error)
     }
-  });
+  }
 };
 
-const deleteBlogs = async (req, res) => {
-  jwt.verify(req.token, process.env.SECRET, async (err, authData) => {
-    if (err || !authData.user.roles.includes('admin')) {
-      return res.sendStatus(403);
-    }
+const patchBlog = async (req, res, next) => {
+  const {id} = req.params;
 
-    try {
-      // We need the _id
-      // eslint-disable-next-line
-      await Blog.deleteMany({ _id: { $in: req.query._id } });
-      // eslint-disable-next-line
-      return res.json({ deleted: req.query._id });
-    } catch (e) {
-      // TODO: implement Sentry
-      // eslint-disable-next-line
-      console.log(e);
-      return res.json({ error: 'Something went wrong with deleting!' });
-    }
-  });
+  try {
+    await Blog.findByIdAndUpdate({_id: id}, req.body);
+    const blog = await Blog.findById({_id: id});
+    return res.status(202).json(blog);
+  } catch (err) {
+    return next(err);
+  }
+}
+
+const deleteBlog = async (req, res, next) => {
+  const {id} = req.params;
+
+  try {
+    await Blog.deleteMany({ _id: { $in: id } });
+    return res.json({ deleted: id});
+  } catch (err) {
+    return next(err)
+  }
 };
 
 module.exports = {
   getBlogs,
-  postBlogs,
-  deleteBlogs,
+  postBlog,
+  patchBlog,
+  deleteBlog,
 };

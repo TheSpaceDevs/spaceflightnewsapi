@@ -5,49 +5,55 @@ const uniqueValidator = require('mongoose-unique-validator');
 const { Schema } = mongoose;
 
 const blogSchema = new Schema({
-  news_site: {
-    type: String,
-    required: true,
-  },
-  news_site_long: {
-    type: String,
-    required: true,
-  },
   title: {
     type: String,
     required: true,
-    unique: true,
+    unique: true
   },
   url: {
     type: String,
     required: true,
-    unique: true,
+    unique: true
   },
-  date_published: {
-    type: Number,
-    default: Math.floor(Date.now() / 1000),
-  },
-  date_added: {
-    type: Number,
-    default: Math.floor(Date.now() / 1000),
-  },
-  tags: [String],
-  categories: [String],
-  featured_image: {
+  imageUrl: {
     type: String,
     required: true,
   },
-  launches: [String],
-  events: [String],
-  published_date: {
-    type: Date,
+  newsSite: {
+    type: String,
+    required: true
   },
-  imported_date: {
-    type: Date,
+  summary: {
+    type: String,
+    required: false,
+    default: "No summary available"
   },
+  publishedAt: {
+    type: Date,
+    required: true,
+  },
+  launches: [{"provider": String, "id": {}}],
+  events: [{"provider": String, "id": {}}],
+  deleted: {
+    type: Boolean,
+    required: false,
+    default: false,
+    select: false
+  },
+  featured: {
+    type: Boolean,
+    required: false,
+    default: false
+  }
+}, {
+  timestamps: true,
+  versionKey: false
 });
 
-blogSchema.index({ news_site: 'text', news_site_long: 'text', title: 'text' });
+blogSchema.index({
+  title: 'text',
+  newsSite: 'text'
+});
 
 blogSchema.plugin(mongoosePaginate);
 blogSchema.plugin(uniqueValidator);
