@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const mongoosePaginate = require('mongoose-paginate-v2');
 const uniqueValidator = require('mongoose-unique-validator');
+var mongoose_delete = require('mongoose-delete');
 
 const { Schema } = mongoose;
 
@@ -34,12 +35,12 @@ const articleSchema = new Schema({
   },
   launches: [{"provider": String, "id": {}}],
   events: [{"provider": String, "id": {}}],
-  deleted: {
-    type: Boolean,
-    required: false,
-    default: false,
-    select: false
-  },
+  // deleted: {
+  //   type: Boolean,
+  //   required: false,
+  //   default: false,
+  //   select: false
+  // },
   featured: {
     type: Boolean,
     required: false,
@@ -57,6 +58,7 @@ articleSchema.index({
 
 articleSchema.plugin(mongoosePaginate);
 articleSchema.plugin(uniqueValidator);
+articleSchema.plugin(mongoose_delete, { deletedAt : true });
 
 const ArticleModel = mongoose.model('Articles', articleSchema);
 
