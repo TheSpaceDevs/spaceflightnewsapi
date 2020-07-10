@@ -27,7 +27,6 @@
     "helmet": "^3.23.3",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.22",
-    "mongoose-delete": "^0.5.2",
     "mongoose-paginate-v2": "^1.3.52",
     "mongoose-unique-validator": "^2.0.3",
     "morgan": "^1.10.0"
