@@ -7,7 +7,7 @@ const morgan = require('morgan');
 
 const articlesRouter = require('./routes/articles.router');
 const blogsRouter = require('./routes/blogs.router');
-// const infoRouter = require('./routes/info.router');
+const infoRouter = require('./routes/info.router');
 // const reportsRouter = require('./routes/reports.router');
 const usersRouter = require('./routes/users.router');
 
@@ -31,7 +31,7 @@ app.use('/v2', express.static(path.join(__dirname, 'public')));
 app.use('/v2/articles', articlesRouter);
 app.use('/v2/blogs', blogsRouter);
 // app.use('/v2/reports', reportsRouter);
-// app.use('/v2/info', infoRouter);
+app.use('/v2/info', infoRouter);
 app.use('/v2/users', usersRouter);
 
 // Handling the not found cases
