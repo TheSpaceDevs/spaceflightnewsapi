@@ -18,18 +18,18 @@ const userSchema = new Schema({
   email: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
   },
   password: {
     type: String,
     required: true,
-    select: false
+    select: false,
   },
   roles: {
     type: [String],
     required: true,
-    default: ['user']
-  }
+    default: ['user'],
+  },
 });
 
 userSchema.plugin(mongoosePaginate);

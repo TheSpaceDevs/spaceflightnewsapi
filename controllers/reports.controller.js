@@ -1,10 +1,10 @@
 const Report = require('../models/report.model');
 
-const getReports = async (req, res) => {
+const getReports = async (req, res, next) => {
   const options = {
     page: parseInt(req.query.page, 10) || 1,
     limit: parseInt(req.query.limit, 10) || 10,
-    sort: req.query.sort || '-date_published',
+    sort: req.query.sort || '-publishedAt',
   };
 
   Object.keys(options).forEach((key) => {
@@ -15,32 +15,72 @@ const getReports = async (req, res) => {
     }
   });
 
-  if (req.query.search) {
+  // First return the results of searched reports if this was requested
+  if (req.query.search !== undefined) {
     try {
-      const result = await Report.paginate(
-        { $text: { $search: req.query.search } },
-        options,
-      );
+      const result = await Report.paginate({ title: { $regex: req.query.search, $options: 'i' } }, options);
       return res.send(result);
     } catch (e) {
-      // TODO: implement Sentry
-      // eslint-disable-next-line
-      console.log(e);
-      return res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
+      const error = new Error('Uh-oh, something went wrong. Please try again!');
+      res.status(500);
+      return next(error);
     }
   }
 
   try {
-    const result = await Report.paginate(req.query, options);
+    const result = await Report.paginate({}, options);
     return res.send(result);
   } catch (e) {
-    // TODO: implement Sentry
-    // eslint-disable-next-line
-    console.log(e);
-    return res.send({ message: 'Uh-oh, something went wrong. Please try again!' });
+    const error = new Error('Uh-oh, something went wrong. Please try again!');
+    res.status(500);
+    return next(error);
+  }
+};
+
+const postReport = async (req, res, next) => {
+  const newReport = new Report(req.body);
+
+  try {
+    const result = await newReport.save();
+    return res.status(201).json({
+      message: 'Report saved',
+      report: result,
+    });
+  } catch (err) {
+    if (err.name === 'ValidationError') {
+      const error = new Error(err.errors);
+      res.status(422);
+      return next(error);
+    }
+  }
+};
+
+const patchReport = async (req, res, next) => {
+  const { id } = req.params;
+
+  try {
+    await Report.findByIdAndUpdate({ _id: id }, req.body);
+    const report = await Report.findById({ _id: id });
+    return res.status(202).json(report);
+  } catch (err) {
+    return next(err);
+  }
+};
+
+const deleteReport = async (req, res, next) => {
+  const { id } = req.params;
+
+  try {
+    await Report.deleteMany({ _id: { $in: id } });
+    return res.json({ deleted: id });
+  } catch (err) {
+    return next(err);
   }
 };
 
 module.exports = {
   getReports,
+  postReport,
+  patchReport,
+  deleteReport,
 };

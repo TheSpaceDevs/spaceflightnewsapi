@@ -3,7 +3,7 @@ const express = require('express');
 
 const router = express.Router();
 const ArticleController = require('../controllers/articles.controller');
-const {isAdmin, getToken} = require('../helpers/authHelpers')
+const { isAdmin, getToken } = require('../helpers/authHelpers');
 
 /**
  * @api {get} /api/v1/articles Get articles
@@ -159,7 +159,7 @@ router.get('/', ArticleController.getArticles);
  */
 router.post('/', getToken, isAdmin, ArticleController.postArticle);
 
-router.patch('/:id', getToken, isAdmin, ArticleController.patchArticle)
+router.patch('/:id', getToken, isAdmin, ArticleController.patchArticle);
 
 /**
  * @api {delete} /api/v1/articles Delete articles

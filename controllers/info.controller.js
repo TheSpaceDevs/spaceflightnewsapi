@@ -4,20 +4,20 @@ const ReportModel = require('../models/report.model');
 const pjson = require('../package');
 
 const getInfo = async (req, res) => {
-    const count = await ArticleModel.countDocuments({});
-    const newsSites = await ArticleModel.distinct('newsSite');
-    const blogSites = await BlogModel.distinct('newsSite');
-    const reportSites = await ReportModel.distinct('newsSite');
+  const count = await ArticleModel.countDocuments({});
+  const newsSites = await ArticleModel.distinct('newsSite');
+  const blogSites = await BlogModel.distinct('newsSite');
+  const reportSites = await ReportModel.distinct('newsSite');
 
-    res.json({
-        totalNumberOfArticles: count,
-        apiVersion: pjson.version,
-        newsSites: newsSites,
-        blogSites: blogSites,
-        reportSites: reportSites,
-    });
+  res.json({
+    totalNumberOfArticles: count,
+    apiVersion: pjson.version,
+    newsSites,
+    blogSites,
+    reportSites,
+  });
 };
 
 module.exports = {
-    getInfo,
+  getInfo,
 };

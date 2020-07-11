@@ -155,7 +155,7 @@ router.get('/', BlogsController.getBlogs);
  */
 router.post('/', getToken, isAdmin, BlogsController.postBlog);
 
-router.patch('/:id', getToken, isAdmin, BlogsController.patchBlog)
+router.patch('/:id', getToken, isAdmin, BlogsController.patchBlog);
 
 /**
  * @api {delete} /api/v1/blogs Delete blogs

@@ -206,7 +206,6 @@
  *     }
  */
 
-
 /**
  * @api {get} /api/v1/blogs Get blogs
  * @apiName GetBlogs
