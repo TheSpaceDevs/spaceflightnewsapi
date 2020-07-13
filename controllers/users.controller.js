@@ -53,9 +53,15 @@ const logOut = (req, res) => {
   res.status(200).json({ message: 'logged out' });
 };
 
+const sync = (req, res) => {
+  const { email, roles } = req.user;
+  res.status(200).json({ isAuthenticated: true, user: { email, roles } });
+};
+
 module.exports = {
   getUsers,
   addUser,
   loginUser,
   logOut,
+  sync,
 };
