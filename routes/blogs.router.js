@@ -1,9 +1,7 @@
 /* eslint-disable max-len */
-const express = require('express');
-
-const router = express.Router();
+const router = require('express').Router();
+const passport = require('passport');
 const BlogsController = require('../controllers/blogs.controller');
-const { isAdmin, getToken } = require('../helpers/authHelpers');
 
 /**
  * @api {get} /api/v1/blogs Get blogs
@@ -153,9 +151,9 @@ router.get('/', BlogsController.getBlogs);
  *     HTTP/1.1 403 Forbidden
  *     Forbidden
  */
-router.post('/', getToken, isAdmin, BlogsController.postBlog);
+router.post('/', passport.authenticate('jwt', { session: false }), BlogsController.postBlog);
 
-router.patch('/:id', getToken, isAdmin, BlogsController.patchBlog);
+router.patch('/:id', passport.authenticate('jwt', { session: false }), BlogsController.patchBlog);
 
 /**
  * @api {delete} /api/v1/blogs Delete blogs
@@ -167,6 +165,6 @@ router.patch('/:id', getToken, isAdmin, BlogsController.patchBlog);
  *
  * @apiParam {String} _id ID's of the blogs that you want to delete. Chain to delete multiple at the same time.
  */
-router.delete('/', getToken, isAdmin, BlogsController.deleteBlog);
+router.delete('/', passport.authenticate('jwt', { session: false }), BlogsController.deleteBlog);
 
 module.exports = router;

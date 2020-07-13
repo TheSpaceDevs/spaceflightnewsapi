@@ -11,6 +11,9 @@ const infoRouter = require('./routes/info.router');
 const reportsRouter = require('./routes/reports.router');
 const usersRouter = require('./routes/users.router');
 
+// Setup Passport options for later use
+require('./helpers/passportConfig');
+
 // Setup the app
 const app = express();
 

@@ -38,6 +38,10 @@ const getArticles = async (req, res, next) => {
 };
 
 const postArticle = async (req, res, next) => {
+  if (!req.user.roles.includes('admin')) {
+    return res.status(403).json({ message: 'you are not authorized to do this' });
+  }
+
   const newArticle = new Article(req.body);
 
   try {
@@ -52,10 +56,17 @@ const postArticle = async (req, res, next) => {
       res.status(422);
       return next(error);
     }
+    const error = new Error('Uh-oh, something went wrong. Please try again!');
+    res.status(500);
+    return next(error);
   }
 };
 
 const patchArticle = async (req, res, next) => {
+  if (!req.user.roles.includes('admin')) {
+    return res.status(403).json({ message: 'you are not authorized to do this' });
+  }
+
   const { id } = req.params;
 
   try {
@@ -68,6 +79,10 @@ const patchArticle = async (req, res, next) => {
 };
 
 const deleteArticle = async (req, res, next) => {
+  if (!req.user.roles.includes('admin')) {
+    return res.status(403).json({ message: 'you are not authorized to do this' });
+  }
+
   const { id } = req.params;
 
   try {

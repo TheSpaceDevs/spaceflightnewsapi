@@ -1,9 +1,7 @@
 /* eslint-disable max-len */
-const express = require('express');
-
-const router = express.Router();
+const router = require('express').Router();
+const passport = require('passport');
 const ArticleController = require('../controllers/articles.controller');
-const { isAdmin, getToken } = require('../helpers/authHelpers');
 
 /**
  * @api {get} /api/v1/articles Get articles
@@ -144,7 +142,7 @@ router.get('/', ArticleController.getArticles);
  *       "featured_image": "https://dummyimage.com/1024x1024/2c3e50/fcfcfc&text=No+Image+Available",
  *       "__v": 0
     }
-*}
+ *}
  *
  *
  * @apiErrorExample Error-Response:
@@ -157,9 +155,9 @@ router.get('/', ArticleController.getArticles);
  *     HTTP/1.1 403 Forbidden
  *     Forbidden
  */
-router.post('/', getToken, isAdmin, ArticleController.postArticle);
+router.post('/', passport.authenticate('jwt', { session: false }), ArticleController.postArticle);
 
-router.patch('/:id', getToken, isAdmin, ArticleController.patchArticle);
+router.patch('/:id', passport.authenticate('jwt', { session: false }), ArticleController.patchArticle);
 
 /**
  * @api {delete} /api/v1/articles Delete articles
@@ -171,6 +169,6 @@ router.patch('/:id', getToken, isAdmin, ArticleController.patchArticle);
  *
  * @apiParam {String} _id ID's of the articles that you want to delete. Chain to delete multiple at the same time.
  */
-router.delete('/:id', getToken, isAdmin, ArticleController.deleteArticle);
+router.delete('/:id', passport.authenticate('jwt', { session: false }), ArticleController.deleteArticle);
 
 module.exports = router;
