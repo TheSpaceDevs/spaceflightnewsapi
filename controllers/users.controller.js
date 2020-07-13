@@ -1,13 +1,26 @@
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcryptjs');
 const User = require('../models/user.model');
 
-const getUsers = async (req, res) => {
-  const users = await User.find({});
-  return res.status(200).json(users);
+const getUsers = async (req, res, next) => {
+  if (!req.user.roles.includes('admin')) {
+    return res.status(403).json({ message: 'you are not authorized to do this' });
+  }
+
+  try {
+    const users = await User.find({});
+    return res.status(200).json(users);
+  } catch (err) {
+    const error = new Error('Uh-oh, something went wrong. Please try again!');
+    res.status(500);
+    return next(error);
+  }
 };
 
 const addUser = async (req, res) => {
+  if (!req.user.roles.includes('admin')) {
+    return res.status(403).json({ message: 'you are not authorized to do this' });
+  }
+
   const user = new User(req.body);
   try {
     await user.save();
@@ -20,35 +33,29 @@ const addUser = async (req, res) => {
   }
 };
 
-const loginUser = async (req, res) => {
-  // Check if the body has the email field
-  if (!req.body.email || !req.body.password) {
-    return res.status(400).send({ error: 'no email or password field in body' });
-  }
+const signToken = (userId) => jwt.sign({
+  iss: 'Spaceflight News API',
+  sub: userId,
+}, process.env.SECRET, { expiresIn: '1h' });
 
-  // Trying to login it has the email and password field
-  try {
-    const user = await User.findOne({ email: req.body.email }).select('+password');
-    if (user) {
-      // Check the password
-      const match = await bcrypt.compare(req.body.password, user.password);
-      if (match) {
-        const token = jwt.sign({ user }, process.env.SECRET, { expiresIn: '1h' });
-        return res.status(200).send({ message: 'logged in', token });
-      }
-      return res.status(401).send({ error: 'bad credentials' });
-    }
-    return res.status(404).send({ error: 'user not found' });
-  } catch (e) {
-    // TODO: implement Sentry
-    // eslint-disable-next-line
-    console.log(e);
-    return res.status(500).send({ error: 'server error' });
+// User is already authenticated by Passport at this point. Now we set issue the token
+const loginUser = (req, res) => {
+  if (req.isAuthenticated()) {
+    const { _id } = req.user;
+    const token = signToken(_id);
+    res.cookie('access_token', token, { httpOnly: true, sameSite: true });
+    res.status(200).json({ access_token: token });
   }
+};
+
+const logOut = (req, res) => {
+  res.clearCookie('access_token');
+  res.status(200).json({ message: 'logged out' });
 };
 
 module.exports = {
   getUsers,
   addUser,
   loginUser,
+  logOut,
 };

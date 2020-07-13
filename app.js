@@ -11,9 +11,6 @@ const infoRouter = require('./routes/info.router');
 const reportsRouter = require('./routes/reports.router');
 const usersRouter = require('./routes/users.router');
 
-// Configure dotenv
-require('dotenv').config();
-
 // Setup the app
 const app = express();
 
