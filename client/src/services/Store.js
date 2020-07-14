@@ -1,7 +1,7 @@
 import { createSlice, configureStore } from '@reduxjs/toolkit';
 
 const userSlice = createSlice({
-  name: 'counter',
+  name: 'user',
   initialState: {
     token: '',
     isAuthenticated: false,
