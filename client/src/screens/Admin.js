@@ -2,12 +2,14 @@ import React, {useState, useEffect} from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 import {authenticate} from '../services/Store';
 import AuthService from '../services/AuthService';
+import {AdminDashboard} from '../components';
 
 const Admin = () => {
   const isAuthenticated = useSelector(state => state.user.isAuthenticated)
   const dispatch = useDispatch();
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     checkAuth()
@@ -17,6 +19,7 @@ const Admin = () => {
     try {
       const user = await AuthService.ping()
       dispatch(authenticate(user.data))
+      setLoading(false)
     } catch (e) {
     }
   }
@@ -26,10 +29,17 @@ const Admin = () => {
     try {
       const user = await AuthService.login(email, password)
       dispatch(authenticate(user.data))
+      setLoading(false)
     } catch (e) {
     }
   }
 
+  // Still loading, getting the auth data
+  if (loading) {
+    return null
+  }
+
+  // Authdata received; not authenticated (anymore)
   if (!isAuthenticated) {
     return (
       <div>
@@ -48,9 +58,10 @@ const Admin = () => {
     );
   }
 
+  // Authenticated and all is valid
   return (
     <div>
-      Ingelogd!
+      <AdminDashboard />
     </div>
   )
 };
