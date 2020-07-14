@@ -15,7 +15,7 @@ const Admin = () => {
 
   const checkAuth = async () => {
     try {
-      const user = await AuthService.sync()
+      const user = await AuthService.ping()
       dispatch(authenticate(user.data))
     } catch (e) {
     }
