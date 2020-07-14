@@ -29,8 +29,8 @@ export default function HeaderComponent() {
           <Nav.Link as={Link} active={pathname === "/news"} to="/news">News</Nav.Link>
           <Nav.Link as={Link} active={pathname === "/blogs"} to="/blogs">Blogs</Nav.Link>
           <Nav.Link as={Link} active={pathname === "/reports"} to="/reports">Reports</Nav.Link>
-          <Nav.Link as={Link} active={pathname === "/apps"} to="/apps">Apps</Nav.Link>
-          <Nav.Link as={Link} to="/about">About</Nav.Link>
+          <Nav.Link as={Link} active={pathname === "/about"} to="/about">About</Nav.Link>
+          <Nav.Link as={Link} active={pathname === "/admin"} to="/admin">Admin</Nav.Link>
         </Nav>
         <Nav>
           <Button

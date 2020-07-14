@@ -44,7 +44,7 @@ const loginUser = (req, res) => {
     const { _id } = req.user;
     const token = signToken(_id);
     res.cookie('access_token', token, { httpOnly: true, sameSite: true });
-    res.status(200).json({ access_token: token });
+    res.status(200).json({ isAuthenticated: true, user: req.user, access_token: token });
   }
 };
 
@@ -54,8 +54,7 @@ const logOut = (req, res) => {
 };
 
 const sync = (req, res) => {
-  const { email, roles } = req.user;
-  res.status(200).json({ isAuthenticated: true, user: { email, roles } });
+  res.status(200).json({ isAuthenticated: true, user: req.user });
 };
 
 module.exports = {
