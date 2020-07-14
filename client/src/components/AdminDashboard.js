@@ -5,7 +5,7 @@ import {ArticleTable} from './index';
 const AdminDashboard = () => {
   return (
     <Container>
-      <Tabs defaultActiveKey="articles">
+      <Tabs defaultActiveKey="articles" className="mt-2">
         <Tab eventKey="articles" title="Articles">
           <ArticleTable />
         </Tab>
