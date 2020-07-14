@@ -21,6 +21,7 @@ const Admin = () => {
       dispatch(authenticate(user.data))
       setLoading(false)
     } catch (e) {
+      setLoading(false)
     }
   }
 
