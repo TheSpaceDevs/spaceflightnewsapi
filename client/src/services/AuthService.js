@@ -24,6 +24,6 @@ export default {
       .then(data => data);
   },
   sync: () => {
-    return axios.get('/v2/users/ping');
+    return axios.get('/v2/users/sync');
   },
 };
