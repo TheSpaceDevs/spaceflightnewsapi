@@ -53,7 +53,7 @@ const logOut = (req, res) => {
   res.status(200).json({ message: 'logged out' });
 };
 
-const ping = (req, res) => {
+const sync = (req, res) => {
   res.status(200).json({ isAuthenticated: true, user: req.user });
 };
 
@@ -62,5 +62,5 @@ module.exports = {
   addUser,
   loginUser,
   logOut,
-  ping,
+  sync,
 };

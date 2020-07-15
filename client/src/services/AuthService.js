@@ -23,7 +23,7 @@ export default {
       .then(res => res.json())
       .then(data => data);
   },
-  ping: () => {
+  sync: () => {
     return axios.get('/v2/users/ping');
   },
 };
