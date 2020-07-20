@@ -30,7 +30,7 @@ export default function HeaderComponent() {
           <Nav.Link as={Link} active={pathname === "/blogs"} to="/blogs">Blogs</Nav.Link>
           <Nav.Link as={Link} active={pathname === "/reports"} to="/reports">Reports</Nav.Link>
           <Nav.Link as={Link} active={pathname === "/about"} to="/about">About</Nav.Link>
-          <Nav.Link as={Link} active={pathname === "/admin"} to="/admin">Admin</Nav.Link>
+          <Nav.Link as={Link} active={pathname.includes("/admin")} to="/admin">Admin</Nav.Link>
         </Nav>
         <Nav>
           <Button
@@ -40,7 +40,6 @@ export default function HeaderComponent() {
             }}
           >
             API Version <Badge variant="light">{version}</Badge>
-            <span className="sr-only">unread messages</span>
           </Button>
           <Nav.Link active href="https://spaceflightnewsapi.net/api/v1/" target='_blank noopener noreferrer' >API Docs</Nav.Link>
           <NavDropdown active title="Connect" id="basic-nav-dropdown">
