@@ -24,6 +24,7 @@
     "express-session": "^1.17.1",
     "express-swagger-generator": "^1.1.17",
     "helmet": "^3.23.3",
+    "history": "^5.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.22",
     "mongoose-paginate-v2": "^1.3.52",
