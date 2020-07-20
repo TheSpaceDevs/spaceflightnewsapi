@@ -5,7 +5,7 @@ const SharedTable = ({ data }) => {
   const RenderData = () => {
     return data.map((article) => {
       return (
-        <tr key={article._id}>
+        <tr key={article._id} style={{cursor: 'pointer'}}>
           <td>{article.title}</td>
           <td>{article.newsSite}</td>
           <td>{article.publishedAt}</td>
