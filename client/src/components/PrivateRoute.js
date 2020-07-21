@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Route, Redirect } from 'react-router';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 const PrivateRoute = ({ children, ...rest }) => {
   const isAuthenticated = useSelector(state => state.user.isAuthenticated);

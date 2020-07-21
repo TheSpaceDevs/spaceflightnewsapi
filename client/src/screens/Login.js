@@ -14,10 +14,11 @@ const Login = () => {
   const history = useHistory();
 
   useEffect(() => {
-    checkLogin();
+    checkCookie();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const checkLogin = async () => {
+  const checkCookie = async () => {
     try {
       const user = await AuthService.sync();
       dispatch(authenticate(user.data));
