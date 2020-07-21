@@ -8,7 +8,7 @@ const ArticleEntry = ({ history }) => {
     title: '',
     newsSite: '',
     url: '',
-    publishedAt: null,
+    publishedAt: "",
     imageUrl: '',
     summary: '',
     featured: false,

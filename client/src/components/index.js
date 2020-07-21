@@ -12,3 +12,4 @@ export { default as NewsComponent } from './NewsComponent';
 export { default as AdminDashboard } from './AdminDashboard';
 export { default as ArticleTable } from './ArticleTable';
 export { default as SharedTable } from './tables/SharedTable';
+export { default as PrivateRoute } from './PrivateRoute';

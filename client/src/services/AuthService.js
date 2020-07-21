@@ -18,11 +18,6 @@ export default {
       .then(res => res.json())
       .then(data => data);
   },
-  logout: () => {
-    return fetch('/v2/users/logout')
-      .then(res => res.json())
-      .then(data => data);
-  },
   sync: () => {
     return axios.get('/v2/users/sync');
   },

@@ -3,12 +3,14 @@ import { Router, Switch, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { createBrowserHistory } from 'history';
 
-import { News, Blogs, Reports, About, Home, Admin, DataEntry } from './screens';
-import { HeaderComponent } from './components';
-import {store} from './services/Store';
+import { News, Blogs, Reports, About, Home, Admin, DataEntry, Login } from './screens';
+import { HeaderComponent, PrivateRoute } from './components';
+import { store } from './services/Store';
+import httpClient from './services/AxiosService'
 
 export default function App() {
-  const history = createBrowserHistory()
+  const history = createBrowserHistory();
+  httpClient.setupInterceptors(history, store)
 
   return (
     <Provider store={store}>
@@ -18,8 +20,11 @@ export default function App() {
           <Route path="/admin/article/new">
             <DataEntry/>
           </Route>
-          <Route path="/admin">
+          <PrivateRoute path="/admin">
             <Admin/>
+          </PrivateRoute>
+          <Route path="/login">
+            <Login/>
           </Route>
           <Route path="/about">
             <About/>
