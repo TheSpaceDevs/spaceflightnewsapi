@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Form, Col, Row, Button, Alert } from 'react-bootstrap';
 import { withRouter } from 'react-router';
 import axios from 'axios';
+import AuthService from '../services/AuthService';
 
 const ArticleEntry = ({ history }) => {
   const [newsArticle, setNewArticle] = useState({
@@ -15,6 +16,11 @@ const ArticleEntry = ({ history }) => {
   });
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState({ visible: false, message: '' });
+
+  useEffect(() => {
+    // Call sync to be sure that the token is still valid before sending an article
+    AuthService.sync()
+  }, [])
 
   const handleSubmit = async (e) => {
     e.preventDefault();
