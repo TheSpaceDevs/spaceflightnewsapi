@@ -1,12 +1,18 @@
 import { createSlice, configureStore } from '@reduxjs/toolkit';
 
+const initialState = {
+  isAuthenticated: false,
+  name: "",
+  email: "",
+  roles: [],
+}
 const userSlice = createSlice({
   name: 'user',
   initialState: {
-    isAuthenticated: false,
-    name: "",
-    email: "",
-    roles: [],
+    isAuthenticated: initialState.isAuthenticated,
+    name: initialState.name,
+    email: initialState.email,
+    roles: initialState.roles,
   },
   reducers: {
     authenticate: (state, update) => {
@@ -16,10 +22,10 @@ const userSlice = createSlice({
       state.roles = update.payload.user.roles
     },
     logout: (state) => {
-      state.isAuthenticated = false;
-      state.name = ""
-      state.email = ""
-      state.roles = []
+      state.isAuthenticated = initialState.isAuthenticated;
+      state.name = initialState.name
+      state.email = initialState.email
+      state.roles = initialState.email
     },
   },
 });
