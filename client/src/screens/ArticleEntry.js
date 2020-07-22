@@ -23,6 +23,7 @@ const ArticleEntry = ({ history }) => {
   const [upcomingEvents, setUpcomingEvents] = useState([]);
   const [launchSearch, setLaunchQuery] = useState('');
   const [eventSearch, setEventQuery] = useState('');
+  const [validated, setValidated] = useState(false);
 
   useEffect(() => {
     // Call sync to be sure that the token is still valid before sending an article
@@ -43,21 +44,25 @@ const ArticleEntry = ({ history }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSaving(true);
-
-    try {
-      await axios.post('/v2/articles', { ...newsArticle });
-      history.push('/admin');
-    } catch (e) {
-      setSaving(false);
-      if (e.response && e.response.status === 422) {
-        return setError({
-          ...error,
-          visible: true,
-          message: 'Please check the form for errors and make sure the title and url are unique',
-        });
+    const form = e.currentTarget;
+    if (form.checkValidity() === true) {
+      try {
+        await axios.post('/v2/articles', { ...newsArticle });
+        history.push('/admin');
+      } catch (e) {
+        setSaving(false);
+        if (e.response && e.response.status === 422) {
+          return setError({
+            ...error,
+            visible: true,
+            message: 'Please check the form for errors and make sure the title and url are unique',
+          });
+        }
+        setError({ ...error, visible: true, message: 'Please contact Derk and tell him what you broke' });
       }
-      setError({ ...error, visible: true, message: 'Please contact Derk and tell him what you broke' });
     }
+    setSaving(false);
+    setValidated(true);
   };
 
   // Function to get the launches
@@ -106,18 +111,18 @@ const ArticleEntry = ({ history }) => {
 
   // Handle searches
   const handleSearch = _.debounce((query, type) => {
-    if (type === "launch") {
-      setLaunchQuery(query)
+    if (type === 'launch') {
+      setLaunchQuery(query);
     }
 
-    if (type === "event") {
-      setEventQuery(query)
+    if (type === 'event') {
+      setEventQuery(query);
     }
-  }, 800)
+  }, 800);
 
   return (
     <Container>
-      <Form className="mt-2" onSubmit={(e) => handleSubmit(e)}>
+      <Form noValidate validated={validated} className="mt-2" onSubmit={(e) => handleSubmit(e)}>
         <Row>
           <Col>
             <Alert show={error.visible} variant="danger">{error.message}</Alert>
@@ -128,13 +133,21 @@ const ArticleEntry = ({ history }) => {
             <Form.Label>
               Title
             </Form.Label>
-            <Form.Control type="text" onChange={(e) => setNewArticle({ ...newsArticle, title: e.target.value })}/>
+            <Form.Control required type="text"
+                          onChange={(e) => setNewArticle({ ...newsArticle, title: e.target.value })}/>
+            <Form.Control.Feedback type="invalid">
+              This cannot be empty
+            </Form.Control.Feedback>
           </Col>
           <Col>
             <Form.Label>
               News Site
             </Form.Label>
-            <Form.Control type="text" onChange={(e) => setNewArticle({ ...newsArticle, newsSite: e.target.value })}/>
+            <Form.Control required type="text"
+                          onChange={(e) => setNewArticle({ ...newsArticle, newsSite: e.target.value })}/>
+            <Form.Control.Feedback type="invalid">
+              This cannot be empty
+            </Form.Control.Feedback>
           </Col>
         </Row>
         <Row>
@@ -142,27 +155,40 @@ const ArticleEntry = ({ history }) => {
             <Form.Label>
               Article URL
             </Form.Label>
-            <Form.Control type="text" onChange={(e) => setNewArticle({ ...newsArticle, url: e.target.value })}/>
+            <Form.Control required type="text"
+                          onChange={(e) => setNewArticle({ ...newsArticle, url: e.target.value })}/>
+            <Form.Control.Feedback type="invalid">
+              This cannot be empty
+            </Form.Control.Feedback>
           </Col>
           <Col>
             <Form.Label>
               Date Published (date of article)
             </Form.Label>
-            <Form.Control type="datetime-local"
+            <Form.Control required type="datetime-local"
                           onChange={(e) => setNewArticle({ ...newsArticle, publishedAt: e.target.value })}/>
+            <Form.Control.Feedback type="invalid">
+              This cannot be empty
+            </Form.Control.Feedback>
           </Col>
           <Col>
             <Form.Label>
               Image URL
             </Form.Label>
-            <Form.Control type="text" onChange={(e) => setNewArticle({ ...newsArticle, imageUrl: e.target.value })}/>
+            <Form.Control required type="text" onChange={(e) => setNewArticle({ ...newsArticle, imageUrl: e.target.value })}/>
+            <Form.Control.Feedback type="invalid">
+              This cannot be empty
+            </Form.Control.Feedback>
           </Col>
         </Row>
         <Row>
           <Col>
             <Form.Label>Summary</Form.Label>
-            <Form.Control as="textarea" rows="3"
+            <Form.Control required as="textarea" rows="3"
                           onChange={(e) => setNewArticle({ ...newsArticle, summary: e.target.value })}/>
+            <Form.Control.Feedback type="invalid">
+              This cannot be empty
+            </Form.Control.Feedback>
           </Col>
         </Row>
         <Row>
@@ -174,7 +200,7 @@ const ArticleEntry = ({ history }) => {
         <Row className="mt-3">
           <Col>
             <Form.Label>Upcoming Launches</Form.Label>
-            <Form.Control type="text" placeholder="Search..." onChange={(e) => handleSearch(e.target.value, "launch")}/>
+            <Form.Control type="text" placeholder="Search..." onChange={(e) => handleSearch(e.target.value, 'launch')}/>
             <Form.Control as="select" multiple htmlSize={10} onChange={(e) => handleLaunchSelect(e)}>
               {
                 upcomingLaunches.map((launch) => {
@@ -185,7 +211,7 @@ const ArticleEntry = ({ history }) => {
           </Col>
           <Col>
             <Form.Label>Upcoming Events</Form.Label>
-            <Form.Control type="text" placeholder="Search..." onChange={(e) => handleSearch(e.target.value, "event")}/>
+            <Form.Control type="text" placeholder="Search..." onChange={(e) => handleSearch(e.target.value, 'event')}/>
             <Form.Control as="select" multiple htmlSize={10} onChange={(e) => handleEventSelect(e)}>
               {
                 upcomingEvents.map((event) => {
