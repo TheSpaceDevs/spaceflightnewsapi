@@ -9,33 +9,74 @@ const ArticleEntry = ({ history }) => {
     title: '',
     newsSite: '',
     url: '',
-    publishedAt: "",
+    publishedAt: '',
     imageUrl: '',
     summary: '',
     featured: false,
+    launches: [],
+    events: [],
   });
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState({ visible: false, message: '' });
+  const [upcomingLaunches, setUpcomingLaunches] = useState([]);
+  const [upcomingEvents, setUpcomingEvents] = useState([]);
 
   useEffect(() => {
     // Call sync to be sure that the token is still valid before sending an article
-    AuthService.sync()
-  }, [])
+    AuthService.sync();
+    getLaunchesAndEvents();
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSaving(true);
+
+
+    // Getting and setting the IDs of the events that were selected
+
+    // Saving the article
     try {
       await axios.post('/v2/articles', { ...newsArticle });
-      history.push("/admin");
+      history.push('/admin');
     } catch (e) {
       setSaving(false);
       if (e.response && e.response.status === 422) {
-        setError({ ...error, visible: true, message: 'Please check the forms for errors' });
+        console.log("hier");
+        return setError({ ...error, visible: true, message: 'Please check the form for errors and make sure the title and url are unique' });
       }
+      console.log("daar");
       setError({ ...error, visible: true, message: 'Please contact Derk and tell him what you broke' });
     }
+  };
 
+  const getLaunchesAndEvents = async () => {
+    const launchResult = await axios.get('https://spacelaunchnow.me/api/3.5.0/launch/upcoming?limit=10');
+    setUpcomingLaunches(launchResult.data.results);
+
+    const eventsResult = await axios.get('https://spacelaunchnow.me/api/3.5.0/event/upcoming?limit=10');
+    setUpcomingEvents(eventsResult.data.results);
+  };
+
+  // Handle the multi select form part for the launches
+  const handleLaunchSelect = (e) => {
+    let ids = Array.from(e.target.selectedOptions, option => option.id);
+
+    const selectedLaunches = [];
+    ids.forEach((id) => {
+      selectedLaunches.push({ provider: 'Space Launch Now', id: id });
+    });
+    setNewArticle({ ...newsArticle, launches: selectedLaunches });
+  };
+
+  // Handle the multi select form part for the events
+  const handleEventSelect = (e) => {
+    let ids = Array.from(e.target.selectedOptions, option => option.id);
+
+    const selectedEvents = [];
+    ids.forEach((id) => {
+      selectedEvents.push({ provider: 'Space Launch Now', id: id });
+    });
+    setNewArticle({ ...newsArticle, events: selectedEvents });
   };
 
   return (
@@ -91,7 +132,27 @@ const ArticleEntry = ({ history }) => {
         <Row>
           <Col>
             <Form.Check type="checkbox" label="Featured"
-                        onChange={(e) => setNewArticle({ ...newsArticle, featured: !newsArticle.featured })}/>
+                        onChange={() => setNewArticle({ ...newsArticle, featured: !newsArticle.featured })}/>
+          </Col>
+        </Row>
+        <Row className="mt-3">
+          <Col>
+            <Form.Control as="select" multiple htmlSize={10} onChange={(e) => handleLaunchSelect(e)}>
+              {
+                upcomingLaunches.map((launch) => {
+                  return <option key={launch.id} id={launch.id}>{launch.name}</option>;
+                })
+              }
+            </Form.Control>
+          </Col>
+          <Col>
+            <Form.Control as="select" multiple htmlSize={10} onChange={(e) => handleEventSelect(e)}>
+              {
+                upcomingEvents.map((event) => {
+                  return <option key={event.id} id={event.id}>{event.name}</option>;
+                })
+              }
+            </Form.Control>
           </Col>
         </Row>
         <Row className="mt-2">
