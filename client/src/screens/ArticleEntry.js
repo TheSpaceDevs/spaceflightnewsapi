@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Container, Form, Col, Row, Button, Alert } from 'react-bootstrap';
 import { withRouter } from 'react-router';
 import axios from 'axios';
+import _ from 'lodash';
 import AuthService from '../services/AuthService';
 
 const ArticleEntry = ({ history }) => {
@@ -20,41 +21,65 @@ const ArticleEntry = ({ history }) => {
   const [error, setError] = useState({ visible: false, message: '' });
   const [upcomingLaunches, setUpcomingLaunches] = useState([]);
   const [upcomingEvents, setUpcomingEvents] = useState([]);
+  const [launchSearch, setLaunchQuery] = useState('');
+  const [eventSearch, setEventQuery] = useState('');
 
   useEffect(() => {
     // Call sync to be sure that the token is still valid before sending an article
     AuthService.sync();
-    getLaunchesAndEvents();
   }, []);
 
+  useEffect(() => {
+    // Call sync to be sure that the token is still valid before sending an article
+    getLaunches();
+  }, [launchSearch]);
+
+  useEffect(() => {
+    // Call sync to be sure that the token is still valid before sending an article
+    getEvents();
+  }, [eventSearch]);
+
+  // Handle saving the article
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSaving(true);
 
-
-    // Getting and setting the IDs of the events that were selected
-
-    // Saving the article
     try {
       await axios.post('/v2/articles', { ...newsArticle });
       history.push('/admin');
     } catch (e) {
       setSaving(false);
       if (e.response && e.response.status === 422) {
-        console.log("hier");
-        return setError({ ...error, visible: true, message: 'Please check the form for errors and make sure the title and url are unique' });
+        return setError({
+          ...error,
+          visible: true,
+          message: 'Please check the form for errors and make sure the title and url are unique',
+        });
       }
-      console.log("daar");
       setError({ ...error, visible: true, message: 'Please contact Derk and tell him what you broke' });
     }
   };
 
-  const getLaunchesAndEvents = async () => {
-    const launchResult = await axios.get('https://spacelaunchnow.me/api/3.5.0/launch/upcoming?limit=10');
-    setUpcomingLaunches(launchResult.data.results);
+  // Function to get the launches
+  // Is retrigered once a search query is provided
+  const getLaunches = async () => {
+    try {
+      const launchResult = await axios.get(`https://spacelaunchnow.me/api/3.5.0/launch/upcoming?limit=10&search=${launchSearch}`);
+      setUpcomingLaunches(launchResult.data.results);
+    } catch (e) {
+      alert('There was an error getting the launches and events');
+    }
+  };
 
-    const eventsResult = await axios.get('https://spacelaunchnow.me/api/3.5.0/event/upcoming?limit=10');
-    setUpcomingEvents(eventsResult.data.results);
+  // Function to get the launches
+  // Is retrigered once a search query is provided
+  const getEvents = async () => {
+    try {
+      const eventsResult = await axios.get(`https://spacelaunchnow.me/api/3.5.0/event/upcoming?limit=10&search=${eventSearch}`);
+      setUpcomingEvents(eventsResult.data.results);
+    } catch (e) {
+      alert('There was an error getting the launches and events');
+    }
   };
 
   // Handle the multi select form part for the launches
@@ -78,6 +103,17 @@ const ArticleEntry = ({ history }) => {
     });
     setNewArticle({ ...newsArticle, events: selectedEvents });
   };
+
+  // Handle searches
+  const handleSearch = _.debounce((query, type) => {
+    if (type === "launch") {
+      setLaunchQuery(query)
+    }
+
+    if (type === "event") {
+      setEventQuery(query)
+    }
+  }, 800)
 
   return (
     <Container>
@@ -137,6 +173,8 @@ const ArticleEntry = ({ history }) => {
         </Row>
         <Row className="mt-3">
           <Col>
+            <Form.Label>Upcoming Launches</Form.Label>
+            <Form.Control type="text" placeholder="Search..." onChange={(e) => handleSearch(e.target.value, "launch")}/>
             <Form.Control as="select" multiple htmlSize={10} onChange={(e) => handleLaunchSelect(e)}>
               {
                 upcomingLaunches.map((launch) => {
@@ -146,6 +184,8 @@ const ArticleEntry = ({ history }) => {
             </Form.Control>
           </Col>
           <Col>
+            <Form.Label>Upcoming Events</Form.Label>
+            <Form.Control type="text" placeholder="Search..." onChange={(e) => handleSearch(e.target.value, "event")}/>
             <Form.Control as="select" multiple htmlSize={10} onChange={(e) => handleEventSelect(e)}>
               {
                 upcomingEvents.map((event) => {
