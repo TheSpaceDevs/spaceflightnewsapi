@@ -37,6 +37,20 @@ const getBlogs = async (req, res, next) => {
   }
 };
 
+const getBlog = async (req, res, next) => {
+  try {
+    const article = await Blog.findById(req.params.id);
+    res.json(article)
+  } catch (e) {
+    if (e.name === "CastError") {
+      const error = new Error("no blog with that id found")
+      res.status(404);
+      next(error);
+    }
+    console.log(e.name);
+  }
+};
+
 const postBlog = async (req, res, next) => {
   if (!req.user.roles.includes('admin')) {
     return res.status(403).json({ message: 'you are not authorized to do this' });
@@ -95,6 +109,7 @@ const deleteBlog = async (req, res, next) => {
 
 module.exports = {
   getBlogs,
+  getBlog,
   postBlog,
   patchBlog,
   deleteBlog,

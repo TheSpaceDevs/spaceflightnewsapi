@@ -37,6 +37,20 @@ const getArticles = async (req, res, next) => {
   }
 };
 
+const getArticle = async (req, res, next) => {
+  try {
+    const article = await Article.findById(req.params.id);
+    res.json(article)
+  } catch (e) {
+    if (e.name === "CastError") {
+      const error = new Error("no article with that id found")
+      res.status(404);
+      next(error);
+    }
+    console.log(e.name);
+  }
+};
+
 const postArticle = async (req, res, next) => {
   if (!req.user.roles.includes('admin')) {
     return res.status(403).json({ message: 'you are not authorized to do this' });
@@ -95,6 +109,7 @@ const deleteArticle = async (req, res, next) => {
 
 module.exports = {
   getArticles,
+  getArticle,
   postArticle,
   patchArticle,
   deleteArticle,
