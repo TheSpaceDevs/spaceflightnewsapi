@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "launches",
+  "info": {
+    "name": "launches"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "launchId": {
+      "type": "string",
+      "required": true
+    },
+    "launchProvider": {
+      "model": "launch-providers"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "articles": {
+      "via": "launches",
+      "collection": "article"
+    },
+    "blogs": {
+      "via": "launches",
+      "collection": "blog"
+    }
+  }
+}

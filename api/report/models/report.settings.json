@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reports",
+  "info": {
+    "name": "Report"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "newsSite": {
+      "model": "news-site"
+    },
+    "publishedAt": {
+      "type": "datetime",
+      "default": "2020-08-04T10:00:00.000Z",
+      "required": true
+    },
+    "summary": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "imageUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "paths": {
+    "/reports": {
+      "get": {
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Report"
+                  }
+                }
+              }
+            }
+          },
+          "403": {},
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/reports/{id}": {
+      "get": {
+        "security": []
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Report": {
+        "required": [],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "featured": {
+            "type": "boolean",
+            "default": false
+          },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "imageUrl": {
+            "type": "string"
+          },
+          "newsSite": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "publishedAt": {
+            "type": "datetime",
+            "default": "2020-08-04T10:00:00.000Z"
+          },
+          "launches": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "launchId",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "NewReport": {
+        "required": [
+          "title",
+          "url",
+          "imageUrl",
+          "publishedAt",
+          "newsSite"
+        ],
+        "properties": {
+          "featured": {
+            "type": "boolean",
+            "default": false
+          },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "imageUrl": {
+            "type": "string"
+          },
+          "newsSite": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "publishedAt": {
+            "type": "datetime",
+            "default": "2020-08-04T10:00:00.000Z"
+          },
+          "launches": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "launchId",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

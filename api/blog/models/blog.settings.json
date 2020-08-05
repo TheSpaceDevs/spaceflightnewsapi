@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "name": "Blog"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "imageUrl": {
+      "type": "string",
+      "required": true
+    },
+    "newsSite": {
+      "model": "news-site"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "publishedAt": {
+      "type": "datetime",
+      "default": "2020-08-04T10:00:00.000Z",
+      "required": true
+    },
+    "launches": {
+      "collection": "launches",
+      "via": "blogs",
+      "dominant": true
+    }
+  }
+}
