@@ -14,7 +14,7 @@
       "name": "GPLv3",
       "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
     },
-    "x-generation-date": "08/05/2020 8:39:15 PM"
+    "x-generation-date": "08/06/2020 7:58:32 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -49,7 +49,7 @@
     "/articles": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Get all articles linked to a launch",
         "responses": {
           "200": {
             "description": "response",
@@ -440,6 +440,70 @@
                 "schema": {
                   "type": "integer",
                   "format": "int64"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Article"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "deprecated": false,
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/articles/launch/{id}": {
+      "get": {
+        "deprecated": false,
+        "description": "Get all articles linked to a launch",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Article"
                 }
               }
             }

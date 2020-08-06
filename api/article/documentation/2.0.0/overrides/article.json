@@ -45,6 +45,22 @@
       "get": {
         "security": []
       }
+    },
+    "/articles/launch/{id}": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Article"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {

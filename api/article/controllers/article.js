@@ -78,5 +78,43 @@ module.exports = {
 
     // Finally, return the response
     return entities
+  },
+
+  findPerLaunch: async (ctx) => {
+    const launchId = ctx.params.id
+    let entities;
+    entities = await strapi.services.article.find({'launches.launchId': launchId});
+
+    // The above query will always return. Handle empty array as 404
+    if (entities.length === 0) {
+      return ctx.notFound()
+    }
+
+    // Build the response we want to return
+    // Use Promise.all to since it's an async map (async for the inner Promise)
+    entities = await Promise.all(entities.map(async entity => {
+      // Create the launch object
+      // Using Promise.all since it's an async map (async to wait for the result)
+      const launches = await Promise.all(entity.launches.map(async launch => {
+        const lp = await strapi.services['launch-providers'].findOne({_id: launch.launchProvider})
+        return {id: launch.launchId, provider: lp.name}
+      }))
+
+      return {
+        id: entity._id,
+        title: entity.title,
+        url: entity.url,
+        imageUrl: entity.imageUrl,
+        newsSite: entity.newsSite.name,
+        summary: entity.summary,
+        publishedAt: entity.publishedAt,
+        updatedAt: entity.updatedAt,
+        featured: entity.featured,
+        launches: launches
+      }
+    }))
+
+    // Finally, return the response
+    return entities
   }
 };
