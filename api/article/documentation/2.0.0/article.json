@@ -3,7 +3,7 @@
     "/articles": {
       "get": {
         "deprecated": false,
-        "description": "Get all articles linked to a launch",
+        "description": "",
         "responses": {
           "200": {
             "description": "response",

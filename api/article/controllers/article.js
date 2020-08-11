@@ -15,6 +15,10 @@ module.exports = {
   async findOne(ctx) {
     const {id} = ctx.params;
 
+    if (id === "launch") {
+      ctx.throw(404)
+    }
+
     let entity = await strapi.services.article.findOne({id});
 
     // Create the launch object
