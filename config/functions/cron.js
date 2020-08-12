@@ -14,7 +14,7 @@ module.exports = {
   /**
    * Simple example.
    */
-  '* * * * *': () => {
-    // strapi.services.launchsync.syncLL2()
+  '*/15 * * * *': () => {
+    strapi.services.launchsync.syncLl2Launches()
   }
 };

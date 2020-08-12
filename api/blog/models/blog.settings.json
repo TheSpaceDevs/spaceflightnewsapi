@@ -35,8 +35,8 @@
       "required": true
     },
     "launches": {
-      "collection": "launches",
       "via": "blogs",
+      "collection": "launches",
       "dominant": true
     }
   }

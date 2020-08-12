@@ -19,15 +19,15 @@
     "name": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "articles": {
-      "via": "launches",
-      "collection": "article"
+      "collection": "article",
+      "via": "launches"
     },
     "blogs": {
-      "via": "launches",
-      "collection": "blog"
+      "collection": "blog",
+      "via": "launches"
     }
   }
 }

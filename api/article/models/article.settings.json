@@ -40,8 +40,8 @@
       "default": "2020-08-04T10:00:00.000Z"
     },
     "launches": {
-      "collection": "launches",
       "via": "articles",
+      "collection": "launches",
       "dominant": true
     }
   }
