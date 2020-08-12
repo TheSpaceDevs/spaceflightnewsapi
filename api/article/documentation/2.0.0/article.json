@@ -531,6 +531,7 @@
           "title",
           "url",
           "imageUrl",
+          "newsSite",
           "publishedAt"
         ],
         "properties": {
@@ -714,6 +715,7 @@
           "title",
           "url",
           "imageUrl",
+          "newsSite",
           "publishedAt"
         ],
         "properties": {

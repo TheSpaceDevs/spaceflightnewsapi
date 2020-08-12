@@ -28,7 +28,8 @@
       "required": true
     },
     "newsSite": {
-      "model": "news-site"
+      "model": "news-site",
+      "required": true
     },
     "summary": {
       "type": "text"
