@@ -547,6 +547,48 @@
               }
             }
           },
+          "events": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "name",
+                "EventId"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "EventId": {
+                  "type": "string"
+                },
+                "event_provider": {
+                  "type": "string"
+                },
+                "articles": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "blogs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -665,6 +707,12 @@
             "default": "2020-08-04T10:00:00.000Z"
           },
           "launches": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "events": {
             "type": "array",
             "items": {
               "type": "string"

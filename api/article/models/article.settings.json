@@ -43,6 +43,10 @@
       "via": "articles",
       "collection": "launches",
       "dominant": true
+    },
+    "events": {
+      "via": "articles",
+      "collection": "event"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/api/v2/articles": {
+    "/event-providers": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -10,9 +10,10 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Article"
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
                   }
                 }
               }
@@ -51,7 +52,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Event-provider"
         ],
         "parameters": [
           {
@@ -201,7 +202,11 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Article"
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
                 }
               }
             }
@@ -239,7 +244,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Event-provider"
         ],
         "requestBody": {
           "description": "",
@@ -247,14 +252,14 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewArticle"
+                "$ref": "#/components/schemas/NewEvent-provider"
               }
             }
           }
         }
       }
     },
-    "/api/v2/articles/{id}": {
+    "/event-providers/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -264,7 +269,11 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Article"
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
                 }
               }
             }
@@ -302,7 +311,64 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Event-provider"
+        ],
+        "parameters": []
+      }
+    },
+    "/event-providers/{id}": {
+      "get": {
+        "deprecated": false,
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Event-provider"
         ],
         "parameters": [
           {
@@ -326,7 +392,11 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Article"
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
                 }
               }
             }
@@ -364,7 +434,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
+          "Event-provider"
         ],
         "requestBody": {
           "description": "",
@@ -372,7 +442,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewArticle"
+                "$ref": "#/components/schemas/NewEvent-provider"
               }
             }
           }
@@ -438,75 +508,7 @@
         },
         "summary": "",
         "tags": [
-          "Article"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "",
-            "deprecated": false,
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ]
-      }
-    },
-    "/api/v2/articles/launch/{id}": {
-      "get": {
-        "deprecated": false,
-        "description": "Get all articles linked to a launch",
-        "responses": {
-          "200": {
-            "description": "response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "properties": {
-                    "foo": {
-                      "type": "string"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "default": {
-            "description": "unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        },
-        "summary": "",
-        "tags": [
-          "Article"
+          "Event-provider"
         ],
         "parameters": [
           {
@@ -525,142 +527,17 @@
   },
   "components": {
     "schemas": {
-      "Article": {
+      "Event-provider": {
         "required": [
           "id",
-          "title",
-          "url",
-          "imageUrl",
-          "newsSite",
-          "publishedAt"
+          "name"
         ],
         "properties": {
           "id": {
             "type": "string"
           },
-          "featured": {
-            "type": "boolean",
-            "default": false
-          },
-          "title": {
+          "name": {
             "type": "string"
-          },
-          "url": {
-            "type": "string"
-          },
-          "imageUrl": {
-            "type": "string"
-          },
-          "newsSite": {
-            "required": [
-              "id",
-              "name"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
-          "summary": {
-            "type": "string"
-          },
-          "publishedAt": {
-            "type": "datetime",
-            "default": "2020-08-04T10:00:00.000Z"
-          },
-          "launches": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "launchId",
-                "name"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "launchId": {
-                  "type": "string"
-                },
-                "launchProvider": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "articles": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "blogs": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "events": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "name",
-                "EventId"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "EventId": {
-                  "type": "string"
-                },
-                "event_provider": {
-                  "type": "string"
-                },
-                "articles": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "blogs": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
           },
           "created_by": {
             "required": [
@@ -752,49 +629,13 @@
           }
         }
       },
-      "NewArticle": {
+      "NewEvent-provider": {
         "required": [
-          "title",
-          "url",
-          "imageUrl",
-          "newsSite",
-          "publishedAt"
+          "name"
         ],
         "properties": {
-          "featured": {
-            "type": "boolean",
-            "default": false
-          },
-          "title": {
+          "name": {
             "type": "string"
-          },
-          "url": {
-            "type": "string"
-          },
-          "imageUrl": {
-            "type": "string"
-          },
-          "newsSite": {
-            "type": "string"
-          },
-          "summary": {
-            "type": "string"
-          },
-          "publishedAt": {
-            "type": "datetime",
-            "default": "2020-08-04T10:00:00.000Z"
-          },
-          "launches": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "events": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
           },
           "created_by": {
             "type": "string"
@@ -806,9 +647,5 @@
       }
     }
   },
-  "tags": [
-    {
-      "name": "Article"
-    }
-  ]
+  "tags": []
 }

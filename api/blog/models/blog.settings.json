@@ -38,6 +38,10 @@
       "via": "blogs",
       "collection": "launches",
       "dominant": true
+    },
+    "events": {
+      "via": "blogs",
+      "collection": "event"
     }
   }
 }
