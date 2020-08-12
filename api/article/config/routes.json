@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/articles",
+      "path": "/api/v2/articles",
       "handler": "article.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/articles/:id",
+      "path": "/api/v2/articles/:id",
       "handler": "article.findOne",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "POST",
-      "path": "/articles",
+      "path": "/api/v2/articles",
       "handler": "article.create",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "PUT",
-      "path": "/articles/:id",
+      "path": "/api/v2/articles/:id",
       "handler": "article.update",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/articles/:id",
+      "path": "/api/v2/articles/:id",
       "handler": "article.delete",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "GET",
-      "path": "/articles/launch/:id",
+      "path": "/api/v2/articles/launch/:id",
       "handler": "article.findPerLaunch",
       "config": {
         "policies": [],

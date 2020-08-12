@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/articles": {
+    "/api/v2/articles": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -254,7 +254,7 @@
         }
       }
     },
-    "/articles/{id}": {
+    "/api/v2/articles/{id}": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -454,7 +454,7 @@
         ]
       }
     },
-    "/articles/launch/{id}": {
+    "/api/v2/articles/launch/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all articles linked to a launch",

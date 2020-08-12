@@ -14,7 +14,7 @@
       "name": "GPLv3",
       "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
     },
-    "x-generation-date": "08/12/2020 8:55:58 AM"
+    "x-generation-date": "08/12/2020 4:53:06 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -46,7 +46,7 @@
     }
   ],
   "paths": {
-    "/articles": {
+    "/api/v2/articles": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -292,7 +292,7 @@
         }
       }
     },
-    "/articles/{id}": {
+    "/api/v2/articles/{id}": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -493,7 +493,7 @@
         ]
       }
     },
-    "/articles/launch/{id}": {
+    "/api/v2/articles/launch/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all articles linked to a launch",
@@ -558,7 +558,7 @@
         "security": []
       }
     },
-    "/blogs": {
+    "/api/v2/blogs": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -804,7 +804,7 @@
         }
       }
     },
-    "/blogs/{id}": {
+    "/api/v2/blogs/{id}": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -1005,7 +1005,7 @@
         ]
       }
     },
-    "/reports": {
+    "/api/v2/reports": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -1251,7 +1251,7 @@
         }
       }
     },
-    "/reports/{id}": {
+    "/api/v2/reports/{id}": {
       "get": {
         "deprecated": false,
         "description": "",

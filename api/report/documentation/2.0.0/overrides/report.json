@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/reports": {
+    "/api/v2/reports": {
       "get": {
         "security": [],
         "responses": {
@@ -41,7 +41,7 @@
         }
       }
     },
-    "/reports/{id}": {
+    "/api/v2/reports/{id}": {
       "get": {
         "security": []
       }

@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/blogs": {
+    "/api/v2/blogs": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -254,7 +254,7 @@
         }
       }
     },
-    "/blogs/{id}": {
+    "/api/v2/blogs/{id}": {
       "get": {
         "deprecated": false,
         "description": "",

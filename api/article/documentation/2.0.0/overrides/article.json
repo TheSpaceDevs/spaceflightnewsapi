@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/articles": {
+    "/api/v2/articles": {
       "get": {
         "security": [],
         "responses": {
@@ -41,12 +41,12 @@
         }
       }
     },
-    "/articles/{id}": {
+    "/api/v2/articles/{id}": {
       "get": {
         "security": []
       }
     },
-    "/articles/launch/{id}": {
+    "/api/v2/articles/launch/{id}": {
       "get": {
         "security": [],
         "responses": {

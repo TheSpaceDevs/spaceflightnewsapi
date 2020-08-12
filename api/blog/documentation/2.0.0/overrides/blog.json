@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/blogs": {
+    "/api/v2/blogs": {
       "get": {
         "security": [],
         "responses": {
@@ -41,7 +41,7 @@
         }
       }
     },
-    "/blogs/{id}": {
+    "/api/v2/blogs/{id}": {
       "get": {
         "security": []
       }
