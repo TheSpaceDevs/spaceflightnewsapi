@@ -13,7 +13,7 @@ module.exports = {
       await strapi.query('launches').model.findOneAndUpdate({launchId: launch.id}, {
         name: launch.name,
         launchId: launch.id,
-        launchProvider: '5f29a7834ebcc784f56e4f2c'
+        provider: '5f34e4055379f026924c61cf'
       }, {upsert: true});
     })
 
@@ -23,7 +23,7 @@ module.exports = {
       await strapi.query('launches').model.findOneAndUpdate({launchId: launch.id}, {
         name: launch.name,
         launchId: launch.id,
-        launchProvider: '5f29a7834ebcc784f56e4f2c'
+        provider: '5f34e4055379f026924c61cf'
       }, {upsert: true});
     })
   }

@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "launch_providers",
+  "collectionName": "providers",
   "info": {
-    "name": "Launch Providers"
+    "name": "Provider"
   },
   "options": {
     "increments": true,

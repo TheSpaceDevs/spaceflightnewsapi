@@ -13,9 +13,6 @@
       "type": "string",
       "required": true
     },
-    "launchProvider": {
-      "model": "launch-providers"
-    },
     "name": {
       "type": "string",
       "required": true,
@@ -28,6 +25,9 @@
     "blogs": {
       "collection": "blog",
       "via": "launches"
+    },
+    "provider": {
+      "model": "provider"
     }
   }
 }

@@ -17,11 +17,16 @@ module.exports = {
 
     let entity = await strapi.services.blog.findOne({ id });
 
-    // Create the launch object
+    // Create the launch and event objects
     // Using Promise.all since it's an async map (async to wait for the result)
     const launches = await Promise.all(entity.launches.map(async launch => {
-      const lp = await strapi.services['launch-providers'].findOne({_id: launch.launchProvider})
+      const lp = await strapi.services.provider.findOne({_id: event.provider})
       return {id: launch.launchId, provider: lp.name}
+    }))
+
+    const events = await Promise.all(entity.events.map(async event => {
+      const ep = await strapi.services.provider.findOne({_id: event.provider})
+      return {id: event.eventId, provider: ep.name}
     }))
 
     // Finally, return the response
@@ -33,7 +38,8 @@ module.exports = {
       summary: entity.summary,
       publishedAt: entity.publishedAt,
       updatedAt: entity.updatedAt,
-      launches: launches
+      launches: launches,
+      events: events
     }
   },
 
@@ -53,11 +59,16 @@ module.exports = {
 
     // Build the response we want to return
     entities = await Promise.all(entities.map(async entity => {
-      // Create the launch object
+      // Create the launch and event objects
       // Using Promise.all since it's an async map (async to wait for the result)
       const launches = await Promise.all(entity.launches.map(async launch => {
-        const lp = await strapi.services['launch-providers'].findOne({_id: launch.launchProvider})
+        const lp = await strapi.services.provider.findOne({_id: event.provider})
         return {id: launch.launchId, provider: lp.name}
+      }))
+
+      const events = await Promise.all(entity.events.map(async event => {
+        const ep = await strapi.services.provider.findOne({_id: event.provider})
+        return {id: event.eventId, provider: ep.name}
       }))
 
       return {
@@ -69,7 +80,8 @@ module.exports = {
         summary: entity.summary,
         publishedAt: entity.publishedAt,
         updatedAt: entity.updatedAt,
-        launches: launches
+        launches: launches,
+        events: events
       }
     }))
 

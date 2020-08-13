@@ -13,14 +13,6 @@
       "type": "string",
       "required": true
     },
-    "EventId": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
-    "event_provider": {
-      "model": "event-provider"
-    },
     "articles": {
       "collection": "article",
       "via": "events",
@@ -30,6 +22,14 @@
       "collection": "blog",
       "via": "events",
       "dominant": true
+    },
+    "eventId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "provider": {
+      "model": "provider"
     }
   }
 }

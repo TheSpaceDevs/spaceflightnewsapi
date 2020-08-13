@@ -593,9 +593,6 @@
                 "launchId": {
                   "type": "string"
                 },
-                "launchProvider": {
-                  "type": "string"
-                },
                 "name": {
                   "type": "string"
                 },
@@ -610,6 +607,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "provider": {
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
@@ -626,19 +626,13 @@
               "required": [
                 "id",
                 "name",
-                "EventId"
+                "eventId"
               ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
                 "name": {
-                  "type": "string"
-                },
-                "EventId": {
-                  "type": "string"
-                },
-                "event_provider": {
                   "type": "string"
                 },
                 "articles": {
@@ -652,6 +646,12 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "eventId": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"

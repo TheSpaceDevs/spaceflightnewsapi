@@ -1,4 +1,5 @@
 'use strict';
+const axios = require('axios')
 
 /**
  * `eventsync` service.
@@ -12,7 +13,7 @@ module.exports = {
       await strapi.query('event').model.findOneAndUpdate({eventId: event.id}, {
         name: event.name,
         eventId: event.id,
-        eventProvider: '5f29a7834ebcc784f56e4f2c'
+        provider: '5f34e4055379f026924c61cf'
       }, {upsert: true});
     })
 
@@ -22,7 +23,7 @@ module.exports = {
       await strapi.query('event').model.findOneAndUpdate({eventId: event.id}, {
         name: event.name,
         eventId: event.id,
-        eventProvider: '5f29a7834ebcc784f56e4f2c'
+        provider: '5f34e4055379f026924c61cf'
       }, {upsert: true});
     })
   }

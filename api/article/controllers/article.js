@@ -21,11 +21,16 @@ module.exports = {
 
     let entity = await strapi.services.article.findOne({id});
 
-    // Create the launch object
+    // Create the launch and event objects
     // Using Promise.all since it's an async map (async to wait for the result)
     const launches = await Promise.all(entity.launches.map(async launch => {
-      const lp = await strapi.services['launch-providers'].findOne({_id: launch.launchProvider})
+      const lp = await strapi.services.provider.findOne({_id: event.provider})
       return {id: launch.launchId, provider: lp.name}
+    }))
+
+    const events = await Promise.all(entity.events.map(async event => {
+      const ep = await strapi.services.provider.findOne({_id: event.provider})
+      return {id: event.eventId, provider: ep.name}
     }))
 
     // Finally, return the response
@@ -38,7 +43,8 @@ module.exports = {
       publishedAt: entity.publishedAt,
       updatedAt: entity.updatedAt,
       featured: entity.featured,
-      launches: launches
+      launches: launches,
+      events: events
     }
   },
 
@@ -59,11 +65,16 @@ module.exports = {
     // Build the response we want to return
     // Use Promise.all to since it's an async map (async for the inner Promise)
     entities = await Promise.all(entities.map(async entity => {
-      // Create the launch object
+      // Create the launch and event objects
       // Using Promise.all since it's an async map (async to wait for the result)
       const launches = await Promise.all(entity.launches.map(async launch => {
-        const lp = await strapi.services['launch-providers'].findOne({_id: launch.launchProvider})
+        const lp = await strapi.services.provider.findOne({_id: event.provider})
         return {id: launch.launchId, provider: lp.name}
+      }))
+
+      const events = await Promise.all(entity.events.map(async event => {
+        const ep = await strapi.services.provider.findOne({_id: event.provider})
+        return {id: event.eventId, provider: ep.name}
       }))
 
       return {
@@ -76,7 +87,8 @@ module.exports = {
         publishedAt: entity.publishedAt,
         updatedAt: entity.updatedAt,
         featured: entity.featured,
-        launches: launches
+        launches: launches,
+        events: events
       }
     }))
 
@@ -97,11 +109,16 @@ module.exports = {
     // Build the response we want to return
     // Use Promise.all to since it's an async map (async for the inner Promise)
     entities = await Promise.all(entities.map(async entity => {
-      // Create the launch object
+      // Create the launch and event objects
       // Using Promise.all since it's an async map (async to wait for the result)
       const launches = await Promise.all(entity.launches.map(async launch => {
-        const lp = await strapi.services['launch-providers'].findOne({_id: launch.launchProvider})
+        const lp = await strapi.services.provider.findOne({_id: event.provider})
         return {id: launch.launchId, provider: lp.name}
+      }))
+
+      const events = await Promise.all(entity.events.map(async event => {
+        const ep = await strapi.services.provider.findOne({_id: event.provider})
+        return {id: event.eventId, provider: ep.name}
       }))
 
       return {
@@ -114,7 +131,8 @@ module.exports = {
         publishedAt: entity.publishedAt,
         updatedAt: entity.updatedAt,
         featured: entity.featured,
-        launches: launches
+        launches: launches,
+        events: events
       }
     }))
 
