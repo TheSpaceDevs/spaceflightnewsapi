@@ -1,0 +1,53 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/api/v2/articles",
+      "handler": "article.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/articles/:id",
+      "handler": "article.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/v2/articles",
+      "handler": "article.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/api/v2/articles/:id",
+      "handler": "article.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v2/articles/:id",
+      "handler": "article.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/articles/launch/:id",
+      "handler": "article.findPerLaunch",
+      "config": {
+        "policies": [],
+        "description": "Get all articles linked to a launch"
+      }
+    }
+  ]
+}

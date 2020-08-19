@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_sites",
+  "info": {
+    "name": "news site"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
