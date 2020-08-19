@@ -14,7 +14,7 @@
       "name": "GPLv3",
       "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
     },
-    "x-generation-date": "08/19/2020 7:08:31 AM"
+    "x-generation-date": "08/19/2020 4:50:28 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2012,6 +2012,24 @@
                 }
               }
             }
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "launchId",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -2048,6 +2066,24 @@
             "default": "2020-08-04T10:00:00.000Z"
           },
           "launches": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "launchId",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "events": {
             "type": "array",
             "items": {
               "required": [
@@ -2113,6 +2149,24 @@
                 }
               }
             }
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "launchId",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -2149,6 +2203,24 @@
             "default": "2020-08-04T10:00:00.000Z"
           },
           "launches": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "launchId",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "events": {
             "type": "array",
             "items": {
               "required": [

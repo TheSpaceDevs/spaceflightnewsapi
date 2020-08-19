@@ -95,6 +95,24 @@
                 }
               }
             }
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "launchId",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -131,6 +149,24 @@
             "default": "2020-08-04T10:00:00.000Z"
           },
           "launches": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "launchId",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "events": {
             "type": "array",
             "items": {
               "required": [
