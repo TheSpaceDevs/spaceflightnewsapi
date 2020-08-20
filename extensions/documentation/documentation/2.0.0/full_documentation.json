@@ -14,7 +14,7 @@
       "name": "GPLv3",
       "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
     },
-    "x-generation-date": "08/19/2020 4:50:28 PM"
+    "x-generation-date": "08/20/2020 9:04:53 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -24,15 +24,15 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1337",
-      "description": "Development server"
-    },
-    {
       "url": "https://test.spaceflightnewsapi.net",
       "description": "Test server"
     },
     {
       "url": "https://spaceflightnewsapi.net",
+      "description": "Production server"
+    },
+    {
+      "url": "YOUR_PRODUCTION_SERVER",
       "description": "Production server"
     }
   ],

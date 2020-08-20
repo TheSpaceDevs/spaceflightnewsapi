@@ -21,10 +21,6 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1337",
-      "description": "Development server"
-    },
-    {
       "url": "https://test.spaceflightnewsapi.net",
       "description": "Test server"
     },
