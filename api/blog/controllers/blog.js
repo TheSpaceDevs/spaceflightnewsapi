@@ -13,14 +13,14 @@ module.exports = {
    */
 
   async findOne(ctx) {
-    const { id } = ctx.params;
+    const {id} = ctx.params;
 
-    let entity = await strapi.services.blog.findOne({ id });
+    let entity = await strapi.services.blog.findOne({id});
 
     // Create the launch and event objects
     // Using Promise.all since it's an async map (async to wait for the result)
     const launches = await Promise.all(entity.launches.map(async launch => {
-      const lp = await strapi.services.provider.findOne({_id: event.provider})
+      const lp = await strapi.services.provider.findOne({_id: launch.provider})
       return {id: launch.launchId, provider: lp.name}
     }))
 
@@ -54,7 +54,11 @@ module.exports = {
     if (ctx.query._q) { // search for an blog if a search query was given
       entities = await strapi.services.blog.search(ctx.query);
     } else { // just find everything
-      entities = await strapi.services.blog.find({...ctx.query, _limit: ctx.query._limit || 10});
+      entities = await strapi.services.blog.find({
+        ...ctx.query,
+        _limit: ctx.query._limit || 10,
+        _sort: ctx.query._sort || 'publishedAt:DESC'
+      });
     }
 
     // Build the response we want to return

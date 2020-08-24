@@ -13,9 +13,9 @@ module.exports = {
    */
 
   async findOne(ctx) {
-    const { id } = ctx.params;
+    const {id} = ctx.params;
 
-    let entity = await strapi.services.report.findOne({ id });
+    let entity = await strapi.services.report.findOne({id});
 
     // Finally, return the response
     return entity = {
@@ -40,7 +40,11 @@ module.exports = {
     if (ctx.query._q) { // search for an report if a search query was given
       entities = await strapi.services.report.search(ctx.query);
     } else { // just find everything
-      entities = await strapi.services.report.find({...ctx.query, _limit: ctx.query._limit || 10});
+      entities = await strapi.services.report.find({
+        ...ctx.query,
+        _limit: ctx.query._limit || 10,
+        _sort: ctx.query._sort || 'publishedAt:DESC'
+      });
     }
 
     // Build the response we want to return

@@ -24,7 +24,7 @@ module.exports = {
     // Create the launch and event objects
     // Using Promise.all since it's an async map (async to wait for the result)
     const launches = await Promise.all(entity.launches.map(async launch => {
-      const lp = await strapi.services.provider.findOne({_id: event.provider})
+      const lp = await strapi.services.provider.findOne({_id: launch.provider})
       return {id: launch.launchId, provider: lp.name}
     }))
 
@@ -59,7 +59,11 @@ module.exports = {
     if (ctx.query._q) { // search for an article if a search query was given
       entities = await strapi.services.article.search(ctx.query);
     } else { // just find everything
-      entities = await strapi.services.article.find({...ctx.query, _limit: ctx.query._limit || 10});
+      entities = await strapi.services.article.find({
+        ...ctx.query,
+        _limit: ctx.query._limit || 10,
+        _sort: ctx.query._sort || 'publishedAt:DESC'
+      });
     }
 
     // Build the response we want to return
