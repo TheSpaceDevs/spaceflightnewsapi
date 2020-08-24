@@ -59,7 +59,7 @@ module.exports = {
     if (ctx.query._q) { // search for an article if a search query was given
       entities = await strapi.services.article.search(ctx.query);
     } else { // just find everything
-      entities = await strapi.services.article.find(ctx.query);
+      entities = await strapi.services.article.find({...ctx.query, _limit: ctx.query._limit || 10});
     }
 
     // Build the response we want to return
