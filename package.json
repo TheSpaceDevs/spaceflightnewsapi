@@ -11,16 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.2.3",
-    "strapi-admin": "3.2.3",
-    "strapi-connector-mongoose": "3.2.3",
-    "strapi-plugin-content-manager": "3.2.3",
-    "strapi-plugin-content-type-builder": "3.2.3",
-    "strapi-plugin-documentation": "3.2.3",
-    "strapi-plugin-email": "3.2.3",
-    "strapi-plugin-upload": "3.2.3",
-    "strapi-plugin-users-permissions": "3.2.3",
-    "strapi-utils": "3.2.3"
+    "strapi": "3.2.4",
+    "strapi-admin": "3.2.4",
+    "strapi-connector-mongoose": "3.2.4",
+    "strapi-plugin-content-manager": "3.2.4",
+    "strapi-plugin-content-type-builder": "3.2.4",
+    "strapi-plugin-documentation": "3.2.4",
+    "strapi-plugin-email": "3.2.4",
+    "strapi-plugin-upload": "3.2.4",
+    "strapi-plugin-users-permissions": "3.2.4",
+    "strapi-utils": "3.2.4"
   },
   "author": {
     "name": "Derk Weijers <derk@spaceflightnewsapi.net> (https://github.com/spaceflightnewsapi)"
