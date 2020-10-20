@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "Event"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "articles": {
+      "collection": "article",
+      "via": "events",
+      "dominant": true
+    },
+    "blogs": {
+      "collection": "blog",
+      "via": "events",
+      "dominant": true
+    },
+    "eventId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "provider": {
+      "model": "provider"
+    }
+  }
+}

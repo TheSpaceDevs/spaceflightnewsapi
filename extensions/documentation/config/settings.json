@@ -1,0 +1,44 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "2.0.0",
+    "title": "Spaceflight News API",
+    "description": "",
+    "contact": {
+      "name": "Spaceflight News API",
+      "email": "derk@spaceflightnewsapi.net",
+      "url": "https://spaceflightnewsapi.net"
+    },
+    "license": {
+      "name": "GPLv3",
+      "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+    }
+  },
+  "x-strapi-config": {
+    "path": "/documentation",
+    "showGeneratedFiles": true,
+    "pluginsForWhichToGenerateDoc": []
+  },
+  "servers": [
+    {
+      "url": "https://test.spaceflightnewsapi.net",
+      "description": "Test server"
+    },
+    {
+      "url": "https://spaceflightnewsapi.net",
+      "description": "Production server"
+    }
+  ],
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ],
+  "externalDocs": {
+    "description": "Part of The Space Devs",
+    "url": "https://thespacedevs.com"
+  },
+  "paths": {},
+  "tags": [],
+  "components": {}
+}
