@@ -1,4 +1,4 @@
-![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/master)
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/main)
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/development)
 ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m782215986-8b4d4ce5cf97cc49945e10b8)
 
