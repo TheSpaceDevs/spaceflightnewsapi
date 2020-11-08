@@ -5,11 +5,11 @@ FROM node:lts-alpine3.12
 COPY . .
 
 # Install all packages from the package.json
-RUN npm ci --only=production
+RUN yarn install
 
 # Build the admin interface in production mode
-RUN NODE_ENV=production npm run build
+RUN NODE_ENV=production yarn run build
 
 # No explenation needed
 EXPOSE 1337
-CMD [ "npm", "start" ]
+CMD [ "yarn", "start" ]
