@@ -14,7 +14,7 @@ module.exports = {
   connectMqService: () => {
     amqp.connect(`amqp://${username}:${password}@${host}/${virtualhost}`, function (err, conn) {
       if (err) {
-        console.error("error setting up a connection, retrying in 5 seconds")
+        console.error(`error setting up a connection to ${host}, retrying in 5 seconds`)
         return setTimeout(strapi.services.amqp.connectMqService, 5000)
       }
 
@@ -26,7 +26,7 @@ module.exports = {
 
         ch.consume('api.articles', function (msg) {
             console.log('.....');
-            console.log("Message:", msg.content.toString());
+            console.log("message from mq:", msg.content.toString());
           }, {noAck: true}
         );
       });
