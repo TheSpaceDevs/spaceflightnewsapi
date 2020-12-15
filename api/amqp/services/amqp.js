@@ -29,7 +29,7 @@ module.exports = {
         ch.consume('api.articles', async function (msg) {
           let item = JSON.parse(msg.content.toString());
           try {
-            console.log('saving article from mq')
+            console.log(`saving article from mq: ${item.title}`)
             await strapi.services.article.create(item);
             await ch.ack(msg);
           } catch (e) {
@@ -54,7 +54,7 @@ module.exports = {
         ch.consume('api.blogs', async function (msg) {
           let item = JSON.parse(msg.content.toString());
             try {
-              console.log('saving blog from mq')
+              console.log(`saving blog from mq: ${item.title}`)
               await strapi.services.blog.create(item);
               await ch.ack(msg);
             } catch (e) {
@@ -80,7 +80,7 @@ module.exports = {
           let item = JSON.parse(msg.content.toString());
 
             try {
-              console.log('saving report from mq')
+              console.log(`saving report from mq: ${item.title}`)
               await strapi.services.report.create(item);
               await ch.ack(msg);
             } catch (e) {
