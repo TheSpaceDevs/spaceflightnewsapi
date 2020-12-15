@@ -27,18 +27,19 @@ module.exports = {
         }
 
         ch.consume('api.articles', async function (msg) {
+          let item = JSON.parse(msg.content.toString());
           try {
             console.log('saving article from mq')
-            await strapi.services.article.create(msg.content.toJSON());
-            msg.ack();
+            await strapi.services.article.create(item);
+            await ch.ack(msg);
           } catch (e) {
-            // Update an existing one with update values. Only if from the same news site.
+            // Update an existing one with updated values. Only if from the same news site.
             const dup = await strapi.services.article.findOne(e.keyValue);
-            if (msg.content.toJSON().newsSite === String(dup.newsSite._id)) {
+            if (item.newsSite === String(dup.newsSite._id)) {
               try {
-                console.log('duplicate article from mq, updating instead...')
-                await strapi.services.article.update({_id: dup._id}, msg.content.toJSON());
-                msg.ack();
+                console.log(`duplicate article from mq: ${dup._id} - updating instead...`)
+                await strapi.services.article.update({_id: dup._id}, item);
+                await ch.ack(msg);
               } catch (e) {
                 console.error('error updating article', e)
               }
@@ -51,18 +52,19 @@ module.exports = {
         );
 
         ch.consume('api.blogs', async function (msg) {
+          let item = JSON.parse(msg.content.toString());
             try {
               console.log('saving blog from mq')
-              await strapi.services.blog.create(msg.content.toJSON());
-              msg.ack();
+              await strapi.services.blog.create(item);
+              await ch.ack(msg);
             } catch (e) {
-              // Update an existing one with update values. Only if from the same news site.
+              // Update an existing one with updated values. Only if from the same news site.
               const dup = await strapi.services.blog.findOne(e.keyValue);
-              if (msg.content.toJSON().newsSite === String(dup.newsSite._id)) {
+              if (item.newsSite === String(dup.newsSite._id)) {
                 try {
-                  console.log('duplicate blog from mq, updating instead...')
-                  await strapi.services.blog.update({_id: dup._id}, msg.content.toJSON());
-                  msg.ack();
+                  console.log(`duplicate blog from mq: ${dup._id} - updating instead...`)
+                  await strapi.services.blog.update({_id: dup._id}, item);
+                  await ch.ack(msg);
                 } catch (e) {
                   console.error('error updating blog', e)
                 }
@@ -75,18 +77,20 @@ module.exports = {
         );
 
         ch.consume('api.reports', async function (msg) {
+          let item = JSON.parse(msg.content.toString());
+
             try {
               console.log('saving report from mq')
-              await strapi.services.report.create(msg.content.toJSON());
-              msg.ack();
+              await strapi.services.report.create(item);
+              await ch.ack(msg);
             } catch (e) {
-              // Update an existing one with update values. Only if from the same news site.
+              // Update an existing one with updated values. Only if from the same news site.
               const dup = await strapi.services.report.findOne(e.keyValue);
-              if (msg.content.toJSON().newsSite === String(dup.newsSite._id)) {
+              if (item.newsSite === String(dup.newsSite._id)) {
                 try {
-                  console.log('duplicate report from mq, updating instead...')
-                  await strapi.services.report.update({_id: dup._id}, msg.content.toJSON());
-                  msg.ack();
+                  console.log(`duplicate report from mq: ${dup._id} - updating instead...`)
+                  await strapi.services.report.update({_id: dup._id}, item);
+                  await ch.ack(msg);
                 } catch (e) {
                   console.error('error updating report', e)
                 }
