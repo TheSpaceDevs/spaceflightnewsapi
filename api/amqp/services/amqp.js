@@ -26,22 +26,76 @@ module.exports = {
           return setTimeout(strapi.services.amqp.connectMqService, 5000)
         }
 
-        ch.consume('api.articles', function (msg) {
-            console.log('.....');
-            console.log("article from mq:", msg.content.toString());
-          }, {noAck: true}
+        ch.consume('api.articles', async function (msg) {
+          try {
+            console.log('saving article from mq')
+            await strapi.services.article.create(msg.content.toJSON());
+            msg.ack();
+          } catch (e) {
+            // Update an existing one with update values. Only if from the same news site.
+            const dup = await strapi.services.article.findOne(e.keyValue);
+            if (msg.content.toJSON().newsSite === String(dup.newsSite._id)) {
+              try {
+                console.log('duplicate article from mq, updating instead...')
+                await strapi.services.article.update({_id: dup._id}, msg.content.toJSON());
+                msg.ack();
+              } catch (e) {
+                console.error('error updating article', e)
+              }
+            } else {
+              // when there's a duplicate, but from another website
+              console.error(`duplicate from another site found: ${msg.content.toString()}`);
+            }
+          }
+          }, {noAck: false}
         );
 
-        ch.consume('api.blogs', function (msg) {
-            console.log('.....');
-            console.log("blog from mq:", msg.content.toString());
-          }, {noAck: true}
+        ch.consume('api.blogs', async function (msg) {
+            try {
+              console.log('saving blog from mq')
+              await strapi.services.blog.create(msg.content.toJSON());
+              msg.ack();
+            } catch (e) {
+              // Update an existing one with update values. Only if from the same news site.
+              const dup = await strapi.services.blog.findOne(e.keyValue);
+              if (msg.content.toJSON().newsSite === String(dup.newsSite._id)) {
+                try {
+                  console.log('duplicate blog from mq, updating instead...')
+                  await strapi.services.blog.update({_id: dup._id}, msg.content.toJSON());
+                  msg.ack();
+                } catch (e) {
+                  console.error('error updating blog', e)
+                }
+              } else {
+                // when there's a duplicate, but from another website
+                console.error(`duplicate from another site found: ${msg.content.toString()}`);
+              }
+            }
+          }, {noAck: false}
         );
 
-        ch.consume('api.reports', function (msg) {
-            console.log('.....');
-            console.log("report from mq:", msg.content.toString());
-          }, {noAck: true}
+        ch.consume('api.reports', async function (msg) {
+            try {
+              console.log('saving report from mq')
+              await strapi.services.report.create(msg.content.toJSON());
+              msg.ack();
+            } catch (e) {
+              // Update an existing one with update values. Only if from the same news site.
+              const dup = await strapi.services.report.findOne(e.keyValue);
+              if (msg.content.toJSON().newsSite === String(dup.newsSite._id)) {
+                try {
+                  console.log('duplicate report from mq, updating instead...')
+                  await strapi.services.report.update({_id: dup._id}, msg.content.toJSON());
+                  msg.ack();
+                } catch (e) {
+                  console.error('error updating report', e)
+                }
+              } else {
+                // when there's a duplicate, but from another website
+                console.error(`duplicate from another site found: ${msg.content.toString()}`);
+              }
+            }
+          }, {noAck: false}
         );
       });
 
