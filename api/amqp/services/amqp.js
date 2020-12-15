@@ -18,6 +18,8 @@ module.exports = {
         return setTimeout(strapi.services.amqp.connectMqService, 5000)
       }
 
+      console.log(`connected to mq: ${host}`)
+
       conn.createChannel(function (err, ch) {
         if (err) {
           console.error("error creating a channel, retrying in 5 seconds")
