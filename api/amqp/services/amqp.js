@@ -26,7 +26,19 @@ module.exports = {
 
         ch.consume('api.articles', function (msg) {
             console.log('.....');
-            console.log("message from mq:", msg.content.toString());
+            console.log("article from mq:", msg.content.toString());
+          }, {noAck: true}
+        );
+
+        ch.consume('api.blogs', function (msg) {
+            console.log('.....');
+            console.log("blog from mq:", msg.content.toString());
+          }, {noAck: true}
+        );
+
+        ch.consume('api.reports', function (msg) {
+            console.log('.....');
+            console.log("report from mq:", msg.content.toString());
           }, {noAck: true}
         );
       });
