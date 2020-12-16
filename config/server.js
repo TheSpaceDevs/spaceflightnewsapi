@@ -8,5 +8,9 @@ module.exports = ({ env }) => ({
   },
   cron: {
     enabled: true
-  }
+  },
+  mq_host: env('MQ_HOST'),
+  mq_username: env('MQ_USERNAME'),
+  mq_password: env('MQ_PASSWORD'),
+  mq_virtualhost: env('MQ_VIRTUALHOST')
 });

@@ -45,4 +45,8 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 ## Changelog
 ### v2.0.0
+* Backend changes on how new content is processed
+* Package updates
+
+### v2.0.0
 * Complete rewrite of the app, focusing on existing features

@@ -5,10 +5,8 @@ FROM node:lts-alpine3.12
 COPY . .
 
 # Install all packages from the package.json
-RUN yarn install
-
 # Build the admin interface in production mode
-RUN NODE_ENV=production yarn run build
+RUN yarn install && NODE_ENV=production yarn run build
 
 # No explenation needed
 EXPOSE 1337

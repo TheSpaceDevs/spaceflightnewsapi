@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "version": "2.0.1",
+    "version": "2.1.0",
     "title": "Spaceflight News API",
     "description": "Documentation for the Spaceflight News API. Join The Space Devs Discord server to contact me for support :)",
     "termsOfService": "https://spaceflightnewsapi.net",
@@ -14,7 +14,7 @@
       "name": "GPLv3",
       "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
     },
-    "x-generation-date": "12/08/2020 10:42:32 AM"
+    "x-generation-date": "12/14/2020 2:35:51 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
