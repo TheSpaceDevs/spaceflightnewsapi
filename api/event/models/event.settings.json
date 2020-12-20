@@ -13,16 +13,6 @@
       "type": "string",
       "required": true
     },
-    "articles": {
-      "collection": "article",
-      "via": "events",
-      "dominant": true
-    },
-    "blogs": {
-      "collection": "blog",
-      "via": "events",
-      "dominant": true
-    },
     "eventId": {
       "type": "string",
       "required": true,
@@ -30,6 +20,14 @@
     },
     "provider": {
       "model": "provider"
+    },
+    "articles": {
+      "via": "events",
+      "collection": "article"
+    },
+    "blogs": {
+      "via": "events",
+      "collection": "blog"
     }
   }
 }

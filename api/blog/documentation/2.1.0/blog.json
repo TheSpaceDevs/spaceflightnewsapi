@@ -563,6 +563,12 @@
                 "name": {
                   "type": "string"
                 },
+                "eventId": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                },
                 "articles": {
                   "type": "array",
                   "items": {
@@ -574,12 +580,6 @@
                   "items": {
                     "type": "string"
                   }
-                },
-                "eventId": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
