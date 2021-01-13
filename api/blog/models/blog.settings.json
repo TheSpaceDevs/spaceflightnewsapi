@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "blogs",
   "info": {
-    "name": "Blog"
+    "name": "Blog",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "title": {
@@ -35,13 +37,14 @@
       "required": true
     },
     "launches": {
-      "via": "blogs",
       "collection": "launches",
+      "via": "blogs",
       "dominant": true
     },
     "events": {
+      "collection": "event",
       "via": "blogs",
-      "collection": "event"
+      "dominant": true
     }
   }
 }

@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "articles",
   "info": {
-    "name": "Article"
+    "name": "Article",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "featured": {
@@ -28,8 +30,7 @@
       "required": true
     },
     "newsSite": {
-      "model": "news-site",
-      "required": true
+      "model": "news-site"
     },
     "summary": {
       "type": "text"
@@ -40,13 +41,14 @@
       "default": "2020-08-04T10:00:00.000Z"
     },
     "launches": {
-      "via": "articles",
       "collection": "launches",
+      "via": "articles",
       "dominant": true
     },
     "events": {
+      "collection": "event",
       "via": "articles",
-      "collection": "event"
+      "dominant": true
     }
   }
 }

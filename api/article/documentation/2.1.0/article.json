@@ -531,7 +531,6 @@
           "title",
           "url",
           "imageUrl",
-          "newsSite",
           "publishedAt"
         ],
         "properties": {
@@ -636,6 +635,12 @@
                 "name": {
                   "type": "string"
                 },
+                "eventId": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                },
                 "articles": {
                   "type": "array",
                   "items": {
@@ -647,12 +652,6 @@
                   "items": {
                     "type": "string"
                   }
-                },
-                "eventId": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
@@ -670,7 +669,6 @@
           "title",
           "url",
           "imageUrl",
-          "newsSite",
           "publishedAt"
         ],
         "properties": {
