@@ -130,6 +130,7 @@ module.exports = {
   findPerLaunch: async (ctx) => {
     const launchId = ctx.params.id
     let entities;
+
     entities = await strapi.services.article.find({'launches.launchId': launchId});
 
     // The above query will always return. Handle empty array as 404
@@ -143,7 +144,7 @@ module.exports = {
       // Create the launch and event objects
       // Using Promise.all since it's an async map (async to wait for the result)
       const launches = await Promise.all(entity.launches.map(async launch => {
-        const lp = await strapi.services.provider.findOne({_id: event.provider})
+        const lp = await strapi.services.provider.findOne({_id: launch.provider})
         return {id: launch.launchId, provider: lp.name}
       }))
 
