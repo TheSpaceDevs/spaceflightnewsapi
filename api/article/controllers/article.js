@@ -163,6 +163,9 @@ module.exports = {
 
     // Check if we have the launch in-memory and return it
     if (cachedLaunch !== undefined) {
+      if (cachedLaunch.length === 0) {
+        return ctx.notFound();
+      }
       return cachedLaunch;
     }
 
