@@ -1,4 +1,9 @@
 'use strict';
+const NodeCache = require( "node-cache" );
+
+const cache = new NodeCache({
+  stdTTL: 1800
+});
 
 /**
  * Read the documentation (https://strapi.io/documentation/v3.x/concepts/controllers.html#core-controllers)
@@ -131,6 +136,13 @@ module.exports = {
     const launchId = ctx.params.id
     let entities;
 
+    const cachedLaunch = cache.get( launchId );
+
+    // Check if we have the launch in-memory and return it
+    if (cachedLaunch !== undefined) {
+      return cachedLaunch;
+    }
+
     entities = await strapi.services.article.find({'launches.launchId': launchId});
 
     // The above query will always return. Handle empty array as 404
@@ -167,6 +179,9 @@ module.exports = {
         events: events
       }
     }))
+
+    // Set it in cache
+    cache.set( launchId, entities, 3600 );
 
     // Finally, return the response
     return entities
