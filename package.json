@@ -1,7 +1,7 @@
 {
   "name": "snapi-backend",
   "private": true,
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "The backend server for the Spaceflight News API",
   "scripts": {
     "develop": "strapi develop",
