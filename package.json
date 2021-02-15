@@ -1,7 +1,7 @@
 {
   "name": "snapi-backend",
   "private": true,
-  "version": "2.1.4",
+  "version": "2.2.0",
   "description": "The backend server for the Spaceflight News API",
   "scripts": {
     "develop": "strapi develop",
@@ -16,16 +16,16 @@
     "koa": "^2.13.1",
     "node-cache": "^5.1.2",
     "popper.js": "^1.16.1",
-    "strapi": "3.4.3",
-    "strapi-admin": "3.4.3",
-    "strapi-connector-mongoose": "3.4.3",
-    "strapi-plugin-content-manager": "3.4.3",
-    "strapi-plugin-content-type-builder": "3.4.3",
-    "strapi-plugin-documentation": "3.4.3",
-    "strapi-plugin-email": "3.4.3",
-    "strapi-plugin-upload": "3.4.3",
-    "strapi-plugin-users-permissions": "3.4.3",
-    "strapi-utils": "3.4.3"
+    "strapi": "3.4.6",
+    "strapi-admin": "3.4.6",
+    "strapi-connector-mongoose": "3.4.6",
+    "strapi-plugin-content-manager": "3.4.6",
+    "strapi-plugin-content-type-builder": "3.4.6",
+    "strapi-plugin-documentation": "3.4.6",
+    "strapi-plugin-email": "3.4.6",
+    "strapi-plugin-upload": "3.4.6",
+    "strapi-plugin-users-permissions": "3.4.6",
+    "strapi-utils": "3.4.6"
   },
   "author": {
     "name": "Derk Weijers <derk@spaceflightnewsapi.net> (https://github.com/spaceflightnewsapi)"
