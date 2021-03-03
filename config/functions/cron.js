@@ -15,10 +15,10 @@ module.exports = {
    * Simple example.
    */
   '*/15 * * * *': () => {
-    strapi.services.launchsync.syncLl2Launches()
+    strapi.services.launchsync.syncLl2RecentUpcoming()
     strapi.services.eventsync.syncLl2Events()
   },
   '* * * * *': () => {
-    strapi.services.launchsync.allSync("https://lldev.thespacedevs.com/2.2.0/launch/?limit=100")
+    strapi.services.launchsync.syncLl2All("https://lldev.thespacedevs.com/2.2.0/launch/?limit=100")
   }
 };
