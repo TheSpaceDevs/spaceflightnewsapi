@@ -19,6 +19,6 @@ module.exports = {
     strapi.services.eventsync.syncLl2Events()
   },
   '* * * * *': () => {
-    strapi.services.launchsync.syncLl2All("https://lldev.thespacedevs.com/2.2.0/launch/?limit=100")
+    strapi.services.launchsync.syncLl2All("https://ll.thespacedevs.com/2.2.0/launch/?limit=100")
   }
 };
