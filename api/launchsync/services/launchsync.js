@@ -23,8 +23,8 @@ module.exports = {
   syncLl2RecentUpcoming: async () => {
     console.log("getting upcoming launches")
     try {
-      const upcomingLaunchResults = await axios.get('https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=100', config)
-      for (const launch of upcomingLaunchResults['data']['results']) {
+      const upcomingLaunches = await axios.get('https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=100', config)
+      for (const launch of upcomingLaunches['data']['results']) {
         try {
           await saveLaunch(launch)
         } catch (e) {
@@ -37,8 +37,8 @@ module.exports = {
 
     console.log("getting previous launches")
     try {
-      const previousLaunchResults = await axios.get('https://ll.thespacedevs.com/2.2.0/launch/previous/?limit=100', config)
-      for (const launch of previousLaunchResults['data']['results']) {
+      const previousLaunches = await axios.get('https://ll.thespacedevs.com/2.2.0/launch/previous/?limit=100', config)
+      for (const launch of previousLaunches['data']['results']) {
         try {
           await saveLaunch(launch)
         } catch (e) {
