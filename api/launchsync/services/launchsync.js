@@ -7,7 +7,8 @@ const axios = require('axios');
 
 let config = {
   headers: {
-    Authorization: `Token ${process.env.LL_TOKEN}`
+    Authorization: `Token ${process.env.LL_TOKEN}`,
+    'User-Agent': 'SNAPI Launches sync'
   }
 }
 
