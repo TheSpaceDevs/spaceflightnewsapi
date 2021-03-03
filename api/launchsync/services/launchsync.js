@@ -25,7 +25,7 @@ module.exports = {
     console.log("getting upcoming launches")
     try {
       const upcomingLaunches = await axios.get('https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=100', config)
-      for (const launch of upcomingLaunches['data']['results']) {
+      for (const launch of upcomingLaunches.data.results) {
         try {
           await saveLaunch(launch)
         } catch (e) {
@@ -39,7 +39,7 @@ module.exports = {
     console.log("getting previous launches")
     try {
       const previousLaunches = await axios.get('https://ll.thespacedevs.com/2.2.0/launch/previous/?limit=100', config)
-      for (const launch of previousLaunches['data']['results']) {
+      for (const launch of previousLaunches.data.results) {
         try {
           await saveLaunch(launch)
         } catch (e) {
@@ -59,7 +59,7 @@ module.exports = {
     while (next) {
       const launches = await axios.get(next, config);
 
-      for (const launch of launches['data']['results']) {
+      for (const launch of launches.data.results) {
         try {
           await saveLaunch(launch)
         } catch (e) {
