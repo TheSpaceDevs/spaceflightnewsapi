@@ -20,38 +20,37 @@ const saveLaunch = async (launch) => {
 }
 
 module.exports = {
-  syncLl2Launches: async () => {
+  syncLl2RecentUpcoming: async () => {
     console.log("getting upcoming launches")
     try {
       const upcomingLaunchResults = await axios.get('https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=100', config)
-      upcomingLaunchResults.data.results.forEach(async launch => {
-        await strapi.query('launches').model.findOneAndUpdate({launchId: launch.id}, {
-          name: launch.name,
-          launchId: launch.id,
-          provider: '5f34e4055379f026924c61cf'
-        }, {upsert: true});
-      })
+      for (const launch of upcomingLaunchResults['data']['results']) {
+        try {
+          await saveLaunch(launch)
+        } catch (e) {
+          console.error(e);
+        }
+      }
     } catch (e) {
       console.error(`getting upcoming launches failed with status: ${e.response.status}`)
     }
 
-    // Get the previous launches
     console.log("getting previous launches")
     try {
       const previousLaunchResults = await axios.get('https://ll.thespacedevs.com/2.2.0/launch/previous/?limit=100', config)
-      previousLaunchResults.data.results.forEach(async launch => {
-        await strapi.query('launches').model.findOneAndUpdate({launchId: launch.id}, {
-          name: launch.name,
-          launchId: launch.id,
-          provider: '5f34e4055379f026924c61cf'
-        }, {upsert: true});
-      })
+      for (const launch of previousLaunchResults['data']['results']) {
+        try {
+          await saveLaunch(launch)
+        } catch (e) {
+          console.error(e);
+        }
+      }
     } catch (e) {
       console.error(`getting previous launches failed with status: ${e.response.status}`)
     }
   },
 
-  allSync: async (initialUrl) => {
+  syncLl2All: async (initialUrl) => {
     let next = initialUrl;
 
     console.log("getting all launches");
@@ -62,7 +61,6 @@ module.exports = {
       for (const launch of launches['data']['results']) {
         try {
           await saveLaunch(launch)
-          console.log("saving", launch.name)
         } catch (e) {
           console.error(e);
         }
