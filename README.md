@@ -52,7 +52,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 ## Changelog
 
-### v2.0.0
+### v2.2.0
+
+- Dependency updates
+- Code cleanup
+- Admin side of things
+
+### v2.1.0
 
 - Backend changes on how new content is processed
 - Package updates
