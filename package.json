@@ -22,6 +22,7 @@
     "strapi-plugin-content-type-builder": "3.5.3",
     "strapi-plugin-documentation": "3.5.3",
     "strapi-plugin-email": "3.5.3",
+    "strapi-plugin-sentry": "^3.5.3",
     "strapi-plugin-upload": "3.5.3",
     "strapi-plugin-users-permissions": "3.5.3",
     "strapi-utils": "3.5.3"
