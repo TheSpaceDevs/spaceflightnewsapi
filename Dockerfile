@@ -7,8 +7,8 @@ COPY . .
 
 # Install all packages from the package.json
 # Build the admin interface in production mode
-RUN yarn install && NODE_ENV=production yarn run build
+RUN npm install && NODE_ENV=production npm run build
 
 # No explenation needed
 EXPOSE 1337
-CMD [ "yarn", "start" ]
+CMD [ "npm", "start" ]
