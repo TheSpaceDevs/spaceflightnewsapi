@@ -77,7 +77,7 @@ module.exports = {
     try {
       console.log(`saving report from mq: ${message.title}`);
       await strapi.services.report.create(message);
-      // await channel.ack(msg);
+      await channel.ack(msg);
     } catch (e) {
       // Update an existing one with updated values. Only if from the same news site.
       // URL is mostly consitent, so using that to get the duplicate one.
@@ -91,7 +91,7 @@ module.exports = {
             { _id: dup._id },
             message
           );
-          // await channel.ack(msg);
+          await channel.ack(msg);
         } catch (e) {
           console.error("error updating report", e);
         }
