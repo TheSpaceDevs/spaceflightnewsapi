@@ -1,5 +1,5 @@
 # Use the latest node lts on Alpine
-FROM node:lts-alpine3.12
+FROM node:lts-alpine
 LABEL org.opencontainers.image.source https://github.com/spaceflightnewsapi/spaceflightnewsapi
 
 # Copy all the data over
