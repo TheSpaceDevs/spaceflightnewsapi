@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.spaceflightnewsapi.net/blog</id>
+    <title>Spaceflight News API Blog</title>
+    <updated>2020-11-10T08:20:10.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.spaceflightnewsapi.net/blog"/>
+    <subtitle>Spaceflight News API Blog</subtitle>
+    <icon>https://www.spaceflightnewsapi.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[README]]></title>
+        <id>README</id>
+        <link href="https://www.spaceflightnewsapi.net/blog/README"/>
+        <updated>2020-11-10T08:20:10.000Z</updated>
+        <summary type="html"><![CDATA[Not using this folder right now.]]></summary>
+    </entry>
+</feed>

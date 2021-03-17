@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "version": "2.1.0",
+    "version": "2.3.0",
     "title": "Spaceflight News API",
     "description": "Documentation for the Spaceflight News API. Join The Space Devs Discord server to contact me for support :)",
     "contact": {
