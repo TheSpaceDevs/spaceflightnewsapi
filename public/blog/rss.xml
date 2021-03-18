@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Spaceflight News API Blog</title>
+        <link>https://www.spaceflightnewsapi.net/blog</link>
+        <description>Spaceflight News API Blog</description>
+        <lastBuildDate>Tue, 10 Nov 2020 08:20:10 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[README]]></title>
+            <link>https://www.spaceflightnewsapi.net/blog/README</link>
+            <guid>README</guid>
+            <pubDate>Tue, 10 Nov 2020 08:20:10 GMT</pubDate>
+            <description><![CDATA[Not using this folder right now.]]></description>
+        </item>
+    </channel>
+</rss>

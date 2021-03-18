@@ -19,12 +19,12 @@
       "unique": false
     },
     "articles": {
-      "collection": "article",
-      "via": "launches"
+      "via": "launches",
+      "collection": "article"
     },
     "blogs": {
-      "collection": "blog",
-      "via": "launches"
+      "via": "launches",
+      "collection": "blog"
     },
     "provider": {
       "model": "provider"

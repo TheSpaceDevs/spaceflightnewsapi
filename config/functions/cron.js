@@ -15,7 +15,10 @@ module.exports = {
    * Simple example.
    */
   '*/15 * * * *': () => {
-    strapi.services.launchsync.syncLl2Launches()
+    strapi.services.launchsync.syncLl2RecentUpcoming()
     strapi.services.eventsync.syncLl2Events()
+  },
+  '0 9 4 * *': () => {
+    strapi.services.launchsync.syncLl2All("https://ll.thespacedevs.com/2.2.0/launch/?limit=100")
   }
 };

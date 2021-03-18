@@ -48,6 +48,15 @@
         "policies": [],
         "description": "Get all articles linked to a launch"
       }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/articles/event/:id",
+      "handler": "article.findPerEvent",
+      "config": {
+        "policies": [],
+        "description": "Get all articles linked to an event"
+      }
     }
   ]
 }
