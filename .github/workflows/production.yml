@@ -1,4 +1,4 @@
-name: Publish Docker image
+name: Publish the latest Docker image
 on:
   push:
     branches: ['main']
