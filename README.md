@@ -52,6 +52,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 ## Changelog
 
+### V2.3.0
+- The lost "article per (LL2) event" endpoint is back
+- Changed the G4L logo on the site
+- Added Sentry again, via the new Strapi plugin
+- Changed from amqplib to amqp-connection-manager
+- Updated to Strapi 3.5.3
+
 ### v2.2.0
 
 - Dependency updates
