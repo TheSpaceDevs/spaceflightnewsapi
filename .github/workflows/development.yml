@@ -31,5 +31,4 @@ jobs:
         with:
           push: true
           tags: |
-            ghcr.io/spaceflightnewsapi/spaceflightnewsapi:latest
             ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${{ steps.package-version.outputs.current-version }}
