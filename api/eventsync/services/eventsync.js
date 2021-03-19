@@ -24,7 +24,11 @@ module.exports = {
         }, {upsert: true});
       })
     } catch (e) {
-      console.error(`getting upcoming events failed with status: ${e.response.status}`)
+      if (e.response) {
+        console.error(`getting upcoming events failed with status: ${e.response.status}`)
+      } else {
+        console.error(e)
+      }
     }
 
 
@@ -39,7 +43,11 @@ module.exports = {
         }, {upsert: true});
       })
     } catch (e) {
-      console.error(`getting previous events failed with status: ${e.response.status}`)
+      if (e.response) {
+        console.error(`getting previous events failed with status: ${e.response.status}`)
+      } else {
+        console.error(e)
+      }
     }
   }
 };
