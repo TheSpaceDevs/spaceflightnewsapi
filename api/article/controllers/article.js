@@ -1,5 +1,6 @@
 "use strict";
 const NodeCache = require("node-cache");
+const ObjectID = require("mongodb").ObjectID
 
 const cache = new NodeCache({
   stdTTL: 1800,
@@ -12,36 +13,6 @@ const cache = new NodeCache({
 
 module.exports = {
   /**
-   * Create a record.
-   *
-   * @return {Object}
-   */
-
-  async create(ctx) {
-    let entity;
-    try {
-      entity = await strapi.services.article.create(ctx.request.body);
-    } catch (e) {
-      // Update an existing one with update values. Only if from the same news site.
-      const dup = await strapi.services.article.findOne(e.keyValue);
-      if (ctx.request.body.newsSite === String(dup.newsSite._id)) {
-        try {
-          entity = await strapi.services.article.update(
-            { _id: dup._id },
-            ctx.request.body
-          );
-        } catch (e) {
-          console.error(e);
-        }
-      } else {
-        ctx.throw(409);
-      }
-    }
-    ctx.response.status = 201;
-    return entity;
-  },
-
-  /**
    * Retrieve a record.
    *
    * @return {Object}
@@ -50,8 +21,8 @@ module.exports = {
   async findOne(ctx) {
     const { id } = ctx.params;
 
-    if (id === "launch") {
-      ctx.throw(404);
+    if (id === "launch" || !ObjectID.isValid(id)) {
+      ctx.throw(400);
     }
 
     let entity = await strapi.services.article.findOne({ id });

@@ -33,7 +33,11 @@ module.exports = {
         }
       }
     } catch (e) {
-      console.error(`getting upcoming launches failed with status: ${e.response.status}`)
+      if (e.response) {
+        console.error(`getting upcoming launches failed with status: ${e.response.status}`)
+      } else {
+        console.error(e)
+      }
     }
 
     console.log("getting previous launches")
@@ -47,7 +51,11 @@ module.exports = {
         }
       }
     } catch (e) {
-      console.error(`getting previous launches failed with status: ${e.response.status}`)
+      if (e.response) {
+        console.error(`getting previous launches failed with status: ${e.response.status}`)
+      } else {
+        console.error(e)
+      }
     }
   },
 
