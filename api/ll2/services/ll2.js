@@ -13,23 +13,24 @@ let config = {
 }
 
 const saveLaunch = async (launch) => {
-  const exists = await strapi.query('launches').findOne({launchId: launch.id})
-  if (exists) {
-    console.log('updating')
-    return strapi.query('launches').update({launchId: launch.id}, {
-      name: launch.name,
-      launchId: launch.id,
-      provider: 1
-    });
-  } else {
-    console.log('creating')
-    return strapi.query('launches').create({
-      name: launch.name,
-      launchId: launch.id,
-      provider: 1
-    });
+  try {
+    const exists = await strapi.query('launches').findOne({launchId: launch.id})
+    if (exists) {
+      return strapi.query('launches').update({launchId: launch.id}, {
+        name: launch.name,
+        launchId: launch.id,
+        provider: 1
+      });
+    } else {
+      return strapi.query('launches').create({
+        name: launch.name,
+        launchId: launch.id,
+        provider: 1
+      });
+    }
+  } catch (e) {
+    console.error(`error while saving ${launch.name}`, e)
   }
-
 }
 
 const LL2URL = 'https://lldev.thespacedevs.com/2.2.0'
