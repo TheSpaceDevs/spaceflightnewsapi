@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_sites",
+  "info": {
+    "name": "News Site"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "articles": {
+      "via": "newsSite",
+      "collection": "article"
+    },
+    "blogs": {
+      "via": "newsSite",
+      "collection": "blog"
+    },
+    "reports": {
+      "via": "newsSite",
+      "collection": "report"
+    }
+  }
+}

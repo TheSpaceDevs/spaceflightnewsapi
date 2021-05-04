@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "providers",
+  "info": {
+    "name": "Provider"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "events": {
+      "via": "provider",
+      "collection": "event"
+    },
+    "launches": {
+      "via": "provider",
+      "collection": "launches"
+    }
+  }
+}

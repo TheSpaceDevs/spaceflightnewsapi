@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "launches",
+  "info": {
+    "name": "launches",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "launchId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "articles": {
+      "via": "launches",
+      "collection": "article"
+    },
+    "blogs": {
+      "via": "launches",
+      "collection": "blog"
+    },
+    "provider": {
+      "model": "provider",
+      "via": "launches"
+    }
+  }
+}

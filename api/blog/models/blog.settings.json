@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "name": "Blog",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
+    },
+    "imageUrl": {
+      "type": "string",
+      "required": true,
+      "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
+    },
+    "summary": {
+      "type": "richtext"
+    },
+    "publishedAt": {
+      "type": "datetime",
+      "required": true
+    },
+    "launches": {
+      "via": "blogs",
+      "collection": "launches",
+      "dominant": true
+    },
+    "events": {
+      "via": "blogs",
+      "collection": "event",
+      "dominant": true
+    },
+    "newsSite": {
+      "model": "news-site",
+      "via": "blogs"
+    }
+  }
+}
