@@ -11,10 +11,10 @@
  */
 
 module.exports = {
-  '0 8 * * *': () => {
+  '0 6 * * *': () => {
     strapi.services.ll2.syncAllLaunches()
   },
-  '* 6 * * *': () => {
+  '15 6 * * *': () => {
     strapi.services.ll2.syncAllEvents()
   }
 };
