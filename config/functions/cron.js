@@ -13,5 +13,8 @@
 module.exports = {
   '0 8 * * *': () => {
     strapi.services.ll2.syncAllLaunches()
+  },
+  '* 6 * * *': () => {
+    strapi.services.ll2.syncAllEvents()
   }
 };

@@ -1,43 +1,27 @@
 'use strict';
 const axios = require('axios')
 
+const { saveLaunch, saveEvent } = require('../utils/dbOps')
+
 /**
  * `ll2` service.
  */
 
+const LL_URL = strapi.config.get('server.ll_url')
+const LL_TOKEN = strapi.config.get('server.ll_token')
+
 let config = {
   headers: {
-    Authorization: `Token ${process.env.LL_TOKEN}`,
+    Authorization: `Token ${LL_TOKEN}`,
     'User-Agent': 'SNAPI integration'
   }
 }
 
-const saveLaunch = async (launch) => {
-  try {
-    const exists = await strapi.query('launches').findOne({launchId: launch.id})
-    if (exists) {
-      return strapi.query('launches').update({launchId: launch.id}, {
-        name: launch.name,
-        launchId: launch.id,
-        provider: 1
-      });
-    } else {
-      return strapi.query('launches').create({
-        name: launch.name,
-        launchId: launch.id,
-        provider: 1
-      });
-    }
-  } catch (e) {
-    console.error(`error while saving ${launch.name}`, e)
-  }
-}
 
-const LL2URL = 'https://lldev.thespacedevs.com/2.2.0'
 
 module.exports = {
   syncAllLaunches: async () => {
-    let next = `${LL2URL}/launch?limit=100`;
+    let next = `${LL_URL}/launch?limit=100`;
 
     console.log("getting all launches");
 
@@ -52,6 +36,25 @@ module.exports = {
         }
       }
       next = launches['data']['next'];
+    }
+  },
+
+  syncAllEvents: async () => {
+    let next = `${LL_URL}/event?limit=100`;
+
+    console.log("getting all events");
+
+    while (next) {
+      const events = await axios.get(next, config);
+
+      for (const event of events.data.results) {
+        try {
+          await saveEvent(event)
+        } catch (e) {
+          console.error(e);
+        }
+      }
+      next = events['data']['next'];
     }
   }
 
