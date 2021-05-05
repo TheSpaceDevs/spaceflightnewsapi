@@ -26,16 +26,25 @@ module.exports = {
     console.log("getting all launches");
 
     while (next) {
-      const launches = await axios.get(next, config);
+      try {
+        const launches = await axios.get(next, config);
 
-      for (const launch of launches.data.results) {
-        try {
-          await saveLaunch(launch)
-        } catch (e) {
-          console.error(e);
+        for (const launch of launches.data.results) {
+          try {
+            await saveLaunch(launch)
+          } catch (e) {
+            console.error(e);
+          }
         }
+        next = launches['data']['next'];
+      } catch (e) {
+        if (e.response) {
+          if (e.response.status === 401) {
+            return console.error('LL token not valid')
+          }
+        }
+        console.error(e)
       }
-      next = launches['data']['next'];
     }
   },
 
@@ -45,16 +54,25 @@ module.exports = {
     console.log("getting all events");
 
     while (next) {
-      const events = await axios.get(next, config);
+      try {
+        const events = await axios.get(next, config);
 
-      for (const event of events.data.results) {
-        try {
-          await saveEvent(event)
-        } catch (e) {
-          console.error(e);
+        for (const event of events.data.results) {
+          try {
+            await saveEvent(event)
+          } catch (e) {
+            console.error(e);
+          }
         }
+        next = events['data']['next'];
+      } catch (e) {
+        if (e.response) {
+          if (e.response.status === 401) {
+            return console.error('LL token not valid')
+          }
+        }
+        console.error(e)
       }
-      next = events['data']['next'];
     }
   }
 
