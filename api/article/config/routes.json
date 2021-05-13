@@ -47,6 +47,24 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/articles/launch/:id",
+      "handler": "article.findPerLaunch",
+      "config": {
+        "policies": [],
+        "description": "Get all articles linked to a launch"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/articles/event/:id",
+      "handler": "article.findPerEvent",
+      "config": {
+        "policies": [],
+        "description": "Get all articles linked to an event"
+      }
     }
   ]
 }
