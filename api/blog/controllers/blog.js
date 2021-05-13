@@ -18,6 +18,6 @@ module.exports = {
       }, ['newsSite', 'launches.provider', 'events.provider']);
     }
 
-    return entities.map(entity => strapi.services.utils.sanitizeArticleBlog(entity));
+    return entities.map(entity => strapi.services.utils.sanitizeEntity(entity));
   },
 };

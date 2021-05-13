@@ -5,8 +5,8 @@
  */
 
 module.exports = {
-  sanitizeArticleBlog: (item => {
-    return {
+  sanitizeEntity: (item => {
+    const sanitizedItem = {
       id: item.id,
       title: item.title,
       url: item.url,
@@ -16,19 +16,27 @@ module.exports = {
       publishedAt: item.publishedAt,
       updatedAt: item.updatedAt,
       featured: item.featured,
-      launches: item.launches.map(launch => {
+    };
+
+    if (item.launches) {
+      sanitizedItem.launches = item.launches.map(launch => {
         return {
           id: launch.launchId,
           provider: launch.provider.name
         }
-      }),
-      events: item.events.map(event => {
+      })
+    }
+
+    if (item.events) {
+      sanitizedItem.events = item.events.map(event => {
         return {
           id: event.eventId,
           provider: event.provider.name
         }
-      }),
-    };
+      })
+    }
+
+    return sanitizedItem;
   }),
   saveLaunch: async (launch) => {
     try {
