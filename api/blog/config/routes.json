@@ -47,6 +47,24 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v3/blogs/launch/:id",
+      "handler": "blog.findPerLaunch",
+      "config": {
+        "policies": [],
+        "description": "Get all blogs linked to a launch"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v3/blogs/event/:id",
+      "handler": "blog.findPerEvent",
+      "config": {
+        "policies": [],
+        "description": "Get all blogs linked to an event"
+      }
     }
   ]
 }

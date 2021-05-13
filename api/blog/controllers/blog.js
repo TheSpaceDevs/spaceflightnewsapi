@@ -27,4 +27,18 @@ module.exports = {
     const entity = await strapi.services.blog.findOne({ id }, ['newsSite', 'launches.provider', 'events.provider']);
     return strapi.services.utils.sanitizeEntity(entity);
   },
+
+  async findPerLaunch(ctx) {
+    const launchId = ctx.params.id;
+    const entities = await strapi.query('blog').find({ 'launches.launchId': launchId }, ['newsSite', 'launches.provider', 'events.provider']);
+
+    return entities.map(entity => strapi.services.utils.sanitizeEntity(entity));
+  },
+
+  async findPerEvent(ctx) {
+    const eventId = ctx.params.id;
+    const entities = await strapi.query('blog').find({ 'events.eventId': eventId }, ['newsSite', 'launches.provider', 'events.provider']);
+
+    return entities.map(entity => strapi.services.utils.sanitizeEntity(entity));
+  }
 };
