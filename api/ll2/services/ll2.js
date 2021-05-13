@@ -1,8 +1,6 @@
 'use strict';
 const axios = require('axios')
 
-const { saveLaunch, saveEvent } = require('../utils/dbOps')
-
 /**
  * `ll2` service.
  */
@@ -31,7 +29,7 @@ module.exports = {
 
         for (const launch of launches.data.results) {
           try {
-            await saveLaunch(launch)
+            await strapi.services.utils.saveLaunch(launch)
           } catch (e) {
             console.error(e);
           }
@@ -59,7 +57,7 @@ module.exports = {
 
         for (const event of events.data.results) {
           try {
-            await saveEvent(event)
+            await strapi.services.utils.saveEvent(event)
           } catch (e) {
             console.error(e);
           }
