@@ -21,4 +21,11 @@ module.exports = {
 
     return entities.map(entity => strapi.services.utils.sanitizeEntity(entity));
   },
+
+  async findOne(ctx) {
+    const { id } = ctx.params;
+
+    const entity = await strapi.services.article.findOne({ id }, ['newsSite', 'launches.provider', 'events.provider']);
+    return strapi.services.utils.sanitizeEntity(entity);
+  },
 };
