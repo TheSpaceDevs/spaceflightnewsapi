@@ -23,7 +23,8 @@
     "strapi-plugin-i18n": "3.6.2",
     "strapi-plugin-upload": "3.6.2",
     "strapi-plugin-users-permissions": "3.6.2",
-    "strapi-utils": "3.6.2"
+    "strapi-utils": "3.6.2",
+    "uuid": "^8.3.2"
   },
   "author": {
     "name": "A Strapi developer"

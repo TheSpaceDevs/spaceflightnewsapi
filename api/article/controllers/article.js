@@ -1,4 +1,5 @@
 'use strict';
+const {validate: uuidValidate} = require('uuid')
 
 /**
  * Read the documentation (https://strapi.io/documentation/developer-docs/latest/development/backend-customization.html#core-controllers)
@@ -30,6 +31,13 @@ module.exports = {
 
   async findPerLaunch(ctx) {
     const launchId = ctx.params.id;
+
+    // Check if the id is a uuid, as used in LL2 for launches
+    const validId = uuidValidate(launchId)
+    if (!validId) {
+      ctx.throw(400, 'not a valid uuid')
+    }
+
     const entities = await strapi.query('article').find({ 'launches.launchId': launchId }, ['newsSite', 'launches.provider', 'events.provider']);
 
     return entities.map(entity => strapi.services.utils.sanitizeEntity(entity));
@@ -37,6 +45,13 @@ module.exports = {
 
   async findPerEvent(ctx) {
     const eventId = ctx.params.id;
+
+    // Check if the id is an int, as used as id's in LL2 for events
+    // Since the id comes in as a string and I don't want to cast it to an id yet, use regex to test
+    if (!eventId.match(/^\d+$/)) {
+      ctx.throw(400, 'not a valid id - should be an integer')
+    }
+
     const entities = await strapi.query('article').find({ 'events.eventId': eventId }, ['newsSite', 'launches.provider', 'events.provider']);
 
     return entities.map(entity => strapi.services.utils.sanitizeEntity(entity));
