@@ -11,6 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "amqp-connection-manager": "^3.2.2",
+    "amqplib": "^0.7.1",
     "axios": "^0.21.1",
     "knex": "0.21.18",
     "pg": "8.6.0",

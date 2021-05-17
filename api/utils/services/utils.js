@@ -77,5 +77,37 @@ module.exports = {
     } catch (e) {
       console.error(`error while saving event: ${event.name}`, e)
     }
-  }
+  },
+  saveMessage: (async (msg, channel) => {
+    const message = JSON.parse(msg.content.toString())
+    try {
+      console.log(`saving ${message.type} from mq: ${message.data.title}`);
+      await strapi.services[message.type].create(message.data);
+      await channel.ack(msg);
+    } catch (e) {
+      // Update an existing one with updated values. Only if from the same news site.
+      // URL is mostly consistent, so using that to get the duplicate one.
+      const dup = await strapi.services[message.type].findOne({url: message.data.url});
+      if (message.data.newsSite === dup.newsSite.id) {
+        try {
+          console.log(
+            `duplicate ${message.type} from mq: ${dup.id} - updating instead...`
+          );
+          await strapi.services[message.type].update(
+            { id: dup.id },
+            message.data
+          );
+          await channel.ack(msg);
+        } catch (e) {
+          console.error(`error updating ${message.type}`, e);
+        }
+      } else {
+        // when there's a duplicate, but from another website
+        console.error(
+          `duplicate from another site found: ${message.data.title} ${dup.newsSite.name}`
+        );
+        await channel.ack(msg);
+      }
+    }
+  })
 };

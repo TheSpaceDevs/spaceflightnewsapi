@@ -10,4 +10,7 @@
  * See more details here: https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/configurations.html#bootstrap
  */
 
-module.exports = () => {};
+module.exports = () => {
+  strapi.services.amqp.connectMqService();
+};
+
