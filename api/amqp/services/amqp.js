@@ -20,9 +20,9 @@ module.exports = {
       json: true,
       setup: function(channel) {
         return Promise.all([
-          channel.assertQueue('snapiv3'),
-          channel.bindQueue('snapiv3', 'importer'),
-          channel.consume('snapiv3', (message) =>  strapi.services.utils.saveMessage(message, channelWrapper)),
+          channel.assertQueue('snapi'),
+          channel.bindQueue('snapi', 'importer'),
+          channel.consume('snapi', (message) =>  strapi.services.utils.saveMessage(message, channelWrapper)),
         ])
       }
     });
