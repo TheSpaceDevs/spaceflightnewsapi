@@ -21,7 +21,7 @@ module.exports = {
   syncAllLaunches: async () => {
     let next = `${LL_URL}/launch?limit=100`;
 
-    console.log(`getting all launches from ${LL_URL}`);
+    strapi.log.info(`getting all launches from ${LL_URL}`);
 
     while (next) {
       try {
@@ -31,17 +31,17 @@ module.exports = {
           try {
             await strapi.services.utils.saveLaunch(launch)
           } catch (e) {
-            console.error(e);
+            strapi.log.error(e);
           }
         }
         next = launches['data']['next'];
       } catch (e) {
         if (e.response) {
           if (e.response.status === 401) {
-            return console.error('LL token not valid')
+            return strapi.log.error('LL token not valid')
           }
         }
-        console.error(e)
+        strapi.log.error(e)
       }
     }
   },
@@ -49,7 +49,7 @@ module.exports = {
   syncAllEvents: async () => {
     let next = `${LL_URL}/event?limit=100`;
 
-    console.log(`getting all events from ${LL_URL}`);
+    strapi.log.info(`getting all events from ${LL_URL}`);
 
     while (next) {
       try {
@@ -59,19 +59,18 @@ module.exports = {
           try {
             await strapi.services.utils.saveEvent(event)
           } catch (e) {
-            console.error(e);
+            strapi.log.error(e);
           }
         }
         next = events['data']['next'];
       } catch (e) {
         if (e.response) {
           if (e.response.status === 401) {
-            return console.error('LL token not valid')
+            return strapi.log.error('LL token not valid')
           }
         }
-        console.error(e)
+        strapi.log.error(e)
       }
     }
   }
-
 };

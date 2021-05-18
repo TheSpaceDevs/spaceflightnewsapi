@@ -55,7 +55,7 @@ module.exports = {
         });
       }
     } catch (e) {
-      console.error(`error while saving launch: ${launch.name}`, e)
+      strapi.log.error(`error while saving launch: ${launch.name}`, e)
     }
   },
   saveEvent: async (event) => {
@@ -75,13 +75,13 @@ module.exports = {
         });
       }
     } catch (e) {
-      console.error(`error while saving event: ${event.name}`, e)
+      strapi.log.error(`error while saving event: ${event.name}`, e)
     }
   },
   saveMessage: (async (msg, channel) => {
     const message = JSON.parse(msg.content.toString())
     try {
-      console.log(`saving ${message.type} from mq: ${message.data.title}`);
+      strapi.log.info(`saving ${message.type} from mq: ${message.data.title}`);
       await strapi.services[message.type].create(message.data);
       await channel.ack(msg);
     } catch (e) {
@@ -90,7 +90,7 @@ module.exports = {
       const dup = await strapi.services[message.type].findOne({url: message.data.url});
       if (message.data.newsSite === dup.newsSite.id) {
         try {
-          console.log(
+          strapi.log.info(
             `duplicate ${message.type} from mq: ${dup.id} - updating instead...`
           );
           await strapi.services[message.type].update(
@@ -99,11 +99,11 @@ module.exports = {
           );
           await channel.ack(msg);
         } catch (e) {
-          console.error(`error updating ${message.type}`, e);
+          strapi.log.error(`error updating ${message.type}`, e);
         }
       } else {
         // when there's a duplicate, but from another website
-        console.error(
+        strapi.log.error(
           `duplicate from another site found: ${message.data.title} ${dup.newsSite.name}`
         );
         await channel.ack(msg);
