@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
   },
   admin: {
     auth: {
-      secret: env('ADMIN_JWT_SECRET', '8c92df59c3e4b4f4ba02d43ffd909752'),
+      secret: env('ADMIN_JWT_SECRET', 'super_secret_jwt'),
     },
   },
   ll_token: env('LL_TOKEN', 'get_this_token_via_patreon'),
