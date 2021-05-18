@@ -21,7 +21,7 @@ module.exports = {
   syncAllLaunches: async () => {
     let next = `${LL_URL}/launch?limit=100`;
 
-    console.log("getting all launches");
+    console.log(`getting all launches from ${LL_URL}`);
 
     while (next) {
       try {
@@ -49,7 +49,7 @@ module.exports = {
   syncAllEvents: async () => {
     let next = `${LL_URL}/event?limit=100`;
 
-    console.log("getting all events");
+    console.log(`getting all events from ${LL_URL}`);
 
     while (next) {
       try {
