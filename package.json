@@ -1,8 +1,8 @@
 {
   "name": "spaceflightnewsapi",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "3.0.0-beta",
+  "description": "Backend for the Spaceflight News API",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -29,7 +29,7 @@
     "uuid": "^8.3.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Derk Weijers"
   },
   "strapi": {
     "uuid": "6bd5fa17-d22b-400b-b625-246d0e850e61"
@@ -38,5 +38,5 @@
     "node": ">=10.16.0 <=14.x.x",
     "npm": "^6.0.0"
   },
-  "license": "MIT"
+  "license": "GPL-3.0"
 }
