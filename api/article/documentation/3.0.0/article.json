@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/articles": {
+    "/api/v3/articles": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -254,7 +254,7 @@
         }
       }
     },
-    "/articles/count": {
+    "/api/v3/articles/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -311,7 +311,7 @@
         "parameters": []
       }
     },
-    "/articles/{id}": {
+    "/api/v3/articles/{id}": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -511,7 +511,7 @@
         ]
       }
     },
-    "/articles/launch/{id}": {
+    "/api/v3/articles/launch/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all articles linked to a launch",
@@ -579,7 +579,7 @@
         ]
       }
     },
-    "/articles/event/{id}": {
+    "/api/v3/articles/event/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all articles linked to an event",
