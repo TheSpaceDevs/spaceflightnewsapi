@@ -9,7 +9,7 @@ module.exports = ({ env }) => ({
     auth: {
       secret: env('ADMIN_JWT_SECRET', 'super_secret_jwt'),
     },
-    url: '/',
+    url: 'https://api.spaceflightnewsapi.net/admin',
     serveAdminPanel: false
   },
   ll_token: env('LL_TOKEN', 'get_this_token_via_patreon'),
