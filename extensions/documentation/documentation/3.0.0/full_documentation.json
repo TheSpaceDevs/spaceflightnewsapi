@@ -14,7 +14,7 @@
       "name": "GPLv3",
       "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
     },
-    "x-generation-date": "05/19/2021 1:29:03 PM"
+    "x-generation-date": "05/19/2021 4:45:09 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -46,7 +46,7 @@
     }
   ],
   "paths": {
-    "/articles": {
+    "/v3/articles": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -300,7 +300,7 @@
         }
       }
     },
-    "/articles/count": {
+    "/v3/articles/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -357,7 +357,7 @@
         "parameters": []
       }
     },
-    "/articles/{id}": {
+    "/v3/articles/{id}": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -557,7 +557,7 @@
         ]
       }
     },
-    "/articles/launch/{id}": {
+    "/v3/articles/launch/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all articles linked to a launch",
@@ -625,7 +625,7 @@
         ]
       }
     },
-    "/articles/event/{id}": {
+    "/v3/articles/event/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all articles linked to an event",
@@ -693,7 +693,7 @@
         ]
       }
     },
-    "/blogs": {
+    "/v3/blogs": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -947,7 +947,7 @@
         }
       }
     },
-    "/blogs/count": {
+    "/v3/blogs/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -1004,7 +1004,7 @@
         "parameters": []
       }
     },
-    "/blogs/{id}": {
+    "/v3/blogs/{id}": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -1204,7 +1204,7 @@
         ]
       }
     },
-    "/blogs/launch/{id}": {
+    "/v3/blogs/launch/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all blogs linked to a launch",
@@ -1272,7 +1272,7 @@
         ]
       }
     },
-    "/blogs/event/{id}": {
+    "/v3/blogs/event/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all blogs linked to an event",
@@ -1340,7 +1340,7 @@
         ]
       }
     },
-    "/reports": {
+    "/v3/reports": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -1594,7 +1594,7 @@
         }
       }
     },
-    "/reports/count": {
+    "/v3/reports/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -1651,7 +1651,7 @@
         "parameters": []
       }
     },
-    "/reports/{id}": {
+    "/v3/reports/{id}": {
       "get": {
         "deprecated": false,
         "description": "",

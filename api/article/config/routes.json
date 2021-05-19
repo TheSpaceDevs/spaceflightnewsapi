@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/v3/articles",
+      "path": "/articles",
       "handler": "article.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/v3/articles/count",
+      "path": "/articles/count",
       "handler": "article.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/v3/articles/:id",
+      "path": "/articles/:id",
       "handler": "article.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/v3/articles",
+      "path": "/articles",
       "handler": "article.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/v3/articles/:id",
+      "path": "/articles/:id",
       "handler": "article.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/v3/articles/:id",
+      "path": "/articles/:id",
       "handler": "article.delete",
       "config": {
         "policies": []
@@ -50,7 +50,7 @@
     },
     {
       "method": "GET",
-      "path": "/v3/articles/launch/:id",
+      "path": "/articles/launch/:id",
       "handler": "article.findPerLaunch",
       "config": {
         "policies": [],
@@ -59,7 +59,7 @@
     },
     {
       "method": "GET",
-      "path": "/v3/articles/event/:id",
+      "path": "/articles/event/:id",
       "handler": "article.findPerEvent",
       "config": {
         "policies": [],

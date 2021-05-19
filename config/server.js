@@ -4,11 +4,12 @@ module.exports = ({ env }) => ({
   cron: {
     enabled: true
   },
-  url: '/',
+  url: 'https://api.spaceflightnewsapi.net/v3',
   admin: {
     auth: {
       secret: env('ADMIN_JWT_SECRET', 'super_secret_jwt'),
     },
+    url: '/',
     serveAdminPanel: false
   },
   ll_token: env('LL_TOKEN', 'get_this_token_via_patreon'),

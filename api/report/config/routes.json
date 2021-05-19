@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/v3/reports",
+      "path": "/reports",
       "handler": "report.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/v3/reports/count",
+      "path": "/reports/count",
       "handler": "report.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/v3/reports/:id",
+      "path": "/reports/:id",
       "handler": "report.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/v3/reports",
+      "path": "/reports",
       "handler": "report.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/v3/reports/:id",
+      "path": "/reports/:id",
       "handler": "report.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/v3/reports/:id",
+      "path": "/reports/:id",
       "handler": "report.delete",
       "config": {
         "policies": []
