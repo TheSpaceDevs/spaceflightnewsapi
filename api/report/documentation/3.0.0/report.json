@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/api/v3/reports": {
+    "/reports": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -254,7 +254,7 @@
         }
       }
     },
-    "/api/v3/reports/count": {
+    "/reports/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -311,7 +311,7 @@
         "parameters": []
       }
     },
-    "/api/v3/reports/{id}": {
+    "/reports/{id}": {
       "get": {
         "deprecated": false,
         "description": "",
