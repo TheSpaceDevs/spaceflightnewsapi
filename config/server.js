@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
   cron: {
     enabled: true
   },
-  url: 'https://api.spaceflightnewsapi.net',
+  url: '/',
   admin: {
     auth: {
       secret: env('ADMIN_JWT_SECRET', 'super_secret_jwt'),

@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/blogs",
+      "path": "/v3/blogs",
       "handler": "blog.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/blogs/count",
+      "path": "/v3/blogs/count",
       "handler": "blog.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/blogs/:id",
+      "path": "/v3/blogs/:id",
       "handler": "blog.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/blogs",
+      "path": "/v3/blogs",
       "handler": "blog.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/blogs/:id",
+      "path": "/v3/blogs/:id",
       "handler": "blog.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/blogs/:id",
+      "path": "/v3/blogs/:id",
       "handler": "blog.delete",
       "config": {
         "policies": []
@@ -50,7 +50,7 @@
     },
     {
       "method": "GET",
-      "path": "/blogs/launch/:id",
+      "path": "/v3/blogs/launch/:id",
       "handler": "blog.findPerLaunch",
       "config": {
         "policies": [],
@@ -59,7 +59,7 @@
     },
     {
       "method": "GET",
-      "path": "/blogs/event/:id",
+      "path": "/v3/blogs/event/:id",
       "handler": "blog.findPerEvent",
       "config": {
         "policies": [],
