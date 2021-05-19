@@ -1,0 +1,49 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "version": "3.0.0",
+    "title": "Spaceflight News API",
+    "description": "Documentation for the Spaceflight News API. Join The Space Devs Discord server to contact me for support :)",
+    "contact": {
+      "name": "Spaceflight News API",
+      "email": "derk@spaceflightnewsapi.net",
+      "url": "https://spaceflightnewsapi.net"
+    },
+    "license": {
+      "name": "GPLv3",
+      "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+    },
+    "termsOfService": "https://spaceflightnewsapi.net"
+  },
+  "x-strapi-config": {
+    "path": "/documentation",
+    "showGeneratedFiles": true,
+    "pluginsForWhichToGenerateDoc": []
+  },
+  "servers": [
+    {
+      "url": "https://test.spaceflightnewsapi.net",
+      "description": "Test server"
+    },
+    {
+      "url": "https://spaceflightnewsapi.net",
+      "description": "Production server"
+    },
+    {
+      "url": "-",
+      "description": "Don't use me - I'm a placeholder as a workaround"
+    }
+  ],
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ],
+  "externalDocs": {
+    "description": "Part of The Space Devs",
+    "url": "https://thespacedevs.com"
+  },
+  "paths": {},
+  "tags": [],
+  "components": {}
+}
