@@ -1,6 +1,6 @@
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/main)
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/development)
-![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m786247169-4f64b1471061dd615d6f6f5c)
+![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m788189195-db9c0253b0e83654cfd9d91f)
 
 # Spaceflight News API
 
@@ -12,7 +12,7 @@ There are great apps out on the internet, that are connected to services like <h
 
 ## Documentation
 
-The documentation is generated from the code, and can be found at <https://www.spaceflightnewsapi.net/documentation>.
+The documentation is generated from the code, and can be found at <https://api.spaceflightnewsapi.net/v3/documentation>.
 
 ## Version 2
 
