@@ -266,7 +266,8 @@
           "title",
           "publishedAt",
           "url",
-          "imageUrl"
+          "imageUrl",
+          "newsSite"
         ],
         "properties": {
           "id": {
@@ -333,7 +334,8 @@
           "title",
           "publishedAt",
           "url",
-          "imageUrl"
+          "imageUrl",
+          "newsSite"
         ],
         "properties": {
           "title": {

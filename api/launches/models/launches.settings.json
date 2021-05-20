@@ -32,7 +32,8 @@
     },
     "provider": {
       "model": "provider",
-      "via": "launches"
+      "via": "launches",
+      "required": true
     }
   }
 }

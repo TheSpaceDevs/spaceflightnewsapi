@@ -402,7 +402,8 @@
           "title",
           "url",
           "imageUrl",
-          "publishedAt"
+          "publishedAt",
+          "newsSite"
         ],
         "properties": {
           "id": {
@@ -472,7 +473,8 @@
               "required": [
                 "id",
                 "launchId",
-                "name"
+                "name",
+                "provider"
               ],
               "properties": {
                 "id": {
@@ -514,7 +516,8 @@
               "required": [
                 "id",
                 "name",
-                "eventId"
+                "eventId",
+                "provider"
               ],
               "properties": {
                 "id": {
@@ -557,7 +560,8 @@
           "title",
           "url",
           "imageUrl",
-          "publishedAt"
+          "publishedAt",
+          "newsSite"
         ],
         "properties": {
           "title": {

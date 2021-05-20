@@ -40,7 +40,8 @@
     },
     "newsSite": {
       "model": "news-site",
-      "via": "articles"
+      "via": "articles",
+      "required": true
     },
     "launches": {
       "via": "articles",

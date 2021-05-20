@@ -37,7 +37,8 @@
     },
     "newsSite": {
       "model": "news-site",
-      "via": "reports"
+      "via": "reports",
+      "required": true
     }
   }
 }
