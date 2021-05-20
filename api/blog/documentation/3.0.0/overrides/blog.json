@@ -23,7 +23,7 @@
             "type": "string"
           },
           "publishedAt": {
-            "type": "datetime"
+            "type": "string"
           },
           "launches": {
             "type": "array",
@@ -92,8 +92,7 @@
             "type": "string"
           },
           "publishedAt": {
-            "type": "datetime",
-            "default": "2020-08-04T10:00:00.000Z"
+            "type": "string"
           },
           "launches": {
             "type": "array",

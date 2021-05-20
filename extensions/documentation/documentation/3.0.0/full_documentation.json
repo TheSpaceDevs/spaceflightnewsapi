@@ -14,7 +14,7 @@
       "name": "GPLv3",
       "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
     },
-    "x-generation-date": "05/20/2021 11:20:19 AM"
+    "x-generation-date": "05/20/2021 11:23:48 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1118,7 +1118,7 @@
             "type": "string"
           },
           "publishedAt": {
-            "type": "datetime"
+            "type": "string"
           },
           "launches": {
             "type": "array",
@@ -1187,8 +1187,7 @@
             "type": "string"
           },
           "publishedAt": {
-            "type": "datetime",
-            "default": "2020-08-04T10:00:00.000Z"
+            "type": "string"
           },
           "launches": {
             "type": "array",
@@ -1250,7 +1249,7 @@
             "type": "string"
           },
           "publishedAt": {
-            "type": "datetime"
+            "type": "string"
           },
           "launches": {
             "type": "array",
@@ -1319,8 +1318,7 @@
             "type": "string"
           },
           "publishedAt": {
-            "type": "datetime",
-            "default": "2020-08-04T10:00:00.000Z"
+            "type": "string"
           },
           "launches": {
             "type": "array",
@@ -1382,7 +1380,7 @@
             "type": "string"
           },
           "publishedAt": {
-            "type": "datetime"
+            "type": "string"
           }
         }
       },
@@ -1411,8 +1409,7 @@
             "type": "string"
           },
           "publishedAt": {
-            "type": "datetime",
-            "default": "2020-08-04T10:00:00.000Z"
+            "type": "string"
           }
         }
       },
