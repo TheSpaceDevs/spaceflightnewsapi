@@ -9557,6 +9557,13 @@ strapi-plugin-i18n@3.6.2:
     pluralize "8.0.0"
     strapi-utils "3.6.2"
 
+strapi-plugin-sentry@^3.6.2:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-sentry/-/strapi-plugin-sentry-3.6.2.tgz#5ab6e0ede28eb0ecc450ea7bb33b577921d76d09"
+  integrity sha512-v8hfnAC3+ej5x46ZYN8qbbkD3v0wBeo1Wrskq/rlAPc1NSZMtrnGhtYrBI12wcfjPzoMR6l+ov/6dq3ehyvb4g==
+  dependencies:
+    "@sentry/node" "6.3.0"
+
 strapi-plugin-upload@3.6.2:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.6.2.tgz#602c9afc19c04efb8068a82eee67ed4c79c55522"
