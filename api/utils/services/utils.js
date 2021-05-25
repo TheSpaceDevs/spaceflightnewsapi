@@ -6,7 +6,6 @@
 
 module.exports = {
   sanitizeEntity: (item => {
-    console.log(item)
     const sanitizedItem = {
       id: item.id,
       title: item.title,
