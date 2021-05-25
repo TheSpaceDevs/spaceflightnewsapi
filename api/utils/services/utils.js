@@ -6,6 +6,7 @@
 
 module.exports = {
   sanitizeEntity: (item => {
+    console.log(item)
     const sanitizedItem = {
       id: item.id,
       title: item.title,
@@ -14,7 +15,7 @@ module.exports = {
       newsSite: item.newsSite.name,
       summary: item.summary,
       publishedAt: item.publishedAt,
-      updatedAt: item.updatedAt,
+      updatedAt: item.updated_at,
       featured: item.featured,
     };
 

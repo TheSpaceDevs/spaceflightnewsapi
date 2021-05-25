@@ -1,7 +1,7 @@
 {
   "name": "spaceflightnewsapi",
   "private": true,
-  "version": "3.0.0-beta",
+  "version": "3.0.1-beta",
   "description": "Backend for the Spaceflight News API",
   "scripts": {
     "develop": "strapi develop",
