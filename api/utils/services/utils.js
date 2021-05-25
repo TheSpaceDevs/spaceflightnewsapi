@@ -14,7 +14,7 @@ module.exports = {
       newsSite: item.newsSite.name,
       summary: item.summary,
       publishedAt: item.publishedAt,
-      updatedAt: item.updatedAt,
+      updatedAt: item.updated_at,
       featured: item.featured,
     };
 
