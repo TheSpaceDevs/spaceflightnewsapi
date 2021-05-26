@@ -12,11 +12,20 @@ module.exports = {
     if (ctx.query._q) {
       entities = await strapi.services.blog.search(ctx.query);
     } else {
-      entities = await strapi.services.blog.find({
-        ...ctx.query,
-        _limit: ctx.query._limit || 10,
-        _sort: ctx.query._sort || "publishedAt:DESC",
-      }, ['newsSite', 'launches.provider', 'events.provider']);
+      try {
+        entities = await strapi.services.blog.find({
+          ...ctx.query,
+          _limit: ctx.query._limit || 10,
+          _sort: ctx.query._sort || "publishedAt:DESC",
+        }, ['newsSite', 'launches.provider', 'events.provider']);
+      } catch (e) {
+        if (e.code === '22P02') {
+          ctx.throw(400, 'Bad Request - please take a look at your query params')
+        }
+
+        ctx.throw(500)
+      }
+
     }
 
     return entities.map(entity => strapi.services.utils.sanitizeEntity(entity));
