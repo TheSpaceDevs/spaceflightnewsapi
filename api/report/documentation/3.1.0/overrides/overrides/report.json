@@ -1,0 +1,61 @@
+{
+  "components": {
+    "schemas": {
+      "Report": {
+        "required": [],
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "imageUrl": {
+            "type": "string"
+          },
+          "newsSite": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "publishedAt": {
+            "type": "string"
+          }
+        }
+      },
+      "NewReport": {
+        "required": [
+          "title",
+          "url",
+          "imageUrl",
+          "publishedAt",
+          "newsSite"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "imageUrl": {
+            "type": "string"
+          },
+          "newsSite": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "publishedAt": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

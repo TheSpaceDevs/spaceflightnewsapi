@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "version": "3.0.0",
+    "version": "3.1.0",
     "title": "Spaceflight News API",
-    "description": "Documentation for the Spaceflight News API. Join The Space Devs Discord server to contact me for support :)  NOTE: to use filters like `_contains`, specify the field you want to filter. For example: `title_contains=nasa` This can not be done in this Swagger interface. [More info and examples](https://strapi.io/documentation/developer-docs/latest/developer-resources/content-api/content-api.html#filters)",
+    "description": "Documentation for the Spaceflight News API. Join The Space Devs Discord server to contact me for support :)  NOTE: to use filters like `_contains`, specify the field you want to filter. For example: `title_contains=nasa`. This can not be done in this Swagger interface. [More info and examples](https://strapi.io/documentation/developer-docs/latest/developer-resources/content-api/content-api.html#filters).",
     "termsOfService": "https://spaceflightnewsapi.net",
     "contact": {
       "name": "Spaceflight News API",
@@ -14,7 +14,7 @@
       "name": "GPLv3",
       "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
     },
-    "x-generation-date": "06/30/2021 2:49:02 PM"
+    "x-generation-date": "06/30/2021 2:51:10 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1264,17 +1264,24 @@
   "components": {
     "schemas": {
       "Article": {
-        "required": [],
+        "required": [
+          "id",
+          "title",
+          "url",
+          "imageUrl",
+          "publishedAt",
+          "newsSite"
+        ],
         "properties": {
           "id": {
-            "type": "integer"
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
           },
           "featured": {
             "type": "boolean",
             "default": false
-          },
-          "title": {
-            "type": "string"
           },
           "url": {
             "type": "string"
@@ -1282,14 +1289,50 @@
           "imageUrl": {
             "type": "string"
           },
-          "newsSite": {
-            "type": "string"
-          },
           "summary": {
             "type": "string"
           },
           "publishedAt": {
-            "type": "string"
+            "type": "string",
+            "format": "date-time"
+          },
+          "newsSite": {
+            "required": [
+              "id",
+              "name"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "articles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "blogs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "reports": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           },
           "launches": {
             "type": "array",
@@ -1297,13 +1340,38 @@
               "required": [
                 "id",
                 "launchId",
-                "name"
+                "name",
+                "provider"
               ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
+                "launchId": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "articles": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "blogs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "provider": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
                   "type": "string"
                 }
               }
@@ -1314,14 +1382,39 @@
             "items": {
               "required": [
                 "id",
-                "launchId",
-                "name"
+                "name",
+                "eventId",
+                "provider"
               ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
+                "name": {
+                  "type": "string"
+                },
+                "eventId": {
+                  "type": "integer"
+                },
+                "articles": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "blogs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "provider": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
                   "type": "string"
                 }
               }
@@ -1338,71 +1431,61 @@
           "newsSite"
         ],
         "properties": {
+          "title": {
+            "type": "string"
+          },
           "featured": {
             "type": "boolean",
             "default": false
           },
-          "title": {
-            "type": "string"
-          },
           "url": {
             "type": "string"
           },
           "imageUrl": {
             "type": "string"
           },
-          "newsSite": {
-            "type": "string"
-          },
           "summary": {
             "type": "string"
           },
           "publishedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "newsSite": {
             "type": "string"
           },
           "launches": {
             "type": "array",
             "items": {
-              "required": [
-                "id",
-                "launchId",
-                "name"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
-                }
-              }
+              "type": "string"
             }
           },
           "events": {
             "type": "array",
             "items": {
-              "required": [
-                "id",
-                "launchId",
-                "name"
-              ],
-              "properties": {
-                "id": {
-                  "type": "integer"
-                },
-                "provider": {
-                  "type": "string"
-                }
-              }
+              "type": "string"
             }
+          },
+          "created_by": {
+            "type": "string"
+          },
+          "updated_by": {
+            "type": "string"
           }
         }
       },
       "Blog": {
-        "required": [],
+        "required": [
+          "id",
+          "title",
+          "url",
+          "imageUrl",
+          "publishedAt",
+          "newsSite"
+        ],
         "properties": {
           "id": {
-            "type": "integer"
+            "type": "string"
           },
           "title": {
             "type": "string"
@@ -1413,14 +1496,12 @@
           "imageUrl": {
             "type": "string"
           },
-          "newsSite": {
-            "type": "string"
-          },
           "summary": {
             "type": "string"
           },
           "publishedAt": {
-            "type": "string"
+            "type": "string",
+            "format": "date-time"
           },
           "launches": {
             "type": "array",
@@ -1428,13 +1509,38 @@
               "required": [
                 "id",
                 "launchId",
-                "name"
+                "name",
+                "provider"
               ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
+                "launchId": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "articles": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "blogs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "provider": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
                   "type": "string"
                 }
               }
@@ -1445,16 +1551,79 @@
             "items": {
               "required": [
                 "id",
-                "launchId",
-                "name"
+                "name",
+                "eventId",
+                "provider"
               ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
+                "name": {
+                  "type": "string"
+                },
+                "eventId": {
+                  "type": "integer"
+                },
+                "articles": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "blogs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "provider": {
                   "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
                 }
+              }
+            }
+          },
+          "newsSite": {
+            "required": [
+              "id",
+              "name"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "articles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "blogs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "reports": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
               }
             }
           }
@@ -1469,10 +1638,6 @@
           "newsSite"
         ],
         "properties": {
-          "featured": {
-            "type": "boolean",
-            "default": false
-          },
           "title": {
             "type": "string"
           },
@@ -1482,61 +1647,58 @@
           "imageUrl": {
             "type": "string"
           },
-          "newsSite": {
-            "type": "string"
-          },
           "summary": {
             "type": "string"
           },
           "publishedAt": {
-            "type": "string"
+            "type": "string",
+            "format": "date-time"
           },
           "launches": {
             "type": "array",
             "items": {
-              "required": [
-                "id",
-                "launchId",
-                "name"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
-                }
-              }
+              "type": "string"
             }
           },
           "events": {
             "type": "array",
             "items": {
-              "required": [
-                "id",
-                "launchId",
-                "name"
-              ],
-              "properties": {
-                "id": {
-                  "type": "integer"
-                },
-                "provider": {
-                  "type": "string"
-                }
-              }
+              "type": "string"
             }
+          },
+          "newsSite": {
+            "type": "string"
+          },
+          "created_by": {
+            "type": "string"
+          },
+          "updated_by": {
+            "type": "string"
           }
         }
       },
       "Report": {
-        "required": [],
+        "required": [
+          "id",
+          "title",
+          "publishedAt",
+          "url",
+          "imageUrl",
+          "newsSite"
+        ],
         "properties": {
           "id": {
-            "type": "integer"
+            "type": "string"
           },
           "title": {
             "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "publishedAt": {
+            "type": "string",
+            "format": "date-time"
           },
           "url": {
             "type": "string"
@@ -1545,27 +1707,63 @@
             "type": "string"
           },
           "newsSite": {
-            "type": "string"
-          },
-          "summary": {
-            "type": "string"
-          },
-          "publishedAt": {
-            "type": "string"
+            "required": [
+              "id",
+              "name"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "articles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "blogs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "reports": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           }
         }
       },
       "NewReport": {
         "required": [
           "title",
+          "publishedAt",
           "url",
           "imageUrl",
-          "publishedAt",
           "newsSite"
         ],
         "properties": {
           "title": {
             "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "publishedAt": {
+            "type": "string",
+            "format": "date-time"
           },
           "url": {
             "type": "string"
@@ -1576,10 +1774,10 @@
           "newsSite": {
             "type": "string"
           },
-          "summary": {
+          "created_by": {
             "type": "string"
           },
-          "publishedAt": {
+          "updated_by": {
             "type": "string"
           }
         }
