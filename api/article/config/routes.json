@@ -2,6 +2,14 @@
   "routes": [
     {
       "method": "GET",
+      "path": "/articles/count",
+      "handler": "article.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/articles",
       "handler": "article.find",
       "config": {
