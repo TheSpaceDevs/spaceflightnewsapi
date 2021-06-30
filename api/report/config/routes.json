@@ -2,6 +2,14 @@
   "routes": [
     {
       "method": "GET",
+      "path": "/reports/count",
+      "handler": "report.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/reports",
       "handler": "report.find",
       "config": {
