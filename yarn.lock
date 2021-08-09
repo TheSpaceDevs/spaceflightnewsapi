@@ -3450,7 +3450,7 @@ date-fns@^2.19.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.22.1.tgz#1e5af959831ebb1d82992bf67b765052d8f0efc4"
   integrity sha512-yUFPQjrxEmIsMqlHhAhmxkuH769baF21Kk+nZwZGyrMoyLA+LugaQtC0+Tqf9CBUUULWwUJt6Q5ySI3LJDDCGg==
 
-debug@*, debug@4, debug@4.3.1, debug@^4.1.0, debug@^4.1.1:
+debug@*, debug@4.3.1, debug@^4.1.0, debug@^4.1.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
@@ -3470,6 +3470,13 @@ debug@3.1.0, debug@~3.1.0:
   integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
   dependencies:
     ms "2.0.0"
+
+debug@4:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
+  integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
+  dependencies:
+    ms "2.1.2"
 
 debug@4.1.1:
   version "4.1.1"
@@ -9704,9 +9711,9 @@ strapi-plugin-prometheus-metrics@0.0.4:
     prometheus-api-metrics "^3.1.0"
 
 strapi-plugin-sentry@^3.6.2:
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-sentry/-/strapi-plugin-sentry-3.6.5.tgz#210c155ed503ecd8dca17eff1da883315271c855"
-  integrity sha512-MaUuwNkR9BOa2V7uVDmrq1hbg65jy1N+T40ErKVYNvsFSo8qIS339FX6G2K2yw4ZQ4N9YMgqrFMRtzGzfAEQ7Q==
+  version "3.6.6"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-sentry/-/strapi-plugin-sentry-3.6.6.tgz#09d8f61f2338717004d270769f10aa9f3f9481a9"
+  integrity sha512-0bI9IPuGUkSM1BlDLPxEEkOrg8jWKxkf3r8A1P9dK4lyxHR0BZ1CzZ39L7j0DQx+bXxgxVx6b6jmRpGLbL1fNQ==
   dependencies:
     "@sentry/node" "6.7.1"
 
