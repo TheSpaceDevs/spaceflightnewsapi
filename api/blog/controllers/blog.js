@@ -19,13 +19,10 @@ module.exports = {
           _sort: ctx.query._sort || "publishedAt:DESC",
         }, ['newsSite', 'launches.provider', 'events.provider']);
       } catch (e) {
-        if (e.code === '22P02') {
+        if (e.code === '22P02' || e.status === 400) {
           ctx.throw(400, 'Bad Request - please take a look at your query params')
         }
-
-        ctx.throw(500)
       }
-
     }
 
     return entities.map(entity => strapi.services.utils.sanitizeEntity(entity));
