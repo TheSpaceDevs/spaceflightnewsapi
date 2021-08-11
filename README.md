@@ -55,6 +55,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 - National Space Society
 
 ## Changelog
+### V3.2.0
+- Various Sentry issues fixed
+
+### V3.1.0
+- Strapi updates
+- Sentry updates
+- Admin interface updates
 
 ### V3.0.0
 - Switch to use Postgres as database

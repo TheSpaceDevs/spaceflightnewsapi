@@ -19,11 +19,9 @@ module.exports = {
           _sort: ctx.query._sort || "publishedAt:DESC",
         }, ['newsSite', 'launches.provider', 'events.provider']);
       } catch (e) {
-        if (e.code === '22P02') {
+        if (e.code === '22P02' || e.status === 400) {
           ctx.throw(400, 'Bad Request - please take a look at your query params')
         }
-
-        ctx.throw(500)
       }
     }
 
@@ -32,9 +30,14 @@ module.exports = {
 
   async findOne(ctx) {
     const { id } = ctx.params;
-
-    const entity = await strapi.services.article.findOne({ id }, ['newsSite', 'launches.provider', 'events.provider']);
-    return strapi.services.utils.sanitizeEntity(entity);
+    try {
+      const entity = await strapi.services.article.findOne({ id }, ['newsSite', 'launches.provider', 'events.provider']);
+      return strapi.services.utils.sanitizeEntity(entity);
+    } catch (e) {
+      if (e.code === '22P02') {
+        ctx.throw(400, 'Bad Request - please take a look at your input')
+      }
+    }
   },
 
   async findPerLaunch(ctx) {

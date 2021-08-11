@@ -18,11 +18,9 @@ module.exports = {
           _sort: ctx.query._sort || "publishedAt:DESC",
         }, ['newsSite']);
       } catch (e) {
-        if (e.code === '22P02') {
+        if (e.code === '22P02' || e.status === 400) {
           ctx.throw(400, 'Bad Request - please take a look at your query params')
         }
-
-        ctx.throw(500)
       }
 
     }
