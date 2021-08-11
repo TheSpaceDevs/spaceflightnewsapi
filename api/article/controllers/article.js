@@ -30,9 +30,14 @@ module.exports = {
 
   async findOne(ctx) {
     const { id } = ctx.params;
-
-    const entity = await strapi.services.article.findOne({ id }, ['newsSite', 'launches.provider', 'events.provider']);
-    return strapi.services.utils.sanitizeEntity(entity);
+    try {
+      const entity = await strapi.services.article.findOne({ id }, ['newsSite', 'launches.provider', 'events.provider']);
+      return strapi.services.utils.sanitizeEntity(entity);
+    } catch (e) {
+      if (e.code === '22P02') {
+        ctx.throw(400, 'Bad Request - please take a look at your input')
+      }
+    }
   },
 
   async findPerLaunch(ctx) {
