@@ -99,6 +99,7 @@ module.exports = {
           );
           await channel.ack(msg);
         } catch (e) {
+          await channel.nack(msg, false, false);
           strapi.log.error(`error updating ${message.type}`, e);
         }
       } else {
@@ -106,7 +107,7 @@ module.exports = {
         strapi.log.error(
           `duplicate from another site found: ${message.data.title} ${dup.newsSite.name}`
         );
-        await channel.ack(msg);
+        await channel.nack(msg, false, false);
       }
     }
   })
