@@ -22,6 +22,7 @@ Version 2.0 of SNAPI is a rewrite of the enitre API. It's using the amazing Stra
 SNAPI 2 sets the stage for new features to come. 2.0 focuses on bringing the existing features to the new format.
 
 ## Version 3
+
 In the Spring of 2021, Strapi announced that they would retire support for MongoDB. Since SNAPI was using MongoDB as the database, this had quite a big impact.
 Version 3 of the API is exactly the same as version 2 (in terms of the response), except the ID's. These changed from ObjectID's (strings) to integers.
 
@@ -55,18 +56,27 @@ A nice to have if you want to have a "related news/launches" section in your app
 - National Space Society
 
 ## Changelog
+
+# V3.0.0
+
+- Package updates
+
 ### V3.2.0
+
 - Various Sentry issues fixed
 
 ### V3.1.0
+
 - Strapi updates
 - Sentry updates
 - Admin interface updates
 
 ### V3.0.0
+
 - Switch to use Postgres as database
 
 ### V2.3.0
+
 - The lost "article per (LL2) event" endpoint is back
 - Changed the G4L logo on the site
 - Added Sentry again, via the new Strapi plugin
@@ -74,13 +84,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 - Updated to Strapi 3.5.3
 
 ### v2.2.0
+
 - Dependency updates
 - Code cleanup
 - Admin side of things
 
 ### v2.1.0
+
 - Backend changes on how new content is processed
 - Package updates
 
 ### v2.0.0
+
 - Complete rewrite of the app, focusing on existing features
