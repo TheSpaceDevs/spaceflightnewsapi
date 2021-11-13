@@ -1,0 +1,32 @@
+{
+  "paths": {
+    "/info": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint to retrieve infomation about various aspects of the API.",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "version": {
+                      "type": "string"
+                    },
+                    "newsSites": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
