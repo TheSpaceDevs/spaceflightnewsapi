@@ -14,7 +14,7 @@
       "name": "GPLv3",
       "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
     },
-    "x-generation-date": "08/11/2021 3:19:26 PM"
+    "x-generation-date": "11/13/2021 1:10:48 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -946,6 +946,69 @@
         ]
       }
     },
+    "/info": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint to retrieve infomation about various aspects of the API.",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "version": {
+                      "type": "string"
+                    },
+                    "newsSites": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Info"
+        ],
+        "parameters": []
+      }
+    },
     "/reports/count": {
       "get": {
         "deprecated": false,
@@ -1614,6 +1677,9 @@
     },
     {
       "name": "Blog"
+    },
+    {
+      "name": "Info"
     },
     {
       "name": "Report"
