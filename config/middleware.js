@@ -1,10 +1,5 @@
 module.exports = {
   settings: {
-    prom: {
-      enabled: true,
-      metricsPath: '/metrics',
-      includeQueryParams: true
-    },
     public: {
       defaultIndex: false
     },

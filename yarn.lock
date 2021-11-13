@@ -1619,7 +1619,7 @@
     "@types/keygrip" "*"
     "@types/node" "*"
 
-"@types/express-serve-static-core@^4.17.12", "@types/express-serve-static-core@^4.17.18":
+"@types/express-serve-static-core@^4.17.18":
   version "4.17.25"
   resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.17.25.tgz#e42f7046adc65ece2eb6059b77aecfbe9e9f82e0"
   integrity sha512-OUJIVfRMFijZukGGwTpKNFprqCCXk5WjNGvUgB/CxxBR40QWSjsNK86+yvGKlCOGc7sbwfHLaXhkG+NsytwBaQ==
@@ -1628,7 +1628,7 @@
     "@types/qs" "*"
     "@types/range-parser" "*"
 
-"@types/express@*", "@types/express@^4.17.8":
+"@types/express@*":
   version "4.17.13"
   resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.13.tgz#a76e2995728999bab51a33fabce1d705a3709034"
   integrity sha512-6bSZTPaTIACxn48l50SR+axgrqm6qXFIxrdAKaG6PaJk3+zuUr35hBlgT7vOmJcum+OEaIBLtHV/qloEAFITeA==
@@ -1707,7 +1707,7 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa@*", "@types/koa@^2.0.46", "@types/koa@^2.11.4":
+"@types/koa@*", "@types/koa@^2.0.46":
   version "2.13.4"
   resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.13.4.tgz#10620b3f24a8027ef5cbae88b393d1b31205726b"
   integrity sha512-dfHYMfU+z/vKtQB7NUrthdAEiSvnLebvBjwHtfFmpZmB7em2N3WVQdHgnFq+xvyVgxW5jKDmjWfLD3lw4g4uTw==
@@ -2700,11 +2700,6 @@ bindings@^1.5.0:
   integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
   dependencies:
     file-uri-to-path "1.0.0"
-
-bintrees@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/bintrees/-/bintrees-1.0.1.tgz#0e655c9b9c2435eaab68bf4027226d2b55a34524"
-  integrity sha1-DmVcm5wkNeqraL9AJyJtK1WjRSQ=
 
 bitsyntax@~0.1.0:
   version "0.1.0"
@@ -6873,11 +6868,6 @@ lodash.deburr@^4.1.0:
   resolved "https://registry.yarnpkg.com/lodash.deburr/-/lodash.deburr-4.1.0.tgz#ddb1bbb3ef07458c0177ba07de14422cb033ff9b"
   integrity sha1-3bG7s+8HRYwBd7oH3hRCLLAz/5s=
 
-lodash.get@^4.4.2:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
-  integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
-
 lodash.includes@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.includes/-/lodash.includes-4.3.0.tgz#60bb98a87cb923c68ca1e51325483314849f553f"
@@ -8262,11 +8252,6 @@ pkg-dir@^4.1.0:
   dependencies:
     find-up "^4.0.0"
 
-pkginfo@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/pkginfo/-/pkginfo-0.4.1.tgz#b5418ef0439de5425fc4995042dced14fb2a84ff"
-  integrity sha1-tUGO8EOd5UJfxJlQQtztFPsqhP8=
-
 pluralize@8.0.0, pluralize@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
@@ -8431,25 +8416,6 @@ process@^0.11.10:
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
-
-prom-client@^12.0.0:
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/prom-client/-/prom-client-12.0.0.tgz#9689379b19bd3f6ab88a9866124db9da3d76c6ed"
-  integrity sha512-JbzzHnw0VDwCvoqf8y1WDtq4wSBAbthMB1pcVI/0lzdqHGJI3KBJDXle70XK+c7Iv93Gihqo0a5LlOn+g8+DrQ==
-  dependencies:
-    tdigest "^0.1.1"
-
-prometheus-api-metrics@^3.1.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/prometheus-api-metrics/-/prometheus-api-metrics-3.2.0.tgz#3af90989271abb55b7e0405bdfcb161f403a361c"
-  integrity sha512-JekPhtIBLGX8HxD2EndvBsLU6ZQ1JVVqyHWVfm5CposUOqgBHXnUVFW6x5Ux2gykpdej/5LLM3dU9V8Ma7GfkA==
-  dependencies:
-    "@types/express" "^4.17.8"
-    "@types/express-serve-static-core" "^4.17.12"
-    "@types/koa" "^2.11.4"
-    debug "^3.2.6"
-    lodash.get "^4.4.2"
-    pkginfo "^0.4.1"
 
 promise-breaker@^5.0.0:
   version "5.0.0"
@@ -10497,14 +10463,6 @@ strapi-plugin-i18n@^3.6.8:
     pluralize "8.0.0"
     strapi-utils "3.6.8"
 
-strapi-plugin-prometheus-metrics@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-prometheus-metrics/-/strapi-plugin-prometheus-metrics-0.0.4.tgz#b53a6c5a35cbad338b49231a586ffd8d37a154ce"
-  integrity sha512-8yS5C04pmmNJJF96GCgSNOHCQpUnaeJStsg49+bKN2f+UG0zVE7uKukVpnCziuBDYOPLLGQ2kdcqXKvCDYoGTQ==
-  dependencies:
-    prom-client "^12.0.0"
-    prometheus-api-metrics "^3.1.0"
-
 strapi-plugin-sentry@^3.6.8:
   version "3.6.8"
   resolved "https://registry.yarnpkg.com/strapi-plugin-sentry/-/strapi-plugin-sentry-3.6.8.tgz#f3d1e9ee18f22a13a19676c8cfa5db34457b2596"
@@ -10950,13 +10908,6 @@ tarn@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/tarn/-/tarn-3.0.1.tgz#ebac2c6dbc6977d34d4526e0a7814200386a8aec"
   integrity sha512-6usSlV9KyHsspvwu2duKH+FMUhqJnAh6J5J/4MITl8s94iSUQTLkJggdiewKv4RyARQccnigV48Z+khiuVZDJw==
-
-tdigest@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/tdigest/-/tdigest-0.1.1.tgz#2e3cb2c39ea449e55d1e6cd91117accca4588021"
-  integrity sha1-Ljyyw56kSeVdHmzZEReszKRYgCE=
-  dependencies:
-    bintrees "1.0.1"
 
 term-size@^2.1.0:
   version "2.2.1"
