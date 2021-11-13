@@ -27,6 +27,7 @@
     "strapi-plugin-content-type-builder": "^3.6.8",
     "strapi-plugin-documentation": "^3.6.8",
     "strapi-plugin-email": "^3.6.8",
+    "strapi-plugin-graphql": "^3.6.8",
     "strapi-plugin-i18n": "^3.6.8",
     "strapi-plugin-prometheus-metrics": "0.0.4",
     "strapi-plugin-sentry": "^3.6.8",
