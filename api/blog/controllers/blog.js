@@ -20,8 +20,11 @@ module.exports = {
         }, ['newsSite', 'launches.provider', 'events.provider']);
       } catch (e) {
         console.log(e.code)
-        if (e.code === '22P02' || e.status === 400 || e.code === '42703') {
+        if (e.code === '22P02' || e.code === '42703' || e.status === 400 || e.code === '42703') {
           ctx.throw(400, 'Bad Request - please take a look at your query params')
+        } else {
+          strapi.log.error("Something went wrong:", e)
+          ctx.throw(500)
         }
       }
     }
