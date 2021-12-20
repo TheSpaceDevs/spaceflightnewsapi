@@ -56,6 +56,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - National Space Society
 
 ## Changelog
+# V3.4.0
+
+- Package updates
+- Sentry fixes
 
 # V3.0.0
 
