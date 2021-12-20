@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "version": "3.3.0",
+    "version": "3.4.0",
     "title": "Spaceflight News API",
     "description": "Documentation for the Spaceflight News API. Join The Space Devs Discord server to contact me for support :)  NOTE: to use filters like `_contains`, specify the field you want to filter. For example: `title_contains=nasa`. This can not be done in this Swagger interface. [More info and examples](https://strapi.io/documentation/developer-docs/latest/developer-resources/content-api/content-api.html#filters).",
     "contact": {
