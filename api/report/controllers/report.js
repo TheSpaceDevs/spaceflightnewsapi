@@ -35,6 +35,10 @@ module.exports = {
     const { id } = ctx.params;
 
     const entity = await strapi.services.report.findOne({ id }, ['newsSite']);
+    if (!entity) {
+      ctx.throw(404, "Not Found, please take a look at your query params")
+    }
+
     return strapi.services.utils.sanitizeEntity(entity);
   },
 };
