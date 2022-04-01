@@ -1,50 +1,30 @@
 {
-  "name": "spaceflightnewsapi",
+  "name": "demo",
   "private": true,
-  "version": "3.4.1",
-  "description": "Backend for the Spaceflight News API",
+  "version": "0.1.0",
+  "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "admin": "strapi watch-admin",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
-    "amqp-connection-manager": "^3.7.0",
-    "amqplib": "^0.8.0",
-    "axios": "^0.24.0",
-    "jquery": "^3.6.0",
-    "knex": "0.95.14",
-    "koa": "^2.13.4",
-    "pg": "^8.7.1",
-    "popper.js": "^1.16.1",
-    "strapi": "^3.6.8",
-    "strapi-admin": "^3.6.8",
-    "strapi-connector-bookshelf": "^3.6.8",
-    "strapi-plugin-content-manager": "^3.6.8",
-    "strapi-plugin-content-type-builder": "^3.6.8",
-    "strapi-plugin-documentation": "^3.6.8",
-    "strapi-plugin-email": "^3.6.8",
-    "strapi-plugin-graphql": "^3.6.8",
-    "strapi-plugin-i18n": "^3.6.8",
-    "strapi-plugin-sentry": "^3.6.8",
-    "strapi-plugin-upload": "^3.6.8",
-    "strapi-plugin-users-permissions": "^3.6.8",
-    "strapi-provider-email-mailgun": "^3.6.8",
-    "strapi-utils": "^3.6.8",
-    "uuid": "^8.3.2"
+    "@strapi/strapi": "4.1.7",
+    "@strapi/plugin-users-permissions": "4.1.7",
+    "@strapi/plugin-i18n": "4.1.7",
+    "pg": "8.6.0"
   },
   "author": {
-    "name": "Derk Weijers"
+    "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "6bd5fa17-d22b-400b-b625-246d0e850e61"
+    "uuid": "f6a002b7-ff8c-4145-8b9e-8c0ce831c3ed"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
   },
-  "license": "GPL-3.0"
+  "license": "MIT"
 }

@@ -1,103 +1,57 @@
-![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/main)
-![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/development)
-![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m788189195-db9c0253b0e83654cfd9d91f)
+# 🚀 Getting started with Strapi
 
-# Spaceflight News API
+Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
-Spaceflight News API was created as a solution for my problem when I wanted to develop an app for Spaceflight News: many (great!) news sites with different API's.
+### `develop`
 
-To make it easier for myself, I began a project that would aggegrate metadata from those news sites and publish them through an API. Since there are others that might benefit from this API, I decided make the API publicly available.
+Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
 
-There are great apps out on the internet, that are connected to services like <https://thespacedevs.com/>. By making this API available to everyone, I hope to open new doors for the developers of these apps.
+```
+npm run develop
+# or
+yarn develop
+```
 
-## Documentation
+### `start`
 
-The documentation is generated from the code, and can be found at <https://api.spaceflightnewsapi.net/v3/documentation>.
+Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
 
-## Version 2
+```
+npm run start
+# or
+yarn start
+```
 
-In Juli 2020, Launch Library 2.0 was released, within the new The Space Devs group. I've joined this group as a partner developer, and started finalizing SNAPI 2.0.
+### `build`
 
-Version 2.0 of SNAPI is a rewrite of the enitre API. It's using the amazing Strapi as a backend, with custom endpoints written by me.
-SNAPI 2 sets the stage for new features to come. 2.0 focuses on bringing the existing features to the new format.
+Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
 
-## Version 3
+```
+npm run build
+# or
+yarn build
+```
 
-In the Spring of 2021, Strapi announced that they would retire support for MongoDB. Since SNAPI was using MongoDB as the database, this had quite a big impact.
-Version 3 of the API is exactly the same as version 2 (in terms of the response), except the ID's. These changed from ObjectID's (strings) to integers.
+## ⚙️ Deployment
 
-## Launch Library 2 integration
+Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
 
-Starting from version 2, we now have Launch Library 2 integration. This way you can easily get news related to a specific launch.
-A nice to have if you want to have a "related news/launches" section in your app!
+## 📚 Learn more
 
-## Currently imported news sites
+- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
+- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
+- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
+- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
+- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
 
-- Nasaspaceflight,
-- Spacex,
-- Spaceflightnow,
-- Space.com,
-- Spacenews,
-- Nasa,
-- Phys,
-- Arstechnica,
-- Blueorigin,
-- Spaceflightinsider,
-- Thejapantimes,
-- Theverge,
-- Teslarati,
-- Elonx,
-- Virgingalactic,
-- Esa
+Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
 
-## Currently imported blog sites
+## ✨ Community
 
-- Planetary Society
-- National Space Society
+- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
+- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
+- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
 
-## Changelog
-# V3.4.0
+---
 
-- Package updates
-- Sentry fixes
-
-# V3.0.0
-
-- Package updates
-
-### V3.2.0
-
-- Various Sentry issues fixed
-
-### V3.1.0
-
-- Strapi updates
-- Sentry updates
-- Admin interface updates
-
-### V3.0.0
-
-- Switch to use Postgres as database
-
-### V2.3.0
-
-- The lost "article per (LL2) event" endpoint is back
-- Changed the G4L logo on the site
-- Added Sentry again, via the new Strapi plugin
-- Changed from amqplib to amqp-connection-manager
-- Updated to Strapi 3.5.3
-
-### v2.2.0
-
-- Dependency updates
-- Code cleanup
-- Admin side of things
-
-### v2.1.0
-
-- Backend changes on how new content is processed
-- Package updates
-
-### v2.0.0
-
-- Complete rewrite of the app, focusing on existing features
+<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
