@@ -1,0 +1,36 @@
+version: "3"
+
+volumes:
+  db-data:
+
+services:
+  backend:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "1337:1337"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=1337
+      - APP_KEYS="toBeModified1,toBeModified2"
+      - API_TOKEN_SALT=tobemodified
+      - ADMIN_JWT_SECRET=tobemodified
+      - JWT_SECRET=tobemodified
+    volumes:
+      - ./config:/app/config
+      - ./src:/app/src
+      - ./package.json:/app/package.json
+      - ./package-lock.json:/app/package-lock.json
+    depends_on:
+      - db
+
+  db:
+    image: postgres:14
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: spaceflightnewsapi-db
+      POSTGRES_PASSWORD: Welkom123
