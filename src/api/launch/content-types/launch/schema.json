@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "launches",
+  "info": {
+    "singularName": "launch",
+    "pluralName": "launches",
+    "displayName": "Launch"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "launchId": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "mappedBy": "launches"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::blog.blog",
+      "inversedBy": "launches"
+    },
+    "provider": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::provider.provider",
+      "inversedBy": "launches"
+    }
+  }
+}

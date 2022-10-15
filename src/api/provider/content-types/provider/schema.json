@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "providers",
+  "info": {
+    "singularName": "provider",
+    "pluralName": "providers",
+    "displayName": "Provider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "events": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event.event",
+      "mappedBy": "provider"
+    },
+    "launches": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::launch.launch",
+      "mappedBy": "provider"
+    }
+  }
+}
