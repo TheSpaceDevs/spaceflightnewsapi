@@ -1,0 +1,50 @@
+version: "3"
+
+volumes:
+  db-data:
+
+services:
+  backend:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "1337:1337"
+    environment:
+      APP_KEYS: "eigohjeiorwghio"
+      API_TOKEN_SALT: "wergiuhjdisufghijdfsguyerhgviku"
+      BROWSER: false
+      LL_TOKEN: ""
+      LL_URL: "https://lldev.thespacedevs.com/2.2.0"
+      MQ_HOST: "mq"
+      MQ_USERNAME: "mquser"
+      MQ_VIRTUALHOST: "vhost"
+      ADMIN_JWT_SECRET: "DSFGHJEIRHERJhieowrgheiruw"
+      JWT_SECRET: "EWIGHWergiuwdhfgiuehwriuhiu"
+      SENTRY_DSN: ""
+      MAILGUN_API_KEY: "secretkey"
+      MAILGUN_DOMAIN: "mg.spaceflightnewsapi.net"
+      MQ_PASSWORD: ""
+      DATABASE_USERNAME: spaceflightnewsapi-db
+      DATABASE_PASSWORD: Welkom123
+      DATABASE_HOST: spaceflightnewsapi-db-1
+      DATABASE_PORT: 5432
+      DATABASE_NAME: spaceflightnewsapi-db
+    volumes:
+      - ./config:/app/config
+      - ./src:/app/src
+      - ./package.json:/app/package.json
+      - ./package-lock.json:/app/package-lock.json
+    depends_on:
+      - db
+
+
+  db:
+    image: postgres:14
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: spaceflightnewsapi-db
+      POSTGRES_PASSWORD: Welkom123
