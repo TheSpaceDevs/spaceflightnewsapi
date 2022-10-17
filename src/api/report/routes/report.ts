@@ -4,4 +4,7 @@
 
 import { factories } from '@strapi/strapi';
 
-export default factories.createCoreRouter('api::report.report');
+export default factories.createCoreRouter('api::report.report', {
+  config: undefined,
+  only: ['find', 'findOne']
+});
