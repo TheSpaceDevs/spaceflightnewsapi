@@ -1,0 +1,12 @@
+{
+  "key": "core_admin_auth",
+  "value": {
+    "providers": {
+      "autoRegister": false,
+      "defaultRole": null
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
