@@ -24,13 +24,13 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::article.article",
-      "inversedBy": "launches"
+      "mappedBy": "launches"
     },
     "blogs": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::blog.blog",
-      "inversedBy": "launches"
+      "mappedBy": "launches"
     }
   }
 }
