@@ -27,6 +27,12 @@
       "relation": "oneToMany",
       "target": "api::blog.blog",
       "mappedBy": "news_site"
+    },
+    "reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::report.report",
+      "mappedBy": "news_site"
     }
   }
 }
