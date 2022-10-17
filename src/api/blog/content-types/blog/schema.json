@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()!@:%_\\+.~#?&\\/\\/=]*)"
+    },
+    "imageUrl": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()!@:%_\\+.~#?&\\/\\/=]*)"
+    },
+    "summary": {
+      "type": "richtext"
+    },
+    "published": {
+      "type": "datetime",
+      "required": true
+    },
+    "news_site": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::news-site.news-site",
+      "inversedBy": "blogs"
+    },
+    "launches": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::launch.launch",
+      "inversedBy": "blogs"
+    },
+    "events": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::event.event",
+      "inversedBy": "blogs"
+    }
+  }
+}
