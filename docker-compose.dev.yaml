@@ -16,6 +16,10 @@ services:
       - API_TOKEN_SALT=tobemodified
       - ADMIN_JWT_SECRET=tobemodified
       - JWT_SECRET=tobemodified
+      - DATABASE_HOST=db
+      - DATABASE_NAME=spaceflightnewsapi-db
+      - DATABASE_USERNAME=spaceflightnewsapi-db
+      - DATABASE_PASSWORD=Welkom123
     volumes:
       - ./config:/app/config
       - ./src:/app/src
