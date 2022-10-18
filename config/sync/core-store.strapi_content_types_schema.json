@@ -1714,11 +1714,11 @@
           "type": "string",
           "required": true,
           "unique": true,
-          "regex": "https?:\\\\/\\\\/(www\\\\.)?[-a-zA-Z0-9@:%._\\\\+~#=]{1,256}\\\\.[a-zA-Z0-9()]{1,6}\\\\b([-a-zA-Z0-9()!@:%_\\\\+.~#?&\\\\/\\\\/=]*)"
+          "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
         },
         "imageUrl": {
           "type": "string",
-          "regex": "https?:\\\\/\\\\/(www\\\\.)?[-a-zA-Z0-9@:%._\\\\+~#=]{1,256}\\\\.[a-zA-Z0-9()]{1,6}\\\\b([-a-zA-Z0-9()!@:%_\\\\+.~#?&\\\\/\\\\/=]*)",
+          "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)",
           "required": true,
           "unique": true
         },
@@ -1801,11 +1801,11 @@
             "type": "string",
             "required": true,
             "unique": true,
-            "regex": "https?:\\\\/\\\\/(www\\\\.)?[-a-zA-Z0-9@:%._\\\\+~#=]{1,256}\\\\.[a-zA-Z0-9()]{1,6}\\\\b([-a-zA-Z0-9()!@:%_\\\\+.~#?&\\\\/\\\\/=]*)"
+            "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
           },
           "imageUrl": {
             "type": "string",
-            "regex": "https?:\\\\/\\\\/(www\\\\.)?[-a-zA-Z0-9@:%._\\\\+~#=]{1,256}\\\\.[a-zA-Z0-9()]{1,6}\\\\b([-a-zA-Z0-9()!@:%_\\\\+.~#?&\\\\/\\\\/=]*)",
+            "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)",
             "required": true,
             "unique": true
           },
@@ -1870,13 +1870,13 @@
           "type": "string",
           "required": true,
           "unique": true,
-          "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()!@:%_\\+.~#?&\\/\\/=]*)"
+          "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
         },
         "imageUrl": {
           "type": "string",
           "required": true,
           "unique": true,
-          "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()!@:%_\\+.~#?&\\/\\/=]*)"
+          "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
         },
         "summary": {
           "type": "richtext"
@@ -1951,13 +1951,13 @@
             "type": "string",
             "required": true,
             "unique": true,
-            "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()!@:%_\\+.~#?&\\/\\/=]*)"
+            "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
           },
           "imageUrl": {
             "type": "string",
             "required": true,
             "unique": true,
-            "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()!@:%_\\+.~#?&\\/\\/=]*)"
+            "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
           },
           "summary": {
             "type": "richtext"
@@ -2022,13 +2022,13 @@
           "type": "relation",
           "relation": "manyToMany",
           "target": "api::article.article",
-          "inversedBy": "events"
+          "mappedBy": "events"
         },
         "blogs": {
           "type": "relation",
           "relation": "manyToMany",
           "target": "api::blog.blog",
-          "inversedBy": "events"
+          "mappedBy": "events"
         },
         "createdAt": {
           "type": "datetime"
@@ -2082,13 +2082,13 @@
             "type": "relation",
             "relation": "manyToMany",
             "target": "api::article.article",
-            "inversedBy": "events"
+            "mappedBy": "events"
           },
           "blogs": {
             "type": "relation",
             "relation": "manyToMany",
             "target": "api::blog.blog",
-            "inversedBy": "events"
+            "mappedBy": "events"
           }
         },
         "kind": "collectionType"
@@ -2128,13 +2128,13 @@
           "type": "relation",
           "relation": "manyToMany",
           "target": "api::article.article",
-          "inversedBy": "launches"
+          "mappedBy": "launches"
         },
         "blogs": {
           "type": "relation",
           "relation": "manyToMany",
           "target": "api::blog.blog",
-          "inversedBy": "launches"
+          "mappedBy": "launches"
         },
         "createdAt": {
           "type": "datetime"
@@ -2188,13 +2188,13 @@
             "type": "relation",
             "relation": "manyToMany",
             "target": "api::article.article",
-            "inversedBy": "launches"
+            "mappedBy": "launches"
           },
           "blogs": {
             "type": "relation",
             "relation": "manyToMany",
             "target": "api::blog.blog",
-            "inversedBy": "launches"
+            "mappedBy": "launches"
           }
         },
         "kind": "collectionType"
@@ -2342,7 +2342,7 @@
         },
         "url": {
           "type": "string",
-          "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()!@:%_\\+.~#?&\\/\\/=]*)",
+          "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)",
           "required": true,
           "unique": true
         },
@@ -2408,7 +2408,7 @@
           },
           "url": {
             "type": "string",
-            "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()!@:%_\\+.~#?&\\/\\/=]*)",
+            "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)",
             "required": true,
             "unique": true
           },
