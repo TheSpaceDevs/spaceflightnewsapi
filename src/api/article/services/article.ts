@@ -2,16 +2,13 @@
  * article service
  */
 
-import { factories } from '@strapi/strapi';
+import { factories, Strapi } from '@strapi/strapi';
 
 // @ts-ignore
-export default factories.createCoreService('api::article.article', ({ strapi }) => ({
+export default factories.createCoreService('api::article.article', ({ strapi }: { strapi: Strapi }) => ({
   async find(params) {
     params = { ...params, populate: ['launches', 'events', 'news_site'] }
 
-    const { results } = await super.find(params);
-    console.log(results)
-
-    return results;
+    return super.find(params);
   }
 }));
