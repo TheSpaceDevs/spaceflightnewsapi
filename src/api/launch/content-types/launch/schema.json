@@ -4,7 +4,8 @@
   "info": {
     "singularName": "launch",
     "pluralName": "launches",
-    "displayName": "Launch"
+    "displayName": "Launch",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -31,6 +32,12 @@
       "relation": "manyToMany",
       "target": "api::blog.blog",
       "mappedBy": "launches"
+    },
+    "provider": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::provider.provider",
+      "inversedBy": "launches"
     }
   }
 }
