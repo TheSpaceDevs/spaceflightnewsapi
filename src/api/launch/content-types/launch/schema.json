@@ -37,7 +37,8 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::provider.provider",
-      "inversedBy": "launches"
+      "inversedBy": "launches",
+      "required": true
     }
   }
 }

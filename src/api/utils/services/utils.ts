@@ -3,7 +3,7 @@
  */
 
 export default () => ({
-  articleSerializer(item) {
+  articleSerializer(item) { 
     const sanitizedItem = {
       id: item.id,
       title: item.title,
@@ -22,7 +22,7 @@ export default () => ({
       sanitizedItem.launches = item.launches.map(launch => {
         return {
           id: launch.launchId,
-          provider: launch.provider.name
+          provider: launch.name
         }
       })
     }
@@ -31,7 +31,7 @@ export default () => ({
       sanitizedItem.events = item.events.map(event => {
         return {
           id: event.eventId,
-          provider: event.provider.name
+          provider: event.name
         }
       })
     }
