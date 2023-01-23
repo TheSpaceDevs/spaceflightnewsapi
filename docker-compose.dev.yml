@@ -1,0 +1,93 @@
+version: "3"
+
+volumes:
+  database:
+  rabbitmq:
+
+services:
+  app:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=${DEBUG}
+      - SECRET_KEY=${SECRET_KEY}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_HOST=${DB_HOST}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_PORT=${DB_PORT}
+      - URL_SCHEME=${URL_SCHEME}
+      - ALLOWED_HOSTS=${ALLOWED_HOSTS}
+      - LL_URL=${LL_URL}
+    depends_on:
+      - database
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq:/var/lib/rabbitmq/
+
+  database:
+    image: postgres:15-alpine
+    volumes:
+      - database:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+
+  beat:
+    build: .
+    command: celery -A snapy beat -l INFO
+    volumes:
+      - .:/code
+    environment:
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_HOST=${DB_HOST}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_PORT=${DB_PORT}
+    depends_on:
+      - app
+      - rabbitmq
+      - database
+
+
+  worker-1:
+    build: .
+    command: celery -A snapy worker -l INFO
+    volumes:
+      - .:/code
+    environment:
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_HOST=${DB_HOST}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_PORT=${DB_PORT}
+      - SECRET_KEY=${SECRET_KEY}
+      - LL_URL=${LL_URL}
+    depends_on:
+      - app
+      - rabbitmq
+      - database
+
+
+  flower:
+    build: .
+    command: celery -A snapy flower -l INFO
+    volumes:
+      - .:/code
+    ports:
+      - "5555:5555"
+    depends_on:
+      - app
+      - rabbitmq
+      - beat
+      - worker-1

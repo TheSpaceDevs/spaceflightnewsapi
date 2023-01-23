@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "snapy"
+version = "0.1.0"
+description = ""
+authors = ["Derk Weijers <derk@weijers.xyz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.4"
+djangorestframework = "^3.14.0"
+markdown = "^3.4.1"
+django-filter = "^22.1"
+pyyaml = "^6.0"
+uritemplate = "^4.1.1"
+celery = "^5.2.7"
+httpx = "^0.23.1"
+django-celery-beat = "^2.4.0"
+pydantic = "^1.10.2"
+psycopg2 = "^2.9.5"
+flower = "^1.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+django-stubs = "^1.13.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+plugins = ["mypy_django_plugin.main"]
+
+[tool.django-stubs]
+django_settings_module = "snapy.settings"

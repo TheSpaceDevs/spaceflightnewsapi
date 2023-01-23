@@ -26,6 +26,10 @@ SNAPI 2 sets the stage for new features to come. 2.0 focuses on bringing the exi
 In the Spring of 2021, Strapi announced that they would retire support for MongoDB. Since SNAPI was using MongoDB as the database, this had quite a big impact.
 Version 3 of the API is exactly the same as version 2 (in terms of the response), except the ID's. These changed from ObjectID's (strings) to integers.
 
+## Version 4
+In 2023 SNAPI V3 launched, completely re-written in Python (Django) for various reasons.
+Using proven libraries, this version is focussed on long-term stability and maintainability.
+
 ## Launch Library 2 integration
 
 Starting from version 2, we now have Launch Library 2 integration. This way you can easily get news related to a specific launch.
@@ -56,6 +60,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - National Space Society
 
 ## Changelog
+# V4.0.0-alpha
+
+- Rewritten in Python and Django.
+
 # V3.4.0
 
 - Package updates
