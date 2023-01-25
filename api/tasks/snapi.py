@@ -7,7 +7,8 @@ from typing import List
 import httpx
 from celery import shared_task
 
-from api.models import Article as ArticleModel, NewsSite, Launch, Event
+from api.models import Article as ArticleModel
+from api.models import Event, Launch, NewsSite
 from api.types import Article
 
 
@@ -21,7 +22,9 @@ def migrate_articles():
 
     # We add 1 since range is pages - 1 by default.
     for page in range(1, pages + 1):
-        response = httpx.get(f"https://api.spaceflightnewsapi.net/v3/articles?_limit={limit}&_start={offset}").json()
+        response = httpx.get(
+            f"https://api.spaceflightnewsapi.net/v3/articles?_limit={limit}&_start={offset}"
+        ).json()
 
         for article in response:
             process_articles.delay(article)

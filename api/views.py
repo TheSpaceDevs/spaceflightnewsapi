@@ -1,6 +1,6 @@
 from rest_framework import viewsets
 
-from api import serializers, models
+from api import models, serializers
 
 
 # Create your views here.

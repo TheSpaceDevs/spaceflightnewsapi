@@ -2,7 +2,8 @@ import httpx
 from celery import shared_task
 from django.conf import settings
 
-from api.models import Provider, Event as EventModel
+from api.models import Event as EventModel
+from api.models import Provider
 from api.types import Event
 
 
@@ -28,7 +29,5 @@ def process_event(data):
     event = Event(**data)
 
     EventModel.objects.update_or_create(
-        name=event.name,
-        event_id=event.id,
-        provider=provider
+        name=event.name, event_id=event.id, provider=provider
     )

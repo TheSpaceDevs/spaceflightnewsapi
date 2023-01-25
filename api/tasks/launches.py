@@ -2,7 +2,8 @@ import httpx
 from celery import shared_task
 from django.conf import settings
 
-from api.models import Launch as LaunchModel, Provider
+from api.models import Launch as LaunchModel
+from api.models import Provider
 from api.types import Launch
 
 
@@ -28,7 +29,5 @@ def process_launch(data):
     launch = Launch(**data)
 
     LaunchModel.objects.update_or_create(
-        name=launch.name,
-        launch_id=launch.id,
-        provider=provider
+        name=launch.name, launch_id=launch.id, provider=provider
     )

@@ -2,7 +2,7 @@
 Types to support the migration of old content into this Django project.
 """
 from datetime import datetime
-from typing import List, Any
+from typing import Any, List
 from uuid import UUID
 
 from pydantic import BaseModel

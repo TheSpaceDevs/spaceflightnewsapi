@@ -1,3 +1,3 @@
-from .launches import Launch
 from .events import Event
+from .launches import Launch
 from .snapi import Article

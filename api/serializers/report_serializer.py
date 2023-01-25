@@ -8,4 +8,13 @@ class ReportSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Blog
-        fields = ["id", "title", "url", "image_url", "news_site", "summary", "published_at", "updated_at"]
+        fields = [
+            "id",
+            "title",
+            "url",
+            "image_url",
+            "news_site",
+            "summary",
+            "published_at",
+            "updated_at",
+        ]
