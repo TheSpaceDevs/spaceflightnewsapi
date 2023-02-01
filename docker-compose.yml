@@ -6,7 +6,7 @@ volumes:
 
 services:
   app:
-    image: ironrain:snapy
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
     environment:
       - DEBUG=${DEBUG}
       - SECRET_KEY=${SECRET_KEY}
@@ -31,7 +31,7 @@ services:
       - POSTGRES_PASSWORD=${DB_PASSWORD}
 
   beat:
-    build: .
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
     command: celery -A snapy beat -l INFO
     environment:
       - DB_NAME=${DB_NAME}
@@ -41,12 +41,11 @@ services:
       - DB_PORT=${DB_PORT}
     depends_on:
       - app
-      - rabbitmq
       - database
 
 
   worker-1:
-    build: .
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
     command: celery -A snapy worker -l INFO
     environment:
       - DB_NAME=${DB_NAME}
@@ -58,5 +57,4 @@ services:
       - LL_URL=${LL_URL}
     depends_on:
       - app
-      - rabbitmq
       - database
