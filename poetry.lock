@@ -301,6 +301,21 @@ python-crontab = ">=2.3.4"
 tzdata = "*"
 
 [[package]]
+name = "django-celery-results"
+version = "2.4.0"
+description = "Celery result backends for Django."
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "django_celery_results-2.4.0-py3-none-any.whl", hash = "sha256:be91307c02fbbf0dda21993c3001c60edb74595444ccd6ad696552fe3689e85b"},
+    {file = "django_celery_results-2.4.0.tar.gz", hash = "sha256:75aa51970db5691cbf242c6a0ff50c8cdf419e265cd0e9b772335d06436c4b99"},
+]
+
+[package.dependencies]
+celery = ">=5.2.3,<6.0"
+
+[[package]]
 name = "django-cors-headers"
 version = "3.13.0"
 description = "django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)."
@@ -1129,4 +1144,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "c1a28d36d9f0410b9f29152a936fdce3e8a841ae0b883b2f25aa744d6fc47ff8"
+content-hash = "1688d9a450fd0ea72fb4aee816456772d5c8a869a2057d99dfbd7de842cc8bc2"

@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "django_filters",
     "corsheaders",
     "drf_spectacular",
+    "django_celery_results",
 ]
 
 MIDDLEWARE = [
@@ -150,7 +151,9 @@ SPECTACULAR_SETTINGS = {
 # Celery Configuration Options
 CELERY_TIMEZONE = "Europe/Amsterdam"
 CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"
-CELERY_BROKER_URL = "rabbitmq"
+CELERY_BROKER_URL = os.getenv("CELERY_BROKER_URL")
+CELERY_RESULT_BACKEND = "django-db"
+CELERY_CACHE_BACKEND = "django-cache"
 
 # LL Settings
 LL_URL = os.getenv("LL_URL")
