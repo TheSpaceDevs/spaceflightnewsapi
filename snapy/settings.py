@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "django_celery_beat",
     "django_filters",
     "corsheaders",
+    "drf_spectacular",
 ]
 
 MIDDLEWARE = [
@@ -135,6 +136,15 @@ REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
     "PAGE_SIZE": 10,
     "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Spaceflight News API",
+    "DESCRIPTION": "The Most Complete Spaceflight Related News API 🚀",
+    "VERSION": VERSION,
+    "SERVE_INCLUDE_SCHEMA": True,
+    "CONTACT": {"email": "derk@spaceflightnewsapi.net"},
 }
 
 # Celery Configuration Options
