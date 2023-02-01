@@ -1,4 +1,5 @@
 FROM python:3.11
+LABEL org.opencontainers.image.source https://github.com/TheSpaceDevs/spaceflightnewsapi
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 WORKDIR /code

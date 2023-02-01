@@ -1,0 +1,62 @@
+---
+version: "3"
+
+volumes:
+  database:
+
+services:
+  app:
+    image: ironrain:snapy
+    environment:
+      - DEBUG=${DEBUG}
+      - SECRET_KEY=${SECRET_KEY}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_HOST=${DB_HOST}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_PORT=${DB_PORT}
+      - URL_SCHEME=${URL_SCHEME}
+      - ALLOWED_HOSTS=${ALLOWED_HOSTS}
+      - LL_URL=${LL_URL}
+    depends_on:
+      - database
+
+  database:
+    image: postgres:15-alpine
+    volumes:
+      - database:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+
+  beat:
+    build: .
+    command: celery -A snapy beat -l INFO
+    environment:
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_HOST=${DB_HOST}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_PORT=${DB_PORT}
+    depends_on:
+      - app
+      - rabbitmq
+      - database
+
+
+  worker-1:
+    build: .
+    command: celery -A snapy worker -l INFO
+    environment:
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_HOST=${DB_HOST}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_PORT=${DB_PORT}
+      - SECRET_KEY=${SECRET_KEY}
+      - LL_URL=${LL_URL}
+    depends_on:
+      - app
+      - rabbitmq
+      - database
