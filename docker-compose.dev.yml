@@ -9,7 +9,9 @@ services:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
-      - .:/code
+      - ./api:/code/api
+      - ./snapy:/code/snapy
+      - ./manage.py:/code/manage.py
     ports:
       - "8000:8000"
     environment:
@@ -47,7 +49,9 @@ services:
     build: .
     command: celery -A snapy beat -l INFO
     volumes:
-      - .:/code
+      - ./api:/code/api
+      - ./snapy:/code/snapy
+      - ./manage.py:/code/manage.py
     environment:
       - DB_NAME=${DB_NAME}
       - DB_USER=${DB_USER}
@@ -64,7 +68,9 @@ services:
     build: .
     command: celery -A snapy worker -l INFO
     volumes:
-      - .:/code
+      - ./api:/code/api
+      - ./snapy:/code/snapy
+      - ./manage.py:/code/manage.py
     environment:
       - DB_NAME=${DB_NAME}
       - DB_USER=${DB_USER}
@@ -77,17 +83,3 @@ services:
       - app
       - rabbitmq
       - database
-
-
-  flower:
-    build: .
-    command: celery -A snapy flower -l INFO
-    volumes:
-      - .:/code
-    ports:
-      - "5555:5555"
-    depends_on:
-      - app
-      - rabbitmq
-      - beat
-      - worker-1
