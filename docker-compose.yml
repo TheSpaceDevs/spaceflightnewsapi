@@ -4,9 +4,20 @@ version: "3"
 volumes:
   database:
 
+networks:
+  snapy:
+  nginx-proxy-manager_default:
+    external: true
+  mq:
+    external: true
+
 services:
   app:
     image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
+    command: gunicorn snapy.wsgi:application --bind 0.0.0.0:8000
+    networks:
+      - snapy
+      - nginx-proxy-manager_default
     environment:
       - DEBUG=${DEBUG}
       - SECRET_KEY=${SECRET_KEY}
@@ -18,11 +29,14 @@ services:
       - URL_SCHEME=${URL_SCHEME}
       - ALLOWED_HOSTS=${ALLOWED_HOSTS}
       - LL_URL=${LL_URL}
+      - CELERY_BROKER_URL=${CELERY_BROKER_URL}
     depends_on:
       - database
 
   database:
     image: postgres:15-alpine
+    networks:
+      - snapy
     volumes:
       - database:/var/lib/postgresql/data
     environment:
@@ -33,20 +47,27 @@ services:
   beat:
     image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
     command: celery -A snapy beat -l INFO
+    networks:
+      - mq
+      - snapy
     environment:
       - DB_NAME=${DB_NAME}
       - DB_USER=${DB_USER}
       - DB_HOST=${DB_HOST}
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_PORT=${DB_PORT}
+      - CELERY_BROKER_URL=${CELERY_BROKER_URL}
     depends_on:
       - app
       - database
 
 
-  worker-1:
+  worker:
     image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
     command: celery -A snapy worker -l INFO
+    networks:
+      - mq
+      - snapy
     environment:
       - DB_NAME=${DB_NAME}
       - DB_USER=${DB_USER}
@@ -55,6 +76,7 @@ services:
       - DB_PORT=${DB_PORT}
       - SECRET_KEY=${SECRET_KEY}
       - LL_URL=${LL_URL}
+      - CELERY_BROKER_URL=${CELERY_BROKER_URL}
     depends_on:
       - app
       - database
