@@ -1,8 +1,6 @@
 from django_filters import rest_framework as filters
-from drf_spectacular.utils import extend_schema
-from rest_framework import viewsets
 
-from api import models, serializers
+from api import models
 
 
 class DocsFilter(filters.FilterSet):
@@ -40,21 +38,6 @@ class DocsFilter(filters.FilterSet):
     )
 
 
-# Create your views here.
-@extend_schema(tags=["articles"])
-class ArticleViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = models.Article.objects.all()
-    serializer_class = serializers.ArticleSerializer
-    filterset_class = DocsFilter
-
-
-@extend_schema(tags=["blogs"])
-class BlogViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = models.Blog.objects.all()
-    serializer_class = serializers.BlogSerializer
-    filterset_class = DocsFilter
-
-
 class ReportsFilters(filters.FilterSet):
     date = filters.CharFilter(
         field_name="published_at",
@@ -66,10 +49,3 @@ class ReportsFilters(filters.FilterSet):
         lookup_expr="icontains",
         label="Search for all reports with a specific phrase in the summary.",
     )
-
-
-@extend_schema(tags=["reports"])
-class ReportViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = models.Report.objects.all()
-    serializer_class = serializers.ReportSerializer
-    filterset_class = ReportsFilters
