@@ -64,7 +64,7 @@ services:
       - database
 
 
-  worker-1:
+  worker:
     build: .
     command: celery -A snapy worker -l INFO
     volumes:
