@@ -1,4 +1,5 @@
 from django_filters import rest_framework as filters
+from drf_spectacular.utils import extend_schema
 from rest_framework import viewsets
 
 from api import models, serializers
@@ -40,12 +41,14 @@ class DocsFilter(filters.FilterSet):
 
 
 # Create your views here.
+@extend_schema(tags=["articles"])
 class ArticleViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = models.Article.objects.all()
     serializer_class = serializers.ArticleSerializer
     filterset_class = DocsFilter
 
 
+@extend_schema(tags=["blogs"])
 class BlogViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = models.Blog.objects.all()
     serializer_class = serializers.BlogSerializer
@@ -65,6 +68,7 @@ class ReportsFilters(filters.FilterSet):
     )
 
 
+@extend_schema(tags=["reports"])
 class ReportViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = models.Report.objects.all()
     serializer_class = serializers.ReportSerializer

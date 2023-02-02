@@ -21,17 +21,17 @@ from rest_framework import routers
 from api import views
 
 router = routers.DefaultRouter()
-router.register(r"articles", views.ArticleViewSet)
-router.register(r"blogs", views.BlogViewSet)
-router.register(r"reports", views.ReportViewSet)
+router.register(r"articles", views.ArticleViewSet, basename="articles")
+router.register(r"blogs", views.BlogViewSet, basename="blogs")
+router.register(r"reports", views.ReportViewSet, basename="reports")
 
 urlpatterns = [
-    path("", include(router.urls)),
-    path("schema/", SpectacularAPIView.as_view(), name="schema"),
+    path("v4/", include(router.urls)),
+    path("v4/schema/", SpectacularAPIView.as_view(), name="schema"),
     path(
-        "documentation/",
+        "v4/documentation/",
         SpectacularSwaggerView.as_view(url_name="schema"),
         name="swagger-ui",
     ),
-    path("admin/", admin.site.urls),
+    path("v4/admin/", admin.site.urls),
 ]
