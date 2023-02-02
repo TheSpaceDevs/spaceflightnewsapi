@@ -19,7 +19,6 @@ services:
       - snapy
       - nginx-proxy-manager_default
     environment:
-      - DEBUG=${DEBUG}
       - SECRET_KEY=${SECRET_KEY}
       - DB_NAME=${DB_NAME}
       - DB_USER=${DB_USER}
