@@ -5,7 +5,6 @@ from api import models, serializers
 from api.filters import DocsFilter
 
 
-@extend_schema(tags=["blogs"])
 class BlogViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = models.Blog.objects.all()
     serializer_class = serializers.BlogSerializer

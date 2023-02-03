@@ -138,6 +138,7 @@ REST_FRAMEWORK = {
     "PAGE_SIZE": 10,
     "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    "DEFAULT_VERSIONING_CLASS": "rest_framework.versioning.NamespaceVersioning",
 }
 
 SPECTACULAR_SETTINGS = {
@@ -146,6 +147,7 @@ SPECTACULAR_SETTINGS = {
     "VERSION": VERSION,
     "SERVE_INCLUDE_SCHEMA": True,
     "CONTACT": {"email": "derk@spaceflightnewsapi.net"},
+    "SCHEMA_PATH_PREFIX": "/v4",
 }
 
 # Celery Configuration Options
