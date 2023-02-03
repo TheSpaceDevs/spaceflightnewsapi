@@ -20,3 +20,4 @@ WORKDIR /code/
 COPY --from=builder /code /code
 COPY . /code
 ENV PATH="/code/.venv/bin:$PATH"
+EXPOSE 8000
