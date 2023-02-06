@@ -18,7 +18,7 @@ services:
       - snapy
       - nginx-proxy-manager_default
     volumes:
-      - /srv/snapi-static:/code/static
+      - ./snapi-static:/code/static
     environment:
       - SECRET_KEY=${SECRET_KEY}
       - DB_NAME=${DB_NAME}
