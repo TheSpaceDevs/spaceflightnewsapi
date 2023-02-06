@@ -3,6 +3,7 @@ version: "3"
 
 volumes:
   database:
+  static:
 
 networks:
   snapy:
@@ -14,10 +15,11 @@ networks:
 services:
   app:
     image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
-    command: gunicorn snapy.wsgi:application --bind 0.0.0.0:8000
     networks:
       - snapy
       - nginx-proxy-manager_default
+    volumes:
+      - static:/code/static
     environment:
       - SECRET_KEY=${SECRET_KEY}
       - DB_NAME=${DB_NAME}
@@ -79,3 +81,6 @@ services:
     depends_on:
       - app
       - database
+
+  static-proxy:
+    image: nginx:latest
