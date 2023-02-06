@@ -3,7 +3,6 @@ version: "3"
 
 volumes:
   database:
-  static:
 
 networks:
   snapy:
