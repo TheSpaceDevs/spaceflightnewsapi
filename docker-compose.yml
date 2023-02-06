@@ -21,7 +21,7 @@ services:
       - snapy
       - nginx-proxy-manager_default
     volumes:
-      - ./snapi-static:/code/static
+      - /srv/static/spaceflightnewsapi:/code/static
     environment:
       - SECRET_KEY=${SECRET_KEY}
       - DB_NAME=${DB_NAME}
