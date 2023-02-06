@@ -20,5 +20,4 @@ WORKDIR /code/
 COPY --from=builder /code /code
 COPY . /code
 ENV PATH="/code/.venv/bin:$PATH"
-EXPOSE 8000
 ENTRYPOINT ["sh", "scripts/entrypoint.sh"]
