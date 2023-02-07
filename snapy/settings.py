@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", False)
 
-ALLOWED_HOSTS = [os.getenv("ALLOWED_HOSTS", "")]
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
@@ -134,7 +134,6 @@ if USE_MINIO:
     MINIO_USE_HTTPS = True
     MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY")
     MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY")
-    MINIO_CONSISTENCY_CHECK_ON_START = True
     MINIO_PUBLIC_BUCKETS = [os.getenv("MINIO_BUCKET_NAME")]
     MINIO_STATIC_FILES_BUCKET = os.getenv("MINIO_BUCKET_NAME")
     MINIO_BUCKET_CHECK_ON_SAVE = True
