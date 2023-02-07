@@ -104,8 +104,7 @@ def migrate_news_sites():
     response = httpx.get("https://api.spaceflightnewsapi.net/v3/info").json()
 
     for site in response["newsSites"]:
-        new_site_entry = NewsSite(name=site)
-        new_site_entry.save()
+        NewsSite.objects.update_or_create(name=site)
 
 
 # Task to migrate reports. It's not that much, so we do everything in a single task.

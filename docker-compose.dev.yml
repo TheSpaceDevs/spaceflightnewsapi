@@ -22,9 +22,8 @@ services:
       - DB_HOST=${DB_HOST}
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_PORT=${DB_PORT}
-      - URL_SCHEME=${URL_SCHEME}
-      - ALLOWED_HOSTS=${ALLOWED_HOSTS}
       - LL_URL=${LL_URL}
+      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
       - USE_MINIO=${USE_MINIO}
       - MINIO_ACCESS_KEY=${MINIO_ACCESS_KEY}
       - MINIO_SECRET_KEY=${MINIO_SECRET_KEY}
@@ -63,6 +62,7 @@ services:
       - DB_HOST=${DB_HOST}
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_PORT=${DB_PORT}
+      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
     depends_on:
       - app
       - rabbitmq
@@ -84,6 +84,7 @@ services:
       - DB_PORT=${DB_PORT}
       - SECRET_KEY=${SECRET_KEY}
       - LL_URL=${LL_URL}
+      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
     depends_on:
       - app
       - rabbitmq
