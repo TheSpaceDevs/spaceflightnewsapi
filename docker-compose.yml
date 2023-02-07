@@ -32,8 +32,7 @@ services:
       - DB_HOST=${DB_HOST}
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_PORT=${DB_PORT}
-      - URL_SCHEME=${URL_SCHEME}
-      - ALLOWED_HOSTS=${ALLOWED_HOSTS}
+      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
       - LL_URL=${LL_URL}
       - USE_MINIO=${USE_MINIO}
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
@@ -68,6 +67,7 @@ services:
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_PORT=${DB_PORT}
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
+      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
     depends_on:
       - app
       - database
@@ -88,6 +88,7 @@ services:
       - SECRET_KEY=${SECRET_KEY}
       - LL_URL=${LL_URL}
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
+      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
     depends_on:
       - app
       - database
