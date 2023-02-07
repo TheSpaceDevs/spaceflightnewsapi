@@ -25,6 +25,11 @@ services:
       - URL_SCHEME=${URL_SCHEME}
       - ALLOWED_HOSTS=${ALLOWED_HOSTS}
       - LL_URL=${LL_URL}
+      - USE_MINIO=${USE_MINIO}
+      - MINIO_ACCESS_KEY=${MINIO_ACCESS_KEY}
+      - MINIO_SECRET_KEY=${MINIO_SECRET_KEY}
+      - MINIO_BUCKET_NAME=${MINIO_BUCKET_NAME}
+      - MINIO_ENDPOINT=${MINIO_ENDPOINT}
     depends_on:
       - database
 

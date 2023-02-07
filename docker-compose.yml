@@ -15,11 +15,11 @@ services:
   app:
     image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
     command:
-       - /bin/sh
-       - -c
-       - |
-         python manage.py collectstatic --no-input &&
-         gunicorn snapy.wsgi:application --bind 0.0.0.0:8000
+      - /bin/sh
+      - -c
+      - |
+        python manage.py collectstatic --no-input &&
+        gunicorn snapy.wsgi:application --bind 0.0.0.0:8000
     networks:
       - snapy
       - nginx-proxy-manager_default
@@ -35,7 +35,12 @@ services:
       - URL_SCHEME=${URL_SCHEME}
       - ALLOWED_HOSTS=${ALLOWED_HOSTS}
       - LL_URL=${LL_URL}
+      - USE_MINIO=${USE_MINIO}
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
+      - MINIO_ACCESS_KEY=${MINIO_ACCESS_KEY}
+      - MINIO_SECRET_KEY=${MINIO_SECRET_KEY}
+      - MINIO_BUCKET_NAME=${MINIO_BUCKET_NAME}
+      - MINIO_ENDPOINT=${MINIO_ENDPOINT}
     depends_on:
       - database
 
