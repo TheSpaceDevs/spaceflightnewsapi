@@ -128,7 +128,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 USE_MINIO = strtobool(os.getenv("USE_MINIO", "False"))
-print(USE_MINIO)
 if USE_MINIO:
     INSTALLED_APPS.append("django_minio_backend")
     MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT")
