@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 import os
+from distutils.util import strtobool
 from pathlib import Path
 
 VERSION = "4.0.0-alpha"
@@ -126,8 +127,23 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = "https://static.weijers.xyz/spaceflightnewsapi/"
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+USE_MINIO = strtobool(os.getenv("USE_MINIO", "False"))
+print(USE_MINIO)
+if USE_MINIO:
+    INSTALLED_APPS.append("django_minio_backend")
+    MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT")
+    MINIO_USE_HTTPS = True
+    MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY")
+    MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY")
+    MINIO_CONSISTENCY_CHECK_ON_START = True
+    MINIO_PUBLIC_BUCKETS = [os.getenv("MINIO_BUCKET_NAME")]
+    MINIO_STATIC_FILES_BUCKET = os.getenv("MINIO_BUCKET_NAME")
+    MINIO_BUCKET_CHECK_ON_SAVE = True
+
+    STATICFILES_STORAGE = "django_minio_backend.models.MinioBackendStatic"
+    STATIC_URL = "https://none/"  # This is required but not used because we use STATICFILES_STORAGE.
+else:
+    STATIC_URL = "static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
