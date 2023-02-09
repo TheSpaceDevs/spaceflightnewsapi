@@ -175,3 +175,4 @@ CELERY_CACHE_BACKEND = "django-cache"
 
 # LL Settings
 LL_URL = os.getenv("LL_URL")
+LL_TOKEN = os.getenv("LL_TOKEN", "")

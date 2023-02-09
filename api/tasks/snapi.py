@@ -13,45 +13,47 @@ from api.models import Event, Launch, NewsSite
 from api.models import Report as ReportModel
 from api.types import Article, Blog, Report
 
+client_options = {"base_url": "https://api.spaceflightnewsapi.net/v3"}
+
 
 @shared_task
 def migrate_articles():
-    count = httpx.get("https://api.spaceflightnewsapi.net/v3/articles/count").json()
+    with httpx.Client(**client_options) as client:
+        count = client.get(url="/articles/count").json()
 
-    limit = 1000
-    pages = math.ceil(count / limit)
-    offset = 0
+        limit = 1000
+        pages = math.ceil(count / limit)
+        offset = 0
 
-    # We add 1 since range is pages - 1 by default.
-    for page in range(1, pages + 1):
-        response = httpx.get(
-            f"https://api.spaceflightnewsapi.net/v3/articles?_limit={limit}&_start={offset}"
-        ).json()
+        # We add 1 since range is pages - 1 by default.
+        for page in range(1, pages + 1):
+            params = {"_limit": limit, "_start": offset}
+            response = client.get(url="/articles", params=params).json()
 
-        for article in response:
-            process_doc.delay(article, "article")
+            for article in response:
+                process_doc.delay(article, "article")
 
-        offset = offset + 1000
+            offset = offset + 1000
 
 
 @shared_task
 def migrate_blogs():
-    count = httpx.get("https://api.spaceflightnewsapi.net/v3/blogs/count").json()
+    with httpx.Client(**client_options) as client:
+        count = client.get(url="/blogs/count").json()
 
-    limit = 1000
-    pages = math.ceil(count / limit)
-    offset = 0
+        limit = 1000
+        pages = math.ceil(count / limit)
+        offset = 0
 
-    # We add 1 since range is pages - 1 by default.
-    for page in range(1, pages + 1):
-        response = httpx.get(
-            f"https://api.spaceflightnewsapi.net/v3/blogs?_limit={limit}&_start={offset}"
-        ).json()
+        # We add 1 since range is pages - 1 by default.
+        for page in range(1, pages + 1):
+            params = {"_limit": limit, "_start": offset}
+            response = client.get(url="/blogs", params=params).json()
 
-        for article in response:
-            process_doc.delay(article, "blog")
+            for article in response:
+                process_doc.delay(article, "blog")
 
-        offset = offset + 1000
+            offset = offset + 1000
 
 
 @shared_task
@@ -101,37 +103,38 @@ def process_doc(data, type):
 
 @shared_task
 def migrate_news_sites():
-    response = httpx.get("https://api.spaceflightnewsapi.net/v3/info").json()
+    with httpx.Client(**client_options) as client:
+        response = client.get(url="/info").json()
 
-    for site in response["newsSites"]:
-        NewsSite.objects.update_or_create(name=site)
+        for site in response["newsSites"]:
+            NewsSite.objects.update_or_create(name=site)
 
 
 # Task to migrate reports. It's not that much, so we do everything in a single task.
 @shared_task
 def migrate_reports():
-    count = httpx.get("https://api.spaceflightnewsapi.net/v3/reports/count").json()
+    with httpx.Client(**client_options) as client:
+        count = client.get(url="/reports/count").json()
 
-    limit = 1000
-    pages = math.ceil(count / limit)
-    offset = 0
+        limit = 1000
+        pages = math.ceil(count / limit)
+        offset = 0
 
-    # We add 1 since range is (pages - 1) by default.
-    for page in range(1, pages + 1):
-        response = httpx.get(
-            f"https://api.spaceflightnewsapi.net/v3/reports?_limit={limit}&_start={offset}"
-        ).json()
+        # We add 1 since range is (pages - 1) by default.
+        for page in range(1, pages + 1):
+            params = {"_limit": limit, "_start": offset}
+            response = client.get(url="/reports", params=params).json()
 
-        for data in response:
-            report = Report(**data)
-            ReportModel.objects.update_or_create(
-                title=report.title,
-                url=report.url,
-                image_url=report.imageUrl,
-                news_site=NewsSite.objects.get(name=report.newsSite),
-                summary=report.summary,
-                published_at=report.publishedAt,
-                updated_at=report.updatedAt,
-            )
+            for data in response:
+                report = Report(**data)
+                ReportModel.objects.update_or_create(
+                    title=report.title,
+                    url=report.url,
+                    image_url=report.imageUrl,
+                    news_site=NewsSite.objects.get(name=report.newsSite),
+                    summary=report.summary,
+                    published_at=report.publishedAt,
+                    updated_at=report.updatedAt,
+                )
 
-        offset = offset + 1000
+            offset = offset + 1000
