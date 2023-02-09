@@ -15,18 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, re_path
-from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 
 urlpatterns = [
     re_path(r"^v4/", include(("api.urls", "api"), namespace="v4")),
-    re_path(
-        r"^v4/schema/", SpectacularAPIView.as_view(api_version="v4"), name="schema"
-    ),
-    re_path(
-        r"^v4/documentation/",
-        SpectacularSwaggerView.as_view(url_name="schema"),
-        name="swagger-ui",
-    ),  # Temp on the v4 path to not conflict with v3.
     re_path(
         r"^v4/admin/", admin.site.urls
     ),  # Temp on the v4 path to not conflict with v3.
