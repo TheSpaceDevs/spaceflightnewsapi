@@ -81,6 +81,7 @@ def process_doc(data, type):
             events.append(result)
 
     processed_doc = orm.objects.update_or_create(
+        id=doc.id,
         title=doc.title,
         url=doc.url,
         image_url=doc.imageUrl,
@@ -128,6 +129,7 @@ def migrate_reports():
             for data in response:
                 report = Report(**data)
                 ReportModel.objects.update_or_create(
+                    id=report.id,
                     title=report.title,
                     url=report.url,
                     image_url=report.imageUrl,
