@@ -49,6 +49,7 @@ class Command(BaseCommand):
                 name="Sync News Sites",
                 task="api.tasks.snapi.migrate_news_sites",
                 enabled=False,
+                one_off=True,
             )
 
             PeriodicTask.objects.get_or_create(
@@ -73,4 +74,4 @@ class Command(BaseCommand):
             )
 
         except Exception as e:
-            raise CommandError("Periodic task initalization failed.", e)
+            raise CommandError("Periodic task initialization failed.", e)
