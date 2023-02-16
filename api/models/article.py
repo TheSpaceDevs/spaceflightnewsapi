@@ -1,5 +1,5 @@
-from .bases import Base
+from api.models.news_item import NewsItem
 
 
-class Article(Base):
+class Article(NewsItem):
     pass

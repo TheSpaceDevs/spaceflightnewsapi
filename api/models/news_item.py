@@ -4,7 +4,7 @@ from api.models.event import Event
 from api.models.launch import Launch
 
 
-class Base(models.Model):
+class NewsItem(models.Model):
     title = models.CharField(max_length=250)
     url = models.URLField()
     image_url = models.URLField()
@@ -20,4 +20,5 @@ class Base(models.Model):
         return self.title
 
     class Meta:
+        abstract = True
         ordering = ["-published_at"]
