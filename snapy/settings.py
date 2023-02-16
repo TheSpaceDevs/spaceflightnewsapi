@@ -167,6 +167,7 @@ SPECTACULAR_SETTINGS = {
 }
 
 # Celery Configuration Options
+CELERY_TIME_ZONE = TIME_ZONE
 CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"
 CELERY_BROKER_URL = os.getenv("CELERY_BROKER_URL")
 CELERY_RESULT_BACKEND = "django-db"
