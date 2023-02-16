@@ -1,4 +1,4 @@
-from api.models.news_item import NewsItem
+from api.models.abc import NewsItem
 
 
 class Blog(NewsItem):
