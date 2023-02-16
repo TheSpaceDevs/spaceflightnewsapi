@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django.db.models import Count
 
 from api.models import Article, Blog, Event, Launch, NewsSite, Provider, Report
 
@@ -8,10 +9,33 @@ from api.models import Article, Blog, Event, Launch, NewsSite, Provider, Report
 @admin.register(Article)
 @admin.register(Blog)
 class ArticleAdmin(admin.ModelAdmin):
-    list_display = ("title", "news_site", "published_at", "featured")
+    list_display = (
+        "title",
+        "news_site",
+        "published_at",
+        "featured",
+        "assigned_launches",
+        "assigned_events",
+    )
+    list_filter = ("published_at", "featured", "news_site")
     filter_horizontal = ["launches", "events"]
     search_fields = ["title"]
     ordering = ("-published_at",)
+
+    @staticmethod
+    def assigned_launches(obj):
+        return obj.launch_count
+
+    @staticmethod
+    def assigned_events(obj):
+        return obj.event_count
+
+    def get_queryset(self, request):
+        queryset = super().get_queryset(request)
+        queryset = queryset.annotate(
+            launch_count=Count("launches"), event_count=Count("events")
+        )
+        return queryset
 
 
 @admin.register(Report)
