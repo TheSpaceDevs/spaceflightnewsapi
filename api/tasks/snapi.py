@@ -89,12 +89,9 @@ def process_doc(data, type):
         summary=doc.summary,
         published_at=doc.publishedAt,
         updated_at=doc.updatedAt,
+        launches=launches,
+        events=events,
     )
-
-    # Update_or_create returns a tuple with the object and a boolean (indicating whether it's a new object).
-    # We only need the object.
-    processed_doc[0].launches.set(launches)
-    processed_doc[0].events.set(events)
 
     # Featured is not on the Blog type/model, so we add it later to only the articles.
     if type == "article":
