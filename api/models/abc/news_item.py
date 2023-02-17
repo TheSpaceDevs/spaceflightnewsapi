@@ -7,7 +7,7 @@ from api.models.launch import Launch
 class NewsItem(models.Model):
     title = models.CharField(max_length=250)
     url = models.URLField()
-    image_url = models.URLField()
+    image_url = models.URLField(max_length=500)
     news_site = models.ForeignKey("NewsSite", on_delete=models.CASCADE)
     summary = models.TextField()
     published_at = models.DateTimeField()
