@@ -1,0 +1,1 @@
+from .article_v3_serializer import ArticleV3Serializer

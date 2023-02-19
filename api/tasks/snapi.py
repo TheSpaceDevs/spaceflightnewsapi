@@ -4,20 +4,21 @@ Tasks to support the migration of old content into this Django project.
 import math
 from typing import List
 
+import django.db
 import httpx
+import rest_framework.exceptions
 from celery import shared_task
 
-from api.models import Article as ArticleModel
-from api.models import Blog as BlogModel
-from api.models import Event, Launch, NewsSite
+from api.models import Article, Event, Launch, NewsSite
 from api.models import Report as ReportModel
-from api.types import Article, Blog, Report
+from api.serializers.v3 import ArticleV3Serializer
+from api.types import Report
 
 client_options = {"base_url": "https://api.spaceflightnewsapi.net/v3"}
 
 
-@shared_task
-def migrate_articles():
+@shared_task(name="Sync Articles")
+def sync_articles():
     with httpx.Client(**client_options) as client:
         count = client.get(url="/articles/count").json()
 
@@ -30,8 +31,24 @@ def migrate_articles():
             params = {"_limit": limit, "_start": offset}
             response = client.get(url="/articles", params=params).json()
 
+            articles: List[Article] = []
             for article in response:
-                process_doc.delay(article, "article")
+                try:
+                    serializer = ArticleV3Serializer(data=article)
+                    serializer.is_valid(raise_exception=True)
+                    articles.append(serializer.save())
+
+                    Article.objects.bulk_create(articles)
+                except rest_framework.exceptions.ValidationError as e:
+                    print(f"Error with article: {article}", e)
+                except django.db.utils.IntegrityError as e:
+                    print(f"Error with article: {article}", e)
+                except Launch.DoesNotExist as e:
+                    print(f"Error with article: {article}", e)
+                except Event.DoesNotExist as e:
+                    print(f"Error with article: {article}", e)
+                except django.db.utils.DataError as e:
+                    print(f"Error with article: {article}", e)
 
             offset = offset + 1000
 
@@ -54,49 +71,6 @@ def migrate_blogs():
                 process_doc.delay(article, "blog")
 
             offset = offset + 1000
-
-
-@shared_task
-def process_doc(data, type):
-    # We need to check if we're saving an article or blog.
-    if type == "article":
-        doc = Article(**data)
-        orm = ArticleModel
-    elif type == "blog":
-        doc = Blog(**data)
-        orm = BlogModel
-    else:
-        raise Exception("Unknown type")
-
-    launches: List[Launch] = []
-    if len(doc.launches) > 0:
-        for launch in doc.launches:
-            result = Launch.objects.get(launch_id=launch.id)
-            launches.append(result)
-
-    events: List[Event] = []
-    if len(doc.events) > 0:
-        for event in doc.events:
-            result = Event.objects.get(event_id=event.id)
-            events.append(result)
-
-    processed_doc = orm.objects.update_or_create(
-        id=doc.id,
-        title=doc.title,
-        url=doc.url,
-        image_url=doc.imageUrl,
-        news_site=NewsSite.objects.get(name=doc.newsSite),
-        summary=doc.summary,
-        published_at=doc.publishedAt,
-        updated_at=doc.updatedAt,
-        launches=launches,
-        events=events,
-    )
-
-    # Featured is not on the Blog type/model, so we add it later to only the articles.
-    if type == "article":
-        processed_doc[0].featured = doc.featured
-        processed_doc[0].save()
 
 
 @shared_task
