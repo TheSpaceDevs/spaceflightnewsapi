@@ -17,7 +17,7 @@ client_options = {
 }
 
 
-@shared_task
+@shared_task(name="Sync Launches")
 def sync_launches():
     next_url = "/launch/"
 
@@ -44,7 +44,7 @@ def process_launch(data):
     )
 
 
-@shared_task
+@shared_task(name="Sync Events")
 def sync_events():
     next_url = "/event/"
 
