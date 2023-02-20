@@ -1,1 +1,3 @@
 from .article_v3_serializer import ArticleV3Serializer
+from .blog_v3_serializer import BlogV3Serializer
+from .report_v3_serializer import ReportV3Serializer

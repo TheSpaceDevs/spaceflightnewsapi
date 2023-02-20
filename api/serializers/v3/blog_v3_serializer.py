@@ -2,10 +2,10 @@ from typing import List
 
 from rest_framework import serializers
 
-from api.models import Article, Event, Launch, NewsSite
+from api.models import Blog, Event, Launch, NewsSite
 
 
-class ArticleV3Serializer(serializers.Serializer):
+class BlogV3Serializer(serializers.Serializer):
     id = serializers.IntegerField()
     title = serializers.CharField()
     url = serializers.URLField()
@@ -14,7 +14,6 @@ class ArticleV3Serializer(serializers.Serializer):
     summary = serializers.CharField(allow_blank=True)
     publishedAt = serializers.DateTimeField()
     updatedAt = serializers.DateTimeField()
-    featured = serializers.BooleanField()
     launches = serializers.ListField()
     events = serializers.ListField()
 
@@ -29,7 +28,7 @@ class ArticleV3Serializer(serializers.Serializer):
         for event in validated_data["events"]:
             events_list.append(Event.objects.get(event_id=event["id"]))
 
-        article = Article(
+        blog = Blog.objects.create(
             id=validated_data["id"],
             title=validated_data["title"],
             url=validated_data["url"],
@@ -38,12 +37,9 @@ class ArticleV3Serializer(serializers.Serializer):
             summary=validated_data["summary"],
             published_at=validated_data["publishedAt"],
             updated_at=validated_data["updatedAt"],
-            featured=validated_data["featured"],
         )
 
-        article.save()
+        blog.launches.set(launches_list)
+        blog.events.set(events_list)
 
-        article.launches.set(launches_list)
-        article.events.set(events_list)
-
-        return article
+        return blog
