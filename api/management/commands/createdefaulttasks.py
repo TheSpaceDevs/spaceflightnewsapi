@@ -47,7 +47,7 @@ class Command(BaseCommand):
             PeriodicTask.objects.get_or_create(
                 interval=five_minute_schedule,
                 name="Sync News Sites",
-                task="api.tasks.snapi.migrate_news_sites",
+                task="Sync News Sites",
                 enabled=False,
                 one_off=True,
             )
@@ -55,21 +55,21 @@ class Command(BaseCommand):
             PeriodicTask.objects.get_or_create(
                 interval=five_minute_schedule,
                 name="Sync Articles",
-                task="api.tasks.snapi.migrate_articles",
+                task="Sync Articles",
                 enabled=False,
             )
 
             PeriodicTask.objects.get_or_create(
                 interval=five_minute_schedule,
                 name="Sync Blogs",
-                task="api.tasks.snapi.migrate_blogs",
+                task="Sync Blogs",
                 enabled=False,
             )
 
             PeriodicTask.objects.get_or_create(
                 interval=five_minute_schedule,
                 name="Sync Reports",
-                task="api.tasks.snapi.migrate_reports",
+                task="Sync Reports",
                 enabled=False,
             )
 
