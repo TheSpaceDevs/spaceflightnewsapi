@@ -59,7 +59,7 @@ def sync_blogs():
 
                     v3_blog.save()
                 except Exception as e:
-                    print(f"Error ({type(e)}) with article: {blog}", e)
+                    print(f"Error ({type(e)}) with blog: {blog}", e)
 
             offset = offset + 1000
 
