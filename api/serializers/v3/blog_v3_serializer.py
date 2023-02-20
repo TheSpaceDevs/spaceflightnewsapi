@@ -28,7 +28,7 @@ class BlogV3Serializer(serializers.Serializer):
         for event in validated_data["events"]:
             events_list.append(Event.objects.get(event_id=event["id"]))
 
-        blog = Blog.objects.create(
+        blog, _ = Blog.objects.update_or_create(
             id=validated_data["id"],
             title=validated_data["title"],
             url=validated_data["url"],

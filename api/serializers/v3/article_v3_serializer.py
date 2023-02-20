@@ -29,7 +29,7 @@ class ArticleV3Serializer(serializers.Serializer):
         for event in validated_data["events"]:
             events_list.append(Event.objects.get(event_id=event["id"]))
 
-        article = Article(
+        article, _ = Article.objects.update_or_create(
             id=validated_data["id"],
             title=validated_data["title"],
             url=validated_data["url"],
@@ -40,8 +40,6 @@ class ArticleV3Serializer(serializers.Serializer):
             updated_at=validated_data["updatedAt"],
             featured=validated_data["featured"],
         )
-
-        article.save()
 
         article.launches.set(launches_list)
         article.events.set(events_list)
