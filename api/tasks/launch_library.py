@@ -20,52 +20,36 @@ client_options = {
 @shared_task(name="Sync Launches")
 def sync_launches():
     next_url = "/launch/"
+    provider = Provider.objects.get(name="Launch Library 2")
 
     with httpx.Client(**client_options) as client:
         while next_url:
             response = client.get(url=next_url).json()
 
-            for launch in response["results"]:
-                process_launch.delay(launch)
+            for data in response["results"]:
+                launch = Launch(**data)
+                LaunchModel.objects.update_or_create(
+                    launch_id=launch.id,
+                    defaults={"name": launch.name, "provider": provider},
+                )
 
             next_url = response["next"]
-
-
-@shared_task
-def process_launch(data):
-    # Get the Provider object
-    provider = Provider.objects.get(name="Launch Library 2")
-    # Deserialize the received JSON object into a Python object.
-    # This will validate the incoming data.
-    launch = Launch(**data)
-
-    LaunchModel.objects.update_or_create(
-        launch_id=launch.id, defaults={"name": launch.name, "provider": provider}
-    )
 
 
 @shared_task(name="Sync Events")
 def sync_events():
     next_url = "/event/"
+    provider = Provider.objects.get(name="Launch Library 2")
 
     with httpx.Client(**client_options) as client:
         while next_url:
             response = client.get(url=next_url).json()
 
-            for event in response["results"]:
-                process_event.delay(event)
+            for data in response["results"]:
+                event = Event(**data)
+                EventModel.objects.update_or_create(
+                    event_id=event.id,
+                    defaults={"name": event.name, "provider": provider},
+                )
 
             next_url = response["next"]
-
-
-@shared_task
-def process_event(data):
-    # Get the Provider object
-    provider = Provider.objects.get(name="Launch Library 2")
-    # Deserialize the received JSON object into a Python object.
-    # This will validate the incoming data.
-    event = Event(**data)
-
-    EventModel.objects.update_or_create(
-        event_id=event.id, defaults={"name": event.name, "provider": provider}
-    )
