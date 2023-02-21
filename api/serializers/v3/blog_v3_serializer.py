@@ -30,13 +30,15 @@ class BlogV3Serializer(serializers.Serializer):
 
         blog, _ = Blog.objects.update_or_create(
             id=validated_data["id"],
-            title=validated_data["title"],
-            url=validated_data["url"],
-            image_url=validated_data["imageUrl"],
-            news_site=news_site,
-            summary=validated_data["summary"],
-            published_at=validated_data["publishedAt"],
-            updated_at=validated_data["updatedAt"],
+            defaults={
+                "title": validated_data["title"],
+                "url": validated_data["url"],
+                "image_url": validated_data["imageUrl"],
+                "news_site": news_site,
+                "summary": validated_data["summary"],
+                "published_at": validated_data["publishedAt"],
+                "updated_at": validated_data["updatedAt"],
+            },
         )
 
         blog.launches.set(launches_list)

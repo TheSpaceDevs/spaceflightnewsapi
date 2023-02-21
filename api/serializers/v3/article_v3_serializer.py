@@ -31,14 +31,16 @@ class ArticleV3Serializer(serializers.Serializer):
 
         article, _ = Article.objects.update_or_create(
             id=validated_data["id"],
-            title=validated_data["title"],
-            url=validated_data["url"],
-            image_url=validated_data["imageUrl"],
-            news_site=news_site,
-            summary=validated_data["summary"],
-            published_at=validated_data["publishedAt"],
-            updated_at=validated_data["updatedAt"],
-            featured=validated_data["featured"],
+            defaults={
+                "title": validated_data["title"],
+                "url": validated_data["url"],
+                "image_url": validated_data["imageUrl"],
+                "news_site": news_site,
+                "summary": validated_data["summary"],
+                "published_at": validated_data["publishedAt"],
+                "updated_at": validated_data["updatedAt"],
+                "featured": validated_data["featured"],
+            },
         )
 
         article.launches.set(launches_list)
