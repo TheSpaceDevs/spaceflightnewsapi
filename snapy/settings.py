@@ -14,7 +14,10 @@ import os
 from distutils.util import strtobool
 from pathlib import Path
 
-VERSION = "4.0.0-alpha"
+import sentry_sdk
+from sentry_sdk.integrations.django import DjangoIntegration
+
+VERSION = "4.0.0-rc"
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,6 +30,14 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", False)
+
+if DEBUG is False:
+    sentry_sdk.init(
+        dsn=os.getenv("SENTRY_DSN"),
+        integrations=[DjangoIntegration()],
+        traces_sample_rate=1.0,
+        send_default_pii=True,
+    )
 
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = [os.getenv("CSRF_TRUSTED_ORIGIN")]

@@ -12,6 +12,17 @@ networks:
     external: true
 
 services:
+  database:
+    image: postgres:15-alpine
+    networks:
+      - snapy
+    volumes:
+      - database:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+
   app:
     image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
     command:
@@ -43,19 +54,9 @@ services:
       - MINIO_SECRET_KEY=${MINIO_SECRET_KEY}
       - MINIO_BUCKET_NAME=${MINIO_BUCKET_NAME}
       - MINIO_ENDPOINT=${MINIO_ENDPOINT}
+      - SENTRY_DSN=${SENTRY_DSN}
     depends_on:
       - database
-
-  database:
-    image: postgres:15-alpine
-    networks:
-      - snapy
-    volumes:
-      - database:/var/lib/postgresql/data
-    environment:
-      - POSTGRES_DB=${DB_NAME}
-      - POSTGRES_USER=${DB_USER}
-      - POSTGRES_PASSWORD=${DB_PASSWORD}
 
   beat:
     image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
@@ -71,8 +72,8 @@ services:
       - DB_PORT=${DB_PORT}
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
       - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
+      - SENTRY_DSN=${SENTRY_DSN}
     depends_on:
-      - app
       - database
 
 
@@ -93,6 +94,6 @@ services:
       - LL_TOKEN=${LL_TOKEN}
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
       - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
+      - SENTRY_DSN=${SENTRY_DSN}
     depends_on:
-      - app
       - database
