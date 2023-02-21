@@ -30,47 +30,59 @@ class Command(BaseCommand):
             # Tasks
             # LL
             PeriodicTask.objects.get_or_create(
-                crontab=ll_launch_cron_schedule,
                 name="Sync Launches",
-                task="api.tasks.ll2.sync_launches",
-                enabled=False,
+                defaults={
+                    "crontab": ll_launch_cron_schedule,
+                    "task": "Sync Launches",
+                    "enabled": False,
+                },
             )
 
             PeriodicTask.objects.get_or_create(
-                crontab=ll_event_cron_schedule,
                 name="Sync Events",
-                task="api.tasks.ll2.sync_events",
-                enabled=False,
+                defaults={
+                    "crontab": ll_event_cron_schedule,
+                    "task": "Sync Events",
+                    "enabled": False,
+                },
             )
 
             # SNAPI V3
             PeriodicTask.objects.get_or_create(
-                interval=five_minute_schedule,
                 name="Sync News Sites",
-                task="Sync News Sites",
-                enabled=False,
-                one_off=True,
+                defaults={
+                    "interval": five_minute_schedule,
+                    "task": "Sync News Sites",
+                    "enabled": False,
+                    "one_off": True,
+                },
             )
 
             PeriodicTask.objects.get_or_create(
-                interval=five_minute_schedule,
                 name="Sync Articles",
-                task="Sync Articles",
-                enabled=False,
+                defaults={
+                    "interval": five_minute_schedule,
+                    "task": "Sync Articles",
+                    "enabled": False,
+                },
             )
 
             PeriodicTask.objects.get_or_create(
-                interval=five_minute_schedule,
                 name="Sync Blogs",
-                task="Sync Blogs",
-                enabled=False,
+                defaults={
+                    "interval": five_minute_schedule,
+                    "task": "Sync Blogs",
+                    "enabled": False,
+                },
             )
 
             PeriodicTask.objects.get_or_create(
-                interval=five_minute_schedule,
                 name="Sync Reports",
-                task="Sync Reports",
-                enabled=False,
+                defaults={
+                    "interval": five_minute_schedule,
+                    "task": "Sync Reports",
+                    "enabled": False,
+                },
             )
 
         except Exception as e:
