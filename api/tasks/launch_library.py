@@ -40,7 +40,7 @@ def process_launch(data):
     launch = Launch(**data)
 
     LaunchModel.objects.update_or_create(
-        name=launch.name, launch_id=launch.id, provider=provider
+        launch_id=launch.id, defaults={"name": launch.name, "provider": provider}
     )
 
 
@@ -67,5 +67,5 @@ def process_event(data):
     event = Event(**data)
 
     EventModel.objects.update_or_create(
-        name=event.name, event_id=event.id, provider=provider
+        event_id=event.id, defaults={"name": event.name, "provider": provider}
     )
