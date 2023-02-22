@@ -27,13 +27,10 @@ def sync_articles():
             response = client.get(url="/articles", params=params).json()
 
             for article in response:
-                try:
-                    v3_article = ArticleV3Serializer(data=article)
-                    v3_article.is_valid(raise_exception=True)
+                v3_article = ArticleV3Serializer(data=article)
+                v3_article.is_valid(raise_exception=True)
 
-                    v3_article.save()
-                except Exception as e:
-                    print(f"Error ({type(e)}) with article: {article}", e)
+                v3_article.save()
 
             offset = offset + 1000
 
@@ -53,13 +50,10 @@ def sync_blogs():
             response = client.get(url="/blogs", params=params).json()
 
             for blog in response:
-                try:
-                    v3_blog = BlogV3Serializer(data=blog)
-                    v3_blog.is_valid(raise_exception=True)
+                v3_blog = BlogV3Serializer(data=blog)
+                v3_blog.is_valid(raise_exception=True)
 
-                    v3_blog.save()
-                except Exception as e:
-                    print(f"Error ({type(e)}) with blog: {blog}", e)
+                v3_blog.save()
 
             offset = offset + 1000
 
