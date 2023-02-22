@@ -16,7 +16,7 @@ class ReportV3Serializer(serializers.Serializer):
     def create(self, validated_data) -> Report:
         news_site = NewsSite.objects.get(name=validated_data["newsSite"])
 
-        return Report.objects.update_or_create(
+        report, _ = Report.objects.update_or_create(
             id=validated_data["id"],
             defaults={
                 "title": validated_data["title"],
@@ -28,3 +28,5 @@ class ReportV3Serializer(serializers.Serializer):
                 "updated_at": validated_data["updatedAt"],
             },
         )
+
+        return report
