@@ -2,10 +2,11 @@ import httpx
 from celery import shared_task
 from django.conf import settings
 
-from api.models import Event as EventModel
-from api.models import Launch as LaunchModel
 from api.models import Provider
-from api.types import Event, Launch
+from api.serializers.launch_library import (
+    LaunchLibraryEventSerializer,
+    LaunchLibraryLaunchSerializer,
+)
 
 client_options = {
     "base_url": settings.LL_URL,
@@ -27,11 +28,11 @@ def sync_launches():
             response = client.get(url=next_url).json()
 
             for data in response["results"]:
-                launch = Launch(**data)
-                LaunchModel.objects.update_or_create(
-                    launch_id=launch.id,
-                    defaults={"name": launch.name, "provider": provider},
+                launch = LaunchLibraryLaunchSerializer(
+                    data=data, context={"provider": provider}
                 )
+                launch.is_valid(raise_exception=True)
+                launch.save()
 
             next_url = response["next"]
 
@@ -46,10 +47,10 @@ def sync_events():
             response = client.get(url=next_url).json()
 
             for data in response["results"]:
-                event = Event(**data)
-                EventModel.objects.update_or_create(
-                    event_id=event.id,
-                    defaults={"name": event.name, "provider": provider},
+                event = LaunchLibraryEventSerializer(
+                    data=data, context={"provider": provider}
                 )
+                event.is_valid(raise_exception=True)
+                event.save()
 
             next_url = response["next"]
