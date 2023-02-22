@@ -1,5 +1,9 @@
 from django.core.management.base import BaseCommand, CommandError
-from django_celery_beat.models import CrontabSchedule, IntervalSchedule, PeriodicTask
+from django_celery_beat.models import (  # type: ignore
+    CrontabSchedule,
+    IntervalSchedule,
+    PeriodicTask,
+)
 
 
 class Command(BaseCommand):

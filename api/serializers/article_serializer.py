@@ -1,12 +1,14 @@
 from rest_framework import serializers
 
-from api.models import Article
+from api.models import Article, NewsSite
 from api.serializers.event_serializer import EventSerializer
 from api.serializers.launch_serializer import LaunchSerializer
 
 
 class ArticleSerializer(serializers.ModelSerializer):
-    news_site = serializers.StringRelatedField()
+    news_site: "serializers.StringRelatedField[NewsSite]" = (
+        serializers.StringRelatedField()
+    )
     launches = LaunchSerializer(many=True)
     events = EventSerializer(many=True)
 

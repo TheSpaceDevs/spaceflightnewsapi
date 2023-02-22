@@ -1,10 +1,12 @@
 from rest_framework import serializers
 
-from api.models import Blog
+from api.models import Blog, NewsSite
 
 
 class ReportSerializer(serializers.ModelSerializer):
-    news_site = serializers.StringRelatedField()
+    news_site: "serializers.StringRelatedField[NewsSite]" = (
+        serializers.StringRelatedField()
+    )
 
     class Meta:
         model = Blog

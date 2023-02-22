@@ -1,10 +1,12 @@
 from rest_framework import serializers
 
-from api.models import Launch
+from api.models import Launch, Provider
 
 
 class LaunchSerializer(serializers.ModelSerializer):
-    provider = serializers.StringRelatedField()
+    provider: "serializers.StringRelatedField[Provider]" = (
+        serializers.StringRelatedField()
+    )
 
     class Meta:
         model = Launch

@@ -1,10 +1,12 @@
 from rest_framework import serializers
 
-from api.models import Event
+from api.models import Event, Provider
 
 
 class EventSerializer(serializers.ModelSerializer):
-    provider = serializers.StringRelatedField()
+    provider: "serializers.StringRelatedField[Provider]" = (
+        serializers.StringRelatedField()
+    )
 
     class Meta:
         model = Event
