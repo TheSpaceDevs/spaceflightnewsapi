@@ -13,7 +13,7 @@ class ReportV3Serializer(serializers.Serializer):
     publishedAt = serializers.DateTimeField()
     updatedAt = serializers.DateTimeField()
 
-    def create(self, validated_data):
+    def create(self, validated_data) -> Report:
         news_site = NewsSite.objects.get(name=validated_data["newsSite"])
 
         return Report.objects.update_or_create(

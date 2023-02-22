@@ -18,7 +18,7 @@ class ArticleV3Serializer(serializers.Serializer):
     launches = serializers.ListField()
     events = serializers.ListField()
 
-    def create(self, validated_data):
+    def create(self, validated_data) -> Article:
         news_site = NewsSite.objects.get(name=validated_data["newsSite"])
         launches_list: List[Launch] = []
         events_list: List[Event] = []
