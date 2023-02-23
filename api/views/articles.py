@@ -1,7 +1,7 @@
 from rest_framework import viewsets
 
 from api import models, serializers
-from api.filters import DocsFilter
+from api.views.filters import DocsFilter
 
 
 class ArticleViewSet(viewsets.ReadOnlyModelViewSet):

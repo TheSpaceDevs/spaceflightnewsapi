@@ -1,7 +1,7 @@
 from rest_framework import viewsets
 
 from api import models, serializers
-from api.filters import ReportsFilters
+from api.views.filters import ReportsFilters
 
 
 class ReportViewSet(viewsets.ReadOnlyModelViewSet):
