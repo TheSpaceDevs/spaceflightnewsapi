@@ -566,14 +566,14 @@ pytz = "*"
 
 [[package]]
 name = "djangorestframework-stubs"
-version = "1.9.0"
+version = "1.9.1"
 description = "PEP-484 stubs for django-rest-framework"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "djangorestframework-stubs-1.9.0.tar.gz", hash = "sha256:23d340de2fcb13e69851ebf37aa6643e090bb841bdbc04b84911d80b10d13f98"},
-    {file = "djangorestframework_stubs-1.9.0-py3-none-any.whl", hash = "sha256:6778db28601fc6df7ac25512b0c90b5ed183d603690fabe6693e5e0d0017c256"},
+    {file = "djangorestframework-stubs-1.9.1.tar.gz", hash = "sha256:89f6c2add193cb5ab61b9e47187b33a93cc099376a8df5e4d6c3fc8ecb992d3b"},
+    {file = "djangorestframework_stubs-1.9.1-py3-none-any.whl", hash = "sha256:9475e1374b057ffbdcaaa84a060fe5f01476d8b9014d82a83b4153f57fbcbc1f"},
 ]
 
 [package.dependencies]
