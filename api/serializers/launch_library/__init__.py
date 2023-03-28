@@ -1,2 +1,4 @@
-from .event_serializer import LaunchLibraryEventSerializer
-from .launch_serializer import LaunchLibraryLaunchSerializer
+from api.serializers.launch_library.event_serializer import LaunchLibraryEventSerializer
+from api.serializers.launch_library.launch_serializer import (
+    LaunchLibraryLaunchSerializer,
+)

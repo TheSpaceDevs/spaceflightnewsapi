@@ -1,1 +1,1 @@
-from .news_item import NewsItem
+from api.models.abc.news_item import NewsItem
