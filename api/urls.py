@@ -13,6 +13,7 @@ api_router.register(r"reports", views.ReportViewSet, basename="reports")
 urlpatterns = [
     path("", RedirectView.as_view(url="documentation/")),
     path("", include(api_router.urls)),
+    path("info/", views.InfoView.as_view()),
     path("schema/", SpectacularAPIView.as_view(api_version="v4"), name="schema"),
     path(
         "documentation/",
