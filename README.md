@@ -1,6 +1,3 @@
-![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/main)
-![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m788189195-db9c0253b0e83654cfd9d91f)
-
 # Spaceflight News API
 
 Spaceflight News API was created as a solution for my problem when I wanted to develop an app for Spaceflight News: many (great!) news sites with different API's.

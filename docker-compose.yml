@@ -1,5 +1,5 @@
 ---
-version: "3"
+version: "3.8"
 
 volumes:
   database:
@@ -24,7 +24,7 @@ services:
       - POSTGRES_PASSWORD=${DB_PASSWORD}
 
   app:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:latest
     command:
       - /bin/sh
       - -c
@@ -32,7 +32,7 @@ services:
         python manage.py collectstatic --no-input &&
         python manage.py migrate --no-input &&
         python manage.py createdefaulttasks &&
-        gunicorn snapy.wsgi:application --bind 0.0.0.0:8000
+        gunicorn snapy.wsgi:application --bind 0.0.0.0:8000 --access-logfile - --disable-redirect-access-to-syslog
     networks:
       - snapy
       - nginx-proxy-manager_default
@@ -59,7 +59,7 @@ services:
       - database
 
   beat:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:latest
     command: celery -A snapy beat -l INFO
     networks:
       - mq
@@ -78,7 +78,7 @@ services:
 
 
   worker:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:latest
     command: celery -A snapy worker -l INFO
     networks:
       - mq
