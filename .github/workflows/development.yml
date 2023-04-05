@@ -32,4 +32,4 @@ jobs:
           build-args: |
             VERSION=$VERSION
           tags: |
-            ghcr.io/spaceflightnewsapi/spaceflightnewsapi:$VERSION
+            ghcr.io/spaceflightnewsapi/spaceflightnewsapi:"$VERSION"
