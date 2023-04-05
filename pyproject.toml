@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "snapy"
-version = "4.0.0"
+version = "4"
 description = ""
 authors = ["Derk Weijers <derk@weijers.xyz>"]
 readme = "README.md"
