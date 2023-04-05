@@ -1,7 +1,7 @@
 name: Publish Docker image for dev
 on:
   push:
-    branches: ['development']
+    branches: [ 'development' ]
 
 jobs:
   push_to_registry:
@@ -26,5 +26,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
+          build-args: |
+            VERSION=4-develop
           tags: |
             ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
