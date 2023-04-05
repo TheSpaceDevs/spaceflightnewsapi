@@ -4,7 +4,7 @@ on:
     branches: [ 'development' ]
 
 env:
-  VERSION: 4-develop
+  VERSION: 4-dev
 
 jobs:
   push_to_registry:
