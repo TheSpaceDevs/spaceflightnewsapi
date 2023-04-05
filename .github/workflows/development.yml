@@ -3,6 +3,9 @@ on:
   push:
     branches: [ 'development' ]
 
+env:
+  VERSION: 4-develop
+
 jobs:
   push_to_registry:
     name: Push Docker image to GitHub Packages
@@ -27,6 +30,6 @@ jobs:
         with:
           push: true
           build-args: |
-            VERSION=4-develop
+            VERSION=$VERSION
           tags: |
-            ghcr.io/spaceflightnewsapi/spaceflightnewsapi:development
+            ghcr.io/spaceflightnewsapi/spaceflightnewsapi:$VERSION
