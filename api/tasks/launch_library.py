@@ -14,7 +14,7 @@ client_options = {
         "Authorization": f"Token {settings.LL_TOKEN}",
         "User-Agent": "SNAPI V4",
     },
-    "timeout": 30.0,
+    "timeout": 1440.0,
 }
 
 
