@@ -15,7 +15,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - VERSION=${VERSION}
+      - SNAPI_VERSION=${SNAPI_VERSION}
       - DEBUG=${DEBUG}
       - SECRET_KEY=${SECRET_KEY}
       - DB_NAME=${DB_NAME}
@@ -62,7 +62,7 @@ services:
       - ./snapy:/code/snapy
       - ./manage.py:/code/manage.py
     environment:
-      - VERSION=${VERSION}
+      - SNAPI_VERSION=${SNAPI_VERSION}
       - DB_NAME=${DB_NAME}
       - DB_USER=${DB_USER}
       - DB_HOST=${DB_HOST}
@@ -84,7 +84,7 @@ services:
       - ./snapy:/code/snapy
       - ./manage.py:/code/manage.py
     environment:
-      - VERSION=${VERSION}
+      - SNAPI_VERSION=${SNAPI_VERSION}
       - DB_NAME=${DB_NAME}
       - DB_USER=${DB_USER}
       - DB_HOST=${DB_HOST}
