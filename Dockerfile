@@ -17,7 +17,7 @@ FROM python:3.11
 LABEL org.opencontainers.image.source https://github.com/TheSpaceDevs/spaceflightnewsapi
 
 ARG RELEASE_VERSION
-ENV VERSION=$RELEASE_VERSION
+ENV SNAPI_VERSION=$RELEASE_VERSION
 
 WORKDIR /code/
 COPY --from=builder /code /code
