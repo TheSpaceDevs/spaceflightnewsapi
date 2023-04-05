@@ -1,20 +1,20 @@
-from django_filters import CharFilter, FilterSet, ModelChoiceFilter
+from django_filters import CharFilter, FilterSet, ModelChoiceFilter, IsoDateTimeFilter
 
 from api import models
 
 
 class DocsFilter(FilterSet):
-    title = CharFilter(
+    title_contains = CharFilter(
         field_name="title",
         lookup_expr="icontains",
         label="Search for all documents with a specific phrase in the title.",
     )
-    summary = CharFilter(
+    summary_contains = CharFilter(
         field_name="summary",
         lookup_expr="icontains",
         label="Search for all documents with a specific phrase in the summary.",
     )
-    date = CharFilter(
+    published_date = CharFilter(
         field_name="published_at",
         lookup_expr="date",
         label="Search for all documents published on a specific date (YYYY-MM-DD).",
@@ -35,6 +35,46 @@ class DocsFilter(FilterSet):
         to_field_name="event_id",
         field_name="events",
         label="Get all documents related to a specific event.",
+    )
+    published_at__gte = IsoDateTimeFilter(
+        field_name="published_at",
+        lookup_expr="gte",
+        label="Get all documents published after a given ISO8601 timestamp (included)."
+    )
+    published_at__lte = IsoDateTimeFilter(
+        field_name="published_at",
+        lookup_expr="lte",
+        label="Get all documents published before a given ISO8601 timestamp (included)."
+    )
+    published_at__gt = IsoDateTimeFilter(
+        field_name="published_at",
+        lookup_expr="gt",
+        label="Get all documents published after a given ISO8601 timestamp (excluded)."
+    )
+    published_at__lt = IsoDateTimeFilter(
+        field_name="published_at",
+        lookup_expr="lt",
+        label="Get all documents published before a given ISO8601 timestamp (excluded)."
+    )
+    updated_at__gte = IsoDateTimeFilter(
+        field_name="updated_at",
+        lookup_expr="gte",
+        label="Get all documents updated after a given ISO8601 timestamp (included)."
+    )
+    updated_at__lte = IsoDateTimeFilter(
+        field_name="updated_at",
+        lookup_expr="lte",
+        label="Get all documents updated before a given ISO8601 timestamp (included)."
+    )
+    updated_at__gt = IsoDateTimeFilter(
+        field_name="updated_at",
+        lookup_expr="gt",
+        label="Get all documents updated after a given ISO8601 timestamp (excluded)."
+    )
+    updated_at__lt = IsoDateTimeFilter(
+        field_name="updated_at",
+        lookup_expr="lt",
+        label="Get all documents updated before a given ISO8601 timestamp (excluded)."
     )
 
 
