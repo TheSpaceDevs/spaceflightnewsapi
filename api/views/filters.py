@@ -14,11 +14,6 @@ class DocsFilter(FilterSet):
         lookup_expr="icontains",
         label="Search for all documents with a specific phrase in the summary.",
     )
-    published_date = CharFilter(
-        field_name="published_at",
-        lookup_expr="date",
-        label="Search for all documents published on a specific date (YYYY-MM-DD).",
-    )
     news_site = ModelChoiceFilter(
         queryset=models.NewsSite.objects.all(),
         to_field_name="name",
