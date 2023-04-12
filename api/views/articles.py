@@ -1,3 +1,7 @@
+import operator
+from functools import reduce
+
+from django.db.models import Q
 from drf_spectacular.types import OpenApiTypes
 from drf_spectacular.utils import OpenApiParameter, extend_schema, extend_schema_view
 from rest_framework import viewsets
@@ -5,22 +9,31 @@ from rest_framework import viewsets
 from api.models import Article
 from api.serializers import ArticleSerializer
 from api.views.filters import DocsFilter
-import operator
-from django.db.models import Q
-from functools import reduce
+
 
 @extend_schema_view(
     list=extend_schema(
         parameters=[
             OpenApiParameter(
-                "news_site",
-                OpenApiTypes.STR,
-                description="Search for documents by a specific news site. Case sensitive.",
-            ),
-            OpenApiParameter(
                 "launch",
                 OpenApiTypes.UUID,
                 description="Get all documents related to a specific launch.",
+            ),
+            OpenApiParameter(
+                "has_launch",
+                OpenApiTypes.BOOL,
+                description="Get all articles that have a related launch.",
+            ),
+            OpenApiParameter(
+                "has_event",
+                OpenApiTypes.BOOL,
+                description="Get all articles that have a related event.",
+            ),
+            OpenApiParameter(
+                "news_site",
+                OpenApiTypes.STR,
+                description="Search for articles from various news sites. Can be multiple comma-separated sites. Case "
+                            "sensitive.",
             ),
         ]
     ),
@@ -30,7 +43,7 @@ class ArticleViewSet(viewsets.ReadOnlyModelViewSet):
     def get_queryset(self):
         articles = Article.objects.all()
 
-        news_sites_filters = self.request.query_params.get("news_sites", None)
+        news_sites_filters = self.request.query_params.get("news_site", None)
         launches_filters = self.request.query_params.get("launches", None)
         events_filters = self.request.query_params.get("events", None)
         title_contains_all_filters = self.request.query_params.get("title_contains_all", None)
@@ -81,17 +94,3 @@ class ArticleViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = ArticleSerializer
     authentication_classes = []
     filterset_class = DocsFilter
-    search_fields = (
-        "title",
-        "summary",
-        "news_site__name",
-        "launches__launch_id",
-        "events__event_id",
-        "launches__name",
-        "events__name")
-    ordering_fields = (
-        "title",
-        "summary",
-        "news_site__name",
-        "published_at",
-        "updated_at")
