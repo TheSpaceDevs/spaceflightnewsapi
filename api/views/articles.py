@@ -20,16 +20,6 @@ from api.views.filters import DocsFilter
                 description="Get all documents related to a specific launch.",
             ),
             OpenApiParameter(
-                "has_launch",
-                OpenApiTypes.BOOL,
-                description="Get all articles that have a related launch.",
-            ),
-            OpenApiParameter(
-                "has_event",
-                OpenApiTypes.BOOL,
-                description="Get all articles that have a related event.",
-            ),
-            OpenApiParameter(
                 "news_site",
                 OpenApiTypes.STR,
                 description="Search for articles from various news sites. Can be multiple comma-separated sites. Case "
@@ -50,8 +40,6 @@ class ArticleViewSet(viewsets.ReadOnlyModelViewSet):
         title_contains_one_filters = self.request.query_params.get("title_contains_one", None)
         summary_contains_all_filters = self.request.query_params.get("summary_contains_all", None)
         summary_contains_one_filters = self.request.query_params.get("summary_contains_one", None)
-        has_event_filter = self.request.query_params.get("has_event", None)
-        has_launch_filter = self.request.query_params.get("has_launch", None)
 
         if news_sites_filters:
             news_sites_filters = news_sites_filters.split(",")
@@ -78,16 +66,6 @@ class ArticleViewSet(viewsets.ReadOnlyModelViewSet):
             summary_contains_one_filters = summary_contains_one_filters.split(",")
             query = reduce(operator.or_, (Q(summary__icontains=item) for item in summary_contains_one_filters))
             articles = articles.filter(query)
-        if has_event_filter:
-            if has_event_filter == "true":
-                articles = articles.filter(events__isnull=False)
-            elif has_event_filter == "false":
-                articles = articles.filter(events__isnull=True)
-        if has_launch_filter:
-            if has_launch_filter == "true":
-                articles = articles.filter(launches__isnull=False)
-            elif has_launch_filter == "false":
-                articles = articles.filter(launches__isnull=True)
 
         return articles.order_by("-published_at")
 

@@ -1,4 +1,4 @@
-from django_filters import CharFilter, FilterSet, ModelChoiceFilter, IsoDateTimeFilter
+from django_filters import CharFilter, FilterSet, ModelChoiceFilter, IsoDateTimeFilter, BooleanFilter
 
 from api import models
 
@@ -70,6 +70,18 @@ class DocsFilter(FilterSet):
         field_name="updated_at",
         lookup_expr="lt",
         label="Get all documents updated before a given ISO8601 timestamp (excluded)."
+    )
+    has_launch = BooleanFilter(
+        field_name="launches",
+        lookup_expr="isnull",
+        exclude=True,
+        label="Get all documents related to a launch."
+    )
+    has_event = BooleanFilter(
+        field_name="events",
+        lookup_expr="isnull",
+        exclude=True,
+        label="Get all documents related to an event."
     )
 
 
