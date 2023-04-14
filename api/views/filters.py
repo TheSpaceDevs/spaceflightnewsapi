@@ -1,23 +1,17 @@
-from django_filters import CharFilter, FilterSet, ModelChoiceFilter, IsoDateTimeFilter, BooleanFilter, Filter
+from django_filters import CharFilter, FilterSet, IsoDateTimeFilter, BooleanFilter, \
+    UUIDFilter, BaseInFilter, NumberFilter
 
-from api import models
+
+class UUIDInFilter(BaseInFilter, UUIDFilter):
+    pass
 
 
-class ListFilterField(Filter):
-    """ This is a custom FilterField to enable a behavior like:
-    ?id=1,2,3,4 ...
-    """
+class NumberInFilter(BaseInFilter, NumberFilter):
+    pass
 
-    def filter(self, queryset, value):
-        # If no value is passed, just return the
-        # initial queryset
-        if not value:
-            return queryset
 
-        self.lookup_expr = 'in'  # Setting the lookupexpression for all values
-        list_values = value.split(',')  # Split the incoming querystring by comma
-
-        return super().filter(queryset, list_values)
+class CharInFilter(BaseInFilter, CharFilter):
+    pass
 
 
 class DocsFilter(FilterSet):
@@ -31,17 +25,17 @@ class DocsFilter(FilterSet):
         lookup_expr="icontains",
         label="Search for all documents with a specific phrase in the summary.",
     )
-    news_site = ListFilterField(
+    news_site = CharInFilter(
         field_name="news_site__name",
         label="Search for documents by the specified news sites. Can be multiple comma-separated sites. Case sensitive.",
     )
-    launch = ListFilterField(
+    launch = UUIDInFilter(
         field_name="launches__launch_id",
-        label="This label is overriden in the viewset.",
+        lookup_expr='in',
     )
-    event = ListFilterField(
+    event = NumberInFilter(
         field_name="events__event_id",
-        label="This label is overriden in the viewset.",
+        lookup_expr='in',
     )
     published_at__gte = IsoDateTimeFilter(
         field_name="published_at",
