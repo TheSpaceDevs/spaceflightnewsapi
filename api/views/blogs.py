@@ -10,14 +10,14 @@ from api.views.filters import DocsFilter
     list=extend_schema(
         parameters=[
             OpenApiParameter(
-                "news_site",
+                "launch",
                 OpenApiTypes.STR,
-                description="Search for documents by a specific news site. Case sensitive.",
+                description="Get all documents related to a specific launch. Can be multiple comma-separated values (UUIDs)",
             ),
             OpenApiParameter(
-                "launch",
-                OpenApiTypes.UUID,
-                description="Get all documents related to a specific launch.",
+                "event",
+                OpenApiTypes.STR,
+                description="Get all documents related to a specific event. Can be multiple comma-separated values (IDs)",
             ),
         ]
     ),

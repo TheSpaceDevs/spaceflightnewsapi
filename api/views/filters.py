@@ -1,6 +1,23 @@
-from django_filters import CharFilter, FilterSet, ModelChoiceFilter, IsoDateTimeFilter, BooleanFilter
+from django_filters import CharFilter, FilterSet, ModelChoiceFilter, IsoDateTimeFilter, BooleanFilter, Filter
 
 from api import models
+
+
+class ListFilterField(Filter):
+    """ This is a custom FilterField to enable a behavior like:
+    ?id=1,2,3,4 ...
+    """
+
+    def filter(self, queryset, value):
+        # If no value is passed, just return the
+        # initial queryset
+        if not value:
+            return queryset
+
+        self.lookup_expr = 'in'  # Setting the lookupexpression for all values
+        list_values = value.split(',')  # Split the incoming querystring by comma
+
+        return super().filter(queryset, list_values)
 
 
 class DocsFilter(FilterSet):
@@ -14,22 +31,17 @@ class DocsFilter(FilterSet):
         lookup_expr="icontains",
         label="Search for all documents with a specific phrase in the summary.",
     )
-    news_site = ModelChoiceFilter(
-        queryset=models.NewsSite.objects.all(),
-        to_field_name="name",
-        label="Search for documents by a specific news site. Case sensitive.",
+    news_site = ListFilterField(
+        field_name="news_site__name",
+        label="Search for documents by the specified news sites. Can be multiple comma-separated sites. Case sensitive.",
     )
-    launch = ModelChoiceFilter(
-        queryset=models.Launch.objects.all(),
-        to_field_name="launch_id",
-        field_name="launches",
-        label="Get all documents related to a specific launch.",
+    launch = ListFilterField(
+        field_name="launches__launch_id",
+        label="This label is overriden in the viewset.",
     )
-    event = ModelChoiceFilter(
-        queryset=models.Event.objects.all(),
-        to_field_name="event_id",
-        field_name="events",
-        label="Get all documents related to a specific event.",
+    event = ListFilterField(
+        field_name="events__event_id",
+        label="This label is overriden in the viewset.",
     )
     published_at__gte = IsoDateTimeFilter(
         field_name="published_at",

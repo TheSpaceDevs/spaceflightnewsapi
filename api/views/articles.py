@@ -16,14 +16,13 @@ from api.views.filters import DocsFilter
         parameters=[
             OpenApiParameter(
                 "launch",
-                OpenApiTypes.UUID,
-                description="Get all documents related to a specific launch.",
+                OpenApiTypes.STR,
+                description="Get all documents related to a specific launch. Can be multiple comma-separated values (UUIDs)",
             ),
             OpenApiParameter(
-                "news_site",
+                "event",
                 OpenApiTypes.STR,
-                description="Search for articles from various news sites. Can be multiple comma-separated sites. Case "
-                            "sensitive.",
+                description="Get all documents related to a specific event. Can be multiple comma-separated values (IDs)",
             ),
         ]
     ),
@@ -33,23 +32,11 @@ class ArticleViewSet(viewsets.ReadOnlyModelViewSet):
     def get_queryset(self):
         articles = Article.objects.all()
 
-        news_sites_filters = self.request.query_params.get("news_site", None)
-        launches_filters = self.request.query_params.get("launches", None)
-        events_filters = self.request.query_params.get("events", None)
         title_contains_all_filters = self.request.query_params.get("title_contains_all", None)
         title_contains_one_filters = self.request.query_params.get("title_contains_one", None)
         summary_contains_all_filters = self.request.query_params.get("summary_contains_all", None)
         summary_contains_one_filters = self.request.query_params.get("summary_contains_one", None)
 
-        if news_sites_filters:
-            news_sites_filters = news_sites_filters.split(",")
-            articles = articles.filter(news_site__name__in=news_sites_filters)
-        if launches_filters:
-            launches_filters = launches_filters.split(",")
-            articles = articles.filter(launches__launch_id__in=launches_filters)
-        if events_filters:
-            events_filters = events_filters.split(",")
-            articles = articles.filter(events__event_id__in=events_filters)
         if title_contains_all_filters:
             title_contains_all_filters = title_contains_all_filters.split(",")
             query = reduce(operator.and_, (Q(title__icontains=item) for item in title_contains_all_filters))
