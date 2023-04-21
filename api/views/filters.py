@@ -138,10 +138,12 @@ class DocsFilter(FilterSet):
     launch = UUIDInFilter(
         field_name="launches__launch_id",
         lookup_expr="in",
+        help_text="Search for all documents related to a specific launch using its Launch Library 2 ID.",
     )
     event = NumberInFilter(
         field_name="events__event_id",
         lookup_expr="in",
+        help_text="Search for all documents related to a specific event using its Launch Library 2 ID.",
     )
     published_at__gte = IsoDateTimeFilter(
         field_name="published_at",
@@ -187,13 +189,13 @@ class DocsFilter(FilterSet):
         field_name="launches",
         lookup_expr="isnull",
         exclude=True,
-        label="Get all documents related to a launch.",
+        label="Get all documents related to a launch using its Launch Library 2 ID.",
     )
     has_event = BooleanFilter(
         field_name="events",
         lookup_expr="isnull",
         exclude=True,
-        label="Get all documents related to an event.",
+        label="Get all documents related to an event using its Launch Library 2 ID.",
     )
 
 
