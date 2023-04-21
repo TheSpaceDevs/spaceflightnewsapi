@@ -8,7 +8,6 @@ from django_filters import (
     BaseInFilter,
     NumberFilter,
 )
-from drf_spectacular.utils import extend_schema, OpenApiParameter
 
 
 class UUIDInFilter(BaseInFilter, UUIDFilter):
@@ -21,102 +20,69 @@ class NumberInFilter(BaseInFilter, NumberFilter):
         super().__init__(*args, **kwargs)
 
 
-class InFilterMixin:
-    def get_filter_list(self, value):
-        return [v.strip() for v in value.split(",") if v.strip()]
+class CharInFilter(CharFilter):
+    field_name = None
 
-
-class CharInFilter(InFilterMixin, BaseInFilter, CharFilter):
-    field_name = None  # set this to the name of the field to be filtered
+    def filter_keywords(self, queryset, name, value):
+        words = value.split(",")
+        q = Q()
+        for word in words:
+            q |= Q(**{f"{name}__iexact": word.strip()})
+        return queryset.filter(q)
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-
-    @extend_schema(
-        parameters=[
-            OpenApiParameter(
-                name="my_field_contains_all",
-                type=str,
-                location=OpenApiParameter.QUERY,
-                description=f"Search for documents by the specified {field_name}s. Can be comma-separated values.",
-            )
-        ]
-    )
-    def filter(self, qs, value):
-        if not value:
-            return qs
-        values = self.get_filter_list(value)
-        q = Q(**{f"{self.field_name}__icontains": values[0]})
-        for v in values[1:]:
-            q |= Q(**{f"{self.field_name}__icontains": v})
-        return qs.filter(q)
+        self.field_name = kwargs.pop("field_name")
+        super().__init__(
+            *args,
+            **kwargs,
+            field_name=self.field_name,
+            method=self.filter_keywords,
+            label=f"Search for documents with a {self.field_name} present in a list of comma-separated values. Case "
+                  f"insensitive.",
+        )
 
 
-class NewsSiteInFilter(CharInFilter):
-    field_name = "news_site"
+class ContainsOneFilter(CharFilter):
+    field_name = None
 
-
-class FieldContainsOneFilter(FilterSet):
-    field_name = None  # set this to the name of the field to be filtered
-    keywords = CharFilter(method="filter_keywords")
-
-    @extend_schema(
-        parameters=[
-            OpenApiParameter(
-                name="keywords",
-                type=str,
-                location=OpenApiParameter.QUERY,
-                description=f"A comma-separated list of keywords of which at least one must be in the {field_name}.",
-                required=False,
-            ),
-        ]
-    )
-    def filter_keywords(self, queryset, value):
+    def filter_keywords(self, queryset, name, value):
         words = value.split(",")
         q = Q()
         for word in words:
-            q |= Q(**{f"{self.field_name}__icontains": word.strip()})
+            q |= Q(**{f"{name}__icontains": word.strip()})
         return queryset.filter(q)
 
+    def __init__(self, *args, **kwargs):
+        self.field_name = kwargs.pop("field_name")
+        super().__init__(
+            *args,
+            **kwargs,
+            field_name=self.field_name,
+            method=self.filter_keywords,
+            label=f"Search for documents with a {self.field_name} containing at least one keyword from "
+                  f"comma-separated values.",
+        )
 
-class TitleContainsOneFilter(FieldContainsOneFilter):
-    field_name = "title"
 
+class ContainsAllFilter(CharFilter):
+    field_name = None
 
-class SummaryContainsOneFilter(FieldContainsOneFilter):
-    field_name = "summary"
-
-
-class FieldContainsAllFilter(FilterSet):
-    field_name = None  # set this to the name of the field to be filtered
-
-    keywords = CharFilter(method="filter_keywords")
-
-    @extend_schema(
-        parameters=[
-            OpenApiParameter(
-                name="keywords",
-                type=str,
-                location=OpenApiParameter.QUERY,
-                description=f"A comma-separated list of keywords which must all be in the {field_name}.",
-                required=False,
-            ),
-        ]
-    )
-    def filter_keywords(self, queryset, value):
+    def filter_keywords(self, queryset, name, value):
         words = value.split(",")
         q = Q()
         for word in words:
-            q &= Q(**{f"{self.field_name}__icontains": word.strip()})
+            q &= Q(**{f"{name}__icontains": word.strip()})
         return queryset.filter(q)
 
-
-class TitleContainsAllFilter(FieldContainsAllFilter):
-    field_name = "title"
-
-
-class SummaryContainsAllFilter(FieldContainsAllFilter):
-    field_name = "summary"
+    def __init__(self, *args, **kwargs):
+        self.field_name = kwargs.pop("field_name")
+        super().__init__(
+            *args,
+            **kwargs,
+            field_name=self.field_name,
+            method=self.filter_keywords,
+            label=f"Search for documents with a {self.field_name} containing all keywords from comma-separated values.",
+        )
 
 
 class DocsFilter(FilterSet):
@@ -125,11 +91,11 @@ class DocsFilter(FilterSet):
         lookup_expr="icontains",
         label="Search for all documents with a specific phrase in the title.",
     )
-    title_contains_one = TitleContainsOneFilter()
-    title_contains_all = TitleContainsAllFilter()
-    summary_contains_one = SummaryContainsOneFilter()
-    summary_contains_all = SummaryContainsAllFilter()
-    news_site = NewsSiteInFilter()
+    title_contains_one = ContainsOneFilter(field_name="title")
+    title_contains_all = ContainsAllFilter(field_name="title")
+    summary_contains_one = ContainsOneFilter(field_name="summary")
+    summary_contains_all = ContainsAllFilter(field_name="summary")
+    news_site = CharInFilter(field_name="news_site")
     summary_contains = CharFilter(
         field_name="summary",
         lookup_expr="icontains",
