@@ -21,15 +21,6 @@ class NumberInFilter(BaseInFilter, NumberFilter):
 
 
 class CharInFilter(CharFilter):
-    field_name = None
-
-    def filter_keywords(self, queryset, name, value):
-        words = value.split(",")
-        q = Q()
-        for word in words:
-            q |= Q(**{f"{name}__iexact": word.strip()})
-        return queryset.filter(q)
-
     def __init__(self, *args, **kwargs):
         self.field_name = kwargs.pop("field_name")
         super().__init__(
@@ -41,17 +32,15 @@ class CharInFilter(CharFilter):
                   f"insensitive.",
         )
 
-
-class ContainsOneFilter(CharFilter):
-    field_name = None
-
     def filter_keywords(self, queryset, name, value):
         words = value.split(",")
         q = Q()
         for word in words:
-            q |= Q(**{f"{name}__icontains": word.strip()})
+            q |= Q(**{f"{name}__iexact": word.strip()})
         return queryset.filter(q)
 
+
+class ContainsOneFilter(CharFilter):
     def __init__(self, *args, **kwargs):
         self.field_name = kwargs.pop("field_name")
         super().__init__(
@@ -63,17 +52,15 @@ class ContainsOneFilter(CharFilter):
                   f"comma-separated values.",
         )
 
-
-class ContainsAllFilter(CharFilter):
-    field_name = None
-
     def filter_keywords(self, queryset, name, value):
         words = value.split(",")
         q = Q()
         for word in words:
-            q &= Q(**{f"{name}__icontains": word.strip()})
+            q |= Q(**{f"{name}__icontains": word.strip()})
         return queryset.filter(q)
 
+
+class ContainsAllFilter(CharFilter):
     def __init__(self, *args, **kwargs):
         self.field_name = kwargs.pop("field_name")
         super().__init__(
@@ -83,6 +70,13 @@ class ContainsAllFilter(CharFilter):
             method=self.filter_keywords,
             label=f"Search for documents with a {self.field_name} containing all keywords from comma-separated values.",
         )
+
+    def filter_keywords(self, queryset, name, value):
+        words = value.split(",")
+        q = Q()
+        for word in words:
+            q &= Q(**{f"{name}__icontains": word.strip()})
+        return queryset.filter(q)
 
 
 class DocsFilter(FilterSet):
