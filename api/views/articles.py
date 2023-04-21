@@ -1,7 +1,3 @@
-import operator
-from functools import reduce
-
-from django.db.models import Q
 from rest_framework import viewsets
 
 from api.models import Article
