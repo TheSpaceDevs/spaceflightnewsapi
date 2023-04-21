@@ -29,7 +29,7 @@ class CharInFilter(CharFilter):
             field_name=self.field_name,
             method=self.filter_keywords,
             label=f"Search for documents with a {self.field_name} present in a list of comma-separated values. Case "
-                  f"insensitive.",
+            f"insensitive.",
         )
 
     def filter_keywords(self, queryset, name, value):
@@ -49,7 +49,7 @@ class ContainsOneFilter(CharFilter):
             field_name=self.field_name,
             method=self.filter_keywords,
             label=f"Search for documents with a {self.field_name} containing at least one keyword from "
-                  f"comma-separated values.",
+            f"comma-separated values.",
         )
 
     def filter_keywords(self, queryset, name, value):
@@ -89,7 +89,7 @@ class DocsFilter(FilterSet):
     title_contains_all = ContainsAllFilter(field_name="title")
     summary_contains_one = ContainsOneFilter(field_name="summary")
     summary_contains_all = ContainsAllFilter(field_name="summary")
-    news_site = CharInFilter(field_name="news_site")
+    news_site = CharInFilter(field_name="news_site__name")
     summary_contains = CharFilter(
         field_name="summary",
         lookup_expr="icontains",
