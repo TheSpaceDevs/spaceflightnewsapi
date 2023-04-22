@@ -1,12 +1,24 @@
 name: Publish Docker image for dev
 on:
   push:
-    branches: [ 'development' ]
+    branches: [ 'development', 'info_endpoint_tests' ]
 
 env:
   VERSION: v4-nightly
 
 jobs:
+  run_the_tests:
+    name: Run the tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+
+      - name: Docker Compose Action
+        uses: isbang/compose-action@v1.4.1
+        down-flags: "--volumes"
+
+
   push_to_registry:
     name: Push Docker image to GitHub Packages
     runs-on: ubuntu-latest
