@@ -18,8 +18,6 @@ jobs:
         uses: isbang/compose-action@v1.4.1
         with:
           compose-file: docker-compose.dev.yml
-          compose-flags: "--build --force-recreate --remove-orphans"
-          down-flags: "--volumes"
 
 
   push_to_registry:
