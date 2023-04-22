@@ -29,7 +29,7 @@ class CharInFilter(CharFilter):
             field_name=self.field_name,
             method=self.filter_keywords,
             label=f"Search for documents with a {self.field_name} present in a list of comma-separated values. Case "
-            f"insensitive.",
+                  f"insensitive.",
         )
 
     def filter_keywords(self, queryset, name, value):
@@ -49,7 +49,7 @@ class ContainsOneFilter(CharFilter):
             field_name=self.field_name,
             method=self.filter_keywords,
             label=f"Search for documents with a {self.field_name} containing at least one keyword from "
-            f"comma-separated values.",
+                  f"comma-separated values.",
         )
 
     def filter_keywords(self, queryset, name, value):
@@ -149,13 +149,13 @@ class DocsFilter(FilterSet):
         field_name="launches",
         lookup_expr="isnull",
         exclude=True,
-        label="Get all documents related to a launch using its Launch Library 2 ID.",
+        label="Get all documents that hava a launch related to them.",
     )
     has_event = BooleanFilter(
         field_name="events",
         lookup_expr="isnull",
         exclude=True,
-        label="Get all documents related to an event using its Launch Library 2 ID.",
+        label="Get all documents that hava an event related to them.",
     )
 
 
