@@ -1,17 +1,82 @@
-from django_filters import CharFilter, FilterSet, IsoDateTimeFilter, BooleanFilter, \
-    UUIDFilter, BaseInFilter, NumberFilter
+from django.db.models import Q
+from django_filters import (
+    CharFilter,
+    FilterSet,
+    IsoDateTimeFilter,
+    BooleanFilter,
+    UUIDFilter,
+    BaseInFilter,
+    NumberFilter,
+)
 
 
 class UUIDInFilter(BaseInFilter, UUIDFilter):
-    pass
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
 
 
 class NumberInFilter(BaseInFilter, NumberFilter):
-    pass
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
 
 
-class CharInFilter(BaseInFilter, CharFilter):
-    pass
+class CharInFilter(CharFilter):
+    def __init__(self, *args, **kwargs):
+        self.field_name = kwargs.pop("field_name")
+        super().__init__(
+            *args,
+            **kwargs,
+            field_name=self.field_name,
+            method=self.filter_keywords,
+            label=f"Search for documents with a {self.field_name} present in a list of comma-separated values. Case "
+            f"insensitive.",
+        )
+
+    def filter_keywords(self, queryset, name, value):
+        words = value.split(",")
+        q = Q()
+        for word in words:
+            q |= Q(**{f"{name}__iexact": word.strip()})
+        return queryset.filter(q)
+
+
+class ContainsOneFilter(CharFilter):
+    def __init__(self, *args, **kwargs):
+        self.field_name = kwargs.pop("field_name")
+        super().__init__(
+            *args,
+            **kwargs,
+            field_name=self.field_name,
+            method=self.filter_keywords,
+            label=f"Search for documents with a {self.field_name} containing at least one keyword from "
+            f"comma-separated values.",
+        )
+
+    def filter_keywords(self, queryset, name, value):
+        words = value.split(",")
+        q = Q()
+        for word in words:
+            q |= Q(**{f"{name}__icontains": word.strip()})
+        return queryset.filter(q)
+
+
+class ContainsAllFilter(CharFilter):
+    def __init__(self, *args, **kwargs):
+        self.field_name = kwargs.pop("field_name")
+        super().__init__(
+            *args,
+            **kwargs,
+            field_name=self.field_name,
+            method=self.filter_keywords,
+            label=f"Search for documents with a {self.field_name} containing all keywords from comma-separated values.",
+        )
+
+    def filter_keywords(self, queryset, name, value):
+        words = value.split(",")
+        q = Q()
+        for word in words:
+            q &= Q(**{f"{name}__icontains": word.strip()})
+        return queryset.filter(q)
 
 
 class DocsFilter(FilterSet):
@@ -20,74 +85,77 @@ class DocsFilter(FilterSet):
         lookup_expr="icontains",
         label="Search for all documents with a specific phrase in the title.",
     )
+    title_contains_one = ContainsOneFilter(field_name="title")
+    title_contains_all = ContainsAllFilter(field_name="title")
+    summary_contains_one = ContainsOneFilter(field_name="summary")
+    summary_contains_all = ContainsAllFilter(field_name="summary")
+    news_site = CharInFilter(field_name="news_site__name")
     summary_contains = CharFilter(
         field_name="summary",
         lookup_expr="icontains",
         label="Search for all documents with a specific phrase in the summary.",
     )
-    news_site = CharInFilter(
-        field_name="news_site__name",
-        label="Search for documents by the specified news sites. Can be multiple comma-separated sites. Case sensitive.",
-    )
     launch = UUIDInFilter(
         field_name="launches__launch_id",
-        lookup_expr='in',
+        lookup_expr="in",
+        help_text="Search for all documents related to a specific launch using its Launch Library 2 ID.",
     )
     event = NumberInFilter(
         field_name="events__event_id",
-        lookup_expr='in',
+        lookup_expr="in",
+        help_text="Search for all documents related to a specific event using its Launch Library 2 ID.",
     )
     published_at__gte = IsoDateTimeFilter(
         field_name="published_at",
         lookup_expr="gte",
-        label="Get all documents published after a given ISO8601 timestamp (included)."
+        label="Get all documents published after a given ISO8601 timestamp (included).",
     )
     published_at__lte = IsoDateTimeFilter(
         field_name="published_at",
         lookup_expr="lte",
-        label="Get all documents published before a given ISO8601 timestamp (included)."
+        label="Get all documents published before a given ISO8601 timestamp (included).",
     )
     published_at__gt = IsoDateTimeFilter(
         field_name="published_at",
         lookup_expr="gt",
-        label="Get all documents published after a given ISO8601 timestamp (excluded)."
+        label="Get all documents published after a given ISO8601 timestamp (excluded).",
     )
     published_at__lt = IsoDateTimeFilter(
         field_name="published_at",
         lookup_expr="lt",
-        label="Get all documents published before a given ISO8601 timestamp (excluded)."
+        label="Get all documents published before a given ISO8601 timestamp (excluded).",
     )
     updated_at__gte = IsoDateTimeFilter(
         field_name="updated_at",
         lookup_expr="gte",
-        label="Get all documents updated after a given ISO8601 timestamp (included)."
+        label="Get all documents updated after a given ISO8601 timestamp (included).",
     )
     updated_at__lte = IsoDateTimeFilter(
         field_name="updated_at",
         lookup_expr="lte",
-        label="Get all documents updated before a given ISO8601 timestamp (included)."
+        label="Get all documents updated before a given ISO8601 timestamp (included).",
     )
     updated_at__gt = IsoDateTimeFilter(
         field_name="updated_at",
         lookup_expr="gt",
-        label="Get all documents updated after a given ISO8601 timestamp (excluded)."
+        label="Get all documents updated after a given ISO8601 timestamp (excluded).",
     )
     updated_at__lt = IsoDateTimeFilter(
         field_name="updated_at",
         lookup_expr="lt",
-        label="Get all documents updated before a given ISO8601 timestamp (excluded)."
+        label="Get all documents updated before a given ISO8601 timestamp (excluded).",
     )
     has_launch = BooleanFilter(
         field_name="launches",
         lookup_expr="isnull",
         exclude=True,
-        label="Get all documents related to a launch."
+        label="Get all documents related to a launch using its Launch Library 2 ID.",
     )
     has_event = BooleanFilter(
         field_name="events",
         lookup_expr="isnull",
         exclude=True,
-        label="Get all documents related to an event."
+        label="Get all documents related to an event using its Launch Library 2 ID.",
     )
 
 
