@@ -149,13 +149,13 @@ class DocsFilter(FilterSet):
         field_name="launches",
         lookup_expr="isnull",
         exclude=True,
-        label="Get all documents that hava a launch related to them.",
+        label="Get all documents that have a related launch.",
     )
     has_event = BooleanFilter(
         field_name="events",
         lookup_expr="isnull",
         exclude=True,
-        label="Get all documents that hava an event related to them.",
+        label="Get all documents that have a related event.",
     )
 
 
