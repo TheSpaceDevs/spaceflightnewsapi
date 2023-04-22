@@ -23,6 +23,7 @@ jobs:
       DEBUG: $DEBUG
       LL_URL: $LL_URL
       SNAPI_VERSION: $SNAPI_VERSION
+      USE_MINIO: USE_MINIO
 
     name: Run the tests
     runs-on: ubuntu-latest
