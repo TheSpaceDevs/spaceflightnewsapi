@@ -19,7 +19,6 @@ jobs:
         with:
           compose-file: docker-compose.dev.yml
           compose-flags: "--build --force-recreate --remove-orphans"
-          compose-down-flags: "--volumes"
           down-flags: "--volumes"
 
 
