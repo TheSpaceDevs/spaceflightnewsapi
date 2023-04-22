@@ -16,7 +16,8 @@ jobs:
 
       - name: Docker Compose Action
         uses: isbang/compose-action@v1.4.1
-        down-flags: "--volumes"
+        with:
+          down-flags: "--volumes"
 
 
   push_to_registry:
