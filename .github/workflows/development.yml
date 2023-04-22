@@ -14,10 +14,8 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v3
 
-      - name: Docker Compose Action
-        uses: isbang/compose-action@v1.4.1
-        with:
-          compose-file: docker-compose.dev.yml
+      - name: Run the compose file
+        run: docker compose exec app python manage.py test
 
 
   push_to_registry:
