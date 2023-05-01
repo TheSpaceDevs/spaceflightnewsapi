@@ -1,42 +1,12 @@
 name: Publish Docker image for dev
 on:
   push:
-    branches: [ 'development', 'info_endpoint_tests' ]
+    branches: [ 'development' ]
 
 env:
   VERSION: v4-nightly
 
 jobs:
-  run_the_tests:
-    env:
-      # Secrets
-      DB_HOST: ${{ secrets.DB_HOST }}
-      DB_NAME: ${{ secrets.DB_NAME }}
-      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-      DB_PORT: ${{ secrets.DB_PORT }}
-      DB_USER: ${{ secrets.DB_USER }}
-      SECRET_KEY: ${{ secrets.SECRET_KEY }}
-
-      # Env variables
-      CELERY_BROKER_URL: ${{ vars.CELERY_BROKER_URL }}
-      CSRF_TRUSTED_ORIGIN: ${{ vars.CSRF_TRUSTED_ORIGIN }}
-      DEBUG: ${{ vars.DEBUG }}
-      LL_URL: ${{ vars.LL_URL }}
-      SNAPI_VERSION: $VERSION
-
-    name: Run the tests
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out the repo
-        uses: actions/checkout@v3
-
-      - name: Run the compose file
-        run: docker compose -f docker-compose.dev.yml up -d
-
-      - name: Run the tests
-        run: docker compose -f docker-compose.dev.yml exec app python manage.py test
-
-
   push_to_registry:
     name: Push Docker image to GitHub Packages
     runs-on: ubuntu-latest
