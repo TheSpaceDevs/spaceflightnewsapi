@@ -8,22 +8,7 @@ env:
 
 jobs:
   run_the_tests:
-    env:
-      # Secrets
-      DB_HOST: ${{ secrets.DB_HOST }}
-      DB_NAME: ${{ secrets.DB_NAME }}
-      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-      DB_PORT: ${{ secrets.DB_PORT }}
-      DB_USER: ${{ secrets.DB_USER }}
-      SECRET_KEY: ${{ secrets.SECRET_KEY }}
 
-      # Env variables
-      CELERY_BROKER_URL: $CELERY_BROKER_URL
-      CSRF_TRUSTED_ORIGIN: $CSRF_TRUSTED_ORIGIN
-      DEBUG: $DEBUG
-      LL_URL: $LL_URL
-      SNAPI_VERSION: $SNAPI_VERSION
-      USE_MINIO: USE_MINIO
 
     name: Run the tests
     runs-on: ubuntu-latest
