@@ -1,5 +1,7 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
+default_install_hook_types: [pre-commit, commit-msg]
+
 repos:
   - repo: https://github.com/psf/black
     rev: 23.3.0
@@ -17,4 +19,5 @@ repos:
     rev: v9.5.0
     hooks:
       - id: commitlint
+        stages: [commit-msg]
         additional_dependencies: ['@commitlint/config-conventional']
