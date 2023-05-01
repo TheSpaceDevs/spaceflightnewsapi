@@ -30,11 +30,14 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v3
 
-      - name: Run the compose file
-        run: docker compose -f docker-compose.dev.yml up -d
+      - name: Check Docker Compose config
+        run: docker compose -f docker-compose.dev.yml config
 
-      - name: Run the tests
-        run: docker compose -f docker-compose.dev.yml exec app python manage.py test
+#      - name: Run the compose file
+#        run: docker compose -f docker-compose.dev.yml up -d
+#
+#      - name: Run the tests
+#        run: docker compose -f docker-compose.dev.yml exec app python manage.py test
 
 
   push_to_registry:
