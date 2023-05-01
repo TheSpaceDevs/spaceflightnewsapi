@@ -22,7 +22,7 @@ jobs:
       CSRF_TRUSTED_ORIGIN: ${{ vars.CSRF_TRUSTED_ORIGIN }}
       DEBUG: ${{ vars.DEBUG }}
       LL_URL: ${{ vars.LL_URL }}
-      SNAPI_VERSION: ${{ env.VERSION }}
+      SNAPI_VERSION: $VERSION
 
     name: Run the tests
     runs-on: ubuntu-latest
