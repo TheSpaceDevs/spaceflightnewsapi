@@ -13,7 +13,8 @@ repos:
     hooks:
       - id: isort
 
-  - repo: https://github.com/commitizen-tools/commitizen
-    rev: 3.1.1
+  - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
+    rev: v9.5.0
     hooks:
-      - id: commitizen
+      - id: commitlint
+        additional_dependencies: ['@commitlint/config-conventional']
