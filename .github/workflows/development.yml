@@ -18,11 +18,11 @@ jobs:
       SECRET_KEY: ${{ secrets.SECRET_KEY }}
 
       # Env variables
-      CELERY_BROKER_URL: $CELERY_BROKER_URL
-      CSRF_TRUSTED_ORIGIN: $CSRF_TRUSTED_ORIGIN
-      DEBUG: $DEBUG
-      LL_URL: $LL_URL
-      SNAPI_VERSION: $SNAPI_VERSION
+      CELERY_BROKER_URL: CELERY_BROKER_URL
+      CSRF_TRUSTED_ORIGIN: CSRF_TRUSTED_ORIGIN
+      DEBUG: DEBUG
+      LL_URL: LL_URL
+      SNAPI_VERSION: SNAPI_VERSION
 
     name: Run the tests
     runs-on: ubuntu-latest
