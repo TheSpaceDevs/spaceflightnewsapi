@@ -14,8 +14,19 @@ services:
       - ./manage.py:/code/manage.py
     ports:
       - "8000:8000"
-    env_file:
-      - .env
+    environment:
+      - SNAPI_VERSION=${SNAPI_VERSION}
+      - DEBUG=${DEBUG}
+      - SECRET_KEY=${SECRET_KEY}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_HOST=${DB_HOST}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_PORT=${DB_PORT}
+      - LL_URL=${LL_URL}
+      - LL_TOKEN=${LL_TOKEN}
+      - CELERY_BROKER_URL=${CELERY_BROKER_URL}
+      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
     depends_on:
       - database
 
@@ -45,8 +56,15 @@ services:
       - ./api:/code/api
       - ./snapy:/code/snapy
       - ./manage.py:/code/manage.py
-    env_file:
-      - .env
+    environment:
+      - SNAPI_VERSION=${SNAPI_VERSION}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_HOST=${DB_HOST}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_PORT=${DB_PORT}
+      - CELERY_BROKER_URL=${CELERY_BROKER_URL}
+      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
     depends_on:
       - app
       - rabbitmq
@@ -60,8 +78,18 @@ services:
       - ./api:/code/api
       - ./snapy:/code/snapy
       - ./manage.py:/code/manage.py
-    env_file:
-      - .env
+    environment:
+      - SNAPI_VERSION=${SNAPI_VERSION}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_HOST=${DB_HOST}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_PORT=${DB_PORT}
+      - SECRET_KEY=${SECRET_KEY}
+      - LL_URL=${LL_URL}
+      - LL_TOKEN=${LL_TOKEN}
+      - CELERY_BROKER_URL=${CELERY_BROKER_URL}
+      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
     depends_on:
       - app
       - rabbitmq
