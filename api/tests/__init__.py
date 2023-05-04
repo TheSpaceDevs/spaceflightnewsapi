@@ -1,0 +1,2 @@
+from api.tests.article_endpoint_tests import TestArticleEndpoint
+from api.tests.info_endpoint_tests import TestInfoEndpoint
