@@ -63,3 +63,13 @@ class TestArticleEndpoint(APITestCase):
 
         self.assertEquals(response.status_code, 200)
         self.assertTrue(all(article["news_site"] == "Site 1" for article in articles))
+
+    def test_single_article(self):
+        all_articles = self.client.get("/v4/articles/").json()["results"]
+        single_article = random.choice(all_articles)
+        response = self.client.get(f"/v4/articles/{single_article['id']}/")
+        article = response.json()
+
+        self.assertEquals(response.status_code, 200)
+        self.assertEquals(article["title"], single_article["title"])
+        self.assertEquals(article["url"], single_article["url"])
