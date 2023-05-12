@@ -5,16 +5,19 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from api.models import NewsSite
-from api.serializers import NewsSiteSerializer
+from api.serializers import InfoSerializer
 
 
 class InfoView(APIView):
+    serializer_class = InfoSerializer
+    authentication_classes = []
+
     def get_news_sites(self) -> List[str]:
         news_sites = NewsSite.objects.all()
-        sites = [NewsSiteSerializer(site).data["name"] for site in news_sites]
+        sites = [site.name for site in news_sites]
 
         return sites
 
-    def get(self, _request):
+    def get(self, _request) -> Response:
         sites = self.get_news_sites()
         return Response({"version": settings.VERSION, "news_sites": sites})
