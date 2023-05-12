@@ -139,7 +139,6 @@ class TestArticleAndBlogEndpoints(APITestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(articles), 2)
 
-    # ####################
     def test_updated_at__gt(self):
         response = self.client.get("/v4/articles/?updated_at__gt=2021-01-05T00:00:00Z")
         articles = response.json()["results"]
