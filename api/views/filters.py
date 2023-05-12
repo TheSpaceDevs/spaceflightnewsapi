@@ -1,12 +1,12 @@
 from django.db.models import Q
 from django_filters import (
+    BaseInFilter,
+    BooleanFilter,
     CharFilter,
     FilterSet,
     IsoDateTimeFilter,
-    BooleanFilter,
-    UUIDFilter,
-    BaseInFilter,
     NumberFilter,
+    UUIDFilter,
 )
 
 
@@ -29,7 +29,7 @@ class CharInFilter(CharFilter):
             field_name=self.field_name,
             method=self.filter_keywords,
             label=f"Search for documents with a {self.field_name} present in a list of comma-separated values. Case "
-                  f"insensitive.",
+            f"insensitive.",
         )
 
     def filter_keywords(self, queryset, name, value):
@@ -49,7 +49,7 @@ class ContainsOneFilter(CharFilter):
             field_name=self.field_name,
             method=self.filter_keywords,
             label=f"Search for documents with a {self.field_name} containing at least one keyword from "
-                  f"comma-separated values.",
+            f"comma-separated values.",
         )
 
     def filter_keywords(self, queryset, name, value):
@@ -160,13 +160,58 @@ class DocsFilter(FilterSet):
 
 
 class ReportsFilters(FilterSet):
-    date = CharFilter(
-        field_name="published_at",
-        lookup_expr="date",
-        label="Search for all reports published on a specific date (YYYY-MM-DD).",
+    title_contains = CharFilter(
+        field_name="title",
+        lookup_expr="icontains",
+        label="Search for all documents with a specific phrase in the title.",
     )
-    summary = CharFilter(
+    title_contains_one = ContainsOneFilter(field_name="title")
+    title_contains_all = ContainsAllFilter(field_name="title")
+    summary_contains = CharFilter(
         field_name="summary",
         lookup_expr="icontains",
-        label="Search for all reports with a specific phrase in the summary.",
+        label="Search for all documents with a specific phrase in the summary.",
     )
+    summary_contains_one = ContainsOneFilter(field_name="summary")
+    summary_contains_all = ContainsAllFilter(field_name="summary")
+    published_at__gte = IsoDateTimeFilter(
+        field_name="published_at",
+        lookup_expr="gte",
+        label="Get all documents published after a given ISO8601 timestamp (included).",
+    )
+    published_at__lte = IsoDateTimeFilter(
+        field_name="published_at",
+        lookup_expr="lte",
+        label="Get all documents published before a given ISO8601 timestamp (included).",
+    )
+    published_at__gt = IsoDateTimeFilter(
+        field_name="published_at",
+        lookup_expr="gt",
+        label="Get all documents published after a given ISO8601 timestamp (excluded).",
+    )
+    published_at__lt = IsoDateTimeFilter(
+        field_name="published_at",
+        lookup_expr="lt",
+        label="Get all documents published before a given ISO8601 timestamp (excluded).",
+    )
+    updated_at__gte = IsoDateTimeFilter(
+        field_name="updated_at",
+        lookup_expr="gte",
+        label="Get all documents updated after a given ISO8601 timestamp (included).",
+    )
+    updated_at__lte = IsoDateTimeFilter(
+        field_name="updated_at",
+        lookup_expr="lte",
+        label="Get all documents updated before a given ISO8601 timestamp (included).",
+    )
+    updated_at__gt = IsoDateTimeFilter(
+        field_name="updated_at",
+        lookup_expr="gt",
+        label="Get all documents updated after a given ISO8601 timestamp (excluded).",
+    )
+    updated_at__lt = IsoDateTimeFilter(
+        field_name="updated_at",
+        lookup_expr="lt",
+        label="Get all documents updated before a given ISO8601 timestamp (excluded).",
+    )
+    news_site = CharInFilter(field_name="news_site__name")

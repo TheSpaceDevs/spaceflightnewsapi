@@ -3,3 +3,4 @@
 .github
 .pre-commit-config.yaml
 scripts
+.venv
