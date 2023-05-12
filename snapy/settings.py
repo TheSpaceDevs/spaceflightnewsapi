@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 import os
-from distutils.util import strtobool
 from pathlib import Path
 
 import sentry_sdk
@@ -176,7 +175,7 @@ SPECTACULAR_SETTINGS = {
     "TITLE": "Spaceflight News API",
     "DESCRIPTION": "The Most Complete Spaceflight Related News API 🚀",
     "VERSION": VERSION,
-    "SERVE_INCLUDE_SCHEMA": True,
+    "SERVE_INCLUDE_SCHEMA": False,
     "CONTACT": {"email": "derk@spaceflightnewsapi.net"},
     "SCHEMA_PATH_PREFIX": "/v4",
 }
