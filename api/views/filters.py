@@ -79,7 +79,7 @@ class ContainsAllFilter(CharFilter):
         return queryset.filter(q)
 
 
-class DocsFilter(FilterSet):
+class BaseFilter(FilterSet):
     title_contains = CharFilter(
         field_name="title",
         lookup_expr="icontains",
@@ -94,16 +94,6 @@ class DocsFilter(FilterSet):
         field_name="summary",
         lookup_expr="icontains",
         label="Search for all documents with a specific phrase in the summary.",
-    )
-    launch = UUIDInFilter(
-        field_name="launches__launch_id",
-        lookup_expr="in",
-        help_text="Search for all documents related to a specific launch using its Launch Library 2 ID.",
-    )
-    event = NumberInFilter(
-        field_name="events__event_id",
-        lookup_expr="in",
-        help_text="Search for all documents related to a specific event using its Launch Library 2 ID.",
     )
     published_at__gte = IsoDateTimeFilter(
         field_name="published_at",
@@ -144,6 +134,19 @@ class DocsFilter(FilterSet):
         field_name="updated_at",
         lookup_expr="lt",
         label="Get all documents updated before a given ISO8601 timestamp (excluded).",
+    )
+
+
+class DocsFilter(BaseFilter):
+    launch = UUIDInFilter(
+        field_name="launches__launch_id",
+        lookup_expr="in",
+        help_text="Search for all documents related to a specific launch using its Launch Library 2 ID.",
+    )
+    event = NumberInFilter(
+        field_name="events__event_id",
+        lookup_expr="in",
+        help_text="Search for all documents related to a specific event using its Launch Library 2 ID.",
     )
     has_launch = BooleanFilter(
         field_name="launches",
@@ -157,61 +160,3 @@ class DocsFilter(FilterSet):
         exclude=True,
         label="Get all documents that have a related event.",
     )
-
-
-class ReportsFilters(FilterSet):
-    title_contains = CharFilter(
-        field_name="title",
-        lookup_expr="icontains",
-        label="Search for all documents with a specific phrase in the title.",
-    )
-    title_contains_one = ContainsOneFilter(field_name="title")
-    title_contains_all = ContainsAllFilter(field_name="title")
-    summary_contains = CharFilter(
-        field_name="summary",
-        lookup_expr="icontains",
-        label="Search for all documents with a specific phrase in the summary.",
-    )
-    summary_contains_one = ContainsOneFilter(field_name="summary")
-    summary_contains_all = ContainsAllFilter(field_name="summary")
-    published_at__gte = IsoDateTimeFilter(
-        field_name="published_at",
-        lookup_expr="gte",
-        label="Get all documents published after a given ISO8601 timestamp (included).",
-    )
-    published_at__lte = IsoDateTimeFilter(
-        field_name="published_at",
-        lookup_expr="lte",
-        label="Get all documents published before a given ISO8601 timestamp (included).",
-    )
-    published_at__gt = IsoDateTimeFilter(
-        field_name="published_at",
-        lookup_expr="gt",
-        label="Get all documents published after a given ISO8601 timestamp (excluded).",
-    )
-    published_at__lt = IsoDateTimeFilter(
-        field_name="published_at",
-        lookup_expr="lt",
-        label="Get all documents published before a given ISO8601 timestamp (excluded).",
-    )
-    updated_at__gte = IsoDateTimeFilter(
-        field_name="updated_at",
-        lookup_expr="gte",
-        label="Get all documents updated after a given ISO8601 timestamp (included).",
-    )
-    updated_at__lte = IsoDateTimeFilter(
-        field_name="updated_at",
-        lookup_expr="lte",
-        label="Get all documents updated before a given ISO8601 timestamp (included).",
-    )
-    updated_at__gt = IsoDateTimeFilter(
-        field_name="updated_at",
-        lookup_expr="gt",
-        label="Get all documents updated after a given ISO8601 timestamp (excluded).",
-    )
-    updated_at__lt = IsoDateTimeFilter(
-        field_name="updated_at",
-        lookup_expr="lt",
-        label="Get all documents updated before a given ISO8601 timestamp (excluded).",
-    )
-    news_site = CharInFilter(field_name="news_site__name")
