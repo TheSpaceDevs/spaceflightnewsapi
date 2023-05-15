@@ -8,6 +8,7 @@ from django_filters import (
     NumberFilter,
     UUIDFilter,
 )
+from rest_framework import filters
 
 
 class UUIDInFilter(BaseInFilter, UUIDFilter):
@@ -159,4 +160,10 @@ class DocsFilter(BaseFilter):
         lookup_expr="isnull",
         exclude=True,
         label="Get all documents that have a related event.",
+    )
+
+
+class SearchFilter(filters.SearchFilter):
+    search_description = (
+        "Search for documents with a specific phrase in the title or summary."
     )

@@ -3,7 +3,7 @@ from rest_framework import filters, viewsets
 
 from api.models import Article
 from api.serializers import ArticleSerializer
-from api.views.filters import DocsFilter
+from api.views.filters import DocsFilter, SearchFilter
 
 
 class ArticleViewSet(viewsets.ReadOnlyModelViewSet):
@@ -12,7 +12,7 @@ class ArticleViewSet(viewsets.ReadOnlyModelViewSet):
     authentication_classes = []
     filter_backends = [
         rest_framework.DjangoFilterBackend,
-        filters.SearchFilter,
+        SearchFilter,
         filters.OrderingFilter,
     ]
     filterset_class = DocsFilter
