@@ -104,9 +104,7 @@ class TestArticleAndBlogEndpoints(APITestCase):
         self.assertEqual(len(articles), 2)
 
     def test_published_at__gt(self):
-        response = self.client.get(
-            "/v4/articles/?published_at__gt=2021-01-01T00:00:00Z"
-        )
+        response = self.client.get("/v4/articles/?published_at_gt=2021-01-01T00:00:00Z")
         articles = response.json()["results"]
 
         self.assertEqual(response.status_code, 200)
@@ -114,7 +112,7 @@ class TestArticleAndBlogEndpoints(APITestCase):
 
     def test_published_at__gte(self):
         response = self.client.get(
-            "/v4/articles/?published_at__gte=2021-01-01T00:00:00Z"
+            "/v4/articles/?published_at_gte=2021-01-01T00:00:00Z"
         )
         articles = response.json()["results"]
 
@@ -122,9 +120,7 @@ class TestArticleAndBlogEndpoints(APITestCase):
         self.assertEqual(len(articles), 3)
 
     def test_published_at__lt(self):
-        response = self.client.get(
-            "/v4/articles/?published_at__lt=2021-02-01T00:00:00Z"
-        )
+        response = self.client.get("/v4/articles/?published_at_lt=2021-02-01T00:00:00Z")
         articles = response.json()["results"]
 
         self.assertEqual(response.status_code, 200)
@@ -132,7 +128,7 @@ class TestArticleAndBlogEndpoints(APITestCase):
 
     def test_published_at__lte(self):
         response = self.client.get(
-            "/v4/articles/?published_at__lte=2021-02-01T00:00:00Z"
+            "/v4/articles/?published_at_lte=2021-02-01T00:00:00Z"
         )
         articles = response.json()["results"]
 
@@ -140,21 +136,21 @@ class TestArticleAndBlogEndpoints(APITestCase):
         self.assertEqual(len(articles), 2)
 
     def test_updated_at__gt(self):
-        response = self.client.get("/v4/articles/?updated_at__gt=2021-01-05T00:00:00Z")
+        response = self.client.get("/v4/articles/?updated_at_gt=2021-01-05T00:00:00Z")
         articles = response.json()["results"]
 
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(articles), 2)
 
     def test_updated_at__gte(self):
-        response = self.client.get("/v4/articles/?updated_at__gte=2021-01-01T00:00:00Z")
+        response = self.client.get("/v4/articles/?updated_at_gte=2021-01-01T00:00:00Z")
         articles = response.json()["results"]
 
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(articles), 3)
 
     def test_updated_at__lt(self):
-        response = self.client.get("/v4/articles/?updated_at__lt=2021-03-05T00:00:00Z")
+        response = self.client.get("/v4/articles/?updated_at_lt=2021-03-05T00:00:00Z")
         articles = response.json()["results"]
 
         self.assertEqual(response.status_code, 200)
@@ -162,7 +158,7 @@ class TestArticleAndBlogEndpoints(APITestCase):
 
     #
     def test_updated_at__lte(self):
-        response = self.client.get("/v4/articles/?updated_at__lte=2021-03-05T00:00:00Z")
+        response = self.client.get("/v4/articles/?updated_at_lte=2021-03-05T00:00:00Z")
         articles = response.json()["results"]
 
         self.assertEqual(response.status_code, 200)
