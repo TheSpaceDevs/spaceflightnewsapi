@@ -22,4 +22,3 @@ class NewsItem(models.Model):
 
     class Meta:
         abstract = True
-        ordering = ["-published_at"]
