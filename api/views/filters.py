@@ -96,42 +96,42 @@ class BaseFilter(FilterSet):
         lookup_expr="icontains",
         label="Search for all documents with a specific phrase in the summary.",
     )
-    published_at__gte = IsoDateTimeFilter(
+    published_at_gte = IsoDateTimeFilter(
         field_name="published_at",
         lookup_expr="gte",
         label="Get all documents published after a given ISO8601 timestamp (included).",
     )
-    published_at__lte = IsoDateTimeFilter(
+    published_at_lte = IsoDateTimeFilter(
         field_name="published_at",
         lookup_expr="lte",
         label="Get all documents published before a given ISO8601 timestamp (included).",
     )
-    published_at__gt = IsoDateTimeFilter(
+    published_at_gt = IsoDateTimeFilter(
         field_name="published_at",
         lookup_expr="gt",
         label="Get all documents published after a given ISO8601 timestamp (excluded).",
     )
-    published_at__lt = IsoDateTimeFilter(
+    published_at_lt = IsoDateTimeFilter(
         field_name="published_at",
         lookup_expr="lt",
         label="Get all documents published before a given ISO8601 timestamp (excluded).",
     )
-    updated_at__gte = IsoDateTimeFilter(
+    updated_at_gte = IsoDateTimeFilter(
         field_name="updated_at",
         lookup_expr="gte",
         label="Get all documents updated after a given ISO8601 timestamp (included).",
     )
-    updated_at__lte = IsoDateTimeFilter(
+    updated_at_lte = IsoDateTimeFilter(
         field_name="updated_at",
         lookup_expr="lte",
         label="Get all documents updated before a given ISO8601 timestamp (included).",
     )
-    updated_at__gt = IsoDateTimeFilter(
+    updated_at_gt = IsoDateTimeFilter(
         field_name="updated_at",
         lookup_expr="gt",
         label="Get all documents updated after a given ISO8601 timestamp (excluded).",
     )
-    updated_at__lt = IsoDateTimeFilter(
+    updated_at_lt = IsoDateTimeFilter(
         field_name="updated_at",
         lookup_expr="lt",
         label="Get all documents updated before a given ISO8601 timestamp (excluded).",
