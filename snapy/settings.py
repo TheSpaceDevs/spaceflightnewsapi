@@ -173,10 +173,18 @@ REST_FRAMEWORK = {
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "Spaceflight News API",
-    "DESCRIPTION": "The Most Complete Spaceflight Related News API 🚀",
+    "DESCRIPTION": "The Spaceflight News API (SNAPI) is a product by [The Space Devs](https://thespacedevs.com) (TSD). It's the most complete and up-to-date spaceflight news API currently available."
+    "\n\nWhile this API is **free to use**, we do encourage developers to support us through [Patreon](https://www.patreon.com/TheSpaceDevs) to keep the API up and running."
+    "\n\n ### FAQs & Tutorials"
+    "\n\n - [GitHub repository](https://github.com/TheSpaceDevs/Tutorials/): contains FAQs and tutorials for TSD APIs"
+    "\n\n - [TSD FAQ](https://github.com/TheSpaceDevs/Tutorials/blob/main/faqs/faq_TSD.md): TSD-specific FAQ (e.g. history, network, funding, etc.)"
+    "\n\n - [SNAPI FAQ](https://github.com/TheSpaceDevs/Tutorials/blob/main/faqs/faq_SNAPI.md): SNAPI-specific FAQ"
+    "\n\n ### Feedback & Support"
+    "\n\n If you need any help with SNAPI, you can ask in the "
+    "[`💬feedback-and-help`](https://discord.com/channels/676725644444565514/1019976345884827750) forum of the TSD "
+    "[Discord server](https://discord.gg/p7ntkNA) or email [derk@spaceflightnewsapi.net](mailto:derk@spaceflightnewsapi.net).",
     "VERSION": VERSION,
     "SERVE_INCLUDE_SCHEMA": False,
-    "CONTACT": {"email": "derk@spaceflightnewsapi.net"},
     "SCHEMA_PATH_PREFIX": "/v4",
 }
 
