@@ -23,7 +23,7 @@ In the Spring of 2021, Strapi announced that they would retire support for Mongo
 Version 3 of the API is exactly the same as version 2 (in terms of the response), except the ID's. These changed from ObjectID's (strings) to integers.
 
 ## Version 4
-In 2023 SNAPI V3 launched, completely re-written in Python (Django) for various reasons.
+In 2023 SNAPI V4 launched, completely re-written in Python (Django) for various reasons.
 Using proven libraries, this version is focussed on long-term stability and maintainability.
 
 ## Launch Library 2 integration
@@ -33,22 +33,41 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 ## Currently imported news sites
 
-- Nasaspaceflight,
-- Spacex,
-- Spaceflightnow,
-- Space.com,
-- Spacenews,
-- Nasa,
-- Phys,
-- Arstechnica,
-- Blueorigin,
-- Spaceflightinsider,
-- Thejapantimes,
-- Theverge,
-- Teslarati,
-- Elonx,
-- Virgingalactic,
-- Esa
+* TechCrunch
+* SpaceFlight Insider
+* SpaceX
+* ElonX
+* Blue Origin
+* Spaceflight Now
+* Space.com
+* Teslarati
+* Virgin Galactic
+* Planetary Society
+* Phys
+* National Space Society
+* The Japan Times
+* National Geographic
+* SpaceNews
+* The National
+* Jet Propulsion Laboratory
+* NASA
+* The Space Review
+* The Verge
+* The Drive
+* Arstechnica
+* ESA
+* The Space Devs
+* AmericaSpace
+* The Wall Street Journal
+* CNBC
+* United Launch Alliance
+* Reuters
+* The New York Times
+* euronews
+* European Spaceflight Update
+* NASASpaceflight
+* SyFy
+* The Launch Pad
 
 ## Currently imported blog sites
 
@@ -56,7 +75,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - National Space Society
 
 ## Changelog
-# V4.0.0-alpha
+# V4.0.0
 
 - Rewritten in Python and Django.
 
