@@ -19,8 +19,13 @@ LABEL org.opencontainers.image.source https://github.com/TheSpaceDevs/spacefligh
 ARG RELEASE_VERSION
 ENV SNAPI_VERSION=$RELEASE_VERSION
 
+RUN groupadd appuser \
+    && useradd -g appuser -m appuser
+
+USER appuser
+
 WORKDIR /code/
-COPY --from=builder /code /code
-COPY . /code
+COPY --chown=appuser --from=builder /code /code
+COPY --chown=appuser . /code
 ENV PATH="/code/.venv/bin:$PATH"
 EXPOSE 8000
