@@ -11,10 +11,11 @@ RUN groupadd --system $APP_USER && \
     useradd --system --gid $APP_USER --home $APP_HOME $APP_USER
 
 WORKDIR ${APP_HOME}
-ADD --chown=${APP_USER}:${APP_USER} pyproject.toml poetry.lock ./
 
 RUN pip install poetry
 RUN poetry config virtualenvs.in-project true
+
+ADD --chown=${APP_USER}:${APP_USER} pyproject.toml poetry.lock ./
 RUN poetry install --no-interaction --no-root --no-ansi
 
 
