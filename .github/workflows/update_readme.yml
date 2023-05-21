@@ -22,7 +22,7 @@ jobs:
         with:                                 
           python-version: '3.8'                                                   
       - name: 💿 Install Jinja2 & requests                           
-        run: pip install Jinja2 requests opencv-python
+        run: pip install Jinja2 requests
       - name: 🍳 Update README
         run: |
           cd ${GITHUB_WORKSPACE}/profile/src/
