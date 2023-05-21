@@ -38,7 +38,6 @@ jobs:
           gh auth setup-git
           git config user.name "snapi-readme-automation[bot]"
           git config user.email "134203124+snapi-readme-automation[bot]@users.noreply.github.com"
-          git config --list --show-origin
           git add .
           git commit -am "feat(auto generated): Updated README"
           git push --all https://github.com/${GITHUB_REPOSITORY}.git
