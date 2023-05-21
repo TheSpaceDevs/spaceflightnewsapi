@@ -35,8 +35,6 @@ jobs:
           GH_TOKEN: ${{ steps.get_installation_token.outputs.token }}
         run: |
           gh auth status
-          gh auth login
-          gh auth status
           gh auth setup-git
           git add .
           git commit -am "feat(auto generate): Updated README"
