@@ -19,7 +19,16 @@ jobs:
       - name: 🍽️ Get working copy
         uses: actions/checkout@master
         with:
-          fetch-depth: 1                                                                 
+          fetch-depth: 1
+      - name: Create branch
+        env:
+          GH_TOKEN: ${{ secrets.SNAPI_BOT_TOKEN }}
+        run: |
+          gh auth setup-git
+          gh auth status
+          git config user.name "snapi-bot"
+          git config user.email "134217814+snapi-bot@users.noreply.github.com"
+          git checkout -b readme-update
       - name: 🐍 Set up Python 3.8                               
         uses: actions/setup-python@v2                               
         with:                                 
@@ -34,10 +43,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.SNAPI_BOT_TOKEN }}
         run: |
-          gh auth setup-git
-          gh auth status
-          git config user.name "snapi-bot"
-          git config user.email "134217814+snapi-bot@users.noreply.github.com"
+          git remote add readme-remote readme-update
           git add .
           git commit -am "feat(auto generate): Updated content"
-          git push --all -f https://snapi-bot:${{ secrets.SNAPI_BOT_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+          git push -f readme-update https://snapi-bot:${{ secrets.SNAPI_BOT_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+          git merge readme-remote/main
+          git push origin :readme-update
