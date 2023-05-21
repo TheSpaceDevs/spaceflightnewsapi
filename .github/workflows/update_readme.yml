@@ -39,5 +39,5 @@ jobs:
           git config user.name "snapi-readme-automation[bot]"
           git config user.email "134203124+snapi-readme-automation[bot]@users.noreply.github.com"
           git add .
-          git commit -am "feat(auto): Updated README"
+          git commit -am "feat(auto generated): Updated README"
           git push --all https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
