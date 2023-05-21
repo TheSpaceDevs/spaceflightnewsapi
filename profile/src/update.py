@@ -11,47 +11,9 @@ SNAPI_BLOGS_ENDPOINT = "https://api.spaceflightnewsapi.net/v4/blogs"
 SNAPI_INFO_ENDPOINT = "https://api.spaceflightnewsapi.net/v4/info"
 BASE_TIME_URL = "https://www.timeanddate.com/worldclock/fixedtime.html?iso={iso}"
 CACHE_DIR = "../cache"
-ISO3_JSON = "http://country.io/iso3.json"
-BASE_GOOGLE_CALENDAR_URL = "https://www.google.com/calendar/render?action=TEMPLATE&text={text}&location={location}&dates={date1}%2F{date2}"
-
-# STATUS_MAP = {
-#     "Go": '[🟩](https://ll.thespacedevs.com/2.2.0/config/launchstatus/1/ "Go for Launch") ',
-#     "TBC": '[🟨](https://ll.thespacedevs.com/2.2.0/config/launchstatus/8/ "To Be Confirmed") ',
-#     "TBD": '[🟧](https://ll.thespacedevs.com/2.2.0/config/launchstatus/2/ "To Be Determined") ',
-#     "Hold": '[🟪](https://ll.thespacedevs.com/2.2.0/config/launchstatus/5/ "On Hold") ',
-# }
 
 # create cache dir if it doesnt exist
 os.makedirs(CACHE_DIR, exist_ok=True)
-
-
-# def first_letter_lower(s):
-#     return s[0].lower() + s[1:]
-
-
-# def status_emoji(status):
-#     return STATUS_MAP[status]
-
-
-# def make_google_calender_url(launch):
-#     return BASE_GOOGLE_CALENDAR_URL.format(
-#         text=html.escape(launch["name"]),
-#         location=html.escape(launch["pad"]["location"]["name"]),
-#         date1=time.strftime(
-#             "%Y%m%dT%H%M%SZ",
-#             time.strptime(launch["window_start"], "%Y-%m-%dT%H:%M:%SZ"),
-#         ),
-#         date2=time.strftime(
-#             "%Y%m%dT%H%M%SZ", time.strptime(launch["window_end"], "%Y-%m-%dT%H:%M:%SZ")
-#         ),
-#     )
-#
-#
-# def make_google_calender_href_icon(launch):
-#     """
-#     create a google calendar href icon
-#     """
-#     return f'<a href="{make_google_calender_url(launch)}"><img border="0" width="15" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Calendar_icon_%282020%29.svg"></a>'
 
 
 def make_time_and_date_link(timestamp):
@@ -63,53 +25,12 @@ def make_time_and_date_link(timestamp):
     return BASE_TIME_URL.format(iso=iso)
 
 
-# def get_iso3_to_iso2_country_map():
-#     """
-#     Get the map from iso3 to iso2
-#     """
-#     # Check if file does not exist
-#     if not os.path.exists(CACHE_DIR + "/iso3.json"):
-#         # get the json
-#         r = requests.get(ISO3_JSON)
-#         # write the json to a file
-#         with open(CACHE_DIR + "/iso3.json", "w") as f:
-#             json.dump(r.json(), f)
-#         iso3 = r.json()
-#     else:
-#         # read the json from a file
-#         with open(CACHE_DIR + "/iso3.json", "r") as f:
-#             iso3 = json.load(f)
-#
-#     # create a map from iso3 to iso2
-#     iso3_to_iso2 = {}
-#     for k, v in iso3.items():
-#         iso3_to_iso2[v] = k
-#
-#     return iso3_to_iso2
-#
-#
-# ISO3_2_ISO2 = get_iso3_to_iso2_country_map()
-
-
 def make_datetime_human_readable(timestamp):
     """
     make a timestamp human readable
     """
-    # get the timestamp
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S UTC", timestamp)
-    # timestamp = time.strftime("%B %d, %Y UTC", timestamp)
     return timestamp
-
-
-#
-# def make_markdown_linked_time(timestamp):
-#     """
-#     create a link to a time and date
-#     """
-#     # convert the timestamp to a string in iso format
-#     s = make_datetime_human_readable(timestamp)
-#     url = make_time_and_date_link(timestamp)
-#     return f"[{s}]({url})"
 
 
 def make_html_linked_time(timestamp):
@@ -120,43 +41,6 @@ def make_html_linked_time(timestamp):
     s = make_datetime_human_readable(timestamp)
     url = make_time_and_date_link(timestamp)
     return f'<a href="{url}">{s}</a>'
-
-
-# def add_a_an(s):
-#     if s[0] in "aeiouAEIOU":
-#         return "an " + s
-#     else:
-#         return "a " + s
-
-
-# def parse_launch_windows_to_datetime(launches):
-#     for launch in launches:
-#         # get datetime from window_start string
-#         launch["datetime"] = time.strptime(launch["window_start"], "%Y-%m-%dT%H:%M:%SZ")
-#     return launches
-
-
-# def get_country_flag_svg(iso3_country_code, country_reassign):
-#     if iso3_country_code:
-#         if country_reassign:
-#             if iso3_country_code == "KAZ":
-#                 iso3_country_code = "RUS"
-#             elif iso3_country_code == "GUF":
-#                 iso3_country_code = "FRA"
-#         # convert iso3 to iso2
-#         iso2_country_code = ISO3_2_ISO2[iso3_country_code]
-#         return f"https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/{iso2_country_code.lower()}.svg"
-#     return f"https://upload.wikimedia.org/wikipedia/commons/e/ef/International_Flag_of_Planet_Earth.svg"
-
-
-# def parse_launches_within_a_month(launches):
-#     upcoming_launches = []
-#     t_now = time.mktime(time.localtime())
-#     for i, launch in enumerate(launches):
-#         t_launch = time.mktime(launch["datetime"])
-#         if (t_launch > t_now) & (t_launch < t_now + 2592000):
-#             upcoming_launches.append(launch)
-#     return upcoming_launches
 
 
 def get_launches(IDs: List[str]) -> List[Dict]:
