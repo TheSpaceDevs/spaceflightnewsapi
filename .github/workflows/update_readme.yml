@@ -10,6 +10,19 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Obtain GitHub App Installation Access Token
+        id: githubAppAuth
+        run: |
+         TOKEN="$(npx obtain-github-app-installation-access-token ci ${{ secrets.SNAPI_APP_CREDENTIALS_TOKEN }})"
+         echo "::add-mask::$TOKEN"
+         echo "::set-output name=token::$TOKEN"
+      - name: Use the obtained token
+        run: |
+          curl -X POST -H 'Content-Type: application/json' \
+            -d '{"context":"test","state":"success"}' \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA?access_token=$GITHUB_TOKEN"
+        env:
+          GITHUB_TOKEN: ${{ steps.githubAppAuth.outputs.token }}
       - name: 🍽️ Get working copy
         uses: actions/checkout@master
         with:
