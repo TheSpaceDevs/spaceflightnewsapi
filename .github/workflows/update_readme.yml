@@ -37,4 +37,3 @@ jobs:
           git add .
           git commit -am "feat(auto generate): Updated README"
           git push --all -f https://${{ steps.githubAppAuth.outputs.token }}@github.com/${GITHUB_REPOSITORY}.git
-t
