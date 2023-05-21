@@ -185,5 +185,5 @@ if __name__ == "__main__":
     output = template.render(**data)
 
     # write output
-    with open(os.path.join("../..", "README.md"), "w", encoding="utf-8") as f:
+    with open(os.path.join("../../..", "README.md"), "w", encoding="utf-8") as f:
         f.write(output)
