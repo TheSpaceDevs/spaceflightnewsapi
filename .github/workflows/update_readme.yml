@@ -35,8 +35,8 @@ jobs:
           GITHUB_JWT: ${{ steps.generate-github-app-tokens.outputs.jwt }}
           APP_TOKEN: ${{ steps.generate-github-app-tokens.outputs.access-token }}
         run: |
-          export GITHUB_TOKEN=$( curl -s -X POST -H "Authorization: Bearer ${GITHUB_JWT}" -H "Accept: application/vnd.github.v3+json" ${APP_TOKEN} | yq r - token )
+          gh auth login --with-token ${APP_TOKEN}
           gh auth setup-git
           git add .
           git commit -am "feat(auto generate): Updated README"
-          git push --all -f https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          git push --all -f https://x-access-token:${APP_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
