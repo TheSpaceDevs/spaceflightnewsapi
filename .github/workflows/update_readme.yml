@@ -15,7 +15,7 @@ jobs:
         uses: tibdex/github-app-token@v1
         with:
           app_id: ${{ secrets.SNAPI_APP_ID }}
-          private_key: ${{ secrets.SNAPI_APP_PRIVATE_KEY_CLEAN }}
+          private_key: ${{ secrets.SNAPI_APP_PRIVATE_KEY }}
       - name: 🍽️ Get working copy
         uses: actions/checkout@master
         with:
