@@ -13,7 +13,7 @@ class InfoView(APIView):
     authentication_classes = []
 
     def get_news_sites(self) -> List[str]:
-        news_sites = NewsSite.objects.all()
+        news_sites = NewsSite.objects.all().order_by("name")
         sites = [site.name for site in news_sites]
 
         return sites
