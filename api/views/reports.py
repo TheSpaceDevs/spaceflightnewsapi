@@ -15,6 +15,6 @@ class ReportViewSet(viewsets.ReadOnlyModelViewSet):
         SearchFilter,
         filters.OrderingFilter,
     ]
-    search_fields = ["title", "summary"]
+    search_fields = ["title", "summary", "news_site__name"]
     ordering = ["-published_at"]
     ordering_fields = ["published_at", " updated_at"]
