@@ -36,6 +36,7 @@ jobs:
           APP_TOKEN: ${{ steps.generate-github-app-tokens.outputs.access-token }}
           GH_TOKEN: ${{ steps.generate-github-app-tokens.outputs.access-token }}
         run: |
+          gh auth login
           gh auth setup-git
           git add .
           git commit -am "feat(auto generate): Updated README"
