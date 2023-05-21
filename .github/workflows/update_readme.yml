@@ -34,8 +34,8 @@ jobs:
         env:
           GITHUB_JWT: ${{ steps.generate-github-app-tokens.outputs.jwt }}
           APP_TOKEN: ${{ steps.generate-github-app-tokens.outputs.access-token }}
+          GH_TOKEN: ${{ steps.generate-github-app-tokens.outputs.access-token }}
         run: |
-          gh auth login --with-token < ${APP_TOKEN}
           gh auth setup-git
           git add .
           git commit -am "feat(auto generate): Updated README"
