@@ -29,6 +29,7 @@ jobs:
           git config user.name "snapi-bot"
           git config user.email "134217814+snapi-bot@users.noreply.github.com"
           git checkout -b readme-update
+          git push origin readme-update
       - name: 🐍 Set up Python 3.8                               
         uses: actions/setup-python@v2                               
         with:                                 
