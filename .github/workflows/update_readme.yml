@@ -35,7 +35,7 @@ jobs:
         run: pip install Jinja2 requests
       - name: 🍳 Update README
         run: |
-          cd ${GITHUB_WORKSPACE}/profile/src/
+          cd ${GITHUB_WORKSPACE}/.github/profile/src/
           python update.py
       - name: 🚀 Deploy
         run: |
