@@ -1,0 +1,98 @@
+![Cover](https://raw.githubusercontent.com/TheSpaceDevs/spaceflightnewsapi/main/profile/assets/snapi_cover.png)
+
+[![Website](https://raw.githubusercontent.com/TheSpaceDevs/spaceflightnewsapi/main/profile/assets/badge_snapi_website.svg)](https://spaceflightnewsapi.net/)
+[![Documentation](https://raw.githubusercontent.com/TheSpaceDevs/spaceflightnewsapi/main/profile/assets/badge_snapi_doc.svg)](https://api.spaceflightnewsapi.net/v4/docs)
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
+
+## Spaceflight News API
+The Spaceflight News API was created as a solution for my problem when I wanted to develop an app for Spaceflight News: many (great!) news sites with different API's.
+
+To make it easier for myself, I began a project that would aggegrate metadata from those news sites and publish them through an API. Since there are others that might benefit from this API, I decided make the API publicly available.
+
+There are great apps out on the internet, that are connected to services like <https://thespacedevs.com/>. By making this API available to everyone, I hope to open new doors for the developers of these apps.
+
+
+## API Showcase - Launch Library 2 🚀
+
+### Next Launch ⌛
+The next space launch, retrieved from our
+<a href="https://thespacedevs.com/llapi">Launch Library 2 API</a>, is
+**{{ next_launch.name }}**. It is scheduled to be launched by *{{ next_launch.launch_service_provider.name }}*
+<img width="17" src="{{get_country_flag_svg(next_launch.launch_service_provider.country_code, country_reassign=False)}}" />
+from *<a href="{{ next_launch.pad.wiki_url }}">{{ next_launch.pad.name }}</a>, {{ next_launch.pad.location.name }}*
+<img width="17" src="{{get_country_flag_svg(next_launch.pad.location.country_code, country_reassign=False)}}" />
+at {{ make_html_linked_time(next_launch.datetime) }}.  Until
+then, this pad will have been used for {{ next_launch.pad.total_launch_count }}
+out of {{ next_launch.pad.location.total_launch_count }} launches from this location. The launch status is currently
+*{{ next_launch.status.abbrev }}* {{ status_emoji(next_launch.status.abbrev) }}. The mission type is
+*{{ next_launch.mission.type }}* and the payload will be injected
+into *{{ add_a_an(next_launch.mission.orbit.name) }}
+({{ next_launch.mission.orbit.abbrev }})*.
+<br>
+<blockquote>
+  {{ next_launch.mission.description }}
+</blockquote>
+
+<p float="left" align="center">
+  <a href="{{ next_launch.rocket.configuration.wiki_url }}" >
+    <img alt="launch-image" width="49%" src="{{ next_launch.cached_launch_image }}" />
+  </a>
+  <a href="{{ next_launch.pad.map_url }}" >
+    <img alt="pad-location" width="49%" src="{{ next_launch.cached_location_image }}"  />
+  </a>
+</p>
+
+### Within a month's time 📅
+{% for launch in parse_launches_within_a_month(launches) -%}
+- \[{{ make_html_linked_time(launch.datetime) }}\]  <img width="17" src="{{get_country_flag_svg(launch.pad.location.country_code, country_reassign=True)}}" /> {{ status_emoji(launch.status.abbrev) }} {{ make_google_calender_href_icon(launch) }} **{{ launch.name }}** from {{ launch.pad.location.name }}.
+{% endfor %}
+
+### Launch Statuses 🟩🟨🟧
+<p align="center">
+    <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-0pky">Symbol</th>
+        <th class="tg-0pky">Meaning</th>
+        <th class="tg-0pky">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-0pky">🟩</td>
+        <td class="tg-0pky">Go For Launch (Go)</td>
+        <td class="tg-0pky">Current T-0 confirmed by official or reliable sources.</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">🟨</td>
+        <td class="tg-0pky">To Be Confirmed (TBC)</td>
+        <td class="tg-0pky">Awaiting official confirmation - current date is known with some certainty.</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">🟧</td>
+        <td class="tg-0pky">To Be Determined (TBD)</td>
+        <td class="tg-0pky">Current date is a placeholder or rough estimation based on unreliable or interpreted sources.</td>
+      </tr>
+    </tbody>
+    </table>
+</p>
+
+## API Showcase - Spaceflight News API 📰
+
+### Latest News ⌛
+{% for article in latest_news -%}
+- <a href="{{ article.url }}" >🔗</a> **[{{article.newsSite}}]** {{article.title}}
+{% endfor %}
+
+### Launch-related News 🚀
+
+{% for article in launch_news -%}
+- <a href="{{ article.url }}" >🔗</a> **[{{article.newsSite}}]** {{article.title}}
+{% endfor %}
+
+<hr>
+  <div align="center">
+  This <code>README.md</code> was last auto generated at {{ make_html_linked_time(timestamp) }}
+  <br>
+  <!-- <a href="https://medium.com/@g.h.garrett" target="_blank">Learn to add space launches to your profile here!</a> -->
+</div>

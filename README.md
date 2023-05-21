@@ -1,6 +1,13 @@
+![Cover](https://raw.githubusercontent.com/TheSpaceDevs/spaceflightnewsapi/main/profile/assets/snapi_cover.png)
+
+[![Website](https://raw.githubusercontent.com/TheSpaceDevs/spaceflightnewsapi/main/profile/assets/badge_snapi_website.svg)](https://spaceflightnewsapi.net/)
+[![Documentation](https://raw.githubusercontent.com/TheSpaceDevs/spaceflightnewsapi/main/profile/assets/badge_snapi_doc.svg)](https://api.spaceflightnewsapi.net/v4/docs)
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
+
+
 # Spaceflight News API
 
-Spaceflight News API was created as a solution for my problem when I wanted to develop an app for Spaceflight News: many (great!) news sites with different API's.
+The Spaceflight News API was created as a solution for my problem when I wanted to develop an app for Spaceflight News: many (great!) news sites with different API's.
 
 To make it easier for myself, I began a project that would aggegrate metadata from those news sites and publish them through an API. Since there are others that might benefit from this API, I decided make the API publicly available.
 
@@ -31,7 +38,12 @@ Using proven libraries, this version is focussed on long-term stability and main
 Starting from version 2, we now have Launch Library 2 integration. This way you can easily get news related to a specific launch.
 A nice to have if you want to have a "related news/launches" section in your app!
 
-## Currently imported news sites
+## Currently imported news and blog sites
+
+<details>
+<summary>Expand</summary>
+
+### News sites
 
 * TechCrunch
 * SpaceFlight Insider
@@ -69,12 +81,17 @@ A nice to have if you want to have a "related news/launches" section in your app
 * SyFy
 * The Launch Pad
 
-## Currently imported blog sites
+### Blog sites
 
 - Planetary Society
 - National Space Society
 
+</details>
+
 ## Changelog
+<details>
+<summary>Expand</summary>
+
 # V4.0.0
 
 - Rewritten in Python and Django.
@@ -124,3 +141,5 @@ A nice to have if you want to have a "related news/launches" section in your app
 ### v2.0.0
 
 - Complete rewrite of the app, focusing on existing features
+
+</details>
