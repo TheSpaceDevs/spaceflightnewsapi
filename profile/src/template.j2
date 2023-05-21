@@ -111,9 +111,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-### Latest News Articles ⌛
+## Latest News Articles ⌛
 {% for article in articles -%}
-- <a href="{{ article.url }}" >🔗</a> **[{{article.newsSite}}]** {{article.title}}
+- <a href="{{ article.url }}" >🔗</a> **[{{article.news_site}}]** {{article.title}}
 {% if 'll2_launches' in article %}
 {% for launch in article.ll2_launches %}
   - <a href="https://go4liftoff.com/launch/id/{{ launch.id }}" >🚀</a> **{{ launch.name }}** from {{ launch.location }}
@@ -126,10 +126,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 {% endif %}
 {% endfor %}
 
-### Latest Blog Posts 🚀
+## Latest Blog Posts 🚀
 
 {% for blog in blogs -%}
-- <a href="{{ blog.url }}" >🔗</a> **[{{blog.newsSite}}]** {{blog.title}}
+- <a href="{{ blog.url }}" >🔗</a> **[{{blog.news_site}}]** {{blog.title}}
 {% if 'll2_launches' in blog %}
 {% for launch in blog.ll2_launches %}
   - <a href="https://go4liftoff.com/launch/id/{{ launch.id }}" >🚀</a> **{{ launch.name }}** from {{ launch.location }}
