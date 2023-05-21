@@ -34,6 +34,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
         run: |
+          gh auth setup-git
           git add .
           git commit -am "feat(auto generate): Updated README"
           git push --all -f https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
