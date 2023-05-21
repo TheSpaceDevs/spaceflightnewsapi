@@ -10,12 +10,12 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate JWT and token
-        id: generate-github-app-tokens
-        uses: jamestrousdale/github-app-jwt-token@0.1.4
+      - name: Generate access token
+        id: get_installation_token
+        uses: tibdex/github-app-token@v1
         with:
-          app-id: ${{ secrets.SNAPI_APP_ID }}
-          private-key: ${{ secrets.SNAPI_APP_PRIVATE_KEY }}
+          app_id: ${{ secrets.SNAPI_APP_ID }}
+          private_key: ${{ secrets.SNAPI_APP_PRIVATE_KEY_CLEAN }}
       - name: 🍽️ Get working copy
         uses: actions/checkout@master
         with:
@@ -32,12 +32,10 @@ jobs:
           python update.py
       - name: 🚀 Deploy
         env:
-          GITHUB_JWT: ${{ steps.generate-github-app-tokens.outputs.jwt }}
-          APP_TOKEN: ${{ steps.generate-github-app-tokens.outputs.access-token }}
-          GH_TOKEN: ${{ steps.generate-github-app-tokens.outputs.access-token }}
+          GH_TOKEN: ${{ steps.get_installation_token.outputs.token }}
         run: |
           gh auth login
           gh auth setup-git
           git add .
           git commit -am "feat(auto generate): Updated README"
-          git push --all -f https://x-access-token:${APP_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          git push --all -f https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
