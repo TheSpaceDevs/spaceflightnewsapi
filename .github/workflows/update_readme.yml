@@ -41,4 +41,4 @@ jobs:
           git config --list --show-origin
           git add .
           git commit -am "feat(auto generated): Updated README"
-          git push --all -f https://github.com/${GITHUB_REPOSITORY}.git
+          git push --all https://github.com/${GITHUB_REPOSITORY}.git
