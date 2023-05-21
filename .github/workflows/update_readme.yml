@@ -16,13 +16,6 @@ jobs:
          TOKEN="$(npx obtain-github-app-installation-access-token ci ${{ secrets.SNAPI_APP_CREDENTIALS_TOKEN }})"
          echo "::add-mask::$TOKEN"
          echo "token=$TOKEN" >> $GITHUB_OUTPUT
-      - name: Use the obtained token
-        run: |
-          curl -X POST -H 'Content-Type: application/json' \
-            -d '{"context":"test","state":"success"}' \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA?access_token=$GITHUB_TOKEN"
-        env:
-          GITHUB_TOKEN: ${{ steps.githubAppAuth.outputs.token }}
       - name: 🍽️ Get working copy
         uses: actions/checkout@master
         with:
@@ -43,4 +36,5 @@ jobs:
           git config user.email "SNAPI-Github-Actions@users.noreply.github.com"
           git add .
           git commit -am "feat(auto generate): Updated README"
-          git push --all -f https://$GITHUB_TOKEN@github.com/${GITHUB_REPOSITORY}.git
+          git push --all -f https://${{ steps.githubAppAuth.outputs.token }}@github.com/${GITHUB_REPOSITORY}.git
+t
