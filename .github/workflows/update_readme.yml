@@ -46,6 +46,8 @@ jobs:
           git add .
           git commit -u -am "feat(auto generate): Updated content"
           git push -f -u origin readme-update
+          git fetch origin main
           git checkout main
-          git merge -m "Update README" readme-update
+          git merge --no-ff -m "Update README" readme-update
+          git push origin main
           git push origin :readme-update
