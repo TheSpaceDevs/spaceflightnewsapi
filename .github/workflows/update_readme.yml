@@ -10,12 +10,12 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate a token
-        id: generate_token
-        uses: tibdex/github-app-token@b62528385c34dbc9f38e5f4225ac829252d1ea92
-        with:
-          app_id: ${{ secrets.SNAPI_APP_ID }}
-          private_key: ${{ secrets.SNAPI_APP_PRIVATE_KEY }}
+      - name: Obtain GitHub App Installation Access Token
+        id: githubAppAuth
+        run: |
+         TOKEN="$(npx obtain-github-app-installation-access-token ci ${{ secrets.SNAPI_APP_CREDENTIALS_TOKEN }})"
+         echo "::add-mask::$TOKEN"
+         echo "token=$TOKEN" >> $GITHUB_OUTPUT
       - name: 🍽️ Get working copy
         uses: actions/checkout@master
         with:
@@ -32,7 +32,7 @@ jobs:
           python update.py
       - name: 🚀 Deploy
         env:
-          TOKEN: ${{ steps.generate_token.outputs.token }}
+          TOKEN: ${{ steps.githubAppAuth.outputs.token }}
         run: |
           git config user.name "SNAPI Github Actions"
           git config user.email "SNAPI-Github-Actions@users.noreply.github.com"
