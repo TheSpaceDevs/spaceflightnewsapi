@@ -17,7 +17,7 @@ There are great apps out on the internet, that are connected to services like <h
 
 ## Documentation 📖
 
-The documentation is generated from the code, and can be found at <https://api.spaceflightnewsapi.net/v4/documentation>.
+The documentation is generated from the code, and can be found at <https://api.spaceflightnewsapi.net/v4/docs>.
 
 ## Evolution 📈
 
