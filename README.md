@@ -145,26 +145,40 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/oneweb-announces-innovation-challenge-winners/" >🔗</a> **[SpaceNews]** OneWeb announces Innovation Challenge Winners
+
+
+- <a href="https://spacenews.com/exploration-upper-stage-unveiled-revolutionary-leap-in-crew-safety-cargo-capacity-and-deep-space-power/" >🔗</a> **[SpaceNews]** Exploration Upper Stage Unveiled: Revolutionary Leap in Crew Safety, Cargo Capacity, and Deep Space Power
+
+
+  - <a href="https://go4liftoff.com/launch/id/372d94b1-88fe-4cc5-9296-d893c9fa9426" >🚀</a> **SLS Block 1B | Artemis IV** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://spacenews.com/darpa-selects-umbra-to-demonstrate-radar-imaging-techniques/" >🔗</a> **[SpaceNews]** DARPA selects Umbra to demonstrate radar imaging techniques
 
 
 - <a href="https://www.cnbc.com/2023/05/22/spacex-axiom-ax-2-docks-with-space-station-carrying-saudi-astronauts.html" >🔗</a> **[CNBC]** SpaceX delivers private Axiom crew to the space station, carrying Saudi astronauts
 
 
+  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://spacenews.com/former-nga-director-robert-cardillo-joins-synthetaics-board-of-directors/" >🔗</a> **[SpaceNews]** Former NGA director Robert Cardillo joins Synthetaic’s board of directors
 
 
-- <a href="https://arstechnica.com/space/2023/05/spacex-launches-tenth-crewed-mission-third-fully-commercial-flight/" >🔗</a> **[Arstechnica]** SpaceX launches tenth crewed mission, third fully commercial flight
+- <a href="https://arstechnica.com/space/2023/05/spacex-launches-tenth-crewed-mission-third-fully-commercial-flight/" >🔗</a> **[Arstechnica]** SpaceX launches 10th crewed mission, third fully commercial flight
 
 
   - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
 
 
 
-- <a href="https://spacenews.com/impact-observatory-unveils-io-monitor/" >🔗</a> **[SpaceNews]** Impact Observatory unveils IO Monitor
-
-
 - <a href="https://spacenews.com/defending-taiwan-by-countering-chinas-biggest-threat/" >🔗</a> **[SpaceNews]** Defending Taiwan by countering China’s biggest threat
+
+
+- <a href="https://spacenews.com/impact-observatory-unveils-io-monitor/" >🔗</a> **[SpaceNews]** Impact Observatory unveils IO Monitor
 
 
 - <a href="https://spacenews.com/china-launches-new-science-probes-sar-sat-and-replacement-beidou-satellite/" >🔗</a> **[SpaceNews]** China launches new science probes, SAR sat and replacement Beidou satellite
@@ -177,20 +191,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-force-turns-to-metaverse-to-predict-effects-of-spaceport-congestion/" >🔗</a> **[SpaceNews]** Space Force turns to metaverse to predict effects of spaceport congestion
-
-
-- <a href="http://www.nasa.gov/press-release/axiom-space-private-astronauts-headed-to-international-space-station" >🔗</a> **[NASA]** Axiom Space Private Astronauts Headed to International Space Station
-
-
-  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacenews.com/spacex-launches-second-axiom-space-private-astronaut-mission-to-iss/" >🔗</a> **[SpaceNews]** SpaceX launches second Axiom Space private astronaut mission to ISS
-
-
-  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -231,6 +231,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T160923">2023-05-22 16:09:23 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T170634">2023-05-22 17:06:34 UTC</a>
   <br>
 </div>
