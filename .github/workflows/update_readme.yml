@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@main
         with:
           fetch-depth: 1
-      - name: Create branch
+      - name: Create branch & Setup bot account
         env:
           GH_TOKEN: ${{ secrets.SNAPI_BOT_TOKEN }}
         run: |
@@ -29,10 +29,10 @@ jobs:
           git config user.name "snapi-bot"
           git config user.email "134217814+snapi-bot@users.noreply.github.com"
           git checkout -b readme-update
-      - name: 🐍 Set up Python 3.8
+      - name: 🐍 Set up Python 3.11
         uses: actions/setup-python@v2
         with:
-          python-version: '3.8'
+          python-version: '3.11'
       - name: 💿 Install Jinja2 & requests
         run: pip install Jinja2 requests
       - name: 🍳 Update README
