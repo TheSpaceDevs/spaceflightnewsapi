@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/china-launches-new-science-probes-sar-sat-and-replacement-beidou-satellite/" >🔗</a> **[SpaceNews]** China launches new science probes, SAR sat and replacement Beidou satellite
+
+
 - <a href="https://spacenews.com/space-force-turns-to-metaverse-to-predict-effects-of-spaceport-congestion/" >🔗</a> **[SpaceNews]** Space Force turns to metaverse to predict effects of spaceport congestion
 
 
@@ -178,13 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.nasaspaceflight.com/2023/05/axiom-2-mission/" >🔗</a> **[NASASpaceflight]** SpaceX launches Axiom-2, carrying four astronauts to the ISS
-
-
-  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://www.teslarati.com/axiom-2-mission-heads-to-iss-spacex/" >🔗</a> **[Teslarati]** The Axiom-2 mission heads to the International Space Station courtesy of SpaceX
 
 
   - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
@@ -229,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T120048">2023-05-22 12:00:48 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T121326">2023-05-22 12:13:26 UTC</a>
   <br>
 </div>
