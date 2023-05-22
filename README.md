@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/05/spacex-progressing-next-flights/" >🔗</a> **[NASASpaceflight]** SpaceX making progress toward next Starship test flights
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-mission-to-study-ice-clouds-help-observe-our-dynamic-atmosphere" >🔗</a> **[NASA]** NASA Mission to Study Ice Clouds, Help Observe Our Dynamic Atmosphere
+
+
 - <a href="https://spacenews.com/oneweb-announces-innovation-challenge-winners/" >🔗</a> **[SpaceNews]** OneWeb announces Innovation Challenge Winners
 
 
@@ -179,18 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/defending-taiwan-by-countering-chinas-biggest-threat/" >🔗</a> **[SpaceNews]** Defending Taiwan by countering China’s biggest threat
-
-
-- <a href="https://spacenews.com/china-launches-new-science-probes-sar-sat-and-replacement-beidou-satellite/" >🔗</a> **[SpaceNews]** China launches new science probes, SAR sat and replacement Beidou satellite
-
-
-  - <a href="https://go4liftoff.com/launch/id/c1453f98-605e-4691-9722-a16657fb7fdf" >🚀</a> **Long March 3B/E | Beidou-3 G4** from Xichang Satellite Launch Center, People's Republic of China
-
-  - <a href="https://go4liftoff.com/launch/id/b88161d9-bf69-4a39-97c1-f912ea796d70" >🚀</a> **Long March 2C | MUST-1A/B & Luojia-2 01** from Jiuquan, People's Republic of China
-
-
-
-- <a href="https://spacenews.com/space-force-turns-to-metaverse-to-predict-effects-of-spaceport-congestion/" >🔗</a> **[SpaceNews]** Space Force turns to metaverse to predict effects of spaceport congestion
 
 
 
@@ -231,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T200753">2023-05-22 20:07:53 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T210731">2023-05-22 21:07:31 UTC</a>
   <br>
 </div>
