@@ -2,7 +2,7 @@
 
 [![Website](https://raw.githubusercontent.com/TheSpaceDevs/spaceflightnewsapi/main/.github/profile/assets/badge_snapi_website.svg)](https://spaceflightnewsapi.net/)
 [![Documentation](https://raw.githubusercontent.com/TheSpaceDevs/spaceflightnewsapi/main/.github/profile/assets/badge_snapi_doc.svg)](https://api.spaceflightnewsapi.net/v4/docs)
-[![Version](https://img.shields.io/github/v/release/TheSpaceDevs/spaceflightnewsapi?style=for-the-badge)](https://github.com/TheSpaceDevs/spaceflightnewsapi/releases/tag/v4.0.1)
+[![Version](https://img.shields.io/github/v/release/TheSpaceDevs/spaceflightnewsapi?style=for-the-badge)](https://github.com/TheSpaceDevs/spaceflightnewsapi/releases/tag/v4.0.2)
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/the_snapi)
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/TheSpaceDevs)
@@ -47,41 +47,41 @@ A nice to have if you want to have a "related news/launches" section in your app
 <details>
 <summary>Expand</summary>
 
-- TechCrunch
-- SpaceFlight Insider
-- SpaceX
-- ElonX
+- AmericaSpace
+- Arstechnica
 - Blue Origin
-- Spaceflight Now
-- Space.com
-- Teslarati
-- Virgin Galactic
-- Planetary Society
-- Phys
-- National Space Society
-- The Japan Times
-- National Geographic
-- SpaceNews
-- The National
+- CNBC
+- ESA
+- ElonX
+- Euronews
+- European Spaceflight Update
 - Jet Propulsion Laboratory
 - NASA
+- NASASpaceflight
+- National Geographic
+- National Space Society
+- Phys
+- Planetary Society
+- Reuters
+- Space.com
+- SpaceFlight Insider
+- SpaceNews
+- SpaceX
+- Spaceflight Now
+- SyFy
+- TechCrunch
+- Teslarati
+- The Drive
+- The Japan Times
+- The Launch Pad
+- The National
+- The New York Times
+- The Space Devs
 - The Space Review
 - The Verge
-- The Drive
-- Arstechnica
-- ESA
-- The Space Devs
-- AmericaSpace
 - The Wall Street Journal
-- CNBC
 - United Launch Alliance
-- Reuters
-- The New York Times
-- euronews
-- European Spaceflight Update
-- NASASpaceflight
-- SyFy
-- The Launch Pad
+- Virgin Galactic
 
 
 </details>
@@ -229,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T081032">2023-05-22 08:10:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T090830">2023-05-22 09:08:30 UTC</a>
   <br>
 </div>
