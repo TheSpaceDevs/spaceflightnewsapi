@@ -17,7 +17,7 @@ There are great apps out on the internet, that are connected to services like <h
 
 ## Documentation 📖
 
-The documentation is generated from the code, and can be found at <https://api.spaceflightnewsapi.net/v4/docs>.
+The documentation is generated from the code, and can be found at <https://api.spaceflightnewsapi.net/v4/documentation>.
 
 ## Evolution 📈
 
@@ -145,76 +145,50 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles ⌛
-- <a href="https://www.nasaspaceflight.com/2023/05/axiom-2-mission/" >🔗</a> **[NASASpaceflight]** SpaceX to launch Axiom-2, carrying four astronauts to the ISS
+- <a href="http://www.nasa.gov/press-release/axiom-space-private-astronauts-headed-to-international-space-station" >🔗</a> **[NASA]** Axiom Space Private Astronauts Headed to International Space Station
+
+
+  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
+
+
+
+- <a href="https://spacenews.com/spacex-launches-second-axiom-space-private-astronaut-mission-to-iss/" >🔗</a> **[SpaceNews]** SpaceX launches second Axiom Space private astronaut mission to ISS
+
+
+  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
+
+
+
+- <a href="https://spacenews.com/nasa-seeks-to-shore-up-congressional-support-for-artemis/" >🔗</a> **[SpaceNews]** NASA seeks to shore up congressional support for Artemis
+
+
+- <a href="https://spacenews.com/earthdaily-analytics-offers-ven%c2%b5s-imagery-access/" >🔗</a> **[SpaceNews]** EarthDaily Analytics offers VENµS imagery access
+
+
+- <a href="https://spacenews.com/iceye-to-develop-sar-constellation-for-uae/" >🔗</a> **[SpaceNews]** Iceye to supply UAE SAR satellites
+
+
+- <a href="https://spacenews.com/planet-seeks-partners-that-can-extract-more-value-from-data/" >🔗</a> **[SpaceNews]** Planet seeks partners that can extract more value from data
+
+
+- <a href="https://spacenews.com/umbra-and-ursa-to-collaborate-on-radar-imaging-data-products/" >🔗</a> **[SpaceNews]** Umbra and Ursa to collaborate on radar imaging data products
+
+
+- <a href="https://www.nasaspaceflight.com/2023/05/axiom-2-mission/" >🔗</a> **[NASASpaceflight]** SpaceX launches Axiom-2, carrying four astronauts to the ISS
+
+
+  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
+
+
+
+- <a href="https://www.teslarati.com/axiom-2-mission-heads-to-iss-spacex/" >🔗</a> **[Teslarati]** The Axiom-2 mission heads to the International Space Station courtesy of SpaceX
+
+
+  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacenews.com/agencies-studying-safety-issues-of-lox-methane-launch-vehicles/" >🔗</a> **[SpaceNews]** Agencies studying safety issues of LOX/methane launch vehicles
-
-
-- <a href="https://www.nasaspaceflight.com/2023/05/perseverance-mars-express-update/" >🔗</a> **[NASASpaceflight]** Perseverance finds Mars river could have been ‘wilder,’ Mars Express takes new volcano images
-
-
-  - <a href="https://go4liftoff.com/launch/id/db62cfa1-4d10-41d3-b25f-a58e138ce202" >🚀</a> **Soyuz-FG | Mars Express** from Baikonur Cosmodrome, Republic of Kazakhstan
-
-  - <a href="https://go4liftoff.com/launch/id/c4db6995-f25f-4608-8eb9-ce95d5226af2" >🚀</a> **Atlas V 541 | Mars 2020 (Perseverance rover & Ingenuity helicopter)** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/spacex-launches-oneweb-gen-2-technology-demonstrator/" >🔗</a> **[SpaceNews]** SpaceX launches OneWeb Gen 2 technology demonstrator
-
-
-  - <a href="https://go4liftoff.com/launch/id/6d55d3cf-5c95-4c23-8c5e-1da44fbe299d" >🚀</a> **Falcon 9 Block 5 | Iridium-9 & OneWeb 19** from Vandenberg SFB, CA, USA
-
-
-
-- <a href="https://www.teslarati.com/nasa-selects-blue-origin-to-land-astronauts-on-the-moon/" >🔗</a> **[Teslarati]** NASA selects Blue Origin to land Astronauts on the Moon
-
-
-  - <a href="https://go4liftoff.com/launch/id/d7042e81-6420-449d-8154-2611641e9822" >🚀</a> **SLS Block 1B | Artemis V** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/778" >📆</a> **NASA Artemis V Lander Announcement**
-
-
-- <a href="https://www.nasaspaceflight.com/2023/05/twis2023-05-19/" >🔗</a> **[NASASpaceflight]** This Week In Spaceflight: SpaceX’s Raptor breaks records, NASA announces second Artemis Lander
-
-
-  - <a href="https://go4liftoff.com/launch/id/d7042e81-6420-449d-8154-2611641e9822" >🚀</a> **SLS Block 1B | Artemis V** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/778" >📆</a> **NASA Artemis V Lander Announcement**
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-extends-nancy-grace-roman-space-telescope-science-operations" >🔗</a> **[NASA]** NASA Extends Nancy Grace Roman Space Telescope Science Operations
-
-
-  - <a href="https://go4liftoff.com/launch/id/521f3a1c-f977-4306-9b7f-495858719adf" >🚀</a> **Falcon Heavy | Nancy Grace Roman Space Telescope** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacenews.com/technical-strengths-and-lower-cost-led-nasa-to-select-blue-origin-lander/" >🔗</a> **[SpaceNews]** Technical strengths and lower cost led NASA to select Blue Origin lander
-
-
-  - <a href="https://go4liftoff.com/launch/id/d7042e81-6420-449d-8154-2611641e9822" >🚀</a> **SLS Block 1B | Artemis V** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/778" >📆</a> **NASA Artemis V Lander Announcement**
-
-
-- <a href="https://spacenews.com/hasc-chairman-questions-continued-delays-in-settling-dispute-over-space-commands-location/" >🔗</a> **[SpaceNews]** HASC chairman questions ‘continued delays’ in settling dispute over Space Command’s location
-
-
-- <a href="https://www.teslarati.com/spacex-launches-22-v2-mini-starlink-satellites/" >🔗</a> **[Teslarati]** SpaceX launches 22 V2 mini Starlink satellites
-
-
-  - <a href="https://go4liftoff.com/launch/id/0962fe02-4a3d-4131-8bc5-ee7bd2bc97fa" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-3** from Cape Canaveral, FL, USA
-
 
 
 
@@ -255,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230521T153530">2023-05-21 15:35:30 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T063140">2023-05-22 06:31:40 UTC</a>
   <br>
 </div>
