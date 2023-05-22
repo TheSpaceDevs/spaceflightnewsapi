@@ -5,6 +5,22 @@ volumes:
   rabbitmq:
 
 services:
+  database:
+    image: postgres:15-alpine
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - database:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    ports:
+      - "5432:5432"
+
   app:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
@@ -29,7 +45,8 @@ services:
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
       - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
     depends_on:
-      - database
+      database:
+        condition: service_healthy
 
   rabbitmq:
     image: rabbitmq:3-management-alpine
@@ -38,17 +55,6 @@ services:
       - "15672:15672"
     volumes:
       - rabbitmq:/var/lib/rabbitmq/
-
-  database:
-    image: postgres:15-alpine
-    volumes:
-      - database:/var/lib/postgresql/data
-    environment:
-      - POSTGRES_DB=${DB_NAME}
-      - POSTGRES_USER=${DB_USER}
-      - POSTGRES_PASSWORD=${DB_PASSWORD}
-    ports:
-      - "5432:5432"
 
   beat:
     build: .
@@ -67,10 +73,10 @@ services:
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
       - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
     depends_on:
-      - app
-      - rabbitmq
-      - database
-
+      rabbitmq:
+        condition: service_started
+      database:
+          condition: service_healthy
 
   worker:
     build: .
@@ -92,6 +98,7 @@ services:
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
       - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
     depends_on:
-      - app
-      - rabbitmq
-      - database
+      rabbitmq:
+        condition: service_started
+      database:
+        condition: service_healthy

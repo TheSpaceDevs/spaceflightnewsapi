@@ -14,6 +14,11 @@ networks:
 services:
   database:
     image: postgres:15-alpine
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
     networks:
       - snapy
     volumes:
@@ -57,7 +62,8 @@ services:
       - MINIO_ENDPOINT=${MINIO_ENDPOINT}
       - SENTRY_DSN=${SENTRY_DSN}
     depends_on:
-      - database
+      database:
+        condition: service_healthy
 
   beat:
     image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${VERSION}
@@ -76,7 +82,8 @@ services:
       - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
       - SENTRY_DSN=${SENTRY_DSN}
     depends_on:
-      - database
+      database:
+        condition: service_healthy
 
 
   worker:
@@ -99,4 +106,5 @@ services:
       - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
       - SENTRY_DSN=${SENTRY_DSN}
     depends_on:
-      - database
+      database:
+        condition: service_healthy
