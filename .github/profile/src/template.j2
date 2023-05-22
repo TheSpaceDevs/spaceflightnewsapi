@@ -111,7 +111,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-## Latest News Articles ⌛
+## Latest News Articles 📰
 {% for article in articles -%}
 - <a href="{{ article.url }}" >🔗</a> **[{{article.news_site}}]** {{article.title}}
 {% if 'll2_launches' in article %}
@@ -126,7 +126,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 {% endif %}
 {% endfor %}
 
-## Latest Blog Posts 🚀
+## Latest Blog Posts 🪧
 
 {% for blog in blogs -%}
 - <a href="{{ blog.url }}" >🔗</a> **[{{blog.news_site}}]** {{blog.title}}
