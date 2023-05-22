@@ -144,7 +144,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-## Latest News Articles ⌛
+## Latest News Articles 📰
 - <a href="http://www.nasa.gov/press-release/axiom-space-private-astronauts-headed-to-international-space-station" >🔗</a> **[NASA]** Axiom Space Private Astronauts Headed to International Space Station
 
 
@@ -193,7 +193,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-## Latest Blog Posts 🚀
+## Latest Blog Posts 🪧
 
 - <a href="https://www.planetary.org/the-downlink/moon-spying-missions-and-a-planetary-evil-twin" >🔗</a> **[Planetary Society]** Moon-spying missions and a planetary evil twin
 
@@ -229,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T070733">2023-05-22 07:07:33 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T081032">2023-05-22 08:10:32 UTC</a>
   <br>
 </div>
