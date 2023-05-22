@@ -10,12 +10,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate access token
-        id: get_installation_token
-        uses: tibdex/github-app-token@v1
-        with:
-          app_id: ${{ secrets.SNAPI_APP_ID }}
-          private_key: ${{ secrets.SNAPI_APP_PRIVATE_KEY }}
       - name: 🍽️ Get working copy
         uses: actions/checkout@main
         with:
