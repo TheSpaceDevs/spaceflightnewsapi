@@ -145,6 +145,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/05/spacex-launches-tenth-crewed-mission-third-fully-commercial-flight/" >🔗</a> **[Arstechnica]** SpaceX launches tenth crewed mission, third fully commercial flight
+
+
+- <a href="https://spacenews.com/impact-observatory-unveils-io-monitor/" >🔗</a> **[SpaceNews]** Impact Observatory unveils IO Monitor
+
+
+- <a href="https://spacenews.com/defending-taiwan-by-countering-chinas-biggest-threat/" >🔗</a> **[SpaceNews]** Defending Taiwan by countering China’s biggest threat
+
+
 - <a href="https://spacenews.com/china-launches-new-science-probes-sar-sat-and-replacement-beidou-satellite/" >🔗</a> **[SpaceNews]** China launches new science probes, SAR sat and replacement Beidou satellite
 
 
@@ -172,19 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/iceye-to-develop-sar-constellation-for-uae/" >🔗</a> **[SpaceNews]** Iceye to supply UAE SAR satellites
-
-
-- <a href="https://spacenews.com/planet-seeks-partners-that-can-extract-more-value-from-data/" >🔗</a> **[SpaceNews]** Planet seeks partners that can extract more value from data
-
-
-- <a href="https://spacenews.com/umbra-and-ursa-to-collaborate-on-radar-imaging-data-products/" >🔗</a> **[SpaceNews]** Umbra and Ursa to collaborate on radar imaging data products
-
-
-- <a href="https://www.nasaspaceflight.com/2023/05/axiom-2-mission/" >🔗</a> **[NASASpaceflight]** SpaceX launches Axiom-2, carrying four astronauts to the ISS
-
-
-  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -225,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T121326">2023-05-22 12:13:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T131033">2023-05-22 13:10:33 UTC</a>
   <br>
 </div>
