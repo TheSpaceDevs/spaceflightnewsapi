@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/darpa-selects-umbra-to-demonstrate-radar-imaging-techniques/" >🔗</a> **[SpaceNews]** DARPA selects Umbra to demonstrate radar imaging techniques
+
+
 - <a href="https://www.cnbc.com/2023/05/22/spacex-axiom-ax-2-docks-with-space-station-carrying-saudi-astronauts.html" >🔗</a> **[CNBC]** SpaceX delivers private Axiom crew to the space station, carrying Saudi astronauts
 
 
@@ -190,9 +193,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/nasa-seeks-to-shore-up-congressional-support-for-artemis/" >🔗</a> **[SpaceNews]** NASA seeks to shore up congressional support for Artemis
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -231,6 +231,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T150809">2023-05-22 15:08:09 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T160923">2023-05-22 16:09:23 UTC</a>
   <br>
 </div>
