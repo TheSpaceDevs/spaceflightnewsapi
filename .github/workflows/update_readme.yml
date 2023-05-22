@@ -38,7 +38,7 @@ jobs:
           GH_TOKEN: ${{ secrets.SNAPI_BOT_TOKEN }}
         run: |
           git add .
-          git commit -u -am "feat(auto generate): Updated content"
+          git commit -u -am "automation(README): Update content"
           git push -u origin readme-update
-          gh pr create --title "feat(auto generate): Updated content" --body "Auto generated content" --base main --head readme-update
+          gh pr create --title "automation(README): Update content" --body "Auto generated content" --base main --head readme-update
           gh pr merge --squash --auto --delete-branch
