@@ -47,4 +47,4 @@ jobs:
           git commit -u -am "feat(auto generate): Updated content"
           git push -u origin readme-update
           gh pr create --title "feat(auto generate): Updated content" --body "Auto generated content" --base main --head readme-update
-          gh pr merge --squash --auto --merge --delete-branch
+          gh pr merge --squash --auto --delete-branch
