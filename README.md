@@ -175,10 +175,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/defending-taiwan-by-countering-chinas-biggest-threat/" >🔗</a> **[SpaceNews]** Defending Taiwan by countering China’s biggest threat
-
-
 - <a href="https://spacenews.com/impact-observatory-unveils-io-monitor/" >🔗</a> **[SpaceNews]** Impact Observatory unveils IO Monitor
+
+
+- <a href="https://spacenews.com/defending-taiwan-by-countering-chinas-biggest-threat/" >🔗</a> **[SpaceNews]** Defending Taiwan by countering China’s biggest threat
 
 
 - <a href="https://spacenews.com/china-launches-new-science-probes-sar-sat-and-replacement-beidou-satellite/" >🔗</a> **[SpaceNews]** China launches new science probes, SAR sat and replacement Beidou satellite
@@ -231,6 +231,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T190542">2023-05-22 19:05:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T200753">2023-05-22 20:07:53 UTC</a>
   <br>
 </div>
