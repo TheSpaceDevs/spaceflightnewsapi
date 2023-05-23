@@ -145,6 +145,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/05/virgin-orbit-sells-assets" >🔗</a> **[The Launch Pad]** BREAKING! Virgin Orbit Sells Assets To RocketLab, Stratolaunch and Vast Laucher
+
+
+- <a href="https://www.cnbc.com/2023/05/23/virgin-orbit-bankruptcy-sale-rocket-lab-stratolaunch-vasts-launcher.html" >🔗</a> **[CNBC]** Virgin Orbit sells assets in bankruptcy auction to Rocket Lab, Stratolaunch and Vast’s Launcher
+
+
+- <a href="https://spacenews.com/nro-seeks-closer-ties-with-industry/" >🔗</a> **[SpaceNews]** NRO seeks closer ties with industry
+
+
 - <a href="https://spacenews.com/air-force-research-lab-to-fund-development-of-ursa-majors-rocket-engines/" >🔗</a> **[SpaceNews]** Air Force Research Lab to fund development of Ursa Major’s rocket engines
 
 
@@ -168,19 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/nga-to-map-lunar-geography-to-enable-gps-on-the-moon/" >🔗</a> **[SpaceNews]** NGA to map lunar geography to enable GPS on the moon
-
-
-- <a href="https://spacenews.com/nato-faces-hurdles-in-acquiring-commercial-satellite-imagery/" >🔗</a> **[SpaceNews]** NATO faces hurdles in acquiring commercial satellite imagery
-
-
-- <a href="https://www.cnbc.com/2023/05/22/spacex-joining-faa-to-fight-environmental-lawsuit-over-starship.html" >🔗</a> **[CNBC]** SpaceX set to join FAA to fight environmental lawsuit that could delay Starship work
-
-
-  - <a href="https://go4liftoff.com/launch/id/e32d375f-0d6e-4e54-b4f2-2b49db657fca" >🚀</a> **Starship | Integrated Flight Test** from SpaceX Space Launch Facility, TX, USA
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/05/spacex-progressing-next-flights/" >🔗</a> **[NASASpaceflight]** SpaceX making progress toward next Starship test flights
 
 
 
@@ -221,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T180859">2023-05-23 18:08:59 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T190600">2023-05-23 19:06:00 UTC</a>
   <br>
 </div>
