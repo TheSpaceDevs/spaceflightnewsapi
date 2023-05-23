@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nga-to-map-lunar-geography-to-enable-gps-on-the-moon/" >🔗</a> **[SpaceNews]** NGA to map lunar geography to enable GPS on the moon
+
+
 - <a href="https://spacenews.com/nato-faces-hurdles-in-acquiring-commercial-satellite-imagery/" >🔗</a> **[SpaceNews]** NATO faces hurdles in acquiring commercial satellite imagery
 
 
@@ -178,13 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/former-nga-director-robert-cardillo-joins-synthetaics-board-of-directors/" >🔗</a> **[SpaceNews]** Former NGA director Robert Cardillo joins Synthetaic’s board of directors
-
-
-- <a href="https://arstechnica.com/space/2023/05/spacex-launches-tenth-crewed-mission-third-fully-commercial-flight/" >🔗</a> **[Arstechnica]** SpaceX launches 10th crewed mission, third fully commercial flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -225,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230522T230711">2023-05-22 23:07:11 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T003652">2023-05-23 00:36:52 UTC</a>
   <br>
 </div>
