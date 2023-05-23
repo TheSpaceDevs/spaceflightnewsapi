@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/05/astrobotic-to-provide-blue-moon-lander-cargo-systems" >🔗</a> **[The Launch Pad]** Astrobotic To Provide Blue Moon Lander Cargo Systems
+
+
 - <a href="https://spacenews.com/the-spaceport-company-demonstrates-offshore-launch-operations/" >🔗</a> **[SpaceNews]** The Spaceport Company demonstrates offshore launch operations
 
 
@@ -178,13 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/oneweb-announces-innovation-challenge-winners/" >🔗</a> **[SpaceNews]** OneWeb announces Innovation Challenge Winners
-
-
-- <a href="https://spacenews.com/exploration-upper-stage-unveiled-revolutionary-leap-in-crew-safety-cargo-capacity-and-deep-space-power/" >🔗</a> **[SpaceNews]** Exploration Upper Stage Unveiled: Revolutionary Leap in Crew Safety, Cargo Capacity, and Deep Space Power
-
-
-  - <a href="https://go4liftoff.com/launch/id/372d94b1-88fe-4cc5-9296-d893c9fa9426" >🚀</a> **SLS Block 1B | Artemis IV** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -225,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T131114">2023-05-23 13:11:14 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T140727">2023-05-23 14:07:27 UTC</a>
   <br>
 </div>
