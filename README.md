@@ -145,7 +145,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://tlpnetwork.com/news/2023/05/virgin-orbit-sells-assets" >🔗</a> **[The Launch Pad]** BREAKING! Virgin Orbit Sells Assets To RocketLab, Stratolaunch and Vast Laucher
+- <a href="https://spacenews.com/three-companies-to-buy-most-virgin-orbit-assets/" >🔗</a> **[SpaceNews]** Three companies to buy most Virgin Orbit assets
+
+
+- <a href="https://tlpnetwork.com/news/2023/05/virgin-orbit-sells-assets" >🔗</a> **[The Launch Pad]** BREAKING! Virgin Orbit Sells Assets To RocketLab, Stratolaunch and Vast Launcher
 
 
 - <a href="https://www.cnbc.com/2023/05/23/virgin-orbit-bankruptcy-sale-rocket-lab-stratolaunch-vasts-launcher.html" >🔗</a> **[CNBC]** Virgin Orbit sells assets in bankruptcy auction to Rocket Lab, Stratolaunch and Vast’s Launcher
@@ -174,9 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/l3harris-wins-iarpa-haystac-contract/" >🔗</a> **[SpaceNews]** L3Harris wins IARPA HAYSTAC contract
-
-
-- <a href="https://spacenews.com/nga-to-map-lunar-geography-to-enable-gps-on-the-moon/" >🔗</a> **[SpaceNews]** NGA to map lunar geography to enable GPS on the moon
 
 
 
@@ -217,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T190600">2023-05-23 19:06:00 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T200800">2023-05-23 20:08:00 UTC</a>
   <br>
 </div>
