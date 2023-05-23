@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/air-force-research-lab-to-fund-development-of-ursa-majors-rocket-engines/" >🔗</a> **[SpaceNews]** Air Force Research Lab to fund development of Ursa Major’s rocket engines
+
+
+- <a href="https://tlpnetwork.com/news/2023/05/the-spaceport-company-performs-first-demo-of-offshore-launch" >🔗</a> **[The Launch Pad]** The Spaceport Company Performs First Demo of Offshore Launch Ops
+
+
 - <a href="https://tlpnetwork.com/news/2023/05/astrobotic-to-provide-blue-moon-lander-cargo-systems" >🔗</a> **[The Launch Pad]** Astrobotic To Provide Blue Moon Lander Cargo Systems
 
 
@@ -175,12 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.nasaspaceflight.com/2023/05/spacex-progressing-next-flights/" >🔗</a> **[NASASpaceflight]** SpaceX making progress toward next Starship test flights
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-mission-to-study-ice-clouds-help-observe-our-dynamic-atmosphere" >🔗</a> **[NASA]** NASA Mission to Study Ice Clouds, Help Observe Our Dynamic Atmosphere
-
-
-- <a href="https://spacenews.com/oneweb-announces-innovation-challenge-winners/" >🔗</a> **[SpaceNews]** OneWeb announces Innovation Challenge Winners
 
 
 
@@ -221,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T160920">2023-05-23 16:09:20 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T170614">2023-05-23 17:06:14 UTC</a>
   <br>
 </div>
