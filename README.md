@@ -187,6 +187,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 ## Latest Blog Posts 🪧
 
+- <a href="https://www.planetary.org/articles/asteroid-deflection-techniques-to-save-the-earth" >🔗</a> **[Planetary Society]** Five asteroid deflection techniques to save the Earth
+
+
 - <a href="https://www.planetary.org/the-downlink/moon-spying-missions-and-a-planetary-evil-twin" >🔗</a> **[Planetary Society]** Moon-spying missions and a planetary evil twin
 
 
@@ -214,13 +217,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://blog.ulalaunch.com/blog/why-is-stem-education-a-national-imperative" >🔗</a> **[United Launch Alliance]** Why is STEM Education a National Imperative and How Are We Wasting Our Precious Human Resource?
 
 
-- <a href="https://www.planetary.org/articles/what-happened-with-psyche" >🔗</a> **[Planetary Society]** What happened with Psyche?
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T140727">2023-05-23 14:07:27 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T150822">2023-05-23 15:08:22 UTC</a>
   <br>
 </div>
