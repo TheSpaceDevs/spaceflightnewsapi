@@ -148,6 +148,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/orbital-sidekick-acquires-first-light-imagery/" >🔗</a> **[SpaceNews]** Orbital Sidekick acquires first light imagery
 
 
+  - <a href="https://go4liftoff.com/launch/id/d8bd2b25-129b-4ab7-95d9-fb8ad1fdd73e" >🚀</a> **Falcon 9 Block 5 | Transporter 7 (Dedicated SSO Rideshare)** from Vandenberg SFB, CA, USA
+
+
+
 - <a href="https://spacenews.com/l3harris-wins-iarpa-haystac-contract/" >🔗</a> **[SpaceNews]** L3Harris wins IARPA HAYSTAC contract
 
 
@@ -158,6 +162,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/05/22/spacex-joining-faa-to-fight-environmental-lawsuit-over-starship.html" >🔗</a> **[CNBC]** SpaceX set to join FAA to fight environmental lawsuit that could delay Starship work
+
+
+  - <a href="https://go4liftoff.com/launch/id/e32d375f-0d6e-4e54-b4f2-2b49db657fca" >🚀</a> **Starship | Integrated Flight Test** from SpaceX Space Launch Facility, TX, USA
+
 
 
 - <a href="https://www.nasaspaceflight.com/2023/05/spacex-progressing-next-flights/" >🔗</a> **[NASASpaceflight]** SpaceX making progress toward next Starship test flights
@@ -217,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T061019">2023-05-23 06:10:19 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T070736">2023-05-23 07:07:36 UTC</a>
   <br>
 </div>
