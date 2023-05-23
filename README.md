@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/the-spaceport-company-demonstrates-offshore-launch-operations/" >🔗</a> **[SpaceNews]** The Spaceport Company demonstrates offshore launch operations
+
+
 - <a href="https://spacenews.com/orbital-sidekick-acquires-first-light-imagery/" >🔗</a> **[SpaceNews]** Orbital Sidekick acquires first light imagery
 
 
@@ -182,9 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/372d94b1-88fe-4cc5-9296-d893c9fa9426" >🚀</a> **SLS Block 1B | Artemis IV** from Kennedy Space Center, FL, USA
 
-
-
-- <a href="https://spacenews.com/darpa-selects-umbra-to-demonstrate-radar-imaging-techniques/" >🔗</a> **[SpaceNews]** DARPA selects Umbra to demonstrate radar imaging techniques
 
 
 
@@ -225,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T110618">2023-05-23 11:06:18 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230523T121326">2023-05-23 12:13:26 UTC</a>
   <br>
 </div>
