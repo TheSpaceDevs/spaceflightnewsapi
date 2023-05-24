@@ -145,10 +145,24 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/missile-warning-satellite-passes-preliminary-design-review/" >🔗</a> **[SpaceNews]** Missile-warning satellite passes preliminary design review
+
+
+- <a href="https://arstechnica.com/space/2023/05/internet-from-a-small-satellite-in-geostationary-orbit-sure-why-not/" >🔗</a> **[Arstechnica]** Internet from a small satellite in geostationary orbit? Sure, why not
+
+
 - <a href="https://spacenews.com/debut-astranis-satellite-beams-first-signals-to-alaska/" >🔗</a> **[SpaceNews]** Debut Astranis satellite beams first signals to Alaska
 
 
+  - <a href="https://go4liftoff.com/launch/id/8b1067dd-81c6-4bc3-b0f1-45f78963716f" >🚀</a> **Falcon Heavy | ViaSat-3 Americas & Others** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://www.cnbc.com/2023/05/24/astranis-first-internet-satellite-over-alaska-working-perfectly.html" >🔗</a> **[CNBC]** First Astranis internet satellite working ‘perfectly’ as company readies to bring coverage to Alaska
+
+
+  - <a href="https://go4liftoff.com/launch/id/8b1067dd-81c6-4bc3-b0f1-45f78963716f" >🚀</a> **Falcon Heavy | ViaSat-3 Americas & Others** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacenews.com/homeland-security-an-untapped-market-for-satellite-imagery-and-analytics/" >🔗</a> **[SpaceNews]** Homeland security an untapped market for satellite imagery and analytics
@@ -171,12 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/05/virgin-orbit-sells-assets" >🔗</a> **[The Launch Pad]** Virgin Orbit Sells Assets To RocketLab, Stratolaunch and Vast Launcher
-
-
-- <a href="https://www.cnbc.com/2023/05/23/virgin-orbit-bankruptcy-sale-rocket-lab-stratolaunch-vasts-launcher.html" >🔗</a> **[CNBC]** Virgin Orbit shuts down after bankruptcy sales
-
-
-- <a href="https://spacenews.com/nro-seeks-closer-ties-with-industry/" >🔗</a> **[SpaceNews]** NRO seeks closer ties with industry
 
 
 
@@ -217,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230524T130938">2023-05-24 13:09:38 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230524T140616">2023-05-24 14:06:16 UTC</a>
   <br>
 </div>
