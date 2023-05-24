@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/satellite-vu-raised-15-8-million-for-thermal-satellite-constellation/" >🔗</a> **[SpaceNews]** Satellite Vu raised $15.8 million for thermal satellite constellation
+
+
 - <a href="https://www.nasaspaceflight.com/2023/05/arabsat-7b-launch/" >🔗</a> **[NASASpaceflight]** Falcon 9 launch with Arabsat 7B scrubbed
 
 
@@ -174,9 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/05/astrobotic-to-provide-blue-moon-lander-cargo-systems" >🔗</a> **[The Launch Pad]** Astrobotic To Provide Blue Moon Lander Cargo Systems
-
-
-- <a href="https://spacenews.com/the-spaceport-company-demonstrates-offshore-launch-operations/" >🔗</a> **[SpaceNews]** The Spaceport Company demonstrates offshore launch operations
 
 
 
@@ -217,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230524T080843">2023-05-24 08:08:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230524T090641">2023-05-24 09:06:41 UTC</a>
   <br>
 </div>
