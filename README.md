@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/05/no-one-should-be-surprised-virgin-orbit-failed-it-had-a-terrible-business-plan/" >🔗</a> **[Arstechnica]** No one should be surprised Virgin Orbit failed—it had a terrible business plan
+
+
 - <a href="https://spacenews.com/japans-gitai-raises-29-million-for-space-robotics-business/" >🔗</a> **[SpaceNews]** Japan’s GITAI raises $29 million for space robotics business
 
 
@@ -182,9 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/nga-plans-new-procurement-of-commercial-earth-monitoring-services/" >🔗</a> **[SpaceNews]** NGA plans new procurement of commercial Earth monitoring services
-
-
-- <a href="https://spacenews.com/three-companies-to-buy-most-virgin-orbit-assets/" >🔗</a> **[SpaceNews]** Three companies to buy most Virgin Orbit assets
 
 
 
@@ -225,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230524T160810">2023-05-24 16:08:10 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230524T170546">2023-05-24 17:05:46 UTC</a>
   <br>
 </div>
