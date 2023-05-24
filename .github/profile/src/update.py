@@ -135,8 +135,12 @@ def get_latest_articles_blogs() -> (List[Dict], List[Dict]):
     ll2_event_IDs = list(set(ll2_event_IDs))
 
     # Get the launches and events from the LL2 API
-    launches = get_launches(ll2_launch_IDs)
-    events = get_events(ll2_event_IDs)
+    launches = []
+    events = []
+    if len(ll2_launch_IDs) > 0:
+        launches = get_launches(ll2_launch_IDs)
+    if len(ll2_event_IDs) > 0:
+        events = get_events(ll2_event_IDs)
 
     # Link the info from launches and events to the articles and blogs
     articles = link_launches_events(articles, launches, events)
