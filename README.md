@@ -145,6 +145,20 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/darpa-seeks-ai-tools-to-automate-tracking-of-satellite-sensor-data/" >🔗</a> **[SpaceNews]** DARPA seeks AI tools to automate tracking of satellite sensor data
+
+
+- <a href="https://spacenews.com/software-problem-blamed-for-ispace-lunar-lander-crash/" >🔗</a> **[SpaceNews]** Software problem blamed for ispace lunar lander crash
+
+
+  - <a href="https://go4liftoff.com/launch/id/2306e0bc-e1a3-4a4a-9285-e1a94073655e" >🚀</a> **Falcon 9 Block 5 | Hakuto-R M1 & Lunar Flashlight** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/730" >📆</a> **Hakuto-R M1 Lunar Landing**
+
+
 - <a href="https://spacenews.com/l3harris-wins-80-million-air-force-contract-for-satcom-experiments/" >🔗</a> **[SpaceNews]** L3Harris wins $80 million Air Force contract for satcom experiments
 
 
@@ -185,12 +199,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/orbit-fab-selects-impulse-spaces-orbital-vehicle-for-in-space-refueling-demo/" >🔗</a> **[SpaceNews]** Orbit Fab selects Impulse Space’s orbital vehicle for in-space refueling demo
-
-
-- <a href="https://arstechnica.com/space/2023/05/a-new-report-finds-nasa-has-spent-an-obscene-amount-of-money-on-sls-propulsion/" >🔗</a> **[Arstechnica]** A new report finds NASA has spent an obscene amount of money on SLS propulsion
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -229,6 +237,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T160822">2023-05-26 16:08:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T173817">2023-05-26 17:38:17 UTC</a>
   <br>
 </div>
