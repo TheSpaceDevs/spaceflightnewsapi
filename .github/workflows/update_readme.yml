@@ -25,14 +25,13 @@ jobs:
       - name: Check if branch already exists
         run: |
           if git ls-remote --heads origin readme-update; then
-            echo "::set-env name=branch_exists::true"
+            echo "branch_exists=true" >> "$GITHUB_ENV"
           else
-            echo "::set-env name=branch_exists::false"
+            echo "branch_exists=false" >> "$GITHUB_ENV"
           fi
       - name: Delete branch if it already exists
-        if: ${{ env.branch_exists == 'true' }}
-        run: |
-          git push origin -d readme-update
+        if: env.branch_exists == 'true'
+        run: git push origin -d readme-update
       - name: Create branch
         run: |
           git checkout -b readme-update
