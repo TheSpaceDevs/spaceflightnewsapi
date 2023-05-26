@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/new-mexico-students-to-hear-from-nasa-astronauts-aboard-space-station" >🔗</a> **[NASA]** New Mexico Students to Hear from NASA Astronauts Aboard Space Station
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-rocket-lab-complete-launch-of-tropics-cubesat-constellation" >🔗</a> **[NASA]** NASA, Rocket Lab Complete Launch of TROPICS CubeSat Constellation
+
+
 - <a href="https://spacenews.com/spacex-investment-in-starship-approaches-5-billion/" >🔗</a> **[SpaceNews]** SpaceX investment in Starship approaches $5 billion
 
 
@@ -171,24 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/northrop-grumman-wins-45-million-space-force-contract-to-launch-small-weather-satellite/" >🔗</a> **[SpaceNews]** Northrop Grumman wins $45 million Space Force contract to launch small weather satellite
-
-
-- <a href="https://tlpnetwork.com/news/2023/05/frf-delayed-rollback-required" >🔗</a> **[The Launch Pad]** ULA To Roll Back Vulcan Rocket, Flight Readiness Firing Delayed
-
-
-  - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/782" >📆</a> **Vulcan Cert-1 Flight Readiness Firing (FRF)**
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-science-on-next-spacex-cargo-launch-to-space-station" >🔗</a> **[NASA]** NASA to Discuss Science on Next SpaceX Cargo Launch to Space Station
-
-
-  - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -229,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T130832">2023-05-26 13:08:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T140557">2023-05-26 14:05:57 UTC</a>
   <br>
 </div>
