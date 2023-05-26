@@ -145,51 +145,42 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://spacenews.com/japans-gitai-raises-29-million-for-space-robotics-business/" >🔗</a> **[SpaceNews]** Japan’s GITAI raises $29 million for space robotics business
+- <a href="https://spacenews.com/nasa-safety-panel-skeptical-of-starliner-readiness-for-crewed-flight/" >🔗</a> **[SpaceNews]** NASA safety panel skeptical of Starliner readiness for crewed flight
 
 
-- <a href="https://spacenews.com/missile-warning-satellite-passes-preliminary-design-review/" >🔗</a> **[SpaceNews]** Missile-warning satellite passes preliminary design review
+- <a href="https://spacenews.com/orbit-fab-selects-impulse-spaces-orbital-vehicle-for-in-space-refueling-demo/" >🔗</a> **[SpaceNews]** Orbit Fab selects Impulse Space’s orbital vehicle for in-space refueling demo
 
 
-- <a href="https://arstechnica.com/space/2023/05/internet-from-a-small-satellite-in-geostationary-orbit-sure-why-not/" >🔗</a> **[Arstechnica]** Internet from a small satellite in geostationary orbit? Sure, why not
+- <a href="https://arstechnica.com/space/2023/05/a-new-report-finds-nasa-has-spent-an-obscene-amount-of-money-on-sls-propulsion/" >🔗</a> **[Arstechnica]** A new report finds NASA has spent an obscene amount of money on SLS propulsion
 
 
-- <a href="https://spacenews.com/debut-astranis-satellite-beams-first-signals-to-alaska/" >🔗</a> **[SpaceNews]** Debut Astranis satellite beams first signals to Alaska
+- <a href="https://spacenews.com/kleos-enters-partnership-with-general-atomics/" >🔗</a> **[SpaceNews]** Kleos enters partnership with General Atomics
 
 
-  - <a href="https://go4liftoff.com/launch/id/8b1067dd-81c6-4bc3-b0f1-45f78963716f" >🚀</a> **Falcon Heavy | ViaSat-3 Americas & Others** from Kennedy Space Center, FL, USA
+- <a href="https://spacenews.com/northrop-grumman-wins-45-million-space-force-contract-to-launch-small-weather-satellite/" >🔗</a> **[SpaceNews]** Northrop Grumman wins $45 million Space Force contract to launch small weather satellite
 
 
-
-- <a href="https://www.cnbc.com/2023/05/24/astranis-first-internet-satellite-over-alaska-working-perfectly.html" >🔗</a> **[CNBC]** First Astranis internet satellite working ‘perfectly’ as company readies to bring coverage to Alaska
-
-
-  - <a href="https://go4liftoff.com/launch/id/8b1067dd-81c6-4bc3-b0f1-45f78963716f" >🚀</a> **Falcon Heavy | ViaSat-3 Americas & Others** from Kennedy Space Center, FL, USA
+- <a href="https://tlpnetwork.com/news/2023/05/frf-delayed-rollback-required" >🔗</a> **[The Launch Pad]** BREAKING! ULA To Roll Back Vulcan Rocket, Flight Readiness Firing Delayed
 
 
-
-- <a href="https://spacenews.com/homeland-security-an-untapped-market-for-satellite-imagery-and-analytics/" >🔗</a> **[SpaceNews]** Homeland security an untapped market for satellite imagery and analytics
-
-
-- <a href="https://spacenews.com/satellite-vu-raised-15-8-million-for-thermal-satellite-constellation/" >🔗</a> **[SpaceNews]** Satellite Vu raised $15.8 million for thermal satellite constellation
+- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-science-on-next-spacex-cargo-launch-to-space-station" >🔗</a> **[NASA]** NASA to Discuss Science on Next SpaceX Cargo Launch to Space Station
 
 
-- <a href="https://www.nasaspaceflight.com/2023/05/arabsat-7b-launch/" >🔗</a> **[NASASpaceflight]** Falcon 9 launch with Arabsat 7B scrubbed
+- <a href="https://spacenews.com/virgin-galactic-makes-first-suborbital-spaceflight-in-nearly-two-years/" >🔗</a> **[SpaceNews]** Virgin Galactic makes first suborbital spaceflight in nearly two years
 
 
-  - <a href="https://go4liftoff.com/launch/id/d5a80dcc-105b-445f-a8c4-394d7c7825ed" >🚀</a> **Falcon 9 Block 5 | BADR-8** from Cape Canaveral, FL, USA
+- <a href="https://www.cnbc.com/2023/05/25/investing-in-space-nasa-winner-in-elon-musk-vs-jeff-bezos-moon-race.html" >🔗</a> **[CNBC]** Investing in Space: Who wins in the Elon Musk versus Jeff Bezos moon race
 
 
-
-- <a href="https://spacenews.com/nga-plans-new-procurement-of-commercial-earth-monitoring-services/" >🔗</a> **[SpaceNews]** NGA plans new procurement of commercial Earth monitoring services
-
-
-- <a href="https://spacenews.com/three-companies-to-buy-most-virgin-orbit-assets/" >🔗</a> **[SpaceNews]** Three companies to buy most Virgin Orbit assets
+- <a href="https://spacenews.com/viasats-inmarsat-acquisition-clears-all-regulatory-hurdles/" >🔗</a> **[SpaceNews]** Viasat’s Inmarsat acquisition clears all regulatory hurdles
 
 
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://blog.ulalaunch.com/blog/vulcan-preview-of-the-flight-readiness-firing" >🔗</a> **[United Launch Alliance]** Vulcan: Preview of the Flight Readiness Firing
+
 
 - <a href="https://www.planetary.org/articles/asteroid-deflection-techniques-to-save-the-earth" >🔗</a> **[Planetary Society]** Five asteroid deflection techniques to save the Earth
 
@@ -218,13 +209,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/the-downlink/moonshadow-moonshadow" >🔗</a> **[Planetary Society]** Moonshadow, Moonshadow
 
 
-- <a href="https://blog.ulalaunch.com/blog/why-is-stem-education-a-national-imperative" >🔗</a> **[United Launch Alliance]** Why is STEM Education a National Imperative and How Are We Wasting Our Precious Human Resource?
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230524T160810">2023-05-24 16:08:10 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T080813">2023-05-26 08:08:13 UTC</a>
   <br>
 </div>
