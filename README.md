@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-sets-coverage-for-axiom-mission-2-departure-from-space-station" >🔗</a> **[NASA]** NASA Sets Coverage for Axiom Mission 2 Departure from Space Station
+
+
 - <a href="https://spacenews.com/space-development-agency-planning-to-launch-13-satellites-in-late-june/" >🔗</a> **[SpaceNews]** Space Development Agency to launch 13 satellites in late June
 
 
@@ -188,9 +191,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/spacex-investment-in-starship-approaches-5-billion/" >🔗</a> **[SpaceNews]** SpaceX investment in Starship approaches $5 billion
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -229,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T211148">2023-05-26 21:11:48 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T221246">2023-05-26 22:12:46 UTC</a>
   <br>
 </div>
