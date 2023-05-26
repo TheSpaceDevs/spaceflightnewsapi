@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/rocket-labs-electron-delivers-tropics-constellation-to-orbit/" >🔗</a> **[Teslarati]** Rocket Lab’s Electron delivers TROPICS constellation to orbit
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-pursues-lunar-terrain-vehicle-services-for-artemis-missions" >🔗</a> **[NASA]** NASA Pursues Lunar Terrain Vehicle Services for Artemis Missions
 
 
@@ -188,13 +191,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/05/rocket-report-ula-calls-off-vulcan-test-firing-virgin-galactic-soars-again/" >🔗</a> **[Arstechnica]** Rocket Report: Europe has a rocket problem, FAA testing safety of methane
 
 
-- <a href="https://spacenews.com/electron-launches-second-pair-of-nasa-tropics-cubesats/" >🔗</a> **[SpaceNews]** Electron launches second pair of NASA TROPICS cubesats
-
-
-  - <a href="https://go4liftoff.com/launch/id/4f77007c-9bb3-4bf4-bab3-937e65f75c45" >🚀</a> **Electron | Coming To A Storm Near You (TROPICS-3)** from Onenui Station, Mahia Peninsula, New Zealand
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -233,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T191050">2023-05-26 19:10:50 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T201407">2023-05-26 20:14:07 UTC</a>
   <br>
 </div>
