@@ -46,6 +46,8 @@ jobs:
           cd ${GITHUB_WORKSPACE}/.github/profile/src/
           python update.py
       - name: 🚀 Deploy
+        env:
+          GH_TOKEN: ${{ secrets.SNAPI_BOT_TOKEN }}
         run: |
           git add .
           git commit -u -am "automation(README): Update content"
