@@ -25,7 +25,7 @@ jobs:
       - name: Delete branch if it exists
         run: |
           if [[ -n $(git ls-remote --heads origin readme-update) ]]; then
-              git push origin -d readme-update
+            git push origin -d readme-update
       - name: Create branch
         run: |
           git checkout -b readme-update
