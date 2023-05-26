@@ -22,6 +22,11 @@ jobs:
           gh auth status
           git config user.name "snapi-bot"
           git config user.email "134217814+snapi-bot@users.noreply.github.com"
+      - name: Delete branch if it exists
+        run: |
+          if [[ -n $(git ls-remote --heads origin readme-update) ]]; then
+              git push origin -d readme-update
+      - name: Create branch
           git checkout -b readme-update
       - name: 🐍 Set up Python 3.11
         uses: actions/setup-python@v2
@@ -34,8 +39,6 @@ jobs:
           cd ${GITHUB_WORKSPACE}/.github/profile/src/
           python update.py
       - name: 🚀 Deploy
-        env:
-          GH_TOKEN: ${{ secrets.SNAPI_BOT_TOKEN }}
         run: |
           git add .
           git commit -u -am "automation(README): Update content"
