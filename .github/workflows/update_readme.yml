@@ -24,7 +24,7 @@ jobs:
           git config user.email "134217814+snapi-bot@users.noreply.github.com"
       - name: Check if branch already exists
         run: |
-          if [[ -n $(git ls-remote --heads origin readme-update) ]]; then
+          if git ls-remote --heads origin readme-update; then
             echo "::set-env name=branch_exists::true"
       - name: Delete branch if it already exists
         if: ${{ env.branch_exists == 'true' }}
