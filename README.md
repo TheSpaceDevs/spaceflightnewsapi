@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-development-agency-planning-to-launch-13-satellites-in-late-june/" >🔗</a> **[SpaceNews]** Space Development Agency to launch 13 satellites in late June
+
+
 - <a href="https://www.teslarati.com/rocket-labs-electron-delivers-tropics-constellation-to-orbit/" >🔗</a> **[Teslarati]** Rocket Lab’s Electron delivers TROPICS constellation to orbit
 
 
@@ -188,9 +191,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/spacex-investment-in-starship-approaches-5-billion/" >🔗</a> **[SpaceNews]** SpaceX investment in Starship approaches $5 billion
 
 
-- <a href="https://arstechnica.com/space/2023/05/rocket-report-ula-calls-off-vulcan-test-firing-virgin-galactic-soars-again/" >🔗</a> **[Arstechnica]** Rocket Report: Europe has a rocket problem, FAA testing safety of methane
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -229,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T201407">2023-05-26 20:14:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T211148">2023-05-26 21:11:48 UTC</a>
   <br>
 </div>
