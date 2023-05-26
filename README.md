@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/electron-launches-second-pair-of-nasa-tropics-cubesats/" >🔗</a> **[SpaceNews]** Electron launches second pair of NASA TROPICS cubesats
+
+
 - <a href="https://spacenews.com/nasa-safety-panel-skeptical-of-starliner-readiness-for-crewed-flight/" >🔗</a> **[SpaceNews]** NASA safety panel skeptical of Starliner readiness for crewed flight
 
 
@@ -192,9 +195,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.cnbc.com/2023/05/25/investing-in-space-nasa-winner-in-elon-musk-vs-jeff-bezos-moon-race.html" >🔗</a> **[CNBC]** Investing in Space: Who wins in the Elon Musk versus Jeff Bezos moon race
 
 
-- <a href="https://spacenews.com/viasats-inmarsat-acquisition-clears-all-regulatory-hurdles/" >🔗</a> **[SpaceNews]** Viasat’s Inmarsat acquisition clears all regulatory hurdles
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -233,6 +233,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T100640">2023-05-26 10:06:40 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T110502">2023-05-26 11:05:02 UTC</a>
   <br>
 </div>
