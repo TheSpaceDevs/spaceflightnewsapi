@@ -27,6 +27,7 @@ jobs:
           if [[ -n $(git ls-remote --heads origin readme-update) ]]; then
               git push origin -d readme-update
       - name: Create branch
+        run: |
           git checkout -b readme-update
       - name: 🐍 Set up Python 3.11
         uses: actions/setup-python@v2
