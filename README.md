@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/spacex-investment-in-starship-approaches-5-billion/" >🔗</a> **[SpaceNews]** SpaceX investment in Starship approaches $5 billion
+
+
+- <a href="https://arstechnica.com/space/2023/05/rocket-report-ula-calls-off-vulcan-test-firing-virgin-galactic-soars-again/" >🔗</a> **[Arstechnica]** Rocket Report: Europe has a rocket problem, FAA testing safety of methane
+
+
 - <a href="https://spacenews.com/electron-launches-second-pair-of-nasa-tropics-cubesats/" >🔗</a> **[SpaceNews]** Electron launches second pair of NASA TROPICS cubesats
 
 
@@ -185,16 +191,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/virgin-galactic-makes-first-suborbital-spaceflight-in-nearly-two-years/" >🔗</a> **[SpaceNews]** Virgin Galactic makes first suborbital spaceflight in nearly two years
-
-
-  - <a href="https://go4liftoff.com/launch/id/384ab3d5-6628-4e14-9f33-50212b52c539" >🚀</a> **SpaceShipTwo | VSS Unity 25** from Air launch to Suborbital flight
-
-
-
-- <a href="https://www.cnbc.com/2023/05/25/investing-in-space-nasa-winner-in-elon-musk-vs-jeff-bezos-moon-race.html" >🔗</a> **[CNBC]** Investing in Space: Who wins in the Elon Musk versus Jeff Bezos moon race
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -233,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T110502">2023-05-26 11:05:02 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T121144">2023-05-26 12:11:44 UTC</a>
   <br>
 </div>
