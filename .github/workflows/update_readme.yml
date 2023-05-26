@@ -24,7 +24,7 @@ jobs:
           git config user.email "134217814+snapi-bot@users.noreply.github.com"
       - name: Check if branch already exists
         run: |
-          if [[ -z ${git ls-remote --heads origin readme-update} ]]; then
+          if [[ -z $(git ls-remote --heads origin readme-update) ]]; then
             echo "branch_exists=true" >> "$GITHUB_ENV"
           else
             echo "branch_exists=false" >> "$GITHUB_ENV"
