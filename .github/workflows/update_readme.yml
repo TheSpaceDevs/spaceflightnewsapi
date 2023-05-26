@@ -22,10 +22,14 @@ jobs:
           gh auth status
           git config user.name "snapi-bot"
           git config user.email "134217814+snapi-bot@users.noreply.github.com"
-      - name: Delete branch if it exists
+      - name: Check if branch already exists
         run: |
           if [[ -n $(git ls-remote --heads origin readme-update) ]]; then
-            git push origin -d readme-update
+            echo "::set-env name=branch_exists::true"
+      - name: Delete branch if it already exists
+        if: ${{ env.branch_exists == 'true' }}
+        run: |
+          git push origin -d readme-update
       - name: Create branch
         run: |
           git checkout -b readme-update
