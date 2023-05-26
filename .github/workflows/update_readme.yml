@@ -26,6 +26,9 @@ jobs:
         run: |
           if git ls-remote --heads origin readme-update; then
             echo "::set-env name=branch_exists::true"
+          else
+            echo "::set-env name=branch_exists::false"
+          fi
       - name: Delete branch if it already exists
         if: ${{ env.branch_exists == 'true' }}
         run: |
