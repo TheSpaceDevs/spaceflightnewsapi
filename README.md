@@ -151,7 +151,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/space-development-agency-planning-to-launch-13-satellites-in-late-june/" >🔗</a> **[SpaceNews]** Space Development Agency to launch 13 satellites in late June
 
 
-- <a href="https://www.nasaspaceflight.com/2023/05/arabsat-7b-launch/" >🔗</a> **[NASASpaceflight]** Falcon 9 launch with Arabsat 7B set for Friday
+- <a href="https://www.nasaspaceflight.com/2023/05/arabsat-7b-launch/" >🔗</a> **[NASASpaceflight]** Falcon 9 launches with Arabsat 7B set for Friday
 
 
   - <a href="https://go4liftoff.com/launch/id/d5a80dcc-105b-445f-a8c4-394d7c7825ed" >🚀</a> **Falcon 9 Block 5 | BADR-8** from Cape Canaveral, FL, USA
@@ -229,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230527T041614">2023-05-27 04:16:14 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230527T051225">2023-05-27 05:12:25 UTC</a>
   <br>
 </div>
