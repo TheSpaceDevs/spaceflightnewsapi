@@ -151,6 +151,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/space-development-agency-planning-to-launch-13-satellites-in-late-june/" >🔗</a> **[SpaceNews]** Space Development Agency to launch 13 satellites in late June
 
 
+- <a href="https://www.nasaspaceflight.com/2023/05/arabsat-7b-launch/" >🔗</a> **[NASASpaceflight]** Falcon 9 launch with Arabsat 7B set for Friday
+
+
+  - <a href="https://go4liftoff.com/launch/id/d5a80dcc-105b-445f-a8c4-394d7c7825ed" >🚀</a> **Falcon 9 Block 5 | BADR-8** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://www.teslarati.com/rocket-labs-electron-delivers-tropics-constellation-to-orbit/" >🔗</a> **[Teslarati]** Rocket Lab’s Electron delivers TROPICS constellation to orbit
 
 
@@ -182,13 +189,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/new-mexico-students-to-hear-from-nasa-astronauts-aboard-space-station" >🔗</a> **[NASA]** New Mexico Students to Hear from NASA Astronauts Aboard Space Station
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-rocket-lab-complete-launch-of-tropics-cubesat-constellation" >🔗</a> **[NASA]** NASA, Rocket Lab Complete Launch of TROPICS CubeSat Constellation
-
-
-  - <a href="https://go4liftoff.com/launch/id/4f77007c-9bb3-4bf4-bab3-937e65f75c45" >🚀</a> **Electron | Coming To A Storm Near You (TROPICS-3)** from Onenui Station, Mahia Peninsula, New Zealand
-
 
 
 
@@ -229,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230526T231327">2023-05-26 23:13:27 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230527T011353">2023-05-27 01:13:53 UTC</a>
   <br>
 </div>
