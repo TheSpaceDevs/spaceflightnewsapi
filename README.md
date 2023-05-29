@@ -148,19 +148,45 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/05/ship-25-confirmed-replay-starship-flight/" >🔗</a> **[NASASpaceflight]** Ship 25 confirmed as push for Summer replay of Starship test flight
 
 
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
 - <a href="https://spacenews.com/china-sets-sights-on-crewed-lunar-landing-before-2030/" >🔗</a> **[SpaceNews]** China sets sights on crewed lunar landing before 2030
 
 
 - <a href="https://spacenews.com/nasa-and-boeing-say-preparations-continue-for-july-starliner-test-flight/" >🔗</a> **[SpaceNews]** NASA and Boeing say preparations continue for July Starliner test flight
 
 
+  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/spacex-launches-badr-8-to-bolster-arabsats-satellite-fleet/" >🔗</a> **[SpaceNews]** SpaceX launches Badr-8 to bolster Arabsat’s satellite fleet
+
+
+  - <a href="https://go4liftoff.com/launch/id/d5a80dcc-105b-445f-a8c4-394d7c7825ed" >🚀</a> **Falcon 9 Block 5 | BADR-8** from Cape Canaveral, FL, USA
+
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-sets-coverage-for-axiom-mission-2-departure-from-space-station" >🔗</a> **[NASA]** NASA Sets Coverage for Axiom Mission 2 Departure from Space Station
 
 
+  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/373" >📆</a> **SpaceX AX-2 Crew Dragon Undocking**
+
+  - <a href="https://go4liftoff.com/event/id/374" >📆</a> **SpaceX AX-2 Crew Dragon Splashdown**
+
+
 - <a href="https://spacenews.com/space-development-agency-planning-to-launch-13-satellites-in-late-june/" >🔗</a> **[SpaceNews]** Space Development Agency to launch 13 satellites in late June
+
+
+  - <a href="https://go4liftoff.com/launch/id/9248a1d0-393f-469a-b9c6-19470247e6fd" >🚀</a> **Falcon 9 Block 5 | SDA Tranche 0B** from Vandenberg SFB, CA, USA
+
 
 
 - <a href="https://www.nasaspaceflight.com/2023/05/arabsat-7b-launch/" >🔗</a> **[NASASpaceflight]** Falcon 9 launches Arabsat 7B following weather delays
@@ -171,6 +197,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.teslarati.com/rocket-labs-electron-delivers-tropics-constellation-to-orbit/" >🔗</a> **[Teslarati]** Rocket Lab’s Electron delivers TROPICS constellation to orbit
+
+
+  - <a href="https://go4liftoff.com/launch/id/4f77007c-9bb3-4bf4-bab3-937e65f75c45" >🚀</a> **Electron | Coming To A Storm Near You (TROPICS-3)** from Onenui Station, Mahia Peninsula, New Zealand
+
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-pursues-lunar-terrain-vehicle-services-for-artemis-missions" >🔗</a> **[NASA]** NASA Pursues Lunar Terrain Vehicle Services for Artemis Missions
@@ -217,6 +247,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230529T191126">2023-05-29 19:11:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230529T201418">2023-05-29 20:14:18 UTC</a>
   <br>
 </div>
