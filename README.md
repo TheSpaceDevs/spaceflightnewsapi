@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/05/ship-25-confirmed-replay-starship-flight/" >🔗</a> **[NASASpaceflight]** Ship 25 confirmed as push for Summer replay of Starship test flight
+
+
 - <a href="https://spacenews.com/china-sets-sights-on-crewed-lunar-landing-before-2030/" >🔗</a> **[SpaceNews]** China sets sights on crewed lunar landing before 2030
 
 
@@ -174,17 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/darpa-seeks-ai-tools-to-automate-tracking-of-satellite-sensor-data/" >🔗</a> **[SpaceNews]** DARPA seeks AI tools to automate tracking of satellite sensor data
-
-
-- <a href="https://spacenews.com/software-problem-blamed-for-ispace-lunar-lander-crash/" >🔗</a> **[SpaceNews]** Software problem blamed for ispace lunar lander crash
-
-
-  - <a href="https://go4liftoff.com/launch/id/2306e0bc-e1a3-4a4a-9285-e1a94073655e" >🚀</a> **Falcon 9 Block 5 | Hakuto-R M1 & Lunar Flashlight** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/730" >📆</a> **Hakuto-R M1 Lunar Landing**
 
 
 
@@ -225,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230529T171236">2023-05-29 17:12:36 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230529T181638">2023-05-29 18:16:38 UTC</a>
   <br>
 </div>
