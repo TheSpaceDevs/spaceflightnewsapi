@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/05/ax-2-return/" >🔗</a> **[NASASpaceflight]** Axiom 2 astronauts set to splashdown from the ISS on Tuesday
+
+
+- <a href="https://spacenews.com/nasa-inspector-general-faults-agency-on-sls-booster-and-engine-overruns/" >🔗</a> **[SpaceNews]** NASA inspector general faults agency on SLS booster and engine overruns
+
+
 - <a href="https://spacenews.com/shenzhou-16-astronauts-arrive-at-chinas-space-station/" >🔗</a> **[SpaceNews]** Shenzhou-16 astronauts arrive at China’s space station
 
 
@@ -199,20 +205,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/374" >📆</a> **SpaceX AX-2 Crew Dragon Splashdown**
 
 
-- <a href="https://spacenews.com/space-development-agency-planning-to-launch-13-satellites-in-late-june/" >🔗</a> **[SpaceNews]** Space Development Agency to launch 13 satellites in late June
-
-
-  - <a href="https://go4liftoff.com/launch/id/9248a1d0-393f-469a-b9c6-19470247e6fd" >🚀</a> **Falcon 9 Block 5 | SDA Tranche 0B** from Vandenberg SFB, CA, USA
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/05/arabsat-7b-launch/" >🔗</a> **[NASASpaceflight]** Falcon 9 launches Arabsat 7B following weather delays
-
-
-  - <a href="https://go4liftoff.com/launch/id/d5a80dcc-105b-445f-a8c4-394d7c7825ed" >🚀</a> **Falcon 9 Block 5 | BADR-8** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -251,6 +243,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230530T111129">2023-05-30 11:11:29 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230530T123046">2023-05-30 12:30:46 UTC</a>
   <br>
 </div>
