@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/shenzhou-16-astronauts-arrive-at-chinas-space-station/" >🔗</a> **[SpaceNews]** Shenzhou-16 astronauts arrive at China’s space station
+
+
 - <a href="https://www.nasaspaceflight.com/2023/05/shenzhou-16-launch/" >🔗</a> **[NASASpaceflight]** China launches Shenzhou-16 mission to the Chinese Space Station
 
 
@@ -210,13 +213,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.teslarati.com/rocket-labs-electron-delivers-tropics-constellation-to-orbit/" >🔗</a> **[Teslarati]** Rocket Lab’s Electron delivers TROPICS constellation to orbit
-
-
-  - <a href="https://go4liftoff.com/launch/id/4f77007c-9bb3-4bf4-bab3-937e65f75c45" >🚀</a> **Electron | Coming To A Storm Near You (TROPICS-3)** from Onenui Station, Mahia Peninsula, New Zealand
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -255,6 +251,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230530T091340">2023-05-30 09:13:40 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230530T101445">2023-05-30 10:14:45 UTC</a>
   <br>
 </div>
