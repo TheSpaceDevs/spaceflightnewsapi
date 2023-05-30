@@ -145,16 +145,35 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/05/spacex-is-going-for-its-200th-consecutive-falcon-9-success-tonight/" >🔗</a> **[Arstechnica]** The Falcon 9 may double the record for consecutive launch success tonight
+
+
+  - <a href="https://go4liftoff.com/launch/id/5fa79e26-9ada-4a81-9735-c0b0a96a157a" >🚀</a> **Falcon 9 Block 5 | Starlink Group 2-10** from Vandenberg SFB, CA, USA
+
+
+
 - <a href="https://spacenews.com/darpa-launches-initiative-to-help-tech-companies-work-on-classified-programs/" >🔗</a> **[SpaceNews]** DARPA launches initiative to help tech companies work on classified programs
 
 
 - <a href="https://www.nasaspaceflight.com/2023/05/ax-2-return/" >🔗</a> **[NASASpaceflight]** Axiom 2 astronauts set to splashdown from the ISS on Tuesday
 
 
+  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/374" >📆</a> **SpaceX AX-2 Crew Dragon Splashdown**
+
+
 - <a href="https://spacenews.com/nasa-inspector-general-faults-agency-on-sls-booster-and-engine-overruns/" >🔗</a> **[SpaceNews]** NASA inspector general faults agency on SLS booster and engine overruns
 
 
 - <a href="https://spacenews.com/shenzhou-16-astronauts-arrive-at-chinas-space-station/" >🔗</a> **[SpaceNews]** Shenzhou-16 astronauts arrive at China’s space station
+
+
+  - <a href="https://go4liftoff.com/launch/id/2f8aff8b-85da-42bf-84eb-6d3b10184c44" >🚀</a> **Long March 2F/G | Shenzhou 16** from Jiuquan, People's Republic of China
+
 
 
 - <a href="https://www.nasaspaceflight.com/2023/05/shenzhou-16-launch/" >🔗</a> **[NASASpaceflight]** China launches Shenzhou-16 mission to the Chinese Space Station
@@ -185,13 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/spacex-launches-badr-8-to-bolster-arabsats-satellite-fleet/" >🔗</a> **[SpaceNews]** SpaceX launches Badr-8 to bolster Arabsat’s satellite fleet
-
-
-  - <a href="https://go4liftoff.com/launch/id/d5a80dcc-105b-445f-a8c4-394d7c7825ed" >🚀</a> **Falcon 9 Block 5 | BADR-8** from Cape Canaveral, FL, USA
 
 
 
@@ -233,6 +245,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230530T141235">2023-05-30 14:12:35 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230530T151434">2023-05-30 15:14:34 UTC</a>
   <br>
 </div>
