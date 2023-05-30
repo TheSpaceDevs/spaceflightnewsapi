@@ -148,6 +148,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/05/shenzhou-16-launch/" >🔗</a> **[NASASpaceflight]** China launches Shenzhou-16 mission to the Chinese Space Station
 
 
+- <a href="https://www.nasaspaceflight.com/2023/05/ship-25-starbase-update/" >🔗</a> **[NASASpaceflight]** Ship 25 confirmed as push for summer replay of Starship test flight
+
+
 - <a href="https://www.nasaspaceflight.com/2023/05/ship-25-confirmed-replay-starship-flight/" >🔗</a> **[NASASpaceflight]** Ship 25 confirmed as push for Summer replay of Starship test flight
 
 
@@ -206,9 +209,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-pursues-lunar-terrain-vehicle-services-for-artemis-missions" >🔗</a> **[NASA]** NASA Pursues Lunar Terrain Vehicle Services for Artemis Missions
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -247,6 +247,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230530T031451">2023-05-30 03:14:51 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230530T041655">2023-05-30 04:16:55 UTC</a>
   <br>
 </div>
