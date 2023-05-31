@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/china-looks-to-long-march-8-rocket-to-help-launch-its-answer-to-starlink/" >🔗</a> **[SpaceNews]** China looks to Long March 8 rocket to help launch its answer to Starlink
+
+
 - <a href="https://spacenews.com/spain-signs-artemis-accords/" >🔗</a> **[SpaceNews]** Spain signs Artemis Accords
 
 
@@ -154,10 +157,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/northrop-grummans-deep-space-radar-passes-critical-design-review/" >🔗</a> **[SpaceNews]** Northrop Grumman’s deep-space radar passes critical design review
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-welcomes-spain-as-25th-artemis-accords-signatory" >🔗</a> **[NASA]** NASA Welcomes Spain as 25th Artemis Accords Signatory
-
-
 - <a href="http://www.nasa.gov/press-release/espa-a-es-el-25-signatario-de-los-acuerdos-de-artemis" >🔗</a> **[NASA]** España es el 25.º signatario de los Acuerdos de Artemis
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-welcomes-spain-as-25th-artemis-accords-signatory" >🔗</a> **[NASA]** NASA Welcomes Spain as 25th Artemis Accords Signatory
 
 
 - <a href="https://arstechnica.com/space/2023/05/spacex-is-going-for-its-200th-consecutive-falcon-9-success-tonight/" >🔗</a> **[Arstechnica]** The Falcon 9 may double the record for consecutive launch success tonight
@@ -182,13 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/nasa-inspector-general-faults-agency-on-sls-booster-and-engine-overruns/" >🔗</a> **[SpaceNews]** NASA inspector general faults agency on SLS booster and engine overruns
-
-
-- <a href="https://spacenews.com/shenzhou-16-astronauts-arrive-at-chinas-space-station/" >🔗</a> **[SpaceNews]** Shenzhou-16 astronauts arrive at China’s space station
-
-
-  - <a href="https://go4liftoff.com/launch/id/2f8aff8b-85da-42bf-84eb-6d3b10184c44" >🚀</a> **Long March 2F/G | Shenzhou 16** from Jiuquan, People's Republic of China
-
 
 
 
@@ -229,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230531T101458">2023-05-31 10:14:58 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230531T111117">2023-05-31 11:11:17 UTC</a>
   <br>
 </div>
