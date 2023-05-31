@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/north-koreas-spy-satellite-launch-fails-with-second-stage-malfunction/" >🔗</a> **[SpaceNews]** North Korea’s spy satellite launch fails with second-stage malfunction
+
+
+- <a href="https://spacenews.com/satellite-operators-viasat-and-inmarsat-complete-merger-deal/" >🔗</a> **[SpaceNews]** Satellite operators Viasat and Inmarsat complete merger deal
+
+
 - <a href="https://spacenews.com/second-axiom-space-private-astronaut-mission-concludes-with-splashdown/" >🔗</a> **[SpaceNews]** Second Axiom Space private astronaut mission concludes with splashdown
 
 
@@ -168,10 +174,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/northrop-grummans-deep-space-radar-passes-critical-design-review/" >🔗</a> **[SpaceNews]** Northrop Grumman’s deep-space radar passes critical design review
 
 
-- <a href="http://www.nasa.gov/press-release/espa-a-es-el-25-signatario-de-los-acuerdos-de-artemis" >🔗</a> **[NASA]** España es el 25.º signatario de los Acuerdos de Artemis
-
-
 - <a href="http://www.nasa.gov/press-release/nasa-welcomes-spain-as-25th-artemis-accords-signatory" >🔗</a> **[NASA]** NASA Welcomes Spain as 25th Artemis Accords Signatory
+
+
+- <a href="http://www.nasa.gov/press-release/espa-a-es-el-25-signatario-de-los-acuerdos-de-artemis" >🔗</a> **[NASA]** España es el 25.º signatario de los Acuerdos de Artemis
 
 
 - <a href="https://arstechnica.com/space/2023/05/spacex-is-going-for-its-200th-consecutive-falcon-9-success-tonight/" >🔗</a> **[Arstechnica]** The Falcon 9 may double the record for consecutive launch success tonight
@@ -181,23 +187,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/darpa-launches-initiative-to-help-tech-companies-work-on-classified-programs/" >🔗</a> **[SpaceNews]** DARPA launches initiative to help tech companies work on classified programs
-
-
-- <a href="https://www.nasaspaceflight.com/2023/05/ax-2-return/" >🔗</a> **[NASASpaceflight]** Axiom 2 astronauts return from the ISS with successful splashdown
-
-
-  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/374" >📆</a> **SpaceX AX-2 Crew Dragon Splashdown**
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/articles/step-grant-winners-2023" >🔗</a> **[Planetary Society]** Space salads and salty waters
+
 
 - <a href="https://www.planetary.org/the-downlink/way-out-there" >🔗</a> **[Planetary Society]** Way out there
 
@@ -226,13 +221,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/articles/how-did-earth-get-its-oxygen" >🔗</a> **[Planetary Society]** How did Earth get its oxygen?
 
 
-- <a href="https://www.planetary.org/careers/freelance-digital-advertising-specialist-contract-part-time" >🔗</a> **[Planetary Society]** Freelance Digital Advertising Specialist (Contract & Part-time)
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230531T131707">2023-05-31 13:17:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230531T141215">2023-05-31 14:12:15 UTC</a>
   <br>
 </div>
