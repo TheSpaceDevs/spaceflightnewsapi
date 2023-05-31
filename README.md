@@ -145,7 +145,21 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-caps-off-busy-may-with-8th-falcon-9-launch/" >🔗</a> **[Teslarati]** SpaceX caps off busy May with 8th Falcon 9 launch
+
+
+  - <a href="https://go4liftoff.com/launch/id/5fa79e26-9ada-4a81-9735-c0b0a96a157a" >🚀</a> **Falcon 9 Block 5 | Starlink Group 2-10** from Vandenberg SFB, CA, USA
+
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-to-discuss-conclusions-of-psyche-mission-independent-review-board" >🔗</a> **[NASA]** NASA to Discuss Conclusions of Psyche Mission Independent Review Board
+
+
+  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
+
+
+
+- <a href="https://europeanspaceflight.com/esa-awards-contracts-to-define-future-european-launch-systems/" >🔗</a> **[European Spaceflight Update]** ESA Awards Contracts to Define Future European Launch Systems
 
 
 - <a href="https://spacenews.com/cutting-edge-reconnaissance-satellites-revolutionizing-national-security-from-space/" >🔗</a> **[SpaceNews]** Cutting-Edge Reconnaissance Satellites: Revolutionizing National Security from Space
@@ -183,12 +197,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/spain-signs-artemis-accords/" >🔗</a> **[SpaceNews]** Spain signs Artemis Accords
-
-
-- <a href="https://spacenews.com/telesat-orders-prototype-satellite-to-continue-leo-broadband-tests/" >🔗</a> **[SpaceNews]** Telesat orders prototype satellite to continue LEO broadband tests
-
-
-- <a href="https://spacenews.com/northrop-grummans-deep-space-radar-passes-critical-design-review/" >🔗</a> **[SpaceNews]** Northrop Grumman’s deep-space radar passes critical design review
 
 
 
@@ -229,6 +237,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230531T191108">2023-05-31 19:11:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230531T201421">2023-05-31 20:14:21 UTC</a>
   <br>
 </div>
