@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/florida-space-coast-selected-as-home-of-u-s-space-force-training-command/" >🔗</a> **[SpaceNews]** Florida Space Coast selected as home of U.S. Space Force training command
+
+
 - <a href="https://spacenews.com/u-s-space-command-takes-over-responsibility-for-protecting-homeland-from-missile-strikes/" >🔗</a> **[SpaceNews]** U.S. Space Command takes over responsibility for protecting homeland from missile strikes
 
 
@@ -188,17 +191,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/satellite-operators-viasat-and-inmarsat-complete-merger-deal/" >🔗</a> **[SpaceNews]** Satellite operators Viasat and Inmarsat complete merger deal
 
 
-- <a href="https://spacenews.com/second-axiom-space-private-astronaut-mission-concludes-with-splashdown/" >🔗</a> **[SpaceNews]** Second Axiom Space private astronaut mission concludes with splashdown
-
-
-  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/374" >📆</a> **SpaceX AX-2 Crew Dragon Splashdown**
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -237,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230531T211216">2023-05-31 21:12:16 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230531T221238">2023-05-31 22:12:38 UTC</a>
   <br>
 </div>
