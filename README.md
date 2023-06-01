@@ -145,6 +145,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/06/01/boeing-further-delays-first-starliner-astronaut-mission-for-nasa.html" >🔗</a> **[CNBC]** Boeing indefinitely delays Starliner astronaut mission for NASA after discovering more issues
+
+
+  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/northrop-grummans-ground-station-for-missile-warning-satellites-passes-design-review/" >🔗</a> **[SpaceNews]** Northrop Grumman’s ground station for missile warning satellites passes design review
 
 
@@ -174,13 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/fortify-raises-12-5-million-for-digital-composite-manufacturing/" >🔗</a> **[SpaceNews]** Fortify raises $12.5 million for digital composite manufacturing
-
-
-- <a href="https://spacenews.com/dream-chaser-moves-a-step-closer-to-first-launch/" >🔗</a> **[SpaceNews]** Dream Chaser moves a step closer to first launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/a67b40f9-cfcc-4614-a355-a156280b4bb3" >🚀</a> **Vulcan VC4L | Dream Chaser CRS 2 Flight 1** from Cape Canaveral, FL, USA
-
 
 
 
@@ -221,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T211151">2023-06-01 21:11:51 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T221250">2023-06-01 22:12:50 UTC</a>
   <br>
 </div>
