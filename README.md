@@ -145,7 +145,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-force-exploring-options-to-build-weather-monitoring-constellation/" >🔗</a> **[SpaceNews]** Space Force exploring options to build weather monitoring constellation
+
+
+- <a href="https://www.teslarati.com/spacex-starlink-lands-dod-contract-ukraine-satellite-services/" >🔗</a> **[Teslarati]** SpaceX Starlink lands DoD contract for Ukraine satellite services
+
+
 - <a href="https://www.cnbc.com/2023/06/01/pentagon-awards-spacex-with-ukraine-contract-for-starlink-satellite-internet.html" >🔗</a> **[CNBC]** Pentagon awards SpaceX with Ukraine contract for Starlink satellite internet
+
+
+- <a href="https://www.cnbc.com/2023/06/01/investing-in-space-the-virgin-galactic-spce-turning-point.html" >🔗</a> **[CNBC]** Investing in Space: Virgin Galactic still has a big hurdle to clear for commercial service
 
 
 - <a href="https://spacenews.com/space-force-selects-new-leader-for-eastern-range/" >🔗</a> **[SpaceNews]** Space Force selects new leader for Eastern Range
@@ -168,29 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/u-s-space-command-takes-over-responsibility-for-protecting-homeland-from-missile-strikes/" >🔗</a> **[SpaceNews]** U.S. Space Command takes over responsibility for protecting homeland from missile strikes
-
-
-- <a href="https://www.nasaspaceflight.com/2023/05/volcano-covered-exoplanet/" >🔗</a> **[NASASpaceflight]** Using data from Spitzer and TESS, scientists discover exoplanet littered with volcanoes
-
-
-  - <a href="https://go4liftoff.com/launch/id/82e633a2-869d-46cf-ba29-28f111a991e3" >🚀</a> **Delta II | Spitzer Space Telescope** from Cape Canaveral, FL, USA
-
-  - <a href="https://go4liftoff.com/launch/id/ca4e796d-f3e4-4b80-b2f7-f7fd6a7b325f" >🚀</a> **Falcon 9 Block 4 | TESS (Transiting Exoplanet Survey Satellite)** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://www.teslarati.com/spacex-caps-off-busy-may-with-8th-falcon-9-launch/" >🔗</a> **[Teslarati]** SpaceX caps off busy May with 8th Falcon 9 launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/5fa79e26-9ada-4a81-9735-c0b0a96a157a" >🚀</a> **Falcon 9 Block 5 | Starlink Group 2-10** from Vandenberg SFB, CA, USA
-
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-conclusions-of-psyche-mission-independent-review-board" >🔗</a> **[NASA]** NASA to Discuss Conclusions of Psyche Mission Independent Review Board
-
-
-  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -231,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T171206">2023-06-01 17:12:06 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T181756">2023-06-01 18:17:56 UTC</a>
   <br>
 </div>
