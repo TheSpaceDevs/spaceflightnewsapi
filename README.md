@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/dream-chaser-moves-a-step-closer-to-first-launch/" >🔗</a> **[SpaceNews]** Dream Chaser moves a step closer to first launch
+
+
 - <a href="https://spacenews.com/florida-space-coast-selected-as-home-of-u-s-space-force-training-command/" >🔗</a> **[SpaceNews]** Florida Space Coast selected as home of U.S. Space Force training command
 
 
@@ -194,7 +197,8 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/north-koreas-spy-satellite-launch-fails-with-second-stage-malfunction/" >🔗</a> **[SpaceNews]** North Korea’s spy satellite launch fails with second-stage malfunction
 
 
-- <a href="https://spacenews.com/satellite-operators-viasat-and-inmarsat-complete-merger-deal/" >🔗</a> **[SpaceNews]** Satellite operators Viasat and Inmarsat complete merger deal
+  - <a href="https://go4liftoff.com/launch/id/4aa4088f-4129-4f32-8a89-751f2a54288b" >🚀</a> **Chollima 1 | Malligyong-1** from Sohae Satellite Launching Station,  Cholsan County, North Pyongan Province, Democratic People's Republic of Korea
+
 
 
 
@@ -235,6 +239,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T101726">2023-06-01 10:17:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T111118">2023-06-01 11:11:18 UTC</a>
   <br>
 </div>
