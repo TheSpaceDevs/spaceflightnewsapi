@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-invites-public-to-sign-poem-that-will-fly-aboard-europa-clipper" >🔗</a> **[NASA]** NASA Invites Public to Sign Poem That Will Fly Aboard Europa Clipper
+
+
+- <a href="https://arstechnica.com/space/2023/06/boeing-stands-down-from-starliner-launch-to-address-recently-found-problems/" >🔗</a> **[Arstechnica]** Boeing finds two serious problems with Starliner just weeks before launch
+
+
 - <a href="https://www.cnbc.com/2023/06/01/boeing-further-delays-first-starliner-astronaut-mission-for-nasa.html" >🔗</a> **[CNBC]** Boeing indefinitely delays Starliner astronaut mission for NASA after discovering more issues
 
 
@@ -175,12 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-force-selects-new-leader-for-eastern-range/" >🔗</a> **[SpaceNews]** Space Force selects new leader for Eastern Range
-
-
-- <a href="https://arstechnica.com/science/2023/06/the-atlantic-hurricane-season-has-begun-what-we-know-and-what-we-dont/" >🔗</a> **[Arstechnica]** The Atlantic hurricane season has begun: What we know and what we don’t
-
-
-- <a href="https://spacenews.com/fortify-raises-12-5-million-for-digital-composite-manufacturing/" >🔗</a> **[SpaceNews]** Fortify raises $12.5 million for digital composite manufacturing
 
 
 
@@ -221,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T221250">2023-06-01 22:12:50 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T231412">2023-06-01 23:14:12 UTC</a>
   <br>
 </div>
