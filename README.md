@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/science/2023/06/the-atlantic-hurricane-season-has-begun-what-we-know-and-what-we-dont/" >🔗</a> **[Arstechnica]** The Atlantic hurricane season has begun: What we know and what we don’t
+
+
 - <a href="https://spacenews.com/fortify-raises-12-5-million-for-digital-composite-manufacturing/" >🔗</a> **[SpaceNews]** Fortify raises $12.5 million for digital composite manufacturing
 
 
@@ -190,17 +193,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/cutting-edge-reconnaissance-satellites-revolutionizing-national-security-from-space/" >🔗</a> **[SpaceNews]** Cutting-Edge Reconnaissance Satellites: Revolutionizing National Security from Space
 
 
-- <a href="https://www.teslarati.com/axiom-2-crew-returns-after-10-days-in-space/" >🔗</a> **[Teslarati]** Axiom-2 Crew returns to Earth after 10 days in space
-
-
-  - <a href="https://go4liftoff.com/launch/id/0297d3dc-0513-450a-babc-6f3da8e8c181" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 2** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/374" >📆</a> **SpaceX AX-2 Crew Dragon Splashdown**
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -239,6 +231,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T141300">2023-06-01 14:13:00 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T151411">2023-06-01 15:14:11 UTC</a>
   <br>
 </div>
