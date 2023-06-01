@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/06/01/pentagon-awards-spacex-with-ukraine-contract-for-starlink-satellite-internet.html" >🔗</a> **[CNBC]** Pentagon awards SpaceX with Ukraine contract for Starlink satellite internet
+
+
+- <a href="https://spacenews.com/space-force-selects-new-leader-for-eastern-range/" >🔗</a> **[SpaceNews]** Space Force selects new leader for Eastern Range
+
+
 - <a href="https://arstechnica.com/science/2023/06/the-atlantic-hurricane-season-has-begun-what-we-know-and-what-we-dont/" >🔗</a> **[Arstechnica]** The Atlantic hurricane season has begun: What we know and what we don’t
 
 
@@ -187,12 +193,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://europeanspaceflight.com/esa-awards-contracts-to-define-future-european-launch-systems/" >🔗</a> **[European Spaceflight]** ESA Awards Contracts to Define Future European Launch Systems
-
-
-- <a href="https://spacenews.com/cutting-edge-reconnaissance-satellites-revolutionizing-national-security-from-space/" >🔗</a> **[SpaceNews]** Cutting-Edge Reconnaissance Satellites: Revolutionizing National Security from Space
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -231,6 +231,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T161853">2023-06-01 16:18:53 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T171206">2023-06-01 17:12:06 UTC</a>
   <br>
 </div>
