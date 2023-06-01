@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/fortify-raises-12-5-million-for-digital-composite-manufacturing/" >🔗</a> **[SpaceNews]** Fortify raises $12.5 million for digital composite manufacturing
+
+
 - <a href="https://spacenews.com/dream-chaser-moves-a-step-closer-to-first-launch/" >🔗</a> **[SpaceNews]** Dream Chaser moves a step closer to first launch
 
 
@@ -198,13 +201,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/374" >📆</a> **SpaceX AX-2 Crew Dragon Splashdown**
 
 
-- <a href="https://spacenews.com/north-koreas-spy-satellite-launch-fails-with-second-stage-malfunction/" >🔗</a> **[SpaceNews]** North Korea’s spy satellite launch fails with second-stage malfunction
-
-
-  - <a href="https://go4liftoff.com/launch/id/4aa4088f-4129-4f32-8a89-751f2a54288b" >🚀</a> **Chollima 1 | Malligyong-1** from Sohae Satellite Launching Station,  Cholsan County, North Pyongan Province, Democratic People's Republic of Korea
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -243,6 +239,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T131727">2023-06-01 13:17:27 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T141300">2023-06-01 14:13:00 UTC</a>
   <br>
 </div>
