@@ -54,7 +54,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - ESA
 - ElonX
 - Euronews
-- European Spaceflight Update
+- European Spaceflight
 - Jet Propulsion Laboratory
 - NASA
 - NASASpaceflight
@@ -154,6 +154,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/05/volcano-covered-exoplanet/" >🔗</a> **[NASASpaceflight]** Using data from Spitzer and TESS, scientists discover exoplanet littered with volcanoes
 
 
+  - <a href="https://go4liftoff.com/launch/id/82e633a2-869d-46cf-ba29-28f111a991e3" >🚀</a> **Delta II | Spitzer Space Telescope** from Cape Canaveral, FL, USA
+
+  - <a href="https://go4liftoff.com/launch/id/ca4e796d-f3e4-4b80-b2f7-f7fd6a7b325f" >🚀</a> **Falcon 9 Block 4 | TESS (Transiting Exoplanet Survey Satellite)** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://www.teslarati.com/spacex-caps-off-busy-may-with-8th-falcon-9-launch/" >🔗</a> **[Teslarati]** SpaceX caps off busy May with 8th Falcon 9 launch
 
 
@@ -168,7 +174,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://europeanspaceflight.com/esa-awards-contracts-to-define-future-european-launch-systems/" >🔗</a> **[European Spaceflight Update]** ESA Awards Contracts to Define Future European Launch Systems
+- <a href="https://europeanspaceflight.com/esa-awards-contracts-to-define-future-european-launch-systems/" >🔗</a> **[European Spaceflight]** ESA Awards Contracts to Define Future European Launch Systems
 
 
 - <a href="https://spacenews.com/cutting-edge-reconnaissance-satellites-revolutionizing-national-security-from-space/" >🔗</a> **[SpaceNews]** Cutting-Edge Reconnaissance Satellites: Revolutionizing National Security from Space
@@ -229,6 +235,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T051318">2023-06-01 05:13:18 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230601T061852">2023-06-01 06:18:52 UTC</a>
   <br>
 </div>
