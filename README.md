@@ -145,7 +145,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/06/to-keep-starliner-flying-boeing-must-make-some-hard-choices/" >🔗</a> **[Arstechnica]** To keep Starliner flying, Boeing must make some hard choices
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/twis-20230602/" >🔗</a> **[NASASpaceflight]** This Week In Spaceflight: China’s lunar plans, North Korea’s failed launch, and Starliner delays
+
+
+  - <a href="https://go4liftoff.com/launch/id/4aa4088f-4129-4f32-8a89-751f2a54288b" >🚀</a> **Chollima 1 | Malligyong-1** from Sohae Satellite Launching Station,  Cholsan County, North Pyongan Province, Democratic People's Republic of Korea
+
+  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://spacenews.com/space-comm-expo-2023-where-space-does-business/" >🔗</a> **[SpaceNews]** Space-Comm Expo 2023 – Where Space Does Business
@@ -192,13 +201,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/northrop-grummans-ground-station-for-missile-warning-satellites-passes-design-review/" >🔗</a> **[SpaceNews]** Northrop Grumman’s ground station for missile warning satellites passes design review
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-boeing-to-hold-media-update-on-crew-flight-test-today" >🔗</a> **[NASA]** NASA, Boeing to Hold Media Update on Crew Flight Test Today
-
-
-  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -237,6 +239,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230602T181648">2023-06-02 18:16:48 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230602T191047">2023-06-02 19:10:47 UTC</a>
   <br>
 </div>
