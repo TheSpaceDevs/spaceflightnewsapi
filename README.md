@@ -145,6 +145,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/google-leads-36-million-funding-round-for-pixxel/" >🔗</a> **[SpaceNews]** Google leads $36 million funding round for Pixxel
+
+
+- <a href="https://arstechnica.com/space/2023/06/rocket-report-spacex-pushing-ahead-on-starbase-north-korea-launch-failure/" >🔗</a> **[Arstechnica]** Rocket Report: SpaceX pushing ahead on Starbase, North Korea launch failure
+
+
+  - <a href="https://go4liftoff.com/launch/id/4aa4088f-4129-4f32-8a89-751f2a54288b" >🚀</a> **Chollima 1 | Malligyong-1** from Sohae Satellite Launching Station,  Cholsan County, North Pyongan Province, Democratic People's Republic of Korea
+
+
+
 - <a href="https://spacenews.com/parachute-and-wiring-issues-to-delay-starliner-crewed-test-flight/" >🔗</a> **[SpaceNews]** Parachute and wiring issues to delay Starliner crewed test flight
 
 
@@ -189,12 +199,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/spacex-starlink-lands-dod-contract-ukraine-satellite-services/" >🔗</a> **[Teslarati]** SpaceX Starlink lands DoD contract for Ukraine satellite services
 
 
-- <a href="https://www.cnbc.com/2023/06/01/pentagon-awards-spacex-with-ukraine-contract-for-starlink-satellite-internet.html" >🔗</a> **[CNBC]** Pentagon awards SpaceX with Ukraine contract for Starlink satellite internet
-
-
-- <a href="https://www.cnbc.com/2023/06/01/investing-in-space-the-virgin-galactic-spce-turning-point.html" >🔗</a> **[CNBC]** Investing in Space: Virgin Galactic still has a big hurdle to clear for commercial service
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -233,6 +237,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230602T111138">2023-06-02 11:11:38 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230602T122940">2023-06-02 12:29:40 UTC</a>
   <br>
 </div>
