@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/northrop-grumman-gets-80-million-air-force-contract-for-satcom-experiments/" >🔗</a> **[SpaceNews]** Northrop Grumman gets $80 million Air Force contract for satcom experiments
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-awards-technical-workforce-training-contract" >🔗</a> **[NASA]** NASA Awards Technical Workforce Training Contract
 
 
@@ -198,13 +201,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.cnbc.com/2023/06/01/boeing-further-delays-first-starliner-astronaut-mission-for-nasa.html" >🔗</a> **[CNBC]** Boeing indefinitely delays Starliner astronaut mission for NASA after discovering more issues
-
-
-  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -243,6 +239,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230602T221234">2023-06-02 22:12:34 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230602T231454">2023-06-02 23:14:54 UTC</a>
   <br>
 </div>
