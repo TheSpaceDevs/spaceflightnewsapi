@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/uae-outlines-plans-for-asteroid-mission/" >🔗</a> **[SpaceNews]** UAE outlines plans for asteroid mission
+
+
 - <a href="https://spacenews.com/fixed-price-satellite-contracts-earn-high-grades-in-space-force-report-card/" >🔗</a> **[SpaceNews]** Fixed-price satellite contracts earn high grades in Space Force report card
 
 
@@ -190,13 +193,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-invites-public-to-sign-poem-that-will-fly-aboard-europa-clipper" >🔗</a> **[NASA]** NASA Invites Public to Sign Poem That Will Fly Aboard Europa Clipper
-
-
-  - <a href="https://go4liftoff.com/launch/id/59548105-347d-4477-8747-7fc3f91016c5" >🚀</a> **Falcon Heavy | Europa Clipper** from Kennedy Space Center, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -235,6 +231,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230603T221202">2023-06-03 22:12:02 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230603T231313">2023-06-03 23:13:13 UTC</a>
   <br>
 </div>
