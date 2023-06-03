@@ -151,7 +151,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/northrop-grumman-gets-80-million-air-force-contract-for-satcom-experiments/" >🔗</a> **[SpaceNews]** Northrop Grumman gets $80 million Air Force contract for satcom experiments
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-awards-technical-workforce-training-contract" >🔗</a> **[NASA]** NASA Awards Technical Workforce Training Contract
+- <a href="https://www.nasa.gov/press-release/nasa-awards-technical-workforce-training-contract" >🔗</a> **[NASA]** NASA Awards Technical Workforce Training Contract
 
 
 - <a href="https://arstechnica.com/space/2023/06/to-keep-starliner-flying-boeing-must-make-some-hard-choices/" >🔗</a> **[Arstechnica]** To keep Starliner flying, Boeing must make some hard choices
@@ -235,6 +235,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230603T111148">2023-06-03 11:11:48 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230603T122538">2023-06-03 12:25:38 UTC</a>
   <br>
 </div>
