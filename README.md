@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/fixed-price-satellite-contracts-earn-high-grades-in-space-force-report-card/" >🔗</a> **[SpaceNews]** Fixed-price satellite contracts earn high grades in Space Force report card
+
+
 - <a href="https://spacenews.com/northrop-grumman-gets-80-million-air-force-contract-for-satcom-experiments/" >🔗</a> **[SpaceNews]** Northrop Grumman gets $80 million Air Force contract for satcom experiments
 
 
@@ -194,13 +197,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://arstechnica.com/space/2023/06/boeing-stands-down-from-starliner-launch-to-address-recently-found-problems/" >🔗</a> **[Arstechnica]** Boeing finds two serious problems with Starliner just weeks before launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -239,6 +235,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230602T231454">2023-06-02 23:14:54 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230603T012436">2023-06-03 01:24:36 UTC</a>
   <br>
 </div>
