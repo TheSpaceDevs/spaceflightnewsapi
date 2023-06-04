@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/06/crs-28-launch/" >🔗</a> **[NASASpaceflight]** SpaceX set to launch CRS-28 resupply mission to the ISS
+
+
 - <a href="https://spacenews.com/uae-outlines-plans-for-asteroid-mission/" >🔗</a> **[SpaceNews]** UAE outlines plans for asteroid mission
 
 
@@ -186,13 +189,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/parachute-and-wiring-issues-to-delay-starliner-crewed-test-flight/" >🔗</a> **[SpaceNews]** Parachute and wiring issues to delay Starliner crewed test flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -231,6 +227,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230604T111107">2023-06-04 11:11:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230604T122617">2023-06-04 12:26:17 UTC</a>
   <br>
 </div>
