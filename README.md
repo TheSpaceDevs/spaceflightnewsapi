@@ -148,6 +148,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/06/crs-28-launch/" >🔗</a> **[NASASpaceflight]** SpaceX moves launch CRS-28 resupply mission to the ISS to Monday
 
 
+  - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://spacenews.com/uae-outlines-plans-for-asteroid-mission/" >🔗</a> **[SpaceNews]** UAE outlines plans for asteroid mission
 
 
@@ -227,6 +231,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230604T171129">2023-06-04 17:11:29 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230604T181617">2023-06-04 18:16:17 UTC</a>
   <br>
 </div>
