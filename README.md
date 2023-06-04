@@ -145,7 +145,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://www.nasaspaceflight.com/2023/06/crs-28-launch/" >🔗</a> **[NASASpaceflight]** SpaceX set to launch CRS-28 resupply mission to the ISS
+- <a href="https://www.nasaspaceflight.com/2023/06/crs-28-launch/" >🔗</a> **[NASASpaceflight]** SpaceX moves launch CRS-28 resupply mission to the ISS to Monday
 
 
 - <a href="https://spacenews.com/uae-outlines-plans-for-asteroid-mission/" >🔗</a> **[SpaceNews]** UAE outlines plans for asteroid mission
@@ -227,6 +227,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230604T141117">2023-06-04 14:11:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230604T151247">2023-06-04 15:12:47 UTC</a>
   <br>
 </div>
