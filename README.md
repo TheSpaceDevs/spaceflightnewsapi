@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-selects-small-business-research-teams-for-tech-development" >🔗</a> **[NASA]** NASA Selects Small Business, Research Teams for Tech Development
+
+
 - <a href="https://spacenews.com/digital-twins-gaining-traction-in-military-satellite-programs/" >🔗</a> **[SpaceNews]** Digital twins gaining traction in military satellite programs
 
 
@@ -182,9 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
 
-
-
-- <a href="https://spacenews.com/uae-outlines-plans-for-asteroid-mission/" >🔗</a> **[SpaceNews]** UAE outlines plans for asteroid mission
 
 
 
@@ -225,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T181710">2023-06-05 18:17:10 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T191102">2023-06-05 19:11:02 UTC</a>
   <br>
 </div>
