@@ -145,7 +145,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://www.nasaspaceflight.com/2023/06/crs-28-launch/" >🔗</a> **[NASASpaceflight]** SpaceX moves launch CRS-28 resupply mission to the ISS to Monday
+- <a href="https://www.nasaspaceflight.com/2023/06/crs-28-launch/" >🔗</a> **[NASASpaceflight]** SpaceX moves launch of CRS-28 ISS resupply mission to Monday
 
 
   - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
@@ -231,6 +231,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T025009">2023-06-05 02:50:09 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T031643">2023-06-05 03:16:43 UTC</a>
   <br>
 </div>
