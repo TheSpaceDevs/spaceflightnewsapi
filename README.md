@@ -145,7 +145,24 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/digital-twins-gaining-traction-in-military-satellite-programs/" >🔗</a> **[SpaceNews]** Digital twins gaining traction in military satellite programs
+
+
+- <a href="https://spacenews.com/falcon-9-launches-cargo-dragon-to-space-station-with-new-solar-arrays/" >🔗</a> **[SpaceNews]** Falcon 9 launches cargo Dragon to space station with new solar arrays
+
+
+  - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
+
+
+
+- <a href="https://spacenews.com/viasat-forms-satcoms-titan-to-take-on-a-market-in-transformation/" >🔗</a> **[SpaceNews]** Viasat forms satcoms titan to take on a market in transformation
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-spacex-launch-solar-arrays-cargo-to-space-station" >🔗</a> **[NASA]** NASA, SpaceX Launch Solar Arrays, Cargo to Space Station
+
+
+  - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://www.nasaspaceflight.com/2023/06/s25-b7-olm-prepare-for-flights/" >🔗</a> **[NASASpaceflight]** OLM mods as vehicles shuffle in prepartion for upcoming test flights
@@ -168,15 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/uae-outlines-plans-for-asteroid-mission/" >🔗</a> **[SpaceNews]** UAE outlines plans for asteroid mission
-
-
-- <a href="https://spacenews.com/fixed-price-satellite-contracts-earn-high-grades-in-space-force-report-card/" >🔗</a> **[SpaceNews]** Fixed-price satellite contracts earn high grades in Space Force report card
-
-
-- <a href="https://spacenews.com/northrop-grumman-gets-80-million-air-force-contract-for-satcom-experiments/" >🔗</a> **[SpaceNews]** Northrop Grumman gets $80 million Air Force contract for satcom experiments
-
-
-- <a href="https://www.nasa.gov/press-release/nasa-awards-technical-workforce-training-contract" >🔗</a> **[NASA]** NASA Awards Technical Workforce Training Contract
 
 
 
@@ -217,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T171228">2023-06-05 17:12:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T181710">2023-06-05 18:17:10 UTC</a>
   <br>
 </div>
