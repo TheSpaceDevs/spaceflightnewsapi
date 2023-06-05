@@ -151,7 +151,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/congress-asks-gao-for-review-of-geoxo-weather-satellite-program/" >🔗</a> **[SpaceNews]** Congress asks GAO for review of GeoXO weather satellite program
 
 
-- <a href="https://www.nasaspaceflight.com/2023/06/crs-28-launch/" >🔗</a> **[NASASpaceflight]** SpaceX moves launch of CRS-28 ISS resupply mission to Monday
+- <a href="https://www.nasaspaceflight.com/2023/06/crs-28-launch/" >🔗</a> **[NASASpaceflight]** SpaceX set for launch of CRS-28 ISS resupply mission
 
 
   - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
@@ -227,6 +227,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T141251">2023-06-05 14:12:51 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T151416">2023-06-05 15:14:16 UTC</a>
   <br>
 </div>
