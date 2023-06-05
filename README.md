@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/connecting-the-dots-diversifying-into-in-orbit-servicing/" >🔗</a> **[SpaceNews]** Connecting the Dots | Diversifying into in-orbit servicing
+
+
 - <a href="https://spacenews.com/congress-asks-gao-for-review-of-geoxo-weather-satellite-program/" >🔗</a> **[SpaceNews]** Congress asks GAO for review of GeoXO weather satellite program
 
 
@@ -186,9 +189,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/space-comm-expo-2023-where-space-does-business/" >🔗</a> **[SpaceNews]** Space-Comm Expo 2023 – Where Space Does Business
 
 
-- <a href="https://spacenews.com/google-leads-36-million-funding-round-for-pixxel/" >🔗</a> **[SpaceNews]** Google leads $36 million funding round for Pixxel
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -227,6 +227,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T131741">2023-06-05 13:17:41 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T141251">2023-06-05 14:12:51 UTC</a>
   <br>
 </div>
