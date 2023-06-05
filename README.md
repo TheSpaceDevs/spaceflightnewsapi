@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/congress-asks-gao-for-review-of-geoxo-weather-satellite-program/" >🔗</a> **[SpaceNews]** Congress asks GAO for review of GeoXO weather satellite program
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/crs-28-launch/" >🔗</a> **[NASASpaceflight]** SpaceX moves launch of CRS-28 ISS resupply mission to Monday
 
 
@@ -186,13 +189,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/google-leads-36-million-funding-round-for-pixxel/" >🔗</a> **[SpaceNews]** Google leads $36 million funding round for Pixxel
 
 
-- <a href="https://arstechnica.com/space/2023/06/rocket-report-spacex-pushing-ahead-on-starbase-north-korea-launch-failure/" >🔗</a> **[Arstechnica]** Rocket Report: SpaceX pushing ahead on Starbase, North Korea launch failure
-
-
-  - <a href="https://go4liftoff.com/launch/id/4aa4088f-4129-4f32-8a89-751f2a54288b" >🚀</a> **Chollima 1 | Malligyong-1** from Sohae Satellite Launching Station,  Cholsan County, North Pyongan Province, Democratic People's Republic of Korea
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -231,6 +227,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T101534">2023-06-05 10:15:34 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T111140">2023-06-05 11:11:40 UTC</a>
   <br>
 </div>
