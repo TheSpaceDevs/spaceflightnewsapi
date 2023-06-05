@@ -145,6 +145,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/review-board-nasa-jpl-psyche-progress-outstanding-launch-on-track" >🔗</a> **[NASA]** Review Board: NASA-JPL Psyche Progress Outstanding, Launch on Track
+
+
+- <a href="https://spacenews.com/eos-data-analytics-and-space-electric-thruster-systems-demonstrate-technology-in-orbit/" >🔗</a> **[SpaceNews]** EOS Data Analytics and Space Electric Thruster Systems demonstrate technology in orbit
+
+
+- <a href="https://spacenews.com/l3harris-to-develop-missile-warning-sensor-for-medium-orbit-constellation/" >🔗</a> **[SpaceNews]** L3Harris to develop missile-warning sensor for medium orbit constellation
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-selects-small-business-research-teams-for-tech-development" >🔗</a> **[NASA]** NASA Selects Small Business, Research Teams for Tech Development
 
 
@@ -172,19 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-names-new-agency-general-counsel" >🔗</a> **[NASA]** NASA Names New Agency General Counsel
-
-
-- <a href="https://spacenews.com/connecting-the-dots-diversifying-into-in-orbit-servicing/" >🔗</a> **[SpaceNews]** Connecting the Dots | Diversifying into in-orbit servicing
-
-
-- <a href="https://spacenews.com/congress-asks-gao-for-review-of-geoxo-weather-satellite-program/" >🔗</a> **[SpaceNews]** Congress asks GAO for review of GeoXO weather satellite program
-
-
-- <a href="https://www.nasaspaceflight.com/2023/06/crs-28-launch/" >🔗</a> **[NASASpaceflight]** SpaceX launches CRS-28 ISS resupply mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -225,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T191102">2023-06-05 19:11:02 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T201426">2023-06-05 20:14:26 UTC</a>
   <br>
 </div>
