@@ -145,6 +145,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/blue-origin-within-a-few-weeks-of-resuming-new-shepard-flights/" >🔗</a> **[SpaceNews]** Blue Origin within a “few weeks” of resuming New Shepard flights
+
+
+  - <a href="https://go4liftoff.com/launch/id/d4a6a953-d1b2-4f68-b891-b9c75fc96ff2" >🚀</a> **New Shepard | NS-23** from Corn Ranch, USA
+
+
+
 - <a href="https://spacenews.com/nasa-psyche-mission-back-on-track-for-october-launch/" >🔗</a> **[SpaceNews]** NASA Psyche mission back on track for October launch
 
 
@@ -196,13 +203,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/viasat-forms-satcoms-titan-to-take-on-a-market-in-transformation/" >🔗</a> **[SpaceNews]** Viasat forms satcoms titan to take on a market in transformation
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-spacex-launch-solar-arrays-cargo-to-space-station" >🔗</a> **[NASA]** NASA, SpaceX Launch Solar Arrays, Cargo to Space Station
-
-
-  - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -241,6 +241,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T111113">2023-06-06 11:11:13 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T122915">2023-06-06 12:29:15 UTC</a>
   <br>
 </div>
