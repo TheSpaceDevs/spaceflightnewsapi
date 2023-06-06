@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/06/china-and-europe-both-seek-to-emulate-nasas-success-with-commercial-cargo/" >🔗</a> **[Arstechnica]** China and Europe both seek to emulate NASA’s success with commercial cargo
+
+
 - <a href="https://spacenews.com/blue-origin-within-a-few-weeks-of-resuming-new-shepard-flights/" >🔗</a> **[SpaceNews]** Blue Origin within a “few weeks” of resuming New Shepard flights
 
 
@@ -200,9 +203,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/viasat-forms-satcoms-titan-to-take-on-a-market-in-transformation/" >🔗</a> **[SpaceNews]** Viasat forms satcoms titan to take on a market in transformation
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -241,6 +241,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T122915">2023-06-06 12:29:15 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T131732">2023-06-06 13:17:32 UTC</a>
   <br>
 </div>
