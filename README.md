@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-force-opens-new-office-to-foster-ties-with-private-sector/" >🔗</a> **[SpaceNews]** Space Force opens new office to foster ties with private sector
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-names-winners-of-2023-student-rocket-launch-competition" >🔗</a> **[NASA]** NASA Names Winners of 2023 Student Rocket Launch Competition
 
 
@@ -178,17 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/d4a6a953-d1b2-4f68-b891-b9c75fc96ff2" >🚀</a> **New Shepard | NS-23** from Corn Ranch, USA
 
-
-
-- <a href="https://spacenews.com/nasa-psyche-mission-back-on-track-for-october-launch/" >🔗</a> **[SpaceNews]** NASA Psyche mission back on track for October launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/823" >📆</a> **Psyche Independent Review Media Teleconference**
 
 
 
@@ -229,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T191118">2023-06-06 19:11:18 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T201426">2023-06-06 20:14:26 UTC</a>
   <br>
 </div>
