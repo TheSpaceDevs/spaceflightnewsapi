@@ -148,7 +148,19 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/06/nasa-says-its-metal-mission-psyche-is-back-on-track-for-an-october-liftoff/" >🔗</a> **[Arstechnica]** Game on—the most metal of asteroid missions is back on the menu
 
 
+  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="http://www.nasa.gov/press-release/review-board-nasa-jpl-psyche-progress-outstanding-launch-on-track" >🔗</a> **[NASA]** Review Board: NASA-JPL Psyche Progress Outstanding, Launch on Track
+
+
+  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/823" >📆</a> **Psyche Independent Review Media Teleconference**
 
 
 - <a href="https://spacenews.com/eos-data-analytics-and-space-electric-thruster-systems-demonstrate-technology-in-orbit/" >🔗</a> **[SpaceNews]** EOS Data Analytics and Space Electric Thruster Systems demonstrate technology in orbit
@@ -181,6 +193,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.nasaspaceflight.com/2023/06/s25-b7-olm-prepare-for-flights/" >🔗</a> **[NASASpaceflight]** OLM mods as vehicles shuffle in prepartion for upcoming test flights
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
 
 
 
@@ -221,6 +237,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T061752">2023-06-06 06:17:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T071311">2023-06-06 07:13:11 UTC</a>
   <br>
 </div>
