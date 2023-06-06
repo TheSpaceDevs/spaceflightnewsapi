@@ -145,6 +145,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/rfa-interview-stefan-brieschenk" >🔗</a> **[The Launch Pad]** INTERVIEW: We Sit Down With RFA COO Stefan Brieschenk
+
+
+- <a href="https://arstechnica.com/space/2023/06/with-7000-satellites-and-growing-is-space-sustainable-an-ars-frontiers-recap/" >🔗</a> **[Arstechnica]** With 7,000+ satellites and growing, is space sustainable? An Ars Frontiers recap
+
+
+- <a href="https://spacenews.com/rivada-seeks-ex-im-financing-for-satellite-constellation/" >🔗</a> **[SpaceNews]** Rivada seeks Ex-Im financing for satellite constellation
+
+
 - <a href="https://arstechnica.com/space/2023/06/china-and-europe-both-seek-to-emulate-nasas-success-with-commercial-cargo/" >🔗</a> **[Arstechnica]** Nearly two decades after NASA, China and Europe eye commercial cargo plans
 
 
@@ -190,19 +199,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/l3harris-to-develop-missile-warning-sensor-for-medium-orbit-constellation/" >🔗</a> **[SpaceNews]** L3Harris to develop missile-warning sensor for medium orbit constellation
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-selects-small-business-research-teams-for-tech-development" >🔗</a> **[NASA]** NASA Selects Small Business, Research Teams for Tech Development
-
-
-- <a href="https://spacenews.com/digital-twins-gaining-traction-in-military-satellite-programs/" >🔗</a> **[SpaceNews]** Digital twins gaining traction in military satellite programs
-
-
-- <a href="https://spacenews.com/falcon-9-launches-cargo-dragon-to-space-station-with-new-solar-arrays/" >🔗</a> **[SpaceNews]** Falcon 9 launches cargo Dragon to space station with new solar arrays
-
-
-  - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -241,6 +237,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T161828">2023-06-06 16:18:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T171227">2023-06-06 17:12:27 UTC</a>
   <br>
 </div>
