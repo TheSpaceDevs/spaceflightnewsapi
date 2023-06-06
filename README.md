@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/apogeo-space-orders-second-space-tug-for-connectivity-constellation/" >🔗</a> **[SpaceNews]** Apogeo Space orders second space tug for connectivity constellation
+
+
 - <a href="https://spacenews.com/space-force-opens-new-office-to-foster-ties-with-private-sector/" >🔗</a> **[SpaceNews]** Space Force opens new office to foster ties with private sector
 
 
@@ -174,13 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://arstechnica.com/space/2023/06/china-and-europe-both-seek-to-emulate-nasas-success-with-commercial-cargo/" >🔗</a> **[Arstechnica]** Nearly two decades after NASA, China and Europe eye commercial cargo plans
-
-
-- <a href="https://spacenews.com/blue-origin-within-a-few-weeks-of-resuming-new-shepard-flights/" >🔗</a> **[SpaceNews]** Blue Origin within a “few weeks” of resuming New Shepard flights
-
-
-  - <a href="https://go4liftoff.com/launch/id/d4a6a953-d1b2-4f68-b891-b9c75fc96ff2" >🚀</a> **New Shepard | NS-23** from Corn Ranch, USA
-
 
 
 
@@ -221,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T211321">2023-06-06 21:13:21 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T221319">2023-06-06 22:13:19 UTC</a>
   <br>
 </div>
