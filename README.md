@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/evidence-mounting-that-avio-intends-to-split-from-arianespace/" >🔗</a> **[European Spaceflight]** Evidence Mounting That Avio Intends to Split from Arianespace
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/rfa-interview-stefan-brieschenk" >🔗</a> **[The Launch Pad]** INTERVIEW: We Sit Down With RFA COO Stefan Brieschenk
 
 
@@ -196,9 +199,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/eos-data-analytics-and-space-electric-thruster-systems-demonstrate-technology-in-orbit/" >🔗</a> **[SpaceNews]** EOS Data Analytics and Space Electric Thruster Systems demonstrate technology in orbit
 
 
-- <a href="https://spacenews.com/l3harris-to-develop-missile-warning-sensor-for-medium-orbit-constellation/" >🔗</a> **[SpaceNews]** L3Harris to develop missile-warning sensor for medium orbit constellation
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -237,6 +237,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T171227">2023-06-06 17:12:27 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230606T181727">2023-06-06 18:17:27 UTC</a>
   <br>
 </div>
