@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-awards-5-million-to-women-s-colleges-tackling-stem-gender-gap" >🔗</a> **[NASA]** NASA Awards $5 Million to Women’s Colleges Tackling STEM Gender Gap
+
+
+- <a href="https://arstechnica.com/science/2023/06/wildfire-smoke-and-haze-in-the-eastern-united-states-should-peak-this-week/" >🔗</a> **[Arstechnica]** New York’s air quality reaches “hazardous” level, by far the worst in the world
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-view-asteroid-sample-recovery-rehearsal" >🔗</a> **[NASA]** NASA Invites Media to View Asteroid Sample Recovery Rehearsal
 
 
@@ -176,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://arstechnica.com/science/2023/06/wildfire-smoke-and-haze-in-the-eastern-united-states-should-peak-this-week/" >🔗</a> **[Arstechnica]** Wildfire smoke and haze in the Eastern United States should peak this week
-
-
 - <a href="https://europeanspaceflight.com/rfa-one-creeps-ever-closer-to-the-launchpad/" >🔗</a> **[European Spaceflight]** RFA ONE Creeps Ever Closer to the Launchpad
 
 
@@ -190,9 +193,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-investment-rebounding-but-more-selectively/" >🔗</a> **[SpaceNews]** Space investment rebounding, but more selectively
-
-
-- <a href="https://spacenews.com/apogeo-space-orders-second-space-tug-for-connectivity-constellation/" >🔗</a> **[SpaceNews]** Apogeo Space orders second space tug for connectivity constellation
 
 
 
@@ -233,6 +233,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T181811">2023-06-07 18:18:11 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T191127">2023-06-07 19:11:27 UTC</a>
   <br>
 </div>
