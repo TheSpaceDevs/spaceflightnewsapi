@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-opens-applications-for-artifact-program-to-museums-schools-more" >🔗</a> **[NASA]** NASA Opens Applications for Artifact Program to Museums, Schools, More
+
+
+- <a href="https://spacenews.com/esa-launches-ai-project-to-monitor-organic-cotton-supplies/" >🔗</a> **[SpaceNews]** ESA launches AI project to monitor organic cotton supplies
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-awards-5-million-to-women-s-colleges-tackling-stem-gender-gap" >🔗</a> **[NASA]** NASA Awards $5 Million to Women’s Colleges Tackling STEM Gender Gap
 
 
@@ -162,7 +168,7 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
-- <a href="https://www.cnbc.com/2023/06/07/wilson-aerospace-sues-boeing-over-allegedly-stole-ip-for-nasa-projects.html" >🔗</a> **[CNBC]** Boeing sued for allegedly stealing IP, counterfeiting tools used on NASA projects
+- <a href="https://www.cnbc.com/2023/06/07/wilson-aerospace-sues-boeing-over-allegedly-stole-ip-for-nasa-projects.html" >🔗</a> **[CNBC]** Boeing sued over alleged theft of IP, counterfeiting of tools used on NASA projects
 
 
 - <a href="https://www.nasaspaceflight.com/2023/06/bedrest-cycling-artificial-gravity-human-spaceflight/" >🔗</a> **[NASASpaceflight]** How bedrest and cycling in artificial gravity is being tested to aid human spaceflight
@@ -187,12 +193,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/91b13c6c-4525-496d-997b-3521bb6a4cd8" >🚀</a> **RFA One | Maiden Flight** from SaxaVord Spaceport
 
-
-
-- <a href="https://spacenews.com/york-space-systems-acquires-emergent-space-technologies/" >🔗</a> **[SpaceNews]** York Space Systems acquires Emergent Space Technologies
-
-
-- <a href="https://spacenews.com/space-investment-rebounding-but-more-selectively/" >🔗</a> **[SpaceNews]** Space investment rebounding, but more selectively
 
 
 
@@ -233,6 +233,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T201432">2023-06-07 20:14:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T211204">2023-06-07 21:12:04 UTC</a>
   <br>
 </div>
