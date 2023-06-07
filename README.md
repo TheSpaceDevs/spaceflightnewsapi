@@ -148,13 +148,32 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-view-asteroid-sample-recovery-rehearsal" >🔗</a> **[NASA]** NASA Invites Media to View Asteroid Sample Recovery Rehearsal
 
 
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
+
+
+- <a href="https://www.cnbc.com/2023/06/07/wilson-aerospace-sues-boeing-over-allegedly-stole-ip-for-nasa-projects.html" >🔗</a> **[CNBC]** Boeing sued for allegedly stealing IP, counterfeiting tools used on NASA projects
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/bedrest-cycling-artificial-gravity-human-spaceflight/" >🔗</a> **[NASASpaceflight]** How bedrest and cycling in artificial gravity is being tested to aid human spaceflight
 
 
 - <a href="https://tlpnetwork.com/news/2023/06/vulcan-frf-june-7" >🔗</a> **[The Launch Pad]** ULA To Conduct Vulcan Flight Readiness Firing Today
 
 
+
+  - <a href="https://go4liftoff.com/event/id/782" >📆</a> **Vulcan Cert-1 Flight Readiness Firing (FRF)**
+
+
 - <a href="https://spacenews.com/chinese-commercial-rocket-firm-launches-26-satellites-sets-national-record/" >🔗</a> **[SpaceNews]** Chinese commercial rocket firm launches 26 satellites, sets national record
+
+
+  - <a href="https://go4liftoff.com/launch/id/0c41caef-3a5d-458b-a610-b98d52aa7cf4" >🚀</a> **Kinetica 1 | Flight 2** from Jiuquan, People's Republic of China
+
 
 
 - <a href="https://arstechnica.com/science/2023/06/wildfire-smoke-and-haze-in-the-eastern-united-states-should-peak-this-week/" >🔗</a> **[Arstechnica]** Wildfire smoke and haze in the Eastern United States should peak this week
@@ -174,9 +193,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/apogeo-space-orders-second-space-tug-for-connectivity-constellation/" >🔗</a> **[SpaceNews]** Apogeo Space orders second space tug for connectivity constellation
-
-
-- <a href="https://spacenews.com/space-force-opens-new-office-to-foster-ties-with-private-sector/" >🔗</a> **[SpaceNews]** Space Force opens new office to foster ties with private sector
 
 
 
@@ -217,6 +233,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T171210">2023-06-07 17:12:10 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T181811">2023-06-07 18:18:11 UTC</a>
   <br>
 </div>
