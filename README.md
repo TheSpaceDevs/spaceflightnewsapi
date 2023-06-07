@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-command-seeks-more-efficient-use-of-space-tracking-and-missile-sensors/" >🔗</a> **[SpaceNews]** Space Command seeks more efficient use of space-tracking and missile sensors
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-opens-applications-for-artifact-program-to-museums-schools-more" >🔗</a> **[NASA]** NASA Opens Applications for Artifact Program to Museums, Schools, More
 
 
@@ -188,13 +191,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://europeanspaceflight.com/rfa-one-creeps-ever-closer-to-the-launchpad/" >🔗</a> **[European Spaceflight]** RFA ONE Creeps Ever Closer to the Launchpad
-
-
-  - <a href="https://go4liftoff.com/launch/id/91b13c6c-4525-496d-997b-3521bb6a4cd8" >🚀</a> **RFA One | Maiden Flight** from SaxaVord Spaceport
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -233,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T211204">2023-06-07 21:12:04 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T221252">2023-06-07 22:12:52 UTC</a>
   <br>
 </div>
