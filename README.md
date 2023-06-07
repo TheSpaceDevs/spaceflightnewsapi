@@ -145,6 +145,19 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/science/2023/06/wildfire-smoke-and-haze-in-the-eastern-united-states-should-peak-this-week/" >🔗</a> **[Arstechnica]** Wildfire smoke and haze in the Eastern United States should peak this week
+
+
+- <a href="https://europeanspaceflight.com/rfa-one-creeps-ever-closer-to-the-launchpad/" >🔗</a> **[European Spaceflight]** RFA ONE Creeps Ever Closer to the Launchpad
+
+
+  - <a href="https://go4liftoff.com/launch/id/91b13c6c-4525-496d-997b-3521bb6a4cd8" >🚀</a> **RFA One | Maiden Flight** from SaxaVord Spaceport
+
+
+
+- <a href="https://spacenews.com/york-space-systems-acquires-emergent-space-technologies/" >🔗</a> **[SpaceNews]** York Space Systems acquires Emergent Space Technologies
+
+
 - <a href="https://spacenews.com/space-investment-rebounding-but-more-selectively/" >🔗</a> **[SpaceNews]** Space investment rebounding, but more selectively
 
 
@@ -168,15 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/evidence-mounting-that-avio-intends-to-split-from-arianespace/" >🔗</a> **[European Spaceflight]** Evidence Mounting That Avio Intends to Split from Arianespace
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/rfa-interview-stefan-brieschenk" >🔗</a> **[The Launch Pad]** INTERVIEW: We Sit Down With RFA COO Stefan Brieschenk
-
-
-- <a href="https://arstechnica.com/space/2023/06/with-7000-satellites-and-growing-is-space-sustainable-an-ars-frontiers-recap/" >🔗</a> **[Arstechnica]** With 7,000+ satellites and growing, is space sustainable? An Ars Frontiers recap
-
-
-- <a href="https://spacenews.com/rivada-seeks-ex-im-financing-for-satellite-constellation/" >🔗</a> **[SpaceNews]** Rivada seeks Ex-Im financing for satellite constellation
 
 
 
@@ -217,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T131836">2023-06-07 13:18:36 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T141301">2023-06-07 14:13:01 UTC</a>
   <br>
 </div>
