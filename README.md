@@ -145,6 +145,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-view-asteroid-sample-recovery-rehearsal" >🔗</a> **[NASA]** NASA Invites Media to View Asteroid Sample Recovery Rehearsal
+
+
+- <a href="https://www.nasaspaceflight.com/2023/06/bedrest-cycling-artificial-gravity-human-spaceflight/" >🔗</a> **[NASASpaceflight]** How bedrest and cycling in artificial gravity is being tested to aid human spaceflight
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/vulcan-frf-june-7" >🔗</a> **[The Launch Pad]** ULA To Conduct Vulcan Flight Readiness Firing Today
+
+
 - <a href="https://spacenews.com/chinese-commercial-rocket-firm-launches-26-satellites-sets-national-record/" >🔗</a> **[SpaceNews]** Chinese commercial rocket firm launches 26 satellites, sets national record
 
 
@@ -168,19 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-force-opens-new-office-to-foster-ties-with-private-sector/" >🔗</a> **[SpaceNews]** Space Force opens new office to foster ties with private sector
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-names-winners-of-2023-student-rocket-launch-competition" >🔗</a> **[NASA]** NASA Names Winners of 2023 Student Rocket Launch Competition
-
-
-- <a href="https://spacenews.com/oneweb-targets-maritime-market-with-expanded-satellite-coverage/" >🔗</a> **[SpaceNews]** OneWeb targets maritime market with expanded satellite coverage
-
-
-- <a href="https://www.nasaspaceflight.com/2023/06/webb-jades-and-ngc5068/" >🔗</a> **[NASASpaceflight]** Webb unveils the secrets of the early universe via deep field, peers into stellar nurseries
-
-
-  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
-
 
 
 
@@ -221,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T161849">2023-06-07 16:18:49 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T171210">2023-06-07 17:12:10 UTC</a>
   <br>
 </div>
