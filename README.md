@@ -145,6 +145,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-dragon-capsule-breaks-u-s-spaceflight-records/" >🔗</a> **[Teslarati]** SpaceX Dragon capsule breaks U.S. spaceflight records
+
+
+- <a href="https://mars.nasa.gov/news/9413/" >🔗</a> **[NASA]** Why – and How – NASA Gives a Name to Every Spot It Studies on Mars
+
+
+- <a href="https://www.cnbc.com/2023/06/08/investing-in-space-rockets-chase-to-compete-with-spacexs-falcon-9.html" >🔗</a> **[CNBC]** Investing in Space: Here are the rockets chasing to compete with SpaceX’s Falcon 9
+
+
 - <a href="https://spacenews.com/firefly-aerospace-acquires-spaceflight-inc/" >🔗</a> **[SpaceNews]** Firefly Aerospace acquires Spaceflight Inc.
 
 
@@ -176,15 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/event/id/782" >📆</a> **Vulcan Cert-1 Flight Readiness Firing (FRF)**
-
-
-- <a href="https://spacenews.com/nuview-reveals-backers-including-actor-leonardo-dicaprio/" >🔗</a> **[SpaceNews]** Nuview reveals backers  including actor Leonardo DiCaprio
-
-
-- <a href="https://arstechnica.com/space/2023/06/supplier-sues-boeing-over-alleged-theft-of-sls-rocket-tools/" >🔗</a> **[Arstechnica]** Boeing hit with a lawsuit over alleged “theft” of SLS rocket tools
-
-
-- <a href="https://spacenews.com/space-command-seeks-more-efficient-use-of-space-tracking-and-missile-sensors/" >🔗</a> **[SpaceNews]** Space Command seeks more efficient use of space-tracking and missile sensors
 
 
 
@@ -225,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T181656">2023-06-08 18:16:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T191209">2023-06-08 19:12:09 UTC</a>
   <br>
 </div>
