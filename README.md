@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nuview-reveals-backers-including-actor-leonardo-dicaprio/" >🔗</a> **[SpaceNews]** Nuview reveals backers  including actor Leonardo DiCaprio
+
+
+- <a href="https://arstechnica.com/space/2023/06/supplier-sues-boeing-over-alleged-theft-of-sls-rocket-tools/" >🔗</a> **[Arstechnica]** Boeing hit with a lawsuit over alleged “theft” of SLS rocket tools
+
+
 - <a href="https://spacenews.com/space-command-seeks-more-efficient-use-of-space-tracking-and-missile-sensors/" >🔗</a> **[SpaceNews]** Space Command seeks more efficient use of space-tracking and missile sensors
 
 
@@ -175,20 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.nasaspaceflight.com/2023/06/bedrest-cycling-artificial-gravity-human-spaceflight/" >🔗</a> **[NASASpaceflight]** How bedrest and cycling in artificial gravity is being tested to aid human spaceflight
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/vulcan-frf-june-7" >🔗</a> **[The Launch Pad]** ULA To Conduct Vulcan Flight Readiness Firing Today
-
-
-
-  - <a href="https://go4liftoff.com/event/id/782" >📆</a> **Vulcan Cert-1 Flight Readiness Firing (FRF)**
-
-
-- <a href="https://spacenews.com/chinese-commercial-rocket-firm-launches-26-satellites-sets-national-record/" >🔗</a> **[SpaceNews]** Chinese commercial rocket firm launches 26 satellites, sets national record
-
-
-  - <a href="https://go4liftoff.com/launch/id/0c41caef-3a5d-458b-a610-b98d52aa7cf4" >🚀</a> **Kinetica 1 | Flight 2** from Jiuquan, People's Republic of China
-
 
 
 
@@ -229,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230607T231426">2023-06-07 23:14:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T012506">2023-06-08 01:25:06 UTC</a>
   <br>
 </div>
