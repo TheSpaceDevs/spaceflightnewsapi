@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/gao-flags-concerns-about-space-force-satellite-procurements/" >🔗</a> **[SpaceNews]** GAO flags concerns about Space Force satellite procurements
+
+
 - <a href="https://spacenews.com/nelco-invests-in-router-maker-to-improve-indian-satcoms-network/" >🔗</a> **[SpaceNews]** Nelco invests in router maker to improve Indian satcoms network
 
 
@@ -174,9 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/arianegroup-renames-its-geotracker-space-surveillance-service/" >🔗</a> **[European Spaceflight]** ArianeGroup Renames its GEOTracker Space Surveillance Service
-
-
-- <a href="https://spacenews.com/hydrosat-acquires-irriwatch/" >🔗</a> **[SpaceNews]** Hydrosat acquires IrriWatch
 
 
 
@@ -217,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T221256">2023-06-08 22:12:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T231433">2023-06-08 23:14:33 UTC</a>
   <br>
 </div>
