@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/firefly-aerospace-acquires-spaceflight-inc/" >🔗</a> **[SpaceNews]** Firefly Aerospace acquires Spaceflight Inc.
+
+
 - <a href="https://spacenews.com/saic-to-develop-software-factory-for-space-development-agency/" >🔗</a> **[SpaceNews]** SAIC to develop ‘software factory’ for Space Development Agency
 
 
@@ -182,9 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-command-seeks-more-efficient-use-of-space-tracking-and-missile-sensors/" >🔗</a> **[SpaceNews]** Space Command seeks more efficient use of space-tracking and missile sensors
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-opens-applications-for-artifact-program-to-museums-schools-more" >🔗</a> **[NASA]** NASA Opens Applications for Artifact Program to Museums, Schools, More
 
 
 
@@ -225,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T171308">2023-06-08 17:13:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T181656">2023-06-08 18:16:56 UTC</a>
   <br>
 </div>
