@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/vulcan-performs-static-fire-test/" >🔗</a> **[SpaceNews]** Vulcan performs static-fire test
+
+
 - <a href="https://spacenews.com/nuview-reveals-backers-including-actor-leonardo-dicaprio/" >🔗</a> **[SpaceNews]** Nuview reveals backers  including actor Leonardo DiCaprio
 
 
@@ -178,9 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/06/07/wilson-aerospace-sues-boeing-over-allegedly-stole-ip-for-nasa-projects.html" >🔗</a> **[CNBC]** Boeing sued over alleged theft of IP, counterfeiting of tools used on NASA projects
-
-
-- <a href="https://www.nasaspaceflight.com/2023/06/bedrest-cycling-artificial-gravity-human-spaceflight/" >🔗</a> **[NASASpaceflight]** How bedrest and cycling in artificial gravity is being tested to aid human spaceflight
 
 
 
@@ -221,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T012506">2023-06-08 01:25:06 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T025152">2023-06-08 02:51:52 UTC</a>
   <br>
 </div>
