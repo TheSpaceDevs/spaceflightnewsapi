@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/hydrosat-acquires-irriwatch/" >🔗</a> **[SpaceNews]** Hydrosat acquires IrriWatch
+
+
 - <a href="https://spacenews.com/albedo-expanding-staff-and-facilities/" >🔗</a> **[SpaceNews]** Albedo expands staff and facilities
 
 
@@ -178,9 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-awards-5-million-to-women-s-colleges-tackling-stem-gender-gap" >🔗</a> **[NASA]** NASA Awards $5 Million to Women’s Colleges Tackling STEM Gender Gap
-
-
-- <a href="https://arstechnica.com/science/2023/06/wildfire-smoke-and-haze-in-the-eastern-united-states-should-peak-this-week/" >🔗</a> **[Arstechnica]** New York’s air quality reaches “hazardous” level, by far the worst in the world
 
 
 
@@ -221,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T122716">2023-06-08 12:27:16 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T131838">2023-06-08 13:18:38 UTC</a>
   <br>
 </div>
