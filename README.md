@@ -154,6 +154,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/nasa-concerned-starship-problems-will-delay-artemis-3/" >🔗</a> **[SpaceNews]** NASA concerned Starship problems will delay Artemis 3
 
 
+  - <a href="https://go4liftoff.com/launch/id/8034d81b-af96-460c-a7b7-5c8e7f1a1d86" >🚀</a> **SLS Block 1 | Artemis III** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://spacenews.com/vulcan-performs-static-fire-test/" >🔗</a> **[SpaceNews]** Vulcan performs static-fire test
 
 
@@ -221,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T131838">2023-06-08 13:18:38 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T141220">2023-06-08 14:12:20 UTC</a>
   <br>
 </div>
