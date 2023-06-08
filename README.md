@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-force-assigns-12-national-security-missions-to-spacex-and-ula/" >🔗</a> **[SpaceNews]** Space Force assigns 12 national security missions to SpaceX and ULA
+
+
 - <a href="https://www.teslarati.com/spacex-dragon-capsule-breaks-u-s-spaceflight-records/" >🔗</a> **[Teslarati]** SpaceX Dragon capsule breaks U.S. spaceflight records
 
 
@@ -178,17 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/8034d81b-af96-460c-a7b7-5c8e7f1a1d86" >🚀</a> **SLS Block 1 | Artemis III** from Kennedy Space Center, FL, USA
 
-
-
-- <a href="https://spacenews.com/vulcan-performs-static-fire-test/" >🔗</a> **[SpaceNews]** Vulcan performs static-fire test
-
-
-  - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/782" >📆</a> **Vulcan Cert-1 Flight Readiness Firing (FRF)**
 
 
 
@@ -229,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T201337">2023-06-08 20:13:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230608T211336">2023-06-08 21:13:36 UTC</a>
   <br>
 </div>
