@@ -151,6 +151,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/06/china-moon-zq-2/" >🔗</a> **[NASASpaceflight]** China outlines ambitious plans for Moon landing; ZhuQue-2 prepares to launch again
 
 
+  - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan, People's Republic of China
+
+
+
 - <a href="https://spacenews.com/gao-flags-concerns-about-space-force-satellite-procurements/" >🔗</a> **[SpaceNews]** GAO flags concerns about Space Force satellite procurements
 
 
@@ -217,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T051249">2023-06-09 05:12:49 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T061824">2023-06-09 06:18:24 UTC</a>
   <br>
 </div>
