@@ -167,7 +167,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/nelco-invests-in-router-maker-to-improve-indian-satcoms-network/" >🔗</a> **[SpaceNews]** Nelco invests in router maker to improve Indian satcoms network
 
 
-- <a href="https://www.cnbc.com/2023/06/08/planet-pl-q1-2024-results.html" >🔗</a> **[CNBC]** Planet stock drops after satellite imagery and data venture lowers annual revenue guidance
+- <a href="https://www.cnbc.com/2023/06/08/planet-pl-q1-2024-results.html" >🔗</a> **[CNBC]** Planet stock drops 25% after satellite data venture lowers annual revenue guidance
 
 
 - <a href="https://spacenews.com/space-force-assigns-12-national-security-missions-to-spacex-and-ula/" >🔗</a> **[SpaceNews]** Space Force assigns 12 national security missions to SpaceX and ULA
@@ -221,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T151415">2023-06-09 15:14:15 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T161800">2023-06-09 16:18:00 UTC</a>
   <br>
 </div>
