@@ -145,6 +145,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/u-s-space-force-in-talks-with-allies-about-how-to-jointly-protect-space-assets/" >🔗</a> **[SpaceNews]** U.S. Space Force in talks with allies about how to jointly protect space assets
+
+
+- <a href="https://spacenews.com/house-republicans-introduce-bill-to-create-an-independent-noaa/" >🔗</a> **[SpaceNews]** House Republicans introduce bill to create an independent NOAA
+
+
+- <a href="https://spacenews.com/ursa-major-confirms-layoffs-necessary-workforce-reductions/" >🔗</a> **[SpaceNews]** Ursa Major confirms layoffs: ‘Necessary workforce reductions’
+
+
+- <a href="https://spacenews.com/iridium-calls-on-us-to-follow-canadas-ligado-rejection/" >🔗</a> **[SpaceNews]** Iridium calls on US to follow Canada’s Ligado rejection
+
+
 - <a href="https://spacenews.com/noaa-tracks-smoke-moving-from-the-east-coast-over-the-atlantic/" >🔗</a> **[SpaceNews]** NOAA is tracking smoke moving from the East Coast over the Atlantic
 
 
@@ -165,22 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/astroscale-video-shows-plan-to-deorbit-multiple-satellites/" >🔗</a> **[SpaceNews]** Video shows Astroscale’s plan to deorbit multiple satellites
-
-
-- <a href="https://www.nasaspaceflight.com/2023/06/china-moon-zq-2/" >🔗</a> **[NASASpaceflight]** China outlines ambitious plans for Moon landing; ZhuQue-2 prepares to launch again
-
-
-  - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan, People's Republic of China
-
-
-
-- <a href="https://spacenews.com/gao-flags-concerns-about-space-force-satellite-procurements/" >🔗</a> **[SpaceNews]** GAO flags concerns about Space Force satellite procurements
-
-
-- <a href="https://spacenews.com/nelco-invests-in-router-maker-to-improve-indian-satcoms-network/" >🔗</a> **[SpaceNews]** Nelco invests in router maker to improve Indian satcoms network
-
-
-- <a href="https://www.cnbc.com/2023/06/08/planet-pl-q1-2024-results.html" >🔗</a> **[CNBC]** Planet stock drops 25% after satellite data venture lowers annual revenue guidance
 
 
 
@@ -221,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T211203">2023-06-09 21:12:03 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T221306">2023-06-09 22:13:06 UTC</a>
   <br>
 </div>
