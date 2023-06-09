@@ -145,7 +145,14 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/06/09/layoffs-hit-colorado-space-companies-ursa-major-orbit-fab.html" >🔗</a> **[CNBC]** Layoffs hit Colorado space companies as funding remains tight
+
+
 - <a href="https://spacenews.com/chinas-first-stackable-satellite-reaches-orbit-on-solid-rocket-launch/" >🔗</a> **[SpaceNews]** China’s first stackable satellite reaches orbit on solid rocket launch
+
+
+  - <a href="https://go4liftoff.com/launch/id/4fbbd174-e97e-41e8-8bc5-4e340af00b44" >🚀</a> **Kuaizhou-1A | Longjiang 3** from Jiuquan, People's Republic of China
+
 
 
 - <a href="https://spacenews.com/new-spending-caps-to-create-challenges-for-nasa/" >🔗</a> **[SpaceNews]** New spending caps to create challenges for NASA
@@ -178,9 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
 
-
-
-- <a href="https://mars.nasa.gov/news/9413/" >🔗</a> **[NASA]** Why – and How – NASA Gives a Name to Every Spot It Studies on Mars
 
 
 
@@ -221,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T161800">2023-06-09 16:18:00 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T171239">2023-06-09 17:12:39 UTC</a>
   <br>
 </div>
