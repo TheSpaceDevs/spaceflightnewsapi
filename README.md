@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/noaa-tracks-smoke-moving-from-the-east-coast-over-the-atlantic/" >🔗</a> **[SpaceNews]** NOAA is tracking smoke moving from the East Coast over the Atlantic
+
+
+- <a href="https://www.nasaspaceflight.com/2023/06/twis-20230609/" >🔗</a> **[NASASpaceflight]** This Week In Spaceflight: Vulcan fires up, Canadian fires from space, and JWST deep field data
+
+
 - <a href="https://www.cnbc.com/2023/06/09/layoffs-hit-colorado-space-companies-ursa-major-orbit-fab.html" >🔗</a> **[CNBC]** Layoffs hit Colorado space companies as funding remains tight
 
 
@@ -175,16 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/06/08/planet-pl-q1-2024-results.html" >🔗</a> **[CNBC]** Planet stock drops 25% after satellite data venture lowers annual revenue guidance
-
-
-- <a href="https://spacenews.com/space-force-assigns-12-national-security-missions-to-spacex-and-ula/" >🔗</a> **[SpaceNews]** Space Force assigns 12 national security missions to SpaceX and ULA
-
-
-- <a href="https://www.teslarati.com/spacex-dragon-capsule-breaks-u-s-spaceflight-records/" >🔗</a> **[Teslarati]** SpaceX Dragon capsule breaks U.S. spaceflight records
-
-
-  - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -225,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T191103">2023-06-09 19:11:03 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T201425">2023-06-09 20:14:25 UTC</a>
   <br>
 </div>
