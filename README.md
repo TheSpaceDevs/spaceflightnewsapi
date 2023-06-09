@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/astroscale-video-shows-plan-to-deorbit-multiple-satellites/" >🔗</a> **[SpaceNews]** Video shows Astroscale’s plan to deorbit multiple satellites
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/china-moon-zq-2/" >🔗</a> **[NASASpaceflight]** China outlines ambitious plans for Moon landing; ZhuQue-2 prepares to launch again
 
 
@@ -174,9 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/firefly-aerospace-acquires-spaceflight-inc/" >🔗</a> **[SpaceNews]** Firefly Aerospace acquires Spaceflight Inc.
-
-
-- <a href="https://spacenews.com/saic-to-develop-software-factory-for-space-development-agency/" >🔗</a> **[SpaceNews]** SAIC to develop ‘software factory’ for Space Development Agency
 
 
 
@@ -217,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T041705">2023-06-09 04:17:05 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T051249">2023-06-09 05:12:49 UTC</a>
   <br>
 </div>
