@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/chinas-first-stackable-satellite-reaches-orbit-on-solid-rocket-launch/" >🔗</a> **[SpaceNews]** China’s first stackable satellite reaches orbit on solid rocket launch
+
+
 - <a href="https://spacenews.com/new-spending-caps-to-create-challenges-for-nasa/" >🔗</a> **[SpaceNews]** New spending caps to create challenges for NASA
 
 
@@ -180,12 +183,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://mars.nasa.gov/news/9413/" >🔗</a> **[NASA]** Why – and How – NASA Gives a Name to Every Spot It Studies on Mars
 
 
-- <a href="https://www.cnbc.com/2023/06/08/investing-in-space-rockets-chase-to-compete-with-spacexs-falcon-9.html" >🔗</a> **[CNBC]** Investing in Space: Here are the rockets chasing to compete with SpaceX’s Falcon 9
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/the-downlink/the-scientific-truth-is-out-there" >🔗</a> **[Planetary Society]** The scientific truth is out there
+
 
 - <a href="https://www.planetary.org/articles/are-aliens-real" >🔗</a> **[Planetary Society]** Are aliens real?
 
@@ -214,13 +217,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/articles/why-is-venus-called-earths-twin" >🔗</a> **[Planetary Society]** Why is Venus called Earth’s twin?
 
 
-- <a href="https://www.planetary.org/the-downlink/hard-working-spacecraft-and-even-harder-working-microbes" >🔗</a> **[Planetary Society]** Hard-working spacecraft and even harder-working microbes
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T141305">2023-06-09 14:13:05 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230609T151415">2023-06-09 15:14:15 UTC</a>
   <br>
 </div>
