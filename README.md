@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/06/grass-update/" >🔗</a> **[NASASpaceflight]** Gravimeter for ESA’s Hera mission is ready to launch to Dimorphos asteroid
+
+
 - <a href="https://spacenews.com/should-the-faa-regulate-all-space-activities/" >🔗</a> **[SpaceNews]** Should the FAA regulate all space activities?
 
 
@@ -178,9 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/4fbbd174-e97e-41e8-8bc5-4e340af00b44" >🚀</a> **Kuaizhou-1A | Longjiang 3** from Jiuquan, People's Republic of China
 
-
-
-- <a href="https://spacenews.com/new-spending-caps-to-create-challenges-for-nasa/" >🔗</a> **[SpaceNews]** New spending caps to create challenges for NASA
 
 
 
@@ -221,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230610T181613">2023-06-10 18:16:13 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230610T191055">2023-06-10 19:10:55 UTC</a>
   <br>
 </div>
