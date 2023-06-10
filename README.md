@@ -163,6 +163,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/06/twis-20230609/" >🔗</a> **[NASASpaceflight]** This Week In Spaceflight: Vulcan fires up, Canadian fires from space, and JWST deep field data
 
 
+  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
+
+
+
 - <a href="https://www.cnbc.com/2023/06/09/layoffs-hit-colorado-space-companies-ursa-major-orbit-fab.html" >🔗</a> **[CNBC]** Layoffs hit Colorado space companies as funding remains tight
 
 
@@ -217,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230610T061714">2023-06-10 06:17:14 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230610T071212">2023-06-10 07:12:12 UTC</a>
   <br>
 </div>
