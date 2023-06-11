@@ -148,6 +148,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/06/grass-update/" >🔗</a> **[NASASpaceflight]** Gravimeter for ESA’s Hera mission is ready to launch to Dimorphos asteroid
 
 
+  - <a href="https://go4liftoff.com/launch/id/e1ffdd01-c146-44d0-a250-b845dc2eb20d" >🚀</a> **Falcon 9 Block 5 | Hera** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/should-the-faa-regulate-all-space-activities/" >🔗</a> **[SpaceNews]** Should the FAA regulate all space activities?
 
 
@@ -221,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230611T191052">2023-06-11 19:10:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230611T201355">2023-06-11 20:13:55 UTC</a>
   <br>
 </div>
