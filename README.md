@@ -157,7 +157,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/u-s-defense-companies-find-roadblocks-in-selling-space-technologies-to-allies/" >🔗</a> **[SpaceNews]** U.S. defense companies find roadblocks in selling space technologies to allies
 
 
-- <a href="https://www.nasaspaceflight.com/2023/06/spacex-transporter-8/" >🔗</a> **[NASASpaceflight]** SpaceX Transporter-8 to launch 72 payloads – Booster targets landing milestone
+- <a href="https://www.nasaspaceflight.com/2023/06/spacex-transporter-8/" >🔗</a> **[NASASpaceflight]** SpaceX Transporter-8 launches 72 payloads – Booster landing milestone
 
 
 - <a href="https://spacenews.com/ses-ceo-steve-collar-announces-sudden-resignation/" >🔗</a> **[SpaceNews]** SES CEO Steve Collar announces sudden resignation
@@ -217,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230612T211234">2023-06-12 21:12:34 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230612T221250">2023-06-12 22:12:50 UTC</a>
   <br>
 </div>
