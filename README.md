@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/state-department-framework-seeks-to-coordinate-its-space-policy-activities/" >🔗</a> **[SpaceNews]** State Department framework seeks to coordinate its space policy activities
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/grass-update/" >🔗</a> **[NASASpaceflight]** Gravimeter for ESA’s Hera mission is ready to launch to Dimorphos asteroid
 
 
@@ -178,13 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/06/09/layoffs-hit-colorado-space-companies-ursa-major-orbit-fab.html" >🔗</a> **[CNBC]** Layoffs hit Colorado space companies as funding remains tight
-
-
-- <a href="https://spacenews.com/chinas-first-stackable-satellite-reaches-orbit-on-solid-rocket-launch/" >🔗</a> **[SpaceNews]** China’s first stackable satellite reaches orbit on solid rocket launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/4fbbd174-e97e-41e8-8bc5-4e340af00b44" >🚀</a> **Kuaizhou-1A | Longjiang 3** from Jiuquan, People's Republic of China
-
 
 
 
@@ -225,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230611T231343">2023-06-11 23:13:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230612T012630">2023-06-12 01:26:30 UTC</a>
   <br>
 </div>
