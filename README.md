@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-launches-52-starlink-satellites-from-early-morning-falcon-9-launch/" >🔗</a> **[Teslarati]** SpaceX launches 52 Starlink satellites from early morning Falcon 9 launch
+
+
+- <a href="https://spacenews.com/space-domain-awareness-provisions-in-draft-ndaa-proposal/" >🔗</a> **[SpaceNews]** Space domain awareness provisions in draft NDAA proposal
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-tours-opening-of-earth-information-center" >🔗</a> **[NASA]** NASA Invites Media to Tours, Opening of Earth Information Center
 
 
@@ -171,12 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/should-the-faa-regulate-all-space-activities/" >🔗</a> **[SpaceNews]** Should the FAA regulate all space activities?
-
-
-- <a href="https://spacenews.com/u-s-space-force-in-talks-with-allies-about-how-to-jointly-protect-space-assets/" >🔗</a> **[SpaceNews]** U.S. Space Force in talks with allies about how to jointly protect space assets
-
-
-- <a href="https://spacenews.com/house-republicans-introduce-bill-to-create-an-independent-noaa/" >🔗</a> **[SpaceNews]** House Republicans introduce bill to create an independent NOAA
 
 
 
@@ -217,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230612T191102">2023-06-12 19:11:02 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230612T201436">2023-06-12 20:14:36 UTC</a>
   <br>
 </div>
