@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/rogers-in-draft-ndaa-bill-presses-air-force-on-relocation-of-u-s-space-command/" >🔗</a> **[SpaceNews]** Rogers in draft NDAA bill presses Air Force on relocation of U.S. Space Command
+
+
 - <a href="https://spacenews.com/spacex-launches-eighth-dedicated-smallsat-rideshare-mission/" >🔗</a> **[SpaceNews]** SpaceX launches eighth dedicated smallsat rideshare mission
 
 
@@ -182,9 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/1e0c3a19-02a8-481b-9b7e-1392327c1826" >🚀</a> **Falcon 9 Block 5 | Transporter 8 (Dedicated SSO Rideshare)** from Vandenberg SFB, CA, USA
 
-
-
-- <a href="https://spacenews.com/ses-ceo-steve-collar-announces-sudden-resignation/" >🔗</a> **[SpaceNews]** SES CEO Steve Collar announces sudden resignation
 
 
 
@@ -225,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T111130">2023-06-13 11:11:30 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T122848">2023-06-13 12:28:48 UTC</a>
   <br>
 </div>
