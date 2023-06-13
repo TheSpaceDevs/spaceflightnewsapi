@@ -145,6 +145,22 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/uae-plans-mission-to-asteroid-belt" >🔗</a> **[The Launch Pad]** UAE Plans Mission To Asteroid Belt
+
+
+- <a href="https://spacenews.com/air-force-orders-a-viasat-3-terminal-to-demonstrate-space-relay-service/" >🔗</a> **[SpaceNews]** Air Force orders a Viasat-3 terminal to demonstrate space relay service
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/nasa-psyche-set-to-launch-in-october" >🔗</a> **[The Launch Pad]** NASA Psyche Set To Launch In October
+
+
+  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
+
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/blue-origin-preparing-to-resume-new-shepard-flights" >🔗</a> **[The Launch Pad]** Blue Origin Preparing To Resume New Shepard Flights
+
+
 - <a href="https://spacenews.com/rogers-in-draft-ndaa-bill-presses-air-force-on-relocation-of-u-s-space-command/" >🔗</a> **[SpaceNews]** Rogers in draft NDAA bill presses Air Force on relocation of U.S. Space Command
 
 
@@ -168,22 +184,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/5eba4955-6292-4a62-bc07-07443ff4baaa" >🚀</a> **Falcon 9 Block 5 | Starlink Group 5-11** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/space-domain-awareness-provisions-in-draft-ndaa-proposal/" >🔗</a> **[SpaceNews]** Space domain awareness provisions in draft NDAA proposal
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-tours-opening-of-earth-information-center" >🔗</a> **[NASA]** NASA Invites Media to Tours, Opening of Earth Information Center
-
-
-- <a href="https://spacenews.com/u-s-defense-companies-find-roadblocks-in-selling-space-technologies-to-allies/" >🔗</a> **[SpaceNews]** U.S. defense companies find roadblocks in selling space technologies to allies
-
-
-- <a href="https://www.nasaspaceflight.com/2023/06/spacex-transporter-8/" >🔗</a> **[NASASpaceflight]** SpaceX Transporter-8 launches 72 payloads marking 200th booster landing
-
-
-  - <a href="https://go4liftoff.com/launch/id/1e0c3a19-02a8-481b-9b7e-1392327c1826" >🚀</a> **Falcon 9 Block 5 | Transporter 8 (Dedicated SSO Rideshare)** from Vandenberg SFB, CA, USA
 
 
 
@@ -225,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T122848">2023-06-13 12:28:48 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T151403">2023-06-13 15:14:03 UTC</a>
   <br>
 </div>
