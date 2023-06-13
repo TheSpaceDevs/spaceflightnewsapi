@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-picks-ship-25-booster-9-for-next-starship-test-flight/" >🔗</a> **[Teslarati]** SpaceX picks Ship 25 and Booster 9 for next Starship test flight
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/grb-221009a-nustar/" >🔗</a> **[NASASpaceflight]** With NuSTAR, scientists reveal new characteristics of the brightest gamma-ray burst ever detected
 
 
@@ -178,9 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
 
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/blue-origin-preparing-to-resume-new-shepard-flights" >🔗</a> **[The Launch Pad]** Blue Origin Preparing To Resume New Shepard Flights
 
 
 
@@ -221,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T191112">2023-06-13 19:11:12 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T201454">2023-06-13 20:14:54 UTC</a>
   <br>
 </div>
