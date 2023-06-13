@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/op-ed-to-open-the-space-frontier-cld-must-not-fail/" >🔗</a> **[SpaceNews]** Op-ed | To Open the Space Frontier, CLD Must Not Fail
+
+
 - <a href="https://www.teslarati.com/spacex-picks-ship-25-booster-9-for-next-starship-test-flight/" >🔗</a> **[Teslarati]** SpaceX picks Ship 25 and Booster 9 for next Starship test flight
 
 
@@ -174,13 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/air-force-orders-a-viasat-3-terminal-to-demonstrate-space-relay-service/" >🔗</a> **[SpaceNews]** Air Force orders a Viasat-3 terminal to demonstrate space relay service
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/nasa-psyche-set-to-launch-in-october" >🔗</a> **[The Launch Pad]** NASA Psyche Set To Launch In October
-
-
-  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -221,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T211215">2023-06-13 21:12:15 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T221338">2023-06-13 22:13:38 UTC</a>
   <br>
 </div>
