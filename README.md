@@ -145,6 +145,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/ses-ceo-resigns-effective-end-of-june" >🔗</a> **[The Launch Pad]** SES CEO Steps Down Effective End Of June
+
+
+- <a href="https://mars.nasa.gov/news/9415/" >🔗</a> **[NASA]** NASA's Curiosity Captures Martian Morning, Afternoon in New 'Postcard'
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/firefly-aerospace-acquires-spaceflight-inc" >🔗</a> **[The Launch Pad]** Firefly Aerospace Acquires Spaceflight Inc.
+
+
+- <a href="https://spacenews.com/space-force-eager-to-harness-satellite-servicing-technologies/" >🔗</a> **[SpaceNews]** Space Force eager to harness satellite-servicing technologies
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/orbex-announces-arianespace-partnership" >🔗</a> **[The Launch Pad]** OrbeX Announces Arianespace Partnership
 
 
@@ -165,22 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/rogers-in-draft-ndaa-bill-presses-air-force-on-relocation-of-u-s-space-command/" >🔗</a> **[SpaceNews]** Rogers in draft NDAA bill presses Air Force on relocation of U.S. Space Command
-
-
-- <a href="https://spacenews.com/spacex-launches-eighth-dedicated-smallsat-rideshare-mission/" >🔗</a> **[SpaceNews]** SpaceX launches eighth dedicated smallsat rideshare mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/1e0c3a19-02a8-481b-9b7e-1392327c1826" >🚀</a> **Falcon 9 Block 5 | Transporter 8 (Dedicated SSO Rideshare)** from Vandenberg SFB, CA, USA
-
-
-
-- <a href="https://spacenews.com/house-faa-bill-would-give-agency-new-space-traffic-management-role/" >🔗</a> **[SpaceNews]** House FAA bill would give agency new space traffic management role
-
-
-- <a href="http://www.nasa.gov/press-release/next-generation-experimental-aircraft-becomes-nasa-s-newest-x-plane" >🔗</a> **[NASA]** Next Generation Experimental Aircraft Becomes NASA’s Newest X-Plane
-
-
-- <a href="https://spacenews.com/zero-error-systems-raises-7-5-million/" >🔗</a> **[SpaceNews]** Zero-Error Systems raises $7.5 million
 
 
 
@@ -221,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T161821">2023-06-13 16:18:21 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T171214">2023-06-13 17:12:14 UTC</a>
   <br>
 </div>
