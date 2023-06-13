@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/orbex-announces-arianespace-partnership" >🔗</a> **[The Launch Pad]** OrbeX Announces Arianespace Partnership
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/uae-plans-mission-to-asteroid-belt" >🔗</a> **[The Launch Pad]** UAE Plans Mission To Asteroid Belt
 
 
@@ -178,13 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/zero-error-systems-raises-7-5-million/" >🔗</a> **[SpaceNews]** Zero-Error Systems raises $7.5 million
-
-
-- <a href="https://www.teslarati.com/spacex-launches-52-starlink-satellites-from-early-morning-falcon-9-launch/" >🔗</a> **[Teslarati]** SpaceX launches 52 Starlink satellites from early morning Falcon 9 launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/5eba4955-6292-4a62-bc07-07443ff4baaa" >🚀</a> **Falcon 9 Block 5 | Starlink Group 5-11** from Cape Canaveral, FL, USA
-
 
 
 
@@ -225,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T151403">2023-06-13 15:14:03 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T161821">2023-06-13 16:18:21 UTC</a>
   <br>
 </div>
