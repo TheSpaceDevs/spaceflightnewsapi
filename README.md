@@ -151,6 +151,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://mars.nasa.gov/news/9415/" >🔗</a> **[NASA]** NASA's Curiosity Captures Martian Morning, Afternoon in New 'Postcard'
 
 
+  - <a href="https://go4liftoff.com/launch/id/df8d4fdb-9add-4ce9-9f0e-aae1c61df212" >🚀</a> **Atlas V 541 | MSL (Curiosity)** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/firefly-aerospace-acquires-spaceflight-inc" >🔗</a> **[The Launch Pad]** Firefly Aerospace Acquires Spaceflight Inc.
 
 
@@ -217,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T171214">2023-06-13 17:12:14 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T181715">2023-06-13 18:17:15 UTC</a>
   <br>
 </div>
