@@ -145,6 +145,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/house-faa-bill-would-give-agency-new-space-traffic-management-role/" >🔗</a> **[SpaceNews]** House FAA bill would give agency new space traffic management role
+
+
+- <a href="http://www.nasa.gov/press-release/next-generation-experimental-aircraft-becomes-nasa-s-newest-x-plane" >🔗</a> **[NASA]** Next Generation Experimental Aircraft Becomes NASA’s Newest X-Plane
+
+
+- <a href="https://spacenews.com/zero-error-systems-raises-7-5-million/" >🔗</a> **[SpaceNews]** Zero-Error Systems raises $7.5 million
+
+
 - <a href="https://www.teslarati.com/spacex-launches-52-starlink-satellites-from-early-morning-falcon-9-launch/" >🔗</a> **[Teslarati]** SpaceX launches 52 Starlink satellites from early morning Falcon 9 launch
 
 
@@ -166,22 +175,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/space-force-sorting-out-complexities-of-wartime-contracting/" >🔗</a> **[SpaceNews]** Space Force sorting out complexities of wartime contracting
 
 
-- <a href="https://spacenews.com/state-department-framework-seeks-to-coordinate-its-space-policy-activities/" >🔗</a> **[SpaceNews]** State Department framework seeks to coordinate its space policy activities
-
-
-- <a href="https://www.nasaspaceflight.com/2023/06/grass-update/" >🔗</a> **[NASASpaceflight]** Gravimeter for ESA’s Hera mission is ready to launch to Dimorphos asteroid
-
-
-  - <a href="https://go4liftoff.com/launch/id/e1ffdd01-c146-44d0-a250-b845dc2eb20d" >🚀</a> **Falcon 9 Block 5 | Hera** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/should-the-faa-regulate-all-space-activities/" >🔗</a> **[SpaceNews]** Should the FAA regulate all space activities?
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/advocacy/day-of-action-2023-participant-information" >🔗</a> **[Planetary Society]** Day of Action 2023 - Participant Information
+
 
 - <a href="https://www.planetary.org/articles/why-did-we-need-osiris-rex" >🔗</a> **[Planetary Society]** Why did we need OSIRIS-REx?
 
@@ -210,13 +209,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://blog.ulalaunch.com/blog/vulcan-preview-of-the-flight-readiness-firing" >🔗</a> **[United Launch Alliance]** Vulcan: Preview of the Flight Readiness Firing
 
 
-- <a href="https://www.planetary.org/articles/asteroid-deflection-techniques-to-save-the-earth" >🔗</a> **[Planetary Society]** Five asteroid deflection techniques to save the Earth
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230612T221250">2023-06-12 22:12:50 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T012245">2023-06-13 01:22:45 UTC</a>
   <br>
 </div>
