@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/artemis-2-astronaut-completes-vision-quest" >🔗</a> **[The Launch Pad]** Artemis 2 Astronaut Completes Vision Quest
+
+
 - <a href="https://spacenews.com/op-ed-to-open-the-space-frontier-cld-must-not-fail/" >🔗</a> **[SpaceNews]** Op-ed | To Open the Space Frontier, CLD Must Not Fail
 
 
@@ -174,9 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/06/uae-plans-mission-to-asteroid-belt" >🔗</a> **[The Launch Pad]** UAE Plans Mission To Asteroid Belt
-
-
-- <a href="https://spacenews.com/air-force-orders-a-viasat-3-terminal-to-demonstrate-space-relay-service/" >🔗</a> **[SpaceNews]** Air Force orders a Viasat-3 terminal to demonstrate space relay service
 
 
 
@@ -217,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T221338">2023-06-13 22:13:38 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230613T231155">2023-06-13 23:11:55 UTC</a>
   <br>
 </div>
