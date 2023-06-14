@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-force-working-to-define-what-it-means-to-be-a-guardian/" >🔗</a> **[SpaceNews]** Space Force working to define what it means to be a guardian
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/new-orbital-debris-guidelines-released-by-wem" >🔗</a> **[The Launch Pad]** New Orbital Debris Mitigation Guidelines Released By World Economic Forum
 
 
@@ -170,9 +173,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/u-n-opens-window-of-opportunity-to-improve-space-governance/" >🔗</a> **[SpaceNews]** U.N. opens “window of opportunity” to improve space governance
-
-
-- <a href="https://spacenews.com/satellite-execs-call-for-more-data-to-improve-space-sustainability/" >🔗</a> **[SpaceNews]** Satellite execs call for more data to improve space sustainability
 
 
 
@@ -213,6 +213,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T211236">2023-06-14 21:12:36 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T221303">2023-06-14 22:13:03 UTC</a>
   <br>
 </div>
