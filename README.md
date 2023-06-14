@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/world-economic-forum-offers-new-debris-mitigation-guidelines/" >🔗</a> **[SpaceNews]** World Economic Forum offers new debris mitigation guidelines
+
+
 - <a href="https://spacenews.com/u-n-opens-window-of-opportunity-to-improve-space-governance/" >🔗</a> **[SpaceNews]** U.N. opens “window of opportunity” to improve space governance
 
 
@@ -188,9 +191,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/06/firefly-aerospace-acquires-spaceflight-inc" >🔗</a> **[The Launch Pad]** Firefly Aerospace Acquires Spaceflight Inc.
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -229,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T081743">2023-06-14 08:17:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T091350">2023-06-14 09:13:50 UTC</a>
   <br>
 </div>
