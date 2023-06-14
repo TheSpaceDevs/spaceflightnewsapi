@@ -151,13 +151,25 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/darpa-downsizes-blackjack-space-experiment/" >🔗</a> **[SpaceNews]** DARPA downsizes Blackjack space experiment
 
 
+  - <a href="https://go4liftoff.com/launch/id/1e0c3a19-02a8-481b-9b7e-1392327c1826" >🚀</a> **Falcon 9 Block 5 | Transporter 8 (Dedicated SSO Rideshare)** from Vandenberg SFB, CA, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/artemis-2-astronaut-completes-vision-quest" >🔗</a> **[The Launch Pad]** Artemis 2 Astronaut Completes Vision Quest
+
+
+  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacenews.com/op-ed-to-open-the-space-frontier-cld-must-not-fail/" >🔗</a> **[SpaceNews]** Op-ed | To Open the Space Frontier, CLD Must Not Fail
 
 
 - <a href="https://www.teslarati.com/spacex-picks-ship-25-booster-9-for-next-starship-test-flight/" >🔗</a> **[Teslarati]** SpaceX picks Ship 25 and Booster 9 for next Starship test flight
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
 
 
 - <a href="https://www.nasaspaceflight.com/2023/06/grb-221009a-nustar/" >🔗</a> **[NASASpaceflight]** With NuSTAR, scientists reveal new characteristics of the brightest gamma-ray burst ever detected
@@ -217,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T061807">2023-06-14 06:18:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T071311">2023-06-14 07:13:11 UTC</a>
   <br>
 </div>
