@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/new-orbital-debris-guidelines-released-by-wem" >🔗</a> **[The Launch Pad]** New Orbital Debris Mitigation Guidelines Released By World Economic Forum
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/scientists-discover-phosphorus-on-enceladus" >🔗</a> **[The Launch Pad]** Scientists Discover Phosphorus on Enceladus
 
 
@@ -170,13 +173,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/satellite-execs-call-for-more-data-to-improve-space-sustainability/" >🔗</a> **[SpaceNews]** Satellite execs call for more data to improve space sustainability
-
-
-- <a href="https://spacenews.com/darpa-downsizes-blackjack-space-experiment/" >🔗</a> **[SpaceNews]** DARPA downsizes Blackjack space experiment
-
-
-  - <a href="https://go4liftoff.com/launch/id/1e0c3a19-02a8-481b-9b7e-1392327c1826" >🚀</a> **Falcon 9 Block 5 | Transporter 8 (Dedicated SSO Rideshare)** from Vandenberg SFB, CA, USA
-
 
 
 
@@ -217,6 +213,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T191132">2023-06-14 19:11:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T201425">2023-06-14 20:14:25 UTC</a>
   <br>
 </div>
