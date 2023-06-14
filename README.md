@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/china-begins-constructing-commercial-launch-pad-for-solid-rockets/" >🔗</a> **[SpaceNews]** China begins constructing commercial launch pad for solid rockets
+
+
 - <a href="https://spacenews.com/deloitte-calls-on-companies-to-draft-long-term-space-strategies/" >🔗</a> **[SpaceNews]** Deloitte calls on companies to draft long-term space strategies
 
 
@@ -184,12 +187,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/06/grb-221009a-nustar/" >🔗</a> **[NASASpaceflight]** With NuSTAR, scientists reveal new characteristics of the brightest gamma-ray burst ever detected
 
 
-- <a href="https://tlpnetwork.com/news/2023/06/ses-ceo-resigns-effective-end-of-june" >🔗</a> **[The Launch Pad]** SES CEO Steps Down Effective End Of June
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://blog.ulalaunch.com/blog/how-to-fix-the-pollution-of-orbital-debris" >🔗</a> **[United Launch Alliance]** How to Fix the Pollution of Orbital Debris
+
 
 - <a href="https://www.planetary.org/advocacy/day-of-action-2023-participant-information" >🔗</a> **[Planetary Society]** Day of Action 2023 - Participant Information
 
@@ -218,13 +221,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/the-downlink/way-out-there" >🔗</a> **[Planetary Society]** Way out there
 
 
-- <a href="https://blog.ulalaunch.com/blog/vulcan-preview-of-the-flight-readiness-firing" >🔗</a> **[United Launch Alliance]** Vulcan: Preview of the Flight Readiness Firing
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T122850">2023-06-14 12:28:50 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T131718">2023-06-14 13:17:18 UTC</a>
   <br>
 </div>
