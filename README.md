@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/satellite-execs-call-for-more-data-to-improve-space-sustainability/" >🔗</a> **[SpaceNews]** Satellite execs call for more data to improve space sustainability
+
+
+- <a href="https://spacenews.com/darpa-downsizes-blackjack-space-experiment/" >🔗</a> **[SpaceNews]** DARPA downsizes Blackjack space experiment
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/artemis-2-astronaut-completes-vision-quest" >🔗</a> **[The Launch Pad]** Artemis 2 Astronaut Completes Vision Quest
 
 
@@ -171,12 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-force-eager-to-harness-satellite-servicing-technologies/" >🔗</a> **[SpaceNews]** Space Force eager to harness satellite-servicing technologies
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/orbex-announces-arianespace-partnership" >🔗</a> **[The Launch Pad]** OrbeX Announces Arianespace Partnership
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/uae-plans-mission-to-asteroid-belt" >🔗</a> **[The Launch Pad]** UAE Plans Mission To Asteroid Belt
 
 
 
@@ -217,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T012105">2023-06-14 01:21:05 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T023912">2023-06-14 02:39:12 UTC</a>
   <br>
 </div>
