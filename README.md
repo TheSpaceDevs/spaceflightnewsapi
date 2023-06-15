@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/06/15/former-spacex-lawyer-david-anderman-joins-surf-air-mobility.html" >🔗</a> **[CNBC]** Former top SpaceX lawyer joins Surf Air Mobility as it prepares to go public
+
+
 - <a href="https://spacenews.com/former-spaceflight-ceo-joins-law-firm-to-support-commercial-space-clients/" >🔗</a> **[SpaceNews]** Former Spaceflight CEO joins law firm to support commercial space clients
 
 
@@ -182,13 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/event/id/782" >📆</a> **Vulcan Cert-1 Flight Readiness Firing (FRF)**
-
-
-- <a href="https://spacenews.com/muon-celebrates-launch-of-first-satellite-in-climate-constellation/" >🔗</a> **[SpaceNews]** Muon celebrates launch of first satellite in Climate Constellation
-
-
-  - <a href="https://go4liftoff.com/launch/id/1e0c3a19-02a8-481b-9b7e-1392327c1826" >🚀</a> **Falcon 9 Block 5 | Transporter 8 (Dedicated SSO Rideshare)** from Vandenberg SFB, CA, USA
-
 
 
 
@@ -229,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T151426">2023-06-15 15:14:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T161758">2023-06-15 16:17:58 UTC</a>
   <br>
 </div>
