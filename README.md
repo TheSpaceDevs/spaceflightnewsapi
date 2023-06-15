@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/eutelsat-reversing-course-with-european-retail-business-sale/" >🔗</a> **[SpaceNews]** Eutelsat reversing course with European retail broadband business sale
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/nasa-partners-with-7-companies-for-future-commercial-space-capabilities" >🔗</a> **[The Launch Pad]** BREAKING! NASA Partners With SpaceX, Blue Origin, Sierra Space + 4 Others For Future Commercial Space Capabilities
+
+
 - <a href="http://www.nasa.gov/press-release/seven-us-companies-collaborate-with-nasa-to-advance-space-capabilities" >🔗</a> **[NASA]** Seven US Companies Collaborate with NASA to Advance Space Capabilities
 
 
@@ -167,12 +173,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/06/15/former-spacex-lawyer-david-anderman-joins-surf-air-mobility.html" >🔗</a> **[CNBC]** Former top SpaceX lawyer joins Surf Air Mobility as it prepares to go public
-
-
-- <a href="https://spacenews.com/former-spaceflight-ceo-joins-law-firm-to-support-commercial-space-clients/" >🔗</a> **[SpaceNews]** Former Spaceflight CEO joins law firm to support commercial space clients
-
-
-- <a href="https://spacenews.com/luxembourg-approves-program-to-give-nato-o3b-mpower-access/" >🔗</a> **[SpaceNews]** Luxembourg approves program to give NATO O3b mPower access
 
 
 
@@ -213,6 +213,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T211242">2023-06-15 21:12:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T221308">2023-06-15 22:13:08 UTC</a>
   <br>
 </div>
