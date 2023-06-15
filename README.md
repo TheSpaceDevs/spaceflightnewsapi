@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/project-kuiper-urges-regulators-to-focus-on-satellite-maneuverability-rules/" >🔗</a> **[SpaceNews]** Project Kuiper urges regulators to focus on satellite maneuverability rules
+
+
+- <a href="https://www.cnbc.com/2023/06/15/investing-in-space-bankers-and-insiders-say-ma-action-is-heating-up.html" >🔗</a> **[CNBC]** Investing in Space: Bankers and insiders say M&A action is heating up
+
+
 - <a href="https://www.cnbc.com/2023/06/15/former-spacex-lawyer-david-anderman-joins-surf-air-mobility.html" >🔗</a> **[CNBC]** Former top SpaceX lawyer joins Surf Air Mobility as it prepares to go public
 
 
@@ -171,20 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/16e4908a-564a-4019-89a9-0d64ee4caaaa" >🚀</a> **Titan IVB/Cenatur | Cassini-Huygens** from Cape Canaveral, FL, USA
 
-
-
-- <a href="https://spacenews.com/tomorrow-io-raises-87-million-for-weather-satellite-constellation/" >🔗</a> **[SpaceNews]** Tomorrow.io raises $87 million for weather satellite constellation
-
-
-- <a href="https://arstechnica.com/space/2023/06/vulcan-rocket-completes-critical-test-but-launch-slipping-toward-end-of-2023/" >🔗</a> **[Arstechnica]** Vulcan aces engine test, but upper stage anomaly will delay launch for a while
-
-
-  - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/782" >📆</a> **Vulcan Cert-1 Flight Readiness Firing (FRF)**
 
 
 
@@ -225,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T161758">2023-06-15 16:17:58 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T171243">2023-06-15 17:12:43 UTC</a>
   <br>
 </div>
