@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/former-spaceflight-ceo-joins-law-firm-to-support-commercial-space-clients/" >🔗</a> **[SpaceNews]** Former Spaceflight CEO joins law firm to support commercial space clients
+
+
+- <a href="https://spacenews.com/luxembourg-approves-program-to-give-nato-o3b-mpower-access/" >🔗</a> **[SpaceNews]** Luxembourg approves program to give NATO O3b mPower access
+
+
 - <a href="https://spacenews.com/more-countries-encouraged-to-commit-to-halt-destructive-asat-tests/" >🔗</a> **[SpaceNews]** More countries encouraged to commit to halt destructive ASAT tests
 
 
@@ -185,15 +191,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/china-begins-constructing-commercial-launch-pad-for-solid-rockets/" >🔗</a> **[SpaceNews]** China begins constructing commercial launch pad for solid rockets
-
-
-- <a href="https://spacenews.com/deloitte-calls-on-companies-to-draft-long-term-space-strategies/" >🔗</a> **[SpaceNews]** Deloitte calls on companies to draft long-term space strategies
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/articles/vladimir-benishek-asteroid-research" >🔗</a> **[Planetary Society]** Vladimir Benishek and the mystique of asteroid research
+
 
 - <a href="https://blog.ulalaunch.com/blog/nrol-68-delta-iv-heavy-readied-for-national-security-launch" >🔗</a> **[United Launch Alliance]** NROL-68: Delta IV Heavy readied for national security launch
 
@@ -222,13 +225,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/the-downlink/would-you-like-some-salty-water-with-your-space-salad" >🔗</a> **[Planetary Society]** Would you like some salty water with your space salad?
 
 
-- <a href="https://www.planetary.org/articles/step-grant-winners-2023" >🔗</a> **[Planetary Society]** Space salads and salty waters
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T141241">2023-06-15 14:12:41 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T151426">2023-06-15 15:14:26 UTC</a>
   <br>
 </div>
