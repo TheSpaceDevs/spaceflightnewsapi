@@ -157,13 +157,29 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/06/scientists-discover-phosphorus-on-enceladus" >🔗</a> **[The Launch Pad]** Scientists Discover Phosphorus on Enceladus
 
 
+  - <a href="https://go4liftoff.com/launch/id/16e4908a-564a-4019-89a9-0d64ee4caaaa" >🚀</a> **Titan IVB/Cenatur | Cassini-Huygens** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/tomorrow-io-raises-87-million-for-weather-satellite-constellation/" >🔗</a> **[SpaceNews]** Tomorrow.io raises $87 million for weather satellite constellation
 
 
 - <a href="https://arstechnica.com/space/2023/06/vulcan-rocket-completes-critical-test-but-launch-slipping-toward-end-of-2023/" >🔗</a> **[Arstechnica]** Vulcan aces engine test, but upper stage anomaly will delay launch for a while
 
 
+  - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/782" >📆</a> **Vulcan Cert-1 Flight Readiness Firing (FRF)**
+
+
 - <a href="https://spacenews.com/muon-celebrates-launch-of-first-satellite-in-climate-constellation/" >🔗</a> **[SpaceNews]** Muon celebrates launch of first satellite in Climate Constellation
+
+
+  - <a href="https://go4liftoff.com/launch/id/1e0c3a19-02a8-481b-9b7e-1392327c1826" >🚀</a> **Falcon 9 Block 5 | Transporter 8 (Dedicated SSO Rideshare)** from Vandenberg SFB, CA, USA
+
 
 
 - <a href="https://spacenews.com/china-begins-constructing-commercial-launch-pad-for-solid-rockets/" >🔗</a> **[SpaceNews]** China begins constructing commercial launch pad for solid rockets
@@ -213,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T061833">2023-06-15 06:18:33 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T071333">2023-06-15 07:13:33 UTC</a>
   <br>
 </div>
