@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/06/iss_irosa_roundup/" >🔗</a> **[NASASpaceflight]** ISS finishes initial iROSA upgrade with two EVAs this month
+
+
+- <a href="https://europeanspaceflight.com/esa-reserve-astronaut-secures-seat-aboard-axiom-flight/" >🔗</a> **[European Spaceflight]** ESA Reserve Astronaut Secures Seat Aboard Axiom Flight
+
+
 - <a href="https://spacenews.com/project-kuiper-urges-regulators-to-focus-on-satellite-maneuverability-rules/" >🔗</a> **[SpaceNews]** Project Kuiper urges regulators to focus on satellite maneuverability rules
 
 
@@ -167,16 +173,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-force-working-to-define-what-it-means-to-be-a-guardian/" >🔗</a> **[SpaceNews]** Space Force working to define what it means to be a guardian
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/new-orbital-debris-guidelines-released-by-wem" >🔗</a> **[The Launch Pad]** New Orbital Debris Mitigation Guidelines Released By World Economic Forum
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/scientists-discover-phosphorus-on-enceladus" >🔗</a> **[The Launch Pad]** Scientists Discover Phosphorus on Enceladus
-
-
-  - <a href="https://go4liftoff.com/launch/id/16e4908a-564a-4019-89a9-0d64ee4caaaa" >🚀</a> **Titan IVB/Cenatur | Cassini-Huygens** from Cape Canaveral, FL, USA
-
 
 
 
@@ -217,6 +213,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T181716">2023-06-15 18:17:16 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T191037">2023-06-15 19:10:37 UTC</a>
   <br>
 </div>
