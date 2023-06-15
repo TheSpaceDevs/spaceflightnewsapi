@@ -145,6 +145,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/seven-us-companies-collaborate-with-nasa-to-advance-space-capabilities" >🔗</a> **[NASA]** Seven US Companies Collaborate with NASA to Advance Space Capabilities
+
+
+- <a href="https://spacenews.com/virgin-galactic-sets-late-june-date-for-first-commercial-spaceshiptwo-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic sets late June date for first commercial SpaceShipTwo flight
+
+
+- <a href="https://www.cnbc.com/2023/06/15/virgin-galactic-sets-first-commercial-space-tourism-flight.html" >🔗</a> **[CNBC]** Virgin Galactic sets first commercial space tourism flight for this month; shares spike more than 30%
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/iss_irosa_roundup/" >🔗</a> **[NASASpaceflight]** ISS finishes initial iROSA upgrade with two EVAs this month
 
 
@@ -164,15 +173,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/luxembourg-approves-program-to-give-nato-o3b-mpower-access/" >🔗</a> **[SpaceNews]** Luxembourg approves program to give NATO O3b mPower access
-
-
-- <a href="https://spacenews.com/more-countries-encouraged-to-commit-to-halt-destructive-asat-tests/" >🔗</a> **[SpaceNews]** More countries encouraged to commit to halt destructive ASAT tests
-
-
-- <a href="https://arstechnica.com/space/2023/06/for-the-first-time-in-decades-congress-seems-interested-space-based-solar-power/" >🔗</a> **[Arstechnica]** For the first time in decades, Congress seems interested in space-based solar power
-
-
-- <a href="https://spacenews.com/space-force-working-to-define-what-it-means-to-be-a-guardian/" >🔗</a> **[SpaceNews]** Space Force working to define what it means to be a guardian
 
 
 
@@ -213,6 +213,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T201428">2023-06-15 20:14:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T211242">2023-06-15 21:12:42 UTC</a>
   <br>
 </div>
