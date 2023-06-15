@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/06/for-the-first-time-in-decades-congress-seems-interested-space-based-solar-power/" >🔗</a> **[Arstechnica]** For the first time in decades, Congress seems interested in space-based solar power
+
+
 - <a href="https://spacenews.com/space-force-working-to-define-what-it-means-to-be-a-guardian/" >🔗</a> **[SpaceNews]** Space Force working to define what it means to be a guardian
 
 
@@ -170,9 +173,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/world-economic-forum-offers-new-debris-mitigation-guidelines/" >🔗</a> **[SpaceNews]** World Economic Forum offers new debris mitigation guidelines
-
-
-- <a href="https://spacenews.com/u-n-opens-window-of-opportunity-to-improve-space-governance/" >🔗</a> **[SpaceNews]** U.N. opens “window of opportunity” to improve space governance
 
 
 
@@ -213,6 +213,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230614T221303">2023-06-14 22:13:03 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T011942">2023-06-15 01:19:42 UTC</a>
   <br>
 </div>
