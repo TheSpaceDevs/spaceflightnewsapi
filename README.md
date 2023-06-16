@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-awards-transformational-shared-services-support-contract" >🔗</a> **[NASA]** NASA Awards Transformational Shared Services Support Contract
+
+
 - <a href="https://arstechnica.com/space/2023/06/weirdly-a-nasa-official-says-fixed-price-contracts-do-the-agency-no-good/" >🔗</a> **[Arstechnica]** Weirdly, a NASA official says fixed-price contracts do the agency “no good”
 
 
@@ -178,9 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
 
-
-
-- <a href="https://spacenews.com/eutelsat-reversing-course-with-european-retail-business-sale/" >🔗</a> **[SpaceNews]** Eutelsat reversing course with European retail broadband business sale
 
 
 
@@ -221,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230616T191056">2023-06-16 19:10:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230616T201434">2023-06-16 20:14:34 UTC</a>
   <br>
 </div>
