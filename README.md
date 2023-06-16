@@ -145,6 +145,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nasa-agreements-to-support-work-on-commercial-spacecraft-and-space-stations/" >🔗</a> **[SpaceNews]** NASA agreements to support work on commercial spacecraft and space stations
+
+
+- <a href="https://spacenews.com/cesiumastro-to-develop-satcom-terminal-for-u-s-air-force-reaper-drone/" >🔗</a> **[SpaceNews]** CesiumAstro to develop satcom terminal for U.S. Air Force drone
+
+
+- <a href="https://arstechnica.com/space/2023/06/rocket-report-final-ariane-5-launch-delayed-virgin-galactic-set-to-fly-again/" >🔗</a> **[Arstechnica]** Rocket Report: China addresses falling rocket debris, Vulcan launch slipping
+
+
 - <a href="https://spacenews.com/technical-problem-postpones-final-ariane-5-launch/" >🔗</a> **[SpaceNews]** Technical problem postpones final Ariane 5 launch
 
 
@@ -180,15 +189,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/event/id/785" >📆</a> **US EVA-88**
-
-
-- <a href="https://europeanspaceflight.com/esa-reserve-astronaut-secures-seat-aboard-axiom-flight/" >🔗</a> **[European Spaceflight]** ESA Reserve Astronaut Secures Seat Aboard Axiom Flight
-
-
-- <a href="https://spacenews.com/project-kuiper-urges-regulators-to-focus-on-satellite-maneuverability-rules/" >🔗</a> **[SpaceNews]** Project Kuiper urges regulators to focus on satellite maneuverability rules
-
-
-- <a href="https://www.cnbc.com/2023/06/15/investing-in-space-bankers-and-insiders-say-ma-action-is-heating-up.html" >🔗</a> **[CNBC]** Investing in Space: Bankers and insiders say M&A action is heating up
 
 
 
@@ -229,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230616T111121">2023-06-16 11:11:21 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230616T122817">2023-06-16 12:28:17 UTC</a>
   <br>
 </div>
