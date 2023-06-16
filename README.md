@@ -148,6 +148,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/technical-problem-postpones-final-ariane-5-launch/" >🔗</a> **[SpaceNews]** Technical problem postpones final Ariane 5 launch
 
 
+  - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
+
+
+
 - <a href="https://spacenews.com/eutelsat-reversing-course-with-european-retail-business-sale/" >🔗</a> **[SpaceNews]** Eutelsat reversing course with European retail broadband business sale
 
 
@@ -160,10 +164,22 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/virgin-galactic-sets-late-june-date-for-first-commercial-spaceshiptwo-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic sets late June date for first commercial SpaceShipTwo flight
 
 
+  - <a href="https://go4liftoff.com/launch/id/6109337b-0ac2-4a89-a5fe-dba37cb107fe" >🚀</a> **SpaceShipTwo | Galactic 01** from Air launch to Suborbital flight
+
+
+
 - <a href="https://www.cnbc.com/2023/06/15/virgin-galactic-sets-first-commercial-space-tourism-flight.html" >🔗</a> **[CNBC]** Virgin Galactic sets first commercial space tourism flight for this month; shares spike more than 40%
 
 
+  - <a href="https://go4liftoff.com/launch/id/6109337b-0ac2-4a89-a5fe-dba37cb107fe" >🚀</a> **SpaceShipTwo | Galactic 01** from Air launch to Suborbital flight
+
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/iss_irosa_roundup/" >🔗</a> **[NASASpaceflight]** ISS finishes initial iROSA upgrade with two EVAs this month
+
+
+
+  - <a href="https://go4liftoff.com/event/id/785" >📆</a> **US EVA-88**
 
 
 - <a href="https://europeanspaceflight.com/esa-reserve-astronaut-secures-seat-aboard-axiom-flight/" >🔗</a> **[European Spaceflight]** ESA Reserve Astronaut Secures Seat Aboard Axiom Flight
@@ -213,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230616T071252">2023-06-16 07:12:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230616T081719">2023-06-16 08:17:19 UTC</a>
   <br>
 </div>
