@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-view-orion-spacecraft-for-next-artemis-missions" >🔗</a> **[NASA]** NASA Invites Media to View Orion Spacecraft for Next Artemis Missions
+
+
+- <a href="https://spacenews.com/intelligence-analysts-confront-the-reality-of-deepfakes/" >🔗</a> **[SpaceNews]** Intelligence analysts confront the reality of deepfakes
+
+
 - <a href="https://spacenews.com/nasa-agreements-to-support-work-on-commercial-spacecraft-and-space-stations/" >🔗</a> **[SpaceNews]** NASA agreements to support work on commercial spacecraft and space stations
 
 
@@ -177,23 +183,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.cnbc.com/2023/06/15/virgin-galactic-sets-first-commercial-space-tourism-flight.html" >🔗</a> **[CNBC]** Virgin Galactic sets first commercial space tourism flight for this month; shares spike more than 40%
-
-
-  - <a href="https://go4liftoff.com/launch/id/6109337b-0ac2-4a89-a5fe-dba37cb107fe" >🚀</a> **SpaceShipTwo | Galactic 01** from Air launch to Suborbital flight
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/06/iss_irosa_roundup/" >🔗</a> **[NASASpaceflight]** ISS finishes initial iROSA upgrade with two EVAs this month
-
-
-
-  - <a href="https://go4liftoff.com/event/id/785" >📆</a> **US EVA-88**
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/the-downlink/day-and-night-its-all-about-starlight" >🔗</a> **[Planetary Society]** Day and night, it’s all about starlight
+
 
 - <a href="https://blog.ulalaunch.com/blog/rocketstars-leading-the-engineering-team-for-delta-iv-heavy" >🔗</a> **[United Launch Alliance]** RocketStars: Leading the engineering team for Delta IV Heavy
 
@@ -222,13 +217,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/the-downlink/the-scientific-truth-is-out-there" >🔗</a> **[Planetary Society]** The scientific truth is out there
 
 
-- <a href="https://www.planetary.org/articles/are-aliens-real" >🔗</a> **[Planetary Society]** Are aliens real?
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230616T141242">2023-06-16 14:12:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230616T151404">2023-06-16 15:14:04 UTC</a>
   <br>
 </div>
