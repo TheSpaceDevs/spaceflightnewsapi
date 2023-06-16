@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/despite-growing-interest-in-commercial-satellite-data-industry-faces-uncertainty/" >🔗</a> **[SpaceNews]** Despite growing interest in commercial satellite data, industry faces uncertainty
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-awards-institutional-maintenance-operations-and-repair-contract" >🔗</a> **[NASA]** NASA Awards Institutional, Maintenance, Operations, and Repair Contract
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-awards-transformational-shared-services-support-contract" >🔗</a> **[NASA]** NASA Awards Transformational Shared Services Support Contract
 
 
@@ -171,16 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/cesiumastro-to-develop-satcom-terminal-for-u-s-air-force-reaper-drone/" >🔗</a> **[SpaceNews]** CesiumAstro to develop satcom terminal for U.S. Air Force drone
-
-
-- <a href="https://arstechnica.com/space/2023/06/rocket-report-final-ariane-5-launch-delayed-virgin-galactic-set-to-fly-again/" >🔗</a> **[Arstechnica]** Rocket Report: China addresses falling rocket debris, Vulcan launch slipping
-
-
-- <a href="https://spacenews.com/technical-problem-postpones-final-ariane-5-launch/" >🔗</a> **[SpaceNews]** Technical problem postpones final Ariane 5 launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
-
 
 
 
@@ -221,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230616T201434">2023-06-16 20:14:34 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230616T211203">2023-06-16 21:12:03 UTC</a>
   <br>
 </div>
