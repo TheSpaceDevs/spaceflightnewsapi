@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/technical-problem-postpones-final-ariane-5-launch/" >🔗</a> **[SpaceNews]** Technical problem postpones final Ariane 5 launch
+
+
 - <a href="https://spacenews.com/eutelsat-reversing-course-with-european-retail-business-sale/" >🔗</a> **[SpaceNews]** Eutelsat reversing course with European retail broadband business sale
 
 
@@ -170,9 +173,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/06/15/investing-in-space-bankers-and-insiders-say-ma-action-is-heating-up.html" >🔗</a> **[CNBC]** Investing in Space: Bankers and insiders say M&A action is heating up
-
-
-- <a href="https://www.cnbc.com/2023/06/15/former-spacex-lawyer-david-anderman-joins-surf-air-mobility.html" >🔗</a> **[CNBC]** Former top SpaceX lawyer joins Surf Air Mobility as it prepares to go public
 
 
 
@@ -213,6 +213,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230615T231434">2023-06-15 23:14:34 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230616T012111">2023-06-16 01:21:11 UTC</a>
   <br>
 </div>
