@@ -145,6 +145,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/space-force-assigns-spacex-and-ula-new-security-missions" >🔗</a> **[The Launch Pad]** Space Force Assigns SpaceX & ULA New Security Missions
+
+
+- <a href="https://spacenews.com/space-force-extends-palantirs-data-as-a-service-contracts/" >🔗</a> **[SpaceNews]** Space Force extends Palantir’s data-as-a-service contracts
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/virgin-galactic-to-begin-commercial-operations-this-month" >🔗</a> **[The Launch Pad]** Virgin Galactic To Begin Commercial Operations This Month
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/final-ariane-5-launch-delayed-due-to-technical-problems" >🔗</a> **[The Launch Pad]** Final Ariane 5 Launch Delayed Due To Technical Problems
 
 
@@ -164,19 +173,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/firefly-to-buy-remaining-virgin-orbit-assets/" >🔗</a> **[SpaceNews]** Firefly to buy remaining Virgin Orbit assets
-
-
-- <a href="https://www.nasaspaceflight.com/2023/06/nasa-low-earth-orbit-partnerships/" >🔗</a> **[NASASpaceflight]** SpaceX, Blue Origin, others highlighted in new NASA low-Earth orbit partnerships
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-view-orion-spacecraft-for-next-artemis-missions" >🔗</a> **[NASA]** NASA Invites Media to View Orion Spacecraft for Next Artemis Missions
-
-
-  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacenews.com/intelligence-analysts-confront-the-reality-of-deepfakes/" >🔗</a> **[SpaceNews]** Intelligence analysts confront the reality of deepfakes
 
 
 
@@ -217,6 +213,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230617T122541">2023-06-17 12:25:41 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230617T131456">2023-06-17 13:14:56 UTC</a>
   <br>
 </div>
