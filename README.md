@@ -145,7 +145,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://www.nasaspaceflight.com/2023/06/launch-roundup/" >🔗</a> **[NASASpaceflight]** Launch Roundup – Rocket Lab to launch first HASTE mission; SpaceX to launch Satria
+- <a href="https://www.nasaspaceflight.com/2023/06/launch-roundup/" >🔗</a> **[NASASpaceflight]** Launch Roundup – Rocket Lab launches first HASTE mission; SpaceX to launch Satria
 
 
 - <a href="https://tlpnetwork.com/news/2023/06/nasa-and-boeing-to-shape-future-of-aviation-with-x66a" >🔗</a> **[The Launch Pad]** NASA & Boeing To "Shape Future Of Aviation" With X-66A
@@ -213,6 +213,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230618T014003">2023-06-18 01:40:03 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230618T025213">2023-06-18 02:52:13 UTC</a>
   <br>
 </div>
