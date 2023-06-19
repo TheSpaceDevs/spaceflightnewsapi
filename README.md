@@ -165,7 +165,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/spacex-launches-indonesian-telecommunications-satellite/" >🔗</a> **[Teslarati]** SpaceX launches Indonesian telecommunications satellite
 
 
-- <a href="https://www.nasaspaceflight.com/2023/06/launch-roundup/" >🔗</a> **[NASASpaceflight]** Launch Roundup – Rocket Lab launches first HASTE mission; SpaceX to launch Satria
+- <a href="https://www.nasaspaceflight.com/2023/06/launch-roundup/" >🔗</a> **[NASASpaceflight]** Launch Roundup – Rocket Lab launches first HASTE mission; SpaceX launches Satria
 
 
   - <a href="https://go4liftoff.com/launch/id/2ec7425b-743d-4c52-8712-a19b1fbd0a9e" >🚀</a> **HASTE | DYNAMO-A** from Wallops Island, Virginia, USA
@@ -175,10 +175,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/06/nasa-and-boeing-to-shape-future-of-aviation-with-x66a" >🔗</a> **[The Launch Pad]** NASA & Boeing To "Shape Future Of Aviation" With X-66A
 
 
-- <a href="https://tlpnetwork.com/news/2023/06/firefly-aerospace-purchases-remaining-virgin-orbit-assets" >🔗</a> **[The Launch Pad]** Firefly Aerospace Purchases Remaining Virgin Orbit Assets
-
-
 - <a href="https://tlpnetwork.com/news/2023/06/us-house-members-introduce-bill-to-make-noaa-a-independent-agency" >🔗</a> **[The Launch Pad]** US House Members Introduce Bill To Make NOAA A Independent Agency
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/firefly-aerospace-purchases-remaining-virgin-orbit-assets" >🔗</a> **[The Launch Pad]** Firefly Aerospace Purchases Remaining Virgin Orbit Assets
 
 
 - <a href="https://tlpnetwork.com/news/2023/06/space-force-assigns-spacex-and-ula-new-security-missions" >🔗</a> **[The Launch Pad]** Space Force Assigns SpaceX & ULA New Security Missions
@@ -225,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230619T031504">2023-06-19 03:15:04 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230619T041720">2023-06-19 04:17:20 UTC</a>
   <br>
 </div>
