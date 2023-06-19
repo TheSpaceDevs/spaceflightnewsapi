@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-development-agencys-missile-warning-satellites-transmit-first-images/" >🔗</a> **[SpaceNews]** Space Development Agency’s missile warning satellites transmit first images
+
+
 - <a href="https://spacenews.com/kuva-space-wins-5-million-euro-award-to-supply-hyperspectral-data/" >🔗</a> **[SpaceNews]** Kuva Space wins 5 million euro award for hyperspectral data
 
 
@@ -182,9 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/06/firefly-aerospace-purchases-remaining-virgin-orbit-assets" >🔗</a> **[The Launch Pad]** Firefly Aerospace Purchases Remaining Virgin Orbit Assets
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/space-force-assigns-spacex-and-ula-new-security-missions" >🔗</a> **[The Launch Pad]** Space Force Assigns SpaceX & ULA New Security Missions
 
 
 
@@ -225,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230619T161821">2023-06-19 16:18:21 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230619T171212">2023-06-19 17:12:12 UTC</a>
   <br>
 </div>
