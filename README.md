@@ -145,7 +145,20 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/skyrora-first-test-of-new-70kn-engine" >🔗</a> **[The Launch Pad]** Skyrora Tests First 3D Printed Rocket Engine
+
+
+- <a href="https://www.nasaspaceflight.com/2023/06/enceladus-phosphorus/" >🔗</a> **[NASASpaceflight]** Cassini data reveals the presence of phosphorus in Enceladus’ ocean plumes
+
+
+- <a href="https://spacenews.com/china-attracts-moon-base-partners-outlines-project-timelines/" >🔗</a> **[SpaceNews]** China attracts moon base partners, outlines project timelines
+
+
 - <a href="https://spacenews.com/space-development-agencys-missile-warning-satellites-transmit-first-images/" >🔗</a> **[SpaceNews]** Space Development Agency’s missile warning satellites transmit first images
+
+
+  - <a href="https://go4liftoff.com/launch/id/0705d82e-11b4-4e78-9075-457987f9f32f" >🚀</a> **Falcon 9 Block 5 | SDA Tranche 0A** from Vandenberg SFB, CA, USA
+
 
 
 - <a href="https://spacenews.com/kuva-space-wins-5-million-euro-award-to-supply-hyperspectral-data/" >🔗</a> **[SpaceNews]** Kuva Space wins 5 million euro award for hyperspectral data
@@ -176,15 +189,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/2ec7425b-743d-4c52-8712-a19b1fbd0a9e" >🚀</a> **HASTE | DYNAMO-A** from Wallops Island, Virginia, USA
 
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/nasa-and-boeing-to-shape-future-of-aviation-with-x66a" >🔗</a> **[The Launch Pad]** NASA & Boeing To "Shape Future Of Aviation" With X-66A
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/us-house-members-introduce-bill-to-make-noaa-a-independent-agency" >🔗</a> **[The Launch Pad]** US House Members Introduce Bill To Make NOAA A Independent Agency
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/firefly-aerospace-purchases-remaining-virgin-orbit-assets" >🔗</a> **[The Launch Pad]** Firefly Aerospace Purchases Remaining Virgin Orbit Assets
 
 
 
@@ -225,6 +229,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230619T181745">2023-06-19 18:17:45 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230619T191109">2023-06-19 19:11:09 UTC</a>
   <br>
 </div>
