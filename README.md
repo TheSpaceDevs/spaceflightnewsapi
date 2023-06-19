@@ -2,7 +2,7 @@
 
 [![Website](https://raw.githubusercontent.com/TheSpaceDevs/spaceflightnewsapi/main/.github/profile/assets/badge_snapi_website.svg)](https://spaceflightnewsapi.net/)
 [![Documentation](https://raw.githubusercontent.com/TheSpaceDevs/spaceflightnewsapi/main/.github/profile/assets/badge_snapi_doc.svg)](https://api.spaceflightnewsapi.net/v4/docs)
-[![Version](https://img.shields.io/github/v/release/TheSpaceDevs/spaceflightnewsapi?style=for-the-badge)](https://github.com/TheSpaceDevs/spaceflightnewsapi/releases/tag/v4.0.2)
+[![Version](https://img.shields.io/github/v/release/TheSpaceDevs/spaceflightnewsapi?style=for-the-badge)](https://github.com/TheSpaceDevs/spaceflightnewsapi/releases/tag/v4.0.3)
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/the_snapi)
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/TheSpaceDevs)
@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/rocket-lab-launches-first-haste-mission/" >🔗</a> **[Teslarati]** Rocket Lab launches first HASTE mission
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/skyrora-first-test-of-new-70kn-engine" >🔗</a> **[The Launch Pad]** Skyrora Tests First 3D Printed Rocket Engine
 
 
@@ -182,13 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.teslarati.com/spacex-launches-indonesian-telecommunications-satellite/" >🔗</a> **[Teslarati]** SpaceX launches Indonesian telecommunications satellite
-
-
-- <a href="https://www.nasaspaceflight.com/2023/06/launch-roundup/" >🔗</a> **[NASASpaceflight]** Launch Roundup – Rocket Lab launches first HASTE mission; SpaceX launches Satria
-
-
-  - <a href="https://go4liftoff.com/launch/id/2ec7425b-743d-4c52-8712-a19b1fbd0a9e" >🚀</a> **HASTE | DYNAMO-A** from Wallops Island, Virginia, USA
-
 
 
 
@@ -229,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230619T191109">2023-06-19 19:11:09 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230619T201418">2023-06-19 20:14:18 UTC</a>
   <br>
 </div>
