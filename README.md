@@ -162,6 +162,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/06/faa-reduces-airspace-closures-during-launches" >🔗</a> **[The Launch Pad]** FAA Reduces Airspace Closures During Launches
 
 
+- <a href="https://www.teslarati.com/spacex-launches-indonesian-telecommunications-satellite/" >🔗</a> **[Teslarati]** SpaceX launches Indonesian telecommunications satellite
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/launch-roundup/" >🔗</a> **[NASASpaceflight]** Launch Roundup – Rocket Lab launches first HASTE mission; SpaceX to launch Satria
 
 
@@ -172,23 +175,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/06/nasa-and-boeing-to-shape-future-of-aviation-with-x66a" >🔗</a> **[The Launch Pad]** NASA & Boeing To "Shape Future Of Aviation" With X-66A
 
 
-- <a href="https://tlpnetwork.com/news/2023/06/firefly-aerospace-purchases-remaining-virgin-orbit-assets" >🔗</a> **[The Launch Pad]** Firefly Aerospace Purchases Remaining Virgin Orbit Assets
-
-
 - <a href="https://tlpnetwork.com/news/2023/06/us-house-members-introduce-bill-to-make-noaa-a-independent-agency" >🔗</a> **[The Launch Pad]** US House Members Introduce Bill To Make NOAA A Independent Agency
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/firefly-aerospace-purchases-remaining-virgin-orbit-assets" >🔗</a> **[The Launch Pad]** Firefly Aerospace Purchases Remaining Virgin Orbit Assets
 
 
 - <a href="https://tlpnetwork.com/news/2023/06/space-force-assigns-spacex-and-ula-new-security-missions" >🔗</a> **[The Launch Pad]** Space Force Assigns SpaceX & ULA New Security Missions
 
 
 - <a href="https://spacenews.com/space-force-extends-palantirs-data-as-a-service-contracts/" >🔗</a> **[SpaceNews]** Space Force extends Palantir’s data-as-a-service contracts
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/virgin-galactic-to-begin-commercial-operations-this-month" >🔗</a> **[The Launch Pad]** Virgin Galactic To Begin Commercial Operations This Month
-
-
-  - <a href="https://go4liftoff.com/launch/id/6109337b-0ac2-4a89-a5fe-dba37cb107fe" >🚀</a> **SpaceShipTwo | Galactic 01** from Air launch to Suborbital flight
-
 
 
 
@@ -229,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230619T012122">2023-06-19 01:21:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230619T024128">2023-06-19 02:41:28 UTC</a>
   <br>
 </div>
