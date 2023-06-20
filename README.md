@@ -148,13 +148,25 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/indonesias-satria-1-deploys-solar-panels-ahead-of-geostationary-trip/" >🔗</a> **[SpaceNews]** Indonesia’s Satria-1 deploys solar panels ahead of geostationary trip
 
 
+  - <a href="https://go4liftoff.com/launch/id/76e42f7b-6690-41be-95c1-811aab0ccf32" >🚀</a> **Falcon 9 Block 5 | Satria-1** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://www.teslarati.com/rocket-lab-launches-first-haste-mission/" >🔗</a> **[Teslarati]** Rocket Lab launches first HASTE mission
+
+
+  - <a href="https://go4liftoff.com/launch/id/2ec7425b-743d-4c52-8712-a19b1fbd0a9e" >🚀</a> **HASTE | DYNAMO-A** from Wallops Island, Virginia, USA
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/06/skyrora-first-test-of-new-70kn-engine" >🔗</a> **[The Launch Pad]** Skyrora Tests First 3D Printed Rocket Engine
 
 
 - <a href="https://www.nasaspaceflight.com/2023/06/enceladus-phosphorus/" >🔗</a> **[NASASpaceflight]** Cassini data reveals the presence of phosphorus in Enceladus’ ocean plumes
+
+
+  - <a href="https://go4liftoff.com/launch/id/16e4908a-564a-4019-89a9-0d64ee4caaaa" >🚀</a> **Titan IVB/Cenatur | Cassini-Huygens** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://spacenews.com/china-attracts-moon-base-partners-outlines-project-timelines/" >🔗</a> **[SpaceNews]** China attracts moon base partners, outlines project timelines
@@ -225,6 +237,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230620T061859">2023-06-20 06:18:59 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230620T071250">2023-06-20 07:12:50 UTC</a>
   <br>
 </div>
