@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/united-launch-alliance-ready-for-penultimate-delta-iv-heavy-launch/" >🔗</a> **[Teslarati]** United Launch Alliance ready for penultimate Delta IV Heavy launch
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/delta-iv-heavy-nrol-68/" >🔗</a> **[NASASpaceflight]** ULA’s penultimate Delta IV Heavy to launch with NROL-68 mission
 
 
@@ -174,13 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/boeing-ceo-says-company-still-committed-to-starliner/" >🔗</a> **[SpaceNews]** Boeing CEO says company still committed to Starliner
-
-
-- <a href="https://spacenews.com/indonesias-satria-1-deploys-solar-panels-ahead-of-geostationary-trip/" >🔗</a> **[SpaceNews]** Indonesia’s Satria-1 deploys solar panels ahead of geostationary trip
-
-
-  - <a href="https://go4liftoff.com/launch/id/76e42f7b-6690-41be-95c1-811aab0ccf32" >🚀</a> **Falcon 9 Block 5 | Satria-1** from Cape Canaveral, FL, USA
-
 
 
 
@@ -221,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230620T201456">2023-06-20 20:14:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230620T211149">2023-06-20 21:11:49 UTC</a>
   <br>
 </div>
