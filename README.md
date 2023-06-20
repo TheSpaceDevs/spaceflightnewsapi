@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/06/after-tough-start-this-year-united-launch-alliance-can-turn-things-around-tonight/" >🔗</a> **[Arstechnica]** After tough start this year, United Launch Alliance can turn things around tonight
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-plans-coverage-of-roscosmos-spacewalk-outside-space-station" >🔗</a> **[NASA]** NASA Plans Coverage of Roscosmos Spacewalk Outside Space Station
 
 
@@ -184,12 +187,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/06/skyrora-first-test-of-new-70kn-engine" >🔗</a> **[The Launch Pad]** Skyrora Tests First 3D Printed Rocket Engine
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/articles/citizen-astronomer-asteroid-defender-tips" >🔗</a> **[Planetary Society]** Want to be a citizen astronomer and defend Earth from asteroids? Here are some tips.
+
 
 - <a href="https://www.planetary.org/the-downlink/day-and-night-its-all-about-starlight" >🔗</a> **[Planetary Society]** Day and night, it’s all about starlight
 
@@ -218,13 +221,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/articles/asteroid-samples-from-another-world" >🔗</a> **[Planetary Society]** Asteroid samples from another world
 
 
-- <a href="https://www.planetary.org/the-downlink/the-scientific-truth-is-out-there" >🔗</a> **[Planetary Society]** The scientific truth is out there
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230620T171221">2023-06-20 17:12:21 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230620T181622">2023-06-20 18:16:22 UTC</a>
   <br>
 </div>
