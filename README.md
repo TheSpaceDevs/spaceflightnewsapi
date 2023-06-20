@@ -145,6 +145,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/06/delta-iv-heavy-nrol-68/" >🔗</a> **[NASASpaceflight]** ULA’s penultimate Delta IV Heavy to launch with NROL-68 mission
+
+
 - <a href="https://arstechnica.com/space/2023/06/after-tough-start-this-year-united-launch-alliance-can-turn-things-around-tonight/" >🔗</a> **[Arstechnica]** After tough start this year, United Launch Alliance can turn things around tonight
 
 
@@ -164,10 +167,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/true-anomaly-to-pursue-military-contracts-for-virtual-live-training-tech/" >🔗</a> **[SpaceNews]** True Anomaly to pursue military contracts for virtual, live training tech
 
 
-- <a href="https://spacenews.com/ramon-space-reveals-partnership-with-foxconn-subsidiary-ingrasys/" >🔗</a> **[SpaceNews]** Ramon.Space reveals partnership with Foxconn subsidiary Ingrasys
-
-
 - <a href="https://spacenews.com/orbital-composites-leans-into-space-market/" >🔗</a> **[SpaceNews]** Orbital Composites leans into space market
+
+
+- <a href="https://spacenews.com/ramon-space-reveals-partnership-with-foxconn-subsidiary-ingrasys/" >🔗</a> **[SpaceNews]** Ramon.Space reveals partnership with Foxconn subsidiary Ingrasys
 
 
 - <a href="https://spacenews.com/boeing-ceo-says-company-still-committed-to-starliner/" >🔗</a> **[SpaceNews]** Boeing CEO says company still committed to Starliner
@@ -177,13 +180,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/76e42f7b-6690-41be-95c1-811aab0ccf32" >🚀</a> **Falcon 9 Block 5 | Satria-1** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://www.teslarati.com/rocket-lab-launches-first-haste-mission/" >🔗</a> **[Teslarati]** Rocket Lab launches first HASTE mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/2ec7425b-743d-4c52-8712-a19b1fbd0a9e" >🚀</a> **HASTE | DYNAMO-A** from Wallops Island, Virginia, USA
 
 
 
@@ -225,6 +221,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230620T191114">2023-06-20 19:11:14 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230620T201456">2023-06-20 20:14:56 UTC</a>
   <br>
 </div>
