@@ -145,13 +145,19 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/intelsat-orders-another-refueling-mission-from-northrop-grummans-spacelogistics/" >🔗</a> **[SpaceNews]** Intelsat orders another refueling mission from Northrop Grumman’s SpaceLogistics
+
+
+- <a href="https://arstechnica.com/space/2023/06/it-appears-that-roscosmos-really-is-recruiting-soldiers-for-the-ukraine-war/" >🔗</a> **[Arstechnica]** It appears that Roscosmos really is recruiting soldiers for the Ukraine War
+
+
 - <a href="https://spacenews.com/true-anomaly-to-pursue-military-contracts-for-virtual-live-training-tech/" >🔗</a> **[SpaceNews]** True Anomaly to pursue military contracts for virtual, live training tech
 
 
-- <a href="https://spacenews.com/ramon-space-reveals-partnership-with-foxconn-subsidiary-ingrasys/" >🔗</a> **[SpaceNews]** Ramon.Space reveals partnership with Foxconn subsidiary Ingrasys
-
-
 - <a href="https://spacenews.com/orbital-composites-leans-into-space-market/" >🔗</a> **[SpaceNews]** Orbital Composites leans into space market
+
+
+- <a href="https://spacenews.com/ramon-space-reveals-partnership-with-foxconn-subsidiary-ingrasys/" >🔗</a> **[SpaceNews]** Ramon.Space reveals partnership with Foxconn subsidiary Ingrasys
 
 
 - <a href="https://spacenews.com/boeing-ceo-says-company-still-committed-to-starliner/" >🔗</a> **[SpaceNews]** Boeing CEO says company still committed to Starliner
@@ -178,16 +184,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/16e4908a-564a-4019-89a9-0d64ee4caaaa" >🚀</a> **Titan IVB/Cenatur | Cassini-Huygens** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/china-attracts-moon-base-partners-outlines-project-timelines/" >🔗</a> **[SpaceNews]** China attracts moon base partners, outlines project timelines
-
-
-- <a href="https://spacenews.com/space-development-agencys-missile-warning-satellites-transmit-first-images/" >🔗</a> **[SpaceNews]** Space Development Agency’s missile warning satellites transmit first images
-
-
-  - <a href="https://go4liftoff.com/launch/id/0705d82e-11b4-4e78-9075-457987f9f32f" >🚀</a> **Falcon 9 Block 5 | SDA Tranche 0A** from Vandenberg SFB, CA, USA
 
 
 
@@ -229,6 +225,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230620T131706">2023-06-20 13:17:06 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230620T141222">2023-06-20 14:12:22 UTC</a>
   <br>
 </div>
