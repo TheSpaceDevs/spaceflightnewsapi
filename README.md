@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/06/ship-25-engine-testing/" >🔗</a> **[NASASpaceflight]** Ship 25 begins engine testing as Starship launch pad work continues
+
+
 - <a href="https://arstechnica.com/science/2023/06/the-atlantic-tropics-are-on-fire-it-already-looks-a-like-august-out-there/" >🔗</a> **[Arstechnica]** The Atlantic tropics are on fire—it already looks like August out there
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/scout-space-announces-new-investors/" >🔗</a> **[SpaceNews]** Scout Space announces new investors
-
-
-- <a href="https://spacenews.com/startup-danti-unveils-search-engine-for-geospatial-data/" >🔗</a> **[SpaceNews]** Startup Danti unveils search engine for geospatial data
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T221255">2023-06-21 22:12:55 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T231425">2023-06-21 23:14:25 UTC</a>
   <br>
 </div>
