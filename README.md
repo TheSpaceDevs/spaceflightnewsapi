@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/op-ed-the-space-race-may-already-be-won/" >🔗</a> **[SpaceNews]** Op-ed | The Space Race may already be won
+
+
 - <a href="https://spacenews.com/faa-reduces-airspace-restrictions-for-cape-canaveral-launches/" >🔗</a> **[SpaceNews]** FAA reduces airspace restrictions for Cape Canaveral launches
 
 
@@ -161,10 +164,22 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/united-launch-alliance-ready-for-penultimate-delta-iv-heavy-launch/" >🔗</a> **[Teslarati]** United Launch Alliance ready for penultimate Delta IV Heavy launch
 
 
+  - <a href="https://go4liftoff.com/launch/id/8cfa00a5-a72e-48b7-80bd-944664688f59" >🚀</a> **Delta IV Heavy | NROL-68** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/delta-iv-heavy-nrol-68/" >🔗</a> **[NASASpaceflight]** ULA’s penultimate Delta IV Heavy to launch with NROL-68 mission
 
 
+  - <a href="https://go4liftoff.com/launch/id/8cfa00a5-a72e-48b7-80bd-944664688f59" >🚀</a> **Delta IV Heavy | NROL-68** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://arstechnica.com/space/2023/06/after-tough-start-this-year-united-launch-alliance-can-turn-things-around-tonight/" >🔗</a> **[Arstechnica]** After tough start this year, United Launch Alliance can turn things around tonight
+
+
+  - <a href="https://go4liftoff.com/launch/id/8cfa00a5-a72e-48b7-80bd-944664688f59" >🚀</a> **Delta IV Heavy | NROL-68** from Cape Canaveral, FL, USA
+
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-plans-coverage-of-roscosmos-spacewalk-outside-space-station" >🔗</a> **[NASA]** NASA Plans Coverage of Roscosmos Spacewalk Outside Space Station
@@ -175,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/intelsat-orders-another-refueling-mission-from-northrop-grummans-spacelogistics/" >🔗</a> **[SpaceNews]** Intelsat orders another servicing mission from Northrop Grumman’s SpaceLogistics
-
-
-- <a href="https://arstechnica.com/space/2023/06/it-appears-that-roscosmos-really-is-recruiting-soldiers-for-the-ukraine-war/" >🔗</a> **[Arstechnica]** It appears that Roscosmos really is recruiting soldiers for the Ukraine War
 
 
 
@@ -218,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T101546">2023-06-21 10:15:46 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T111152">2023-06-21 11:11:52 UTC</a>
   <br>
 </div>
