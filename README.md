@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-department-of-agriculture-advance-exploration-science" >🔗</a> **[NASA]** NASA, Department of Agriculture Advance Exploration, Science
+
+
 - <a href="https://spacenews.com/mynaric-to-supply-laser-communications-for-raytheons-missile-tracking-satellites/" >🔗</a> **[SpaceNews]** Mynaric to supply laser communications for Raytheon’s missile-tracking satellites
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-forge-names-manager-for-u-s-manufacturing-operations/" >🔗</a> **[SpaceNews]** Space Forge names manager for U.S. manufacturing operations
-
-
-- <a href="https://spacenews.com/faa-reduces-airspace-restrictions-for-cape-canaveral-launches/" >🔗</a> **[SpaceNews]** FAA reduces airspace restrictions for Cape Canaveral launches
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T201445">2023-06-21 20:14:45 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T211329">2023-06-21 21:13:29 UTC</a>
   <br>
 </div>
