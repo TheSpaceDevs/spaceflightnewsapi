@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-northrop-grumman-cargo-launch-to-space-station" >🔗</a> **[NASA]** NASA Invites Media to Northrop Grumman Cargo Launch to Space Station
 
 
+  - <a href="https://go4liftoff.com/launch/id/7c126e4f-4afd-4c25-bf6f-9017666b56ee" >🚀</a> **Antares 230+ | Cygnus CRS-2 NG-19** from Wallops Island, Virginia, USA
+
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-welcomes-ecuador-as-26th-artemis-accords-signatory" >🔗</a> **[NASA]** NASA Welcomes Ecuador as 26th Artemis Accords Signatory
 
 
@@ -214,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T181725">2023-06-21 18:17:25 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T191121">2023-06-21 19:11:21 UTC</a>
   <br>
 </div>
