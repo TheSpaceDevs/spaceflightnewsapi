@@ -145,6 +145,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/indian-ssa-startup-raises-10-million/" >🔗</a> **[SpaceNews]** Indian SSA startup raises $10 million
+
+
+- <a href="https://spacenews.com/vyoma-raises-9-million-for-debris-monitoring-satellites/" >🔗</a> **[SpaceNews]** Vyoma raises $9 million for debris-monitoring satellites
+
+
 - <a href="https://www.teslarati.com/united-launch-alliance-ready-for-penultimate-delta-iv-heavy-launch/" >🔗</a> **[Teslarati]** United Launch Alliance ready for penultimate Delta IV Heavy launch
 
 
@@ -171,12 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/orbital-composites-leans-into-space-market/" >🔗</a> **[SpaceNews]** Orbital Composites leans into space market
-
-
-- <a href="https://spacenews.com/ramon-space-reveals-partnership-with-foxconn-subsidiary-ingrasys/" >🔗</a> **[SpaceNews]** Ramon.Space reveals partnership with Foxconn subsidiary Ingrasys
-
-
-- <a href="https://spacenews.com/boeing-ceo-says-company-still-committed-to-starliner/" >🔗</a> **[SpaceNews]** Boeing CEO says company still committed to Starliner
 
 
 
@@ -217,6 +217,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T012031">2023-06-21 01:20:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T023614">2023-06-21 02:36:14 UTC</a>
   <br>
 </div>
