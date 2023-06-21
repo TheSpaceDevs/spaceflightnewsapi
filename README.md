@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/mynaric-to-supply-laser-communications-for-raytheons-missile-tracking-satellites/" >🔗</a> **[SpaceNews]** Mynaric to supply laser communications for Raytheon’s missile-tracking satellites
+
+
+- <a href="https://spacenews.com/intelsat-walks-away-from-ses-merger-talks/" >🔗</a> **[SpaceNews]** Intelsat walks away from SES merger talks
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-northrop-grumman-cargo-launch-to-space-station" >🔗</a> **[NASA]** NASA Invites Media to Northrop Grumman Cargo Launch to Space Station
 
 
@@ -165,19 +171,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/startup-danti-unveils-search-engine-for-geospatial-data/" >🔗</a> **[SpaceNews]** Startup Danti unveils search engine for geospatial data
 
 
-- <a href="https://spacenews.com/op-ed-the-space-race-may-already-be-won/" >🔗</a> **[SpaceNews]** Op-ed | The Space Race may already be won
+- <a href="https://spacenews.com/op-ed-the-space-race-may-already-be-won/" >🔗</a> **[SpaceNews]** The Space Race may already be won
 
 
 - <a href="https://spacenews.com/space-forge-names-manager-for-u-s-manufacturing-operations/" >🔗</a> **[SpaceNews]** Space Forge names manager for U.S. manufacturing operations
 
 
 - <a href="https://spacenews.com/faa-reduces-airspace-restrictions-for-cape-canaveral-launches/" >🔗</a> **[SpaceNews]** FAA reduces airspace restrictions for Cape Canaveral launches
-
-
-- <a href="https://spacenews.com/indian-ssa-startup-raises-10-million/" >🔗</a> **[SpaceNews]** Indian SSA startup raises $10 million
-
-
-- <a href="https://spacenews.com/vyoma-raises-9-million-for-debris-monitoring-satellites/" >🔗</a> **[SpaceNews]** Vyoma raises $9 million for debris-monitoring satellites
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T191121">2023-06-21 19:11:21 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T201445">2023-06-21 20:14:45 UTC</a>
   <br>
 </div>
