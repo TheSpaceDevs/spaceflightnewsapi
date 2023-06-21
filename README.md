@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/science/2023/06/the-atlantic-tropics-are-on-fire-it-already-looks-a-like-august-out-there/" >🔗</a> **[Arstechnica]** The Atlantic tropics are on fire—it already looks like August out there
+
+
+- <a href="https://www.cnbc.com/2023/06/21/intelsat-ends-merger-talks-with-ses.html" >🔗</a> **[CNBC]** Intelsat ends merger talks with rival satellite communications giant SES
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-department-of-agriculture-advance-exploration-science" >🔗</a> **[NASA]** NASA, Department of Agriculture Advance Exploration, Science
 
 
@@ -172,12 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/startup-danti-unveils-search-engine-for-geospatial-data/" >🔗</a> **[SpaceNews]** Startup Danti unveils search engine for geospatial data
-
-
-- <a href="https://spacenews.com/op-ed-the-space-race-may-already-be-won/" >🔗</a> **[SpaceNews]** The Space Race may already be won
-
-
-- <a href="https://spacenews.com/space-forge-names-manager-for-u-s-manufacturing-operations/" >🔗</a> **[SpaceNews]** Space Forge names manager for U.S. manufacturing operations
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T211329">2023-06-21 21:13:29 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T221255">2023-06-21 22:12:55 UTC</a>
   <br>
 </div>
