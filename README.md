@@ -168,7 +168,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.nasaspaceflight.com/2023/06/delta-iv-heavy-nrol-68/" >🔗</a> **[NASASpaceflight]** ULA’s penultimate Delta IV Heavy to launch with NROL-68 mission
+- <a href="https://www.nasaspaceflight.com/2023/06/delta-iv-heavy-nrol-68/" >🔗</a> **[NASASpaceflight]** ULA’s penultimate Delta IV Heavy to launch NROL-68 mission on Thursday
 
 
   - <a href="https://go4liftoff.com/launch/id/8cfa00a5-a72e-48b7-80bd-944664688f59" >🚀</a> **Delta IV Heavy | NROL-68** from Cape Canaveral, FL, USA
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T111152">2023-06-21 11:11:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230621T122832">2023-06-21 12:28:32 UTC</a>
   <br>
 </div>
