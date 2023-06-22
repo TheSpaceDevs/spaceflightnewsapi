@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/06/bepicolombo-flyby-3/" >🔗</a> **[NASASpaceflight]** ESA’s BepiColombo probe conducts third flyby of Mercury
+
+
 - <a href="https://mars.nasa.gov/news/9423/" >🔗</a> **[NASA]** NASA's MAVEN Spacecraft Stuns with Ultraviolet Views of Red Planet
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-force-missile-warning-satellites-drawing-congressional-attention/" >🔗</a> **[SpaceNews]** Space Force missile-warning satellites drawing congressional attention
-
-
-- <a href="https://spacenews.com/nasa-opens-earth-information-center-amid-budget-uncertainty/" >🔗</a> **[SpaceNews]** NASA opens Earth Information Center amid budget uncertainty
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T181753">2023-06-22 18:17:53 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T191310">2023-06-22 19:13:10 UTC</a>
   <br>
 </div>
