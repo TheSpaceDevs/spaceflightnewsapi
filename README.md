@@ -146,6 +146,21 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/intelsat-ends-merger-negotiations-with-ses" >🔗</a> **[The Launch Pad]** Intelsat Ends Merger Negotiations with SES
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/northstar-signs-multi-launch-deal-with-rocketlab-following-virgin-orbit-collapse" >🔗</a> **[The Launch Pad]** NorthStar Signs Multi Launch Deal With RocketLab Following Virgin Orbit Collapse
+
+
+- <a href="https://spacenews.com/northstar-pivots-to-rocket-lab-following-virgin-orbits-collapse/" >🔗</a> **[SpaceNews]** NorthStar pivots to Rocket Lab following Virgin Orbit’s collapse
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/spacelogistics-secures-3-orders-for-robotic-maintenance-and-boosting-spacecraft-set-to-launch-2025" >🔗</a> **[The Launch Pad]** SpaceLogistics Secures 3 Orders For New Robotic Maintenance & Boosting Spacecraft Set To Launch 2025
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/kuva-space-wins-hyperspectral-data-award" >🔗</a> **[The Launch Pad]** Kuva Space Wins Hyperspectral Data Award
+
+
 - <a href="https://spacepolicyonline.com/news/glaze-spells-out-priorities-if-budget-cuts-materialize/" >🔗</a> **[SpacePolicyOnline.com]** Glaze Spells Out Priorities if Budget Cuts Materialize
 
 
@@ -155,29 +170,14 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/06/ship-25-engine-testing/" >🔗</a> **[NASASpaceflight]** Ship 25 begins engine testing as Starship launch pad work continues
 
 
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
 - <a href="https://arstechnica.com/science/2023/06/the-atlantic-tropics-are-on-fire-it-already-looks-a-like-august-out-there/" >🔗</a> **[Arstechnica]** The Atlantic tropics are on fire—it already looks like August out there
 
 
 - <a href="https://www.cnbc.com/2023/06/21/intelsat-ends-merger-talks-with-ses.html" >🔗</a> **[CNBC]** Intelsat ends merger talks with rival satellite communications giant SES
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-department-of-agriculture-advance-exploration-science" >🔗</a> **[NASA]** NASA, Department of Agriculture Advance Exploration, Science
-
-
-- <a href="https://spacenews.com/mynaric-to-supply-laser-communications-for-raytheons-missile-tracking-satellites/" >🔗</a> **[SpaceNews]** Mynaric to supply laser communications for Raytheon’s missile-tracking satellites
-
-
-- <a href="https://spacenews.com/intelsat-walks-away-from-ses-merger-talks/" >🔗</a> **[SpaceNews]** Intelsat walks away from SES merger talks
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-northrop-grumman-cargo-launch-to-space-station" >🔗</a> **[NASA]** NASA Invites Media to Northrop Grumman Cargo Launch to Space Station
-
-
-  - <a href="https://go4liftoff.com/launch/id/7c126e4f-4afd-4c25-bf6f-9017666b56ee" >🚀</a> **Antares 230+ | Cygnus CRS-2 NG-19** from Wallops Island, Virginia, USA
-
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-welcomes-ecuador-as-26th-artemis-accords-signatory" >🔗</a> **[NASA]** NASA Welcomes Ecuador as 26th Artemis Accords Signatory
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T041643">2023-06-22 04:16:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T061833">2023-06-22 06:18:33 UTC</a>
   <br>
 </div>
