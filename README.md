@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/glaze-spells-out-priorities-if-budget-cuts-materialize/" >🔗</a> **[SpacePolicyOnline.com]** Glaze Spells Out Priorities if Budget Cuts Materialize
+
+
 - <a href="https://spacenews.com/ecuador-signs-artemis-accords/" >🔗</a> **[SpaceNews]** Ecuador signs Artemis Accords
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-welcomes-ecuador-as-26th-artemis-accords-signatory" >🔗</a> **[NASA]** NASA Welcomes Ecuador as 26th Artemis Accords Signatory
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-holds-ribbon-cutting-for-new-earth-information-center" >🔗</a> **[NASA]** NASA Holds Ribbon Cutting for New Earth Information Center
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T031443">2023-06-22 03:14:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T041643">2023-06-22 04:16:43 UTC</a>
   <br>
 </div>
