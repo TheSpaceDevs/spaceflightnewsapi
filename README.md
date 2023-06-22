@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/spideroak-demonstrates-cybersecurity-software-on-orbit/" >🔗</a> **[SpaceNews]** SpiderOak demonstrates cybersecurity software on orbit
+
+
 - <a href="https://spacenews.com/space-force-missile-warning-satellites-drawing-congressional-attention/" >🔗</a> **[SpaceNews]** Space Force missile-warning satellites drawing congressional attention
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/06/spacelogistics-secures-3-orders-for-robotic-maintenance-and-boosting-spacecraft-set-to-launch-2025" >🔗</a> **[The Launch Pad]** SpaceLogistics Secures 3 Orders For New Robotic Maintenance & Boosting Spacecraft Set To Launch 2025
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/kuva-space-wins-hyperspectral-data-award" >🔗</a> **[The Launch Pad]** Kuva Space Wins Hyperspectral Data Award
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T131653">2023-06-22 13:16:53 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T141236">2023-06-22 14:12:36 UTC</a>
   <br>
 </div>
