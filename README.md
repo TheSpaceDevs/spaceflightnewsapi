@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/cnes-awards-contract-to-dark-for-space-debris-interceptor-simulation/" >🔗</a> **[European Spaceflight]** CNES Awards Contract to Dark for Space Debris Interceptor Simulation
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/intelsat-ends-merger-negotiations-with-ses" >🔗</a> **[The Launch Pad]** Intelsat Ends Merger Negotiations with SES
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://arstechnica.com/science/2023/06/the-atlantic-tropics-are-on-fire-it-already-looks-a-like-august-out-there/" >🔗</a> **[Arstechnica]** The Atlantic tropics are on fire—it already looks like August out there
-
-
-- <a href="https://www.cnbc.com/2023/06/21/intelsat-ends-merger-talks-with-ses.html" >🔗</a> **[CNBC]** Intelsat ends merger talks with rival satellite communications giant SES
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T061833">2023-06-22 06:18:33 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T071648">2023-06-22 07:16:48 UTC</a>
   <br>
 </div>
