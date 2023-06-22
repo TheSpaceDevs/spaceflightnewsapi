@@ -146,16 +146,19 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-launches-47-starlink-satellites-provides-unique-views-elon-musk-twitter/" >🔗</a> **[Teslarati]** SpaceX launches 47 Starlink satellites, provides unique views on Twitter
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/bepicolombo-flyby-3/" >🔗</a> **[NASASpaceflight]** ESA’s BepiColombo probe conducts third flyby of Mercury
 
 
 - <a href="https://mars.nasa.gov/news/9423/" >🔗</a> **[NASA]** NASA's MAVEN Spacecraft Stuns with Ultraviolet Views of Red Planet
 
 
-- <a href="https://mars.nasa.gov/news/9421/" >🔗</a> **[NASA]** Landing in Living Rooms: LEGO Models of NASA Mars Rover and Helicopter
-
-
 - <a href="http://www.nasa.gov/press-release/nasa-to-host-x-57-maxwell-project-update" >🔗</a> **[NASA]** NASA to Host X-57 Maxwell Project Update
+
+
+- <a href="https://mars.nasa.gov/news/9421/" >🔗</a> **[NASA]** Landing in Living Rooms: LEGO Models of NASA Mars Rover and Helicopter
 
 
 - <a href="https://europeanspaceflight.com/atmos-space-cargo-raises-e4m-to-return-cargo-from-space/" >🔗</a> **[European Spaceflight]** ATMOS Space Cargo Raises €4M to Return Cargo from Space
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/spideroak-demonstrates-cybersecurity-software-on-orbit/" >🔗</a> **[SpaceNews]** SpiderOak demonstrates cybersecurity software on orbit
-
-
-- <a href="https://spacenews.com/space-force-missile-warning-satellites-drawing-congressional-attention/" >🔗</a> **[SpaceNews]** Space Force missile-warning satellites drawing congressional attention
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T191310">2023-06-22 19:13:10 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T201648">2023-06-22 20:16:48 UTC</a>
   <br>
 </div>
