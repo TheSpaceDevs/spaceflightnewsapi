@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/atmos-space-cargo-raises-e4m-to-return-cargo-from-space/" >🔗</a> **[European Spaceflight]** ATMOS Space Cargo Raises €4M to Return Cargo from Space
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/india-to-sign-artemis-accords-joint-nasa-isro-mission-to-iss-in-2024" >🔗</a> **[The Launch Pad]** BREAKING! India To Sign Artemis Accords, Joint NASA-ISRO Mission in 2024
+
+
+- <a href="https://www.cnbc.com/2023/06/22/spacecraft-builder-apex-raises-16-million-from-a16z-shield-capital.html" >🔗</a> **[CNBC]** Spacecraft builder Apex raises $16 million from a16z and Shield Capital, reveals first customers
+
+
 - <a href="https://arstechnica.com/space/2023/06/will-zuck-and-musk-really-get-into-a-cage-match-if-so-blame-a-rocket-explosion/" >🔗</a> **[Arstechnica]** The bad blood between Musk and Zuckerberg began with a bang
 
 
@@ -171,18 +180,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.com/cnes-awards-contract-to-dark-for-space-debris-interceptor-simulation/" >🔗</a> **[European Spaceflight]** CNES Awards Contract to Dark for Space Debris Interceptor Simulation
 
 
-- <a href="https://tlpnetwork.com/news/2023/06/intelsat-ends-merger-negotiations-with-ses" >🔗</a> **[The Launch Pad]** Intelsat Ends Merger Negotiations with SES
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/northstar-signs-multi-launch-deal-with-rocketlab-following-virgin-orbit-collapse" >🔗</a> **[The Launch Pad]** NorthStar Signs Multi Launch Deal With RocketLab Following Virgin Orbit Collapse
-
-
-- <a href="https://spacenews.com/northstar-pivots-to-rocket-lab-following-virgin-orbits-collapse/" >🔗</a> **[SpaceNews]** NorthStar pivots to Rocket Lab following Virgin Orbit’s collapse
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://blog.ulalaunch.com/blog/united-launch-alliance-successfully-launches-the-penultimate-delta-iv-heavy-rocket" >🔗</a> **[United Launch Alliance]** NROL-68: United Launch Alliance Successfully Launches the Penultimate Delta IV Heavy Rocket
+
 
 - <a href="https://www.planetary.org/articles/ariel-barreiro-interview" >🔗</a> **[Planetary Society]** Marrying the arts and science in space
 
@@ -211,13 +214,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://blog.ulalaunch.com/blog/how-to-fix-the-pollution-of-orbital-debris" >🔗</a> **[United Launch Alliance]** How to Fix the Pollution of Orbital Debris
 
 
-- <a href="https://www.planetary.org/advocacy/day-of-action-2023-participant-information" >🔗</a> **[Planetary Society]** Day of Action 2023 - Participant Information
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T151405">2023-06-22 15:14:05 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T161758">2023-06-22 16:17:58 UTC</a>
   <br>
 </div>
