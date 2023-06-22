@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/06/will-zuck-and-musk-really-get-into-a-cage-match-if-so-blame-a-rocket-explosion/" >🔗</a> **[Arstechnica]** The bad blood between Musk and Zuckerberg began with a bang
+
+
 - <a href="https://spacenews.com/spideroak-demonstrates-cybersecurity-software-on-orbit/" >🔗</a> **[SpaceNews]** SpiderOak demonstrates cybersecurity software on orbit
 
 
@@ -177,12 +180,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/northstar-pivots-to-rocket-lab-following-virgin-orbits-collapse/" >🔗</a> **[SpaceNews]** NorthStar pivots to Rocket Lab following Virgin Orbit’s collapse
 
 
-- <a href="https://tlpnetwork.com/news/2023/06/spacelogistics-secures-3-orders-for-robotic-maintenance-and-boosting-spacecraft-set-to-launch-2025" >🔗</a> **[The Launch Pad]** SpaceLogistics Secures 3 Orders For New Robotic Maintenance & Boosting Spacecraft Set To Launch 2025
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/articles/ariel-barreiro-interview" >🔗</a> **[Planetary Society]** Marrying the arts and science in space
+
 
 - <a href="https://www.planetary.org/articles/citizen-astronomer-asteroid-defender-tips" >🔗</a> **[Planetary Society]** Want to be a citizen astronomer and defend Earth from asteroids? Here are some tips.
 
@@ -211,13 +214,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/advocacy/day-of-action-2023-participant-information" >🔗</a> **[Planetary Society]** Day of Action 2023 - Participant Information
 
 
-- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-june-5-11-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: June 5-11, 2023
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T141236">2023-06-22 14:12:36 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230622T151405">2023-06-22 15:14:05 UTC</a>
   <br>
 </div>
