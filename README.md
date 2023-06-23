@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/06/starlink-5-12-launch/" >🔗</a> **[NASASpaceflight]** SpaceX closes record-breaking first half of 2023 with Starlink launch
 
 
+  - <a href="https://go4liftoff.com/launch/id/168f4cf5-35e9-4e4c-90c3-61f1dcd6975e" >🚀</a> **Falcon 9 Block 5 | Starlink Group 5-12** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacepolicyonline.com/news/senate-appropriators-adopt-fy2024-spending-caps/" >🔗</a> **[SpacePolicyOnline.com]** Senate Appropriators Adopt FY2024 Spending Caps
 
 
@@ -164,16 +168,36 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/spacex-launches-47-starlink-satellites-provides-unique-views-elon-musk-twitter/" >🔗</a> **[Teslarati]** SpaceX launches 47 Starlink satellites, provides unique views on Twitter
 
 
+  - <a href="https://go4liftoff.com/launch/id/4250862e-5e59-465c-90ac-262e85db6086" >🚀</a> **Falcon 9 Block 5 | Starlink Group 5-7** from Vandenberg SFB, CA, USA
+
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/bepicolombo-flyby-3/" >🔗</a> **[NASASpaceflight]** ESA’s BepiColombo probe conducts third flyby of Mercury
 
 
+  - <a href="https://go4liftoff.com/launch/id/e81bd43b-6359-4436-911f-01888c3369ef" >🚀</a> **Ariane 5 ECA | BepiColombo** from Kourou, French Guiana
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/390" >📆</a> **BepiColombo Mercury Flyby**
+
+
 - <a href="https://mars.nasa.gov/news/9423/" >🔗</a> **[NASA]** NASA's MAVEN Spacecraft Stuns with Ultraviolet Views of Red Planet
+
+
+  - <a href="https://go4liftoff.com/launch/id/404bc5c5-79b8-4c7e-9919-a18ca202e38c" >🚀</a> **Atlas V 401 | MAVEN** from Cape Canaveral, FL, USA
+
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-to-host-x-57-maxwell-project-update" >🔗</a> **[NASA]** NASA to Host X-57 Maxwell Project Update
 
 
 - <a href="https://mars.nasa.gov/news/9421/" >🔗</a> **[NASA]** Landing in Living Rooms: LEGO Models of NASA Mars Rover and Helicopter
+
+
+  - <a href="https://go4liftoff.com/launch/id/c4db6995-f25f-4608-8eb9-ce95d5226af2" >🚀</a> **Atlas V 541 | Mars 2020 (Perseverance rover & Ingenuity helicopter)** from Cape Canaveral, FL, USA
+
 
 
 
@@ -214,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T062137">2023-06-23 06:21:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T071458">2023-06-23 07:14:58 UTC</a>
   <br>
 </div>
