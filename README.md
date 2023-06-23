@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/06/the-mars-sample-return-mission-is-starting-to-give-nasa-sticker-shock/" >🔗</a> **[Arstechnica]** NASA’s Mars Sample Return has a new price tag—and it’s colossal
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/arianespace-back-on-track-for-final-ariane-5-launch" >🔗</a> **[The Launch Pad]** Arianespace Back On Track For Final Ariane 5 Launch
 
 
@@ -177,7 +180,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/u-s-and-india-to-expand-spaceflight-cooperation/" >🔗</a> **[SpaceNews]** U.S. and India to expand spaceflight cooperation
 
 
-- <a href="https://www.nasaspaceflight.com/2023/06/starlink-5-12-launch/" >🔗</a> **[NASASpaceflight]** SpaceX closes record-breaking first half of 2023 with Starlink launch
+- <a href="https://www.nasaspaceflight.com/2023/06/starlink-5-12-launch/" >🔗</a> **[NASASpaceflight]** SpaceX record-breaking first half of 2023 following Starlink launch
 
 
   - <a href="https://go4liftoff.com/launch/id/168f4cf5-35e9-4e4c-90c3-61f1dcd6975e" >🚀</a> **Falcon 9 Block 5 | Starlink Group 5-12** from Cape Canaveral, FL, USA
@@ -185,9 +188,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/senate-appropriators-adopt-fy2024-spending-caps/" >🔗</a> **[SpacePolicyOnline.com]** Senate Appropriators Adopt FY2024 Spending Caps
-
-
-- <a href="https://spacenews.com/what-the-wreck-of-the-titan-portends-for-commercial-spaceflight/" >🔗</a> **[SpaceNews]** What the wreck of the Titan portends for commercial spaceflight
 
 
 
@@ -228,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T151613">2023-06-23 15:16:13 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T162103">2023-06-23 16:21:03 UTC</a>
   <br>
 </div>
