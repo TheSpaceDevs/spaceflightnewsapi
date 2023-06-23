@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/second-orbiter-transfer-vehicle-malfunctions/" >🔗</a> **[SpaceNews]** Second Orbiter transfer vehicle malfunctions
+
+
+- <a href="https://www.nasaspaceflight.com/2023/06/themis-prometheus-hot-fire-test/" >🔗</a> **[NASASpaceflight]** Themis, Prometheus complete first hot-fire tests in France
+
+
 - <a href="https://spacenews.com/lynk-global-on-verge-of-initial-commercial-direct-to-device-services/" >🔗</a> **[SpaceNews]** Lynk Global on verge of initial commercial direct-to-device services
 
 
@@ -175,24 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
-
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-cover-asteroid-sample-return-logistics-call" >🔗</a> **[NASA]** NASA Invites Media to Cover Asteroid Sample Return, Logistics Call
-
-
-  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
-
-
-- <a href="https://spacenews.com/ovzon-3-on-course-to-miss-regulatory-deadline-after-latest-delay/" >🔗</a> **[SpaceNews]** Ovzon 3 on course to miss regulatory deadline after latest delay
-
-
-  - <a href="https://go4liftoff.com/launch/id/1d374bef-0e4e-4b3f-b45b-25c14aaa2b0e" >🚀</a> **Falcon 9 Block 5 | Ovzon-3** from Cape Canaveral, FL, USA
 
 
 
@@ -234,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T221507">2023-06-23 22:15:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T231543">2023-06-23 23:15:43 UTC</a>
   <br>
 </div>
