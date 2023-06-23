@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/safran-and-terran-orbital-to-explore-joint-production-of-satellite-propulsion-systems-in-the-u-s/" >🔗</a> **[SpaceNews]** Safran, Terran Orbital to explore joint production of satellite propulsion systems
+
+
 - <a href="https://spacenews.com/u-s-and-india-to-expand-spaceflight-cooperation/" >🔗</a> **[SpaceNews]** U.S. and India to expand spaceflight cooperation
 
 
@@ -193,9 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-to-host-x-57-maxwell-project-update" >🔗</a> **[NASA]** NASA to Host X-57 Maxwell Project Update
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T101738">2023-06-23 10:17:38 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T111334">2023-06-23 11:13:34 UTC</a>
   <br>
 </div>
