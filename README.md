@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/ovzon-3-on-course-to-miss-regulatory-deadline-after-latest-delay/" >🔗</a> **[SpaceNews]** Ovzon 3 on course to miss regulatory deadline after latest delay
+
+
 - <a href="https://spacenews.com/apex-raises-16-million-for-spacecraft-factory/" >🔗</a> **[SpaceNews]** Apex raises $16 million for spacecraft factory
 
 
@@ -187,13 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-awards-contract-for-earth-radar-data-operations-management" >🔗</a> **[NASA]** NASA Awards Contract for Earth Radar Data Operations, Management
 
 
-- <a href="https://www.teslarati.com/spacex-launches-47-starlink-satellites-provides-unique-views-elon-musk-twitter/" >🔗</a> **[Teslarati]** SpaceX launches 47 Starlink satellites, provides unique views on Twitter
-
-
-  - <a href="https://go4liftoff.com/launch/id/4250862e-5e59-465c-90ac-262e85db6086" >🚀</a> **Falcon 9 Block 5 | Starlink Group 5-7** from Vandenberg SFB, CA, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -232,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T123136">2023-06-23 12:31:36 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T132403">2023-06-23 13:24:03 UTC</a>
   <br>
 </div>
