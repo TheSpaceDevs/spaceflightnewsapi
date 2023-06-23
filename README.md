@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/arianespace-back-on-track-for-final-ariane-5-launch" >🔗</a> **[The Launch Pad]** Arianespace Back On Track For Final Ariane 5 Launch
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-cover-asteroid-sample-return-logistics-call" >🔗</a> **[NASA]** NASA Invites Media to Cover Asteroid Sample Return, Logistics Call
+
+
 - <a href="https://spacenews.com/ovzon-3-on-course-to-miss-regulatory-deadline-after-latest-delay/" >🔗</a> **[SpaceNews]** Ovzon 3 on course to miss regulatory deadline after latest delay
 
 
@@ -184,15 +190,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/what-the-wreck-of-the-titan-portends-for-commercial-spaceflight/" >🔗</a> **[SpaceNews]** What the wreck of the Titan portends for commercial spaceflight
 
 
-- <a href="https://www.cnbc.com/2023/06/22/virgin-galactic-spce-raises-300-million-seeks-another-400-million.html" >🔗</a> **[CNBC]** Virgin Galactic raises $300 million, seeks another $400 million to expand spacecraft fleet
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-awards-contract-for-earth-radar-data-operations-management" >🔗</a> **[NASA]** NASA Awards Contract for Earth Radar Data Operations, Management
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/the-downlink/rings-and-dings" >🔗</a> **[Planetary Society]** Rings and dings
+
 
 - <a href="https://blog.ulalaunch.com/blog/united-launch-alliance-successfully-launches-the-penultimate-delta-iv-heavy-rocket" >🔗</a> **[United Launch Alliance]** NROL-68: United Launch Alliance Successfully Launches the Penultimate Delta IV Heavy Rocket
 
@@ -221,13 +224,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://blog.ulalaunch.com/blog/nrol-68-delta-iv-heavy-readied-for-national-security-launch" >🔗</a> **[United Launch Alliance]** NROL-68: Delta IV Heavy readied for national security launch
 
 
-- <a href="https://blog.ulalaunch.com/blog/how-to-fix-the-pollution-of-orbital-debris" >🔗</a> **[United Launch Alliance]** How to Fix the Pollution of Orbital Debris
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T132403">2023-06-23 13:24:03 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T151613">2023-06-23 15:16:13 UTC</a>
   <br>
 </div>
