@@ -164,10 +164,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://mars.nasa.gov/news/9423/" >🔗</a> **[NASA]** NASA's MAVEN Spacecraft Stuns with Ultraviolet Views of Red Planet
 
 
-- <a href="https://mars.nasa.gov/news/9421/" >🔗</a> **[NASA]** Landing in Living Rooms: LEGO Models of NASA Mars Rover and Helicopter
-
-
 - <a href="http://www.nasa.gov/press-release/nasa-to-host-x-57-maxwell-project-update" >🔗</a> **[NASA]** NASA to Host X-57 Maxwell Project Update
+
+
+- <a href="https://mars.nasa.gov/news/9421/" >🔗</a> **[NASA]** Landing in Living Rooms: LEGO Models of NASA Mars Rover and Helicopter
 
 
 - <a href="https://europeanspaceflight.com/atmos-space-cargo-raises-e4m-to-return-cargo-from-space/" >🔗</a> **[European Spaceflight]** ATMOS Space Cargo Raises €4M to Return Cargo from Space
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T013819">2023-06-23 01:38:19 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T025847">2023-06-23 02:58:47 UTC</a>
   <br>
 </div>
