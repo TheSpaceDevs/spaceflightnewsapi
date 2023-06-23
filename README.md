@@ -146,10 +146,23 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://spacenews.com/space-leasing-international-sets-sights-on-ground-stations-satellites-an-launch-infrastructure/" >🔗</a> **[SpaceNews]** Space Leasing International sets sights on ground stations, satellites an launch infrastructure
+- <a href="http://www.nasa.gov/press-release/nasa-welcomes-india-as-27th-artemis-accords-signatory" >🔗</a> **[NASA]** NASA Welcomes India as 27th Artemis Accords Signatory
+
+
+- <a href="https://spacepolicyonline.com/news/artemis-accords-gain-more-members/" >🔗</a> **[SpacePolicyOnline.com]** Artemis Accords Gain More Members
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-awards-millions-in-stem-research-grants" >🔗</a> **[NASA]** NASA Awards Millions in STEM Research Grants
+
+
+- <a href="https://spacenews.com/space-leasing-international-sets-sights-on-ground-stations-satellites-an-launch-infrastructure/" >🔗</a> **[SpaceNews]** Space Leasing International sets sights on ground stations, satellites and launch infrastructure
 
 
 - <a href="https://www.teslarati.com/spacex-falcon-9-launches-56-starlink-satellites/" >🔗</a> **[Teslarati]** SpaceX Falcon 9 launches 56 Starlink satellites
+
+
+  - <a href="https://go4liftoff.com/launch/id/168f4cf5-35e9-4e4c-90c3-61f1dcd6975e" >🚀</a> **Falcon 9 Block 5 | Starlink Group 5-12** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://arstechnica.com/space/2023/06/the-mars-sample-return-mission-is-starting-to-give-nasa-sticker-shock/" >🔗</a> **[Arstechnica]** NASA’s Mars Sample Return has a new price tag—and it’s colossal
@@ -181,25 +194,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/apex-raises-16-million-for-spacecraft-factory/" >🔗</a> **[SpaceNews]** Apex raises $16 million for spacecraft factory
-
-
-- <a href="https://arstechnica.com/space/2023/06/rocket-report-electron-scoops-up-virgin-launch-ula-flies-first-2023-mission/" >🔗</a> **[Arstechnica]** Rocket Report: Electron scoops up Virgin launch, ULA flies first 2023 mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/8cfa00a5-a72e-48b7-80bd-944664688f59" >🚀</a> **Delta IV Heavy | NROL-68** from Cape Canaveral, FL, USA
-
-  - <a href="https://go4liftoff.com/launch/id/89f9600b-b250-4b0f-a713-99b123bb58d8" >🚀</a> **Electron | NorthStar 1** from Onenui Station, Mahia Peninsula, New Zealand
-
-  - <a href="https://go4liftoff.com/launch/id/bc939d6c-4f57-44d8-8caf-dd81c0872a9e" >🚀</a> **Electron | NorthStar 2** from Onenui Station, Mahia Peninsula, New Zealand
-
-  - <a href="https://go4liftoff.com/launch/id/cd10c1a7-886f-427d-a653-106001da54d6" >🚀</a> **Electron | NorthStar 3** from Onenui Station, Mahia Peninsula, New Zealand
-
-
-
-- <a href="https://spacenews.com/safran-and-terran-orbital-to-explore-joint-production-of-satellite-propulsion-systems-in-the-u-s/" >🔗</a> **[SpaceNews]** Safran, Terran Orbital to explore joint production of satellite propulsion systems
-
-
-- <a href="https://spacenews.com/u-s-and-india-to-expand-spaceflight-cooperation/" >🔗</a> **[SpaceNews]** U.S. and India to expand spaceflight cooperation
 
 
 
@@ -240,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T201651">2023-06-23 20:16:51 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T211339">2023-06-23 21:13:39 UTC</a>
   <br>
 </div>
