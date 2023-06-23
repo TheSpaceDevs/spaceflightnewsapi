@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-falcon-9-launches-56-starlink-satellites/" >🔗</a> **[Teslarati]** SpaceX Falcon 9 launches 56 Starlink satellites
+
+
 - <a href="https://arstechnica.com/space/2023/06/the-mars-sample-return-mission-is-starting-to-give-nasa-sticker-shock/" >🔗</a> **[Arstechnica]** NASA’s Mars Sample Return has a new price tag—and it’s colossal
 
 
@@ -203,9 +206,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacepolicyonline.com/news/senate-appropriators-adopt-fy2024-spending-caps/" >🔗</a> **[SpacePolicyOnline.com]** Senate Appropriators Adopt FY2024 Spending Caps
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -244,6 +244,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T181916">2023-06-23 18:19:16 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230623T191239">2023-06-23 19:12:39 UTC</a>
   <br>
 </div>
