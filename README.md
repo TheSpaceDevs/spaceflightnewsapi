@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/spacex_introducing_hot_staging_to_starship" >🔗</a> **[The Launch Pad]** SpaceX Starship to implement Hot Staging
+
+
 - <a href="https://spacenews.com/spacex-changing-starship-stage-separation-ahead-of-next-launch/" >🔗</a> **[SpaceNews]** SpaceX changing Starship stage separation ahead of next launch
 
 
@@ -189,9 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-welcomes-india-as-27th-artemis-accords-signatory" >🔗</a> **[NASA]** NASA Welcomes India as 27th Artemis Accords Signatory
 
 
-- <a href="https://spacepolicyonline.com/news/artemis-accords-gain-more-members/" >🔗</a> **[SpacePolicyOnline.com]** Artemis Accords Gain More Members
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230624T201619">2023-06-24 20:16:19 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230624T211314">2023-06-24 21:13:14 UTC</a>
   <br>
 </div>
