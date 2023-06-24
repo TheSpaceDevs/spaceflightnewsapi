@@ -146,13 +146,28 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/spacex-changing-starship-stage-separation-ahead-of-next-launch/" >🔗</a> **[SpaceNews]** SpaceX changing Starship stage separation ahead of next launch
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/dream_chaser_nearing_flight_readiness" >🔗</a> **[The Launch Pad]** Dream Chaser Continues Chasing its Path to the Pad
+
+
+  - <a href="https://go4liftoff.com/launch/id/a67b40f9-cfcc-4614-a355-a156280b4bb3" >🚀</a> **Vulcan VC4L | Dream Chaser CRS 2 Flight 1** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/06/ecuador_signs_the_artemis_accords" >🔗</a> **[The Launch Pad]** Ecuador Signs The Artemis Accords
 
 
 - <a href="https://tlpnetwork.com/news/2023/06/centaur_upper_stage_delays_ula_vulcan_maiden_flight" >🔗</a> **[The Launch Pad]** Centaur Upper Stage Delays ULA Vulcan Maiden Flight
+
+
+  - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://spacenews.com/first-vulcan-launch-further-delayed-for-centaur-modifications/" >🔗</a> **[SpaceNews]** First Vulcan launch further delayed for Centaur modifications
@@ -175,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/artemis-accords-gain-more-members/" >🔗</a> **[SpacePolicyOnline.com]** Artemis Accords Gain More Members
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-awards-millions-in-stem-research-grants" >🔗</a> **[NASA]** NASA Awards Millions in STEM Research Grants
 
 
 
@@ -218,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230624T181916">2023-06-24 18:19:16 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230624T201619">2023-06-24 20:16:19 UTC</a>
   <br>
 </div>
