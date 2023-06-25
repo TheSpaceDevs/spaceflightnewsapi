@@ -152,6 +152,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/06/spacex_introducing_hot_staging_to_starship" >🔗</a> **[The Launch Pad]** SpaceX Starship to implement Hot Staging
 
 
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
 - <a href="https://spacenews.com/spacex-changing-starship-stage-separation-ahead-of-next-launch/" >🔗</a> **[SpaceNews]** SpaceX changing Starship stage separation ahead of next launch
 
 
@@ -230,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230625T051508">2023-06-25 05:15:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230625T062023">2023-06-25 06:20:23 UTC</a>
   <br>
 </div>
