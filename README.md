@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-june-25-july-1-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy June 25-July 1, 2023
+
+
 - <a href="https://spacenews.com/anduril-acquires-solid-rocket-motor-manufacturer-adranos/" >🔗</a> **[SpaceNews]** Anduril acquires solid rocket motor manufacturer Adranos
 
 
@@ -189,13 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/first-vulcan-launch-further-delayed-for-centaur-modifications/" >🔗</a> **[SpaceNews]** First Vulcan launch further delayed for Centaur modifications
 
 
-- <a href="https://spacenews.com/second-orbiter-transfer-vehicle-malfunctions/" >🔗</a> **[SpaceNews]** Second Orbiter transfer vehicle malfunctions
-
-
-  - <a href="https://go4liftoff.com/launch/id/1e0c3a19-02a8-481b-9b7e-1392327c1826" >🚀</a> **Falcon 9 Block 5 | Transporter 8 (Dedicated SSO Rideshare)** from Vandenberg SFB, CA, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230625T201712">2023-06-25 20:17:12 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230625T211333">2023-06-25 21:13:33 UTC</a>
   <br>
 </div>
