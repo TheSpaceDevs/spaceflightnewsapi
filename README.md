@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/senate-armed-services-committee-advances-2024-ndaa/" >🔗</a> **[SpaceNews]** Senate Armed Services Committee advances 2024 NDAA
+
+
 - <a href="https://spacepolicyonline.com/news/defense-authorization-appropriations-bills-ready-for-floor-action/" >🔗</a> **[SpacePolicyOnline.com]** Defense Authorization, Appropriations Bills Ready for Floor Action
 
 
@@ -193,9 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/06/themis-prometheus-hot-fire-test/" >🔗</a> **[NASASpaceflight]** Themis, Prometheus complete first hot-fire tests in France
 
 
-- <a href="https://spacenews.com/lynk-global-on-verge-of-initial-commercial-direct-to-device-services/" >🔗</a> **[SpaceNews]** Lynk Global on verge of initial commercial direct-to-device services
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230625T091513">2023-06-25 09:15:13 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230625T101639">2023-06-25 10:16:39 UTC</a>
   <br>
 </div>
