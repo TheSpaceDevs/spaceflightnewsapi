@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/anduril-acquires-solid-rocket-motor-manufacturer-adranos/" >🔗</a> **[SpaceNews]** Anduril acquires solid rocket motor manufacturer Adranos
+
+
 - <a href="https://spacenews.com/senate-armed-services-committee-advances-2024-ndaa/" >🔗</a> **[SpaceNews]** Senate Armed Services Committee advances 2024 NDAA
 
 
@@ -193,9 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.nasaspaceflight.com/2023/06/themis-prometheus-hot-fire-test/" >🔗</a> **[NASASpaceflight]** Themis, Prometheus complete first hot-fire tests in France
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230625T191227">2023-06-25 19:12:27 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230625T201712">2023-06-25 20:17:12 UTC</a>
   <br>
 </div>
