@@ -192,6 +192,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/first-vulcan-launch-further-delayed-for-centaur-modifications/" >🔗</a> **[SpaceNews]** First Vulcan launch further delayed for Centaur modifications
 
 
+  - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
+
+
+
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230626T062242">2023-06-26 06:22:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230626T071559">2023-06-26 07:15:59 UTC</a>
   <br>
 </div>
