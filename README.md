@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/virgin-galactic-sets-date-and-announces-crew-for-first-commercial-spaceshiptwo-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic sets date and announces crew for first commercial SpaceShipTwo flight
+
+
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-june-25-july-1-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy June 25-July 1, 2023
 
 
@@ -183,13 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/06/centaur_upper_stage_delays_ula_vulcan_maiden_flight" >🔗</a> **[The Launch Pad]** Centaur Upper Stage Delays ULA Vulcan Maiden Flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/first-vulcan-launch-further-delayed-for-centaur-modifications/" >🔗</a> **[SpaceNews]** First Vulcan launch further delayed for Centaur modifications
 
 
   - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230626T101743">2023-06-26 10:17:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230626T111324">2023-06-26 11:13:24 UTC</a>
   <br>
 </div>
