@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/nasa_begins_simulated_mars_mission" >🔗</a> **[The Launch Pad]** NASA begins CHAPEA 1 Mission to "Mars" in Houston
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/esa-and-european-companies-agree-to-2030-zero-debris-agreement" >🔗</a> **[The Launch Pad]** ESA & European Companies Agree To 2030 "Zero Debris" Agreement
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/uk-to-form-commercial-space-tracking-cell-partners-with-us-space-command" >🔗</a> **[The Launch Pad]** UK To Form Commercial Space Tracking Cell, Partners With U.S. Space Command's
+
+
 - <a href="https://www.teslarati.com/spacex-euclid-space-telescope-launch-esa/" >🔗</a> **[Teslarati]** SpaceX to launch the Euclid Space Telescope for the European Space Agency
 
 
@@ -179,23 +188,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/agile-raises-13-million-to-expand-production/" >🔗</a> **[SpaceNews]** Agile raises $13 million to expand production
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-to-provide-coverage-as-dragon-departs-station-with-science" >🔗</a> **[NASA]** NASA to Provide Coverage as Dragon Departs Station with Science
-
-
-  - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/205" >📆</a> **CRS-21 Dragon Undocking**
-
-
-- <a href="https://spacenews.com/nasa-identifies-potential-major-cost-growth-in-mars-sample-return/" >🔗</a> **[SpaceNews]** NASA identifies potential major cost growth in Mars Sample Return
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-to-provide-coverage-for-launch-of-esa-dark-universe-mission" >🔗</a> **[NASA]** NASA to Provide Coverage for Launch of ESA ‘Dark Universe’ Mission
 
 
 
@@ -236,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230627T123326">2023-06-27 12:33:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230627T132416">2023-06-27 13:24:16 UTC</a>
   <br>
 </div>
