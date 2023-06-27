@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/06/dorbit-wins-italian-contracts-to-fly-mini-space-lab-and-test-optical-intersatellite-links" >🔗</a> **[The Launch Pad]** D-Orbit Wins Italian Contracts To Fly Mini Space Lab And Test Optical Intersatellite Links
+
+
 - <a href="https://tlpnetwork.com/news/2023/06/nasa_begins_simulated_mars_mission" >🔗</a> **[The Launch Pad]** NASA begins CHAPEA 1 Mission to "Mars" in Houston
 
 
@@ -187,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/u-k-joins-u-s-space-commands-commercial-space-tracking-cell/" >🔗</a> **[SpaceNews]** U.K. joins U.S. Space Command’s commercial space-tracking cell
 
 
-- <a href="https://spacenews.com/agile-raises-13-million-to-expand-production/" >🔗</a> **[SpaceNews]** Agile raises $13 million to expand production
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -228,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230627T132416">2023-06-27 13:24:16 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230627T141425">2023-06-27 14:14:25 UTC</a>
   <br>
 </div>
