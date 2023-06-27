@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-euclid-space-telescope-launch-esa/" >🔗</a> **[Teslarati]** SpaceX to launch the Euclid Space Telescope for the European Space Agency
+
+
+- <a href="https://spacenews.com/d-orbit-wins-contracts-to-test-optical-links-and-fly-mini-space-lab/" >🔗</a> **[SpaceNews]** D-Orbit wins contracts to test optical links and fly mini space lab
+
+
+- <a href="https://spacenews.com/esa-european-companies-back-zero-debris-agreement/" >🔗</a> **[SpaceNews]** ESA, European companies back “zero debris” agreement
+
+
+- <a href="https://spacenews.com/ses-bid-for-equal-split-of-c-band-proceeds-back-in-play/" >🔗</a> **[SpaceNews]** SES bid for equal split of C-band proceeds back in play
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/launch-roundup-062523/" >🔗</a> **[NASASpaceflight]** Launch Roundup: SpaceX to launch Euclid; Virgin Galactic to fly crewed suborbital mission
 
 
@@ -162,26 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-to-provide-coverage-for-launch-of-esa-dark-universe-mission" >🔗</a> **[NASA]** NASA to Provide Coverage for Launch of ESA ‘Dark Universe’ Mission
-
-
-- <a href="https://spacenews.com/china-conducts-parachute-tests-for-asteroid-sample-return-mission/" >🔗</a> **[SpaceNews]** China conducts parachute tests for asteroid sample return mission
-
-
-- <a href="https://spacenews.com/virgin-galactic-sets-date-and-announces-crew-for-first-commercial-spaceshiptwo-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic sets date and announces crew for first commercial SpaceShipTwo flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/6109337b-0ac2-4a89-a5fe-dba37cb107fe" >🚀</a> **SpaceShipTwo | Galactic 01** from Air launch to Suborbital flight
-
-
-
-- <a href="https://europeanspaceflight.com/european-sovereignty-in-space-whats-next-after-ariane-6/" >🔗</a> **[European Spaceflight]** European Sovereignty in Space: What’s Next After Ariane 6?
-
-
-  - <a href="https://go4liftoff.com/launch/id/3e461ec0-8b64-4804-b9aa-e1e1f066065a" >🚀</a> **Ariane 62 | Maiden Flight** from Kourou, French Guiana
-
-
-
-- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-june-25-july-1-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy June 25-July 1, 2023
 
 
 
@@ -222,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230626T231619">2023-06-26 23:16:19 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230627T014005">2023-06-27 01:40:05 UTC</a>
   <br>
 </div>
