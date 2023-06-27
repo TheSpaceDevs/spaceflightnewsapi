@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/house-appropriators-target-space-force-programs/" >🔗</a> **[SpaceNews]** House appropriators target Space Force programs
+
+
 - <a href="https://spacenews.com/airmo-raises-5-2-million-euros-for-climate-monitoring-constellation/" >🔗</a> **[SpaceNews]** Airmo raises 5.2 million euros for climate-monitoring constellation
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/esa-european-companies-back-zero-debris-agreement/" >🔗</a> **[SpaceNews]** ESA, European companies back “zero debris” agreement
-
-
-- <a href="https://spacenews.com/ses-bid-for-equal-split-of-c-band-proceeds-back-in-play/" >🔗</a> **[SpaceNews]** SES bid for equal split of C-band proceeds back in play
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230627T182011">2023-06-27 18:20:11 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230627T191252">2023-06-27 19:12:52 UTC</a>
   <br>
 </div>
