@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/startup-irocket-wins-space-force-contract-to-demonstrate-rocket-engine/" >🔗</a> **[SpaceNews]** Startup iRocket wins Space Force contract to demonstrate rocket engine
+
+
 - <a href="https://spacenews.com/ramon-space-raises-26-million-from-foxconn-and-other-backers/" >🔗</a> **[SpaceNews]** Ramon.Space raises $26 million from Foxconn and other backers
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/b9fe915a-4359-4cc4-a23e-a9a5d8cf7856" >🚀</a> **Miura 1 | SN1 Test Flight** from El Arenosillo Test Centre
 
-
-
-- <a href="https://spacenews.com/house-appropriators-target-space-force-programs/" >🔗</a> **[SpaceNews]** House appropriators target Space Force programs
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T123411">2023-06-28 12:34:11 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T132453">2023-06-28 13:24:53 UTC</a>
   <br>
 </div>
