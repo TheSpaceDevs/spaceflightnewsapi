@@ -146,10 +146,25 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/dod-to-invest-in-startup-developing-mobile-space-launch-platforms/" >🔗</a> **[SpaceNews]** DoD to invest in startup developing mobile space-launch platforms
+
+
 - <a href="https://www.nasaspaceflight.com/2023/06/webb-ch3-d203-506/" >🔗</a> **[NASASpaceflight]** With Webb, scientists make first detection of carbon molecule in protoplanetary disk
 
 
+  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
+
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-offers-media-interviews-in-utah-on-asteroid-sample-return" >🔗</a> **[NASA]** NASA Offers Media Interviews in Utah on Asteroid Sample Return
+
+
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
 - <a href="https://spacenews.com/above-orbital-develops-energy-for-spacecraft-under-recent-awards/" >🔗</a> **[SpaceNews]** Above: Orbital develops energy for  spacecraft under recent awards
@@ -175,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
 
-
-
-- <a href="https://spacenews.com/british-startup-powers-up-sensor-for-monitoring-tiny-orbital-debris/" >🔗</a> **[SpaceNews]** British startup powers up sensor for monitoring tiny orbital debris
 
 
 
@@ -218,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T191233">2023-06-28 19:12:33 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T201631">2023-06-28 20:16:31 UTC</a>
   <br>
 </div>
