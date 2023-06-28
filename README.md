@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/ramon-space-raises-26-million-from-foxconn-and-other-backers/" >🔗</a> **[SpaceNews]** Ramon.Space raises $26 million from Foxconn and other backers
+
+
+- <a href="https://spacenews.com/sierra-space-describes-long-term-plans-for-dream-chaser-and-inflatable-modules/" >🔗</a> **[SpaceNews]** Sierra Space describes long-term plans for Dream Chaser and inflatable modules
+
+
 - <a href="https://europeanspaceflight.com/spaceforest-launch-test-flight-of-suborbital-perun-vehicle/" >🔗</a> **[European Spaceflight]** SpaceForest Launch Test Flight of Suborbital Perun Vehicle
 
 
@@ -180,12 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/house-appropriators-target-space-force-programs/" >🔗</a> **[SpaceNews]** House appropriators target Space Force programs
-
-
-- <a href="https://spacenews.com/airmo-raises-5-2-million-euros-for-climate-monitoring-constellation/" >🔗</a> **[SpaceNews]** Airmo raises 5.2 million euros for climate-monitoring constellation
-
-
-- <a href="https://spacenews.com/spacenews-ceo/" >🔗</a> **[SpaceNews]** SpaceNews names new CEO Andrew Pemberton
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T111254">2023-06-28 11:12:54 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T123411">2023-06-28 12:34:11 UTC</a>
   <br>
 </div>
