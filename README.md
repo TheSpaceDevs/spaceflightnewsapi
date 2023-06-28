@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/06/webb-ch3-d203-506/" >🔗</a> **[NASASpaceflight]** With Webb, scientists make first detection of carbon molecule in protoplanetary disk
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-offers-media-interviews-in-utah-on-asteroid-sample-return" >🔗</a> **[NASA]** NASA Offers Media Interviews in Utah on Asteroid Sample Return
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/british-startup-powers-up-sensor-for-monitoring-tiny-orbital-debris/" >🔗</a> **[SpaceNews]** British startup powers up sensor for monitoring tiny orbital debris
-
-
-- <a href="https://spacenews.com/chinese-company-plans-to-launch-rocket-comparable-to-falcon-9-in-2024/" >🔗</a> **[SpaceNews]** Chinese company plans to launch rocket comparable to Falcon 9 in 2024
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T181943">2023-06-28 18:19:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T191233">2023-06-28 19:12:33 UTC</a>
   <br>
 </div>
