@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/ororatech-orders-eight-more-wildfire-monitoring-satellites/" >🔗</a> **[SpaceNews]** OroraTech orders eight more wildfire-monitoring satellites
+
+
 - <a href="https://spacenews.com/dod-to-invest-in-startup-developing-mobile-space-launch-platforms/" >🔗</a> **[SpaceNews]** DoD to invest in startup developing mobile space-launch platforms
 
 
@@ -167,7 +170,7 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
-- <a href="https://spacenews.com/above-orbital-develops-energy-for-spacecraft-under-recent-awards/" >🔗</a> **[SpaceNews]** Above: Orbital develops energy for  spacecraft under recent awards
+- <a href="https://spacenews.com/above-orbital-develops-energy-for-spacecraft-under-recent-awards/" >🔗</a> **[SpaceNews]** Above: Orbital develops energy systems for  spacecraft under recent awards
 
 
 - <a href="https://spacenews.com/startup-irocket-wins-space-force-contract-to-demonstrate-rocket-engine/" >🔗</a> **[SpaceNews]** Startup iRocket wins Space Force contract to demonstrate rocket engine
@@ -183,13 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/ses-wins-134-million-dod-contract-for-x-band-satellite-communications/" >🔗</a> **[SpaceNews]** SES wins $134 million DoD contract for X-band satellite communications
-
-
-- <a href="https://spacepolicyonline.com/news/ulas-vulcan-upper-stage-needs-mods-before-first-launch/" >🔗</a> **[SpacePolicyOnline.com]** ULA’s Vulcan Upper Stage Needs Mods Before First Launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
-
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T201631">2023-06-28 20:16:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T211324">2023-06-28 21:13:24 UTC</a>
   <br>
 </div>
