@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-offers-media-interviews-in-utah-on-asteroid-sample-return" >🔗</a> **[NASA]** NASA Offers Media Interviews in Utah on Asteroid Sample Return
+
+
+- <a href="https://spacenews.com/above-orbital-develops-energy-for-spacecraft-under-recent-awards/" >🔗</a> **[SpaceNews]** Above: Orbital develops energy for  spacecraft under recent awards
+
+
 - <a href="https://spacenews.com/startup-irocket-wins-space-force-contract-to-demonstrate-rocket-engine/" >🔗</a> **[SpaceNews]** Startup iRocket wins Space Force contract to demonstrate rocket engine
 
 
@@ -172,20 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/chinese-company-plans-to-launch-rocket-comparable-to-falcon-9-in-2024/" >🔗</a> **[SpaceNews]** Chinese company plans to launch rocket comparable to Falcon 9 in 2024
-
-
-- <a href="https://tlpnetwork.com/news/2023/06/artemis_2_heat_shield_installed" >🔗</a> **[The Launch Pad]** Artemis 2's Heat Shield is installed on Orion
-
-
-  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacenews.com/pld-space-postpones-first-launch-to-september/" >🔗</a> **[SpaceNews]** PLD Space postpones first launch to September
-
-
-  - <a href="https://go4liftoff.com/launch/id/b9fe915a-4359-4cc4-a23e-a9a5d8cf7856" >🚀</a> **Miura 1 | SN1 Test Flight** from El Arenosillo Test Centre
-
 
 
 
@@ -226,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T171402">2023-06-28 17:14:02 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T181943">2023-06-28 18:19:43 UTC</a>
   <br>
 </div>
