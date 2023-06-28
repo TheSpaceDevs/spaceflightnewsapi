@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/king-charles-iii-unveils-astra-carta-seal-at-space-sustainability-event/" >🔗</a> **[SpacePolicyOnline.com]** King Charles III Unveils Astra Carta Seal at Space Sustainability Event
+
+
 - <a href="https://spacenews.com/ororatech-orders-eight-more-wildfire-monitoring-satellites/" >🔗</a> **[SpaceNews]** OroraTech orders eight more wildfire-monitoring satellites
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/spaceforest-launch-test-flight-of-suborbital-perun-vehicle/" >🔗</a> **[European Spaceflight]** SpaceForest Launch Test Flight of Suborbital Perun Vehicle
-
-
-- <a href="https://spacenews.com/ses-wins-134-million-dod-contract-for-x-band-satellite-communications/" >🔗</a> **[SpaceNews]** SES wins $134 million DoD contract for X-band satellite communications
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T221507">2023-06-28 22:15:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T231625">2023-06-28 23:16:25 UTC</a>
   <br>
 </div>
