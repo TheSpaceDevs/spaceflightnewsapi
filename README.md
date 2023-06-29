@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-development-agency-issues-new-solicitation-for-100-satellites/" >🔗</a> **[SpaceNews]** Space Development Agency issues new solicitation for 100 satellites
+
+
+- <a href="https://spacenews.com/firefly-to-launch-lockheed-martin-small-satellite-experiment/" >🔗</a> **[SpaceNews]** Firefly to launch Lockheed Martin small-satellite experiment
+
+
+- <a href="https://europeanspaceflight.com/vega-c-return-to-flight-delayed-after-z40-test-failure/" >🔗</a> **[European Spaceflight]** Vega C Return to Flight Delayed After Z40 Test Failure
+
+
 - <a href="https://spacenews.com/virgin-galactic-completes-first-commercial-spaceshiptwo-suborbital-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic completes first commercial SpaceShipTwo suborbital flight
 
 
@@ -181,19 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/king-charles-iii-unveils-astra-carta-seal-at-space-sustainability-event/" >🔗</a> **[SpacePolicyOnline.com]** King Charles III Unveils Astra Carta at Space Sustainability Event
-
-
-- <a href="https://spacenews.com/ororatech-orders-eight-more-wildfire-monitoring-satellites/" >🔗</a> **[SpaceNews]** OroraTech orders eight more wildfire-monitoring satellites
-
-
-- <a href="https://spacenews.com/dod-to-invest-in-startup-developing-mobile-space-launch-platforms/" >🔗</a> **[SpaceNews]** DoD to invest in startup developing mobile space-launch platforms
-
-
-- <a href="https://www.nasaspaceflight.com/2023/06/webb-ch3-d203-506/" >🔗</a> **[NASASpaceflight]** With Webb, scientists make first detection of carbon molecule in protoplanetary disk
-
-
-  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
-
 
 
 
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230629T191218">2023-06-29 19:12:18 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230629T201553">2023-06-29 20:15:53 UTC</a>
   <br>
 </div>
