@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/spaceshiptwo-to-demonstrate-research-capabilities-on-first-commercial-flight/" >🔗</a> **[SpaceNews]** SpaceShipTwo to demonstrate research capabilities on first commercial flight
 
 
+  - <a href="https://go4liftoff.com/launch/id/6109337b-0ac2-4a89-a5fe-dba37cb107fe" >🚀</a> **SpaceShipTwo | Galactic 01** from Air launch to Suborbital flight
+
+
+
 - <a href="https://spacepolicyonline.com/news/king-charles-iii-unveils-astra-carta-seal-at-space-sustainability-event/" >🔗</a> **[SpacePolicyOnline.com]** King Charles III Unveils Astra Carta at Space Sustainability Event
 
 
@@ -226,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230629T062112">2023-06-29 06:21:12 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230629T071435">2023-06-29 07:14:35 UTC</a>
   <br>
 </div>
