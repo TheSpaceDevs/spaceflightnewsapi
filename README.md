@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/virgin-galactic-completes-first-commercial-spaceshiptwo-suborbital-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic completes first commercial SpaceShipTwo suborbital flight
 
 
+  - <a href="https://go4liftoff.com/launch/id/6109337b-0ac2-4a89-a5fe-dba37cb107fe" >🚀</a> **SpaceShipTwo | Galactic 01** from Air launch to Suborbital flight
+
+
+
 - <a href="https://www.cnbc.com/2023/06/29/investing-in-space-india-is-a-sleeping-giant-expert-says.html" >🔗</a> **[CNBC]** Investing in Space: India is the industry’s ‘sleeping giant,’ Artemis Accords expert says
 
 
@@ -230,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230629T161959">2023-06-29 16:19:59 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230629T171354">2023-06-29 17:13:54 UTC</a>
   <br>
 </div>
