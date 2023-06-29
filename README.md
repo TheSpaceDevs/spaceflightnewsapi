@@ -146,10 +146,20 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/virgin-galactic-completes-first-commercial-spaceshiptwo-suborbital-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic completes first commercial SpaceShipTwo suborbital flight
+
+
+- <a href="https://www.cnbc.com/2023/06/29/investing-in-space-india-is-a-sleeping-giant-expert-says.html" >🔗</a> **[CNBC]** Investing in Space: India is the industry’s ‘sleeping giant,’ Artemis Accords expert says
+
+
 - <a href="https://spacenews.com/china-looks-to-build-new-space-partnerships-with-egypt-satellite-project/" >🔗</a> **[SpaceNews]** China looks to build new space partnerships with Egypt satellite project
 
 
 - <a href="https://www.teslarati.com/spacex-resumes-static-fire-testing-starbase/" >🔗</a> **[Teslarati]** SpaceX resumes static fire testing at Starbase
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
 
 
 
@@ -180,20 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
 
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-offers-media-interviews-in-utah-on-asteroid-sample-return" >🔗</a> **[NASA]** NASA Offers Media Interviews in Utah on Asteroid Sample Return
-
-
-  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
-
-
-- <a href="https://spacenews.com/above-orbital-develops-energy-for-spacecraft-under-recent-awards/" >🔗</a> **[SpaceNews]** Above: Orbital develops energy systems for  spacecraft under recent awards
 
 
 
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230629T151551">2023-06-29 15:15:51 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230629T161959">2023-06-29 16:19:59 UTC</a>
   <br>
 </div>
