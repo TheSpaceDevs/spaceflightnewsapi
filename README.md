@@ -146,7 +146,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://spacepolicyonline.com/news/king-charles-iii-unveils-astra-carta-seal-at-space-sustainability-event/" >🔗</a> **[SpacePolicyOnline.com]** King Charles III Unveils Astra Carta Seal at Space Sustainability Event
+- <a href="https://spacenews.com/spaceshiptwo-to-demonstrate-research-capabilities-on-first-commercial-flight/" >🔗</a> **[SpaceNews]** SpaceShipTwo to demonstrate research capabilities on first commercial flight
+
+
+- <a href="https://spacepolicyonline.com/news/king-charles-iii-unveils-astra-carta-seal-at-space-sustainability-event/" >🔗</a> **[SpacePolicyOnline.com]** King Charles III Unveils Astra Carta at Space Sustainability Event
 
 
 - <a href="https://spacenews.com/ororatech-orders-eight-more-wildfire-monitoring-satellites/" >🔗</a> **[SpaceNews]** OroraTech orders eight more wildfire-monitoring satellites
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/sierra-space-describes-long-term-plans-for-dream-chaser-and-inflatable-modules/" >🔗</a> **[SpaceNews]** Sierra Space describes long-term plans for Dream Chaser and inflatable modules
-
-
-- <a href="https://europeanspaceflight.com/spaceforest-launch-test-flight-of-suborbital-perun-vehicle/" >🔗</a> **[European Spaceflight]** SpaceForest Launch Test Flight of Suborbital Perun Vehicle
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230628T231625">2023-06-28 23:16:25 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230629T013538">2023-06-29 01:35:38 UTC</a>
   <br>
 </div>
