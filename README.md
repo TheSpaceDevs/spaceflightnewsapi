@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/vega-c-suffers-setback-in-return-to-flight-effort/" >🔗</a> **[SpaceNews]** Vega C suffers setback in return to flight effort
+
+
 - <a href="https://spacepolicyonline.com/news/virgin-galactic-scores-success-with-first-commercial-spaceflight/" >🔗</a> **[SpacePolicyOnline.com]** Virgin Galactic Scores Success with First Commercial Spaceflight
 
 
@@ -175,17 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/china-looks-to-build-new-space-partnerships-with-egypt-satellite-project/" >🔗</a> **[SpaceNews]** China looks to build new space partnerships with Egypt satellite project
-
-
-- <a href="https://www.teslarati.com/spacex-resumes-static-fire-testing-starbase/" >🔗</a> **[Teslarati]** SpaceX resumes static fire testing at Starbase
-
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/779" >📆</a> **Starship S25 Static Fire #1**
 
 
 
@@ -226,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230630T032032">2023-06-30 03:20:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230630T041841">2023-06-30 04:18:41 UTC</a>
   <br>
 </div>
