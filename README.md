@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/defense-innovation-unit-solicits-proposals-for-cargo-delivery-to-and-from-space/" >🔗</a> **[SpaceNews]** Defense Innovation Unit solicits proposals for cargo delivery to and from space
+
+
+- <a href="https://tlpnetwork.com/news/2023/06/ingenuity-wakes-up" >🔗</a> **[The Launch Pad]** BREAKING! NASA's Ingenuity Alive, Calls Home After 2 Months Of Silence
+
+
 - <a href="https://mars.nasa.gov/news/9430/" >🔗</a> **[NASA]** NASA's Ingenuity Mars Helicopter Phones Home
 
 
@@ -186,20 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/firefly-to-launch-lockheed-martin-small-satellite-experiment/" >🔗</a> **[SpaceNews]** Firefly to launch Lockheed Martin small-satellite experiment
 
 
-- <a href="https://europeanspaceflight.com/vega-c-return-to-flight-delayed-after-z40-test-failure/" >🔗</a> **[European Spaceflight]** Vega C Return to Flight Delayed After Z40 Test Failure
-
-
-  - <a href="https://go4liftoff.com/launch/id/aa79ad61-9276-4c14-8d01-40fd348d641e" >🚀</a> **Vega-C | Sentinel-1C** from Kourou, French Guiana
-
-
-
-- <a href="https://spacenews.com/virgin-galactic-completes-first-commercial-spaceshiptwo-suborbital-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic completes first commercial SpaceShipTwo suborbital flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/6109337b-0ac2-4a89-a5fe-dba37cb107fe" >🚀</a> **SpaceShipTwo | Galactic 01** from Air launch to Suborbital flight
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230630T171357">2023-06-30 17:13:57 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230630T181919">2023-06-30 18:19:19 UTC</a>
   <br>
 </div>
