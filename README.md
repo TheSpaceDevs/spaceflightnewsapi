@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/virgin-galactic-scores-success-with-first-commercial-spaceflight/" >🔗</a> **[SpacePolicyOnline.com]** Virgin Galactic Scores Success with First Commercial Spaceflight
+
+
 - <a href="https://spacenews.com/spacex-to-launch-european-astronomy-mission/" >🔗</a> **[SpaceNews]** SpaceX to launch European astronomy mission
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/event/id/779" >📆</a> **Starship S25 Static Fire #1**
-
-
-- <a href="https://spacenews.com/air-force-awards-raytheon-625-million-contract-for-nuclear-hardened-satcom-terminals/" >🔗</a> **[SpaceNews]** Air Force awards Raytheon $625 million contract for nuclear-hardened satcom terminals
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230630T025049">2023-06-30 02:50:49 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230630T032032">2023-06-30 03:20:32 UTC</a>
   <br>
 </div>
