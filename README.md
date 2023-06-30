@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/spacex-to-launch-european-astronomy-mission/" >🔗</a> **[SpaceNews]** SpaceX to launch European astronomy mission
+
+
+- <a href="https://www.teslarati.com/final-member-assigned-to-spacex-and-nasas-crew-7-mission/" >🔗</a> **[Teslarati]** Final member assigned to SpaceX and NASA’s Crew 7 mission
+
+
 - <a href="https://spacenews.com/space-development-agency-issues-new-solicitation-for-100-satellites/" >🔗</a> **[SpaceNews]** Space Development Agency issues new solicitation for 100 satellites
 
 
@@ -180,16 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/air-force-awards-raytheon-625-million-contract-for-nuclear-hardened-satcom-terminals/" >🔗</a> **[SpaceNews]** Air Force awards Raytheon $625 million contract for nuclear-hardened satcom terminals
-
-
-- <a href="https://spacenews.com/spaceshiptwo-to-demonstrate-research-capabilities-on-first-commercial-flight/" >🔗</a> **[SpaceNews]** SpaceShipTwo to demonstrate research capabilities on first commercial flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/6109337b-0ac2-4a89-a5fe-dba37cb107fe" >🚀</a> **SpaceShipTwo | Galactic 01** from Air launch to Suborbital flight
-
-
-
-- <a href="https://spacepolicyonline.com/news/king-charles-iii-unveils-astra-carta-seal-at-space-sustainability-event/" >🔗</a> **[SpacePolicyOnline.com]** King Charles III Unveils Astra Carta at Space Sustainability Event
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230629T231538">2023-06-29 23:15:38 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230630T012605">2023-06-30 01:26:05 UTC</a>
   <br>
 </div>
