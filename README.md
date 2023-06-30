@@ -146,7 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/ast-spacemobile-hunting-for-more-funds-following-stock-sale/" >🔗</a> **[SpaceNews]** AST SpaceMobile hunting for more funds following stock sale
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-hosts-osiris-rex-sample-lab-media-day-in-houston" >🔗</a> **[NASA]** NASA Hosts OSIRIS-REx Sample Lab Media Day in Houston
+
+
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
 - <a href="https://spacenews.com/defense-innovation-unit-solicits-proposals-for-cargo-delivery-to-and-from-space/" >🔗</a> **[SpaceNews]** Defense Innovation Unit solicits proposals for cargo delivery to and from space
@@ -155,7 +166,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/06/ingenuity-wakes-up" >🔗</a> **[The Launch Pad]** BREAKING! NASA's Ingenuity Alive, Calls Home After 2 Months Of Silence
 
 
+  - <a href="https://go4liftoff.com/launch/id/c4db6995-f25f-4608-8eb9-ce95d5226af2" >🚀</a> **Atlas V 541 | Mars 2020 (Perseverance rover & Ingenuity helicopter)** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://mars.nasa.gov/news/9430/" >🔗</a> **[NASA]** NASA's Ingenuity Mars Helicopter Phones Home
+
+
+  - <a href="https://go4liftoff.com/launch/id/c4db6995-f25f-4608-8eb9-ce95d5226af2" >🚀</a> **Atlas V 541 | Mars 2020 (Perseverance rover & Ingenuity helicopter)** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://www.nasaspaceflight.com/2023/06/blue-update/" >🔗</a> **[NASASpaceflight]** Blue Update: New Glenn testing hardware at the cape as New Shepard closes in on return to flight
@@ -187,9 +206,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
 
-
-
-- <a href="https://spacenews.com/space-development-agency-issues-new-solicitation-for-100-satellites/" >🔗</a> **[SpaceNews]** Space Development Agency issues new solicitation for 100 satellites
 
 
 
@@ -230,6 +246,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230630T201556">2023-06-30 20:15:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230630T211308">2023-06-30 21:13:08 UTC</a>
   <br>
 </div>
