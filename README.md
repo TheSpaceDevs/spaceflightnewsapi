@@ -172,7 +172,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/defense-innovation-unit-solicits-proposals-for-cargo-delivery-to-and-from-space/" >🔗</a> **[SpaceNews]** Defense Innovation Unit solicits proposals for cargo delivery to and from space
 
 
-- <a href="https://tlpnetwork.com/news/2023/06/ingenuity-wakes-up" >🔗</a> **[The Launch Pad]** BREAKING! NASA's Ingenuity Alive, Calls Home After 2 Months Of Silence
+- <a href="https://tlpnetwork.com/news/2023/06/ingenuity-wakes-up" >🔗</a> **[The Launch Pad]** NASA's Ingenuity Alive, Calls Home After 2 Months Of Silence
 
 
   - <a href="https://go4liftoff.com/launch/id/c4db6995-f25f-4608-8eb9-ce95d5226af2" >🚀</a> **Atlas V 541 | Mars 2020 (Perseverance rover & Ingenuity helicopter)** from Cape Canaveral, FL, USA
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230701T051426">2023-07-01 05:14:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230701T061933">2023-07-01 06:19:33 UTC</a>
   <br>
 </div>
