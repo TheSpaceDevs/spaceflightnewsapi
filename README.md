@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nasa-to-add-fourth-pair-of-roll-out-arrays-to-iss/" >🔗</a> **[SpaceNews]** NASA to add fourth pair of roll-out arrays to ISS
+
+
 - <a href="https://www.teslarati.com/united-launch-alliance-delays-maiden-vulcan-centaur-launch/" >🔗</a> **[Teslarati]** United Launch Alliance delays maiden Vulcan Centaur launch
 
 
@@ -193,13 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacepolicyonline.com/news/virgin-galactic-scores-success-with-first-commercial-spaceflight/" >🔗</a> **[SpacePolicyOnline.com]** Virgin Galactic Scores Success with First Commercial Spaceflight
-
-
-  - <a href="https://go4liftoff.com/launch/id/6109337b-0ac2-4a89-a5fe-dba37cb107fe" >🚀</a> **SpaceShipTwo | Galactic 01** from Air launch to Suborbital flight
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230701T014517">2023-07-01 01:45:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230701T030549">2023-07-01 03:05:49 UTC</a>
   <br>
 </div>
