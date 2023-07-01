@@ -152,6 +152,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/united-launch-alliance-delays-maiden-vulcan-centaur-launch/" >🔗</a> **[Teslarati]** United Launch Alliance delays maiden Vulcan Centaur launch
 
 
+  - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/chinas-changguang-satellite-demonstrates-space-to-ground-laser-links/" >🔗</a> **[SpaceNews]** China’s Changguang Satellite demonstrates space-to-ground laser links
 
 
@@ -234,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230701T091424">2023-07-01 09:14:24 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230701T101528">2023-07-01 10:15:28 UTC</a>
   <br>
 </div>
