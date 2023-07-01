@@ -146,7 +146,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://www.nasaspaceflight.com/2023/07/euclid-launch/" >🔗</a> **[NASASpaceflight]** SpaceX to launch ESA’s Euclid Telescope to explore the dark universe
+- <a href="https://www.nasaspaceflight.com/2023/07/euclid-launch/" >🔗</a> **[NASASpaceflight]** SpaceX launches ESA’s Euclid Telescope to explore the dark universe
 
 
   - <a href="https://go4liftoff.com/launch/id/49d20d1b-18dd-4da6-a061-eacd0156fcc4" >🚀</a> **Falcon 9 Block 5 | Euclid** from Cape Canaveral, FL, USA
@@ -238,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230701T151435">2023-07-01 15:14:35 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230701T161926">2023-07-01 16:19:26 UTC</a>
   <br>
 </div>
