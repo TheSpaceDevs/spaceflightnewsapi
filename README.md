@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/esas-euclid-on-its-way-to-study-the-dark-universe/" >🔗</a> **[SpacePolicyOnline.com]** ESA’s Euclid on Its Way to Study the “Dark Universe”
+
+
 - <a href="https://spacenews.com/falcon-9-launches-esas-euclid-space-telescope/" >🔗</a> **[SpaceNews]** Falcon 9 launches ESA’s Euclid space telescope
 
 
@@ -193,13 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/defense-innovation-unit-solicits-proposals-for-cargo-delivery-to-and-from-space/" >🔗</a> **[SpaceNews]** Defense Innovation Unit solicits proposals for cargo delivery to and from space
 
 
-- <a href="https://tlpnetwork.com/news/2023/06/ingenuity-wakes-up" >🔗</a> **[The Launch Pad]** NASA's Ingenuity Alive, Calls Home After 2 Months Of Silence
-
-
-  - <a href="https://go4liftoff.com/launch/id/c4db6995-f25f-4608-8eb9-ce95d5226af2" >🚀</a> **Atlas V 541 | Mars 2020 (Perseverance rover & Ingenuity helicopter)** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230701T221348">2023-07-01 22:13:48 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230701T231442">2023-07-01 23:14:42 UTC</a>
   <br>
 </div>
