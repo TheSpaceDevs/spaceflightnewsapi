@@ -149,7 +149,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/esas-euclid-on-its-way-to-study-the-dark-universe/" >🔗</a> **[SpacePolicyOnline.com]** ESA’s Euclid on Its Way to Study the “Dark Universe”
 
 
+  - <a href="https://go4liftoff.com/launch/id/49d20d1b-18dd-4da6-a061-eacd0156fcc4" >🚀</a> **Falcon 9 Block 5 | Euclid** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/falcon-9-launches-esas-euclid-space-telescope/" >🔗</a> **[SpaceNews]** Falcon 9 launches ESA’s Euclid space telescope
+
+
+  - <a href="https://go4liftoff.com/launch/id/49d20d1b-18dd-4da6-a061-eacd0156fcc4" >🚀</a> **Falcon 9 Block 5 | Euclid** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/spacex-launches-euclid" >🔗</a> **[The Launch Pad]** ESA's Euclid Embarks on a Momentous Journey to Unravel the Mystery of Dark Matter and Dark Energy
@@ -234,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230702T122937">2023-07-02 12:29:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230702T131844">2023-07-02 13:18:44 UTC</a>
   <br>
 </div>
