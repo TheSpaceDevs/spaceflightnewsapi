@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-july-2-15-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy July 2-15, 2023
+
+
 - <a href="https://spacepolicyonline.com/news/esas-euclid-on-its-way-to-study-the-dark-universe/" >🔗</a> **[SpacePolicyOnline.com]** ESA’s Euclid on Its Way to Study the “Dark Universe”
 
 
@@ -201,9 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
-- <a href="https://spacenews.com/defense-innovation-unit-solicits-proposals-for-cargo-delivery-to-and-from-space/" >🔗</a> **[SpaceNews]** Defense Innovation Unit solicits proposals for cargo delivery to and from space
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230702T171247">2023-07-02 17:12:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230702T181804">2023-07-02 18:18:04 UTC</a>
   <br>
 </div>
