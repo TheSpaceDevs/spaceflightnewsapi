@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/07/launch-roundup-july_2_9/" >🔗</a> **[NASASpaceflight]** Launch Roundup – Arianespace launching Ariane 5 final flight; SpaceX to fly one of last Starlink v1.5 flights
+
+
 - <a href="https://arstechnica.com/space/2023/07/europes-venerable-ariane-5-rocket-faces-a-bittersweet-ending-on-tuesday/" >🔗</a> **[Arstechnica]** Europe’s venerable Ariane 5 rocket faces a bittersweet ending on Tuesday
 
 
@@ -193,13 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/nasa-to-add-fourth-pair-of-roll-out-arrays-to-iss/" >🔗</a> **[SpaceNews]** NASA to add fourth pair of roll-out arrays to ISS
 
 
-- <a href="https://www.teslarati.com/united-launch-alliance-delays-maiden-vulcan-centaur-launch/" >🔗</a> **[Teslarati]** United Launch Alliance delays maiden Vulcan Centaur launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230703T171324">2023-07-03 17:13:24 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230703T181906">2023-07-03 18:19:06 UTC</a>
   <br>
 </div>
