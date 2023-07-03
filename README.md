@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/nasa-parker-solar-probe-completes-16th-sun-orbit" >🔗</a> **[The Launch Pad]** NASA’s Parker Solar Probe Completes 16th Sun Orbit
+
+
 - <a href="https://www.nasaspaceflight.com/2023/07/launch-roundup-july_2_9/" >🔗</a> **[NASASpaceflight]** Launch Roundup – Arianespace launching Ariane 5 final flight; SpaceX to fly one of last Starlink v1.5 flights
 
 
@@ -193,9 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/nasa-to-add-fourth-pair-of-roll-out-arrays-to-iss/" >🔗</a> **[SpaceNews]** NASA to add fourth pair of roll-out arrays to ISS
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230703T211357">2023-07-03 21:13:57 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230703T221526">2023-07-03 22:15:26 UTC</a>
   <br>
 </div>
