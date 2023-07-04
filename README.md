@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/cnes-creates-space-mission-ethics-committee/" >🔗</a> **[European Spaceflight]** CNES Creates Space Mission Ethics Committee
+
+
 - <a href="https://www.teslarati.com/rocket-lab-announces-next-launch-will-attempt-first-stage-recovery/" >🔗</a> **[Teslarati]** Rocket Lab announces next launch, will attempt first stage recovery
 
 
@@ -205,13 +208,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/falcon-9-launches-esas-euclid-space-telescope/" >🔗</a> **[SpaceNews]** Falcon 9 launches ESA’s Euclid space telescope
-
-
-  - <a href="https://go4liftoff.com/launch/id/49d20d1b-18dd-4da6-a061-eacd0156fcc4" >🚀</a> **Falcon 9 Block 5 | Euclid** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -250,6 +246,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230704T191239">2023-07-04 19:12:39 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230704T211348">2023-07-04 21:13:48 UTC</a>
   <br>
 </div>
