@@ -149,10 +149,26 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/07/nasa-parker-solar-probe-completes-16th-sun-orbit" >🔗</a> **[The Launch Pad]** NASA’s Parker Solar Probe Completes 16th Sun Orbit
 
 
+  - <a href="https://go4liftoff.com/launch/id/59be6437-262c-4976-b0cd-c2ed27454d44" >🚀</a> **Delta IV Heavy | Parker Solar Probe** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://www.nasaspaceflight.com/2023/07/launch-roundup-july_2_9/" >🔗</a> **[NASASpaceflight]** Launch Roundup – Arianespace launching Ariane 5 final flight; SpaceX to fly one of last Starlink v1.5 flights
 
 
+  - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
+
+  - <a href="https://go4liftoff.com/launch/id/5d3e11d7-5d13-4c8c-b94a-c73da97c39a5" >🚀</a> **Falcon 9 Block 5 | Starlink Group 5-13** from Vandenberg SFB, CA, USA
+
+  - <a href="https://go4liftoff.com/launch/id/6f4ed2b9-918d-44e3-a8a9-cfdafc8cf8ce" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-5** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://arstechnica.com/space/2023/07/europes-venerable-ariane-5-rocket-faces-a-bittersweet-ending-on-tuesday/" >🔗</a> **[Arstechnica]** Europe’s venerable Ariane 5 rocket faces a bittersweet ending on Tuesday
+
+
+  - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/vega-c-return-delayed-following-static-fire-anomaly" >🔗</a> **[The Launch Pad]** Vega C Return Delayed Following Static Fire Anomaly
@@ -234,6 +250,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230704T071517">2023-07-04 07:15:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230704T082040">2023-07-04 08:20:40 UTC</a>
   <br>
 </div>
