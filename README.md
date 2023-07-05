@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/07/goodbye-ariane-5/" >🔗</a> **[NASASpaceflight]** Goodbye to the Ariane 5, the ‘Swiss Knife’ of Europe’s launch industry
+
+
+- <a href="https://spacenews.com/rivada-gets-more-breathing-room-to-deploy-constellation/" >🔗</a> **[SpaceNews]** Rivada gets more breathing room to deploy constellation
+
+
 - <a href="https://europeanspaceflight.com/poland-complete-acceptance-phase-for-three-space-debris-observatories/" >🔗</a> **[European Spaceflight]** Poland Complete Acceptance Phase for Three Space Debris Observatories
 
 
@@ -179,24 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/49d20d1b-18dd-4da6-a061-eacd0156fcc4" >🚀</a> **Falcon 9 Block 5 | Euclid** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/nasa-parker-solar-probe-completes-16th-sun-orbit" >🔗</a> **[The Launch Pad]** NASA’s Parker Solar Probe Completes 16th Sun Orbit
-
-
-  - <a href="https://go4liftoff.com/launch/id/59be6437-262c-4976-b0cd-c2ed27454d44" >🚀</a> **Delta IV Heavy | Parker Solar Probe** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/07/launch-roundup-july_2_9/" >🔗</a> **[NASASpaceflight]** Launch Roundup – Arianespace launching Ariane 5 final flight; SpaceX to fly one of last Starlink v1.5 flights
-
-
-  - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
-
-  - <a href="https://go4liftoff.com/launch/id/5d3e11d7-5d13-4c8c-b94a-c73da97c39a5" >🚀</a> **Falcon 9 Block 5 | Starlink Group 5-13** from Vandenberg SFB, CA, USA
-
-  - <a href="https://go4liftoff.com/launch/id/6f4ed2b9-918d-44e3-a8a9-cfdafc8cf8ce" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-5** from Cape Canaveral, FL, USA
 
 
 
@@ -238,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230705T151731">2023-07-05 15:17:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230705T162230">2023-07-05 16:22:30 UTC</a>
   <br>
 </div>
