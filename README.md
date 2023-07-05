@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/radio-noise-from-satellite-constellations-could-interfere-with-astronomers/" >🔗</a> **[SpaceNews]** Radio noise from satellite constellations could interfere with astronomers
+
+
 - <a href="https://spacenews.com/regulatory-uncertainty-as-commercial-human-spaceflight-takes-off/" >🔗</a> **[SpaceNews]** Regulatory uncertainty as commercial human spaceflight takes off
 
 
@@ -201,9 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/07/nasa-orders-more-solar-arrays-for-iss" >🔗</a> **[The Launch Pad]** NASA Orders More Solar Arrays For ISS
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230705T111345">2023-07-05 11:13:45 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230705T123535">2023-07-05 12:35:35 UTC</a>
   <br>
 </div>
