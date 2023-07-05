@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/regulatory-uncertainty-as-commercial-human-spaceflight-takes-off/" >🔗</a> **[SpaceNews]** Regulatory uncertainty as commercial human spaceflight takes off
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/european_space_forum_returns_to_brussels" >🔗</a> **[The Launch Pad]** The European Space Forum Returns to Brussels
 
 
@@ -201,9 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/07/nasa-orders-more-solar-arrays-for-iss" >🔗</a> **[The Launch Pad]** NASA Orders More Solar Arrays For ISS
 
 
-- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-july-2-15-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy July 2-15, 2023
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230705T091650">2023-07-05 09:16:50 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230705T101811">2023-07-05 10:18:11 UTC</a>
   <br>
 </div>
