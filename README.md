@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/poland-complete-acceptance-phase-for-three-space-debris-observatories/" >🔗</a> **[European Spaceflight]** Poland Complete Acceptance Phase for Three Space Debris Observatories
+
+
 - <a href="https://arstechnica.com/space/2023/07/europes-venerable-ariane-5-rocket-faces-a-bittersweet-ending-on-tuesday/" >🔗</a> **[Arstechnica]** Europe’s Ariane 5 rocket to make its final launch this evening [Updated]
 
 
@@ -197,13 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/07/vega-c-return-delayed-following-static-fire-anomaly" >🔗</a> **[The Launch Pad]** Vega C Return Delayed Following Static Fire Anomaly
-
-
-  - <a href="https://go4liftoff.com/launch/id/aa79ad61-9276-4c14-8d01-40fd348d641e" >🚀</a> **Vega-C | Sentinel-1C** from Kourou, French Guiana
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230705T141547">2023-07-05 14:15:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230705T151731">2023-07-05 15:17:31 UTC</a>
   <br>
 </div>
