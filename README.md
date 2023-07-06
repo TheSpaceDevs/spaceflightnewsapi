@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/ariane-5-launches-for-the-final-time/" >🔗</a> **[SpaceNews]** Ariane 5 launches for the final time
+
+
 - <a href="https://www.nasaspaceflight.com/2023/07/goodbye-ariane-5/" >🔗</a> **[NASASpaceflight]** Goodbye to the Ariane 5, the ‘Swiss Knife’ of Europe’s launch industry
 
 
@@ -182,13 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/e2651bb4-c42c-4fd8-b11a-bf7df7036c89" >🚀</a> **Electron | Baby Come Back** from Onenui Station, Mahia Peninsula, New Zealand
-
-
-
-- <a href="https://www.teslarati.com/spacex-successfully-launches-euclid-space-telescope-esa/" >🔗</a> **[Teslarati]** SpaceX successfully launches Euclid Space Telescope for the ESA
-
-
-  - <a href="https://go4liftoff.com/launch/id/49d20d1b-18dd-4da6-a061-eacd0156fcc4" >🚀</a> **Falcon 9 Block 5 | Euclid** from Cape Canaveral, FL, USA
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230705T231636">2023-07-05 23:16:36 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T014041">2023-07-06 01:40:41 UTC</a>
   <br>
 </div>
