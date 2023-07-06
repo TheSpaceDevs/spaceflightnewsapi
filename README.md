@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/ariane-v-retires-after-27-years-of-service/" >🔗</a> **[Teslarati]** Ariane V goes out in style, retires after 27 years of service
+
+
 - <a href="https://www.teslarati.com/spacex-completes-28th-commercial-resupply-mission-to-iss/" >🔗</a> **[Teslarati]** SpaceX completes 28th commercial resupply mission to ISS
 
 
@@ -189,9 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/radio-noise-from-satellite-constellations-could-interfere-with-astronomers/" >🔗</a> **[SpaceNews]** Radio noise from satellite constellations could interfere with astronomers
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T162207">2023-07-06 16:22:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T171510">2023-07-06 17:15:10 UTC</a>
   <br>
 </div>
