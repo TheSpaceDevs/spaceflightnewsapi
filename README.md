@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/hawkeye-360-satellites-to-monitor-illegal-fishing-in-pacific-islands/" >🔗</a> **[SpaceNews]** Hawkeye 360 satellites to monitor illegal fishing in Pacific Islands
+
+
 - <a href="https://spacepolicyonline.com/news/final-ariane-5-takes-flight/" >🔗</a> **[SpacePolicyOnline.com]** Final Ariane 5 Takes Flight
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/european_space_forum_returns_to_brussels" >🔗</a> **[The Launch Pad]** The European Space Forum Returns to Brussels
-
-
-- <a href="https://europeanspaceflight.com/cnes-creates-space-mission-ethics-committee/" >🔗</a> **[European Spaceflight]** CNES Creates Space Mission Ethics Committee
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T071542">2023-07-06 07:15:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T082114">2023-07-06 08:21:14 UTC</a>
   <br>
 </div>
