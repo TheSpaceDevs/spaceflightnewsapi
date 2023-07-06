@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/final-ariane-5-takes-flight/" >🔗</a> **[SpacePolicyOnline.com]** Final Ariane 5 Takes Flight
+
+
 - <a href="https://spacenews.com/ariane-5-launches-for-the-final-time/" >🔗</a> **[SpaceNews]** Ariane 5 launches for the final time
 
 
@@ -179,13 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/cnes-creates-space-mission-ethics-committee/" >🔗</a> **[European Spaceflight]** CNES Creates Space Mission Ethics Committee
-
-
-- <a href="https://www.teslarati.com/rocket-lab-announces-next-launch-will-attempt-first-stage-recovery/" >🔗</a> **[Teslarati]** Rocket Lab announces next launch, will attempt first stage recovery
-
-
-  - <a href="https://go4liftoff.com/launch/id/e2651bb4-c42c-4fd8-b11a-bf7df7036c89" >🚀</a> **Electron | Baby Come Back** from Onenui Station, Mahia Peninsula, New Zealand
-
 
 
 
@@ -226,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T014041">2023-07-06 01:40:41 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T030002">2023-07-06 03:00:02 UTC</a>
   <br>
 </div>
