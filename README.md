@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/students-reach-new-heights-with-spaceport-nova-scotia-first-launch" >🔗</a> **[The Launch Pad]** Students Reach New Heights With Spaceport Nova Scotia First Launch
+
+
+- <a href="https://spacenews.com/europe-leans-on-spacex-to-bridge-launcher-gap/" >🔗</a> **[SpaceNews]** Europe leans on SpaceX to bridge launcher gap
+
+
 - <a href="https://spacenews.com/viasat-signs-deal-to-commercialize-european-airspace-tracking-service/" >🔗</a> **[SpaceNews]** Viasat signs deal to commercialize European airspace tracking service
 
 
@@ -180,16 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/esa-launch-independent-enquiry-commission-to-investigate-vega-c-z40-test-failure/" >🔗</a> **[European Spaceflight]** ESA Launch Independent Enquiry Commission to Investigate Vega C Z40 Test Failure
-
-
-- <a href="https://spacenews.com/hawkeye-360-satellites-to-monitor-illegal-fishing-in-pacific-islands/" >🔗</a> **[SpaceNews]** Hawkeye 360 satellites to monitor illegal fishing in Pacific Islands
-
-
-- <a href="https://spacepolicyonline.com/news/final-ariane-5-takes-flight/" >🔗</a> **[SpacePolicyOnline.com]** Final Ariane 5 Takes Flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
-
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T221500">2023-07-06 22:15:00 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T231632">2023-07-06 23:16:32 UTC</a>
   <br>
 </div>
