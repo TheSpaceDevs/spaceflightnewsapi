@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/viasat-signs-deal-to-commercialize-european-airspace-tracking-service/" >🔗</a> **[SpaceNews]** Viasat signs deal to commercialize European airspace tracking service
+
+
+- <a href="https://spacenews.com/chinas-landspace-set-for-second-methalox-rocket-launch/" >🔗</a> **[SpaceNews]** China’s Landspace set for second methalox rocket launch
+
+
 - <a href="https://spacenews.com/space-command-argues-for-shift-from-static-to-dynamic-satellite-operations/" >🔗</a> **[SpaceNews]** Space Command argues for shift from static to dynamic satellite operations
 
 
@@ -180,20 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/final-ariane-5-takes-flight/" >🔗</a> **[SpacePolicyOnline.com]** Final Ariane 5 Takes Flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
-
-
-
-- <a href="https://spacenews.com/ariane-5-launches-for-the-final-time/" >🔗</a> **[SpaceNews]** Ariane 5 launches for the final time
-
-
-  - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/07/goodbye-ariane-5/" >🔗</a> **[NASASpaceflight]** Goodbye to the Ariane 5, the ‘Swiss Knife’ of Europe’s launch industry
 
 
   - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
@@ -238,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T201637">2023-07-06 20:16:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T211356">2023-07-06 21:13:56 UTC</a>
   <br>
 </div>
