@@ -146,13 +146,28 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/california-science-center-go-for-shuttle-endeavour-stacking" >🔗</a> **[The Launch Pad]** California Science Center GO For Shuttle Endeavour Stacking
+
+
 - <a href="https://www.nasaspaceflight.com/2023/07/starship-launch-site-readiness/" >🔗</a> **[NASASpaceflight]** SpaceX focuses on launch site readiness ahead of Starship Flight 2
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
 
 
 - <a href="https://www.teslarati.com/ariane-v-retires-after-27-years-of-service/" >🔗</a> **[Teslarati]** Ariane V goes out in style, retires after 27 years of service
 
 
+  - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
+
+
+
 - <a href="https://www.teslarati.com/spacex-completes-28th-commercial-resupply-mission-to-iss/" >🔗</a> **[Teslarati]** SpaceX completes 28th commercial resupply mission to ISS
+
+
+  - <a href="https://go4liftoff.com/launch/id/e53eecd6-184d-440a-955a-70fe0fdccbd6" >🚀</a> **Falcon 9 Block 5 | Dragon CRS-2 SpX-28** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://europeanspaceflight.com/esa-launch-independent-enquiry-commission-to-investigate-vega-c-z40-test-failure/" >🔗</a> **[European Spaceflight]** ESA Launch Independent Enquiry Commission to Investigate Vega C Z40 Test Failure
@@ -183,9 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/rivada-gets-more-breathing-room-to-deploy-constellation/" >🔗</a> **[SpaceNews]** Rivada gets more breathing room to deploy constellation
-
-
-- <a href="https://europeanspaceflight.com/poland-complete-acceptance-phase-for-three-space-debris-observatories/" >🔗</a> **[European Spaceflight]** Poland Complete Acceptance Phase for Three Space Debris Observatories
 
 
 
@@ -226,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T181928">2023-07-06 18:19:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230706T191234">2023-07-06 19:12:34 UTC</a>
   <br>
 </div>
