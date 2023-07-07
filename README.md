@@ -155,6 +155,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/spacex-set-to-launch-48-starlink-satellites-from-california/" >🔗</a> **[Teslarati]** SpaceX set to launch 48 Starlink satellites from California
 
 
+  - <a href="https://go4liftoff.com/launch/id/5d3e11d7-5d13-4c8c-b94a-c73da97c39a5" >🚀</a> **Falcon 9 Block 5 | Starlink Group 5-13** from Vandenberg SFB, CA, USA
+
+
+
 - <a href="https://arstechnica.com/space/2023/07/rocket-report-blue-origin-seeks-to-go-international-au-revoir-ariane-5/" >🔗</a> **[Arstechnica]** Rocket Report: Big dreams in Sin City; SpaceX and FAA seek to halt lawsuit
 
 
@@ -218,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230707T162035">2023-07-07 16:20:35 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230707T171356">2023-07-07 17:13:56 UTC</a>
   <br>
 </div>
