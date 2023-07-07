@@ -158,6 +158,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/chinas-landspace-set-for-second-methalox-rocket-launch/" >🔗</a> **[SpaceNews]** China’s Landspace set for second methalox rocket launch
 
 
+  - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan, People's Republic of China
+
+
+
 - <a href="https://spacenews.com/space-command-argues-for-shift-from-static-to-dynamic-satellite-operations/" >🔗</a> **[SpaceNews]** Space Command argues for shift from static to dynamic satellite operations
 
 
@@ -226,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230707T062128">2023-07-07 06:21:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230707T071441">2023-07-07 07:14:41 UTC</a>
   <br>
 </div>
