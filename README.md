@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/join-nasa-to-celebrate-webb-space-telescope-s-first-year-of-science" >🔗</a> **[NASA]** Join NASA to Celebrate Webb Space Telescope’s First Year of Science
+
+
 - <a href="https://spacenews.com/for-the-people-the-motivations-fueling-ecuadors-space-journey/" >🔗</a> **[SpaceNews]** For the People: The motivations fueling Ecuador’s space journey
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-command-argues-for-shift-from-static-to-dynamic-satellite-operations/" >🔗</a> **[SpaceNews]** Space Command argues for shift from static to dynamic satellite operations
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/california-science-center-go-for-shuttle-endeavour-stacking" >🔗</a> **[The Launch Pad]** California Science Center GO For Shuttle Endeavour Stacking
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230707T171356">2023-07-07 17:13:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230707T181934">2023-07-07 18:19:34 UTC</a>
   <br>
 </div>
