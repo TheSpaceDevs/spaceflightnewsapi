@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/chinese-launch-firm-secures-fresh-funding-for-reusable-rocket/" >🔗</a> **[SpaceNews]** Chinese launch firm secures fresh funding for reusable rocket
+
+
 - <a href="https://www.teslarati.com/spacex-set-to-launch-48-starlink-satellites-from-california/" >🔗</a> **[Teslarati]** SpaceX set to launch 48 Starlink satellites from California
 
 
@@ -178,13 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
-- <a href="https://www.teslarati.com/ariane-v-retires-after-27-years-of-service/" >🔗</a> **[Teslarati]** Ariane V goes out in style, retires after 27 years of service
-
-
-  - <a href="https://go4liftoff.com/launch/id/e3f8e755-0867-413a-a05a-15ca06ce7fa3" >🚀</a> **Ariane 5 ECA+ | Syracuse 4B & Heinrich Hertz (H2Sat)** from Kourou, French Guiana
 
 
 
@@ -226,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230707T132319">2023-07-07 13:23:19 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230707T141432">2023-07-07 14:14:32 UTC</a>
   <br>
 </div>
