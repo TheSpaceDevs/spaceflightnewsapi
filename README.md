@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/plasmos-pivots-from-rocket-engines-to-vc/" >🔗</a> **[SpaceNews]** Plasmos pivots from rocket engines to VC
+
+
 - <a href="https://spacenews.com/merger-rumors-swirl-around-dish-and-echostar/" >🔗</a> **[SpaceNews]** Merger rumors swirl around Dish and EchoStar
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://arstechnica.com/space/2023/07/rocket-report-blue-origin-seeks-to-go-international-au-revoir-ariane-5/" >🔗</a> **[Arstechnica]** Rocket Report: Big dreams in Sin City; SpaceX and FAA seek to halt lawsuit
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/students-reach-new-heights-with-spaceport-nova-scotia-first-launch" >🔗</a> **[The Launch Pad]** Students Reach New Heights With Spaceport Nova Scotia First Launch
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230707T231517">2023-07-07 23:15:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230708T013829">2023-07-08 01:38:29 UTC</a>
   <br>
 </div>
