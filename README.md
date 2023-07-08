@@ -164,6 +164,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/join-nasa-to-celebrate-webb-space-telescope-s-first-year-of-science" >🔗</a> **[NASA]** Join NASA to Celebrate Webb Space Telescope’s First Year of Science
 
 
+  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
+
+
+
 - <a href="https://spacenews.com/for-the-people-the-motivations-fueling-ecuadors-space-journey/" >🔗</a> **[SpaceNews]** For the People: The motivations fueling Ecuador’s space journey
 
 
@@ -218,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230708T101543">2023-07-08 10:15:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230708T111206">2023-07-08 11:12:06 UTC</a>
   <br>
 </div>
