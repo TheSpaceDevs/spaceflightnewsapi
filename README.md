@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/07/webb-ceers1019/" >🔗</a> **[NASASpaceflight]** Using Webb, scientists discover the most distant active supermassive black hole
 
 
+  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
+
+
+
 - <a href="https://spacenews.com/plasmos-pivots-from-rocket-engines-to-vc/" >🔗</a> **[SpaceNews]** Plasmos pivots from rocket engines to VC
 
 
@@ -222,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230709T131917">2023-07-09 13:19:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230709T141304">2023-07-09 14:13:04 UTC</a>
   <br>
 </div>
