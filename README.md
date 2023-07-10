@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/07/astronomers-solve-mystery-of-how-a-mirror-like-planet-formed-so-close-to-its-star/" >🔗</a> **[Arstechnica]** Astronomers solve mystery of how a mirror-like planet formed so close to its star
+
+
+- <a href="https://spacenews.com/can-space-governance-keep-up-with-space-sustainability/" >🔗</a> **[SpaceNews]** Can space governance keep up with space sustainability?
+
+
 - <a href="https://www.teslarati.com/spacex-falcon-9-breaks-record-launch-landing-16th-time/" >🔗</a> **[Teslarati]** SpaceX Falcon 9 breaks record, launches and lands for 16th time
 
 
@@ -176,16 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/the-psychology-of-space-exploration-and-why-it-matters-on-earth/" >🔗</a> **[SpaceNews]** The psychology of space exploration — and why it matters on Earth
-
-
-- <a href="http://www.nasa.gov/press-release/join-nasa-to-celebrate-webb-space-telescope-s-first-year-of-science" >🔗</a> **[NASA]** Join NASA to Celebrate Webb Space Telescope’s First Year of Science
-
-
-  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
-
-
-
-- <a href="https://spacenews.com/for-the-people-the-motivations-fueling-ecuadors-space-journey/" >🔗</a> **[SpaceNews]** For the People: The motivations fueling Ecuador’s space journey
 
 
 
@@ -226,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230710T151657">2023-07-10 15:16:57 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230710T162158">2023-07-10 16:21:58 UTC</a>
   <br>
 </div>
