@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/07/10/astra-plans-reverse-stock-split-seeks-to-raise-up-to-65-million.html" >🔗</a> **[CNBC]** Astra plans a reverse stock split, seeks to raise up to $65 million in offering
+
+
+- <a href="https://spacenews.com/voyager-space-deepens-india-ties-for-commercial-space-station-plans/" >🔗</a> **[SpaceNews]** Voyager Space deepens India ties for commercial space station plans
+
+
+- <a href="https://spacenews.com/space-force-juggles-roles-as-warrior-and-protector-of-space-environment/" >🔗</a> **[SpaceNews]** Space Force juggles roles as warrior and protector of space environment
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/nasa-awards-axiom-space-new-iss-spacesuit-contract" >🔗</a> **[The Launch Pad]** BREAKING! NASA Awards Axiom Space New Contract For Next-Gen ISS Spacesuits
 
 
@@ -169,19 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/6f4ed2b9-918d-44e3-a8a9-cfdafc8cf8ce" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-5** from Cape Canaveral, FL, USA
 
-
-
-- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-july-9-15-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy July 9-15, 2023
-
-
-- <a href="https://www.nasaspaceflight.com/2023/07/webb-ceers1019/" >🔗</a> **[NASASpaceflight]** Using Webb, scientists discover the most distant active supermassive black hole
-
-
-  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
-
-
-
-- <a href="https://spacenews.com/plasmos-pivots-from-rocket-engines-to-vc/" >🔗</a> **[SpaceNews]** Plasmos pivots from rocket engines to VC
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230710T211327">2023-07-10 21:13:27 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230710T221452">2023-07-10 22:14:52 UTC</a>
   <br>
 </div>
