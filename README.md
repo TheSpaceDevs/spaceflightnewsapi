@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-falcon-9-breaks-record-launch-landing-16th-time/" >🔗</a> **[Teslarati]** SpaceX Falcon 9 breaks record, launches and lands for 16th time
+
+
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-july-9-15-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy July 9-15, 2023
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/for-the-people-the-motivations-fueling-ecuadors-space-journey/" >🔗</a> **[SpaceNews]** For the People: The motivations fueling Ecuador’s space journey
-
-
-- <a href="https://spacenews.com/chinese-launch-firm-secures-fresh-funding-for-reusable-rocket/" >🔗</a> **[SpaceNews]** Chinese launch firm secures fresh funding for reusable rocket
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230710T123257">2023-07-10 12:32:57 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230710T132510">2023-07-10 13:25:10 UTC</a>
   <br>
 </div>
