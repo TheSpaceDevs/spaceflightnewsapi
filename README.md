@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/nasa-artemis-crew-transport-vehicles-arrive-at-kennedy-space-center" >🔗</a> **[The Launch Pad]** NASA's Artemis Crew Transport Vehicles Arrive At Kennedy Space Center
+
+
 - <a href="https://spacenews.com/u-s-sharpens-plan-for-military-space-race/" >🔗</a> **[SpaceNews]** U.S. sharpens plan for military space race
 
 
@@ -201,9 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/indias-renewed-effort-toward-space-preeminence/" >🔗</a> **[SpaceNews]** India’s renewed effort toward space preeminence
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T221432">2023-07-11 22:14:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T231517">2023-07-11 23:15:17 UTC</a>
   <br>
 </div>
