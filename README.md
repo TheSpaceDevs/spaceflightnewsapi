@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/07/lanch-roundup-071123/" >🔗</a> **[NASASpaceflight]** Launch Roundup: China to launch methane powered ZQ-2; SpaceX to finish Starlink v1 flights
+
+
+- <a href="https://spacenews.com/indias-renewed-effort-toward-space-preeminence/" >🔗</a> **[SpaceNews]** India’s renewed effort toward space preeminence
+
+
+- <a href="https://spacenews.com/former-nasa-astronaut-to-advise-vast-on-commercial-space-station-efforts/" >🔗</a> **[SpaceNews]** Former NASA astronaut to advise Vast on commercial space station efforts
+
+
 - <a href="https://www.cnbc.com/2023/07/11/astranis-satellite-internet-coming-to-the-philippines-next-year.html" >🔗</a> **[CNBC]** Astranis to bring satellite internet to 2 million people in the Philippines next year
 
 
@@ -165,15 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/voyager-space-deepens-india-ties-for-commercial-space-station-plans/" >🔗</a> **[SpaceNews]** Voyager Space deepens India ties for commercial space station plans
-
-
-- <a href="https://spacenews.com/space-force-juggles-roles-as-warrior-and-protector-of-space-environment/" >🔗</a> **[SpaceNews]** Space Force juggles roles as warrior and protector of space environment
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/nasa-awards-axiom-space-new-iss-spacesuit-contract" >🔗</a> **[The Launch Pad]** NASA Awards Axiom Space New Contract For Next-Gen ISS Spacesuits
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-expands-options-for-spacewalking-moonwalking-suits-services" >🔗</a> **[NASA]** NASA Expands Options for Spacewalking, Moonwalking Suits, Services
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T162057">2023-07-11 16:20:57 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T171343">2023-07-11 17:13:43 UTC</a>
   <br>
 </div>
