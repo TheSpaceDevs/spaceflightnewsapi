@@ -161,7 +161,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/space-force-juggles-roles-as-warrior-and-protector-of-space-environment/" >🔗</a> **[SpaceNews]** Space Force juggles roles as warrior and protector of space environment
 
 
-- <a href="https://tlpnetwork.com/news/2023/07/nasa-awards-axiom-space-new-iss-spacesuit-contract" >🔗</a> **[The Launch Pad]** BREAKING! NASA Awards Axiom Space New Contract For Next-Gen ISS Spacesuits
+- <a href="https://tlpnetwork.com/news/2023/07/nasa-awards-axiom-space-new-iss-spacesuit-contract" >🔗</a> **[The Launch Pad]** NASA Awards Axiom Space New Contract For Next-Gen ISS Spacesuits
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-expands-options-for-spacewalking-moonwalking-suits-services" >🔗</a> **[NASA]** NASA Expands Options for Spacewalking, Moonwalking Suits, Services
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T071425">2023-07-11 07:14:25 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T082023">2023-07-11 08:20:23 UTC</a>
   <br>
 </div>
