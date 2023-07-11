@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/thermal-imagery-sector-heats-up/" >🔗</a> **[SpaceNews]** Thermal imagery sector heats up
+
+
 - <a href="https://spacenews.com/nasa-awards-crossover-spacesuit-task-orders-to-axiom-and-collins/" >🔗</a> **[SpaceNews]** NASA awards “crossover” spacesuit task orders to Axiom and Collins
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/ai-quantum-and-nuclear-technologies-are-key-to-lockheed-martins-vision-for-space-2050/" >🔗</a> **[SpaceNews]** AI, quantum and nuclear technologies are key to Lockheed Martin’s vision for Space 2050
-
-
-- <a href="https://arstechnica.com/space/2023/07/astronomers-solve-mystery-of-how-a-mirror-like-planet-formed-so-close-to-its-star/" >🔗</a> **[Arstechnica]** Astronomers solve mystery of how a mirror-like planet formed so close to its star
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T101713">2023-07-11 10:17:13 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T111251">2023-07-11 11:12:51 UTC</a>
   <br>
 </div>
