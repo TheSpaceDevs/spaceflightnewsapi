@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/muon-wins-option-to-monitor-ionosphere-for-space-force/" >🔗</a> **[SpaceNews]** Muon wins option to monitor ionosphere for Space Force
+
+
 - <a href="https://spacenews.com/thermal-imagery-sector-heats-up/" >🔗</a> **[SpaceNews]** Thermal imagery sector heats up
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/benchmark-raises-33-million-in-series-b-round/" >🔗</a> **[SpaceNews]** Benchmark raises $33 million in Series B round
-
-
-- <a href="https://spacenews.com/ai-quantum-and-nuclear-technologies-are-key-to-lockheed-martins-vision-for-space-2050/" >🔗</a> **[SpaceNews]** AI, quantum and nuclear technologies are key to Lockheed Martin’s vision for Space 2050
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T123329">2023-07-11 12:33:29 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T132412">2023-07-11 13:24:12 UTC</a>
   <br>
 </div>
