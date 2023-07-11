@@ -146,6 +146,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/nasa-cancels-janus-mission-after-launch-postponement" >🔗</a> **[The Launch Pad]** NASA Cancels Janus Mission After Launch Postponement
+
+
+- <a href="https://www.cnbc.com/2023/07/11/jeff-bezos-blue-origin-be-4-rocket-engine-explodes-during-testing.html" >🔗</a> **[CNBC]** Jeff Bezos’ Blue Origin rocket engine explodes during testing
+
+
+  - <a href="https://go4liftoff.com/launch/id/a67b40f9-cfcc-4614-a355-a156280b4bb3" >🚀</a> **Vulcan VC4L | Dream Chaser CRS 2 Flight 1** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://arstechnica.com/space/2023/07/here-come-the-moon-landing-missions-probably/" >🔗</a> **[Arstechnica]** Here come the Moon landing missions (probably)
 
 
@@ -153,6 +163,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.nasaspaceflight.com/2023/07/lanch-roundup-071123/" >🔗</a> **[NASASpaceflight]** Launch Roundup: China to launch methane powered ZQ-2; SpaceX to finish Starlink v1 flights
+
+
+  - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan Satellite Launch Center, People's Republic of China
+
+  - <a href="https://go4liftoff.com/launch/id/885ceb2a-bdf3-427b-9e98-ecfbd04d4e01" >🚀</a> **Falcon 9 Block 5 | Starlink Group 5-15** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://spacenews.com/indias-renewed-effort-toward-space-preeminence/" >🔗</a> **[SpaceNews]** India’s renewed effort toward space preeminence
@@ -168,12 +184,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/thermal-imagery-sector-heats-up/" >🔗</a> **[SpaceNews]** Thermal imagery sector heats up
-
-
-- <a href="https://spacenews.com/nasa-awards-crossover-spacesuit-task-orders-to-axiom-and-collins/" >🔗</a> **[SpaceNews]** NASA awards “crossover” spacesuit task orders to Axiom and Collins
-
-
-- <a href="https://spacenews.com/astra-to-raise-up-to-65-million-in-stock-sale/" >🔗</a> **[SpaceNews]** Astra to raise up to $65 million in stock sale
 
 
 
@@ -214,6 +224,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T191232">2023-07-11 19:12:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T201624">2023-07-11 20:16:24 UTC</a>
   <br>
 </div>
