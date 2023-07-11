@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/astra-to-raise-up-to-65-million-in-stock-sale/" >🔗</a> **[SpaceNews]** Astra to raise up to $65 million in stock sale
+
+
 - <a href="https://www.cnbc.com/2023/07/10/astra-plans-reverse-stock-split-seeks-to-raise-up-to-65-million.html" >🔗</a> **[CNBC]** Astra plans a reverse stock split, seeks to raise up to $65 million in offering
 
 
@@ -171,13 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/can-space-governance-keep-up-with-space-sustainability/" >🔗</a> **[SpaceNews]** Can space governance keep up with space sustainability?
-
-
-- <a href="https://www.teslarati.com/spacex-falcon-9-breaks-record-launch-landing-16th-time/" >🔗</a> **[Teslarati]** SpaceX Falcon 9 breaks record, launches and lands for 16th time
-
-
-  - <a href="https://go4liftoff.com/launch/id/6f4ed2b9-918d-44e3-a8a9-cfdafc8cf8ce" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-5** from Cape Canaveral, FL, USA
-
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230710T231537">2023-07-10 23:15:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230711T012331">2023-07-11 01:23:31 UTC</a>
   <br>
 </div>
