@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/07/webb_first_anniversary_spots_stellar_nursery" >🔗</a> **[The Launch Pad]** Webb Celebrates First Anniversary with Stellar Nursery
 
 
+  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
+
+
+
 - <a href="https://spacenews.com/second-israeli-lunar-lander-faces-funding-uncertainty/" >🔗</a> **[SpaceNews]** Second Israeli lunar lander faces funding uncertainty
 
 
@@ -226,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T111300">2023-07-12 11:13:00 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T123413">2023-07-12 12:34:13 UTC</a>
   <br>
 </div>
