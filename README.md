@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/07/the-webb-telescope-just-offered-a-revelatory-view-of-humanitys-distant-past/" >🔗</a> **[Arstechnica]** The Webb telescope just offered a revelatory view of humanity’s distant past
 
 
+  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/webb_first_anniversary_spots_stellar_nursery" >🔗</a> **[The Launch Pad]** Webb Celebrates First Anniversary with Stellar Nursery
 
 
@@ -230,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T141430">2023-07-12 14:14:30 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T151617">2023-07-12 15:16:17 UTC</a>
   <br>
 </div>
