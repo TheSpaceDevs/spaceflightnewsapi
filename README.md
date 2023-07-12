@@ -152,7 +152,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/07/landspace-zhuque-2-reaches-orbit-wins-methalox-space-race" >🔗</a> **[The Launch Pad]** BREAKING! Landspace Zhuque-2 Reaches Orbit, China Wins Methalox Space Race
 
 
+  - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan Satellite Launch Center, People's Republic of China
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/nasa-artemis-crew-transport-vehicles-arrive-at-kennedy-space-center" >🔗</a> **[The Launch Pad]** NASA's Artemis Crew Transport Vehicles Arrive At Kennedy Space Center
+
+
+  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacenews.com/u-s-sharpens-plan-for-military-space-race/" >🔗</a> **[SpaceNews]** U.S. sharpens plan for military space race
@@ -222,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T051517">2023-07-12 05:15:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T062022">2023-07-12 06:20:22 UTC</a>
   <br>
 </div>
