@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/eso-elt-50-percent-complete" >🔗</a> **[The Launch Pad]** ESO's Extremely Large Telescope Reaches 50% Complete Milestone
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/landspace-zhuque-2-reaches-orbit-wins-methalox-space-race" >🔗</a> **[The Launch Pad]** BREAKING! Landspace Zhuque-2 Reaches Orbit, China Wins Methalox Space Race
 
 
@@ -171,31 +174,14 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
+- <a href="https://www.nasaspaceflight.com/2023/07/zhuque-2-launch2/" >🔗</a> **[NASASpaceflight]** LandSpace claims win in the methane race to orbit via second ZhuQue-2 launch
+
+
 - <a href="https://www.cnbc.com/2023/07/11/jeff-bezos-blue-origin-be-4-rocket-engine-explodes-during-testing.html" >🔗</a> **[CNBC]** Jeff Bezos’ Blue Origin rocket engine explodes during testing
 
 
   - <a href="https://go4liftoff.com/launch/id/a67b40f9-cfcc-4614-a355-a156280b4bb3" >🚀</a> **Vulcan VC4L | Dream Chaser CRS 2 Flight 1** from Cape Canaveral, FL, USA
 
-
-
-- <a href="https://arstechnica.com/space/2023/07/here-come-the-moon-landing-missions-probably/" >🔗</a> **[Arstechnica]** Here come the Moon landing missions (probably)
-
-
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
-
-  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
-
-  - <a href="https://go4liftoff.com/launch/id/2ba0b63c-e5f6-4899-b588-387c7c8e71ca" >🚀</a> **H-IIA 202 | XRISM & SLIM** from Tanegashima Space Center, Japan
-
-  - <a href="https://go4liftoff.com/launch/id/942a1814-c237-41de-9970-d27bb9630f3b" >🚀</a> **Falcon 9 Block 5 | Nova-C IM-1** from Kennedy Space Center, FL, USA
-
-  - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
-
-  - <a href="https://go4liftoff.com/launch/id/fd0fbaac-d079-4027-98b0-bcf25c15a166" >🚀</a> **Falcon 9 Block 5 | Nova-C IM-2** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacenews.com/astranis-to-deliver-geo-broadband-satellite-for-the-philippines-next-year/" >🔗</a> **[SpaceNews]** Astranis to deliver GEO broadband satellite for the Philippines next year
 
 
 
@@ -236,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T025532">2023-07-12 02:55:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T032444">2023-07-12 03:24:44 UTC</a>
   <br>
 </div>
