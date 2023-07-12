@@ -146,6 +146,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/chinas-landspace-reaches-orbit-with-methane-powered-zhuque-2-rocket/" >🔗</a> **[SpaceNews]** China’s Landspace reaches orbit with methane-powered Zhuque-2 rocket
+
+
+  - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan Satellite Launch Center, People's Republic of China
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/eso-elt-50-percent-complete" >🔗</a> **[The Launch Pad]** ESO's Extremely Large Telescope Reaches 50% Complete Milestone
 
 
@@ -189,13 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.cnbc.com/2023/07/11/jeff-bezos-blue-origin-be-4-rocket-engine-explodes-during-testing.html" >🔗</a> **[CNBC]** Jeff Bezos’ Blue Origin rocket engine explodes during testing
-
-
-  - <a href="https://go4liftoff.com/launch/id/a67b40f9-cfcc-4614-a355-a156280b4bb3" >🚀</a> **Vulcan VC4L | Dream Chaser CRS 2 Flight 1** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T071428">2023-07-12 07:14:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T082023">2023-07-12 08:20:23 UTC</a>
   <br>
 </div>
