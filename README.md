@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-sets-briefings-for-next-international-space-station-crew-missions" >🔗</a> **[NASA]** NASA Sets Briefings for Next International Space Station Crew Missions
+
+
 - <a href="https://arstechnica.com/space/2023/07/the-webb-telescope-just-offered-a-revelatory-view-of-humanitys-distant-past/" >🔗</a> **[Arstechnica]** The Webb telescope just offered a revelatory view of humanity’s distant past
 
 
@@ -193,9 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/07/astranis-announces-contract-to-bring-internet-to-2-million-people-in-philippines-next-year" >🔗</a> **[The Launch Pad]** Astranis Announces Contract To Bring Internet To 2 Million People In Philippines Next Year
 
 
-- <a href="https://tlpnetwork.com/news/2023/07/nasa-astronaut-garrett-reisman-joins-vast-as-human-spaceflight-advisor" >🔗</a> **[The Launch Pad]** NASA Astronaut Garrett Reisman Joins VAST as Human Spaceflight Advisor
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T151617">2023-07-12 15:16:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T162037">2023-07-12 16:20:37 UTC</a>
   <br>
 </div>
