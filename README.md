@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/07/the-webb-telescope-just-offered-a-revelatory-view-of-humanitys-distant-past/" >🔗</a> **[Arstechnica]** The Webb telescope just offered a revelatory view of humanity’s distant past
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/webb_first_anniversary_spots_stellar_nursery" >🔗</a> **[The Launch Pad]** Webb Celebrates First Anniversary with Stellar Nursery
 
 
@@ -166,7 +169,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/07/eso-elt-50-percent-complete" >🔗</a> **[The Launch Pad]** ESO's Extremely Large Telescope Reaches 50% Complete Milestone
 
 
-- <a href="https://tlpnetwork.com/news/2023/07/landspace-zhuque-2-reaches-orbit-wins-methalox-space-race" >🔗</a> **[The Launch Pad]** BREAKING! Landspace Zhuque-2 Reaches Orbit, China Wins Methalox Space Race
+- <a href="https://tlpnetwork.com/news/2023/07/landspace-zhuque-2-reaches-orbit-wins-methalox-space-race" >🔗</a> **[The Launch Pad]** Landspace Zhuque-2 Reaches Orbit, China Wins Methalox Space Race
 
 
   - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan Satellite Launch Center, People's Republic of China
@@ -187,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/nasa-astronaut-garrett-reisman-joins-vast-as-human-spaceflight-advisor" >🔗</a> **[The Launch Pad]** NASA Astronaut Garrett Reisman Joins VAST as Human Spaceflight Advisor
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/voyager-space-announces-mou-with-india-to-explore-gaganyaan-missions-to-starlab" >🔗</a> **[The Launch Pad]** Voyager Space Announces MoU With India To Explore Gaganyaan Missions To StarLab
 
 
 
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T132530">2023-07-12 13:25:30 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T141430">2023-07-12 14:14:30 UTC</a>
   <br>
 </div>
