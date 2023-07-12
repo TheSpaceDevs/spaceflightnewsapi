@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/webb_first_anniversary_spots_stellar_nursery" >🔗</a> **[The Launch Pad]** Webb Celebrates First Anniversary with Stellar Nursery
+
+
+- <a href="https://spacenews.com/second-israeli-lunar-lander-faces-funding-uncertainty/" >🔗</a> **[SpaceNews]** Second Israeli lunar lander faces funding uncertainty
+
+
 - <a href="https://spacenews.com/chinas-landspace-reaches-orbit-with-methane-powered-zhuque-2-rocket/" >🔗</a> **[SpaceNews]** China’s Landspace reaches orbit with methane-powered Zhuque-2 rocket
 
 
@@ -180,20 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/voyager-space-announces-mou-with-india-to-explore-gaganyaan-missions-to-starlab" >🔗</a> **[The Launch Pad]** Voyager Space Announces MoU With India To Explore Gaganyaan Missions To StarLab
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/nasa-cancels-janus-mission-after-launch-postponement" >🔗</a> **[The Launch Pad]** NASA Cancels Janus Mission After Launch Postponement
-
-
-  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/07/zhuque-2-launch2/" >🔗</a> **[NASASpaceflight]** LandSpace claims win in the methane race to orbit via second ZhuQue-2 launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan Satellite Launch Center, People's Republic of China
-
 
 
 
@@ -234,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T101650">2023-07-12 10:16:50 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T111300">2023-07-12 11:13:00 UTC</a>
   <br>
 </div>
