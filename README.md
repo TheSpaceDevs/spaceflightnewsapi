@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/07/12/viasat-stock-drops-after-satellite-malfunction.html" >🔗</a> **[CNBC]** Viasat stock plunges after company discloses malfunction in new satellite
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/viasat-3-deployment-issues" >🔗</a> **[The Launch Pad]** Viasat-3 Experiencing Potentially Fatal Deployment Issues
+
+
 - <a href="https://www.nasaspaceflight.com/2023/07/jwst-1year/" >🔗</a> **[NASASpaceflight]** One year into science operations, Webb continues to rewrite the textbooks of science
 
 
@@ -180,16 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/chinas-landspace-reaches-orbit-with-methane-powered-zhuque-2-rocket/" >🔗</a> **[SpaceNews]** China’s Landspace reaches orbit with methane-powered Zhuque-2 rocket
-
-
-  - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan Satellite Launch Center, People's Republic of China
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/eso-elt-50-percent-complete" >🔗</a> **[The Launch Pad]** ESO's Extremely Large Telescope Reaches 50% Complete Milestone
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/landspace-zhuque-2-reaches-orbit-wins-methalox-space-race" >🔗</a> **[The Launch Pad]** Landspace Zhuque-2 Reaches Orbit, China Wins Methalox Space Race
 
 
   - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan Satellite Launch Center, People's Republic of China
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T221446">2023-07-12 22:14:46 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T231515">2023-07-12 23:15:15 UTC</a>
   <br>
 </div>
