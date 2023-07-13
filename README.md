@@ -146,10 +146,17 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/viasat-3/" >🔗</a> **[SpaceNews]** ViaSat-3 Americas’  antenna problem impacts rollout
+
+
 - <a href="https://spacenews.com/hawkeye-360-announces-58-million-funding-round/" >🔗</a> **[SpaceNews]** HawkEye 360 announces $58 million funding round
 
 
 - <a href="https://spacenews.com/rocket-lab-takes-another-step-towards-reusability-on-next-electron-launch/" >🔗</a> **[SpaceNews]** Rocket Lab takes another step towards reusability on next Electron launch
+
+
+  - <a href="https://go4liftoff.com/launch/id/e2651bb4-c42c-4fd8-b11a-bf7df7036c89" >🚀</a> **Electron | Baby Come Back** from Onenui Station, Mahia Peninsula, New Zealand
+
 
 
 - <a href="https://spacenews.com/nasa-cancels-janus-asteroid-smallsat-mission/" >🔗</a> **[SpaceNews]** NASA cancels Janus asteroid smallsat mission
@@ -193,9 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/biden-nominates-space-force-generals-for-promotion/" >🔗</a> **[SpaceNews]** Biden nominates Space Force generals for promotion
 
 
-- <a href="https://tlpnetwork.com/news/2023/07/israeli_lunar_lander_facing_funding_woes" >🔗</a> **[The Launch Pad]** Israeli Lunar Landing Mission Struggles with Funding
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T123346">2023-07-13 12:33:46 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T132932">2023-07-13 13:29:32 UTC</a>
   <br>
 </div>
