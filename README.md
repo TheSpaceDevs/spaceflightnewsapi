@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/orbital-composites-wins-1-7-million-space-force-contract/" >🔗</a> **[SpaceNews]** Orbital Composites wins $1.7 million Space Force contract
+
+
+- <a href="https://spacenews.com/hanwha-registers-as-south-korean-satellite-communications-provider/" >🔗</a> **[SpaceNews]** Hanwha registers as South Korean satellite communications provider
+
+
 - <a href="https://spacenews.com/viasat-3/" >🔗</a> **[SpaceNews]** ViaSat-3 Americas’  antenna problem impacts rollout
 
 
@@ -190,16 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.nasaspaceflight.com/2023/07/jwst-1year/" >🔗</a> **[NASASpaceflight]** One year into science operations, Webb continues to rewrite the textbooks of science
-
-
-  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
-
-
-
-- <a href="https://spacenews.com/biden-nominates-space-force-generals-for-promotion/" >🔗</a> **[SpaceNews]** Biden nominates Space Force generals for promotion
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T132932">2023-07-13 13:29:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T141419">2023-07-13 14:14:19 UTC</a>
   <br>
 </div>
