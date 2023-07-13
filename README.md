@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/fcc-nominees-win-committee-approval/" >🔗</a> **[SpacePolicyOnline.com]** FCC Nominees Win Committee Approval
+
+
 - <a href="https://spacepolicyonline.com/news/stunning-image-crowns-jwsts-first-anniversary/" >🔗</a> **[SpacePolicyOnline.com]** Stunning Image Crowns JWST’s First Anniversary
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
 
-
-
-- <a href="https://spacenews.com/second-israeli-lunar-lander-faces-funding-uncertainty/" >🔗</a> **[SpaceNews]** Second Israeli lunar lander faces funding uncertainty
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T025921">2023-07-13 02:59:21 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T033019">2023-07-13 03:30:19 UTC</a>
   <br>
 </div>
