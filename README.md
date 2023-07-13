@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/maxar-unveils-platform-to-speed-up-imagery-access/" >🔗</a> **[SpaceNews]** Maxar unveils platform to speed up imagery access
+
+
+- <a href="https://spacepolicyonline.com/news/house-and-senate-appropriators-keep-nasa-basically-at-fy2023-levels/" >🔗</a> **[SpacePolicyOnline.com]** House and Senate Appropriators Keep NASA Basically at FY2023 Levels
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-to-host-small-business-administration-s-annual-scorecard-event" >🔗</a> **[NASA]** NASA to Host Small Business Administration’s Annual Scorecard Event
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-awards-sounding-rocket-operations-follow-on-contract" >🔗</a> **[NASA]** NASA Awards Sounding Rocket Operations Follow-On Contract
 
 
@@ -173,15 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/07/13/investing-in-space-why-blue-origins-engine-explosion-matters.html" >🔗</a> **[CNBC]** Investing in Space: Why Blue Origin’s engine explosion matters
-
-
-- <a href="https://spacenews.com/saltzman-urges-allies-to-collectively-train-like-we-fight/" >🔗</a> **[SpaceNews]** Saltzman urges allies to ‘collectively train like we fight’
-
-
-- <a href="https://spacenews.com/orbital-composites-wins-1-7-million-space-force-contract/" >🔗</a> **[SpaceNews]** Orbital Composites wins $1.7 million Space Force contract
-
-
-- <a href="https://spacenews.com/hanwha-registers-as-south-korean-satellite-communications-provider/" >🔗</a> **[SpaceNews]** Hanwha registers as South Korean satellite communications provider
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T211337">2023-07-13 21:13:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T221442">2023-07-13 22:14:42 UTC</a>
   <br>
 </div>
