@@ -146,13 +146,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/saltzman-urges-allies-to-collectively-train-like-we-fight/" >🔗</a> **[SpaceNews]** Saltzman urges allies to ‘collectively train like we fight’
+
+
 - <a href="https://spacenews.com/orbital-composites-wins-1-7-million-space-force-contract/" >🔗</a> **[SpaceNews]** Orbital Composites wins $1.7 million Space Force contract
 
 
 - <a href="https://spacenews.com/hanwha-registers-as-south-korean-satellite-communications-provider/" >🔗</a> **[SpaceNews]** Hanwha registers as South Korean satellite communications provider
 
 
-- <a href="https://spacenews.com/viasat-3/" >🔗</a> **[SpaceNews]** ViaSat-3 Americas’  antenna problem impacts rollout
+- <a href="https://spacenews.com/viasat-3/" >🔗</a> **[SpaceNews]** ViaSat-3 Americas’ antenna problem impacts rollout
 
 
 - <a href="https://spacenews.com/hawkeye-360-announces-58-million-funding-round/" >🔗</a> **[SpaceNews]** HawkEye 360 announces $58 million funding round
@@ -182,14 +185,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.cnbc.com/2023/07/12/viasat-stock-drops-after-satellite-malfunction.html" >🔗</a> **[CNBC]** Viasat stock plunges after company discloses malfunction in new satellite
-
-
-  - <a href="https://go4liftoff.com/launch/id/8b1067dd-81c6-4bc3-b0f1-45f78963716f" >🚀</a> **Falcon Heavy | ViaSat-3 Americas & Others** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/viasat-3-deployment-issues" >🔗</a> **[The Launch Pad]** Viasat-3 Experiencing Potentially Fatal Deployment Issues
+- <a href="https://www.cnbc.com/2023/07/12/viasat-stock-drops-after-satellite-malfunction.html" >🔗</a> **[CNBC]** Viasat plunges toward worst day ever after new satellite malfunctions
 
 
   - <a href="https://go4liftoff.com/launch/id/8b1067dd-81c6-4bc3-b0f1-45f78963716f" >🚀</a> **Falcon Heavy | ViaSat-3 Americas & Others** from Kennedy Space Center, FL, USA
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T141419">2023-07-13 14:14:19 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T151607">2023-07-13 15:16:07 UTC</a>
   <br>
 </div>
