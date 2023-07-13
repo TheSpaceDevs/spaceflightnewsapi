@@ -146,7 +146,17 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/hawkeye-360-announces-58-million-funding-round/" >🔗</a> **[SpaceNews]** HawkEye 360 announces $58 million funding round
+
+
+- <a href="https://spacenews.com/rocket-lab-takes-another-step-towards-reusability-on-next-electron-launch/" >🔗</a> **[SpaceNews]** Rocket Lab takes another step towards reusability on next Electron launch
+
+
 - <a href="https://spacenews.com/nasa-cancels-janus-asteroid-smallsat-mission/" >🔗</a> **[SpaceNews]** NASA cancels Janus asteroid smallsat mission
+
+
+  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacepolicyonline.com/news/fcc-nominees-win-committee-approval/" >🔗</a> **[SpacePolicyOnline.com]** FCC Nominees Win Committee Approval
@@ -186,20 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/07/israeli_lunar_lander_facing_funding_woes" >🔗</a> **[The Launch Pad]** Israeli Lunar Landing Mission Struggles with Funding
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-sets-briefings-for-next-international-space-station-crew-missions" >🔗</a> **[NASA]** NASA Sets Briefings for Next International Space Station Crew Missions
-
-
-  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://arstechnica.com/space/2023/07/the-webb-telescope-just-offered-a-revelatory-view-of-humanitys-distant-past/" >🔗</a> **[Arstechnica]** The Webb telescope just offered a revelatory view of humanity’s distant past
-
-
-  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -208,6 +204,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.substack.com/p/what-will-become-of-the-german-north" >🔗</a> **[European Spaceflight]** What will become of the German North Sea floating launch site?
+
+
+- <a href="https://www.planetary.org/advocacy-action-center" >🔗</a> **[Planetary Society]** Advocacy Action Center
 
 
 - <a href="https://www.planetary.org/sci-tech/studying-salty-earth-lakes" >🔗</a> **[Planetary Society]** Studying salty Earth lakes to learn about other worlds
@@ -231,13 +230,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-june-19-25-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: June 19-25, 2023
 
 
-- <a href="https://www.planetary.org/articles/announcing-the-2023-shoemaker-neo-grant-winners" >🔗</a> **[Planetary Society]** Announcing the 2023 Shoemaker NEO grant winners
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T111309">2023-07-13 11:13:09 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T123346">2023-07-13 12:33:46 UTC</a>
   <br>
 </div>
