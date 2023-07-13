@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/stunning-image-crowns-jwsts-first-anniversary/" >🔗</a> **[SpacePolicyOnline.com]** Stunning Image Crowns JWST’s First Anniversary
+
+
 - <a href="https://www.cnbc.com/2023/07/12/viasat-stock-drops-after-satellite-malfunction.html" >🔗</a> **[CNBC]** Viasat stock plunges after company discloses malfunction in new satellite
 
 
@@ -183,13 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/second-israeli-lunar-lander-faces-funding-uncertainty/" >🔗</a> **[SpaceNews]** Second Israeli lunar lander faces funding uncertainty
-
-
-- <a href="https://spacenews.com/chinas-landspace-reaches-orbit-with-methane-powered-zhuque-2-rocket/" >🔗</a> **[SpaceNews]** China’s Landspace reaches orbit with methane-powered Zhuque-2 rocket
-
-
-  - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan Satellite Launch Center, People's Republic of China
-
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230712T231515">2023-07-12 23:15:15 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T014114">2023-07-13 01:41:14 UTC</a>
   <br>
 </div>
