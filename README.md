@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nasa-cancels-janus-asteroid-smallsat-mission/" >🔗</a> **[SpaceNews]** NASA cancels Janus asteroid smallsat mission
+
+
 - <a href="https://spacepolicyonline.com/news/fcc-nominees-win-committee-approval/" >🔗</a> **[SpacePolicyOnline.com]** FCC Nominees Win Committee Approval
 
 
@@ -197,13 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/07/webb_first_anniversary_spots_stellar_nursery" >🔗</a> **[The Launch Pad]** Webb Celebrates First Anniversary with Stellar Nursery
-
-
-  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T101652">2023-07-13 10:16:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230713T111309">2023-07-13 11:13:09 UTC</a>
   <br>
 </div>
