@@ -146,13 +146,24 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-force-to-select-three-providers-of-national-security-launch-services/" >🔗</a> **[SpaceNews]** Space Force to select three providers of national security launch services
+
+
 - <a href="https://spacepolicyonline.com/news/indias-second-lunar-lander-on-its-way/" >🔗</a> **[SpacePolicyOnline.com]** India’s Second Lunar Lander on Its Way
+
+
+  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/house-and-senate-appropriators-look-to-cut-nasa-funding" >🔗</a> **[The Launch Pad]** House & Senate Appropriators Look To Cut NASA Funding
 
 
 - <a href="https://arstechnica.com/space/2023/07/india-takes-a-critical-first-step-toward-a-second-attempt-to-land-on-the-moon/" >🔗</a> **[Arstechnica]** India takes a critical first step toward a second attempt to land on the Moon
+
+
+  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
+
 
 
 - <a href="https://spacenews.com/house-and-senate-appropriators-cut-nasas-budget/" >🔗</a> **[SpaceNews]** House and Senate appropriators cut NASA’s budget
@@ -179,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/maxar-unveils-platform-to-speed-up-imagery-access/" >🔗</a> **[SpaceNews]** Maxar unveils platform to speed up imagery access
-
-
-- <a href="https://spacepolicyonline.com/news/house-and-senate-appropriators-keep-nasa-basically-at-fy2023-levels/" >🔗</a> **[SpacePolicyOnline.com]** House and Senate Appropriators Keep NASA Basically at FY2023 Levels
 
 
 
@@ -222,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230714T201626">2023-07-14 20:16:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230714T211303">2023-07-14 21:13:03 UTC</a>
   <br>
 </div>
