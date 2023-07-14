@@ -152,6 +152,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/india-launches-chandrayaan-3-lunar-landing-mission/" >🔗</a> **[SpaceNews]** India launches Chandrayaan-3 lunar landing mission
 
 
+  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
+
+
+
+- <a href="https://spacenews.com/the-promise-of-direct-to-device/" >🔗</a> **[SpaceNews]** The promise of direct-to-device
+
+
 - <a href="https://spacepolicyonline.com/news/ulas-vulcan-to-launch-by-end-of-this-year/" >🔗</a> **[SpacePolicyOnline.com]** ULA’s Vulcan to Launch By End of This Year
 
 
@@ -175,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/07/13/elon-musk-spacex-near-150-billion-valuation.html" >🔗</a> **[CNBC]** Elon Musk’s SpaceX nears $150 billion valuation after secondary share sale
-
-
-- <a href="https://arstechnica.com/space/2023/07/ula-finds-root-cause-of-vulcan-failure-sets-path-toward-debut-launch/" >🔗</a> **[Arstechnica]** Vulcan’s upper stage failed due to higher stress and weaker welds
 
 
 
@@ -218,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230714T132252">2023-07-14 13:22:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230714T141353">2023-07-14 14:13:53 UTC</a>
   <br>
 </div>
