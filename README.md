@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/house-and-senate-appropriators-look-to-cut-nasa-funding" >🔗</a> **[The Launch Pad]** House & Senate Appropriators Look To Cut NASA Funding
+
+
+- <a href="https://arstechnica.com/space/2023/07/india-takes-a-critical-first-step-toward-a-second-attempt-to-land-on-the-moon/" >🔗</a> **[Arstechnica]** India takes a critical first step toward a second attempt to land on the Moon
+
+
 - <a href="https://spacenews.com/house-and-senate-appropriators-cut-nasas-budget/" >🔗</a> **[SpaceNews]** House and Senate appropriators cut NASA’s budget
 
 
@@ -176,12 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-to-host-small-business-administration-s-annual-scorecard-event" >🔗</a> **[NASA]** NASA to Host Small Business Administration’s Annual Scorecard Event
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-awards-sounding-rocket-operations-follow-on-contract" >🔗</a> **[NASA]** NASA Awards Sounding Rocket Operations Follow-On Contract
-
-
-- <a href="https://www.cnbc.com/2023/07/13/elon-musk-spacex-near-150-billion-valuation.html" >🔗</a> **[CNBC]** Elon Musk’s SpaceX nears $150 billion valuation after secondary share sale
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230714T151615">2023-07-14 15:16:15 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230714T161856">2023-07-14 16:18:56 UTC</a>
   <br>
 </div>
