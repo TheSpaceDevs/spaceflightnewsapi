@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/indias-second-lunar-lander-on-its-way/" >🔗</a> **[SpacePolicyOnline.com]** India’s Second Lunar Lander on Its Way
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/house-and-senate-appropriators-look-to-cut-nasa-funding" >🔗</a> **[The Launch Pad]** House & Senate Appropriators Look To Cut NASA Funding
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/house-and-senate-appropriators-keep-nasa-basically-at-fy2023-levels/" >🔗</a> **[SpacePolicyOnline.com]** House and Senate Appropriators Keep NASA Basically at FY2023 Levels
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-to-host-small-business-administration-s-annual-scorecard-event" >🔗</a> **[NASA]** NASA to Host Small Business Administration’s Annual Scorecard Event
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230714T161856">2023-07-14 16:18:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230714T171220">2023-07-14 17:12:20 UTC</a>
   <br>
 </div>
