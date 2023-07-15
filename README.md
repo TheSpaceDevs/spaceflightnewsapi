@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/07/moon-to-mars-science-missions/" >🔗</a> **[NASASpaceflight]** Three ongoing missions study human side of Moon and Mars missions
+
+
 - <a href="https://spacenews.com/industry-offers-wish-list-for-commercial-space-legislation/" >🔗</a> **[SpaceNews]** Industry offers wish list for commercial space legislation
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
 
-
-
-- <a href="https://spacenews.com/the-promise-of-direct-to-device/" >🔗</a> **[SpaceNews]** The promise of direct-to-device
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230715T181818">2023-07-15 18:18:18 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230715T191142">2023-07-15 19:11:42 UTC</a>
   <br>
 </div>
