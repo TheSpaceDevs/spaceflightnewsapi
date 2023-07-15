@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/industry-offers-wish-list-for-commercial-space-legislation/" >🔗</a> **[SpaceNews]** Industry offers wish list for commercial space legislation
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/congress_introduces_uap_amendment" >🔗</a> **[The Launch Pad]** Congress introduces new UAP Transparency Amendment
 
 
@@ -183,13 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/the-promise-of-direct-to-device/" >🔗</a> **[SpaceNews]** The promise of direct-to-device
-
-
-- <a href="https://spacepolicyonline.com/news/ulas-vulcan-to-launch-by-end-of-this-year/" >🔗</a> **[SpacePolicyOnline.com]** ULA’s Vulcan to Launch By End of This Year
-
-
-  - <a href="https://go4liftoff.com/launch/id/b973e965-3901-4bda-9236-b0afee33f388" >🚀</a> **Vulcan VC2S | Peregrine lunar lander, Kuipersat-1 & 2 (Maiden flight)** from Cape Canaveral, FL, USA
-
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230715T111157">2023-07-15 11:11:57 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230715T122924">2023-07-15 12:29:24 UTC</a>
   <br>
 </div>
