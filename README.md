@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/china-sets-out-preliminary-crewed-lunar-landing-plan/" >🔗</a> **[SpaceNews]** China sets out preliminary crewed lunar landing plan
+
+
 - <a href="https://spacenews.com/return-to-tranquility-base-first/" >🔗</a> **[SpaceNews]** Return to Tranquility Base first
 
 
@@ -177,12 +180,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/07/house-and-senate-appropriators-look-to-cut-nasa-funding" >🔗</a> **[The Launch Pad]** House & Senate Appropriators Look To Cut NASA Funding
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-july-3-16-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: July 3-16, 2023
+
+
+- <a href="https://europeanspaceflight.substack.com/p/a-little-boost-goes-a-long-way" >🔗</a> **[European Spaceflight]** A little Boost! goes a long way
+
 
 - <a href="https://www.planetary.org/the-downlink/speedy-spacecraft-and-pretty-pics" >🔗</a> **[Planetary Society]** Speedy spacecraft and pretty pics
 
@@ -208,16 +214,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.substack.com/p/what-does-the-future-hold-for-the" >🔗</a> **[European Spaceflight]** What does the future hold for the Guiana Space Center?
 
 
-- <a href="https://www.planetary.org/the-downlink/searching-the-skies-to-keep-us-all-alive" >🔗</a> **[Planetary Society]** Searching the skies to keep us all alive
-
-
-- <a href="https://www.planetary.org/articles/whats-going-on-with-mars-sample-return" >🔗</a> **[Planetary Society]** What’s going on with Mars Sample Return?
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230717T141452">2023-07-17 14:14:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230717T151646">2023-07-17 15:16:46 UTC</a>
   <br>
 </div>
