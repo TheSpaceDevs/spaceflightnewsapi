@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/uk-parliament-recommends-simplifying-launch-licensing-process" >🔗</a> **[The Launch Pad]** UK Parliament Recommends Simplifying Launch Licensing Process
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/virgin-galactic-announces-galactic-02-crew" >🔗</a> **[The Launch Pad]** Virgin Galactic Announces Galactic 02 Crew
+
+
+- <a href="https://www.nasaspaceflight.com/2023/07/launch-roundup-071723/" >🔗</a> **[NASASpaceflight]** Launch Roundup: Rocket Lab to conduct Electron reuse attempt, SpaceX to fly two Starlink v2 missions
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-climate-work-in-wake-of-record-high-temps" >🔗</a> **[NASA]** NASA to Discuss Climate Work in Wake of Record High Temps
+
+
 - <a href="https://spacepolicyonline.com/news/nasa-marshall-center-director-jody-singer-to-retire/" >🔗</a> **[SpacePolicyOnline.com]** NASA-Marshall Center Director Jody Singer to Retire
 
 
@@ -166,22 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/aed29ce0-d4e3-4177-b286-d186c7b21354" >🚀</a> **Saturn V | Apollo 11** from Kennedy Space Center, FL, USA
 
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/china-formalizes-crew-lunar-landing-mission-plans" >🔗</a> **[The Launch Pad]** China Formalizes Crew Lunar Landing Mission Plans
-
-
-- <a href="https://www.teslarati.com/spacex-falcon-9-b1060-joins-16-launch-club/" >🔗</a> **[Teslarati]** Another SpaceX Falcon 9 joins the 16 Launch Club
-
-
-  - <a href="https://go4liftoff.com/launch/id/885ceb2a-bdf3-427b-9e98-ecfbd04d4e01" >🚀</a> **Falcon 9 Block 5 | Starlink Group 5-15** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://arstechnica.com/space/2023/07/former-astronaut-says-its-extremely-important-to-study-artificial-gravity/" >🔗</a> **[Arstechnica]** Former astronaut says it’s “extremely important” to study artificial gravity
-
-
-- <a href="https://spacenews.com/china-sets-out-preliminary-crewed-lunar-landing-plan/" >🔗</a> **[SpaceNews]** China sets out preliminary crewed lunar landing plan
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230717T211300">2023-07-17 21:13:00 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230717T221322">2023-07-17 22:13:22 UTC</a>
   <br>
 </div>
