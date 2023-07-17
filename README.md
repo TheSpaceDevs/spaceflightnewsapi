@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/return-to-tranquility-base-first/" >🔗</a> **[SpaceNews]** Return to Tranquility Base first
+
+
 - <a href="https://spacenews.com/u-k-parliament-committee-recommends-streamlining-launch-licensing/" >🔗</a> **[SpaceNews]** U.K. Parliament committee recommends streamlining launch licensing
 
 
@@ -175,13 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/house-and-senate-appropriators-look-to-cut-nasa-funding" >🔗</a> **[The Launch Pad]** House & Senate Appropriators Look To Cut NASA Funding
-
-
-- <a href="https://arstechnica.com/space/2023/07/india-takes-a-critical-first-step-toward-a-second-attempt-to-land-on-the-moon/" >🔗</a> **[Arstechnica]** India takes a critical first step toward a second attempt to land on the Moon
-
-
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
-
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230717T123430">2023-07-17 12:34:30 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230717T132547">2023-07-17 13:25:47 UTC</a>
   <br>
 </div>
