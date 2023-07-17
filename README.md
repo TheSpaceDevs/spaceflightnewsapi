@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-marshall-center-director-to-retire-after-38-years-of-service" >🔗</a> **[NASA]** NASA Marshall Center Director to Retire After 38 Years of Service
+
+
+- <a href="https://www.cnbc.com/2023/07/17/space-investing-q2-report-signs-of-stabilizing.html" >🔗</a> **[CNBC]** Private investment in space firms shows ‘signs of stabilization’ in Q2 after steady decline
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/54_years_ago_today_apollo_11_continues_lunar_transit" >🔗</a> **[The Launch Pad]** 54 Years Ago Today, Apollo 11 soars towards The Moon
 
 
@@ -168,12 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-july-16-22-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy July 16-22, 2023
-
-
-- <a href="https://www.nasaspaceflight.com/2023/07/moon-to-mars-science-missions/" >🔗</a> **[NASASpaceflight]** Three ongoing missions study human side of Moon and Mars missions
-
-
-- <a href="https://spacenews.com/industry-offers-wish-list-for-commercial-space-legislation/" >🔗</a> **[SpaceNews]** Industry offers wish list for commercial space legislation
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230717T162109">2023-07-17 16:21:09 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230717T171349">2023-07-17 17:13:49 UTC</a>
   <br>
 </div>
