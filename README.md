@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/u-k-parliament-committee-recommends-streamlining-launch-licensing/" >🔗</a> **[SpaceNews]** U.K. Parliament committee recommends streamlining launch licensing
+
+
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-july-16-22-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy July 16-22, 2023
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
 
-
-
-- <a href="https://spacenews.com/house-and-senate-appropriators-cut-nasas-budget/" >🔗</a> **[SpaceNews]** House and Senate appropriators cut NASA’s budget
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230717T082043">2023-07-17 08:20:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230717T091610">2023-07-17 09:16:10 UTC</a>
   <br>
 </div>
