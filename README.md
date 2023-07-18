@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-discutir-su-labor-en-materia-clim-tica-tras-temperaturas-record" >🔗</a> **[NASA]** NASA discutirá su labor en materia climática tras temperaturas record
+
+
 - <a href="https://www.teslarati.com/rocket-lab-launches-7-satellites-recovers-first-stage-booster/" >🔗</a> **[Teslarati]** Rocket Lab launches 7 satellites, recovers first stage booster
 
 
@@ -189,9 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-to-discuss-climate-work-in-wake-of-record-high-temps" >🔗</a> **[NASA]** NASA to Discuss Climate Work in Wake of Record High Temps
 
 
-- <a href="https://spacepolicyonline.com/news/nasa-marshall-center-director-jody-singer-to-retire/" >🔗</a> **[SpacePolicyOnline.com]** NASA-Marshall Center Director Jody Singer to Retire
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230718T171313">2023-07-18 17:13:13 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230718T181920">2023-07-18 18:19:20 UTC</a>
   <br>
 </div>
