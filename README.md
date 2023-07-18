@@ -155,7 +155,19 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/07/virgin-galactic-announces-galactic-02-crew" >🔗</a> **[The Launch Pad]** Virgin Galactic Announces Galactic 02 Crew
 
 
+  - <a href="https://go4liftoff.com/launch/id/6229654f-e7ea-4d97-80f7-0195161e8645" >🚀</a> **SpaceShipTwo | Galactic 02** from Air launch to Suborbital flight
+
+
+
 - <a href="https://www.nasaspaceflight.com/2023/07/launch-roundup-071723/" >🔗</a> **[NASASpaceflight]** Launch Roundup: Rocket Lab conducts Electron reuse attempt, SpaceX to fly two Starlink v2 missions
+
+
+  - <a href="https://go4liftoff.com/launch/id/e2651bb4-c42c-4fd8-b11a-bf7df7036c89" >🚀</a> **Electron | Baby Come Back** from Onenui Station, Mahia Peninsula, New Zealand
+
+  - <a href="https://go4liftoff.com/launch/id/9e94b0b7-d88b-4cdf-9793-acdec5850613" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-15** from Vandenberg SFB, CA, USA
+
+  - <a href="https://go4liftoff.com/launch/id/c407b340-49e6-447a-b872-8441618f0ec7" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-6** from Cape Canaveral, FL, USA
+
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-to-discuss-climate-work-in-wake-of-record-high-temps" >🔗</a> **[NASA]** NASA to Discuss Climate Work in Wake of Record High Temps
@@ -214,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230718T071401">2023-07-18 07:14:01 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230718T081919">2023-07-18 08:19:19 UTC</a>
   <br>
 </div>
