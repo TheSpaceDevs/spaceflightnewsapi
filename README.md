@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/young-space-firms-are-driving-acquisition-activity/" >🔗</a> **[SpaceNews]** Young space firms are driving acquisition activity
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/uk-parliament-recommends-simplifying-launch-licensing-process" >🔗</a> **[The Launch Pad]** UK Parliament Recommends Simplifying Launch Licensing Process
 
 
@@ -171,13 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/07/17/space-investing-q2-report-signs-of-stabilizing.html" >🔗</a> **[CNBC]** Private investment in space firms shows ‘signs of stabilization’ in Q2 after steady decline
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/54_years_ago_today_apollo_11_continues_lunar_transit" >🔗</a> **[The Launch Pad]** 54 Years Ago Today, Apollo 11 soars towards The Moon
-
-
-  - <a href="https://go4liftoff.com/launch/id/aed29ce0-d4e3-4177-b286-d186c7b21354" >🚀</a> **Saturn V | Apollo 11** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230717T231442">2023-07-17 23:14:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230718T015106">2023-07-18 01:51:06 UTC</a>
   <br>
 </div>
