@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/rocket-lab-launches-7-satellites-recovers-first-stage-booster/" >🔗</a> **[Teslarati]** Rocket Lab launches 7 satellites, recovers first stage booster
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/starlink_sales_begin_in_kenya" >🔗</a> **[The Launch Pad]** Starlink brings Wifi to Kenya
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-maintains-a-for-investing-in-small-businesses" >🔗</a> **[NASA]** NASA Maintains ‘A’ for Investing in Small Businesses
+
+
 - <a href="https://spacenews.com/electron-launches-seven-smallsats-in-latest-step-towards-reusability/" >🔗</a> **[SpaceNews]** Electron launches seven smallsats in latest step towards reusability
 
 
@@ -177,15 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/nasa-marshall-center-director-jody-singer-to-retire/" >🔗</a> **[SpacePolicyOnline.com]** NASA-Marshall Center Director Jody Singer to Retire
-
-
-- <a href="https://spacenews.com/lightridge-acquires-space-electronics-supplier-trident-systems/" >🔗</a> **[SpaceNews]** LightRidge acquires space electronics supplier Trident Systems
-
-
-- <a href="http://www.nasa.gov/press-release/wyoming-students-to-hear-from-nasa-astronaut-aboard-space-station" >🔗</a> **[NASA]** Wyoming Students to Hear from NASA Astronaut Aboard Space Station
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-marshall-center-director-to-retire-after-38-years-of-service" >🔗</a> **[NASA]** NASA Marshall Center Director to Retire After 38 Years of Service
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230718T141404">2023-07-18 14:14:04 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230718T162104">2023-07-18 16:21:04 UTC</a>
   <br>
 </div>
