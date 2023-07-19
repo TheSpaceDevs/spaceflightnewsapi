@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/07/us-space-commander-touts-powerful-role-of-megaconstellations-in-ukraine/" >🔗</a> **[Arstechnica]** US space commander touts “powerful” role of megaconstellations in Ukraine
+
+
+- <a href="https://mars.nasa.gov/news/9441/" >🔗</a> **[NASA]** Ancient River Is Helping NASA's Perseverance Mars Rover Do Its Work
+
+
 - <a href="https://spacenews.com/planetiq-wins-60-million-noaa-contract/" >🔗</a> **[SpaceNews]** PlanetiQ wins $60 million NOAA contract
 
 
@@ -176,16 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/venezuela-signs-up-to-chinas-moon-base-initiative/" >🔗</a> **[SpaceNews]** Venezuela signs up to China’s moon base initiative
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-discutir-su-labor-en-materia-clim-tica-tras-temperaturas-record" >🔗</a> **[NASA]** NASA discutirá su labor en materia climática tras temperaturas record
-
-
-- <a href="https://www.teslarati.com/rocket-lab-launches-7-satellites-recovers-first-stage-booster/" >🔗</a> **[Teslarati]** Rocket Lab launches 7 satellites, recovers first stage booster
-
-
-  - <a href="https://go4liftoff.com/launch/id/e2651bb4-c42c-4fd8-b11a-bf7df7036c89" >🚀</a> **Electron | Baby Come Back** from Onenui Station, Mahia Peninsula, New Zealand
-
 
 
 
@@ -226,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T171245">2023-07-19 17:12:45 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T181737">2023-07-19 18:17:37 UTC</a>
   <br>
 </div>
