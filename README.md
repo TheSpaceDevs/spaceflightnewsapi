@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/op-ed-britain-has-all-the-attributes-to-create-a-world-leading-space-economy/" >🔗</a> **[SpaceNews]** Op-ed | Britain has all the attributes to create a world-leading space economy
+
+
 - <a href="https://spacenews.com/space-rco-backs-hyperspace-challenge-2023-accelerator/" >🔗</a> **[SpaceNews]** Space RCO backs Hyperspace Challenge 2023 accelerator
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/starlink_sales_begin_in_kenya" >🔗</a> **[The Launch Pad]** Starlink brings Wifi to Kenya
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-maintains-a-for-investing-in-small-businesses" >🔗</a> **[NASA]** NASA Maintains ‘A’ for Investing in Small Businesses
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T151514">2023-07-19 15:15:14 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T161823">2023-07-19 16:18:23 UTC</a>
   <br>
 </div>
