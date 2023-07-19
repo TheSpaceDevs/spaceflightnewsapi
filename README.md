@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/insurers-brace-for-viasat-3-claim/" >🔗</a> **[SpaceNews]** Insurers brace for ViaSat-3 claim
+
+
 - <a href="https://www.teslarati.com/chinas-landspace-zhuque-2-rocket-wins-methane-fueled-rocket-race/" >🔗</a> **[Teslarati]** China’s LandSpace Zhuque-2 Rocket wins methane-fueled rocket race
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/e2651bb4-c42c-4fd8-b11a-bf7df7036c89" >🚀</a> **Electron | Baby Come Back** from Onenui Station, Mahia Peninsula, New Zealand
 
-
-
-- <a href="https://spacenews.com/young-space-firms-are-driving-acquisition-activity/" >🔗</a> **[SpaceNews]** Young space firms are driving acquisition activity
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T081741">2023-07-19 08:17:41 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T101508">2023-07-19 10:15:08 UTC</a>
   <br>
 </div>
