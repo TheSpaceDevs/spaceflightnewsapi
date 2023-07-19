@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/insurers-brace-for-viasat-3-claim/" >🔗</a> **[SpaceNews]** Insurers brace for ViaSat-3 claim
 
 
+  - <a href="https://go4liftoff.com/launch/id/8b1067dd-81c6-4bc3-b0f1-45f78963716f" >🚀</a> **Falcon Heavy | ViaSat-3 Americas & Others** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://www.teslarati.com/chinas-landspace-zhuque-2-rocket-wins-methane-fueled-rocket-race/" >🔗</a> **[Teslarati]** China’s LandSpace Zhuque-2 Rocket wins methane-fueled rocket race
 
 
@@ -226,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T101508">2023-07-19 10:15:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T122823">2023-07-19 12:28:23 UTC</a>
   <br>
 </div>
