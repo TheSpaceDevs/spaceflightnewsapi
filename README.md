@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-force-changed-launch-procurement-plan-due-to-concerns-about-capacity/" >🔗</a> **[SpaceNews]** Space Force changed launch procurement plan due to concerns about capacity
+
+
 - <a href="https://www.teslarati.com/spacex-to-launch-15-version-2-mini-starlinks-from-west-coast/" >🔗</a> **[Teslarati]** SpaceX to launch 15 Version 2 mini Starlinks from West Coast
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan Satellite Launch Center, People's Republic of China
 
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/venezuela-joins-china-international-lunar-research-station" >🔗</a> **[The Launch Pad]** Venezuela Joins China's International Lunar Research Station
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T211201">2023-07-19 21:12:01 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T221302">2023-07-19 22:13:02 UTC</a>
   <br>
 </div>
