@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/chinas-landspace-zhuque-2-rocket-wins-methane-fueled-rocket-race/" >🔗</a> **[Teslarati]** China’s LandSpace Zhuque-2 Rocket wins methane-fueled rocket race
 
 
+  - <a href="https://go4liftoff.com/launch/id/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0" >🚀</a> **Zhuque-2 | Flight 2** from Jiuquan Satellite Launch Center, People's Republic of China
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/venezuela-joins-china-international-lunar-research-station" >🔗</a> **[The Launch Pad]** Venezuela Joins China's International Lunar Research Station
 
 
@@ -162,6 +166,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.teslarati.com/rocket-lab-launches-7-satellites-recovers-first-stage-booster/" >🔗</a> **[Teslarati]** Rocket Lab launches 7 satellites, recovers first stage booster
+
+
+  - <a href="https://go4liftoff.com/launch/id/e2651bb4-c42c-4fd8-b11a-bf7df7036c89" >🚀</a> **Electron | Baby Come Back** from Onenui Station, Mahia Peninsula, New Zealand
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/starlink_sales_begin_in_kenya" >🔗</a> **[The Launch Pad]** Starlink brings Wifi to Kenya
@@ -218,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T061829">2023-07-19 06:18:29 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T071304">2023-07-19 07:13:04 UTC</a>
   <br>
 </div>
