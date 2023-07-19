@@ -146,6 +146,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-to-launch-15-version-2-mini-starlinks-from-west-coast/" >🔗</a> **[Teslarati]** SpaceX to launch 15 Version 2 mini Starlinks from West Coast
+
+
+  - <a href="https://go4liftoff.com/launch/id/9e94b0b7-d88b-4cdf-9793-acdec5850613" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-15** from Vandenberg SFB, CA, USA
+
+
+
+- <a href="https://europeanspaceflight.com/ohb-to-head-up-90m-odins-eye-space-based-missile-early-warning-project/" >🔗</a> **[European Spaceflight]** OHB to Head Up 90M ODIN’S EYE Space-Based Missile Early Warning Project
+
+
 - <a href="https://arstechnica.com/space/2023/07/us-space-commander-touts-powerful-role-of-megaconstellations-in-ukraine/" >🔗</a> **[Arstechnica]** US military leans into megaconstellations after their “resiliency” in Ukraine
 
 
@@ -176,12 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/venezuela-joins-china-international-lunar-research-station" >🔗</a> **[The Launch Pad]** Venezuela Joins China's International Lunar Research Station
-
-
-- <a href="https://spacenews.com/rocket-lab-launch-enables-telesat-to-restart-low-earth-orbit-demonstrations/" >🔗</a> **[SpaceNews]** Rocket Lab launch enables Telesat to restart LEO demonstrations
-
-
-- <a href="https://spacenews.com/venezuela-signs-up-to-chinas-moon-base-initiative/" >🔗</a> **[SpaceNews]** Venezuela signs up to China’s moon base initiative
 
 
 
@@ -222,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T191126">2023-07-19 19:11:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230719T201420">2023-07-19 20:14:20 UTC</a>
   <br>
 </div>
