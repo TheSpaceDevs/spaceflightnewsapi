@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://mars.nasa.gov/news/9442/" >🔗</a> **[NASA]** NASA's Perseverance Rover Sees Mars in a New Light
+
+
 - <a href="https://spacenews.com/thermal-data-startup-constellr-raises-17-million-euros/" >🔗</a> **[SpaceNews]** Thermal data startup constellr raises 17 million euros
 
 
@@ -171,13 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/space-force-to-add-third-nssl-lane-2-provider-but-limited-to-7-launches/" >🔗</a> **[SpacePolicyOnline.com]** Space Force To Add Third NSSL Lane 2 Provider, But Limited to 7 Launches
-
-
-- <a href="https://spacenews.com/esa-preparing-for-assisted-reentry-of-aeolus-spacecraft/" >🔗</a> **[SpaceNews]** ESA preparing for “assisted reentry” of Aeolus spacecraft
-
-
-  - <a href="https://go4liftoff.com/launch/id/68ab2654-f5ed-431f-a2cc-dbb392b4d7d8" >🚀</a> **Vega | ADM-Aeolus** from Kourou, French Guiana
-
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230720T171226">2023-07-20 17:12:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230720T181807">2023-07-20 18:18:07 UTC</a>
   <br>
 </div>
