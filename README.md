@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/07/once-again-the-us-public-says-nasa-should-prioritize-asteroid-defense/" >🔗</a> **[Arstechnica]** Once again, the US public says NASA should prioritize asteroid defense
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/nasa-lunar-fission-power-system-faces-nasa-funding-cuts" >🔗</a> **[The Launch Pad]** NASA Lunar Fission Power System Faces NASA Funding Cuts
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/esa-prepares-to-deorbit-aeolus-spacecraft" >🔗</a> **[The Launch Pad]** ESA Prepares To DeOrbit Aeolus Spacecraft
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/telesat-to-restart-leo-satellite-demo-thanks-to-rocketlab-launch" >🔗</a> **[The Launch Pad]** Telesat To Restart LEO Satellite Demo Thanks To RocketLab Launch
+
+
 - <a href="https://spacenews.com/nasa-plans-for-lunar-fission-power-systems-face-fiscal-challenges/" >🔗</a> **[SpaceNews]** NASA plans for lunar fission power systems face fiscal challenges
 
 
@@ -170,18 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/ohb-to-head-up-90m-odins-eye-space-based-missile-early-warning-project/" >🔗</a> **[European Spaceflight]** OHB to Head Up 90M ODIN’S EYE Space-Based Missile Early Warning Project
-
-
-- <a href="https://arstechnica.com/space/2023/07/us-space-commander-touts-powerful-role-of-megaconstellations-in-ukraine/" >🔗</a> **[Arstechnica]** US military leans into megaconstellations after their “resiliency” in Ukraine
-
-
-- <a href="https://mars.nasa.gov/news/9441/" >🔗</a> **[NASA]** Ancient River Is Helping NASA's Perseverance Mars Rover Do Its Work
-
-
-- <a href="https://spacenews.com/planetiq-wins-60-million-noaa-contract/" >🔗</a> **[SpaceNews]** PlanetiQ wins $60 million NOAA contract
-
-
-- <a href="https://spacenews.com/op-ed-britain-has-all-the-attributes-to-create-a-world-leading-space-economy/" >🔗</a> **[SpaceNews]** Op-ed | Britain has all the attributes to create a world-leading space economy
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230720T131827">2023-07-20 13:18:27 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230720T151451">2023-07-20 15:14:51 UTC</a>
   <br>
 </div>
