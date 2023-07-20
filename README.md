@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-force-using-anduril-software-to-integrate-u-s-space-surveillance-sensors/" >🔗</a> **[SpaceNews]** Space Force using Anduril software to integrate U.S. space surveillance sensors
+
+
+- <a href="https://www.teslarati.com/canoo-delivers-crew-transportation-vehicles-nasa/" >🔗</a> **[Teslarati]** Canoo delivers three Crew Transportation Vehicles to NASA
+
+
+- <a href="https://europeanspaceflight.com/esas-space-rider-spacecraft-reaches-key-milestone/" >🔗</a> **[European Spaceflight]** ESA’s Space Rider Spacecraft Reaches Key Milestone
+
+
 - <a href="https://mars.nasa.gov/news/9442/" >🔗</a> **[NASA]** NASA's Perseverance Rover Sees Mars in a New Light
 
 
@@ -165,15 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/esa-prepares-to-deorbit-aeolus-spacecraft" >🔗</a> **[The Launch Pad]** ESA Prepares To DeOrbit Aeolus Spacecraft
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/telesat-to-restart-leo-satellite-demo-thanks-to-rocketlab-launch" >🔗</a> **[The Launch Pad]** Telesat To Restart LEO Satellite Demo Thanks To RocketLab Launch
-
-
-- <a href="https://spacenews.com/nasa-plans-for-lunar-fission-power-systems-face-fiscal-challenges/" >🔗</a> **[SpaceNews]** NASA plans for lunar fission power systems face fiscal challenges
-
-
-- <a href="https://spacepolicyonline.com/news/space-force-to-add-third-nssl-lane-2-provider-but-limited-to-7-launches/" >🔗</a> **[SpacePolicyOnline.com]** Space Force To Add Third NSSL Lane 2 Provider, But Limited to 7 Launches
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230720T181807">2023-07-20 18:18:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230720T191059">2023-07-20 19:10:59 UTC</a>
   <br>
 </div>
