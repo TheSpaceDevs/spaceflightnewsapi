@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nasa-plans-for-lunar-fission-power-systems-face-fiscal-challenges/" >🔗</a> **[SpaceNews]** NASA plans for lunar fission power systems face fiscal challenges
+
+
 - <a href="https://spacepolicyonline.com/news/space-force-to-add-third-nssl-lane-2-provider-but-limited-to-7-launches/" >🔗</a> **[SpacePolicyOnline.com]** Space Force To Add Third NSSL Lane 2 Provider, But Limited to 7 Launches
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/op-ed-britain-has-all-the-attributes-to-create-a-world-leading-space-economy/" >🔗</a> **[SpaceNews]** Op-ed | Britain has all the attributes to create a world-leading space economy
-
-
-- <a href="https://spacenews.com/space-rco-backs-hyperspace-challenge-2023-accelerator/" >🔗</a> **[SpaceNews]** Space RCO backs Hyperspace Challenge 2023 accelerator
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230720T111142">2023-07-20 11:11:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230720T122950">2023-07-20 12:29:50 UTC</a>
   <br>
 </div>
