@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/07/20/investing-in-space-how-corporate-vc-is-a-double-edged-sword.html" >🔗</a> **[CNBC]** Investing in Space: How corporate VC is a double-edged sword
+
+
 - <a href="https://arstechnica.com/space/2023/07/once-again-the-us-public-says-nasa-should-prioritize-asteroid-defense/" >🔗</a> **[Arstechnica]** Once again, the US public says NASA should prioritize asteroid defense
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/9e94b0b7-d88b-4cdf-9793-acdec5850613" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-15** from Vandenberg SFB, CA, USA
 
-
-
-- <a href="https://europeanspaceflight.com/ohb-to-head-up-90m-odins-eye-space-based-missile-early-warning-project/" >🔗</a> **[European Spaceflight]** OHB to Head Up 90M ODIN’S EYE Space-Based Missile Early Warning Project
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230720T151451">2023-07-20 15:14:51 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230720T161836">2023-07-20 16:18:36 UTC</a>
   <br>
 </div>
