@@ -152,6 +152,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/esa-preparing-for-assisted-reentry-of-aeolus-spacecraft/" >🔗</a> **[SpaceNews]** ESA preparing for “assisted reentry” of Aeolus spacecraft
 
 
+  - <a href="https://go4liftoff.com/launch/id/68ab2654-f5ed-431f-a2cc-dbb392b4d7d8" >🚀</a> **Vega | ADM-Aeolus** from Kourou, French Guiana
+
+
+
 - <a href="https://spacenews.com/space-force-changed-launch-procurement-plan-due-to-concerns-about-capacity/" >🔗</a> **[SpaceNews]** Space Force changed launch procurement plan due to concerns about capacity
 
 
@@ -218,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230720T071305">2023-07-20 07:13:05 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230720T081758">2023-07-20 08:17:58 UTC</a>
   <br>
 </div>
