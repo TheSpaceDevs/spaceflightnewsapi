@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/el-administrador-de-nasa-viajar-a-sudam-rica-hablar-de-cooperaci-n" >🔗</a> **[NASA]** El administrador de NASA viajará a Sudamérica, hablará de cooperación
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-administrator-to-head-to-south-america-discuss-space-cooperation" >🔗</a> **[NASA]** NASA Administrator to Head to South America; Discuss Space Cooperation
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/nasa-begins-next-phase-of-moon-to-mars-exploration-architecture-development" >🔗</a> **[The Launch Pad]** NASA Begins Next Phase Of Moon to Mars Exploration Architecture Development
 
 
@@ -168,12 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/nasa-moving-into-next-phase-of-exploration-architecture-review/" >🔗</a> **[SpaceNews]** NASA moving into next phase of exploration architecture review
-
-
-- <a href="https://spacepolicyonline.com/news/pew-poll-americans-wants-space-program-to-focus-on-asteroids-and-climate-more-than-human-spaceflight/" >🔗</a> **[SpacePolicyOnline.com]** Pew Poll: Americans Want Space Program to Focus on Asteroids and Climate More Than Human Spaceflight
-
-
-- <a href="https://www.nasaspaceflight.com/2023/07/booster-9-rollout-static-fire/" >🔗</a> **[NASASpaceflight]** Booster 9 rolls to the upgraded Starbase pad ahead of Static Fire test
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T151419">2023-07-21 15:14:19 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T161815">2023-07-21 16:18:15 UTC</a>
   <br>
 </div>
