@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/nasa-begins-next-phase-of-moon-to-mars-exploration-architecture-development" >🔗</a> **[The Launch Pad]** NASA Begins Next Phase Of Moon to Mars Exploration Architecture Development
+
+
+- <a href="https://www.cnbc.com/2023/07/21/astranis-alaska-internet-satellite-malfunctions-backup-planned.html" >🔗</a> **[CNBC]** Astranis internet satellite malfunctions before beginning Alaska service, backup planned for spring
+
+
 - <a href="https://spacenews.com/first-astranis-satellite-sidelined-by-post-deployment-glitch/" >🔗</a> **[SpaceNews]** First Astranis satellite sidelined by post-deployment glitch
 
 
@@ -170,15 +176,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/07/booster-9-rollout-static-fire/" >🔗</a> **[NASASpaceflight]** Booster 9 rolls to the upgraded Starbase pad ahead of Static Fire test
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-white-house-advance-historically-black-scholar-recognition" >🔗</a> **[NASA]** NASA, White House Advance Historically Black Scholar Recognition
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-awards-integrated-mission-operations-contract-iii" >🔗</a> **[NASA]** NASA Awards Integrated Mission Operations Contract III
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/the-downlink/thats-a-mare" >🔗</a> **[Planetary Society]** That’s a mare
+
 
 - <a href="https://www.planetary.org/articles/the-senate-threatens-to-cancel-mars-sample-return" >🔗</a> **[Planetary Society]** The U.S. Senate threatens to cancel Mars Sample Return
 
@@ -207,13 +210,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/sci-tech/growing-veggies-moon-mars" >🔗</a> **[Planetary Society]** Growing veggies for the Moon and Mars
 
 
-- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-june-26-july-2-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: June 26-July 2, 2023
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T141236">2023-07-21 14:12:36 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T151419">2023-07-21 15:14:19 UTC</a>
   <br>
 </div>
