@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/first-astranis-satellite-sidelined-by-post-deployment-glitch/" >🔗</a> **[SpaceNews]** First Astranis satellite sidelined by post-deployment glitch
+
+
+- <a href="http://www.nasa.gov/press-release/louisiana-students-to-hear-from-nasa-astronauts-aboard-space-station" >🔗</a> **[NASA]** Louisiana Students to Hear from NASA Astronauts Aboard Space Station
+
+
+- <a href="https://www.cnbc.com/2023/07/21/amazon-kuiper-to-build-satellite-prep-facility-in-florida.html" >🔗</a> **[CNBC]** Amazon to build $120 million facility in Florida to prep Kuiper internet satellites for launch
+
+
 - <a href="https://spacenews.com/nasa-emphasizes-climate-science-role-amid-fiscal-and-partisan-challenges/" >🔗</a> **[SpaceNews]** NASA emphasizes climate science role amid fiscal and partisan challenges
 
 
@@ -165,15 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-awards-integrated-mission-operations-contract-iii" >🔗</a> **[NASA]** NASA Awards Integrated Mission Operations Contract III
-
-
-- <a href="https://spacenews.com/space-force-using-anduril-software-to-integrate-u-s-space-surveillance-sensors/" >🔗</a> **[SpaceNews]** Space Force using Anduril software to integrate U.S. space surveillance sensors
-
-
-- <a href="https://www.teslarati.com/canoo-delivers-crew-transportation-vehicles-nasa/" >🔗</a> **[Teslarati]** Canoo delivers three Crew Transportation Vehicles to NASA
-
-
-- <a href="https://europeanspaceflight.com/esas-space-rider-spacecraft-reaches-key-milestone/" >🔗</a> **[European Spaceflight]** ESA’s Space Rider Spacecraft Reaches Key Milestone
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T131722">2023-07-21 13:17:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T141236">2023-07-21 14:12:36 UTC</a>
   <br>
 </div>
