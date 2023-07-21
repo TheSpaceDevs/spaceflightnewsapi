@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-booster-9-orbital-launch-mount/" >🔗</a> **[Teslarati]** SpaceX moves Booster 9 to the Orbital Launch Mount
+
+
 - <a href="http://www.nasa.gov/press-release/el-administrador-de-nasa-viajar-a-sudam-rica-hablar-de-cooperaci-n" >🔗</a> **[NASA]** El administrador de NASA viajará a Sudamérica, hablará de cooperación
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://arstechnica.com/space/2023/07/rocket-report-space-force-to-pick-three-pythom-strikes-back/" >🔗</a> **[Arstechnica]** Rocket Report: Space Force to pick three; Pythom strikes back
-
-
-- <a href="https://spacenews.com/nasa-moving-into-next-phase-of-exploration-architecture-review/" >🔗</a> **[SpaceNews]** NASA moving into next phase of exploration architecture review
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T171229">2023-07-21 17:12:29 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T181806">2023-07-21 18:18:06 UTC</a>
   <br>
 </div>
