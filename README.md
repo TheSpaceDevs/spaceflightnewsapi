@@ -149,7 +149,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/nasa-moving-into-next-phase-of-exploration-architecture-review/" >🔗</a> **[SpaceNews]** NASA moving into next phase of exploration architecture review
 
 
-- <a href="https://spacepolicyonline.com/news/pew-poll-americans-wants-space-program-to-focus-on-asteroids-and-climate-more-than-human-spaceflight/" >🔗</a> **[SpacePolicyOnline.com]** Pew Poll: Americans Wants Space Program to Focus on Asteroids and Climate More Than Human Spaceflight
+- <a href="https://spacepolicyonline.com/news/pew-poll-americans-wants-space-program-to-focus-on-asteroids-and-climate-more-than-human-spaceflight/" >🔗</a> **[SpacePolicyOnline.com]** Pew Poll: Americans Want Space Program to Focus on Asteroids and Climate More Than Human Spaceflight
 
 
 - <a href="https://www.nasaspaceflight.com/2023/07/booster-9-rollout-static-fire/" >🔗</a> **[NASASpaceflight]** Booster 9 rolls to the upgraded Starbase pad ahead of Static Fire test
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T031415">2023-07-21 03:14:15 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T041644">2023-07-21 04:16:44 UTC</a>
   <br>
 </div>
