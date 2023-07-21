@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/amazon-picks-kennedy-space-center-for-project-kuiper-processing-facility/" >🔗</a> **[SpaceNews]** Amazon picks Kennedy Space Center for Project Kuiper processing facility
+
+
 - <a href="https://arstechnica.com/space/2023/07/a-promising-internet-satellite-is-rendered-useless-by-power-supply-issues/" >🔗</a> **[Arstechnica]** A promising Internet satellite is rendered useless by power supply issues
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/07/21/amazon-kuiper-to-build-satellite-prep-facility-in-florida.html" >🔗</a> **[CNBC]** Amazon to build $120 million facility in Florida to prep Kuiper internet satellites for launch
-
-
-- <a href="https://spacenews.com/nasa-emphasizes-climate-science-role-amid-fiscal-and-partisan-challenges/" >🔗</a> **[SpaceNews]** NASA emphasizes climate science role amid fiscal and partisan challenges
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T201401">2023-07-21 20:14:01 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T211200">2023-07-21 21:12:00 UTC</a>
   <br>
 </div>
