@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nasa-emphasizes-climate-science-role-amid-fiscal-and-partisan-challenges/" >🔗</a> **[SpaceNews]** NASA emphasizes climate science role amid fiscal and partisan challenges
+
+
 - <a href="https://arstechnica.com/space/2023/07/rocket-report-space-force-to-pick-three-pythom-strikes-back/" >🔗</a> **[Arstechnica]** Rocket Report: Space Force to pick three; Pythom strikes back
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/esas-space-rider-spacecraft-reaches-key-milestone/" >🔗</a> **[European Spaceflight]** ESA’s Space Rider Spacecraft Reaches Key Milestone
-
-
-- <a href="https://mars.nasa.gov/news/9442/" >🔗</a> **[NASA]** NASA's Perseverance Rover Sees Mars in a New Light
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T111122">2023-07-21 11:11:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230721T122811">2023-07-21 12:28:11 UTC</a>
   <br>
 </div>
