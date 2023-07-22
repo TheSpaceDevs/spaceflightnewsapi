@@ -146,7 +146,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/07/nssl-phase-three-update/" >🔗</a> **[NASASpaceflight]** Space Force releases NSSL phase three second draft
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/first-astranis-satellite-suffers-deployment-glitch" >🔗</a> **[The Launch Pad]** First Astranis Satellite Suffers Deployment Glitch
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/amazon-to-open-new-project-kuiper-processing-facility-at-nasa-kennedy-space-center" >🔗</a> **[The Launch Pad]** Amazon To Open New Project Kuiper Processing Facility at NASA Kennedy Space Center
+
+
+- <a href="https://www.cnbc.com/2023/07/22/space-force-raises-the-stakes-in-nssl-race-for-military-launches.html" >🔗</a> **[CNBC]** Space Force raises the stakes as rocket companies compete for lucrative military missions
 
 
 - <a href="https://spacenews.com/chinese-startup-galactic-energy-sent-two-satellites-into-orbit-early-saturday-with-the-companys-sixth-consecutive-successful-launch/" >🔗</a> **[SpaceNews]** Galactic Energy registers sixth consecutive successful launch
@@ -165,15 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-administrator-to-head-to-south-america-discuss-space-cooperation" >🔗</a> **[NASA]** NASA Administrator to Head to South America; Discuss Space Cooperation
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/nasa-begins-next-phase-of-moon-to-mars-exploration-architecture-development" >🔗</a> **[The Launch Pad]** NASA Begins Next Phase Of Moon to Mars Exploration Architecture Development
-
-
-- <a href="https://www.cnbc.com/2023/07/21/astranis-alaska-internet-satellite-malfunctions-backup-planned.html" >🔗</a> **[CNBC]** Astranis internet satellite malfunctions before beginning Alaska service, backup planned for spring
-
-
-- <a href="https://spacenews.com/first-astranis-satellite-sidelined-by-post-deployment-glitch/" >🔗</a> **[SpaceNews]** First Astranis satellite sidelined by post-deployment glitch
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230722T131507">2023-07-22 13:15:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230722T141112">2023-07-22 14:11:12 UTC</a>
   <br>
 </div>
