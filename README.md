@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-launch-22-version-2-mini-starlink-satellites/" >🔗</a> **[Teslarati]** SpaceX to launch 22 Version 2 mini Starlink satellites
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/shenzhou-16-completes-first-spacewalk-aboard-tiangong-station" >🔗</a> **[The Launch Pad]** Shenzhou 16 Completes First Spacewalk Aboard Tiangong Station
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.teslarati.com/spacex-booster-9-orbital-launch-mount/" >🔗</a> **[Teslarati]** SpaceX moves Booster 9 to the Orbital Launch Mount
-
-
-- <a href="http://www.nasa.gov/press-release/el-administrador-de-nasa-viajar-a-sudam-rica-hablar-de-cooperaci-n" >🔗</a> **[NASA]** El administrador de NASA viajará a Sudamérica, hablará de cooperación
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230722T181613">2023-07-22 18:16:13 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230722T191023">2023-07-22 19:10:23 UTC</a>
   <br>
 </div>
