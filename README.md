@@ -146,7 +146,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://tlpnetwork.com/news/2023/07/gaganyaan_mission_moves_closer_to_spaceflight" >🔗</a> **[The Launch Pad]** Gaganyaan Mission Moves Forward towards first Domestic Crewed Mission for India
+- <a href="https://tlpnetwork.com/news/2023/07/gaganyaan_mission_moves_closer_to_spaceflight" >🔗</a> **[The Launch Pad]** ISRO Begins Gaganyaan Crew Capsule Recovery Trials With Indian Navy
 
 
 - <a href="https://spacenews.com/nasa-offers-details-on-commercial-space-capabilities-agreements/" >🔗</a> **[SpaceNews]** NASA offers details on commercial space capabilities agreements
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230723T161643">2023-07-23 16:16:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230723T171120">2023-07-23 17:11:20 UTC</a>
   <br>
 </div>
