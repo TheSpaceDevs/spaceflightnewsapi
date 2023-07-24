@@ -146,7 +146,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://tlpnetwork.com/news/2023/07/nasa_completes_first_artemis_2_launch_simulation" >🔗</a> **[The Launch Pad]** NASA completes the first Launch Simulation for Humanity's Return to The Moon
+- <a href="https://spacenews.com/maxar-to-begin-production-of-new-small-satellite-bus/" >🔗</a> **[SpaceNews]** Maxar to begin production of new small satellite bus
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/nasa_completes_first_artemis_2_launch_simulation" >🔗</a> **[The Launch Pad]** NASA Conducts First Artemis 2 Launch Simulation
 
 
 - <a href="https://spacenews.com/chinas-casic-to-begin-launching-vleo-satellites-in-december/" >🔗</a> **[SpaceNews]** China’s CASIC to begin launching VLEO satellites in December
@@ -183,13 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.nasaspaceflight.com/2023/07/nssl-phase-three-update/" >🔗</a> **[NASASpaceflight]** Space Force releases NSSL phase three second draft
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/first-astranis-satellite-suffers-deployment-glitch" >🔗</a> **[The Launch Pad]** First Astranis Satellite Suffers Deployment Glitch
-
-
-  - <a href="https://go4liftoff.com/launch/id/8b1067dd-81c6-4bc3-b0f1-45f78963716f" >🚀</a> **Falcon Heavy | ViaSat-3 Americas & Others** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230724T161824">2023-07-24 16:18:24 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230724T171248">2023-07-24 17:12:48 UTC</a>
   <br>
 </div>
