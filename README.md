@@ -149,7 +149,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/spacex-launches-next-batch-of-starlink-satellites/" >🔗</a> **[Teslarati]** SpaceX launches next batch of Starlink satellites
 
 
-- <a href="https://europeanspaceflight.com/maiaspace-reports-expenses-of-e349m-in-its-first-year-of-operation/" >🔗</a> **[European Spaceflight]** MaiaSpace Reports Expenses of €3,49M in its First Year of Operation
+- <a href="https://europeanspaceflight.com/maiaspace-reports-expenses-of-e349m-in-its-first-year-of-operation/" >🔗</a> **[European Spaceflight]** MaiaSpace Reports Expenses of €3.49M in its First Year of Operation
 
 
 - <a href="https://spacenews.com/startup-impulse-space-raises-45-million-in-series-a-round/" >🔗</a> **[SpaceNews]** Startup Impulse Space raises $45 million in Series A round
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230724T191121">2023-07-24 19:11:21 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230724T201402">2023-07-24 20:14:02 UTC</a>
   <br>
 </div>
