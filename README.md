@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/startup-impulse-space-raises-45-million-in-series-a-round/" >🔗</a> **[SpaceNews]** Startup Impulse Space raises $45 million in Series A round
+
+
 - <a href="https://spacenews.com/maxar-to-begin-production-of-new-small-satellite-bus/" >🔗</a> **[SpaceNews]** Maxar to begin production of new small satellite bus
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/2f8aff8b-85da-42bf-84eb-6d3b10184c44" >🚀</a> **Long March 2F/G | Shenzhou 16** from Jiuquan Satellite Launch Center, People's Republic of China
 
-
-
-- <a href="https://www.nasaspaceflight.com/2023/07/nssl-phase-three-update/" >🔗</a> **[NASASpaceflight]** Space Force releases NSSL phase three second draft
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230724T171248">2023-07-24 17:12:48 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230724T181922">2023-07-24 18:19:22 UTC</a>
   <br>
 </div>
