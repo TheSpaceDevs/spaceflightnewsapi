@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-launches-next-batch-of-starlink-satellites/" >🔗</a> **[Teslarati]** SpaceX launches next batch of Starlink satellites
+
+
+- <a href="https://europeanspaceflight.com/maiaspace-reports-expenses-of-e349m-in-its-first-year-of-operation/" >🔗</a> **[European Spaceflight]** MaiaSpace Reports Expenses of €3,49M in its First Year of Operation
+
+
 - <a href="https://spacenews.com/startup-impulse-space-raises-45-million-in-series-a-round/" >🔗</a> **[SpaceNews]** Startup Impulse Space raises $45 million in Series A round
 
 
@@ -172,20 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/nasa-offers-details-on-commercial-space-capabilities-agreements/" >🔗</a> **[SpaceNews]** NASA offers details on commercial space capabilities agreements
-
-
-- <a href="https://www.teslarati.com/spacex-launch-22-version-2-mini-starlink-satellites/" >🔗</a> **[Teslarati]** SpaceX to launch 22 Version 2 mini Starlink satellites
-
-
-  - <a href="https://go4liftoff.com/launch/id/c407b340-49e6-447a-b872-8441618f0ec7" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-6** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/shenzhou-16-completes-first-spacewalk-aboard-tiangong-station" >🔗</a> **[The Launch Pad]** Shenzhou 16 Completes First Spacewalk Aboard Tiangong Station
-
-
-  - <a href="https://go4liftoff.com/launch/id/2f8aff8b-85da-42bf-84eb-6d3b10184c44" >🚀</a> **Long March 2F/G | Shenzhou 16** from Jiuquan Satellite Launch Center, People's Republic of China
-
 
 
 
@@ -226,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230724T181922">2023-07-24 18:19:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230724T191121">2023-07-24 19:11:21 UTC</a>
   <br>
 </div>
