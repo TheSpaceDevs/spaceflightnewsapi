@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/thermal-data-startup-constellr-extends-seed-round-to-e17m/" >🔗</a> **[European Spaceflight]** Thermal Data Startup Constellr Extends Seed Round to €17M
+
+
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-july-23-29-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy July 23-29, 2023
 
 
@@ -189,13 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.cnbc.com/2023/07/22/space-force-raises-the-stakes-in-nssl-race-for-military-launches.html" >🔗</a> **[CNBC]** Space Force raises the stakes as rocket companies compete for lucrative military missions
 
 
-- <a href="https://spacenews.com/chinese-startup-galactic-energy-sent-two-satellites-into-orbit-early-saturday-with-the-companys-sixth-consecutive-successful-launch/" >🔗</a> **[SpaceNews]** Galactic Energy registers sixth consecutive successful launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/160d6bd1-4ac6-43bd-8284-12e457cde9d7" >🚀</a> **Ceres-1 | Qiankun-1 & Xingshidai‐16** from Jiuquan Satellite Launch Center, People's Republic of China
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230724T051347">2023-07-24 05:13:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230724T061910">2023-07-24 06:19:10 UTC</a>
   <br>
 </div>
