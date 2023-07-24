@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/chinas-casic-to-begin-launching-vleo-satellites-in-december/" >🔗</a> **[SpaceNews]** China’s CASIC to begin launching VLEO satellites in December
+
+
 - <a href="https://europeanspaceflight.com/thermal-data-startup-constellr-extends-seed-round-to-e17m/" >🔗</a> **[European Spaceflight]** Thermal Data Startup Constellr Extends Seed Round to €17M
 
 
@@ -189,12 +192,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/07/amazon-to-open-new-project-kuiper-processing-facility-at-nasa-kennedy-space-center" >🔗</a> **[The Launch Pad]** Amazon To Open New Project Kuiper Processing Facility at NASA Kennedy Space Center
 
 
-- <a href="https://www.cnbc.com/2023/07/22/space-force-raises-the-stakes-in-nssl-race-for-military-launches.html" >🔗</a> **[CNBC]** Space Force raises the stakes as rocket companies compete for lucrative military missions
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-july-17-23-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: July 17-23, 2023
+
 
 - <a href="https://europeanspaceflight.substack.com/p/how-can-thales-use-space-rider-ip" >🔗</a> **[European Spaceflight]** How can Thales use Space Rider IP for Rev-1?
 
@@ -223,13 +226,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/advocacy-action-center" >🔗</a> **[Planetary Society]** Advocacy Action Center
 
 
-- <a href="https://www.planetary.org/sci-tech/studying-salty-earth-lakes" >🔗</a> **[Planetary Society]** Studying salty Earth lakes to learn about other worlds
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230724T141333">2023-07-24 14:13:33 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230724T151503">2023-07-24 15:15:03 UTC</a>
   <br>
 </div>
