@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-force-selects-vendors-for-low-earth-orbit-satellite-services/" >🔗</a> **[SpaceNews]** Space Force selects vendors for low Earth orbit satellite services
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-sets-coverage-for-cargo-launch-to-international-space-station" >🔗</a> **[NASA]** NASA Sets Coverage for Cargo Launch to International Space Station
 
 
@@ -197,9 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://europeanspaceflight.com/maiaspace-reports-expenses-of-e349m-in-its-first-year-of-operation/" >🔗</a> **[European Spaceflight]** MaiaSpace Reports Expenses of €3.49M in its First Year of Operation
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T171159">2023-07-25 17:11:59 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T181649">2023-07-25 18:16:49 UTC</a>
   <br>
 </div>
