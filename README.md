@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/07/launch-roundup-24/" >🔗</a> **[NASASpaceflight]** Launch roundup: Falcon Heavy to launch largest GEO satellite, Rocket Lab’s Electron to complete 40th flight
+
+
+- <a href="https://spacenews.com/spire-to-devise-gnss-independent-aircraft-tracking-satellites-for-esa/" >🔗</a> **[SpaceNews]** Spire to devise GNSS-independent aircraft tracking satellites for ESA
+
+
 - <a href="https://www.teslarati.com/spacex-gears-up-for-falcon-heavy-launch/" >🔗</a> **[Teslarati]** SpaceX gears up for Falcon Heavy launch
 
 
@@ -171,20 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
-- <a href="https://spacenews.com/varda-waiting-on-faa-license-to-return-space-manufacturing-capsule/" >🔗</a> **[SpaceNews]** Varda waiting on FAA license to return space manufacturing capsule
-
-
-  - <a href="https://go4liftoff.com/launch/id/1e0c3a19-02a8-481b-9b7e-1392327c1826" >🚀</a> **Falcon 9 Block 5 | Transporter 8 (Dedicated SSO Rideshare)** from Vandenberg SFB, CA, USA
-
-
-
-- <a href="https://spacenews.com/capstone-working-well-more-than-a-year-after-launch/" >🔗</a> **[SpaceNews]** CAPSTONE working well more than a year after launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/859bf952-b4c6-40fb-a7e7-ac12efc386b2" >🚀</a> **Electron | CAPSTONE** from Onenui Station, Mahia Peninsula, New Zealand
 
 
 
@@ -226,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T211147">2023-07-25 21:11:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T221220">2023-07-25 22:12:20 UTC</a>
   <br>
 </div>
