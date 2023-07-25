@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-partners-with-american-companies-on-key-moon-exploration-tech" >🔗</a> **[NASA]** NASA Partners with American Companies on Key Moon, Exploration Tech
+
+
 - <a href="https://www.teslarati.com/spacex-performs-first-fueling-tests-on-super-heavy-booster/" >🔗</a> **[Teslarati]** SpaceX performs first fueling tests on Super Heavy Booster
 
 
@@ -201,9 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/chinas-casic-to-begin-launching-vleo-satellites-in-december/" >🔗</a> **[SpaceNews]** China’s CASIC to begin launching VLEO satellites in December
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T141317">2023-07-25 14:13:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T151514">2023-07-25 15:15:14 UTC</a>
   <br>
 </div>
