@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/capstone-working-well-more-than-a-year-after-launch/" >🔗</a> **[SpaceNews]** CAPSTONE working well more than a year after launch
+
+
 - <a href="https://arstechnica.com/space/2023/07/christmas-is-coming-for-asteroid-scientists-just-2-months-from-today/" >🔗</a> **[Arstechnica]** After bopping an asteroid 3 years ago, NASA will finally see the results
 
 
@@ -171,13 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-july-23-29-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy July 23-29, 2023
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/gaganyaan_mission_moves_closer_to_spaceflight" >🔗</a> **[The Launch Pad]** ISRO Begins Gaganyaan Crew Capsule Recovery Trials With Indian Navy
-
-
-  - <a href="https://go4liftoff.com/launch/id/dfac5ab7-7017-454f-b6cf-eeed277a97b5" >🚀</a> **LVM-3 | Gaganyaan-1** from Satish Dhawan Space Centre, India
-
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T012348">2023-07-25 01:23:48 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T024522">2023-07-25 02:45:22 UTC</a>
   <br>
 </div>
