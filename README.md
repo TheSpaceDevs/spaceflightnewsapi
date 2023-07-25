@@ -149,10 +149,26 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/capstone-working-well-more-than-a-year-after-launch/" >🔗</a> **[SpaceNews]** CAPSTONE working well more than a year after launch
 
 
+  - <a href="https://go4liftoff.com/launch/id/859bf952-b4c6-40fb-a7e7-ac12efc386b2" >🚀</a> **Electron | CAPSTONE** from Onenui Station, Mahia Peninsula, New Zealand
+
+
+
 - <a href="https://arstechnica.com/space/2023/07/christmas-is-coming-for-asteroid-scientists-just-2-months-from-today/" >🔗</a> **[Arstechnica]** After bopping an asteroid 3 years ago, NASA will finally see the results
 
 
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
+
+
 - <a href="https://www.teslarati.com/spacex-launches-next-batch-of-starlink-satellites/" >🔗</a> **[Teslarati]** SpaceX launches next batch of Starlink satellites
+
+
+  - <a href="https://go4liftoff.com/launch/id/c407b340-49e6-447a-b872-8441618f0ec7" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-6** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://europeanspaceflight.com/maiaspace-reports-expenses-of-e349m-in-its-first-year-of-operation/" >🔗</a> **[European Spaceflight]** MaiaSpace Reports Expenses of €3.49M in its First Year of Operation
@@ -165,6 +181,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/nasa_completes_first_artemis_2_launch_simulation" >🔗</a> **[The Launch Pad]** NASA Conducts First Artemis 2 Launch Simulation
+
+
+  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacenews.com/chinas-casic-to-begin-launching-vleo-satellites-in-december/" >🔗</a> **[SpaceNews]** China’s CASIC to begin launching VLEO satellites in December
@@ -214,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T051332">2023-07-25 05:13:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T061843">2023-07-25 06:18:43 UTC</a>
   <br>
 </div>
