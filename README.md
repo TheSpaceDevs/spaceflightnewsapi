@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/varda-waiting-on-faa-license-to-return-space-manufacturing-capsule/" >🔗</a> **[SpaceNews]** Varda waiting on FAA license to return space manufacturing capsule
+
+
 - <a href="https://spacenews.com/capstone-working-well-more-than-a-year-after-launch/" >🔗</a> **[SpaceNews]** CAPSTONE working well more than a year after launch
 
 
@@ -193,9 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.com/thermal-data-startup-constellr-extends-seed-round-to-e17m/" >🔗</a> **[European Spaceflight]** Thermal Data Startup Constellr Extends Seed Round to €17M
 
 
-- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-july-23-29-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy July 23-29, 2023
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T101537">2023-07-25 10:15:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T111146">2023-07-25 11:11:46 UTC</a>
   <br>
 </div>
