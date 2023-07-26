@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/nasa-darpa-select-lockheed-martin-to-develop-nuclear-rocket" >🔗</a> **[The Launch Pad]** NASA & DARAP Select Lockheed Martin To Develop Nuclear Rocket
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/nasa-awards-11-advance-lunar-power-and-tech-contracts" >🔗</a> **[The Launch Pad]** NASA Awards 11 Advance Lunar Power And Tech Contracts
+
+
+- <a href="https://arstechnica.com/space/2023/07/boeing-has-now-lost-1-1-billion-on-starliner-with-no-crew-flight-in-sight/" >🔗</a> **[Arstechnica]** Boeing has now lost $1.1 billion on Starliner, with no crew flight in sight
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-darpa-experts-to-discuss-nuclear-rocket-program-developments" >🔗</a> **[NASA]** NASA, DARPA Experts to Discuss Nuclear Rocket Program Developments
 
 
@@ -173,19 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/if-youre-going-to-the-south-pole-go-to-the-south-pole/" >🔗</a> **[SpaceNews]** If you’re going to the south pole, go to the south pole
-
-
-- <a href="https://spacenews.com/space-force-selects-vendors-for-low-earth-orbit-satellite-services/" >🔗</a> **[SpaceNews]** Space Force selects vendors for low Earth orbit satellite services
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-sets-coverage-for-cargo-launch-to-international-space-station" >🔗</a> **[NASA]** NASA Sets Coverage for Cargo Launch to International Space Station
-
-
-  - <a href="https://go4liftoff.com/launch/id/7c126e4f-4afd-4c25-bf6f-9017666b56ee" >🚀</a> **Antares 230+ | Cygnus CRS-2 NG-19** from Wallops Island, Virginia, USA
-
-
-
-- <a href="https://spacenews.com/nasa-selects-companies-to-advance-lunar-power-and-other-technologies/" >🔗</a> **[SpaceNews]** NASA selects companies to advance lunar power and other technologies
 
 
 
@@ -226,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T151404">2023-07-26 15:14:04 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T161749">2023-07-26 16:17:49 UTC</a>
   <br>
 </div>
