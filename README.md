@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nasa-and-darpa-select-lockheed-martin-to-develop-draco-nuclear-propulsion-demo/" >🔗</a> **[SpaceNews]** NASA and DARPA select Lockheed Martin to develop DRACO nuclear propulsion demo
+
+
+- <a href="https://spacenews.com/space-command-nominee-u-s-has-to-prepare-to-respond-to-aggression-against-satellites/" >🔗</a> **[SpaceNews]** Space Command nominee: U.S. has to prepare to respond to aggression against satellites
+
+
+- <a href="https://arstechnica.com/space/2023/07/nasa-seeks-to-launch-a-nuclear-powered-rocket-engine-in-four-years/" >🔗</a> **[Arstechnica]** The US government is taking a serious step toward space-based nuclear propulsion
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-awards-14-million-to-universities-for-supportive-stem-efforts" >🔗</a> **[NASA]** NASA Awards $14 Million to Universities for Supportive STEM Efforts
 
 
@@ -165,15 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/nasa-darpa-select-lockheed-martin-to-develop-nuclear-rocket" >🔗</a> **[The Launch Pad]** NASA & DARAP Select Lockheed Martin To Develop Nuclear Rocket
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/nasa-awards-11-advance-lunar-power-and-tech-contracts" >🔗</a> **[The Launch Pad]** NASA Awards 11 Advance Lunar Power And Tech Contracts
-
-
-- <a href="https://arstechnica.com/space/2023/07/boeing-has-now-lost-1-1-billion-on-starliner-with-no-crew-flight-in-sight/" >🔗</a> **[Arstechnica]** Boeing has now lost $1.1 billion on Starliner, with no crew flight in sight
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-darpa-experts-to-discuss-nuclear-rocket-program-developments" >🔗</a> **[NASA]** NASA, DARPA Experts to Discuss Nuclear Rocket Program Developments
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T211139">2023-07-26 21:11:39 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T221216">2023-07-26 22:12:16 UTC</a>
   <br>
 </div>
