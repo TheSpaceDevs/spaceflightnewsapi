@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/boeing-records-more-losses-from-starliner-delays/" >🔗</a> **[SpaceNews]** Boeing records more losses from Starliner delays
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/us-space-force-to-develop-commercial-space-reserve" >🔗</a> **[The Launch Pad]** US Space Force To Develop Commercial Space Reserve
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/nasa-darpa-select-lockheed-martin-to-develop-nuclear-rocket" >🔗</a> **[The Launch Pad]** NASA & DARAP Select Lockheed Martin To Develop Nuclear Rocket
 
 
@@ -172,16 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/spire-to-devise-gnss-independent-aircraft-tracking-satellites-for-esa/" >🔗</a> **[SpaceNews]** Spire to devise GNSS-independent aircraft tracking satellites for ESA
-
-
-- <a href="https://www.teslarati.com/spacex-gears-up-for-falcon-heavy-launch/" >🔗</a> **[Teslarati]** SpaceX gears up for Falcon Heavy launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/72491a20-315d-4aea-b6df-d1202930bd60" >🚀</a> **Falcon Heavy | EchoStar 24/Jupiter-3** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacenews.com/if-youre-going-to-the-south-pole-go-to-the-south-pole/" >🔗</a> **[SpaceNews]** If you’re going to the south pole, go to the south pole
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T161749">2023-07-26 16:17:49 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T171148">2023-07-26 17:11:48 UTC</a>
   <br>
 </div>
