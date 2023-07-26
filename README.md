@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-darpa-experts-to-discuss-nuclear-rocket-program-developments" >🔗</a> **[NASA]** NASA, DARPA Experts to Discuss Nuclear Rocket Program Developments
+
+
 - <a href="https://spacepolicyonline.com/news/house-defeats-bill-over-concerns-about-fcc-space-safety-and-debris-authority/" >🔗</a> **[SpacePolicyOnline.com]** House Defeats Bill Over Concerns About FCC Space Safety and Debris Authority
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/nasa-selects-companies-to-advance-lunar-power-and-other-technologies/" >🔗</a> **[SpaceNews]** NASA selects companies to advance lunar power and other technologies
-
-
-- <a href="https://spacenews.com/space-force-to-further-define-details-of-a-commercial-space-reserve/" >🔗</a> **[SpaceNews]** Space Force to further define details of a ‘commercial space reserve’
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T131737">2023-07-26 13:17:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T141224">2023-07-26 14:12:24 UTC</a>
   <br>
 </div>
