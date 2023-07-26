@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/house-defeats-bill-over-concerns-about-fcc-space-safety-and-debris-authority/" >🔗</a> **[SpacePolicyOnline.com]** House Defeats Bill Over Concerns About FCC Space Safety and Debris Authority
+
+
 - <a href="https://spacenews.com/house-rejects-satellite-spectrum-licensing-bill-because-of-space-safety-provisions/" >🔗</a> **[SpaceNews]** House rejects satellite spectrum licensing bill because of space safety provisions
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-force-to-further-define-details-of-a-commercial-space-reserve/" >🔗</a> **[SpaceNews]** Space Force to further define details of a ‘commercial space reserve’
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-partners-with-american-companies-on-key-moon-exploration-tech" >🔗</a> **[NASA]** NASA Partners with American Companies on Key Moon, Exploration Tech
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T023511">2023-07-26 02:35:11 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T031404">2023-07-26 03:14:04 UTC</a>
   <br>
 </div>
