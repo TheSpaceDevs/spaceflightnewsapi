@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/house-rejects-satellite-spectrum-licensing-bill-because-of-space-safety-provisions/" >🔗</a> **[SpaceNews]** House rejects satellite spectrum licensing bill because of space safety provisions
+
+
 - <a href="https://www.nasaspaceflight.com/2023/07/launch-roundup-24/" >🔗</a> **[NASASpaceflight]** Launch roundup: Falcon Heavy to launch largest GEO satellite, Rocket Lab’s Electron to complete 40th flight
 
 
@@ -171,13 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-partners-with-american-companies-on-key-moon-exploration-tech" >🔗</a> **[NASA]** NASA Partners with American Companies on Key Moon, Exploration Tech
-
-
-- <a href="https://www.teslarati.com/spacex-performs-first-fueling-tests-on-super-heavy-booster/" >🔗</a> **[Teslarati]** SpaceX performs first fueling tests on Super Heavy Booster
-
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230725T231145">2023-07-25 23:11:45 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T011822">2023-07-26 01:18:22 UTC</a>
   <br>
 </div>
