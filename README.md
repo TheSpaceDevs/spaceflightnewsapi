@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/07/26/boeing-has-lost-1point5-billion-developing-starliner-spacecraft-for-nasa.html" >🔗</a> **[CNBC]** Boeing’s Starliner losses total $1.5 billion with NASA astronauts still waiting to fly
+
+
 - <a href="https://spacenews.com/boeing-records-more-losses-from-starliner-delays/" >🔗</a> **[SpaceNews]** Boeing records more losses from Starliner delays
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/72491a20-315d-4aea-b6df-d1202930bd60" >🚀</a> **Falcon Heavy | EchoStar 24/Jupiter-3** from Kennedy Space Center, FL, USA
 
-
-
-- <a href="https://spacenews.com/spire-to-devise-gnss-independent-aircraft-tracking-satellites-for-esa/" >🔗</a> **[SpaceNews]** Spire to devise GNSS-independent aircraft tracking satellites for ESA
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T171148">2023-07-26 17:11:48 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230726T181704">2023-07-26 18:17:04 UTC</a>
   <br>
 </div>
