@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/rocketlab-updates-neutron-design" >🔗</a> **[The Launch Pad]** RocketLab Updates Neutron Design
+
+
 - <a href="https://www.cnbc.com/2023/07/27/investing-in-space-what-to-watch-for-in-q2-earnings-reports.html" >🔗</a> **[CNBC]** Investing in Space: What to watch for in Q2 earnings reports
 
 
@@ -195,9 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/839" >📆</a> **Press Conference for the Draco Nuclear Rocket Program**
 
 
-- <a href="https://spacenews.com/space-command-nominee-u-s-has-to-prepare-to-respond-to-aggression-against-satellites/" >🔗</a> **[SpaceNews]** Space Command nominee: U.S. has to prepare to respond to aggression against satellites
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T171218">2023-07-27 17:12:18 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T181709">2023-07-27 18:17:09 UTC</a>
   <br>
 </div>
