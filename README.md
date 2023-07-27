@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-delays-falcon-heavy-moves-forward-with-starlink-launch/" >🔗</a> **[Teslarati]** SpaceX delays Falcon Heavy, moves forward with Starlink launch
+
+
+- <a href="http://www.nasa.gov/press-release/argentina-es-el-28-signatario-de-los-acuerdos-de-artemis" >🔗</a> **[NASA]** Argentina es el 28.º signatario de los Acuerdos de Artemis
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-welcomes-argentina-as-newest-artemis-accords-signatory" >🔗</a> **[NASA]** NASA Welcomes Argentina as Newest Artemis Accords Signatory
+
+
 - <a href="https://www.teslarati.com/rocket-labs-neutron-undergoes-design-change/" >🔗</a> **[Teslarati]** Rocket Lab’s Neutron undergoes design change
 
 
@@ -165,25 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/07/27/investing-in-space-what-to-watch-for-in-q2-earnings-reports.html" >🔗</a> **[CNBC]** Investing in Space: What to watch for in Q2 earnings reports
-
-
-- <a href="https://spacenews.com/northrop-grumman-takes-36-million-charge-on-nasa-gateway-module/" >🔗</a> **[SpaceNews]** Northrop Grumman takes $36 million charge on NASA Gateway module
-
-
-- <a href="https://www.teslarati.com/nasa-and-darpa-award-contract-for-nuclear-rocket-engine/" >🔗</a> **[Teslarati]** NASA and DARPA award contract for Nuclear Rocket Engine
-
-
-
-  - <a href="https://go4liftoff.com/event/id/839" >📆</a> **Press Conference for the Draco Nuclear Rocket Program**
-
-
-- <a href="https://spacenews.com/pair-of-chinese-launches-put-flat-panel-satellite-new-spy-sats-in-orbit/" >🔗</a> **[SpaceNews]** Pair of Chinese launches put flat-panel satellite, new spy sats in orbit
-
-
-  - <a href="https://go4liftoff.com/launch/id/22a6f1ed-afcd-455d-9316-5aaf8f39e864" >🚀</a> **Long March 2D | Skysight AS-01 to 03 & Lingxi-03** from Taiyuan Satellite Launch Center, People's Republic of China
-
-  - <a href="https://go4liftoff.com/launch/id/9da1b09b-d448-43a2-b6f1-720756c4e960" >🚀</a> **Long March 2D | Yaogan 36 Group 05** from Xichang Satellite Launch Center, People's Republic of China
-
 
 
 
@@ -224,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T221221">2023-07-27 22:12:21 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T231311">2023-07-27 23:13:11 UTC</a>
   <br>
 </div>
