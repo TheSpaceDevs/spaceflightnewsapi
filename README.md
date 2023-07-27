@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/rocket-labs-neutron-undergoes-design-change/" >🔗</a> **[Teslarati]** Rocket Lab’s Neutron undergoes design change
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-launches-beta-site-on-demand-streaming-app-update-coming-soon" >🔗</a> **[NASA]** NASA Launches Beta Site; On-Demand Streaming, App Update Coming Soon
+
+
+- <a href="https://www.cnbc.com/2023/07/27/spacex-aims-to-break-nasa-gemini-record-with-falcon-launches.html" >🔗</a> **[CNBC]** SpaceX aims to break a 56-year rocket record with back-to-back launches
+
+
+- <a href="https://europeanspaceflight.com/asi-to-tap-european-startup-to-launch-lunar-regolith-oxygen-extractor-mission/" >🔗</a> **[European Spaceflight]** ASI to Tap European Startup to Launch Lunar Regolith Oxygen Extractor Mission
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/rocketlab-updates-neutron-design" >🔗</a> **[The Launch Pad]** RocketLab Updates Neutron Design
 
 
@@ -172,26 +184,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/nasa-and-darpa-pick-lockheed-martin-and-bwxt-for-draco/" >🔗</a> **[SpacePolicyOnline.com]** NASA and DARPA Pick Lockheed Martin and BWXT for DRACO
-
-
-
-  - <a href="https://go4liftoff.com/event/id/839" >📆</a> **Press Conference for the Draco Nuclear Rocket Program**
-
-
-- <a href="https://spacepolicyonline.com/news/starliner-delay-costs-boeing-another-257-million/" >🔗</a> **[SpacePolicyOnline.com]** Starliner Delay Costs Boeing Another $257 Million
-
-
-  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/l3harris-acquisition-of-aerojet-rocketdyne-nears-completion/" >🔗</a> **[SpaceNews]** L3Harris’ acquisition of Aerojet Rocketdyne nears completion
-
-
-- <a href="https://spacenews.com/geospatial-intelligence-startup-kleos-space-files-for-bankruptcy/" >🔗</a> **[SpaceNews]** Geospatial intelligence startup Kleos Space files for bankruptcy
-
-
-- <a href="https://spacenews.com/nasa-and-darpa-select-lockheed-martin-to-develop-draco-nuclear-propulsion-demo/" >🔗</a> **[SpaceNews]** NASA and DARPA select Lockheed Martin to develop DRACO nuclear propulsion demo
 
 
 
@@ -236,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T191048">2023-07-27 19:10:48 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T201404">2023-07-27 20:14:04 UTC</a>
   <br>
 </div>
