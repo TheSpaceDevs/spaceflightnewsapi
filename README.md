@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/pair-of-chinese-launches-put-flat-panel-satellite-new-spy-sats-in-orbit/" >🔗</a> **[SpaceNews]** Pair of Chinese launches put flat-panel satellite, new spy sats in orbit
+
+
 - <a href="https://spacepolicyonline.com/news/nasa-and-darpa-pick-lockheed-martin-and-bwxt-for-draco/" >🔗</a> **[SpacePolicyOnline.com]** NASA and DARPA Pick Lockheed Martin and BWXT for DRACO
 
 
@@ -193,9 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/07/non-human-biologic-pilot-found-aboard-crashed-uap" >🔗</a> **[The Launch Pad]** ‘Non-Human Biologic’ Pilot Found Aboard Crashed UAP
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T141227">2023-07-27 14:12:27 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T151331">2023-07-27 15:13:31 UTC</a>
   <br>
 </div>
