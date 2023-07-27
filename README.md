@@ -149,7 +149,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/nasa-and-darpa-pick-lockheed-martin-and-bwxt-for-draco/" >🔗</a> **[SpacePolicyOnline.com]** NASA and DARPA Pick Lockheed Martin and BWXT for DRACO
 
 
+
+  - <a href="https://go4liftoff.com/event/id/839" >📆</a> **Press Conference for the Draco Nuclear Rocket Program**
+
+
 - <a href="https://spacepolicyonline.com/news/starliner-delay-costs-boeing-another-257-million/" >🔗</a> **[SpacePolicyOnline.com]** Starliner Delay Costs Boeing Another $257 Million
+
+
+  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://spacenews.com/l3harris-acquisition-of-aerojet-rocketdyne-nears-completion/" >🔗</a> **[SpaceNews]** L3Harris’ acquisition of Aerojet Rocketdyne nears completion
@@ -161,16 +169,28 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/nasa-and-darpa-select-lockheed-martin-to-develop-draco-nuclear-propulsion-demo/" >🔗</a> **[SpaceNews]** NASA and DARPA select Lockheed Martin to develop DRACO nuclear propulsion demo
 
 
+
+  - <a href="https://go4liftoff.com/event/id/839" >📆</a> **Press Conference for the Draco Nuclear Rocket Program**
+
+
 - <a href="https://spacenews.com/space-command-nominee-u-s-has-to-prepare-to-respond-to-aggression-against-satellites/" >🔗</a> **[SpaceNews]** Space Command nominee: U.S. has to prepare to respond to aggression against satellites
 
 
 - <a href="https://arstechnica.com/space/2023/07/nasa-seeks-to-launch-a-nuclear-powered-rocket-engine-in-four-years/" >🔗</a> **[Arstechnica]** The US government is taking a serious step toward space-based nuclear propulsion
 
 
+
+  - <a href="https://go4liftoff.com/event/id/839" >📆</a> **Press Conference for the Draco Nuclear Rocket Program**
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-awards-14-million-to-universities-for-supportive-stem-efforts" >🔗</a> **[NASA]** NASA Awards $14 Million to Universities for Supportive STEM Efforts
 
 
 - <a href="https://www.nasaspaceflight.com/2023/07/falcon-heavy-echostar-24/" >🔗</a> **[NASASpaceflight]** Falcon Heavy scrubs ahead of largest ever geostationary satellite launch
+
+
+  - <a href="https://go4liftoff.com/launch/id/72491a20-315d-4aea-b6df-d1202930bd60" >🚀</a> **Falcon Heavy | EchoStar 24/Jupiter-3** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/non-human-biologic-pilot-found-aboard-crashed-uap" >🔗</a> **[The Launch Pad]** ‘Non-Human Biologic’ Pilot Found Aboard Crashed UAP
@@ -214,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T061753">2023-07-27 06:17:53 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T071221">2023-07-27 07:12:21 UTC</a>
   <br>
 </div>
