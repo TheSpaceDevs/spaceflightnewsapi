@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/nasa-and-darpa-pick-lockheed-martin-and-bwxt-for-draco/" >🔗</a> **[SpacePolicyOnline.com]** NASA and DARPA Pick Lockheed Martin and BWXT for DRACO
+
+
 - <a href="https://spacepolicyonline.com/news/starliner-delay-costs-boeing-another-257-million/" >🔗</a> **[SpacePolicyOnline.com]** Starliner Delay Costs Boeing Another $257 Million
 
 
@@ -167,13 +170,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-awards-14-million-to-universities-for-supportive-stem-efforts" >🔗</a> **[NASA]** NASA Awards $14 Million to Universities for Supportive STEM Efforts
 
 
-- <a href="https://www.nasaspaceflight.com/2023/07/falcon-heavy-echostar-24/" >🔗</a> **[NASASpaceflight]** Falcon Heavy to launch largest ever geostationary satellite
+- <a href="https://www.nasaspaceflight.com/2023/07/falcon-heavy-echostar-24/" >🔗</a> **[NASASpaceflight]** Falcon Heavy scrubs ahead of largest ever geostationary satellite launch
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/non-human-biologic-pilot-found-aboard-crashed-uap" >🔗</a> **[The Launch Pad]** ‘Non-Human Biologic’ Pilot Found Aboard Crashed UAP
-
-
-- <a href="https://www.cnbc.com/2023/07/26/boeing-has-lost-1point5-billion-developing-starliner-spacecraft-for-nasa.html" >🔗</a> **[CNBC]** Boeing’s Starliner losses total $1.5 billion with NASA astronauts still waiting to fly
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T031327">2023-07-27 03:13:27 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T041549">2023-07-27 04:15:49 UTC</a>
   <br>
 </div>
