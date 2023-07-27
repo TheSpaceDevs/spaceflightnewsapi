@@ -146,7 +146,20 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/nasa-and-darpa-award-contract-for-nuclear-rocket-engine/" >🔗</a> **[Teslarati]** NASA and DARPA award contract for Nuclear Rocket Engine
+
+
+
+  - <a href="https://go4liftoff.com/event/id/839" >📆</a> **Press Conference for the Draco Nuclear Rocket Program**
+
+
 - <a href="https://spacenews.com/pair-of-chinese-launches-put-flat-panel-satellite-new-spy-sats-in-orbit/" >🔗</a> **[SpaceNews]** Pair of Chinese launches put flat-panel satellite, new spy sats in orbit
+
+
+  - <a href="https://go4liftoff.com/launch/id/22a6f1ed-afcd-455d-9316-5aaf8f39e864" >🚀</a> **Long March 2D | Skysight AS-01 to 03 & Lingxi-03** from Taiyuan Satellite Launch Center, People's Republic of China
+
+  - <a href="https://go4liftoff.com/launch/id/9da1b09b-d448-43a2-b6f1-720756c4e960" >🚀</a> **Long March 2D | Yaogan 36 Group 05** from Xichang Satellite Launch Center, People's Republic of China
+
 
 
 - <a href="https://spacepolicyonline.com/news/nasa-and-darpa-pick-lockheed-martin-and-bwxt-for-draco/" >🔗</a> **[SpacePolicyOnline.com]** NASA and DARPA Pick Lockheed Martin and BWXT for DRACO
@@ -189,13 +202,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-awards-14-million-to-universities-for-supportive-stem-efforts" >🔗</a> **[NASA]** NASA Awards $14 Million to Universities for Supportive STEM Efforts
 
 
-- <a href="https://www.nasaspaceflight.com/2023/07/falcon-heavy-echostar-24/" >🔗</a> **[NASASpaceflight]** Falcon Heavy scrubs ahead of largest ever geostationary satellite launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/72491a20-315d-4aea-b6df-d1202930bd60" >🚀</a> **Falcon Heavy | EchoStar 24/Jupiter-3** from Kennedy Space Center, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +240,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T151331">2023-07-27 15:13:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230727T161813">2023-07-27 16:18:13 UTC</a>
   <br>
 </div>
