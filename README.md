@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-awards-administrative-technical-support-services-contract" >🔗</a> **[NASA]** NASA Awards Administrative & Technical Support Services Contract
+
+
 - <a href="https://spacenews.com/ula-has-concerns-about-a-third-competitor-in-national-security-space-launch/" >🔗</a> **[SpaceNews]** ULA has concerns about a third competitor in national security space launch
 
 
@@ -155,10 +158,22 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/07/starship-ift-1-launch-wb57-footage-released" >🔗</a> **[The Launch Pad]** BREAKING! STARSHIP IFT-1 Launch WB-57 Footage Released
 
 
+  - <a href="https://go4liftoff.com/launch/id/e32d375f-0d6e-4e54-b4f2-2b49db657fca" >🚀</a> **Starship | Integrated Flight Test** from SpaceX Space Launch Facility, TX, USA
+
+
+
 - <a href="https://arstechnica.com/space/2023/07/nasa-temporarily-loses-contact-with-one-of-its-most-distant-spacecraft/" >🔗</a> **[Arstechnica]** NASA temporarily loses contact with one of its most distant spacecraft
 
 
+  - <a href="https://go4liftoff.com/launch/id/75414835-ec0a-43f4-b624-1636502312f3" >🚀</a> **Titan IIIE | Voyager 2** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/nasa-looses-contact-with-voyager-2" >🔗</a> **[The Launch Pad]** BREAKING! NASA Looses Contact With Voyager 2
+
+
+  - <a href="https://go4liftoff.com/launch/id/75414835-ec0a-43f4-b624-1636502312f3" >🚀</a> **Titan IIIE | Voyager 2** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://spacenews.com/connecting-the-dots-the-shifting-landscape-for-satellite-capacity-wholesalers/" >🔗</a> **[SpaceNews]** Connecting the Dots | The shifting landscape for satellite capacity wholesalers
@@ -170,10 +185,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/spacex-launches-50th-mission-of-the-year/" >🔗</a> **[Teslarati]** SpaceX launches 50th mission of the year
 
 
+  - <a href="https://go4liftoff.com/launch/id/ce5f4f47-c54d-4014-84f2-17a556892420" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-7** from Cape Canaveral, FL, USA
+
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-see-recovery-craft-for-artemis-moon-mission" >🔗</a> **[NASA]** NASA Invites Media to See Recovery Craft for Artemis Moon Mission
 
 
-- <a href="https://spacenews.com/argentina-signs-artemis-accords/" >🔗</a> **[SpaceNews]** Argentina signs Artemis Accords
+  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
+
 
 
 
@@ -214,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230728T201408">2023-07-28 20:14:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230728T211120">2023-07-28 21:11:20 UTC</a>
   <br>
 </div>
