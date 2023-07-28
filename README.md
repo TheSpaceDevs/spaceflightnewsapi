@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/aerojet-rocketdyne-officially-becomes-part-of-l3harris/" >🔗</a> **[SpaceNews]** Aerojet Rocketdyne officially becomes part of L3Harris
+
+
 - <a href="https://tlpnetwork.com/news/2023/07/starship-ift-1-launch-wb57-footage-released" >🔗</a> **[The Launch Pad]** BREAKING! STARSHIP IFT-1 Launch WB-57 Footage Released
 
 
@@ -171,15 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/next-nasa-new-frontiers-mission-could-face-extended-delay/" >🔗</a> **[SpaceNews]** Next NASA New Frontiers mission could face extended delay
-
-
-- <a href="https://www.teslarati.com/spacex-delays-falcon-heavy-moves-forward-with-starlink-launch/" >🔗</a> **[Teslarati]** SpaceX delays Falcon Heavy, moves forward with Starlink launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/ce5f4f47-c54d-4014-84f2-17a556892420" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-7** from Cape Canaveral, FL, USA
-
-  - <a href="https://go4liftoff.com/launch/id/72491a20-315d-4aea-b6df-d1202930bd60" >🚀</a> **Falcon Heavy | EchoStar 24/Jupiter-3** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -220,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230728T171200">2023-07-28 17:12:00 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230728T181547">2023-07-28 18:15:47 UTC</a>
   <br>
 </div>
