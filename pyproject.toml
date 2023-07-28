@@ -49,3 +49,7 @@ django_settings_module = "snapy.settings"
 
 [tool.isort]
 profile = "black"
+
+[tool.pylint.main]
+load-plugins = "pylint_django"
+django-settings-module="snapy.settings"
