@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/argentina-signs-artemis-accords/" >🔗</a> **[SpaceNews]** Argentina signs Artemis Accords
+
+
 - <a href="https://spacenews.com/next-nasa-new-frontiers-mission-could-face-extended-delay/" >🔗</a> **[SpaceNews]** Next NASA New Frontiers mission could face extended delay
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/starlink-may-account-for-up-to-40-of-spacexs-2023-revenues/" >🔗</a> **[SpaceNews]** Starlink may account for up to 40% of SpaceX’s 2023 revenues
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/rocketlab-updates-neutron-design" >🔗</a> **[The Launch Pad]** RocketLab Updates Neutron Design
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230728T022820">2023-07-28 02:28:20 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230728T031402">2023-07-28 03:14:02 UTC</a>
   <br>
 </div>
