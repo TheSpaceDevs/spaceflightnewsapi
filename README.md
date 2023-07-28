@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/esa-deorbits-aeolus-spacecraft" >🔗</a> **[The Launch Pad]** DEVELOPING STORY: ESA DeOrbits Aeolus Spacecraft, Concluding 5 Year Mission
+
+
+- <a href="https://spacenews.com/sierra-space-wins-air-force-contract-for-upper-stage-engine-development/" >🔗</a> **[SpaceNews]** Sierra Space wins Air Force contract for upper-stage engine development
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/l3harris-acquires-aerojet-rocketdyne" >🔗</a> **[The Launch Pad]** L3Harris Acquires Aerojet Rocketdyne
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/argentina-signs-artemis-accords" >🔗</a> **[The Launch Pad]** Argentina 28th Country To Sign Artemis Accords
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-awards-administrative-technical-support-services-contract" >🔗</a> **[NASA]** NASA Awards Administrative & Technical Support Services Contract
 
 
@@ -173,26 +185,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/75414835-ec0a-43f4-b624-1636502312f3" >🚀</a> **Titan IIIE | Voyager 2** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/connecting-the-dots-the-shifting-landscape-for-satellite-capacity-wholesalers/" >🔗</a> **[SpaceNews]** Connecting the Dots | The shifting landscape for satellite capacity wholesalers
-
-
-- <a href="https://spacenews.com/eutelsat-expects-to-return-to-growth-next-year-with-oneweb/" >🔗</a> **[SpaceNews]** Eutelsat expects to return to growth next year with OneWeb
-
-
-- <a href="https://www.teslarati.com/spacex-launches-50th-mission-of-the-year/" >🔗</a> **[Teslarati]** SpaceX launches 50th mission of the year
-
-
-  - <a href="https://go4liftoff.com/launch/id/ce5f4f47-c54d-4014-84f2-17a556892420" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-7** from Cape Canaveral, FL, USA
-
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-see-recovery-craft-for-artemis-moon-mission" >🔗</a> **[NASA]** NASA Invites Media to See Recovery Craft for Artemis Moon Mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
 
 
 
@@ -234,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230728T211120">2023-07-28 21:11:20 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230728T221217">2023-07-28 22:12:17 UTC</a>
   <br>
 </div>
