@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/07/esa-deorbits-aeolus-spacecraft" >🔗</a> **[The Launch Pad]** DEVELOPING STORY: ESA DeOrbits Aeolus Spacecraft, Concluding 5 Year Mission
 
 
+  - <a href="https://go4liftoff.com/launch/id/68ab2654-f5ed-431f-a2cc-dbb392b4d7d8" >🚀</a> **Vega | ADM-Aeolus** from Kourou, French Guiana
+
+
+
 - <a href="https://spacenews.com/sierra-space-wins-air-force-contract-for-upper-stage-engine-development/" >🔗</a> **[SpaceNews]** Sierra Space wins Air Force contract for upper-stage engine development
 
 
@@ -226,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230729T061616">2023-07-29 06:16:16 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230729T071132">2023-07-29 07:11:32 UTC</a>
   <br>
 </div>
