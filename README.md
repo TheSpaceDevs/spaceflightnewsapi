@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-july-30-august-5-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy July 30-August 5, 2023
+
+
 - <a href="https://spacenews.com/india-launches-seven-satellites-on-pslv-rocket/" >🔗</a> **[SpaceNews]** India launches seven satellites on PSLV rocket
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/ula-has-concerns-about-a-third-competitor-in-national-security-space-launch/" >🔗</a> **[SpaceNews]** ULA has concerns about a third competitor in national security space launch
-
-
-- <a href="https://spacenews.com/aerojet-rocketdyne-officially-becomes-part-of-l3harris/" >🔗</a> **[SpaceNews]** Aerojet Rocketdyne officially becomes part of L3Harris
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230730T151228">2023-07-30 15:12:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230730T161604">2023-07-30 16:16:04 UTC</a>
   <br>
 </div>
