@@ -152,6 +152,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/india-launches-seven-satellites-on-pslv-rocket/" >🔗</a> **[SpaceNews]** India launches seven satellites on PSLV rocket
 
 
+  - <a href="https://go4liftoff.com/launch/id/af626de1-88f7-418b-8801-a4e897f067a4" >🚀</a> **PSLV-CA | DS-SAR** from Satish Dhawan Space Centre, India
+
+
+
 - <a href="https://spacepolicyonline.com/news/congress-leaves-for-summer-break-with-long-to-do-list-when-they-return/" >🔗</a> **[SpacePolicyOnline.com]** Congress Leaves for Summer Break With Long To-Do List When They Return
 
 
@@ -222,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230730T161604">2023-07-30 16:16:04 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230730T171058">2023-07-30 17:10:58 UTC</a>
   <br>
 </div>
