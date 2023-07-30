@@ -46,11 +46,7 @@ services:
       - /srv/static/spaceflightnewsapi:/code/static
     environment:
       - SECRET_KEY=${SECRET_KEY}
-      - DB_NAME=${DB_NAME}
-      - DB_USER=${DB_USER}
-      - DB_HOST=${DB_HOST}
-      - DB_PASSWORD=${DB_PASSWORD}
-      - DB_PORT=${DB_PORT}
+      - DATABASE_URL=${DATABASE_URL}
       - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
       - LL_URL=${LL_URL}
       - LL_TOKEN=${LL_TOKEN}
@@ -73,11 +69,7 @@ services:
       - mq
       - snapy
     environment:
-      - DB_NAME=${DB_NAME}
-      - DB_USER=${DB_USER}
-      - DB_HOST=${DB_HOST}
-      - DB_PASSWORD=${DB_PASSWORD}
-      - DB_PORT=${DB_PORT}
+      - DATABASE_URL=${DATABASE_URL}
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
       - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
       - SENTRY_DSN=${SENTRY_DSN}
@@ -94,11 +86,7 @@ services:
       - mq
       - snapy
     environment:
-      - DB_NAME=${DB_NAME}
-      - DB_USER=${DB_USER}
-      - DB_HOST=${DB_HOST}
-      - DB_PASSWORD=${DB_PASSWORD}
-      - DB_PORT=${DB_PORT}
+      - DATABASE_URL=${DATABASE_URL}
       - SECRET_KEY=${SECRET_KEY}
       - LL_URL=${LL_URL}
       - LL_TOKEN=${LL_TOKEN}

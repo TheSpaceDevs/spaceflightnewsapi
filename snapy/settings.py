@@ -11,8 +11,10 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 import os
+from distutils.util import strtobool
 from pathlib import Path
 
+import dj_database_url
 import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
 
@@ -31,7 +33,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv("DEBUG", False)
+DEBUG = strtobool(os.getenv("DEBUG", "False"))
 
 if DEBUG is False:
     sentry_sdk.init(
@@ -100,14 +102,10 @@ WSGI_APPLICATION = "snapy.wsgi.application"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": os.getenv("DB_NAME"),
-        "USER": os.getenv("DB_USER"),
-        "PASSWORD": os.getenv("DB_PASSWORD"),
-        "HOST": os.getenv("DB_HOST"),
-        "PORT": os.getenv("DB_PORT"),
-    }
+    "default": dj_database_url.config(
+        conn_max_age=600,
+        conn_health_checks=True,
+    ),
 }
 
 # Password validation
@@ -142,7 +140,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-USE_MINIO = os.getenv("USE_MINIO", False)
+USE_MINIO = strtobool(os.getenv("USE_MINIO", "False"))
 if USE_MINIO:
     INSTALLED_APPS.append("django_minio_backend")
     MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT", "http://localhost:9000")
