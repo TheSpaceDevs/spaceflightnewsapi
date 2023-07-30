@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/crew-dragon-soyuz-missions-set-for-launches-to-iss/" >🔗</a> **[SpaceNews]** Crew Dragon, Soyuz missions set for launches to ISS
+
+
+  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
+
+  - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+
+
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-july-30-august-5-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy July 30-August 5, 2023
 
 
@@ -183,9 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-awards-administrative-technical-support-services-contract" >🔗</a> **[NASA]** NASA Awards Administrative & Technical Support Services Contract
-
-
-- <a href="https://spacenews.com/ula-has-concerns-about-a-third-competitor-in-national-security-space-launch/" >🔗</a> **[SpaceNews]** ULA has concerns about a third competitor in national security space launch
 
 
 
@@ -226,6 +232,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230730T181547">2023-07-30 18:15:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230730T190959">2023-07-30 19:09:59 UTC</a>
   <br>
 </div>
