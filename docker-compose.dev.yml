@@ -35,11 +35,7 @@ services:
       - SNAPI_VERSION=${SNAPI_VERSION}
       - DEBUG=${DEBUG}
       - SECRET_KEY=${SECRET_KEY}
-      - DB_NAME=${DB_NAME}
-      - DB_USER=${DB_USER}
-      - DB_HOST=${DB_HOST}
-      - DB_PASSWORD=${DB_PASSWORD}
-      - DB_PORT=${DB_PORT}
+      - DATABASE_URL=${DATABASE_URL}
       - LL_URL=${LL_URL}
       - LL_TOKEN=${LL_TOKEN}
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
@@ -65,11 +61,7 @@ services:
       - ./manage.py:/code/manage.py
     environment:
       - SNAPI_VERSION=${SNAPI_VERSION}
-      - DB_NAME=${DB_NAME}
-      - DB_USER=${DB_USER}
-      - DB_HOST=${DB_HOST}
-      - DB_PASSWORD=${DB_PASSWORD}
-      - DB_PORT=${DB_PORT}
+      - DATABASE_URL=${DATABASE_URL}
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
       - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
     depends_on:
@@ -87,11 +79,7 @@ services:
       - ./manage.py:/code/manage.py
     environment:
       - SNAPI_VERSION=${SNAPI_VERSION}
-      - DB_NAME=${DB_NAME}
-      - DB_USER=${DB_USER}
-      - DB_HOST=${DB_HOST}
-      - DB_PASSWORD=${DB_PASSWORD}
-      - DB_PORT=${DB_PORT}
+      - DATABASE_URL=${DATABASE_URL}
       - SECRET_KEY=${SECRET_KEY}
       - LL_URL=${LL_URL}
       - LL_TOKEN=${LL_TOKEN}
