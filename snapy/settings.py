@@ -143,8 +143,23 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
-STATIC_URL = "static/"
-STATIC_ROOT = BASE_DIR / "staticfiles"
+# STATIC_URL = "static/"
+# STATIC_ROOT = BASE_DIR / "staticfiles"
+USE_MINIO = os.getenv("USE_MINIO", False)
+if USE_MINIO:
+    INSTALLED_APPS.append("django_minio_backend")
+    MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT", "http://localhost:9000")
+    MINIO_USE_HTTPS = True
+    MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY", "minioadmin")
+    MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY", "minioadmin")
+    MINIO_PUBLIC_BUCKETS = [os.getenv("MINIO_BUCKET_NAME", "static")]
+    MINIO_STATIC_FILES_BUCKET = os.getenv("MINIO_BUCKET_NAME", "static")
+    MINIO_BUCKET_CHECK_ON_SAVE = True
+
+    STATICFILES_STORAGE = "django_minio_backend.models.MinioBackendStatic"
+    STATIC_URL = "https://none/"  # This is required but not used because we use STATICFILES_STORAGE.
+else:
+    STATIC_URL = "static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field

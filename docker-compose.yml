@@ -29,7 +29,7 @@ services:
       - POSTGRES_PASSWORD=${DB_PASSWORD}
 
   app:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${VERSION}
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi
     restart: unless-stopped
     command:
       - /bin/sh
@@ -42,8 +42,6 @@ services:
     networks:
       - snapy
       - nginx-proxy-manager_default
-    volumes:
-      - /srv/static/spaceflightnewsapi:/code/static
     environment:
       - SECRET_KEY=${SECRET_KEY}
       - DATABASE_URL=${DATABASE_URL}
@@ -52,12 +50,13 @@ services:
       - LL_TOKEN=${LL_TOKEN}
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
       - SENTRY_DSN=${SENTRY_DSN}
+      - USE_MINIO=${USE_MINIO}
     depends_on:
       database:
         condition: service_healthy
 
   beat:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${VERSION}
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi
     restart: unless-stopped
     command: celery -A snapy beat -l INFO
     networks:
@@ -74,7 +73,7 @@ services:
 
 
   worker:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${VERSION}
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi
     restart: unless-stopped
     command: celery -A snapy worker -l INFO
     networks:
