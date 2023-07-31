@@ -27,7 +27,6 @@ services:
     volumes:
       - ./api:/code/api
       - ./snapy:/code/snapy
-      - ./htmlcov:/code/htmlcov
       - ./manage.py:/code/manage.py
     ports:
       - "8000:8000"

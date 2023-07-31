@@ -11,6 +11,7 @@ from api.models import Article, Blog, Event, Launch, NewsSite, Provider, Report
 @admin.register(Blog)
 class ArticleAdmin(admin.ModelAdmin):
     """Admin view for articles and blogs."""
+
     list_display = (
         "title",
         "news_site",
@@ -45,6 +46,7 @@ class ArticleAdmin(admin.ModelAdmin):
 @admin.register(Report)
 class ReportAdmin(admin.ModelAdmin):
     """Custom admin view for reports."""
+
     list_display = ("title", "news_site", "published_at")
     search_fields = ["title"]
     ordering = ("-published_at",)

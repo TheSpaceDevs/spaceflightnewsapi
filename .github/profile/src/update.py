@@ -1,8 +1,9 @@
-import jinja2
-import time
-import requests
 import os
-from typing import List, Dict
+import time
+from typing import Dict, List
+
+import jinja2
+import requests
 
 LL2_LAUNCH_ENDPOINT = "https://ll.thespacedevs.com/2.2.0/launch/?mode=list&limit=100"
 LL2_EVENT_ENDPOINT = "https://ll.thespacedevs.com/2.2.0/event/?mode=list&limit=100"
