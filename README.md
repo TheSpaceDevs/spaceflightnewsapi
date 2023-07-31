@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/07/euclid-teleschope-captures-first-images" >🔗</a> **[The Launch Pad]** EUCLID Telescope Captures First Images
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-airs-coverage-of-space-station-research-development-conference" >🔗</a> **[NASA]** NASA Airs Coverage of Space Station Research, Development Conference
+
+
 - <a href="https://www.nasaspaceflight.com/2023/07/pds70-water/" >🔗</a> **[NASASpaceflight]** Scientists, using Webb, discover water vapor within a planet-forming disk
 
 
@@ -192,12 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/sierra-space-wins-air-force-contract-for-upper-stage-engine-development/" >🔗</a> **[SpaceNews]** Sierra Space wins Air Force contract for upper-stage engine development
 
 
-- <a href="https://tlpnetwork.com/news/2023/07/l3harris-acquires-aerojet-rocketdyne" >🔗</a> **[The Launch Pad]** L3Harris Acquires Aerojet Rocketdyne
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/argentina-signs-artemis-accords" >🔗</a> **[The Launch Pad]** Argentina 28th Country To Sign Artemis Accords
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230731T141347">2023-07-31 14:13:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230731T161921">2023-07-31 16:19:21 UTC</a>
   <br>
 </div>
