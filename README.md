@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/07/launch-roundup-spacex-galaxy-37-china-fy-3f/" >🔗</a> **[NASASpaceflight]** Launch Roundup: SpaceX to launch Galaxy 37; China to launch FY-3F
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-boeing-to-provide-progress-update-on-starliner-crew-flight-test" >🔗</a> **[NASA]** NASA, Boeing to Provide Progress Update on Starliner Crew Flight Test
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-force-programs-get-trimmed-in-senate-appropriations-bill/" >🔗</a> **[SpaceNews]** Space Force programs get trimmed in Senate appropriations bill
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/euclid-teleschope-captures-first-images" >🔗</a> **[The Launch Pad]** EUCLID Telescope Captures First Images
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230731T191059">2023-07-31 19:10:59 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230731T201406">2023-07-31 20:14:06 UTC</a>
   <br>
 </div>
