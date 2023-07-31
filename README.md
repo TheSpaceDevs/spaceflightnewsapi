@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/rocket-labs-electron-faces-rare-last-second-abort/" >🔗</a> **[Teslarati]** Rocket Lab’s Electron faces rare last second abort
+
+
 - <a href="https://spacenews.com/u-s-space-command-headquarters-to-remain-in-colorado/" >🔗</a> **[SpaceNews]** U.S. Space Command headquarters to remain in Colorado
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://arstechnica.com/space/2023/07/europe-turns-its-new-1-5-billion-space-telescope-on-and-happily-it-works/" >🔗</a> **[Arstechnica]** Europe turns its new $1.5 billion space telescope on, and happily it works
-
-
-- <a href="https://tlpnetwork.com/news/2023/07/redwire-hired-veteran-aerospace-executive-as-senior-vp" >🔗</a> **[The Launch Pad]** Redwire Hires Veteran Aerospace Executive as Senior VP
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230731T211207">2023-07-31 21:12:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230731T221239">2023-07-31 22:12:39 UTC</a>
   <br>
 </div>
