@@ -8,7 +8,7 @@ ENV APP_HOME=/code
 ENV APP_USER=appuser
 
 RUN groupadd --system $APP_USER && \
-    useradd --system --gid $APP_USER --home $APP_HOME $APP_USER
+    useradd --system --gid $APP_USER --create-home --home $APP_HOME $APP_USER
 
 WORKDIR ${APP_HOME}
 
