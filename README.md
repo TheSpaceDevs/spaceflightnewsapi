@@ -146,6 +146,24 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-boeing-to-provide-progress-update-on-starliner-crew-flight-test" >🔗</a> **[NASA]** NASA, Boeing to Provide Progress Update on Starliner Crew Flight Test
+
+
+- <a href="https://www.teslarati.com/spacex-aces-falcon-heavy-launch/" >🔗</a> **[Teslarati]** SpaceX aces Falcon Heavy launch
+
+
+- <a href="https://mars.nasa.gov/news/9448/" >🔗</a> **[NASA]** NASA Mars Ascent Vehicle Continues Progress Toward Mars Sample Return
+
+
+- <a href="https://spacenews.com/northrop-grumman-prepares-for-final-flight-of-antares-with-russian-and-ukrainian-components/" >🔗</a> **[SpaceNews]** Northrop Grumman prepares for final flight of Antares with Russian and Ukrainian components
+
+
+- <a href="https://spacenews.com/kbr-wins-air-force-research-lab-contract-to-study-non-traditional-orbits/" >🔗</a> **[SpaceNews]** KBR wins Air Force Research Lab contract to study non-traditional orbits
+
+
+- <a href="https://tlpnetwork.com/news/2023/07/us-senate-cuts-space-force-budget-with-defense-bill-approval" >🔗</a> **[The Launch Pad]** US Senate Cuts Space Force Budget With Defense Bill Approval
+
+
 - <a href="https://arstechnica.com/space/2023/07/europe-turns-its-new-1-5-billion-space-telescope-on-and-happily-it-works/" >🔗</a> **[Arstechnica]** Europe turns its new $1.5 billion space telescope on, and happily it works
 
 
@@ -156,38 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/07/euclid-teleschope-captures-first-images" >🔗</a> **[The Launch Pad]** EUCLID Telescope Captures First Images
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-airs-coverage-of-space-station-research-development-conference" >🔗</a> **[NASA]** NASA Airs Coverage of Space Station Research, Development Conference
-
-
-- <a href="https://www.nasaspaceflight.com/2023/07/pds70-water/" >🔗</a> **[NASASpaceflight]** Scientists, using Webb, discover water vapor within a planet-forming disk
-
-
-  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
-
-
-
-- <a href="https://spacenews.com/crew-dragon-soyuz-missions-set-for-launches-to-iss/" >🔗</a> **[SpaceNews]** Crew Dragon, Soyuz missions set for launches to ISS
-
-
-  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
-
-  - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
-
-
-
-- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-july-30-august-5-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy July 30-August 5, 2023
-
-
-- <a href="https://spacenews.com/india-launches-seven-satellites-on-pslv-rocket/" >🔗</a> **[SpaceNews]** India launches seven satellites on PSLV rocket
-
-
-  - <a href="https://go4liftoff.com/launch/id/af626de1-88f7-418b-8801-a4e897f067a4" >🚀</a> **PSLV-CA | DS-SAR** from Satish Dhawan Space Centre, India
-
-
-
-- <a href="https://spacepolicyonline.com/news/congress-leaves-for-summer-break-with-long-to-do-list-when-they-return/" >🔗</a> **[SpacePolicyOnline.com]** Congress Leaves for Summer Break With Long To-Do List When They Return
 
 
 
@@ -228,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230731T171232">2023-07-31 17:12:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230731T191059">2023-07-31 19:10:59 UTC</a>
   <br>
 </div>
