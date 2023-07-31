@@ -35,14 +35,14 @@ SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = strtobool(os.getenv("DEBUG", "False"))
 
-if DEBUG is False:
-    sentry_sdk.init(
-        dsn=os.getenv("SENTRY_DSN"),
-        integrations=[DjangoIntegration()],
-        traces_sample_rate=1.0,
-        send_default_pii=True,
-        release=VERSION,
-    )
+# if DEBUG is False:
+#     sentry_sdk.init(
+#         dsn=os.getenv("SENTRY_DSN"),
+#         integrations=[DjangoIntegration()],
+#         traces_sample_rate=1.0,
+#         send_default_pii=True,
+#         release=VERSION,
+#     )
 
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = [os.getenv("CSRF_TRUSTED_ORIGIN")]
@@ -68,6 +68,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -139,22 +140,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
-
-USE_MINIO = strtobool(os.getenv("USE_MINIO", "False"))
-if USE_MINIO:
-    INSTALLED_APPS.append("django_minio_backend")
-    MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT", "http://localhost:9000")
-    MINIO_USE_HTTPS = True
-    MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY", "minioadmin")
-    MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY", "minioadmin")
-    MINIO_PUBLIC_BUCKETS = [os.getenv("MINIO_BUCKET_NAME", "static")]
-    MINIO_STATIC_FILES_BUCKET = os.getenv("MINIO_BUCKET_NAME", "static")
-    MINIO_BUCKET_CHECK_ON_SAVE = True
-
-    STATICFILES_STORAGE = "django_minio_backend.models.MinioBackendStatic"
-    STATIC_URL = "https://none/"  # This is required but not used because we use STATICFILES_STORAGE.
-else:
-    STATIC_URL = "static/"
+STATIC_URL = "static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
