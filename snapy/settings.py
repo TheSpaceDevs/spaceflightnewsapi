@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 import os
+
+# distutils is deprecated, but there's not replacement for `strtobool` (yet?)
+# pylint: disable
 from distutils.util import strtobool
 from pathlib import Path
 
@@ -35,14 +38,14 @@ SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = strtobool(os.getenv("DEBUG", "False"))
 
-# if DEBUG is False:
-#     sentry_sdk.init(
-#         dsn=os.getenv("SENTRY_DSN"),
-#         integrations=[DjangoIntegration()],
-#         traces_sample_rate=1.0,
-#         send_default_pii=True,
-#         release=VERSION,
-#     )
+if DEBUG is False:
+    sentry_sdk.init(
+        dsn=os.getenv("SENTRY_DSN"),
+        integrations=[DjangoIntegration()],
+        traces_sample_rate=1.0,
+        send_default_pii=True,
+        release=VERSION,
+    )
 
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = [os.getenv("CSRF_TRUSTED_ORIGIN")]
