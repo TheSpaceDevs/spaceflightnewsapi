@@ -51,6 +51,10 @@ services:
       - CELERY_BROKER_URL=${CELERY_BROKER_URL}
       - SENTRY_DSN=${SENTRY_DSN}
       - USE_MINIO=${USE_MINIO}
+      - MINIO_ACCESS_KEY=${MINIO_ACCESS_KEY}
+      - MINIO_SECRET_KEY=${MINIO_SECRET_KEY}
+      - MINIO_BUCKET_NAME=${MINIO_BUCKET_NAME}
+      - MINIO_ENDPOINT=${MINIO_ENDPOINT}
     depends_on:
       database:
         condition: service_healthy
