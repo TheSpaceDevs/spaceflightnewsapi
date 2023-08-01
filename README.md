@@ -146,10 +146,21 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/join-nasa-administrator-artemis-ii-moon-crew-for-mission-update" >🔗</a> **[NASA]** Join NASA Administrator, Artemis II Moon Crew for Mission Update
+
+
+  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://spacenews.com/astro-digital-to-integrate-astroscale-in-orbit-servicing-docking-plates/" >🔗</a> **[SpaceNews]** Astro Digital to integrate Astroscale in-orbit servicing docking plates
 
 
 - <a href="https://www.teslarati.com/northrup-grumman-antares-swan-song-launch/" >🔗</a> **[Teslarati]** Northrup Grumman’s Antares set for its swan song launch
+
+
+  - <a href="https://go4liftoff.com/launch/id/7c126e4f-4afd-4c25-bf6f-9017666b56ee" >🚀</a> **Antares 230+ | Cygnus CRS-2 NG-19** from Wallops Island, Virginia, USA
+
 
 
 - <a href="https://www.nasaspaceflight.com/2023/08/antares-230-farewell-launch/" >🔗</a> **[NASASpaceflight]** Antares 230+ farewell launch to fly S.S. Laurel Clark to ISS
@@ -191,13 +202,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-boeing-to-provide-progress-update-on-starliner-crew-flight-test" >🔗</a> **[NASA]** NASA, Boeing to Provide Progress Update on Starliner Crew Flight Test
-
-
-
-  - <a href="https://go4liftoff.com/event/id/841" >📆</a> **Boeing Starliner CFT Media Teleconference**
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +240,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T181713">2023-08-01 18:17:13 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T201412">2023-08-01 20:14:12 UTC</a>
   <br>
 </div>
