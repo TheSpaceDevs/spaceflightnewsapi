@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/us-space-command-to-stay-in-colorado" >🔗</a> **[The Launch Pad]** US Space Command To Stay In Colorado
+
+
 - <a href="https://www.cnbc.com/2023/08/01/virgin-galactic-spce-q2-2023-earnings-report.html" >🔗</a> **[CNBC]** Virgin Galactic banks $2 million in quarterly revenue after first commercial spaceflight
 
 
@@ -189,9 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/senate-committee-advances-orbital-debris-removal-bill/" >🔗</a> **[SpaceNews]** Senate committee advances orbital debris removal bill
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T211205">2023-08-01 21:12:05 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T221224">2023-08-01 22:12:24 UTC</a>
   <br>
 </div>
