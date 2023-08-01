@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/08/antares-230-farewell-launch/" >🔗</a> **[NASASpaceflight]** Antares 230+ farewell launch to fly S.S. Laurel Clark to ISS
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/antares_launches_final_russian_parts_configuration" >🔗</a> **[The Launch Pad]** Antares prepares to fly its last mission using Russian and Ukrainian parts
 
 
@@ -195,13 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://mars.nasa.gov/news/9448/" >🔗</a> **[NASA]** NASA Mars Ascent Vehicle Continues Progress Toward Mars Sample Return
 
 
-- <a href="https://spacenews.com/northrop-grumman-prepares-for-final-flight-of-antares-with-russian-and-ukrainian-components/" >🔗</a> **[SpaceNews]** Northrop Grumman prepares for final flight of Antares with Russian and Ukrainian components
-
-
-  - <a href="https://go4liftoff.com/launch/id/7c126e4f-4afd-4c25-bf6f-9017666b56ee" >🚀</a> **Antares 230+ | Cygnus CRS-2 NG-19** from Wallops Island, Virginia, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -240,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T151422">2023-08-01 15:14:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T161754">2023-08-01 16:17:54 UTC</a>
   <br>
 </div>
