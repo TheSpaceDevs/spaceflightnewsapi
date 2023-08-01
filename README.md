@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/senate-committee-advances-orbital-debris-removal-bill/" >🔗</a> **[SpaceNews]** Senate committee advances orbital debris removal bill
+
+
+- <a href="https://www.cnbc.com/2023/08/01/planet-pl-lays-off-about-10percent-company-restructures.html" >🔗</a> **[CNBC]** Planet lays off about 10% of workforce as satellite imagery company restructures
+
+
 - <a href="https://www.teslarati.com/rocket-labs-electron-faces-rare-last-second-abort/" >🔗</a> **[Teslarati]** Rocket Lab’s Electron faces rare last second abort
 
 
@@ -192,16 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/kbr-wins-air-force-research-lab-contract-to-study-non-traditional-orbits/" >🔗</a> **[SpaceNews]** KBR wins Air Force Research Lab contract to study non-traditional orbits
 
 
-- <a href="https://tlpnetwork.com/news/2023/07/us-senate-cuts-space-force-budget-with-defense-bill-approval" >🔗</a> **[The Launch Pad]** US Senate Cuts Space Force Budget With Defense Bill Approval
-
-
-- <a href="https://arstechnica.com/space/2023/07/europe-turns-its-new-1-5-billion-space-telescope-on-and-happily-it-works/" >🔗</a> **[Arstechnica]** Europe turns its new $1.5 billion space telescope on, and happily it works
-
-
-  - <a href="https://go4liftoff.com/launch/id/49d20d1b-18dd-4da6-a061-eacd0156fcc4" >🚀</a> **Falcon 9 Block 5 | Euclid** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -240,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T111114">2023-08-01 11:11:14 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T122830">2023-08-01 12:28:30 UTC</a>
   <br>
 </div>
