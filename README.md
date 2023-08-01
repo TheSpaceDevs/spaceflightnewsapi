@@ -149,16 +149,34 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/rocket-labs-electron-faces-rare-last-second-abort/" >🔗</a> **[Teslarati]** Rocket Lab’s Electron faces rare last second abort
 
 
+  - <a href="https://go4liftoff.com/launch/id/7975274c-81c5-48a5-82e1-9b8d982cd533" >🚀</a> **Electron | We Love the Nightlife (Capella Acadia 1)** from Onenui Station, Mahia Peninsula, New Zealand
+
+
+
 - <a href="https://spacenews.com/u-s-space-command-headquarters-to-remain-in-colorado/" >🔗</a> **[SpaceNews]** U.S. Space Command headquarters to remain in Colorado
 
 
 - <a href="https://www.nasaspaceflight.com/2023/07/launch-roundup-spacex-galaxy-37-china-fy-3f/" >🔗</a> **[NASASpaceflight]** Launch Roundup: SpaceX to launch Galaxy 37; China to launch FY-3F
 
 
+  - <a href="https://go4liftoff.com/launch/id/5749ccdb-a743-49e9-b7d0-3c018dc68ae3" >🚀</a> **Long March 4C | Fengyun-3F** from Jiuquan Satellite Launch Center, People's Republic of China
+
+  - <a href="https://go4liftoff.com/launch/id/afc772a3-6ea7-4550-a4e9-35c70c22ebba" >🚀</a> **Falcon 9 Block 5 | Galaxy 37** from Cape Canaveral, FL, USA
+
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-boeing-to-provide-progress-update-on-starliner-crew-flight-test" >🔗</a> **[NASA]** NASA, Boeing to Provide Progress Update on Starliner Crew Flight Test
 
 
+
+  - <a href="https://go4liftoff.com/event/id/841" >📆</a> **Boeing Starliner CFT Media Teleconference**
+
+
 - <a href="https://www.teslarati.com/spacex-aces-falcon-heavy-launch/" >🔗</a> **[Teslarati]** SpaceX aces Falcon Heavy launch
+
+
+  - <a href="https://go4liftoff.com/launch/id/72491a20-315d-4aea-b6df-d1202930bd60" >🚀</a> **Falcon Heavy | EchoStar 24/Jupiter-3** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://mars.nasa.gov/news/9448/" >🔗</a> **[NASA]** NASA Mars Ascent Vehicle Continues Progress Toward Mars Sample Return
@@ -214,6 +232,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T051255">2023-08-01 05:12:55 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T061931">2023-08-01 06:19:31 UTC</a>
   <br>
 </div>
