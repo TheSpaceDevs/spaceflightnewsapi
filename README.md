@@ -146,6 +146,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/antares_launches_final_russian_parts_configuration" >🔗</a> **[The Launch Pad]** Antares prepares to fly its last mission using Russian and Ukrainian parts
+
+
+  - <a href="https://go4liftoff.com/launch/id/7c126e4f-4afd-4c25-bf6f-9017666b56ee" >🚀</a> **Antares 230+ | Cygnus CRS-2 NG-19** from Wallops Island, Virginia, USA
+
+
+
 - <a href="https://spacenews.com/senate-committee-advances-orbital-debris-removal-bill/" >🔗</a> **[SpaceNews]** Senate committee advances orbital debris removal bill
 
 
@@ -195,9 +202,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/kbr-wins-air-force-research-lab-contract-to-study-non-traditional-orbits/" >🔗</a> **[SpaceNews]** KBR wins Air Force Research Lab contract to study non-traditional orbits
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +240,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T131730">2023-08-01 13:17:30 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T151422">2023-08-01 15:14:22 UTC</a>
   <br>
 </div>
