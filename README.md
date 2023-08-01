@@ -185,6 +185,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/northrop-grumman-prepares-for-final-flight-of-antares-with-russian-and-ukrainian-components/" >🔗</a> **[SpaceNews]** Northrop Grumman prepares for final flight of Antares with Russian and Ukrainian components
 
 
+  - <a href="https://go4liftoff.com/launch/id/7c126e4f-4afd-4c25-bf6f-9017666b56ee" >🚀</a> **Antares 230+ | Cygnus CRS-2 NG-19** from Wallops Island, Virginia, USA
+
+
+
 - <a href="https://spacenews.com/kbr-wins-air-force-research-lab-contract-to-study-non-traditional-orbits/" >🔗</a> **[SpaceNews]** KBR wins Air Force Research Lab contract to study non-traditional orbits
 
 
@@ -192,6 +196,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://arstechnica.com/space/2023/07/europe-turns-its-new-1-5-billion-space-telescope-on-and-happily-it-works/" >🔗</a> **[Arstechnica]** Europe turns its new $1.5 billion space telescope on, and happily it works
+
+
+  - <a href="https://go4liftoff.com/launch/id/49d20d1b-18dd-4da6-a061-eacd0156fcc4" >🚀</a> **Falcon 9 Block 5 | Euclid** from Cape Canaveral, FL, USA
+
 
 
 
@@ -232,6 +240,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T061931">2023-08-01 06:19:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230801T071324">2023-08-01 07:13:24 UTC</a>
   <br>
 </div>
