@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/airbus-and-voyager-space-announce-commercial-space-station-partnership/" >🔗</a> **[European Spaceflight]** Airbus and Voyager Space Announce Commercial Space Station Partnership
+
+
+- <a href="https://spacenews.com/u-s-intelligence-agency-selects-vendors-for-space-debris-tracking-project/" >🔗</a> **[SpaceNews]** U.S. intelligence agency selects vendors for space debris tracking project
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/voyager-space-partners-with-airbus-to-develop-starlab-commercial-space-stations" >🔗</a> **[The Launch Pad]** Voyager Space Partners With AirBus To Develop StarLab Commercial Space Stations
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/nsf-noirlab-observatory-offline-following-cyber-attack" >🔗</a> **[The Launch Pad]** BREAKING! NSF NOIRLab Observatory Offline Following Cyber Attack
 
 
@@ -165,19 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/voyager-space-and-airbus-create-commercial-space-station-joint-venture/" >🔗</a> **[SpaceNews]** Voyager Space and Airbus create commercial space station joint venture
-
-
-- <a href="https://spacenews.com/virgin-galactic-forecasts-limited-revenues-from-initial-commercial-flights/" >🔗</a> **[SpaceNews]** Virgin Galactic forecasts limited revenues from initial commercial flights
-
-
-- <a href="https://spacenews.com/ursa-major-gets-additional-funding-for-its-3d-printing-manufacturing-facility/" >🔗</a> **[SpaceNews]** Ursa Major gets additional funding for its 3D printing manufacturing facility
-
-
-- <a href="https://spacenews.com/antares-launches-cygnus-to-iss/" >🔗</a> **[SpaceNews]** Antares launches Cygnus to ISS
-
-
-  - <a href="https://go4liftoff.com/launch/id/7c126e4f-4afd-4c25-bf6f-9017666b56ee" >🚀</a> **Antares 230+ | Cygnus CRS-2 NG-19** from Wallops Island, Virginia, USA
-
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230802T191039">2023-08-02 19:10:39 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230802T201400">2023-08-02 20:14:00 UTC</a>
   <br>
 </div>
