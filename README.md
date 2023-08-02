@@ -178,17 +178,17 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/science/2023/08/the-atlantic-is-frying-but-so-far-hurricanes-are-dying-whats-going-on/" >🔗</a> **[Arstechnica]** The Atlantic is frying, but so far hurricanes are dying. What’s going on?
 
 
-- <a href="https://spacepolicyonline.com/news/mulholland-urges-vocal-advocacy-for-iss-amid-budget-gloom/" >🔗</a> **[SpacePolicyOnline.com]** Mulholland Urges Vocal Advocacy for ISS Amid Budget Gloom
-
-
 - <a href="https://spacepolicyonline.com/news/boeings-mulholland-urges-vocal-advocacy-for-iss-amid-budget-gloom/" >🔗</a> **[SpacePolicyOnline.com]** Boeing’s Mulholland Urges Vocal Advocacy for ISS Amid Budget Gloom
+
+
+- <a href="https://spacepolicyonline.com/news/mulholland-urges-vocal-advocacy-for-iss-amid-budget-gloom/" >🔗</a> **[SpacePolicyOnline.com]** Mulholland Urges Vocal Advocacy for ISS Amid Budget Gloom
 
 
 
 
 ## Latest Blog Posts 🪧
 
-- <a href="https://blog.ulalaunch.com/blog/silentbarker-atlas-v-stacked-for-national-security-launch" >🔗</a> **[United Launch Alliance]** SILENTBARKER: Atlas V stacked for national security launch
+- <a href="https://blog.ulalaunch.com/blog/silentbarker-atlas-v-stacked-for-national-security-launch" >🔗</a> **[United Launch Alliance]** SILENTBARKER/NROL-107: Atlas V stacked for national security launch
 
 
 - <a href="https://europeanspaceflight.substack.com/p/will-esa-finally-land-on-mars" >🔗</a> **[European Spaceflight]** Will ESA finally land on Mars?
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230802T151314">2023-08-02 15:13:14 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230802T161804">2023-08-02 16:18:04 UTC</a>
   <br>
 </div>
