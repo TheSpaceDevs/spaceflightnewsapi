@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/nsf-noirlab-observatory-offline-following-cyber-attack" >🔗</a> **[The Launch Pad]** BREAKING! NSF NOIRLab Observatory Offline Following Cyber Attack
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/virgin-galactic-forecasts-low-revenuef-for-q3-and-q4" >🔗</a> **[The Launch Pad]** Virgin Galactic Forecasts Low Revenue For Q3 and Q4
+
+
+- <a href="https://www.teslarati.com/final-antares-flight-successfully-launches-space-station-resupply-mission/" >🔗</a> **[Teslarati]** Final Antares flight successfully launches Space Station resupply mission
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/irocket-to-develop-and-test-at-us-air-force-base" >🔗</a> **[The Launch Pad]** iRocket To Develop & Test At Renowned US Air Force Base Facility
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/cygnus-ng-19" >🔗</a> **[The Launch Pad]** Northrop Grumman Launches Final Russia-Ukrainian Build Antares Rocket
 
 
@@ -166,22 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/7c126e4f-4afd-4c25-bf6f-9017666b56ee" >🚀</a> **Antares 230+ | Cygnus CRS-2 NG-19** from Wallops Island, Virginia, USA
 
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/us-space-command-to-stay-in-colorado" >🔗</a> **[The Launch Pad]** US Space Command To Stay In Colorado
-
-
-- <a href="https://www.cnbc.com/2023/08/01/virgin-galactic-spce-q2-2023-earnings-report.html" >🔗</a> **[CNBC]** Virgin Galactic banks $2 million in quarterly revenue after first commercial spaceflight
-
-
-  - <a href="https://go4liftoff.com/launch/id/6109337b-0ac2-4a89-a5fe-dba37cb107fe" >🚀</a> **SpaceShipTwo | Galactic 01** from Air launch to Suborbital flight
-
-
-
-- <a href="https://arstechnica.com/science/2023/08/the-atlantic-is-frying-but-so-far-hurricanes-are-dying-whats-going-on/" >🔗</a> **[Arstechnica]** The Atlantic is frying, but so far hurricanes are dying. What’s going on?
-
-
-- <a href="https://spacepolicyonline.com/news/mulholland-urges-vocal-advocacy-for-iss-amid-budget-gloom/" >🔗</a> **[SpacePolicyOnline.com]** Mulholland Urges Vocal Advocacy for ISS Amid Budget Gloom
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230802T181654">2023-08-02 18:16:54 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230802T191039">2023-08-02 19:10:39 UTC</a>
   <br>
 </div>
