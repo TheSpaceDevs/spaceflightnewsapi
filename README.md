@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-set-for-launch-of-the-intelsat-communications-satellite/" >🔗</a> **[Teslarati]** SpaceX set for launch of the Intelsat communications satellite
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/csmc-hires-nasa-astronaut-as-executive-vp-of-strategy" >🔗</a> **[The Launch Pad]** CSMC Hires NASA Astronaut As Executive VP Of Strategy
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/ula-stacks-atlas-v-for-next-national-security-launch" >🔗</a> **[The Launch Pad]** ULA Stacks Atlas V For Next National Security Launch
+
+
 - <a href="https://europeanspaceflight.com/airbus-and-voyager-space-announce-commercial-space-station-partnership/" >🔗</a> **[European Spaceflight]** Airbus and Voyager Space Announce Commercial Space Station Partnership
 
 
@@ -165,15 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/irocket-to-develop-and-test-at-us-air-force-base" >🔗</a> **[The Launch Pad]** iRocket To Develop & Test At Renowned US Air Force Base Facility
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/cygnus-ng-19" >🔗</a> **[The Launch Pad]** Northrop Grumman Launches Final Russia-Ukrainian Build Antares Rocket
-
-
-- <a href="https://spacenews.com/startup-irocket-signs-agreement-to-develop-and-test-hardware-at-u-s-air-force-facility/" >🔗</a> **[SpaceNews]** Startup iRocket signs agreement to develop and test hardware at U.S. Air Force facility
-
-
-- <a href="https://spacenews.com/voyager-space-and-airbus-create-commercial-space-station-joint-venture/" >🔗</a> **[SpaceNews]** Voyager Space and Airbus create commercial space station joint venture
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230802T211129">2023-08-02 21:11:29 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230802T221222">2023-08-02 22:12:22 UTC</a>
   <br>
 </div>
