@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/ursa-major-gets-additional-funding-for-its-3d-printing-manufacturing-facility/" >🔗</a> **[SpaceNews]** Ursa Major gets additional funding for its 3D printing manufacturing facility
+
+
+- <a href="https://spacenews.com/antares-launches-cygnus-to-iss/" >🔗</a> **[SpaceNews]** Antares launches Cygnus to ISS
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/us-space-command-to-stay-in-colorado" >🔗</a> **[The Launch Pad]** US Space Command To Stay In Colorado
 
 
@@ -180,20 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.teslarati.com/northrup-grumman-antares-swan-song-launch/" >🔗</a> **[Teslarati]** Northrup Grumman’s Antares set for its swan song launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/7c126e4f-4afd-4c25-bf6f-9017666b56ee" >🚀</a> **Antares 230+ | Cygnus CRS-2 NG-19** from Wallops Island, Virginia, USA
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/08/antares-230-farewell-launch/" >🔗</a> **[NASASpaceflight]** Antares 230+ farewell launch flying S.S. Laurel Clark to ISS
-
-
-  - <a href="https://go4liftoff.com/launch/id/7c126e4f-4afd-4c25-bf6f-9017666b56ee" >🚀</a> **Antares 230+ | Cygnus CRS-2 NG-19** from Wallops Island, Virginia, USA
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/antares_launches_final_russian_parts_configuration" >🔗</a> **[The Launch Pad]** Antares prepares to fly its last mission using Russian and Ukrainian parts
 
 
   - <a href="https://go4liftoff.com/launch/id/7c126e4f-4afd-4c25-bf6f-9017666b56ee" >🚀</a> **Antares 230+ | Cygnus CRS-2 NG-19** from Wallops Island, Virginia, USA
@@ -238,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230802T071223">2023-08-02 07:12:23 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230802T081705">2023-08-02 08:17:05 UTC</a>
   <br>
 </div>
