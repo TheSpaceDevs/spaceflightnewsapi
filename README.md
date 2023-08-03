@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/psyche-one-step-closer-to-launch-solar-arrays-installed" >🔗</a> **[The Launch Pad]** Psyche One Step Closer To Launch, Solar Arrays Installed
+
+
+- <a href="https://www.cnbc.com/2023/08/03/investing-in-space-rocket-lab-stock-leads-sector-in-2023-gains.html" >🔗</a> **[CNBC]** Investing in Space: Rocket Lab stock leads the sector in year-to-date gains
+
+
 - <a href="https://spacenews.com/northrop-grumman-planning-cygnus-upgrades/" >🔗</a> **[SpaceNews]** Northrop Grumman planning Cygnus upgrades
 
 
@@ -176,12 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/u-s-intelligence-agency-selects-vendors-for-space-debris-tracking-project/" >🔗</a> **[SpaceNews]** U.S. intelligence agency selects vendors for space debris tracking project
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/voyager-space-partners-with-airbus-to-develop-starlab-commercial-space-stations" >🔗</a> **[The Launch Pad]** Voyager Space Partners With AirBus To Develop StarLab Commercial Space Stations
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/nsf-noirlab-observatory-offline-following-cyber-attack" >🔗</a> **[The Launch Pad]** NSF NOIRLab Observatory Offline Following Cyber Attack
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230803T151416">2023-08-03 15:14:16 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230803T161633">2023-08-03 16:16:33 UTC</a>
   <br>
 </div>
