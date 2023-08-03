@@ -178,7 +178,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/08/voyager-space-partners-with-airbus-to-develop-starlab-commercial-space-stations" >🔗</a> **[The Launch Pad]** Voyager Space Partners With AirBus To Develop StarLab Commercial Space Stations
 
 
-- <a href="https://tlpnetwork.com/news/2023/08/nsf-noirlab-observatory-offline-following-cyber-attack" >🔗</a> **[The Launch Pad]** BREAKING! NSF NOIRLab Observatory Offline Following Cyber Attack
+- <a href="https://tlpnetwork.com/news/2023/08/nsf-noirlab-observatory-offline-following-cyber-attack" >🔗</a> **[The Launch Pad]** NSF NOIRLab Observatory Offline Following Cyber Attack
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/virgin-galactic-forecasts-low-revenuef-for-q3-and-q4" >🔗</a> **[The Launch Pad]** Virgin Galactic Forecasts Low Revenue For Q3 and Q4
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230803T061740">2023-08-03 06:17:40 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230803T071237">2023-08-03 07:12:37 UTC</a>
   <br>
 </div>
