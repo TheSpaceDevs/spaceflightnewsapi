@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/spacex-launches-intelsats-last-c-band-clearing-satellite/" >🔗</a> **[SpaceNews]** SpaceX launches Intelsat’s last C-band clearing satellite
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/nasa-spacex-delay-crew-7-launch-to-august-25" >🔗</a> **[The Launch Pad]** NASA, SpaceX Delay Crew 7 Launch To August 25th
+
+
 - <a href="https://mars.nasa.gov/news/9454/" >🔗</a> **[NASA]** NASA's Curiosity Rover Faces Its Toughest Climb Yet on Mars
 
 
@@ -171,16 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/afc772a3-6ea7-4550-a4e9-35c70c22ebba" >🚀</a> **Falcon 9 Block 5 | Galaxy 37** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/csmc-hires-nasa-astronaut-as-executive-vp-of-strategy" >🔗</a> **[The Launch Pad]** CSMC Hires NASA Astronaut As Executive VP Of Strategy
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/ula-stacks-atlas-v-for-next-national-security-launch" >🔗</a> **[The Launch Pad]** ULA Stacks Atlas V For Next National Security Launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/e9a5015d-aa12-4f65-9888-1248ff67ba6e" >🚀</a> **Atlas V 551 | NROL-107 (Silent Barker)** from Cape Canaveral, FL, USA
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230803T171156">2023-08-03 17:11:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230803T181702">2023-08-03 18:17:02 UTC</a>
   <br>
 </div>
