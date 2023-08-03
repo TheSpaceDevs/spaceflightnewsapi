@@ -149,22 +149,46 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/spacex-launches-intelsats-last-c-band-clearing-satellite/" >🔗</a> **[SpaceNews]** SpaceX launches Intelsat’s last C-band clearing satellite
 
 
+  - <a href="https://go4liftoff.com/launch/id/afc772a3-6ea7-4550-a4e9-35c70c22ebba" >🚀</a> **Falcon 9 Block 5 | Galaxy 37** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/nasa-spacex-delay-crew-7-launch-to-august-25" >🔗</a> **[The Launch Pad]** NASA, SpaceX Delay Crew 7 Launch To August 25th
+
+
+  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://mars.nasa.gov/news/9454/" >🔗</a> **[NASA]** NASA's Curiosity Rover Faces Its Toughest Climb Yet on Mars
 
 
+  - <a href="https://go4liftoff.com/launch/id/df8d4fdb-9add-4ce9-9f0e-aae1c61df212" >🚀</a> **Atlas V 541 | MSL (Curiosity)** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/northrop-grumman-announces-cygnus-spacecraft-upgrades" >🔗</a> **[The Launch Pad]** Northrop Grumman Announces Cygnus Spacecraft Upgrades
 
 
+  - <a href="https://go4liftoff.com/launch/id/3bfed6d5-d65e-4133-b51a-b664bbd9d006" >🚀</a> **Antares 330 | Cygnus CRS-2 NG-23** from Wallops Island, Virginia, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/psyche-one-step-closer-to-launch-solar-arrays-installed" >🔗</a> **[The Launch Pad]** Psyche One Step Closer To Launch, Solar Arrays Installed
+
+
+  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://www.cnbc.com/2023/08/03/investing-in-space-rocket-lab-stock-leads-sector-in-2023-gains.html" >🔗</a> **[CNBC]** Investing in Space: Rocket Lab stock leads the sector in year-to-date gains
 
 
 - <a href="https://spacenews.com/northrop-grumman-planning-cygnus-upgrades/" >🔗</a> **[SpaceNews]** Northrop Grumman planning Cygnus upgrades
+
+
+  - <a href="https://go4liftoff.com/launch/id/3bfed6d5-d65e-4133-b51a-b664bbd9d006" >🚀</a> **Antares 330 | Cygnus CRS-2 NG-23** from Wallops Island, Virginia, USA
+
 
 
 - <a href="https://spacenews.com/probing-the-origin-and-evolution-of-water-rich-asteroids/" >🔗</a> **[SpaceNews]** Probing the origin and evolution of water-rich asteroids
@@ -218,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230803T181702">2023-08-03 18:17:02 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230803T191038">2023-08-03 19:10:38 UTC</a>
   <br>
 </div>
