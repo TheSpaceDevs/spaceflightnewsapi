@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/08/04/astra-conducts-layoffs-raises-debt-shifts-focus-to-spacecraft-engines.html" >🔗</a> **[CNBC]** Astra conducts layoffs, raises debt and shifts focus to spacecraft engines in bid to survive
+
+
+- <a href="https://www.teslarati.com/spacex-performs-booster-9-engine-test-ahead-of-static-fire/" >🔗</a> **[Teslarati]** SpaceX performs Booster 9 engine test ahead of static fire
+
+
+- <a href="https://arstechnica.com/space/2023/08/voyager-2-phones-home-and-says-everything-is-cool/" >🔗</a> **[Arstechnica]** Voyager 2 phones home and says everything is cool
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/china-roundup-080423/" >🔗</a> **[NASASpaceflight]** China launches four rockets and outlines future lunar mission
 
 
@@ -169,23 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/house-armed-services-committee-chairman-launches-investigation-into-president-biden-us-space-command-hq-decision" >🔗</a> **[The Launch Pad]** House Armed Services Committee Chairman Launches Investigation Into President Biden's US Space Command HQ Decision
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/ses-investigation-delays-next-o3b-mpower-mission" >🔗</a> **[The Launch Pad]** SES Investigation Delays Next O3b mPower Mission
-
-
-- <a href="https://spacenews.com/nasa-selects-axiom-space-for-fourth-iss-private-astronaut-mission/" >🔗</a> **[SpaceNews]** NASA selects Axiom Space for fourth ISS private astronaut mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/0805af04-c2ea-4750-9eb4-f24f89eeb5d6" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 4** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://arstechnica.com/space/2023/08/rocket-report-lack-of-transparency-on-ariane-6-drastic-cuts-down-under/" >🔗</a> **[Arstechnica]** Rocket Report: Lack of transparency on Ariane 6, drastic cuts Down Under
-
-
-  - <a href="https://go4liftoff.com/launch/id/3e461ec0-8b64-4804-b9aa-e1e1f066065a" >🚀</a> **Ariane 62 | Maiden Flight** from Kourou, French Guiana
-
 
 
 
@@ -226,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230804T211119">2023-08-04 21:11:19 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230804T221221">2023-08-04 22:12:21 UTC</a>
   <br>
 </div>
