@@ -146,6 +146,20 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nasa-selects-axiom-space-for-fourth-iss-private-astronaut-mission/" >🔗</a> **[SpaceNews]** NASA selects Axiom Space for fourth ISS private astronaut mission
+
+
+  - <a href="https://go4liftoff.com/launch/id/0805af04-c2ea-4750-9eb4-f24f89eeb5d6" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 4** from Kennedy Space Center, FL, USA
+
+
+
+- <a href="https://arstechnica.com/space/2023/08/rocket-report-lack-of-transparency-on-ariane-6-drastic-cuts-down-under/" >🔗</a> **[Arstechnica]** Rocket Report: Lack of transparency on Ariane 6, Drastic cuts Down Under
+
+
+  - <a href="https://go4liftoff.com/launch/id/3e461ec0-8b64-4804-b9aa-e1e1f066065a" >🚀</a> **Ariane 62 | Maiden Flight** from Kourou, French Guiana
+
+
+
 - <a href="https://spacepolicyonline.com/news/rogers-threatens-subpoena-for-usspacecom-documents/" >🔗</a> **[SpacePolicyOnline.com]** Rogers Threatens Subpoena for USSPACECOM Documents
 
 
@@ -194,20 +208,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/rogers-to-launch-investigation-of-u-s-space-commands-basing-decision/" >🔗</a> **[SpaceNews]** Rogers to launch investigation of U.S. Space Command’s basing decision
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-selects-axiom-space-for-another-private-space-mission-in-2024" >🔗</a> **[NASA]** NASA Selects Axiom Space for Another Private Space Mission in 2024
-
-
-  - <a href="https://go4liftoff.com/launch/id/0805af04-c2ea-4750-9eb4-f24f89eeb5d6" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 4** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacenews.com/spacex-launches-intelsats-last-c-band-clearing-satellite/" >🔗</a> **[SpaceNews]** SpaceX launches Intelsat’s last C-band clearing satellite
-
-
-  - <a href="https://go4liftoff.com/launch/id/afc772a3-6ea7-4550-a4e9-35c70c22ebba" >🚀</a> **Falcon 9 Block 5 | Galaxy 37** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -246,6 +246,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230804T111105">2023-08-04 11:11:05 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230804T122706">2023-08-04 12:27:06 UTC</a>
   <br>
 </div>
