@@ -152,25 +152,53 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/spacex-kicks-off-august-launch-cadence-with-successful-falcon-9-launch/" >🔗</a> **[Teslarati]** SpaceX kicks off August launch cadence with successful Falcon 9 launch
 
 
+  - <a href="https://go4liftoff.com/launch/id/afc772a3-6ea7-4550-a4e9-35c70c22ebba" >🚀</a> **Falcon 9 Block 5 | Galaxy 37** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/starship-booster-9-critical-testing-phase/" >🔗</a> **[NASASpaceflight]** Starship Booster 9 and launch infrastructure moving into critical testing phase
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
 
 
 - <a href="https://www.teslarati.com/nasa-awards-axiom-space-crewed-flight-iss/" >🔗</a> **[Teslarati]** NASA awards Axiom Space 4th Crewed flight to ISS
 
 
+  - <a href="https://go4liftoff.com/launch/id/0805af04-c2ea-4750-9eb4-f24f89eeb5d6" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 4** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://spacenews.com/next-o3b-mpower-launch-delayed-as-ses-investigates-electrical-issue/" >🔗</a> **[SpaceNews]** O3b mPower faces delays as SES investigates electrical issue
+
+
+  - <a href="https://go4liftoff.com/launch/id/0be2e9d6-50d5-49dc-b56c-a919b7e0dfd8" >🚀</a> **Falcon 9 Block 5 | O3b mPower 5 & 6** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/nasa-selects-axiom-space-for-4th-private-mission-to-iss" >🔗</a> **[The Launch Pad]** NASA Selects Axiom Space For 4th Private Mission To ISS
 
 
+  - <a href="https://go4liftoff.com/launch/id/0805af04-c2ea-4750-9eb4-f24f89eeb5d6" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 4** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/galaxy_37_launching_from_slc_40_on_august_3rd" >🔗</a> **[The Launch Pad]** Galaxy 37 set to launch from SLC-40
+
+
+  - <a href="https://go4liftoff.com/launch/id/afc772a3-6ea7-4550-a4e9-35c70c22ebba" >🚀</a> **Falcon 9 Block 5 | Galaxy 37** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://spacenews.com/rogers-to-launch-investigation-of-u-s-space-commands-basing-decision/" >🔗</a> **[SpaceNews]** Rogers to launch investigation of U.S. Space Command’s basing decision
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-selects-axiom-space-for-another-private-space-mission-in-2024" >🔗</a> **[NASA]** NASA Selects Axiom Space for Another Private Space Mission in 2024
+
+
+  - <a href="https://go4liftoff.com/launch/id/0805af04-c2ea-4750-9eb4-f24f89eeb5d6" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 4** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacenews.com/spacex-launches-intelsats-last-c-band-clearing-satellite/" >🔗</a> **[SpaceNews]** SpaceX launches Intelsat’s last C-band clearing satellite
@@ -218,6 +246,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230804T061738">2023-08-04 06:17:38 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230804T071220">2023-08-04 07:12:20 UTC</a>
   <br>
 </div>
