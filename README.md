@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/chandrayaan-3-reaches-lunar-orbit-landing-soon-with-russia-japan-and-u-s-close-behind/" >🔗</a> **[SpacePolicyOnline.com]** Chandrayaan-3 Reaches Lunar Orbit, Landing Soon with Russia, Japan and U.S. Close Behind
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/msl-11-years/" >🔗</a> **[NASASpaceflight]** After 11 years on Mars, Curiosity continues to climb the slopes of Mount Sharp
 
 
@@ -181,13 +184,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/844" >📆</a> **Booster 9 Testing**
 
   - <a href="https://go4liftoff.com/event/id/845" >📆</a> **Booster 9 33 Engines Static Fire**
-
-
-- <a href="https://arstechnica.com/space/2023/08/voyager-2-phones-home-and-says-everything-is-cool/" >🔗</a> **[Arstechnica]** Voyager 2 phones home and says everything is cool
-
-
-  - <a href="https://go4liftoff.com/launch/id/75414835-ec0a-43f4-b624-1636502312f3" >🚀</a> **Titan IIIE | Voyager 2** from Cape Canaveral, FL, USA
-
 
 
 
@@ -228,6 +224,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230805T211034">2023-08-05 21:10:34 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230805T221142">2023-08-05 22:11:42 UTC</a>
   <br>
 </div>
