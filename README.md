@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/indias-chandrayaan-3-lander-arrives-in-lunar-orbit/" >🔗</a> **[SpaceNews]** India’s Chandrayaan-3 lander arrives in lunar orbit
+
+
+- <a href="https://spacenews.com/astra-lays-off-reassigns-employees-as-it-refocuses-on-satellite-propulsion/" >🔗</a> **[SpaceNews]** Astra lays off, reassigns employees as it refocuses on satellite propulsion
+
+
 - <a href="https://arstechnica.com/space/2023/08/a-look-at-the-surprising-history-of-the-earliest-rocket-pioneers/" >🔗</a> **[Arstechnica]** A look at the surprising history of the earliest rocket pioneers
 
 
@@ -208,16 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/iss-partners-seek-to-maximize-use-of-station-through-2030/" >🔗</a> **[SpaceNews]** ISS partners seek to maximize use of station through 2030
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/nasa-spacex-crew-8-announced" >🔗</a> **[The Launch Pad]** NASA SpaceX Crew 8 Announced
-
-
-  - <a href="https://go4liftoff.com/launch/id/2f101902-03dd-4b23-8546-d25ea514b36f" >🚀</a> **Falcon 9 Block 5 | Crew-8** from Kennedy Space Center, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -256,6 +252,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230805T141059">2023-08-05 14:10:59 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230805T151208">2023-08-05 15:12:08 UTC</a>
   <br>
 </div>
