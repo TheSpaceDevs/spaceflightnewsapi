@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/08/a-look-at-the-surprising-history-of-the-earliest-rocket-pioneers/" >🔗</a> **[Arstechnica]** A look at the surprising history of the earliest rocket pioneers
+
+
 - <a href="https://spacenews.com/apple-backed-globalstars-revenue-jump-underlines-iot-opportunity/" >🔗</a> **[SpaceNews]** Apple-backed Globalstar’s revenue jump underlines IoT opportunity
 
 
@@ -155,16 +158,54 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/spacex-performs-booster-9-engine-test-ahead-of-static-fire/" >🔗</a> **[Teslarati]** SpaceX performs Booster 9 engine test ahead of static fire
 
 
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/844" >📆</a> **Booster 9 Testing**
+
+  - <a href="https://go4liftoff.com/event/id/845" >📆</a> **Booster 9 33 Engines Static Fire**
+
+
 - <a href="https://arstechnica.com/space/2023/08/voyager-2-phones-home-and-says-everything-is-cool/" >🔗</a> **[Arstechnica]** Voyager 2 phones home and says everything is cool
+
+
+  - <a href="https://go4liftoff.com/launch/id/75414835-ec0a-43f4-b624-1636502312f3" >🚀</a> **Titan IIIE | Voyager 2** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://www.nasaspaceflight.com/2023/08/china-roundup-080423/" >🔗</a> **[NASASpaceflight]** China launches four rockets and outlines future lunar mission
 
 
+  - <a href="https://go4liftoff.com/launch/id/160d6bd1-4ac6-43bd-8284-12e457cde9d7" >🚀</a> **Ceres-1 | Qiankun-1 & Xingshidai‐16** from Jiuquan Satellite Launch Center, People's Republic of China
+
+  - <a href="https://go4liftoff.com/launch/id/22a6f1ed-afcd-455d-9316-5aaf8f39e864" >🚀</a> **Long March 2D | Skysight AS-01 to 03 & Lingxi-03** from Taiyuan Satellite Launch Center, People's Republic of China
+
+  - <a href="https://go4liftoff.com/launch/id/9da1b09b-d448-43a2-b6f1-720756c4e960" >🚀</a> **Long March 2D | Yaogan 36 Group 05** from Xichang Satellite Launch Center, People's Republic of China
+
+  - <a href="https://go4liftoff.com/launch/id/5749ccdb-a743-49e9-b7d0-3c018dc68ae3" >🚀</a> **Long March 4C | Fengyun-3F** from Jiuquan Satellite Launch Center, People's Republic of China
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/booster-9-spin-primed" >🔗</a> **[The Launch Pad]** Booster 9 Completes Spin Prime Ahead of Critical 33 Engine Static Fire Test
 
 
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/844" >📆</a> **Booster 9 Testing**
+
+  - <a href="https://go4liftoff.com/event/id/845" >📆</a> **Booster 9 33 Engines Static Fire**
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/voyager-2-communications-restored" >🔗</a> **[The Launch Pad]** VOYAGER 2 FULL COMMUNICATIONS RESTORED AFTER INTERSTELLAR SHOUT FROM NASA DSN
+
+
+  - <a href="https://go4liftoff.com/launch/id/75414835-ec0a-43f4-b624-1636502312f3" >🚀</a> **Titan IIIE | Voyager 2** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://spacenews.com/iss-partners-seek-to-maximize-use-of-station-through-2030/" >🔗</a> **[SpaceNews]** ISS partners seek to maximize use of station through 2030
@@ -175,9 +216,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/2f101902-03dd-4b23-8546-d25ea514b36f" >🚀</a> **Falcon 9 Block 5 | Crew-8** from Kennedy Space Center, FL, USA
 
-
-
-- <a href="http://www.nasa.gov/press-release/space-station-assignments-out-for-nasa-s-spacex-crew-8-mission" >🔗</a> **[NASA]** Space Station Assignments Out for NASA’s SpaceX Crew-8 Mission
 
 
 
@@ -218,6 +256,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230805T091120">2023-08-05 09:11:20 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230805T131441">2023-08-05 13:14:41 UTC</a>
   <br>
 </div>
