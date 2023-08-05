@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/08/msl-11-years/" >🔗</a> **[NASASpaceflight]** After 11 years on Mars, Curiosity continues to climb the slopes of Mount Sharp
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/nasa-esa-csa-jaxa-commit-to-iss-operations-through-2030" >🔗</a> **[The Launch Pad]** NASA, ESA, CSA, and JAXA Commit To ISS Operations Through 2030
 
 
@@ -187,19 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.nasaspaceflight.com/2023/08/china-roundup-080423/" >🔗</a> **[NASASpaceflight]** China launches four rockets and outlines future lunar mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/160d6bd1-4ac6-43bd-8284-12e457cde9d7" >🚀</a> **Ceres-1 | Qiankun-1 & Xingshidai‐16** from Jiuquan Satellite Launch Center, People's Republic of China
-
-  - <a href="https://go4liftoff.com/launch/id/22a6f1ed-afcd-455d-9316-5aaf8f39e864" >🚀</a> **Long March 2D | Skysight AS-01 to 03 & Lingxi-03** from Taiyuan Satellite Launch Center, People's Republic of China
-
-  - <a href="https://go4liftoff.com/launch/id/9da1b09b-d448-43a2-b6f1-720756c4e960" >🚀</a> **Long March 2D | Yaogan 36 Group 05** from Xichang Satellite Launch Center, People's Republic of China
-
-  - <a href="https://go4liftoff.com/launch/id/5749ccdb-a743-49e9-b7d0-3c018dc68ae3" >🚀</a> **Long March 4C | Fengyun-3F** from Jiuquan Satellite Launch Center, People's Republic of China
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230805T190955">2023-08-05 19:09:55 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230805T201242">2023-08-05 20:12:42 UTC</a>
   <br>
 </div>
