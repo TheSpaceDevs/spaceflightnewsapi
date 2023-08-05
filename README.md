@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/nasa-esa-csa-jaxa-commit-to-iss-operations-through-2030" >🔗</a> **[The Launch Pad]** NASA, ESA, CSA, and JAXA Commit To ISS Operations Through 2030
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/isro-chandrayaan-3-lunar-orbit-confirmed" >🔗</a> **[The Launch Pad]** ISRO Chandrayaan-3 Lunar Orbit Confirmed
 
 
@@ -197,19 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/08/booster-9-spin-primed" >🔗</a> **[The Launch Pad]** Booster 9 Completes Spin Prime Ahead of Critical 33 Engine Static Fire Test
-
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/844" >📆</a> **Booster 9 Testing**
-
-  - <a href="https://go4liftoff.com/event/id/845" >📆</a> **Booster 9 33 Engines Static Fire**
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -248,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230805T161556">2023-08-05 16:15:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230805T171056">2023-08-05 17:10:56 UTC</a>
   <br>
 </div>
