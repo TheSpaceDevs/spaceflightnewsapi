@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/iss-transition-plans-a-work-in-progress/" >🔗</a> **[SpaceNews]** ISS transition plans a work in progress
+
+
 - <a href="https://spacenews.com/leostella-unveils-its-largest-smallsat-to-target-sda-contracts/" >🔗</a> **[SpaceNews]** LeoStella unveils its largest smallsat to target SDA contracts
 
 
@@ -193,9 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/apple-backed-globalstars-revenue-jump-underlines-iot-opportunity/" >🔗</a> **[SpaceNews]** Apple-backed Globalstar’s revenue jump underlines IoT opportunity
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230806T151245">2023-08-06 15:12:45 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230806T171040">2023-08-06 17:10:40 UTC</a>
   <br>
 </div>
