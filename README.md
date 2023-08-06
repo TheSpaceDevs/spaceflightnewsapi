@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/08/spacex-conducts-a-mostly-successful-test-of-its-super-heavy-booster/" >🔗</a> **[Arstechnica]** SpaceX conducts a mostly successful test of its Super Heavy booster
+
+
+- <a href="https://www.teslarati.com/spacex-performs-static-fire-test-of-booster-9/" >🔗</a> **[Teslarati]** SpaceX performs static fire test of Booster 9
+
+
 - <a href="https://spacenews.com/lockheed-martin-opens-new-factory-focused-on-small-satellites/" >🔗</a> **[SpaceNews]** Lockheed Martin opens new factory focused on small satellites
 
 
@@ -180,16 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
 
-
-
-- <a href="https://spacenews.com/indias-chandrayaan-3-lander-arrives-in-lunar-orbit/" >🔗</a> **[SpaceNews]** India’s Chandrayaan-3 lander arrives in lunar orbit
-
-
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
-
-
-
-- <a href="https://spacenews.com/astra-lays-off-reassigns-employees-as-it-refocuses-on-satellite-propulsion/" >🔗</a> **[SpaceNews]** Astra lays off, reassigns employees as it refocuses on satellite propulsion
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230806T201254">2023-08-06 20:12:54 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230806T211039">2023-08-06 21:10:39 UTC</a>
   <br>
 </div>
