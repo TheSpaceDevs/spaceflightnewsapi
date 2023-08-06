@@ -167,23 +167,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/08/a-look-at-the-surprising-history-of-the-earliest-rocket-pioneers/" >🔗</a> **[Arstechnica]** A look at the surprising history of the earliest rocket pioneers
 
 
+- <a href="https://www.teslarati.com/spacex-launch-22-starlink-satellites/" >🔗</a> **[Teslarati]** SpaceX to launch 22 Starlink satellites this week
+
+
 - <a href="https://spacenews.com/apple-backed-globalstars-revenue-jump-underlines-iot-opportunity/" >🔗</a> **[SpaceNews]** Apple-backed Globalstar’s revenue jump underlines IoT opportunity
 
 
 - <a href="https://www.cnbc.com/2023/08/04/astra-conducts-layoffs-raises-debt-shifts-focus-to-spacecraft-engines.html" >🔗</a> **[CNBC]** Astra conducts layoffs, raises debt and shifts focus to spacecraft engines in bid to survive
-
-
-- <a href="https://www.teslarati.com/spacex-performs-booster-9-engine-test-ahead-of-static-fire/" >🔗</a> **[Teslarati]** SpaceX performs Booster 9 engine test ahead of static fire
-
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/844" >📆</a> **Booster 9 Testing**
-
-  - <a href="https://go4liftoff.com/event/id/845" >📆</a> **Booster 9 33 Engines Static Fire**
 
 
 
@@ -224,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230806T010622">2023-08-06 01:06:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230806T022150">2023-08-06 02:21:50 UTC</a>
   <br>
 </div>
