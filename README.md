@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/08/07/boeing-resets-starliners-first-crewed-spaceflight-target-for-march.html" >🔗</a> **[CNBC]** Boeing resets Starliner plan to be ready for first NASA crew flight by March
+
+
+- <a href="https://www.nasaspaceflight.com/2023/08/launch-roundup-080623/" >🔗</a> **[NASASpaceflight]** Launch Roundup: Russia to return to the Moon in Luna 25 mission, Virgin Galactic to complete first fully private space tourism flight
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/mars-wobble-and-core-size-confirmed-by-nasa-insight-lander" >🔗</a> **[The Launch Pad]** Mars Wobble & Core Size Confirmed By NASA's InSight Lander
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/lockheed-martin-opens-new-small-satellite-factory" >🔗</a> **[The Launch Pad]** Lockheed Martin Opens New Small Satellite Factory
 
 
@@ -177,19 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/3b633f7e-fad9-480e-9011-f38d1bb2f932" >🚀</a> **Atlas V 401 | InSight, Mars Cube One 1 & Mars Cube One 2** from Vandenberg SFB, CA, USA
 
-
-
-- <a href="https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/" >🔗</a> **[SpaceNews]** TROPICS cubesat constellation ready for hurricane season
-
-
-  - <a href="https://go4liftoff.com/launch/id/e870fe28-c5d5-4c3d-be4f-aaddd061ea18" >🚀</a> **Electron | Rocket Like A Hurricane (TROPICS-2)** from Onenui Station, Mahia Peninsula, New Zealand
-
-
-
-- <a href="https://spacenews.com/frontgrade-acquires-aethercomm/" >🔗</a> **[SpaceNews]** Frontgrade acquires Aethercomm
-
-
-- <a href="https://spacenews.com/benchmark-unveils-driver-assistance-features-for-satellites/" >🔗</a> **[SpaceNews]** Benchmark unveils driver assistance features for satellites
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T191044">2023-08-07 19:10:44 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T201350">2023-08-07 20:13:50 UTC</a>
   <br>
 </div>
