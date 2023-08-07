@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-sets-coverage-of-roscosmos-spacewalk-outside-space-station" >🔗</a> **[NASA]** NASA Sets Coverage of Roscosmos Spacewalk Outside Space Station
+
+
 - <a href="https://mars.nasa.gov/news/9452/" >🔗</a> **[NASA]** NASA InSight Study Finds Mars Is Spinning Faster
 
 
@@ -156,10 +159,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/benchmark-unveils-driver-assistance-features-for-satellites/" >🔗</a> **[SpaceNews]** Benchmark unveils driver assistance features for satellites
-
-
 - <a href="https://spacenews.com/frontgrade-acquires-aethercomm/" >🔗</a> **[SpaceNews]** Frontgrade acquires Aethercomm
+
+
+- <a href="https://spacenews.com/benchmark-unveils-driver-assistance-features-for-satellites/" >🔗</a> **[SpaceNews]** Benchmark unveils driver assistance features for satellites
 
 
 - <a href="https://spacenews.com/xenesis-to-send-optical-terminal-to-iss-platform/" >🔗</a> **[SpaceNews]** Xenesis to send optical terminal to ISS platform
@@ -191,9 +194,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-august-6-12-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy August 6-12, 2023
-
-
-- <a href="https://spacenews.com/iss-transition-plans-a-work-in-progress/" >🔗</a> **[SpaceNews]** ISS transition plans a work in progress
 
 
 
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T161741">2023-08-07 16:17:41 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T171155">2023-08-07 17:11:55 UTC</a>
   <br>
 </div>
