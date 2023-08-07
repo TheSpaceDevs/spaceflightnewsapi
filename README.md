@@ -146,6 +146,27 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://mars.nasa.gov/news/9457/" >🔗</a> **[NASA]** NASA's Ingenuity Mars Helicopter Flies Again After Unscheduled Landing
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/amazon-moves-project-kuiper-demo-to-atlas-5" >🔗</a> **[The Launch Pad]** Amazon Moves Project Kuiper Demo From Vulcan To Atlas 5
+
+
+- <a href="https://www.cnbc.com/2023/08/07/redwire-rdw-space-company-q2-earnings.html" >🔗</a> **[CNBC]** Space company Redwire trims quarterly losses, builds order backlog past $270 million
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/b9firststaticfire" >🔗</a> **[The Launch Pad]** SpaceX's booster 9 performs first static fire test!
+
+
+- <a href="https://spacenews.com/momentus-offers-smallsat-bus-based-on-vigoride/" >🔗</a> **[SpaceNews]** Momentus offers smallsat bus based on Vigoride
+
+
+- <a href="https://www.teslarati.com/boeings-starliner-crew-capsule-delayed-net-march-2024/" >🔗</a> **[Teslarati]** Boeing’s Starliner crew capsule delayed to NET March 2024
+
+
+- <a href="https://arstechnica.com/space/2023/08/starliner-undergoing-three-independent-investigations-as-flight-slips-to-2024/" >🔗</a> **[Arstechnica]** Starliner undergoing three independent investigations as flight slips to 2024
+
+
 - <a href="https://spacepolicyonline.com/news/starliner-cft-to-fly-in-march-2024-at-the-earliest/" >🔗</a> **[SpacePolicyOnline.com]** Starliner CFT To Fly in March 2024 at the Earliest
 
 
@@ -153,31 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/amazon-moves-project-kuiper-prototypes-from-vulcan-to-atlas-5/" >🔗</a> **[SpaceNews]** Amazon moves Project Kuiper prototypes from Vulcan to Atlas 5
-
-
-- <a href="https://www.cnbc.com/2023/08/07/boeing-resets-starliners-first-crewed-spaceflight-target-for-march.html" >🔗</a> **[CNBC]** Boeing resets Starliner plan to be ready for first NASA crew flight by March
-
-
-- <a href="https://www.nasaspaceflight.com/2023/08/launch-roundup-080623/" >🔗</a> **[NASASpaceflight]** Launch Roundup: Russia to return to the Moon in Luna 25 mission, Virgin Galactic to complete first fully private space tourism flight
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/mars-wobble-and-core-size-confirmed-by-nasa-insight-lander" >🔗</a> **[The Launch Pad]** Mars Wobble & Core Size Confirmed By NASA's InSight Lander
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/lockheed-martin-opens-new-small-satellite-factory" >🔗</a> **[The Launch Pad]** Lockheed Martin Opens New Small Satellite Factory
-
-
-- <a href="https://spacenews.com/nanoavionics-completes-leo-satellite-for-studying-black-holes/" >🔗</a> **[SpaceNews]** NanoAvionics completes LEO satellite for studying black holes
-
-
-- <a href="https://spacenews.com/lockheed-martins-data-transport-satellite-clears-design-review/" >🔗</a> **[SpaceNews]** Lockheed Martin’s data-transport satellite clears design review
-
-
-- <a href="https://www.teslarati.com/spacex-closes-in-launch-record-starlink-launch/" >🔗</a> **[Teslarati]** SpaceX closes in on launch record with most recent Starlink launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/ce0089c7-c61c-46a2-a9c1-10f2d6d066f0" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-8** from Cape Canaveral, FL, USA
-
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T211142">2023-08-07 21:11:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T221227">2023-08-07 22:12:27 UTC</a>
   <br>
 </div>
