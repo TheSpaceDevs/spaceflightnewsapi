@@ -146,13 +146,20 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://mars.nasa.gov/news/9452/" >🔗</a> **[NASA]** NASA InSight Study Finds Mars Is Spinning Faster
+
+
 - <a href="https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/" >🔗</a> **[SpaceNews]** TROPICS cubesat constellation ready for hurricane season
 
 
-- <a href="https://spacenews.com/frontgrade-acquires-aethercomm/" >🔗</a> **[SpaceNews]** Frontgrade acquires Aethercomm
+  - <a href="https://go4liftoff.com/launch/id/e870fe28-c5d5-4c3d-be4f-aaddd061ea18" >🚀</a> **Electron | Rocket Like A Hurricane (TROPICS-2)** from Onenui Station, Mahia Peninsula, New Zealand
+
 
 
 - <a href="https://spacenews.com/benchmark-unveils-driver-assistance-features-for-satellites/" >🔗</a> **[SpaceNews]** Benchmark unveils driver assistance features for satellites
+
+
+- <a href="https://spacenews.com/frontgrade-acquires-aethercomm/" >🔗</a> **[SpaceNews]** Frontgrade acquires Aethercomm
 
 
 - <a href="https://spacenews.com/xenesis-to-send-optical-terminal-to-iss-platform/" >🔗</a> **[SpaceNews]** Xenesis to send optical terminal to ISS platform
@@ -187,9 +194,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/iss-transition-plans-a-work-in-progress/" >🔗</a> **[SpaceNews]** ISS transition plans a work in progress
-
-
-- <a href="https://spacenews.com/leostella-unveils-its-largest-smallsat-to-target-sda-contracts/" >🔗</a> **[SpaceNews]** LeoStella unveils its largest smallsat to target SDA contracts
 
 
 
@@ -230,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T151423">2023-08-07 15:14:23 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T161741">2023-08-07 16:17:41 UTC</a>
   <br>
 </div>
