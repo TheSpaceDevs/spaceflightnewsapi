@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/" >🔗</a> **[SpaceNews]** TROPICS cubesat constellation ready for hurricane season
+
+
 - <a href="https://spacenews.com/frontgrade-acquires-aethercomm/" >🔗</a> **[SpaceNews]** Frontgrade acquires Aethercomm
 
 
@@ -189,9 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/leostella-unveils-its-largest-smallsat-to-target-sda-contracts/" >🔗</a> **[SpaceNews]** LeoStella unveils its largest smallsat to target SDA contracts
 
 
-- <a href="https://www.teslarati.com/the-weekly-space-recap-jul-31-aug-6/" >🔗</a> **[Teslarati]** Weekly Space Recap: July 31 – August 6
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T141256">2023-08-07 14:12:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T151423">2023-08-07 15:14:23 UTC</a>
   <br>
 </div>
