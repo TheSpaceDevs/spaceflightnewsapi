@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/xenesis-to-send-optical-terminal-to-iss-platform/" >🔗</a> **[SpaceNews]** Xenesis to send optical terminal to ISS platform
+
+
 - <a href="https://arstechnica.com/space/2023/08/spacex-conducts-a-mostly-successful-test-of-its-super-heavy-booster/" >🔗</a> **[Arstechnica]** SpaceX conducts a mostly successful test of its Super Heavy booster
 
 
@@ -197,9 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/08/nasa-esa-csa-jaxa-commit-to-iss-operations-through-2030" >🔗</a> **[The Launch Pad]** NASA, ESA, CSA, and JAXA Commit To ISS Operations Through 2030
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T091406">2023-08-07 09:14:06 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T101511">2023-08-07 10:15:11 UTC</a>
   <br>
 </div>
