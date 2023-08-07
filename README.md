@@ -146,10 +146,37 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/lockheed-martin-opens-new-small-satellite-factory" >🔗</a> **[The Launch Pad]** Lockheed Martin Opens New Small Satellite Factory
+
+
+- <a href="https://spacenews.com/nanoavionics-completes-leo-satellite-for-studying-black-holes/" >🔗</a> **[SpaceNews]** NanoAvionics completes LEO satellite for studying black holes
+
+
+- <a href="https://spacenews.com/lockheed-martins-data-transport-satellite-clears-design-review/" >🔗</a> **[SpaceNews]** Lockheed Martin’s data-transport satellite clears design review
+
+
+- <a href="https://www.teslarati.com/spacex-closes-in-launch-record-starlink-launch/" >🔗</a> **[Teslarati]** SpaceX closes in on launch record with most recent Starlink launch
+
+
+  - <a href="https://go4liftoff.com/launch/id/ce0089c7-c61c-46a2-a9c1-10f2d6d066f0" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-8** from Cape Canaveral, FL, USA
+
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/rfa-secures-investment-from-kkr" >🔗</a> **[The Launch Pad]** RFA Secures €30m Investment From KKR
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-sets-coverage-of-roscosmos-spacewalk-outside-space-station" >🔗</a> **[NASA]** NASA Sets Coverage of Roscosmos Spacewalk Outside Space Station
 
 
+
+  - <a href="https://go4liftoff.com/event/id/767" >📆</a> **Russian EVA-60**
+
+
 - <a href="https://mars.nasa.gov/news/9452/" >🔗</a> **[NASA]** NASA InSight Study Finds Mars Is Spinning Faster
+
+
+  - <a href="https://go4liftoff.com/launch/id/3b633f7e-fad9-480e-9011-f38d1bb2f932" >🚀</a> **Atlas V 401 | InSight, Mars Cube One 1 & Mars Cube One 2** from Vandenberg SFB, CA, USA
+
 
 
 - <a href="https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/" >🔗</a> **[SpaceNews]** TROPICS cubesat constellation ready for hurricane season
@@ -163,37 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/benchmark-unveils-driver-assistance-features-for-satellites/" >🔗</a> **[SpaceNews]** Benchmark unveils driver assistance features for satellites
-
-
-- <a href="https://spacenews.com/xenesis-to-send-optical-terminal-to-iss-platform/" >🔗</a> **[SpaceNews]** Xenesis to send optical terminal to ISS platform
-
-
-- <a href="https://arstechnica.com/space/2023/08/spacex-conducts-a-mostly-successful-test-of-its-super-heavy-booster/" >🔗</a> **[Arstechnica]** SpaceX conducts a mostly successful test of its Super Heavy booster
-
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/845" >📆</a> **Booster 9 33 Engine Static Fire**
-
-
-- <a href="https://www.teslarati.com/spacex-performs-static-fire-test-of-booster-9/" >🔗</a> **[Teslarati]** SpaceX performs static fire test of Booster 9
-
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/845" >📆</a> **Booster 9 33 Engine Static Fire**
-
-
-- <a href="https://spacenews.com/lockheed-martin-opens-new-factory-focused-on-small-satellites/" >🔗</a> **[SpaceNews]** Lockheed Martin opens new factory focused on small satellites
-
-
-- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-august-6-12-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy August 6-12, 2023
 
 
 
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T171155">2023-08-07 17:11:55 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T191044">2023-08-07 19:10:44 UTC</a>
   <br>
 </div>
