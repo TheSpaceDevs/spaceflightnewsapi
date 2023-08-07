@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/starliner-cft-to-fly-in-march-2024-at-the-earliest/" >🔗</a> **[SpacePolicyOnline.com]** Starliner CFT To Fly in March 2024 at the Earliest
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/leostella-debuts-advance-small-satellite-bus-platform" >🔗</a> **[The Launch Pad]** LeoStella Debuts Advance Small Satellite Bus Platform
+
+
+- <a href="https://spacenews.com/amazon-moves-project-kuiper-prototypes-from-vulcan-to-atlas-5/" >🔗</a> **[SpaceNews]** Amazon moves Project Kuiper prototypes from Vulcan to Atlas 5
+
+
 - <a href="https://www.cnbc.com/2023/08/07/boeing-resets-starliners-first-crewed-spaceflight-target-for-march.html" >🔗</a> **[CNBC]** Boeing resets Starliner plan to be ready for first NASA crew flight by March
 
 
@@ -168,23 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/ce0089c7-c61c-46a2-a9c1-10f2d6d066f0" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-8** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/rfa-secures-investment-from-kkr" >🔗</a> **[The Launch Pad]** RFA Secures €30m Investment From KKR
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-sets-coverage-of-roscosmos-spacewalk-outside-space-station" >🔗</a> **[NASA]** NASA Sets Coverage of Roscosmos Spacewalk Outside Space Station
-
-
-
-  - <a href="https://go4liftoff.com/event/id/767" >📆</a> **Russian EVA-60**
-
-
-- <a href="https://mars.nasa.gov/news/9452/" >🔗</a> **[NASA]** NASA InSight Study Finds Mars Is Spinning Faster
-
-
-  - <a href="https://go4liftoff.com/launch/id/3b633f7e-fad9-480e-9011-f38d1bb2f932" >🚀</a> **Atlas V 401 | InSight, Mars Cube One 1 & Mars Cube One 2** from Vandenberg SFB, CA, USA
 
 
 
@@ -226,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T201350">2023-08-07 20:13:50 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T211142">2023-08-07 21:11:42 UTC</a>
   <br>
 </div>
