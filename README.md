@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/benchmark-unveils-driver-assistance-features-for-satellites/" >🔗</a> **[SpaceNews]** Benchmark unveils driver assistance features for satellites
+
+
+- <a href="https://spacenews.com/frontgrade-acquires-aethercomm/" >🔗</a> **[SpaceNews]** Frontgrade acquires Aethercomm
+
+
 - <a href="https://spacenews.com/xenesis-to-send-optical-terminal-to-iss-platform/" >🔗</a> **[SpaceNews]** Xenesis to send optical terminal to ISS platform
 
 
@@ -186,20 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/the-weekly-space-recap-jul-31-aug-6/" >🔗</a> **[Teslarati]** Weekly Space Recap: July 31 – August 6
 
 
-- <a href="https://spacepolicyonline.com/news/chandrayaan-3-reaches-lunar-orbit-landing-soon-with-russia-japan-and-u-s-close-behind/" >🔗</a> **[SpacePolicyOnline.com]** Chandrayaan-3 Reaches Lunar Orbit, Landing Soon with Russia, Japan and U.S. Close Behind
-
-
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/08/msl-11-years/" >🔗</a> **[NASASpaceflight]** After 11 years on Mars, Curiosity continues to climb the slopes of Mount Sharp
-
-
-  - <a href="https://go4liftoff.com/launch/id/df8d4fdb-9add-4ce9-9f0e-aae1c61df212" >🚀</a> **Atlas V 541 | MSL (Curiosity)** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T122821">2023-08-07 12:28:21 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T131728">2023-08-07 13:17:28 UTC</a>
   <br>
 </div>
