@@ -149,7 +149,23 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/08/spacex-conducts-a-mostly-successful-test-of-its-super-heavy-booster/" >🔗</a> **[Arstechnica]** SpaceX conducts a mostly successful test of its Super Heavy booster
 
 
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/845" >📆</a> **Booster 9 33 Engine Static Fire**
+
+
 - <a href="https://www.teslarati.com/spacex-performs-static-fire-test-of-booster-9/" >🔗</a> **[Teslarati]** SpaceX performs static fire test of Booster 9
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/845" >📆</a> **Booster 9 33 Engine Static Fire**
 
 
 - <a href="https://spacenews.com/lockheed-martin-opens-new-factory-focused-on-small-satellites/" >🔗</a> **[SpaceNews]** Lockheed Martin opens new factory focused on small satellites
@@ -222,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T061808">2023-08-07 06:18:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T071246">2023-08-07 07:12:46 UTC</a>
   <br>
 </div>
