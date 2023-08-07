@@ -164,6 +164,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/leostella-unveils-its-largest-smallsat-to-target-sda-contracts/" >🔗</a> **[SpaceNews]** LeoStella unveils its largest smallsat to target SDA contracts
 
 
+- <a href="https://www.teslarati.com/the-weekly-space-recap-jul-31-aug-6/" >🔗</a> **[Teslarati]** Weekly Space Recap: July 31 – August 6
+
+
 - <a href="https://spacepolicyonline.com/news/chandrayaan-3-reaches-lunar-orbit-landing-soon-with-russia-japan-and-u-s-close-behind/" >🔗</a> **[SpacePolicyOnline.com]** Chandrayaan-3 Reaches Lunar Orbit, Landing Soon with Russia, Japan and U.S. Close Behind
 
 
@@ -179,13 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/nasa-esa-csa-jaxa-commit-to-iss-operations-through-2030" >🔗</a> **[The Launch Pad]** NASA, ESA, CSA, and JAXA Commit To ISS Operations Through 2030
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/isro-chandrayaan-3-lunar-orbit-confirmed" >🔗</a> **[The Launch Pad]** ISRO Chandrayaan-3 Lunar Orbit Confirmed
-
-
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
-
 
 
 
@@ -226,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T011223">2023-08-07 01:12:23 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T022929">2023-08-07 02:29:29 UTC</a>
   <br>
 </div>
