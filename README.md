@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/starliner-cft-delayed-to-2024" >🔗</a> **[The Launch Pad]** Boeing Starliner Crewed Flight Test Delayed To 2024
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/nanoavionics-prepares-leo-black-hole-research-satellite-for-launch" >🔗</a> **[The Launch Pad]** NanoAvionics Prepares LEO Black Hole Research Satellite For Launch
+
+
+- <a href="https://spacenews.com/pale-blue-to-supply-thrusters-for-yonsei-university-cubesats/" >🔗</a> **[SpaceNews]** Pale Blue to supply thrusters for Yonsei University cubesats
+
+
 - <a href="https://spacenews.com/first-starliner-crewed-flight-delayed-to-2024/" >🔗</a> **[SpaceNews]** First Starliner crewed flight delayed to 2024
 
 
@@ -165,15 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/08/07/redwire-rdw-space-company-q2-earnings.html" >🔗</a> **[CNBC]** Space company Redwire trims quarterly losses, builds order backlog past $270 million
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/b9firststaticfire" >🔗</a> **[The Launch Pad]** SpaceX's booster 9 performs first static fire test!
-
-
-- <a href="https://spacenews.com/momentus-offers-smallsat-bus-based-on-vigoride/" >🔗</a> **[SpaceNews]** Momentus offers smallsat bus based on Vigoride
-
-
-- <a href="https://www.teslarati.com/boeings-starliner-crew-capsule-delayed-net-march-2024/" >🔗</a> **[Teslarati]** Boeing’s Starliner crew capsule delayed to NET March 2024
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T010925">2023-08-08 01:09:25 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T022753">2023-08-08 02:27:53 UTC</a>
   <br>
 </div>
