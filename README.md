@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/nasa-ingenuity-mars-helicopter-flies-again-following-unscheduled-landing" >🔗</a> **[The Launch Pad]** NASA's Ingenuity Mars Helicopter Flies Again Following Unscheduled Landing
+
+
+- <a href="https://spacenews.com/download-your-tuesday-news-from-the-2023-small-satellite-show-digital-edition/" >🔗</a> **[SpaceNews]** Download your Tuesday ‘News from the 2023 Small Satellite show’ digital edition
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/ariane-6-test-campaign-timeline" >🔗</a> **[The Launch Pad]** ESA Sets Schedule For Ariane 6 Test Campaign
 
 
@@ -167,13 +173,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/funded-for-further-growth-leaf-space-prepares-its-ground-station-network-for-the-upcoming-spacexs-transporter-9-mission-and-shares-excitement-for-the-sector/" >🔗</a> **[SpaceNews]** Funded for further growth, Leaf Space prepares its ground station network for the upcoming SpaceX’s Transporter-9 mission and shares excitement for the sector
 
 
-- <a href="https://spacenews.com/ksat-unveils-automated-ka-band-network/" >🔗</a> **[SpaceNews]** KSAT unveils automated Ka-band network
-
-
 - <a href="https://spacenews.com/busek-lauds-on-orbit-performance-of-onewebs-hall-effect-thrusters/" >🔗</a> **[SpaceNews]** Busek lauds on-orbit performance of OneWeb’s Hall-effect thrusters
-
-
-- <a href="https://www.cnbc.com/2023/08/08/billionaire-charlie-ergen-merging-dish-and-echostar-to-expand-mobile-and-satellite-telecom-empire.html" >🔗</a> **[CNBC]** Billionaire Charlie Ergen merging Dish and EchoStar to expand mobile and satellite telecom empire
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T161831">2023-08-08 16:18:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T171254">2023-08-08 17:12:54 UTC</a>
   <br>
 </div>
