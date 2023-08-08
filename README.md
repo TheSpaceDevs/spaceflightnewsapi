@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/blacksky-signs-launch-deal-with-rocketlab-for-next-gen-satellites" >🔗</a> **[The Launch Pad]** BlackSky Signs Launch Deal With RocketLab For Next Gen Satellites
+
+
+- <a href="https://www.teslarati.com/spacex-moves-booster-9-back-production-site/" >🔗</a> **[Teslarati]** SpaceX moves Booster 9 back to the production site
+
+
 - <a href="https://spacenews.com/redwire-to-supply-cameras-for-true-anomalys-inspector-satellites/" >🔗</a> **[SpaceNews]** Redwire to supply cameras for True Anomaly’s inspector satellites
 
 
@@ -167,13 +173,11 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/spacex-falcon-9-sends-15-starlink-satellites-to-join-growing-constellation/" >🔗</a> **[Teslarati]** SpaceX Falcon 9 sends 15 Starlink satellites to join growing constellation
 
 
+  - <a href="https://go4liftoff.com/launch/id/31df6182-f50d-401b-9144-86b9d01911df" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-20** from Vandenberg SFB, CA, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/firefly-aerospace-partners-with-xtenti-for-elytra-demo-mission" >🔗</a> **[The Launch Pad]** Firefly Aerospace Partners With Xtenti For Elytra Demo Mission
-
-
-- <a href="https://spacenews.com/china-could-be-planning-a-second-broadband-megaconstellation/" >🔗</a> **[SpaceNews]** China could be planning a second broadband megaconstellation
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/nasa-ingenuity-mars-helicopter-flies-again-following-unscheduled-landing" >🔗</a> **[The Launch Pad]** NASA's Ingenuity Mars Helicopter Flies Again Following Unscheduled Landing
 
 
 
@@ -214,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T201448">2023-08-08 20:14:48 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T211203">2023-08-08 21:12:03 UTC</a>
   <br>
 </div>
