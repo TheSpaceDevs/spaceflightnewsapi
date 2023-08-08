@@ -146,6 +146,21 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/ghgsat-orders-four-more-greenhouse-gas-monitoring-cubesats-from-spire/" >🔗</a> **[SpaceNews]** GHGSat orders four more greenhouse gas monitoring cubesats from Spire
+
+
+- <a href="https://spacepolicyonline.com/news/artemis-ii-on-track-but-artemis-iii-could-be-a-different-mission-if-hardware-not-ready/" >🔗</a> **[SpacePolicyOnline.com]** Artemis II On Track, But Artemis III Could Be a “Different Mission” if Hardware Not Ready
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/dish-network-and-echostar-announce-merger" >🔗</a> **[The Launch Pad]** Dish Network & EchoStar Announce Merger
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/eutelsat-partners-with-thaicom-on-geo-telecom-sat" >🔗</a> **[The Launch Pad]** Eutelsat Partners With Thaicom To Launch GEO Telecom Sat
+
+
+- <a href="https://www.cnbc.com/2023/08/08/rocket-lab-rklb-q2-earnings-report.html" >🔗</a> **[CNBC]** Rocket Lab results match Wall Street estimates, company adds contracts for 10 launches
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/blacksky-signs-launch-deal-with-rocketlab-for-next-gen-satellites" >🔗</a> **[The Launch Pad]** BlackSky Signs Launch Deal With RocketLab For Next Gen Satellites
 
 
@@ -159,25 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/starfish-space-wins-air-force-contract-to-develop-satellite-guidance-software/" >🔗</a> **[SpaceNews]** Starfish Space wins Air Force contract to develop satellite guidance software
-
-
-- <a href="https://spacenews.com/u-s-commission-to-investigate-chinas-remote-sensing-technologies/" >🔗</a> **[SpaceNews]** U.S. commission to investigate China’s remote-sensing technologies
-
-
-- <a href="https://spacenews.com/nro-to-conduct-responsive-space-mission-with-firefly-and-xtenti/" >🔗</a> **[SpaceNews]** NRO to conduct responsive space mission with Firefly and Xtenti
-
-
-- <a href="https://spacenews.com/noaa-lifts-many-commercial-remote-sensing-license-conditions/" >🔗</a> **[SpaceNews]** NOAA lifts many commercial remote sensing license conditions
-
-
-- <a href="https://www.teslarati.com/spacex-falcon-9-sends-15-starlink-satellites-to-join-growing-constellation/" >🔗</a> **[Teslarati]** SpaceX Falcon 9 sends 15 Starlink satellites to join growing constellation
-
-
-  - <a href="https://go4liftoff.com/launch/id/31df6182-f50d-401b-9144-86b9d01911df" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-20** from Vandenberg SFB, CA, USA
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/firefly-aerospace-partners-with-xtenti-for-elytra-demo-mission" >🔗</a> **[The Launch Pad]** Firefly Aerospace Partners With Xtenti For Elytra Demo Mission
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T211203">2023-08-08 21:12:03 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T221303">2023-08-08 22:13:03 UTC</a>
   <br>
 </div>
