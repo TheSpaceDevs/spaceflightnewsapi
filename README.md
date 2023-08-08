@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/sierra-space-establishes-new-engineering-and-test-organization" >🔗</a> **[The Launch Pad]** Sierra Space Establishes New Engineering & Test Organization
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/true-anomaly-partners-with-redwire-for-jackal-spacecraft-cameras" >🔗</a> **[The Launch Pad]** True Anomaly Partners With Redwire For Jackal Spacecraft Cameras
+
+
 - <a href="https://spacenews.com/ghgsat-orders-four-more-greenhouse-gas-monitoring-cubesats-from-spire/" >🔗</a> **[SpaceNews]** GHGSat orders four more greenhouse gas monitoring cubesats from Spire
 
 
@@ -168,12 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/redwire-to-supply-cameras-for-true-anomalys-inspector-satellites/" >🔗</a> **[SpaceNews]** Redwire to supply cameras for True Anomaly’s inspector satellites
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/exotrail-expands-to-us-to-serve-commercial-and-government-customers" >🔗</a> **[The Launch Pad]** Exotrail Expands To US To Serve Commercial and Government Customers
-
-
-- <a href="https://spacenews.com/starfish-space-wins-air-force-contract-to-develop-satellite-guidance-software/" >🔗</a> **[SpaceNews]** Starfish Space wins Air Force contract to develop satellite guidance software
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T221303">2023-08-08 22:13:03 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T231311">2023-08-08 23:13:11 UTC</a>
   <br>
 </div>
