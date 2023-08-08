@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/solestial-to-supply-solar-arrays-for-atomos-space-tugs/" >🔗</a> **[SpaceNews]** Solestial to supply solar arrays for Atomos space tugs
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/starliner-cft-delayed-to-2024" >🔗</a> **[The Launch Pad]** Boeing Starliner Crewed Flight Test Delayed To 2024
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/amazon-moves-project-kuiper-demo-to-atlas-5" >🔗</a> **[The Launch Pad]** Amazon Moves Project Kuiper Demo From Vulcan To Atlas 5
-
-
-- <a href="https://www.cnbc.com/2023/08/07/redwire-rdw-space-company-q2-earnings.html" >🔗</a> **[CNBC]** Space company Redwire trims quarterly losses, builds order backlog past $270 million
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T022753">2023-08-08 02:27:53 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T041622">2023-08-08 04:16:22 UTC</a>
   <br>
 </div>
