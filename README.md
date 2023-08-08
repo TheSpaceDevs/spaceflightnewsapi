@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/busek-lauds-on-orbit-performance-of-onewebs-hall-effect-thrusters/" >🔗</a> **[SpaceNews]** Busek lauds on-orbit performance of OneWeb’s Hall-effect thrusters
+
+
+- <a href="https://spacenews.com/ksat-unveils-automated-ka-band-network/" >🔗</a> **[SpaceNews]** KSAT unveils automated Ka-band network
+
+
+- <a href="https://www.cnbc.com/2023/08/08/billionaire-charlie-ergen-merging-dish-and-echostar-to-expand-mobile-and-satellite-telecom-empire.html" >🔗</a> **[CNBC]** Billionaire Charlie Ergen merging Dish and EchoStar to expand mobile and satellite telecom empire
+
+
 - <a href="https://spacenews.com/rocket-factory-augsburg-gets-e30-million-investment-boost/" >🔗</a> **[SpaceNews]** Rocket Factory Augsburg gets €30 million investment boost
 
 
@@ -173,23 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/eutelsat-and-thaicom-go-halves-on-asia-focused-telecoms-satellite/" >🔗</a> **[SpaceNews]** Eutelsat and Thaicom go halves on Asia-focused telecoms satellite
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/nasa-tropics-constellation-fully-operational-and-ready-for-hurricane-season" >🔗</a> **[The Launch Pad]** NASA TROPICS Constellation Fully Operational & Ready For Hurricane Season
-
-
-  - <a href="https://go4liftoff.com/launch/id/e870fe28-c5d5-4c3d-be4f-aaddd061ea18" >🚀</a> **Electron | Rocket Like A Hurricane (TROPICS-2)** from Onenui Station, Mahia Peninsula, New Zealand
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/hyimpulse-issued-first-lran-from-caa" >🔗</a> **[The Launch Pad]** HyImpulse Issued First Large Rocket Air Navigation Order from CAA
-
-
-- <a href="https://mars.nasa.gov/news/9457/" >🔗</a> **[NASA]** NASA's Ingenuity Mars Helicopter Flies Again After Unscheduled Landing
-
-
-  - <a href="https://go4liftoff.com/launch/id/c4db6995-f25f-4608-8eb9-ce95d5226af2" >🚀</a> **Atlas V 541 | Mars 2020 (Perseverance rover & Ingenuity helicopter)** from Cape Canaveral, FL, USA
-
 
 
 
@@ -230,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T111117">2023-08-08 11:11:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T122738">2023-08-08 12:27:38 UTC</a>
   <br>
 </div>
