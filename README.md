@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/exotrail-expands-to-us-to-serve-commercial-and-government-customers" >🔗</a> **[The Launch Pad]** Exotrail Expands To US To Serve Commercial and Government Customers
+
+
+- <a href="https://spacenews.com/starfish-space-wins-air-force-contract-to-develop-satellite-guidance-software/" >🔗</a> **[SpaceNews]** Starfish Space wins Air Force contract to develop satellite guidance software
+
+
+- <a href="https://spacenews.com/u-s-commission-to-investigate-chinas-remote-sensing-technologies/" >🔗</a> **[SpaceNews]** U.S. commission to investigate China’s remote-sensing technologies
+
+
 - <a href="https://spacenews.com/nro-to-conduct-responsive-space-mission-with-firefly-and-xtenti/" >🔗</a> **[SpaceNews]** NRO to conduct responsive space mission with Firefly and Xtenti
 
 
@@ -165,15 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/download-your-tuesday-news-from-the-2023-small-satellite-show-digital-edition/" >🔗</a> **[SpaceNews]** Download your Tuesday ‘News from the 2023 Small Satellite show’ digital edition
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/ariane-6-test-campaign-timeline" >🔗</a> **[The Launch Pad]** ESA Sets Schedule For Ariane 6 Test Campaign
-
-
-- <a href="https://spacenews.com/exotrail-establishes-u-s-presence/" >🔗</a> **[SpaceNews]** Exotrail establishes U.S. presence
-
-
-- <a href="https://arstechnica.com/space/2023/08/after-a-scare-nasas-mars-helicopter-safely-takes-to-the-skies-again/" >🔗</a> **[Arstechnica]** The helicopter on Mars just flew again after surviving an emergency landing
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T181817">2023-08-08 18:18:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T191109">2023-08-08 19:11:09 UTC</a>
   <br>
 </div>
