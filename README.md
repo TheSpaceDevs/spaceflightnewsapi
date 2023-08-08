@@ -146,6 +146,21 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nro-to-conduct-responsive-space-mission-with-firefly-and-xtenti/" >🔗</a> **[SpaceNews]** NRO to conduct responsive space mission with Firefly and Xtenti
+
+
+- <a href="https://spacenews.com/noaa-lifts-many-commercial-remote-sensing-license-conditions/" >🔗</a> **[SpaceNews]** NOAA lifts many commercial remote sensing license conditions
+
+
+- <a href="https://www.teslarati.com/spacex-falcon-9-sends-15-starlink-satellites-to-join-growing-constellation/" >🔗</a> **[Teslarati]** SpaceX Falcon 9 sends 15 Starlink satellites to join growing constellation
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/firefly-aerospace-partners-with-xtenti-for-elytra-demo-mission" >🔗</a> **[The Launch Pad]** Firefly Aerospace Partners With Xtenti For Elytra Demo Mission
+
+
+- <a href="https://spacenews.com/china-could-be-planning-a-second-broadband-megaconstellation/" >🔗</a> **[SpaceNews]** China could be planning a second broadband megaconstellation
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/nasa-ingenuity-mars-helicopter-flies-again-following-unscheduled-landing" >🔗</a> **[The Launch Pad]** NASA's Ingenuity Mars Helicopter Flies Again Following Unscheduled Landing
 
 
@@ -159,21 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://arstechnica.com/space/2023/08/after-a-scare-nasas-mars-helicopter-safely-takes-to-the-skies-again/" >🔗</a> **[Arstechnica]** The helicopter on Mars just flew again after surviving an emergency landing
-
-
-- <a href="https://spacenews.com/dish-and-echostar-agree-terrestrial-and-space-connectivity-merger/" >🔗</a> **[SpaceNews]** Dish and EchoStar agree terrestrial and space connectivity merger
-
-
-- <a href="https://spacenews.com/space-development-agency-to-expand-satellite-ground-operations-in-north-dakota/" >🔗</a> **[SpaceNews]** Space Development Agency to expand satellite ground operations in North Dakota
-
-
-- <a href="https://spacenews.com/exoterra-gains-flight-heritage-for-halo-thrusters/" >🔗</a> **[SpaceNews]** ExoTerra gains flight heritage for Halo thrusters
-
-
-- <a href="https://spacenews.com/funded-for-further-growth-leaf-space-prepares-its-ground-station-network-for-the-upcoming-spacexs-transporter-9-mission-and-shares-excitement-for-the-sector/" >🔗</a> **[SpaceNews]** Funded for further growth, Leaf Space prepares its ground station network for the upcoming SpaceX’s Transporter-9 mission and shares excitement for the sector
-
-
-- <a href="https://spacenews.com/busek-lauds-on-orbit-performance-of-onewebs-hall-effect-thrusters/" >🔗</a> **[SpaceNews]** Busek lauds on-orbit performance of OneWeb’s Hall-effect thrusters
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T171254">2023-08-08 17:12:54 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T181817">2023-08-08 18:18:17 UTC</a>
   <br>
 </div>
