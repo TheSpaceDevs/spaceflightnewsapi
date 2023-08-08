@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/08/after-a-scare-nasas-mars-helicopter-safely-takes-to-the-skies-again/" >🔗</a> **[Arstechnica]** The helicopter on Mars just flew again after surviving an emergency landing
+
+
+- <a href="https://spacenews.com/dish-and-echostar-agree-terrestrial-and-space-connectivity-merger/" >🔗</a> **[SpaceNews]** Dish and EchoStar agree terrestrial and space connectivity merger
+
+
 - <a href="https://spacenews.com/space-development-agency-to-expand-satellite-ground-operations-in-north-dakota/" >🔗</a> **[SpaceNews]** Space Development Agency to expand satellite ground operations in North Dakota
 
 
@@ -168,16 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/solestial-to-supply-solar-arrays-for-atomos-space-tugs/" >🔗</a> **[SpaceNews]** Solestial to supply solar arrays for Atomos space tugs
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/starliner-cft-delayed-to-2024" >🔗</a> **[The Launch Pad]** Boeing Starliner Crewed Flight Test Delayed To 2024
-
-
-  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/nanoavionics-prepares-leo-black-hole-research-satellite-for-launch" >🔗</a> **[The Launch Pad]** NanoAvionics Prepares LEO Black Hole Research Satellite For Launch
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T141229">2023-08-08 14:12:29 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T151418">2023-08-08 15:14:18 UTC</a>
   <br>
 </div>
