@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/first-starliner-crewed-flight-delayed-to-2024/" >🔗</a> **[SpaceNews]** First Starliner crewed flight delayed to 2024
+
+
+- <a href="https://spacenews.com/eutelsat-and-thaicom-go-halves-on-asia-focused-telecoms-satellite/" >🔗</a> **[SpaceNews]** Eutelsat and Thaicom go halves on Asia-focused telecoms satellite
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/nasa-tropics-constellation-fully-operational-and-ready-for-hurricane-season" >🔗</a> **[The Launch Pad]** NASA TROPICS Constellation Fully Operational & Ready For Hurricane Season
 
 
@@ -168,12 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.teslarati.com/boeings-starliner-crew-capsule-delayed-net-march-2024/" >🔗</a> **[Teslarati]** Boeing’s Starliner crew capsule delayed to NET March 2024
-
-
-- <a href="https://arstechnica.com/space/2023/08/starliner-undergoing-three-independent-investigations-as-flight-slips-to-2024/" >🔗</a> **[Arstechnica]** Starliner undergoing three independent investigations as flight slips to 2024
-
-
-- <a href="https://spacepolicyonline.com/news/starliner-cft-to-fly-in-march-2024-at-the-earliest/" >🔗</a> **[SpacePolicyOnline.com]** Starliner CFT To Fly in March 2024 at the Earliest
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230807T231245">2023-08-07 23:12:45 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T010925">2023-08-08 01:09:25 UTC</a>
   <br>
 </div>
