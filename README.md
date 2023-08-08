@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/exoterra-gains-flight-heritage-for-halo-thrusters/" >🔗</a> **[SpaceNews]** ExoTerra gains flight heritage for Halo thrusters
+
+
+- <a href="https://spacenews.com/funded-for-further-growth-leaf-space-prepares-its-ground-station-network-for-the-upcoming-spacexs-transporter-9-mission-and-shares-excitement-for-the-sector/" >🔗</a> **[SpaceNews]** Funded for further growth, Leaf Space prepares its ground station network for the upcoming SpaceX’s Transporter-9 mission and shares excitement for the sector
+
+
 - <a href="https://spacenews.com/busek-lauds-on-orbit-performance-of-onewebs-hall-effect-thrusters/" >🔗</a> **[SpaceNews]** Busek lauds on-orbit performance of OneWeb’s Hall-effect thrusters
 
 
@@ -172,16 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/pale-blue-to-supply-thrusters-for-yonsei-university-cubesats/" >🔗</a> **[SpaceNews]** Pale Blue to supply thrusters for Yonsei University cubesats
-
-
-- <a href="https://spacenews.com/first-starliner-crewed-flight-delayed-to-2024/" >🔗</a> **[SpaceNews]** First Starliner crewed flight delayed to 2024
-
-
-  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/eutelsat-and-thaicom-go-halves-on-asia-focused-telecoms-satellite/" >🔗</a> **[SpaceNews]** Eutelsat and Thaicom go halves on Asia-focused telecoms satellite
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T122738">2023-08-08 12:27:38 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T131651">2023-08-08 13:16:51 UTC</a>
   <br>
 </div>
