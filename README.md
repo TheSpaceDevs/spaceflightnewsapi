@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/rocket-factory-augsburg-gets-e30-million-investment-boost/" >🔗</a> **[SpaceNews]** Rocket Factory Augsburg gets €30 million investment boost
+
+
 - <a href="https://spacenews.com/solestial-to-supply-solar-arrays-for-atomos-space-tugs/" >🔗</a> **[SpaceNews]** Solestial to supply solar arrays for Atomos space tugs
 
 
@@ -189,13 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/08/amazon-moves-project-kuiper-demo-to-atlas-5" >🔗</a> **[The Launch Pad]** Amazon Moves Project Kuiper Demo From Vulcan To Atlas 5
-
-
-  - <a href="https://go4liftoff.com/launch/id/9086bd21-5422-41b9-a492-963aababd8fd" >🚀</a> **Atlas V 501 | Project Kuiper (Atlas V #1/Demo Mission)** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T101412">2023-08-08 10:14:12 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T111117">2023-08-08 11:11:17 UTC</a>
   <br>
 </div>
