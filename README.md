@@ -152,6 +152,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/08/starliner-cft-delayed-to-2024" >🔗</a> **[The Launch Pad]** Boeing Starliner Crewed Flight Test Delayed To 2024
 
 
+  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/nanoavionics-prepares-leo-black-hole-research-satellite-for-launch" >🔗</a> **[The Launch Pad]** NanoAvionics Prepares LEO Black Hole Research Satellite For Launch
 
 
@@ -161,10 +165,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/first-starliner-crewed-flight-delayed-to-2024/" >🔗</a> **[SpaceNews]** First Starliner crewed flight delayed to 2024
 
 
+  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/eutelsat-and-thaicom-go-halves-on-asia-focused-telecoms-satellite/" >🔗</a> **[SpaceNews]** Eutelsat and Thaicom go halves on Asia-focused telecoms satellite
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/nasa-tropics-constellation-fully-operational-and-ready-for-hurricane-season" >🔗</a> **[The Launch Pad]** NASA TROPICS Constellation Fully Operational & Ready For Hurricane Season
+
+
+  - <a href="https://go4liftoff.com/launch/id/e870fe28-c5d5-4c3d-be4f-aaddd061ea18" >🚀</a> **Electron | Rocket Like A Hurricane (TROPICS-2)** from Onenui Station, Mahia Peninsula, New Zealand
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/hyimpulse-issued-first-lran-from-caa" >🔗</a> **[The Launch Pad]** HyImpulse Issued First Large Rocket Air Navigation Order from CAA
@@ -173,7 +185,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://mars.nasa.gov/news/9457/" >🔗</a> **[NASA]** NASA's Ingenuity Mars Helicopter Flies Again After Unscheduled Landing
 
 
+  - <a href="https://go4liftoff.com/launch/id/c4db6995-f25f-4608-8eb9-ce95d5226af2" >🚀</a> **Atlas V 541 | Mars 2020 (Perseverance rover & Ingenuity helicopter)** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/amazon-moves-project-kuiper-demo-to-atlas-5" >🔗</a> **[The Launch Pad]** Amazon Moves Project Kuiper Demo From Vulcan To Atlas 5
+
+
+  - <a href="https://go4liftoff.com/launch/id/9086bd21-5422-41b9-a492-963aababd8fd" >🚀</a> **Atlas V 501 | Project Kuiper (Atlas V #1/Demo Mission)** from Cape Canaveral, FL, USA
+
 
 
 
@@ -214,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T061731">2023-08-08 06:17:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T071217">2023-08-08 07:12:17 UTC</a>
   <br>
 </div>
