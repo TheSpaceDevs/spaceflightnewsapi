@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/sda-to-expand-north-dakota-satellite-ground-operations" >🔗</a> **[The Launch Pad]** SDA To Expand North Dakota Satellite Ground Operations
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/starfish-space-to-develop-satellite-guidance-software-for-us-air-force" >🔗</a> **[The Launch Pad]** Starfish Space To Develop Satellite Guidance Software For US Air Force
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/lockheed-martin-complete-sda-tranche-1-transport-layer-critical-design-review" >🔗</a> **[The Launch Pad]** Lockheed Martin Complete SDA Tranche 1 Transport Layer Critical Design Review
 
 
@@ -168,12 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/ghgsat-orders-four-more-greenhouse-gas-monitoring-cubesats-from-spire/" >🔗</a> **[SpaceNews]** GHGSat orders four more greenhouse gas monitoring cubesats from Spire
-
-
-- <a href="https://spacepolicyonline.com/news/artemis-ii-on-track-but-artemis-iii-could-be-a-different-mission-if-hardware-not-ready/" >🔗</a> **[SpacePolicyOnline.com]** Artemis II On Track, But Artemis III Could Be a “Different Mission” if Hardware Not Ready
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/dish-network-and-echostar-announce-merger" >🔗</a> **[The Launch Pad]** Dish Network & EchoStar Announce Merger
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T031359">2023-08-09 03:13:59 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T041639">2023-08-09 04:16:39 UTC</a>
   <br>
 </div>
