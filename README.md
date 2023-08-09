@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/solestial-to-equip-atomos-space-tugs-with-solar-arrays" >🔗</a> **[The Launch Pad]** Solestial To Equip Atomos Space Tugs With Solar Arrays
+
+
+- <a href="https://spacenews.com/nro-seeks-collaboration-with-industry-and-academia/" >🔗</a> **[SpaceNews]** NRO seeks collaboration with industry and academia
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/ksat-announces-automated-ka-band-network" >🔗</a> **[The Launch Pad]** KSAT Announces Automated Ka-band Network
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/sda-to-expand-north-dakota-satellite-ground-operations" >🔗</a> **[The Launch Pad]** SDA To Expand North Dakota Satellite Ground Operations
 
 
@@ -165,15 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/china-planning-g60-starlink-megaconstellation" >🔗</a> **[The Launch Pad]** China Planning 2nd LEO Broadband Megaconstellation Called G60 Starlink
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/sierra-space-establishes-new-engineering-and-test-organization" >🔗</a> **[The Launch Pad]** Sierra Space Establishes New Engineering & Test Organization
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/true-anomaly-partners-with-redwire-for-jackal-spacecraft-cameras" >🔗</a> **[The Launch Pad]** True Anomaly Partners With Redwire For Jackal Spacecraft Cameras
-
-
-- <a href="https://spacenews.com/ghgsat-orders-four-more-greenhouse-gas-monitoring-cubesats-from-spire/" >🔗</a> **[SpaceNews]** GHGSat orders four more greenhouse gas monitoring cubesats from Spire
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T041639">2023-08-09 04:16:39 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T051240">2023-08-09 05:12:40 UTC</a>
   <br>
 </div>
