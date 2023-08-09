@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://mars.nasa.gov/news/9459/" >🔗</a> **[NASA]** Cracks in Ancient Martian Mud Surprise NASA's Curiosity Rover Team
+
+
 - <a href="https://spacenews.com/nasa-weighs-changes-to-artemis-3-if-key-elements-are-delayed/" >🔗</a> **[SpaceNews]** NASA weighs changes to Artemis 3 if key elements are delayed
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/noaa-lifts-commercial-remote-sensing-license-conditions" >🔗</a> **[The Launch Pad]** NOAA Lifts Commercial Remote Sensing License Conditions
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/ai-discovers-potentially-hazardous-near-earth-asteroid-astronomers-missed" >🔗</a> **[The Launch Pad]** AI Discovers ‘Potentially Hazardous’ Near Earth Asteroid Astronomers Missed
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T131813">2023-08-09 13:18:13 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T151609">2023-08-09 15:16:09 UTC</a>
   <br>
 </div>
