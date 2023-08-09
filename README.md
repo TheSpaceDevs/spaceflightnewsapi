@@ -146,6 +146,21 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/the-smallsat-show-me-era/" >🔗</a> **[SpaceNews]** The Smallsat Show-me Era
+
+
+- <a href="https://spacenews.com/from-customization-to-standardization/" >🔗</a> **[SpaceNews]** From Customization to Standardization
+
+
+- <a href="https://spacenews.com/blacksky-buys-five-electron-launches/" >🔗</a> **[SpaceNews]** BlackSky buys five Electron launches
+
+
+- <a href="https://mars.nasa.gov/news/9459/" >🔗</a> **[NASA]** Cracks in Ancient Martian Mud Surprise NASA's Curiosity Rover Team
+
+
+- <a href="https://spacenews.com/vyoma-orders-pilot-satellites-for-debris-monitoring-constellation/" >🔗</a> **[SpaceNews]** Vyoma orders pilot satellites for debris-monitoring constellation
+
+
 - <a href="https://spacenews.com/nasa-weighs-changes-to-artemis-3-if-key-elements-are-delayed/" >🔗</a> **[SpaceNews]** NASA weighs changes to Artemis 3 if key elements are delayed
 
 
@@ -159,21 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/ksat-announces-automated-ka-band-network" >🔗</a> **[The Launch Pad]** KSAT Announces Automated Ka-band Network
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/sda-to-expand-north-dakota-satellite-ground-operations" >🔗</a> **[The Launch Pad]** SDA To Expand North Dakota Satellite Ground Operations
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/starfish-space-to-develop-satellite-guidance-software-for-us-air-force" >🔗</a> **[The Launch Pad]** Starfish Space To Develop Satellite Guidance Software For US Air Force
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/lockheed-martin-complete-sda-tranche-1-transport-layer-critical-design-review" >🔗</a> **[The Launch Pad]** Lockheed Martin Complete SDA Tranche 1 Transport Layer Critical Design Review
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/noaa-lifts-commercial-remote-sensing-license-conditions" >🔗</a> **[The Launch Pad]** NOAA Lifts Commercial Remote Sensing License Conditions
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/ai-discovers-potentially-hazardous-near-earth-asteroid-astronomers-missed" >🔗</a> **[The Launch Pad]** AI Discovers ‘Potentially Hazardous’ Near Earth Asteroid Astronomers Missed
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T131813">2023-08-09 13:18:13 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T162042">2023-08-09 16:20:42 UTC</a>
   <br>
 </div>
