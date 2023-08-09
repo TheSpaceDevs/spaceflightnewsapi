@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/lockheed-martin-complete-sda-tranche-1-transport-layer-critical-design-review" >🔗</a> **[The Launch Pad]** Lockheed Martin Complete SDA Tranche 1 Transport Layer Critical Design Review
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/noaa-lifts-commercial-remote-sensing-license-conditions" >🔗</a> **[The Launch Pad]** NOAA Lifts Commercial Remote Sensing License Conditions
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/ai-discovers-potentially-hazardous-near-earth-asteroid-astronomers-missed" >🔗</a> **[The Launch Pad]** AI Discovers ‘Potentially Hazardous’ Near Earth Asteroid Astronomers Missed
 
 
@@ -168,12 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/dish-network-and-echostar-announce-merger" >🔗</a> **[The Launch Pad]** Dish Network & EchoStar Announce Merger
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/eutelsat-partners-with-thaicom-on-geo-telecom-sat" >🔗</a> **[The Launch Pad]** Eutelsat Partners With Thaicom To Launch GEO Telecom Sat
-
-
-- <a href="https://www.cnbc.com/2023/08/08/rocket-lab-rklb-q2-earnings-report.html" >🔗</a> **[CNBC]** Rocket Lab results match Wall Street estimates, company adds contracts for 10 launches
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T022831">2023-08-09 02:28:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T031359">2023-08-09 03:13:59 UTC</a>
   <br>
 </div>
