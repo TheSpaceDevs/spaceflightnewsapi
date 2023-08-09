@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/ai-discovers-potentially-hazardous-near-earth-asteroid-astronomers-missed" >🔗</a> **[The Launch Pad]** AI Discovers ‘Potentially Hazardous’ Near Earth Asteroid Astronomers Missed
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/us-to-investigate-chinas-advancement-into-remote-sensing-tech" >🔗</a> **[The Launch Pad]** US To Investigate China's Remote Sensing Technology Advancements
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/china-planning-g60-starlink-megaconstellation" >🔗</a> **[The Launch Pad]** China Planning 2nd LEO Broadband Megaconstellation Called G60 Starlink
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/sierra-space-establishes-new-engineering-and-test-organization" >🔗</a> **[The Launch Pad]** Sierra Space Establishes New Engineering & Test Organization
 
 
@@ -165,15 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/08/08/rocket-lab-rklb-q2-earnings-report.html" >🔗</a> **[CNBC]** Rocket Lab results match Wall Street estimates, company adds contracts for 10 launches
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/blacksky-signs-launch-deal-with-rocketlab-for-next-gen-satellites" >🔗</a> **[The Launch Pad]** BlackSky Signs Launch Deal With RocketLab For Next Gen Satellites
-
-
-- <a href="https://www.teslarati.com/spacex-moves-booster-9-back-production-site/" >🔗</a> **[Teslarati]** SpaceX moves Booster 9 back to the production site
-
-
-- <a href="https://spacenews.com/redwire-to-supply-cameras-for-true-anomalys-inspector-satellites/" >🔗</a> **[SpaceNews]** Redwire to supply cameras for True Anomaly’s inspector satellites
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230808T231311">2023-08-08 23:13:11 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T011316">2023-08-09 01:13:16 UTC</a>
   <br>
 </div>
