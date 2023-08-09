@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/08/09/viasat-vsat-q1-earnings-report.html" >🔗</a> **[CNBC]** Viasat revenue grows as investigation continues into valuable satellite’s malfunction
+
+
+- <a href="https://spacenews.com/lynk-global-starts-initial-direct-to-device-services-in-the-cook-islands/" >🔗</a> **[SpaceNews]** Lynk Global starts initial direct-to-device services in the Cook Islands
+
+
 - <a href="https://spacenews.com/esa-confirms-ariane-6-debut-to-slip-to-2024/" >🔗</a> **[SpaceNews]** ESA confirms Ariane 6 debut to slip to 2024
 
 
@@ -168,12 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.teslarati.com/rocket-lab-rklb-shares-q2-results/" >🔗</a> **[Teslarati]** Rocket Lab shares Q2 results results
-
-
-- <a href="https://www.nasaspaceflight.com/2023/08/northrop-grumman-mlv/" >🔗</a> **[NASASpaceflight]** Northrop Grumman and Firefly’s Antares 330 and MLV plans take shape
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-software-catalog-offers-free-programs-for-earth-science-more" >🔗</a> **[NASA]** NASA Software Catalog Offers Free Programs for Earth Science, More
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T211223">2023-08-09 21:12:23 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T221252">2023-08-09 22:12:52 UTC</a>
   <br>
 </div>
