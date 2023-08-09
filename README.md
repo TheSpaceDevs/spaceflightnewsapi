@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/esa-confirms-ariane-6-debut-to-slip-to-2024/" >🔗</a> **[SpaceNews]** ESA confirms Ariane 6 debut to slip to 2024
+
+
 - <a href="https://www.teslarati.com/artemis-ii-astronauts-first-look-orion-spacecraft/" >🔗</a> **[Teslarati]** Artemis II astronauts get their first look at their Orion spacecraft
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-software-catalog-offers-free-programs-for-earth-science-more" >🔗</a> **[NASA]** NASA Software Catalog Offers Free Programs for Earth Science, More
-
-
-- <a href="https://spacenews.com/clogged-propellant-lines-doomed-nasa-lunar-cubesat-mission/" >🔗</a> **[SpaceNews]** Clogged propellant lines doomed NASA lunar cubesat mission
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T201458">2023-08-09 20:14:58 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T211223">2023-08-09 21:12:23 UTC</a>
   <br>
 </div>
