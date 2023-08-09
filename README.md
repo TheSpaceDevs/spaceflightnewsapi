@@ -146,6 +146,21 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/artemis-ii-astronauts-first-look-orion-spacecraft/" >🔗</a> **[Teslarati]** Artemis II astronauts get their first look at their Orion spacecraft
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/vyoma-orders-first-debris-monitoring-satellites-for-new-constellation" >🔗</a> **[The Launch Pad]** Vyoma Orders First Debris Monitoring Satellites For New Constellation
+
+
+- <a href="https://spacenews.com/dish-network-plots-two-way-fixed-broadband-services-in-ku-band/" >🔗</a> **[SpaceNews]** Dish Network plots two-way fixed broadband services in Ku-band
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/nasa-lunar-flashlight-mission-failed-due-to-clogged-propellant-lines" >🔗</a> **[The Launch Pad]** NASA Lunar Flashlight Mission Failed Due To Clogged Propellant Lines
+
+
+- <a href="https://spacenews.com/dcube-reveals-in-space-manufacturing-demonstration/" >🔗</a> **[SpaceNews]** DCubed reveals in-space manufacturing demonstration
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/axiom-space-and-esa-to-launch-polish-astronaut-on-future-mission" >🔗</a> **[The Launch Pad]** Axiom Space & ESA To Launch Polish Astronaut On Future Mission
 
 
@@ -159,21 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/clogged-propellant-lines-doomed-nasa-lunar-cubesat-mission/" >🔗</a> **[SpaceNews]** Clogged propellant lines doomed NASA lunar cubesat mission
-
-
-- <a href="https://spacenews.com/the-smallsat-show-me-era/" >🔗</a> **[SpaceNews]** The Smallsat Show-me Era
-
-
-- <a href="https://spacenews.com/from-customization-to-standardization/" >🔗</a> **[SpaceNews]** From Customization to Standardization
-
-
-- <a href="https://spacenews.com/blacksky-buys-five-electron-launches/" >🔗</a> **[SpaceNews]** BlackSky buys five Electron launches
-
-
-- <a href="https://mars.nasa.gov/news/9459/" >🔗</a> **[NASA]** Cracks in Ancient Martian Mud Surprise NASA's Curiosity Rover Team
-
-
-- <a href="https://spacenews.com/vyoma-orders-pilot-satellites-for-debris-monitoring-constellation/" >🔗</a> **[SpaceNews]** Vyoma orders pilot satellites for debris-monitoring constellation
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T191140">2023-08-09 19:11:40 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T201458">2023-08-09 20:14:58 UTC</a>
   <br>
 </div>
