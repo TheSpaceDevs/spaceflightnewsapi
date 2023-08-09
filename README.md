@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/rocket-lab-rklb-shares-q2-results/" >🔗</a> **[Teslarati]** Rocket Lab shares Q2 results results
+
+
+- <a href="https://www.nasaspaceflight.com/2023/08/northrop-grumman-mlv/" >🔗</a> **[NASASpaceflight]** Northrop Grumman and Firefly’s Antares 330 and MLV plans take shape
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-software-catalog-offers-free-programs-for-earth-science-more" >🔗</a> **[NASA]** NASA Software Catalog Offers Free Programs for Earth Science, More
+
+
+- <a href="https://spacenews.com/clogged-propellant-lines-doomed-nasa-lunar-cubesat-mission/" >🔗</a> **[SpaceNews]** Clogged propellant lines doomed NASA lunar cubesat mission
+
+
 - <a href="https://spacenews.com/the-smallsat-show-me-era/" >🔗</a> **[SpaceNews]** The Smallsat Show-me Era
 
 
@@ -162,18 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/nasa-weighs-changes-to-artemis-3-if-key-elements-are-delayed/" >🔗</a> **[SpaceNews]** NASA weighs changes to Artemis 3 if key elements are delayed
-
-
-- <a href="https://spacenews.com/download-your-wednesday-news-from-the-2023-small-satellite-show-digital-edition/" >🔗</a> **[SpaceNews]** Download your Wednesday ‘News from the 2023 Small Satellite show’ digital edition
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/solestial-to-equip-atomos-space-tugs-with-solar-arrays" >🔗</a> **[The Launch Pad]** Solestial To Equip Atomos Space Tugs With Solar Arrays
-
-
-- <a href="https://spacenews.com/nro-seeks-collaboration-with-industry-and-academia/" >🔗</a> **[SpaceNews]** NRO seeks collaboration with industry and academia
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/ksat-announces-automated-ka-band-network" >🔗</a> **[The Launch Pad]** KSAT Announces Automated Ka-band Network
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T171234">2023-08-09 17:12:34 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T181810">2023-08-09 18:18:10 UTC</a>
   <br>
 </div>
