@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/download-your-wednesday-news-from-the-2023-small-satellite-show-digital-edition/" >🔗</a> **[SpaceNews]** Download your Wednesday ‘News from the 2023 Small Satellite show’ digital edition
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/solestial-to-equip-atomos-space-tugs-with-solar-arrays" >🔗</a> **[The Launch Pad]** Solestial To Equip Atomos Space Tugs With Solar Arrays
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/us-to-investigate-chinas-advancement-into-remote-sensing-tech" >🔗</a> **[The Launch Pad]** US To Investigate China's Remote Sensing Technology Advancements
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/china-planning-g60-starlink-megaconstellation" >🔗</a> **[The Launch Pad]** China Planning 2nd LEO Broadband Megaconstellation Called G60 Starlink
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T111142">2023-08-09 11:11:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230809T122945">2023-08-09 12:29:45 UTC</a>
   <br>
 </div>
