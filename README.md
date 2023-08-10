@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/08/its-finally-time-virgin-galactic-is-flying-private-astronauts-into-space/" >🔗</a> **[Arstechnica]** It’s finally time—Virgin Galactic is flying private astronauts into space
+
+
 - <a href="https://spacenews.com/viasat-not-ready-to-declare-viasat-3-americas-a-total-loss/" >🔗</a> **[SpaceNews]** Viasat not ready to declare Viasat-3 Americas a total loss
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/dish-network-plots-two-way-fixed-broadband-services-in-ku-band/" >🔗</a> **[SpaceNews]** Dish Network plots two-way fixed broadband services in Ku-band
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/nasa-lunar-flashlight-mission-failed-due-to-clogged-propellant-lines" >🔗</a> **[The Launch Pad]** NASA Lunar Flashlight Mission Failed Due To Clogged Propellant Lines
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T031404">2023-08-10 03:14:04 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T041640">2023-08-10 04:16:40 UTC</a>
   <br>
 </div>
