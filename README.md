@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/spacex-to-offer-mid-inclination-smallsat-rideshare-launches/" >🔗</a> **[SpaceNews]** SpaceX to offer mid-inclination smallsat rideshare launches
+
+
+- <a href="https://www.cnbc.com/2023/08/10/investing-in-space-pew-survey-of-americans-on-nasa-priorities.html" >🔗</a> **[CNBC]** Investing in Space: Americans think spotting asteroids should be NASA’s top priority, Pew says
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-to-host-media-for-asteroid-capsule-drop-test-briefing-in-utah" >🔗</a> **[NASA]** NASA to Host Media for Asteroid Capsule Drop Test Briefing in Utah
+
+
 - <a href="https://spacenews.com/virgin-galactic-conducts-first-space-tourist-suborbital-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic conducts first space tourist suborbital flight
 
 
@@ -168,23 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/d7131f47-a962-4832-ae68-52a57bb0b684" >🚀</a> **Ceres-1 | 7 satellites** from Jiuquan Satellite Launch Center, People's Republic of China
-
-
-
-- <a href="https://spacenews.com/download-your-thursday-news-from-the-2023-small-satellite-show-digital-edition/" >🔗</a> **[SpaceNews]** Download your Thursday ‘News from the 2023 Small Satellite show’ digital edition
-
-
-- <a href="https://arstechnica.com/space/2023/08/its-finally-time-virgin-galactic-is-flying-private-astronauts-into-space/" >🔗</a> **[Arstechnica]** It’s finally time—Virgin Galactic is flying private astronauts into space
-
-
-  - <a href="https://go4liftoff.com/launch/id/6229654f-e7ea-4d97-80f7-0195161e8645" >🚀</a> **SpaceShipTwo | Galactic 02** from Air launch to Suborbital flight
-
-
-
-- <a href="https://spacenews.com/viasat-not-ready-to-declare-viasat-3-americas-a-total-loss/" >🔗</a> **[SpaceNews]** Viasat not ready to declare Viasat-3 Americas a total loss
-
-
-  - <a href="https://go4liftoff.com/launch/id/8b1067dd-81c6-4bc3-b0f1-45f78963716f" >🚀</a> **Falcon Heavy | ViaSat-3 Americas & Others** from Kennedy Space Center, FL, USA
 
 
 
@@ -230,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T171208">2023-08-10 17:12:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T181659">2023-08-10 18:16:59 UTC</a>
   <br>
 </div>
