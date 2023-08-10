@@ -146,16 +146,34 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/oklahoma-texas-students-to-hear-from-nasa-astronauts-aboard-station" >🔗</a> **[NASA]** Oklahoma, Texas Students to Hear from NASA Astronauts Aboard Station
+
+
+- <a href="https://www.nasaspaceflight.com/2023/08/luna-25-mission-launch/" >🔗</a> **[NASASpaceflight]** Luna 25: the first Russian spacecraft in 47 years is ready to go to the moon
+
+
+  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/scout-space-wins-us-space-force-contract-extension" >🔗</a> **[The Launch Pad]** Scout Space Wins US Space Force Contract Extension
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/virgin-galactic-launches-first-space-tourist-mission" >🔗</a> **[The Launch Pad]** Virgin Galactic Launches First Space Tourist Mission
 
 
+  - <a href="https://go4liftoff.com/launch/id/6229654f-e7ea-4d97-80f7-0195161e8645" >🚀</a> **SpaceShipTwo | Galactic 02** from Air launch to Suborbital flight
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/spacex-announces-bandwagon-missions" >🔗</a> **[The Launch Pad]** SpaceX Announces "Bandwagon" Missions
 
 
 - <a href="https://www.teslarati.com/virgin-galactic-completes-first-all-civilian-flight/" >🔗</a> **[Teslarati]** Virgin Galactic completes their first all civilian flight
+
+
+  - <a href="https://go4liftoff.com/launch/id/6229654f-e7ea-4d97-80f7-0195161e8645" >🚀</a> **SpaceShipTwo | Galactic 02** from Air launch to Suborbital flight
+
 
 
 - <a href="https://europeanspaceflight.com/france-to-fund-demonstration-missions-of-microlaunchers/" >🔗</a> **[European Spaceflight]** France to Fund Demonstration Missions of Microlaunchers
@@ -168,12 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/08/10/investing-in-space-pew-survey-of-americans-on-nasa-priorities.html" >🔗</a> **[CNBC]** Investing in Space: Americans think spotting asteroids should be NASA’s top priority, Pew says
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-to-host-media-for-asteroid-capsule-drop-test-briefing-in-utah" >🔗</a> **[NASA]** NASA to Host Media for Asteroid Capsule Drop Test Briefing in Utah
-
-
-- <a href="https://spacenews.com/virgin-galactic-conducts-first-space-tourist-suborbital-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic conducts first space tourist suborbital flight
 
 
 
@@ -218,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T201344">2023-08-10 20:13:44 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T211136">2023-08-10 21:11:36 UTC</a>
   <br>
 </div>
