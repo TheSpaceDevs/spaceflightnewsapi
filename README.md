@@ -149,7 +149,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/08/its-finally-time-virgin-galactic-is-flying-private-astronauts-into-space/" >🔗</a> **[Arstechnica]** It’s finally time—Virgin Galactic is flying private astronauts into space
 
 
+  - <a href="https://go4liftoff.com/launch/id/6229654f-e7ea-4d97-80f7-0195161e8645" >🚀</a> **SpaceShipTwo | Galactic 02** from Air launch to Suborbital flight
+
+
+
 - <a href="https://spacenews.com/viasat-not-ready-to-declare-viasat-3-americas-a-total-loss/" >🔗</a> **[SpaceNews]** Viasat not ready to declare Viasat-3 Americas a total loss
+
+
+  - <a href="https://go4liftoff.com/launch/id/8b1067dd-81c6-4bc3-b0f1-45f78963716f" >🚀</a> **Falcon Heavy | ViaSat-3 Americas & Others** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacenews.com/japans-interstellar-aims-for-orbital-launch-in-2025/" >🔗</a> **[SpaceNews]** Japan’s Interstellar aims for orbital launch in 2025
@@ -161,13 +169,25 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.cnbc.com/2023/08/09/viasat-vsat-q1-earnings-report.html" >🔗</a> **[CNBC]** Viasat revenue grows as investigation continues into malfunctioning $750 million satellite
 
 
+  - <a href="https://go4liftoff.com/launch/id/8b1067dd-81c6-4bc3-b0f1-45f78963716f" >🚀</a> **Falcon Heavy | ViaSat-3 Americas & Others** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://spacenews.com/lynk-global-starts-initial-direct-to-device-services-in-the-cook-islands/" >🔗</a> **[SpaceNews]** Lynk Global starts initial direct-to-device services in the Cook Islands
 
 
 - <a href="https://spacenews.com/esa-confirms-ariane-6-debut-to-slip-to-2024/" >🔗</a> **[SpaceNews]** ESA confirms Ariane 6 debut to slip to 2024
 
 
+  - <a href="https://go4liftoff.com/launch/id/3e461ec0-8b64-4804-b9aa-e1e1f066065a" >🚀</a> **Ariane 62 | Maiden Flight** from Kourou, French Guiana
+
+
+
 - <a href="https://www.teslarati.com/artemis-ii-astronauts-first-look-orion-spacecraft/" >🔗</a> **[Teslarati]** Artemis II astronauts get their first look at their Orion spacecraft
+
+
+  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/vyoma-orders-first-debris-monitoring-satellites-for-new-constellation" >🔗</a> **[The Launch Pad]** Vyoma Orders First Debris Monitoring Satellites For New Constellation
@@ -214,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T071301">2023-08-10 07:13:01 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T081805">2023-08-10 08:18:05 UTC</a>
   <br>
 </div>
