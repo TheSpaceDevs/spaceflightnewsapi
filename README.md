@@ -146,7 +146,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://www.cnbc.com/2023/08/10/watch-livestream-virgin-galactic-launches-galactic-02-spaceflight.html" >🔗</a> **[CNBC]** Watch live as Virgin Galactic launches tourists to space for the first time
+- <a href="https://mars.nasa.gov/news/9460/" >🔗</a> **[NASA]** Watch NASA Engineers Put a Mars Lander's Legs to the Test
+
+
+- <a href="https://spacenews.com/op-ed-spacs-are-a-double-edged-sword-for-newspace/" >🔗</a> **[SpaceNews]** Op-ed | SPACs are a double-edged sword for newspace
+
+
+- <a href="https://www.cnbc.com/2023/08/10/watch-livestream-virgin-galactic-launches-galactic-02-spaceflight.html" >🔗</a> **[CNBC]** Virgin Galactic flies tourists to space for the first time
 
 
 - <a href="https://spacenews.com/space-force-tries-to-hedge-risk-with-new-launch-strategy/" >🔗</a> **[SpaceNews]** Space Force tries to hedge risk with new launch strategy
@@ -160,6 +166,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/d7131f47-a962-4832-ae68-52a57bb0b684" >🚀</a> **Ceres-1 | 7 satellites** from Jiuquan Satellite Launch Center, People's Republic of China
 
+
+
+- <a href="https://spacenews.com/download-your-thursday-news-from-the-2023-small-satellite-show-digital-edition/" >🔗</a> **[SpaceNews]** Download your Thursday ‘News from the 2023 Small Satellite show’ digital edition
 
 
 - <a href="https://arstechnica.com/space/2023/08/its-finally-time-virgin-galactic-is-flying-private-astronauts-into-space/" >🔗</a> **[Arstechnica]** It’s finally time—Virgin Galactic is flying private astronauts into space
@@ -177,19 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/japans-interstellar-aims-for-orbital-launch-in-2025/" >🔗</a> **[SpaceNews]** Japan’s Interstellar aims for orbital launch in 2025
-
-
-- <a href="https://spacenews.com/u-s-intelligence-agencies-take-steps-to-protect-commercial-satellite-operators/" >🔗</a> **[SpaceNews]** U.S. intelligence agencies take steps to protect commercial satellites
-
-
-- <a href="https://www.cnbc.com/2023/08/09/viasat-vsat-q1-earnings-report.html" >🔗</a> **[CNBC]** Viasat revenue grows as investigation continues into malfunctioning $750 million satellite
-
-
-  - <a href="https://go4liftoff.com/launch/id/8b1067dd-81c6-4bc3-b0f1-45f78963716f" >🚀</a> **Falcon Heavy | ViaSat-3 Americas & Others** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacenews.com/lynk-global-starts-initial-direct-to-device-services-in-the-cook-islands/" >🔗</a> **[SpaceNews]** Lynk Global starts initial direct-to-device services in the Cook Islands
 
 
 
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T151447">2023-08-10 15:14:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T161830">2023-08-10 16:18:30 UTC</a>
   <br>
 </div>
