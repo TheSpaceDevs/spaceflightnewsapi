@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/scout-space-stanford-university-win-space-force-contract-extension/" >🔗</a> **[SpaceNews]** Scout Space, Stanford University win Space Force contract extension
+
+
 - <a href="https://spacenews.com/chinese-startup-launches-7th-ceres-1-rocket-preps-for-first-sea-launch/" >🔗</a> **[SpaceNews]** Chinese startup launches 7th Ceres-1 rocket, preps for first sea launch
 
 
@@ -193,9 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/08/vyoma-orders-first-debris-monitoring-satellites-for-new-constellation" >🔗</a> **[The Launch Pad]** Vyoma Orders First Debris Monitoring Satellites For New Constellation
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T091423">2023-08-10 09:14:23 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T101529">2023-08-10 10:15:29 UTC</a>
   <br>
 </div>
