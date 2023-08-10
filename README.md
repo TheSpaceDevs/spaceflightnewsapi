@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/viasat-not-ready-to-declare-viasat-3-americas-a-total-loss/" >🔗</a> **[SpaceNews]** Viasat not ready to declare Viasat-3 Americas a total loss
+
+
 - <a href="https://spacenews.com/japans-interstellar-aims-for-orbital-launch-in-2025/" >🔗</a> **[SpaceNews]** Japan’s Interstellar aims for orbital launch in 2025
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/nasa-lunar-flashlight-mission-failed-due-to-clogged-propellant-lines" >🔗</a> **[The Launch Pad]** NASA Lunar Flashlight Mission Failed Due To Clogged Propellant Lines
-
-
-- <a href="https://spacenews.com/dcube-reveals-in-space-manufacturing-demonstration/" >🔗</a> **[SpaceNews]** DCubed reveals in-space manufacturing demonstration
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T011326">2023-08-10 01:13:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T023327">2023-08-10 02:33:27 UTC</a>
   <br>
 </div>
