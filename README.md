@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-temperature-data-climate-goals" >🔗</a> **[NASA]** NASA to Discuss Temperature Data, Climate Goals
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-discutir-datos-de-temperatura-objetivos-clim-ticos" >🔗</a> **[NASA]** NASA discutirá datos de temperatura, objetivos climáticos
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/booster-9-removed-testing-hot-stage/" >🔗</a> **[NASASpaceflight]** Booster 9 removed from launch site ahead of hot stage ring tests
 
 
@@ -176,16 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
 
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/nasa-parker-solar-probe-executes-precision-maneuver-to-target-venus-flyby" >🔗</a> **[The Launch Pad]** NASA's Parker Solar Probe Executes Precision Maneuver to Target Venus Flyby
-
-
-  - <a href="https://go4liftoff.com/launch/id/59be6437-262c-4976-b0cd-c2ed27454d44" >🚀</a> **Delta IV Heavy | Parker Solar Probe** from Cape Canaveral, FL, USA
-
-
-
-- <a href="http://www.nasa.gov/press-release/oklahoma-texas-students-to-hear-from-nasa-astronauts-aboard-station" >🔗</a> **[NASA]** Oklahoma, Texas Students to Hear from NASA Astronauts Aboard Station
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230811T211108">2023-08-11 21:11:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230811T221215">2023-08-11 22:12:15 UTC</a>
   <br>
 </div>
