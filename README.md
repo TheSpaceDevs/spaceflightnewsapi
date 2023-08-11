@@ -149,7 +149,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/oklahoma-texas-students-to-hear-from-nasa-astronauts-aboard-station" >🔗</a> **[NASA]** Oklahoma, Texas Students to Hear from NASA Astronauts Aboard Station
 
 
-- <a href="https://www.nasaspaceflight.com/2023/08/luna-25-mission-launch/" >🔗</a> **[NASASpaceflight]** Luna 25: the first Russian spacecraft in 47 years is ready to go to the moon
+- <a href="https://www.nasaspaceflight.com/2023/08/luna-25-mission-launch/" >🔗</a> **[NASASpaceflight]** Luna 25: the first Russian spacecraft in 47 years heading to the moon
 
 
   - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230810T231255">2023-08-10 23:12:55 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230811T005858">2023-08-11 00:58:58 UTC</a>
   <br>
 </div>
