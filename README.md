@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/nasa-parker-solar-probe-executes-precision-maneuver-to-target-venus-flyby" >🔗</a> **[The Launch Pad]** NASA's Parker Solar Probe Executes Precision Maneuver to Target Venus Flyby
+
+
 - <a href="http://www.nasa.gov/press-release/oklahoma-texas-students-to-hear-from-nasa-astronauts-aboard-station" >🔗</a> **[NASA]** Oklahoma, Texas Students to Hear from NASA Astronauts Aboard Station
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/spacex-to-offer-mid-inclination-smallsat-rideshare-launches/" >🔗</a> **[SpaceNews]** SpaceX to offer mid-inclination smallsat rideshare launches
-
-
-- <a href="https://www.cnbc.com/2023/08/10/investing-in-space-pew-survey-of-americans-on-nasa-priorities.html" >🔗</a> **[CNBC]** Investing in Space: Americans think spotting asteroids should be NASA’s top priority, Pew says
 
 
 
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230811T005858">2023-08-11 00:58:58 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230811T014929">2023-08-11 01:49:29 UTC</a>
   <br>
 </div>
