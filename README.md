@@ -149,7 +149,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/russia-launches-first-lunar-probe-in-almost-50-years/" >🔗</a> **[SpacePolicyOnline.com]** Russia Launches First Lunar Probe in Almost 50 Years
 
 
+  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/nasa-parker-solar-probe-executes-precision-maneuver-to-target-venus-flyby" >🔗</a> **[The Launch Pad]** NASA's Parker Solar Probe Executes Precision Maneuver to Target Venus Flyby
+
+
+  - <a href="https://go4liftoff.com/launch/id/59be6437-262c-4976-b0cd-c2ed27454d44" >🚀</a> **Delta IV Heavy | Parker Solar Probe** from Cape Canaveral, FL, USA
+
 
 
 - <a href="http://www.nasa.gov/press-release/oklahoma-texas-students-to-hear-from-nasa-astronauts-aboard-station" >🔗</a> **[NASA]** Oklahoma, Texas Students to Hear from NASA Astronauts Aboard Station
@@ -230,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230811T031337">2023-08-11 03:13:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230811T041601">2023-08-11 04:16:01 UTC</a>
   <br>
 </div>
