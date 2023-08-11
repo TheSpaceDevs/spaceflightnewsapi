@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-seeks-student-ideas-for-2024-human-exploration-rover-challenge" >🔗</a> **[NASA]** NASA Seeks Student Ideas for 2024 Human Exploration Rover Challenge
+
+
+- <a href="https://www.cnbc.com/2023/08/11/telesat-swaps-internet-satellite-suppliers-to-save-2-billion.html" >🔗</a> **[CNBC]** Telesat stock surges 50% after satellite internet company swaps suppliers to save $2 billion
+
+
 - <a href="https://arstechnica.com/space/2023/08/virgin-galactic-just-flew-again-but-is-the-company-going-anywhere/" >🔗</a> **[Arstechnica]** Virgin Galactic just flew again, but is the company going anywhere?
 
 
@@ -180,16 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/virgin-galactic-launches-first-space-tourist-mission" >🔗</a> **[The Launch Pad]** Virgin Galactic Launches First Space Tourist Mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/6229654f-e7ea-4d97-80f7-0195161e8645" >🚀</a> **SpaceShipTwo | Galactic 02** from Air launch to Suborbital flight
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/spacex-announces-bandwagon-missions" >🔗</a> **[The Launch Pad]** SpaceX Announces "Bandwagon" Missions
-
-
-- <a href="https://www.teslarati.com/virgin-galactic-completes-first-all-civilian-flight/" >🔗</a> **[Teslarati]** Virgin Galactic completes their first all civilian flight
 
 
   - <a href="https://go4liftoff.com/launch/id/6229654f-e7ea-4d97-80f7-0195161e8645" >🚀</a> **SpaceShipTwo | Galactic 02** from Air launch to Suborbital flight
@@ -238,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230811T131539">2023-08-11 13:15:39 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230811T141151">2023-08-11 14:11:51 UTC</a>
   <br>
 </div>
