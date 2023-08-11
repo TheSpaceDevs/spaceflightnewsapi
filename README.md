@@ -146,7 +146,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://www.teslarati.com/spacex-b1069-launches-starlink-mission/" >🔗</a> **[Teslarati]** B1069 successfully launches the Group 6-9 Starlink mission for SpaceX
+- <a href="https://www.nasaspaceflight.com/2023/08/booster-9-removed-testing-hot-stage/" >🔗</a> **[NASASpaceflight]** Booster 9 removed from launch site ahead of hot stage ring tests
+
+
+- <a href="https://www.teslarati.com/spacex-b1069-launches-starlink-mission/" >🔗</a> **[Teslarati]** SpaceX booster B1069 successfully launches Group 6-9 Starlink mission
 
 
 - <a href="https://spacenews.com/telesats-leo-constellation-fully-funded-after-manufacturer-switch/" >🔗</a> **[SpaceNews]** Telesat’s initial LEO constellation fully funded after manufacturer switch
@@ -183,13 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/oklahoma-texas-students-to-hear-from-nasa-astronauts-aboard-station" >🔗</a> **[NASA]** Oklahoma, Texas Students to Hear from NASA Astronauts Aboard Station
-
-
-- <a href="https://www.nasaspaceflight.com/2023/08/luna-25-mission-launch/" >🔗</a> **[NASASpaceflight]** Luna 25: the first Russian spacecraft in 47 years heading to the moon
-
-
-  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
-
 
 
 
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230811T201349">2023-08-11 20:13:49 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230811T211108">2023-08-11 21:11:08 UTC</a>
   <br>
 </div>
