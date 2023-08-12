@@ -146,10 +146,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="http://www.nasa.gov/press-release/nasa-discutir-datos-de-temperatura-objetivos-clim-ticos" >🔗</a> **[NASA]** NASA discutirá datos de temperatura, objetivos climáticos
+- <a href="https://www.nasaspaceflight.com/2023/08/starliner-update/" >🔗</a> **[NASASpaceflight]** Boeing confident in achieving six flights to the ISS despite Starliner delay
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-to-discuss-temperature-data-climate-goals" >🔗</a> **[NASA]** NASA to Discuss Temperature Data, Climate Goals
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-discutir-datos-de-temperatura-objetivos-clim-ticos" >🔗</a> **[NASA]** NASA discutirá datos de temperatura, objetivos climáticos
 
 
 - <a href="https://www.nasaspaceflight.com/2023/08/booster-9-removed-testing-hot-stage/" >🔗</a> **[NASASpaceflight]** Booster 9 removed from launch site ahead of hot stage ring tests
@@ -183,13 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-development-agency-shaking-up-how-the-military-buys-satellites/" >🔗</a> **[SpaceNews]** Space Development Agency shaking up how the military buys satellites
-
-
-- <a href="https://spacepolicyonline.com/news/russia-launches-first-lunar-probe-in-almost-50-years/" >🔗</a> **[SpacePolicyOnline.com]** Russia Launches First Lunar Probe in Almost 50 Years
-
-
-  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
-
 
 
 
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230812T190941">2023-08-12 19:09:41 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230812T201227">2023-08-12 20:12:27 UTC</a>
   <br>
 </div>
