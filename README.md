@@ -155,7 +155,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/08/booster-9-removed-testing-hot-stage/" >🔗</a> **[NASASpaceflight]** Booster 9 removed from launch site ahead of hot stage ring tests
 
 
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
 - <a href="https://www.teslarati.com/spacex-b1069-launches-starlink-mission/" >🔗</a> **[Teslarati]** SpaceX booster B1069 successfully launches Group 6-9 Starlink mission
+
+
+  - <a href="https://go4liftoff.com/launch/id/12e9acca-5aee-4751-9083-5e205d9528c8" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-9** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://spacenews.com/telesats-leo-constellation-fully-funded-after-manufacturer-switch/" >🔗</a> **[SpaceNews]** Telesat’s initial LEO constellation fully funded after manufacturer switch
@@ -226,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230812T151206">2023-08-12 15:12:06 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230812T161534">2023-08-12 16:15:34 UTC</a>
   <br>
 </div>
