@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-august-13-19-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy August 13-19, 2023
+
+
 - <a href="https://spacenews.com/u-s-military-and-allies-get-a-feel-for-the-value-of-commercial-satellite-imagery/" >🔗</a> **[SpaceNews]** U.S. military and allies get a feel for the value of commercial satellite imagery
 
 
@@ -156,10 +159,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-temperature-data-climate-goals" >🔗</a> **[NASA]** NASA to Discuss Temperature Data, Climate Goals
-
-
 - <a href="http://www.nasa.gov/press-release/nasa-discutir-datos-de-temperatura-objetivos-clim-ticos" >🔗</a> **[NASA]** NASA discutirá datos de temperatura, objetivos climáticos
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-temperature-data-climate-goals" >🔗</a> **[NASA]** NASA to Discuss Temperature Data, Climate Goals
 
 
 - <a href="https://www.nasaspaceflight.com/2023/08/booster-9-removed-testing-hot-stage/" >🔗</a> **[NASASpaceflight]** Booster 9 removed from launch site ahead of hot stage ring tests
@@ -183,13 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/08/11/telesat-swaps-internet-satellite-suppliers-to-save-2-billion.html" >🔗</a> **[CNBC]** Telesat stock surges 50% after satellite internet company swaps suppliers to save $2 billion
-
-
-- <a href="https://arstechnica.com/space/2023/08/virgin-galactic-just-flew-again-but-is-the-company-going-anywhere/" >🔗</a> **[Arstechnica]** Virgin Galactic just flew again, but is the company going anywhere?
-
-
-  - <a href="https://go4liftoff.com/launch/id/6229654f-e7ea-4d97-80f7-0195161e8645" >🚀</a> **SpaceShipTwo | Galactic 02** from Air launch to Suborbital flight
-
 
 
 
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230813T161612">2023-08-13 16:16:12 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230813T171053">2023-08-13 17:10:53 UTC</a>
   <br>
 </div>
