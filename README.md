@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-clocks-july-2023-as-hottest-month-on-record-ever-since-1880" >🔗</a> **[NASA]** NASA Clocks July 2023 as Hottest Month on Record Ever Since 1880
+
+
+- <a href="https://spacenews.com/earth-observation-evolution-bigger-satellites-promise-bigger-payoff-for-imagery-operators/" >🔗</a> **[SpaceNews]** Earth observation evolution: Bigger satellites promise bigger payoff for imagery operators
+
+
 - <a href="https://spacenews.com/china-launches-first-geosynchronous-orbit-radar-satellite/" >🔗</a> **[SpaceNews]** China launches first geosynchronous orbit radar satellite
 
 
@@ -180,16 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
 
-
-
-- <a href="https://www.teslarati.com/spacex-b1069-launches-starlink-mission/" >🔗</a> **[Teslarati]** SpaceX booster B1069 successfully launches Group 6-9 Starlink mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/12e9acca-5aee-4751-9083-5e205d9528c8" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-9** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/telesats-leo-constellation-fully-funded-after-manufacturer-switch/" >🔗</a> **[SpaceNews]** Telesat’s initial LEO constellation fully funded after manufacturer switch
 
 
 
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230814T151218">2023-08-14 15:12:18 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230814T161523">2023-08-14 16:15:23 UTC</a>
   <br>
 </div>
