@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-announces-launch-service-for-arctic-warming-experiment" >🔗</a> **[NASA]** NASA Announces Launch Service for Arctic Warming Experiment
+
+
+- <a href="https://spacenews.com/space-force-pitch-to-private-sector-help-us-with-space-protection/" >🔗</a> **[SpaceNews]** Space Force pitch to private sector: ‘Help us with space protection’
+
+
 - <a href="http://www.nasa.gov/nasa.gov/press-release/julio-de-2023-fue-el-mes-mas-caluroso-registrado" >🔗</a> **[NASA]** Julio de 2023 fue el mes más caluroso registrado
 
 
@@ -153,6 +159,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/earth-observation-evolution-bigger-satellites-promise-bigger-payoff-for-imagery-operators/" >🔗</a> **[SpaceNews]** Earth observation evolution: Bigger satellites promise bigger payoff for imagery operators
+
+
+- <a href="https://spacenews.com/2023-small-satellite-conference-dailies-wrap-up/" >🔗</a> **[SpaceNews]** 2023 Small Satellite Conference Dailies Wrap up
 
 
 - <a href="https://spacenews.com/china-launches-first-geosynchronous-orbit-radar-satellite/" >🔗</a> **[SpaceNews]** China launches first geosynchronous orbit radar satellite
@@ -171,22 +180,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/u-s-military-and-allies-get-a-feel-for-the-value-of-commercial-satellite-imagery/" >🔗</a> **[SpaceNews]** U.S. military and allies get a feel for the value of commercial satellite imagery
 
 
-- <a href="https://www.nasaspaceflight.com/2023/08/starliner-update/" >🔗</a> **[NASASpaceflight]** Boeing confident in achieving six flights to the ISS despite Starliner delay
-
-
-  - <a href="https://go4liftoff.com/launch/id/968067d1-8c12-4018-9854-b7b7d4bddc6b" >🚀</a> **Atlas V N22 | CST-100 Starliner Crewed Flight Test** from Cape Canaveral, FL, USA
-
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-discutir-datos-de-temperatura-objetivos-clim-ticos" >🔗</a> **[NASA]** NASA discutirá datos de temperatura, objetivos climáticos
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-temperature-data-climate-goals" >🔗</a> **[NASA]** NASA to Discuss Temperature Data, Climate Goals
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-august-7-13-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: August 7-13, 2023
+
 
 - <a href="https://www.planetary.org/the-downlink/hasta-la-vista-baby" >🔗</a> **[Planetary Society]** Hasta la vista, baby
 
@@ -219,13 +218,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.substack.com/p/will-esa-finally-land-on-mars" >🔗</a> **[European Spaceflight]** Will ESA finally land on Mars?
 
 
-- <a href="https://www.planetary.org/mission-control" >🔗</a> **[Planetary Society]** LightSail 2 Mission Control
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230814T191041">2023-08-14 19:10:41 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230814T201402">2023-08-14 20:14:02 UTC</a>
   <br>
 </div>
