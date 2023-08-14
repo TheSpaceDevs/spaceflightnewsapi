@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/china-launches-first-geosynchronous-orbit-radar-satellite/" >🔗</a> **[SpaceNews]** China launches first geosynchronous orbit radar satellite
 
 
+  - <a href="https://go4liftoff.com/launch/id/715392d7-2ecb-4caf-81b1-ba5ba6b985ff" >🚀</a> **Long March 3B/E | L-SAR4-01 (LTDC-4A)** from Xichang Satellite Launch Center, People's Republic of China
+
+
+
 - <a href="https://spacenews.com/rocket-lab-sees-virgin-orbit-facility-as-scaling-enabler-for-neutron/" >🔗</a> **[SpaceNews]** Rocket Lab sees Virgin Orbit facility as “scaling enabler” for Neutron
 
 
@@ -230,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230814T131613">2023-08-14 13:16:13 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230814T151218">2023-08-14 15:12:18 UTC</a>
   <br>
 </div>
