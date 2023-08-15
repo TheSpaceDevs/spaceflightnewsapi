@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/intuitive-machines-sets-mid-november-launch-date-for-first-lunar-lander/" >🔗</a> **[SpaceNews]** Intuitive Machines sets mid-November launch date for first lunar lander
+
+
+- <a href="https://spacenews.com/ast-spacemobile-fully-funds-first-five-commercial-direct-to-device-satellites/" >🔗</a> **[SpaceNews]** AST SpaceMobile fully funds first five commercial direct-to-device satellites
+
+
+- <a href="https://spacenews.com/nasa-developing-larger-cubesat-payload-adapter-for-sls/" >🔗</a> **[SpaceNews]** NASA developing larger cubesat payload adapter for SLS
+
+
 - <a href="https://spacenews.com/intelsat-meets-conditions-for-3-7-billion-c-band-clearing-payout/" >🔗</a> **[SpaceNews]** Intelsat meets conditions for $3.7 billion C-band clearing payout
 
 
@@ -165,19 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/2023-small-satellite-conference-dailies-wrap-up/" >🔗</a> **[SpaceNews]** 2023 Small Satellite Conference Dailies Wrap up
-
-
-- <a href="https://spacenews.com/china-launches-first-geosynchronous-orbit-radar-satellite/" >🔗</a> **[SpaceNews]** China launches first geosynchronous orbit radar satellite
-
-
-  - <a href="https://go4liftoff.com/launch/id/715392d7-2ecb-4caf-81b1-ba5ba6b985ff" >🚀</a> **Long March 3B/E | L-SAR4-01 (LTDC-4A)** from Xichang Satellite Launch Center, People's Republic of China
-
-
-
-- <a href="https://spacenews.com/rocket-lab-sees-virgin-orbit-facility-as-scaling-enabler-for-neutron/" >🔗</a> **[SpaceNews]** Rocket Lab sees Virgin Orbit facility as “scaling enabler” for Neutron
-
-
-- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-august-13-19-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy August 13-19, 2023
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T021733">2023-08-15 02:17:33 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T031339">2023-08-15 03:13:39 UTC</a>
   <br>
 </div>
