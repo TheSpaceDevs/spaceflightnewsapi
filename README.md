@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/astra-seeks-strategic-investors-as-cash-reserves-decrease/" >🔗</a> **[SpaceNews]** Astra seeks strategic investors as cash reserves decrease
+
+
+- <a href="https://arstechnica.com/space/2023/08/how-a-5-year-old-spacex-photo-fueled-maui-wildfire-conspiracy-theorists/" >🔗</a> **[Arstechnica]** Maui truthers are so dumb they’re using a Falcon 9 photo as wildfire evidence
+
+
 - <a href="https://spacenews.com/nro-to-select-providers-of-new-forms-of-optical-satellite-imagery/" >🔗</a> **[SpaceNews]** NRO to select providers of new forms of optical satellite imagery
 
 
@@ -161,19 +167,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/weekly-space-recap-august-7-august-13/" >🔗</a> **[Teslarati]** Weekly Space Recap: August 7 – August 13
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-psyche-launch-mission-will-study-an-asteroid" >🔗</a> **[NASA]** NASA Invites Media to Psyche Launch, Mission will Study an Asteroid
-
-
 - <a href="http://www.nasa.gov/press-release/la-nasa-invita-a-los-medios-al-lanzamiento-de-psyche" >🔗</a> **[NASA]** La NASA invita a los medios al lanzamiento de Psyche
 
 
+- <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-psyche-launch-mission-will-study-an-asteroid" >🔗</a> **[NASA]** NASA Invites Media to Psyche Launch, Mission will Study an Asteroid
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/interstellar-technologies-prepares-for-zero-static-fire-target-2025-for-orbital-launch" >🔗</a> **[The Launch Pad]** Interstellar Technologies Prepares for ZERO Static Fire, Target 2025 For Orbital Launch
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/dcubed-partners-with-dorbit-to-demo-inspace-manufacturing-capability" >🔗</a> **[The Launch Pad]** DCubed Partners With D-Orbit To Demo In-Space Manufacturing Capability
-
-
-- <a href="https://spacenews.com/u-s-deorbits-gssap-surveillance-satellite-two-new-ones-in-the-works/" >🔗</a> **[SpaceNews]** U.S. deactivates GSSAP surveillance satellite, two new ones in the works
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T221226">2023-08-15 22:12:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T231228">2023-08-15 23:12:28 UTC</a>
   <br>
 </div>
