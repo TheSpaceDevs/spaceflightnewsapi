@@ -158,10 +158,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/weekly-space-recap-august-7-august-13/" >🔗</a> **[Teslarati]** Weekly Space Recap: August 7 – August 13
 
 
-- <a href="http://www.nasa.gov/press-release/la-nasa-invita-a-los-medios-al-lanzamiento-de-psyche" >🔗</a> **[NASA]** La NASA invita a los medios al lanzamiento de Psyche
-
-
 - <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-psyche-launch-mission-will-study-an-asteroid" >🔗</a> **[NASA]** NASA Invites Media to Psyche Launch, Mission will Study an Asteroid
+
+
+- <a href="http://www.nasa.gov/press-release/la-nasa-invita-a-los-medios-al-lanzamiento-de-psyche" >🔗</a> **[NASA]** La NASA invita a los medios al lanzamiento de Psyche
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/interstellar-technologies-prepares-for-zero-static-fire-target-2025-for-orbital-launch" >🔗</a> **[The Launch Pad]** Interstellar Technologies Prepares for ZERO Static Fire, Target 2025 For Orbital Launch
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T201408">2023-08-15 20:14:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T211151">2023-08-15 21:11:51 UTC</a>
   <br>
 </div>
