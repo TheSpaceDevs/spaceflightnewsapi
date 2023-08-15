@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/08/intuitive-machines-says-it-is-ready-to-fly-to-the-moon/" >🔗</a> **[Arstechnica]** Intuitive Machines says it is ready to fly to the Moon
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/orion-update-081523/" >🔗</a> **[NASASpaceflight]** Lockheed Martin, NASA working around the clock to finish Artemis II Orion assembly and hold 2024 launch date
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-force-pitch-to-private-sector-help-us-with-space-protection/" >🔗</a> **[SpaceNews]** Space Force pitch to private sector: ‘Help us with space protection’
-
-
-- <a href="http://www.nasa.gov/nasa.gov/press-release/julio-de-2023-fue-el-mes-mas-caluroso-registrado" >🔗</a> **[NASA]** Julio de 2023 fue el mes más caluroso registrado
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T151257">2023-08-15 15:12:57 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T161720">2023-08-15 16:17:20 UTC</a>
   <br>
 </div>
