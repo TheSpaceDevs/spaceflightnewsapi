@@ -146,7 +146,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://spacenews.com/u-s-deorbits-gssap-surveillance-satellite-two-new-ones-in-the-works/" >🔗</a> **[SpaceNews]** U.S. deorbits GSSAP surveillance satellite, two new ones in the works
+- <a href="http://www.nasa.gov/press-release/la-nasa-invita-a-los-medios-al-lanzamiento-de-psyche" >🔗</a> **[NASA]** La NASA invita a los medios al lanzamiento de Psyche
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-psyche-launch-mission-will-study-an-asteroid" >🔗</a> **[NASA]** NASA Invites Media to Psyche Launch, Mission will Study an Asteroid
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/dcubed-partners-with-dorbit-to-demo-inspace-manufacturing-capability" >🔗</a> **[The Launch Pad]** DCubed Partners With D-Orbit To Demo In-Space Manufacturing Capability
+
+
+- <a href="https://spacenews.com/u-s-deorbits-gssap-surveillance-satellite-two-new-ones-in-the-works/" >🔗</a> **[SpaceNews]** U.S. deactivates GSSAP surveillance satellite, two new ones in the works
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/china-launches-worlds-first-geosynchronous-orbit-synthetic-aperture-radar-satellite" >🔗</a> **[The Launch Pad]** China Launches World's First Geosynchronous Orbit Synthetic Aperture Radar Satellite
@@ -161,27 +170,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/08/intuitive-machines-says-it-is-ready-to-fly-to-the-moon/" >🔗</a> **[Arstechnica]** Intuitive Machines says it is ready to fly to the Moon
 
 
+- <a href="https://spacenews.com/2023-small-satellite-conference-dailies-wrap-up/" >🔗</a> **[SpaceNews]** Download the 2023 Small Satellite Conference Dailies Wrap up
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/orion-update-081523/" >🔗</a> **[NASASpaceflight]** Lockheed Martin, NASA working around the clock to finish Artemis II Orion assembly and hold 2024 launch date
-
-
-- <a href="https://spacenews.com/rocket-lab-to-launch-pair-of-nasa-earth-science-cubesats/" >🔗</a> **[SpaceNews]** Rocket Lab to launch pair of NASA Earth science cubesats
-
-
-- <a href="https://spacepolicyonline.com/news/intuitive-machines-sets-november-for-launch-of-im-1-lunar-lander/" >🔗</a> **[SpacePolicyOnline.com]** Intuitive Machines Sets November for Launch of IM-1 Lunar Lander
-
-
-  - <a href="https://go4liftoff.com/launch/id/942a1814-c237-41de-9970-d27bb9630f3b" >🚀</a> **Falcon 9 Block 5 | Nova-C IM-1** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacenews.com/intuitive-machines-sets-mid-november-launch-date-for-first-lunar-lander/" >🔗</a> **[SpaceNews]** Intuitive Machines sets mid-November launch date for first lunar lander
-
-
-  - <a href="https://go4liftoff.com/launch/id/942a1814-c237-41de-9970-d27bb9630f3b" >🚀</a> **Falcon 9 Block 5 | Nova-C IM-1** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacenews.com/ast-spacemobile-fully-funds-first-five-commercial-direct-to-device-satellites/" >🔗</a> **[SpaceNews]** AST SpaceMobile fully funds first five commercial direct-to-device satellites
 
 
 
@@ -226,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T181628">2023-08-15 18:16:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T191042">2023-08-15 19:10:42 UTC</a>
   <br>
 </div>
