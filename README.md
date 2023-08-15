@@ -149,7 +149,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/intuitive-machines-sets-november-for-launch-of-im-1-lunar-lander/" >🔗</a> **[SpacePolicyOnline.com]** Intuitive Machines Sets November for Launch of IM-1 Lunar Lander
 
 
+  - <a href="https://go4liftoff.com/launch/id/942a1814-c237-41de-9970-d27bb9630f3b" >🚀</a> **Falcon 9 Block 5 | Nova-C IM-1** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://spacenews.com/intuitive-machines-sets-mid-november-launch-date-for-first-lunar-lander/" >🔗</a> **[SpaceNews]** Intuitive Machines sets mid-November launch date for first lunar lander
+
+
+  - <a href="https://go4liftoff.com/launch/id/942a1814-c237-41de-9970-d27bb9630f3b" >🚀</a> **Falcon 9 Block 5 | Nova-C IM-1** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacenews.com/ast-spacemobile-fully-funds-first-five-commercial-direct-to-device-satellites/" >🔗</a> **[SpaceNews]** AST SpaceMobile fully funds first five commercial direct-to-device satellites
@@ -218,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T051222">2023-08-15 05:12:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T061719">2023-08-15 06:17:19 UTC</a>
   <br>
 </div>
