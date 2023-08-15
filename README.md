@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/china-launches-worlds-first-geosynchronous-orbit-synthetic-aperture-radar-satellite" >🔗</a> **[The Launch Pad]** China Launches World's First Geosynchronous Orbit Synthetic Aperture Radar Satellite
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/nasa-selects-rocket-lab-for-polar-energy-monitoring-missions" >🔗</a> **[The Launch Pad]** NASA Selects Rocket Lab For Polar Energy Monitoring Missions
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/nasa-developing-larger-sls-cubesat-payload-adapter-consider-a2-a3-payloads" >🔗</a> **[The Launch Pad]** NASA Developing Larger SLS Cubesat Payload Adapter; Consider A2 & A3 Payloads
+
+
 - <a href="https://arstechnica.com/space/2023/08/intuitive-machines-says-it-is-ready-to-fly-to-the-moon/" >🔗</a> **[Arstechnica]** Intuitive Machines says it is ready to fly to the Moon
 
 
@@ -173,15 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/nasa-developing-larger-cubesat-payload-adapter-for-sls/" >🔗</a> **[SpaceNews]** NASA developing larger cubesat payload adapter for SLS
-
-
-- <a href="https://spacenews.com/intelsat-meets-conditions-for-3-7-billion-c-band-clearing-payout/" >🔗</a> **[SpaceNews]** Intelsat meets conditions for $3.7 billion C-band clearing payout
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-announces-launch-service-for-arctic-warming-experiment" >🔗</a> **[NASA]** NASA Announces Launch Service for Arctic Warming Experiment
-
-
-- <a href="https://spacenews.com/space-force-pitch-to-private-sector-help-us-with-space-protection/" >🔗</a> **[SpaceNews]** Space Force pitch to private sector: ‘Help us with space protection’
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T161720">2023-08-15 16:17:20 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T171149">2023-08-15 17:11:49 UTC</a>
   <br>
 </div>
