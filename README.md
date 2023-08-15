@@ -146,10 +146,25 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/arianespace-to-launch-europes-final-mission-of-2023-aboard-vega-in-september/" >🔗</a> **[European Spaceflight]** Arianespace to Launch Europe’s Final Mission of 2023 Aboard Vega in September
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/us-space-force-retires-classified-surveillance-satellite-orders-replacement" >🔗</a> **[The Launch Pad]** US Space Force Retires Classified Surveillance Satellite & Orders Replacement
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/sda-looks-to-change-how-us-military-buys-satellites" >🔗</a> **[The Launch Pad]** SDA Looks To Change How US Military Buys Satellites
+
+
+- <a href="https://www.teslarati.com/weekly-space-recap-august-7-august-13/" >🔗</a> **[Teslarati]** Weekly Space Recap: August 7 – August 13
+
+
 - <a href="http://www.nasa.gov/press-release/la-nasa-invita-a-los-medios-al-lanzamiento-de-psyche" >🔗</a> **[NASA]** La NASA invita a los medios al lanzamiento de Psyche
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-psyche-launch-mission-will-study-an-asteroid" >🔗</a> **[NASA]** NASA Invites Media to Psyche Launch, Mission will Study an Asteroid
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/interstellar-technologies-prepares-for-zero-static-fire-target-2025-for-orbital-launch" >🔗</a> **[The Launch Pad]** Interstellar Technologies Prepares for ZERO Static Fire, Target 2025 For Orbital Launch
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/dcubed-partners-with-dorbit-to-demo-inspace-manufacturing-capability" >🔗</a> **[The Launch Pad]** DCubed Partners With D-Orbit To Demo In-Space Manufacturing Capability
@@ -159,21 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/china-launches-worlds-first-geosynchronous-orbit-synthetic-aperture-radar-satellite" >🔗</a> **[The Launch Pad]** China Launches World's First Geosynchronous Orbit Synthetic Aperture Radar Satellite
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/nasa-selects-rocket-lab-for-polar-energy-monitoring-missions" >🔗</a> **[The Launch Pad]** NASA Selects Rocket Lab For Polar Energy Monitoring Missions
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/nasa-developing-larger-sls-cubesat-payload-adapter-consider-a2-a3-payloads" >🔗</a> **[The Launch Pad]** NASA Developing Larger SLS Cubesat Payload Adapter; Consider A2 & A3 Payloads
-
-
-- <a href="https://arstechnica.com/space/2023/08/intuitive-machines-says-it-is-ready-to-fly-to-the-moon/" >🔗</a> **[Arstechnica]** Intuitive Machines says it is ready to fly to the Moon
-
-
-- <a href="https://spacenews.com/2023-small-satellite-conference-dailies-wrap-up/" >🔗</a> **[SpaceNews]** Download the 2023 Small Satellite Conference Dailies Wrap up
-
-
-- <a href="https://www.nasaspaceflight.com/2023/08/orion-update-081523/" >🔗</a> **[NASASpaceflight]** Lockheed Martin, NASA working around the clock to finish Artemis II Orion assembly and hold 2024 launch date
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T191042">2023-08-15 19:10:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230815T201408">2023-08-15 20:14:08 UTC</a>
   <br>
 </div>
