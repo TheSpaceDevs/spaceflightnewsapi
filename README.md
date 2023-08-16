@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/la-nasa-desaf-a-a-los-estudiantes-a-volar-experimentos" >🔗</a> **[NASA]** La NASA desafía a los estudiantes a volar experimentos
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-challenges-students-to-fly-earth-and-space-experiments" >🔗</a> **[NASA]** NASA Challenges Students to Fly Earth and Space Experiments
+
+
 - <a href="https://spacenews.com/skywatch-to-offer-integrated-radar-optical-satellite-imagery/" >🔗</a> **[SpaceNews]** SkyWatch to offer integrated radar-optical satellite imagery
 
 
@@ -176,16 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/355ab4b9-504c-49ce-84bf-a6df31a0aadf" >🚀</a> **Vega | THEOS-2 & others** from Kourou, French Guiana
 
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/us-space-force-retires-classified-surveillance-satellite-orders-replacement" >🔗</a> **[The Launch Pad]** US Space Force Retires Classified Surveillance Satellite & Orders Replacement
-
-
-  - <a href="https://go4liftoff.com/launch/id/ae2a0738-43cf-4e0e-a7e4-9804e6082477" >🚀</a> **Delta IV M+(4,2) | AFSPC-4** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/sda-looks-to-change-how-us-military-buys-satellites" >🔗</a> **[The Launch Pad]** SDA Looks To Change How US Military Buys Satellites
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230816T171145">2023-08-16 17:11:45 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230816T181630">2023-08-16 18:16:30 UTC</a>
   <br>
 </div>
