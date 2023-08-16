@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/skywatch-to-offer-integrated-radar-optical-satellite-imagery/" >🔗</a> **[SpaceNews]** SkyWatch to offer integrated radar-optical satellite imagery
+
+
 - <a href="https://spacenews.com/space-force-extends-wallaroos-contract-for-on-orbit-ai-applications/" >🔗</a> **[SpaceNews]** Space Force extends Wallaroo’s contract for on-orbit AI applications
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/sda-looks-to-change-how-us-military-buys-satellites" >🔗</a> **[The Launch Pad]** SDA Looks To Change How US Military Buys Satellites
-
-
-- <a href="https://www.teslarati.com/weekly-space-recap-august-7-august-13/" >🔗</a> **[Teslarati]** Weekly Space Recap: August 7 – August 13
 
 
 
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230816T161751">2023-08-16 16:17:51 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230816T171145">2023-08-16 17:11:45 UTC</a>
   <br>
 </div>
