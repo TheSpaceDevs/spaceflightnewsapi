@@ -158,13 +158,25 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/08/how-a-5-year-old-spacex-photo-fueled-maui-wildfire-conspiracy-theorists/" >🔗</a> **[Arstechnica]** Maui truthers are so dumb they’re using a Falcon 9 photo as wildfire evidence
 
 
+  - <a href="https://go4liftoff.com/launch/id/cdfd242c-c01b-48b1-9fae-4b78d6ee449e" >🚀</a> **Falcon 9 Block 4 | Iridium-6 & GRACE-FO** from Vandenberg SFB, CA, USA
+
+
+
 - <a href="https://spacenews.com/nro-to-select-providers-of-new-forms-of-optical-satellite-imagery/" >🔗</a> **[SpaceNews]** NRO to select providers of new forms of optical satellite imagery
 
 
 - <a href="https://europeanspaceflight.com/arianespace-to-launch-europes-final-mission-of-2023-aboard-vega-in-september/" >🔗</a> **[European Spaceflight]** Arianespace to Launch Europe’s Final Mission of 2023 Aboard Vega in September
 
 
+  - <a href="https://go4liftoff.com/launch/id/355ab4b9-504c-49ce-84bf-a6df31a0aadf" >🚀</a> **Vega | THEOS-2 & others** from Kourou, French Guiana
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/us-space-force-retires-classified-surveillance-satellite-orders-replacement" >🔗</a> **[The Launch Pad]** US Space Force Retires Classified Surveillance Satellite & Orders Replacement
+
+
+  - <a href="https://go4liftoff.com/launch/id/ae2a0738-43cf-4e0e-a7e4-9804e6082477" >🚀</a> **Delta IV M+(4,2) | AFSPC-4** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/sda-looks-to-change-how-us-military-buys-satellites" >🔗</a> **[The Launch Pad]** SDA Looks To Change How US Military Buys Satellites
@@ -174,6 +186,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/la-nasa-invita-a-los-medios-al-lanzamiento-de-psyche" >🔗</a> **[NASA]** La NASA invita a los medios al lanzamiento de Psyche
+
+
+  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
+
 
 
 
@@ -218,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230816T071232">2023-08-16 07:12:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230816T081710">2023-08-16 08:17:10 UTC</a>
   <br>
 </div>
