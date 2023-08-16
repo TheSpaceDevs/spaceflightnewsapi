@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/08/launch-roundup-081623/" >🔗</a> **[NASASpaceflight]** Launch Roundup: three back-to-back Starlink missions to cross 5,000 Starlink satellites launched
+
+
+- <a href="https://spacenews.com/momentus-cuts-workforce-while-evaluating-strategic-options/" >🔗</a> **[SpaceNews]** Momentus cuts workforce while evaluating strategic options
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/avio-m10-dm2" >🔗</a> **[The Launch Pad]** Avio Completes First Successful Test Of Methalox Rocket Engine
+
+
 - <a href="https://www.teslarati.com/spacex-back-to-back-starlink-launches/" >🔗</a> **[Teslarati]** SpaceX plans back-to-back Starlink launches
 
 
@@ -165,19 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/smallsat-alliance-recognizes-collegiate-prize-winners/" >🔗</a> **[SpaceNews]** SmallSat Alliance recognizes collegiate prize winners
-
-
-- <a href="https://spacenews.com/astra-seeks-strategic-investors-as-cash-reserves-decrease/" >🔗</a> **[SpaceNews]** Astra seeks strategic investors as cash reserves decrease
-
-
-- <a href="https://arstechnica.com/space/2023/08/how-a-5-year-old-spacex-photo-fueled-maui-wildfire-conspiracy-theorists/" >🔗</a> **[Arstechnica]** Maui truthers are so dumb they’re using a Falcon 9 photo as wildfire evidence
-
-
-  - <a href="https://go4liftoff.com/launch/id/cdfd242c-c01b-48b1-9fae-4b78d6ee449e" >🚀</a> **Falcon 9 Block 4 | Iridium-6 & GRACE-FO** from Vandenberg SFB, CA, USA
-
-
-
-- <a href="https://spacenews.com/nro-to-select-providers-of-new-forms-of-optical-satellite-imagery/" >🔗</a> **[SpaceNews]** NRO to select providers of new forms of optical satellite imagery
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230816T191037">2023-08-16 19:10:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230816T201324">2023-08-16 20:13:24 UTC</a>
   <br>
 </div>
