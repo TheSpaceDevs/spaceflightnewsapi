@@ -173,7 +173,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/weekly-space-recap-august-7-august-13/" >🔗</a> **[Teslarati]** Weekly Space Recap: August 7 – August 13
 
 
-- <a href="http://www.nasa.gov/press-release/la-nasa-invita-a-los-medios-al-lanzamiento-de-psyche" >🔗</a> **[NASA]** La NASA invita a los medios al lanzamiento de Psyche
+- <a href="http://www.nasa.gov/press-release/nasa-invites-media-to-psyche-launch-mission-will-study-an-asteroid" >🔗</a> **[NASA]** NASA Invites Media to Psyche Launch, Mission will Study an Asteroid
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230816T041635">2023-08-16 04:16:35 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230816T051248">2023-08-16 05:12:48 UTC</a>
   <br>
 </div>
