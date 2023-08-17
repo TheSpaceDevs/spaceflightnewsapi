@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/bae-systems-to-acquire-ball-aerospace-for-5-5-billion/" >🔗</a> **[SpaceNews]** BAE Systems to acquire Ball Aerospace for $5.5 billion
+
+
 - <a href="https://spacenews.com/terran-orbital-orbital-expects-180-million-payment-from-rivada-space-this-year/" >🔗</a> **[SpaceNews]** Terran Orbital expects $180 million payment from Rivada Space this year
 
 
@@ -201,9 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/la-nasa-desaf-a-a-los-estudiantes-a-volar-experimentos" >🔗</a> **[NASA]** La NASA desafía a los estudiantes a volar experimentos
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-challenges-students-to-fly-earth-and-space-experiments" >🔗</a> **[NASA]** NASA Challenges Students to Fly Earth and Space Experiments
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -246,6 +246,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230817T111117">2023-08-17 11:11:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230817T122558">2023-08-17 12:25:58 UTC</a>
   <br>
 </div>
