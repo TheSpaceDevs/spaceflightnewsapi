@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/08/17/bae-buys-ball-aerospace-for-5point6-billion.html" >🔗</a> **[CNBC]** UK defense contractor BAE buying Ball’s aerospace division for $5.6 billion
+
+
+- <a href="https://spacenews.com/northrop-grumman-to-get-sole-source-contract-for-space-force-radar-sites/" >🔗</a> **[SpaceNews]** Northrop Grumman to get sole-source contract for Space Force radar sites
+
+
 - <a href="https://spacenews.com/bae-systems-to-acquire-ball-aerospace-for-5-5-billion/" >🔗</a> **[SpaceNews]** BAE Systems to acquire Ball Aerospace for $5.5 billion
 
 
@@ -192,18 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/08/avio-m10-dm2" >🔗</a> **[The Launch Pad]** Avio Completes First Successful Test Of Methalox Rocket Engine
 
 
-- <a href="https://www.teslarati.com/spacex-back-to-back-starlink-launches/" >🔗</a> **[Teslarati]** SpaceX plans back-to-back Starlink launches
-
-
-  - <a href="https://go4liftoff.com/launch/id/09642682-60f3-4470-a802-18788601c5a5" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-10** from Cape Canaveral, FL, USA
-
-  - <a href="https://go4liftoff.com/launch/id/15699687-3fb1-4749-9680-fc858e5e7081" >🚀</a> **Falcon 9 Block 5 | Starlink Group 7-1** from Vandenberg SFB, CA, USA
-
-
-
-- <a href="http://www.nasa.gov/press-release/la-nasa-desaf-a-a-los-estudiantes-a-volar-experimentos" >🔗</a> **[NASA]** La NASA desafía a los estudiantes a volar experimentos
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -246,6 +240,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230817T122558">2023-08-17 12:25:58 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230817T141220">2023-08-17 14:12:20 UTC</a>
   <br>
 </div>
