@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/coverage-set-for-nasa-s-spacex-crew-7-events-broadcast-launch" >🔗</a> **[NASA]** Coverage Set for NASA’s SpaceX Crew-7 Events, Broadcast, Launch
+
+
+- <a href="https://spacenews.com/true-anomaly-opens-spacecraft-manufacturing-facility-in-colorado/" >🔗</a> **[SpaceNews]** True Anomaly opens spacecraft manufacturing facility in Colorado
+
+
 - <a href="https://spacenews.com/space-development-agency-to-consider-commercial-leo-options-to-augment-dod-network/" >🔗</a> **[SpaceNews]** Space Development Agency to consider commercial LEO options to augment DoD network
 
 
@@ -168,26 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/state-department-kicks-off-international-lunar-year-discussions/" >🔗</a> **[SpacePolicyOnline.com]** State Department Kicks Off International Lunar Year Discussions
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-s-spacex-crew-6-to-discuss-space-station-mission-upcoming-return" >🔗</a> **[NASA]** NASA’s SpaceX Crew-6 to Discuss Space Station Mission, Upcoming Return
-
-
-  - <a href="https://go4liftoff.com/launch/id/bc325945-4bee-4412-84e1-14998b2eba5f" >🚀</a> **Falcon 9 Block 5 | Crew-6** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/771" >📆</a> **SpaceX Crew-6 Crew Dragon Undocking**
-
-  - <a href="https://go4liftoff.com/event/id/772" >📆</a> **SpaceX Crew-6 Crew Dragon Splashdown**
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-hosts-astronaut-loral-o-hara-s-prelaunch-interviews" >🔗</a> **[NASA]** NASA Hosts Astronaut Loral O’Hara’s Prelaunch Interviews
-
-
-  - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
-
 
 
 
@@ -232,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230817T211143">2023-08-17 21:11:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230817T221223">2023-08-17 22:12:23 UTC</a>
   <br>
 </div>
