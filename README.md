@@ -178,9 +178,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-  - <a href="https://go4liftoff.com/event/id/772" >📆</a> **SpaceX Crew-6 Crew Dragon Splashdown**
-
   - <a href="https://go4liftoff.com/event/id/771" >📆</a> **SpaceX Crew-6 Crew Dragon Undocking**
+
+  - <a href="https://go4liftoff.com/event/id/772" >📆</a> **SpaceX Crew-6 Crew Dragon Splashdown**
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-hosts-astronaut-loral-o-hara-s-prelaunch-interviews" >🔗</a> **[NASA]** NASA Hosts Astronaut Loral O’Hara’s Prelaunch Interviews
@@ -232,6 +232,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230817T201400">2023-08-17 20:14:00 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230817T211143">2023-08-17 21:11:43 UTC</a>
   <br>
 </div>
