@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/08/17/investing-in-space-a-guide-to-satellites.html" >🔗</a> **[CNBC]** Investing in Space: A guide to satellites
+
+
 - <a href="https://www.cnbc.com/2023/08/17/bae-buys-ball-aerospace-for-5point6-billion.html" >🔗</a> **[CNBC]** UK defense contractor BAE buying Ball’s aerospace division for $5.6 billion
 
 
@@ -195,9 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/momentus-cuts-workforce-while-evaluating-strategic-options/" >🔗</a> **[SpaceNews]** Momentus cuts workforce while evaluating strategic options
 
 
-- <a href="https://tlpnetwork.com/news/2023/08/avio-m10-dm2" >🔗</a> **[The Launch Pad]** Avio Completes First Successful Test Of Methalox Rocket Engine
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -240,6 +240,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230817T161718">2023-08-17 16:17:18 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230817T171147">2023-08-17 17:11:47 UTC</a>
   <br>
 </div>
