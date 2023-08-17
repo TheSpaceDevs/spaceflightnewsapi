@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-development-agency-to-consider-commercial-leo-options-to-augment-dod-network/" >🔗</a> **[SpaceNews]** Space Development Agency to consider commercial LEO options to augment DoD network
+
+
+- <a href="https://europeanspaceflight.com/hyimpulse-to-debut-sr75-rocket-no-earlier-than-december-1/" >🔗</a> **[European Spaceflight]** HyImpulse to Debut SR75 Rocket No Earlier than December 1
+
+
 - <a href="https://www.cnbc.com/2023/08/17/investing-in-space-a-guide-to-satellites.html" >🔗</a> **[CNBC]** Investing in Space: A guide to satellites
 
 
@@ -182,20 +188,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
 
-
-
-- <a href="https://www.nasaspaceflight.com/2023/08/launch-roundup-081623/" >🔗</a> **[NASASpaceflight]** Launch Roundup: three back-to-back Starlink missions to cross 5,000 Starlink satellites launched
-
-
-  - <a href="https://go4liftoff.com/launch/id/09642682-60f3-4470-a802-18788601c5a5" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-10** from Cape Canaveral, FL, USA
-
-  - <a href="https://go4liftoff.com/launch/id/15699687-3fb1-4749-9680-fc858e5e7081" >🚀</a> **Falcon 9 Block 5 | Starlink Group 7-1** from Vandenberg SFB, CA, USA
-
-  - <a href="https://go4liftoff.com/launch/id/87fba73c-f085-4abf-830d-fae92c599977" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-11** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/momentus-cuts-workforce-while-evaluating-strategic-options/" >🔗</a> **[SpaceNews]** Momentus cuts workforce while evaluating strategic options
 
 
 
@@ -240,6 +232,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230817T181703">2023-08-17 18:17:03 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230817T191051">2023-08-17 19:10:51 UTC</a>
   <br>
 </div>
