@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/08/starship-update-aug-23/" >🔗</a> **[NASASpaceflight]** Starship Update: Booster 9 wearing a crown, construction, and HLS test article
+
+
+- <a href="https://arstechnica.com/space/2023/08/rocket-lab-pivoting-to-downrange-neutron-landings-to-meet-customer-demand/" >🔗</a> **[Arstechnica]** Peter Beck pushes toward a Neutron debut in 2024, but acknowledges challenges
+
+
 - <a href="https://europeanspaceflight.com/polaris-to-begin-testing-fourth-spaceplane-demonstrator-from-september/" >🔗</a> **[European Spaceflight]** POLARIS to Begin Testing Fourth Spaceplane Demonstrator From September
 
 
@@ -186,12 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-development-agency-to-consider-commercial-leo-options-to-augment-dod-network/" >🔗</a> **[SpaceNews]** Space Development Agency to consider commercial LEO options to augment DoD network
-
-
-- <a href="https://europeanspaceflight.com/hyimpulse-to-debut-sr75-rocket-no-earlier-than-december-1/" >🔗</a> **[European Spaceflight]** HyImpulse to Debut SR75 Rocket No Earlier than December 1
-
-
-- <a href="https://www.cnbc.com/2023/08/17/investing-in-space-a-guide-to-satellites.html" >🔗</a> **[CNBC]** Investing in Space: A guide to satellites
 
 
 
@@ -236,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230818T181626">2023-08-18 18:16:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230818T191038">2023-08-18 19:10:38 UTC</a>
   <br>
 </div>
