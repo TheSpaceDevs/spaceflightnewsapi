@@ -229,13 +229,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/the-downlink/far-out-man" >🔗</a> **[Planetary Society]** Far out, man!
 
 
-- <a href="https://blog.ulalaunch.com/blog/silentbarker-atlas-v-stacked-for-national-security-launch" >🔗</a> **[United Launch Alliance]** SILENTBARKER/NROL-107: Atlas V stacked for national security launch
+- <a href="https://www.planetary.org/giving" >🔗</a> **[Planetary Society]** Membership & Giving
 
 
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230818T101354">2023-08-18 10:13:54 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230818T111104">2023-08-18 11:11:04 UTC</a>
   <br>
 </div>
