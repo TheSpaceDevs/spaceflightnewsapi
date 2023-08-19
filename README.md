@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/new-lexicon-for-outer-space-security-ready-for-final-oewg-session/" >🔗</a> **[SpacePolicyOnline.com]** New “Lexicon for Outer Space Security” Ready for Final OEWG Session
+
+
 - <a href="https://www.teslarati.com/spacex-launches-22-starlinks/" >🔗</a> **[Teslarati]** SpaceX launches 22 Starlinks from Florida, delays launch from California
 
 
@@ -191,23 +194,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="http://www.nasa.gov/press-release/coverage-set-for-nasa-s-spacex-crew-7-events-broadcast-launch" >🔗</a> **[NASA]** Coverage Set for NASA’s SpaceX Crew-7 Events, Broadcast, Launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/851" >📆</a> **Crew-7 Arrival at Kennedy**
-
-  - <a href="https://go4liftoff.com/event/id/852" >📆</a> **Crew-7 Flight Readiness Review Teleconference**
-
-  - <a href="https://go4liftoff.com/event/id/853" >📆</a> **Crew-7 Postlaunch News Conference**
-
-  - <a href="https://go4liftoff.com/event/id/768" >📆</a> **SpaceX Crew-7 Crew Dragon Docking**
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -250,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230819T151152">2023-08-19 15:11:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230819T161547">2023-08-19 16:15:47 UTC</a>
   <br>
 </div>
