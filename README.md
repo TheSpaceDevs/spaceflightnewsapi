@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/luna-25-suffers-emergency-situation-in-lunar-orbit" >🔗</a> **[The Launch Pad]** BREAKING! Luna-25 Suffers "Emergency Situation" In Lunar Orbit
+
+
+- <a href="https://spacenews.com/luna-25-malfunctions-during-lunar-orbit-maneuver/" >🔗</a> **[SpaceNews]** Luna-25 malfunctions during lunar orbit maneuver
+
+
 - <a href="https://spacepolicyonline.com/news/new-lexicon-for-outer-space-security-ready-for-final-oewg-session/" >🔗</a> **[SpacePolicyOnline.com]** New “Lexicon for Outer Space Security” Ready for Final OEWG Session
 
 
@@ -178,20 +184,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://arstechnica.com/space/2023/08/rocket-report-europes-final-countdown-for-2023-sls-to-carry-more-cubesats/" >🔗</a> **[Arstechnica]** Rocket Report: Russian rocket lands like an airplane; SpaceX steamroller rolls
-
-
-- <a href="https://www.teslarati.com/crew-dragon-endurance-arrives-lc-39a-ahead-crew-7-launch/" >🔗</a> **[Teslarati]** Crew Dragon Endurance arrives at LC-39A ahead of Crew 7 launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacenews.com/japanese-sar-company-iqps-to-launch-with-rocket-lab-after-virgin-orbit-bankruptcy/" >🔗</a> **[SpaceNews]** Japanese SAR company iQPS to launch with Rocket Lab after Virgin Orbit bankruptcy
-
-
-  - <a href="https://go4liftoff.com/launch/id/2918b5f6-1340-4c73-bb75-4f9b5e16999f" >🚀</a> **Electron | The Moon God Awakens (QPS-SAR-5)** from Onenui Station, Mahia Peninsula, New Zealand
-
 
 
 
@@ -236,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230819T171055">2023-08-19 17:10:55 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230819T181507">2023-08-19 18:15:07 UTC</a>
   <br>
 </div>
