@@ -167,6 +167,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/08/rocket-report-europes-final-countdown-for-2023-sls-to-carry-more-cubesats/" >🔗</a> **[Arstechnica]** Rocket Report: Russian rocket lands like an airplane; SpaceX steamroller rolls
 
 
+- <a href="https://www.teslarati.com/crew-dragon-endurance-arrives-lc-39a-ahead-crew-7-launch/" >🔗</a> **[Teslarati]** Crew Dragon Endurance arrives at LC-39A ahead of Crew 7 launch
+
+
 - <a href="https://spacenews.com/japanese-sar-company-iqps-to-launch-with-rocket-lab-after-virgin-orbit-bankruptcy/" >🔗</a> **[SpaceNews]** Japanese SAR company iQPS to launch with Rocket Lab after Virgin Orbit bankruptcy
 
 
@@ -189,9 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/853" >📆</a> **Crew-7 Postlaunch News Conference**
 
   - <a href="https://go4liftoff.com/event/id/768" >📆</a> **SpaceX Crew-7 Crew Dragon Docking**
-
-
-- <a href="https://spacenews.com/true-anomaly-opens-spacecraft-manufacturing-facility-in-colorado/" >🔗</a> **[SpaceNews]** True Anomaly opens spacecraft manufacturing facility in Colorado
 
 
 
@@ -236,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230819T014402">2023-08-19 01:44:02 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230819T021451">2023-08-19 02:14:51 UTC</a>
   <br>
 </div>
