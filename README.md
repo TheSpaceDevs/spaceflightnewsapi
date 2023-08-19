@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/08/russia-seems-to-have-lost-contact-with-its-first-lunar-probe-in-half-a-century/" >🔗</a> **[Arstechnica]** Russia seems to have lost contact with its first lunar probe in half a century
+
+
+- <a href="https://www.nasaspaceflight.com/2023/08/insight-rise/" >🔗</a> **[NASASpaceflight]** Using data from InSight, scientists discover that Mars is rotating faster
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/luna-25-suffers-emergency-situation-in-lunar-orbit" >🔗</a> **[The Launch Pad]** BREAKING! Luna-25 Suffers "Emergency Situation" In Lunar Orbit
 
 
@@ -178,12 +184,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/u-s-government-warns-of-foreign-intelligence-threats-to-the-space-industry/" >🔗</a> **[SpaceNews]** U.S. government warns of foreign intelligence threats to the space industry
-
-
-- <a href="https://spacenews.com/poland-signs-agreement-to-fly-astronaut-on-axiom-space-iss-mission/" >🔗</a> **[SpaceNews]** Poland signs agreement to fly astronaut on Axiom Space ISS mission
-
-
-- <a href="https://arstechnica.com/space/2023/08/rocket-report-europes-final-countdown-for-2023-sls-to-carry-more-cubesats/" >🔗</a> **[Arstechnica]** Rocket Report: Russian rocket lands like an airplane; SpaceX steamroller rolls
 
 
 
@@ -228,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230819T181507">2023-08-19 18:15:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230819T190946">2023-08-19 19:09:46 UTC</a>
   <br>
 </div>
