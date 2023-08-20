@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-august-20-26-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy August 20-26, 2023
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/luna-25-has-crashed" >🔗</a> **[The Launch Pad]** BREAKING! Luna-25 Has Crashed, Confirmed By Russia
 
 
@@ -193,15 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/new-lexicon-for-outer-space-security-ready-for-final-oewg-session/" >🔗</a> **[SpacePolicyOnline.com]** New “Lexicon for Outer Space Security” Ready for Final OEWG Session
 
 
-- <a href="https://www.teslarati.com/spacex-launches-22-starlinks/" >🔗</a> **[Teslarati]** SpaceX launches 22 Starlinks from Florida, delays launch from California
-
-
-  - <a href="https://go4liftoff.com/launch/id/09642682-60f3-4470-a802-18788601c5a5" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-10** from Cape Canaveral, FL, USA
-
-  - <a href="https://go4liftoff.com/launch/id/15699687-3fb1-4749-9680-fc858e5e7081" >🚀</a> **Falcon 9 Block 5 | Starlink Group 7-1** from Vandenberg SFB, CA, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -244,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230820T151210">2023-08-20 15:12:10 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230820T161553">2023-08-20 16:15:53 UTC</a>
   <br>
 </div>
