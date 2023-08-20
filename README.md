@@ -146,14 +146,20 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://spacenews.com/luna-25-crashes-into-moon-after-orbit-maneuver/" >🔗</a> **[SpaceNews]** Luna-25 crashes into moon after orbit maneuver
+- <a href="https://tlpnetwork.com/news/2023/08/luna-25-has-crashed" >🔗</a> **[The Launch Pad]** BREAKING! Luna-25 Has Crashed, Confirmed By Russia
 
 
-- <a href="https://arstechnica.com/space/2023/08/russia-seems-to-have-lost-contact-with-its-first-lunar-probe-in-half-a-century/" >🔗</a> **[Arstechnica]** Is Luna 25 alive? Russia says an “emergency situation” has occurred
+- <a href="https://spacepolicyonline.com/news/luna-25-crashes-into-moon/" >🔗</a> **[SpacePolicyOnline.com]** Luna-25 Crashes Into Moon
+
+
+- <a href="https://arstechnica.com/space/2023/08/russia-seems-to-have-lost-contact-with-its-first-lunar-probe-in-half-a-century/" >🔗</a> **[Arstechnica]** Russia’s Luna 25 spacecraft has crashed into the Moon
 
 
   - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
 
+
+
+- <a href="https://spacenews.com/luna-25-crashes-into-moon-after-orbit-maneuver/" >🔗</a> **[SpaceNews]** Luna-25 crashes into moon after orbit maneuver
 
 
 - <a href="https://spacepolicyonline.com/news/russias-luna-25-lunar-lander-experiences-anomaly/" >🔗</a> **[SpacePolicyOnline.com]** Russia’s Luna-25 Lunar Lander Experiences Anomaly
@@ -194,16 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/15699687-3fb1-4749-9680-fc858e5e7081" >🚀</a> **Falcon 9 Block 5 | Starlink Group 7-1** from Vandenberg SFB, CA, USA
 
-
-
-- <a href="https://www.nasaspaceflight.com/2023/08/starship-update-aug-23/" >🔗</a> **[NASASpaceflight]** Starship Update: Booster 9 wearing a crown, construction, and HLS test article
-
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
-- <a href="https://arstechnica.com/space/2023/08/rocket-lab-pivoting-to-downrange-neutron-landings-to-meet-customer-demand/" >🔗</a> **[Arstechnica]** Peter Beck pushes toward a Neutron debut in 2024, but acknowledges challenges
 
 
 
@@ -248,6 +244,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230820T122306">2023-08-20 12:23:06 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230820T131342">2023-08-20 13:13:42 UTC</a>
   <br>
 </div>
