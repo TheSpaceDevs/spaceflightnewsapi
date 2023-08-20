@@ -149,16 +149,36 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/08/russia-seems-to-have-lost-contact-with-its-first-lunar-probe-in-half-a-century/" >🔗</a> **[Arstechnica]** Is Luna 25 alive? Russia says an “emergency situation” has occurred
 
 
+  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
+
+
+
 - <a href="https://spacepolicyonline.com/news/russias-luna-25-lunar-lander-experiences-anomaly/" >🔗</a> **[SpacePolicyOnline.com]** Russia’s Luna-25 Lunar Lander Experiences Anomaly
+
+
+  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
+
 
 
 - <a href="https://www.nasaspaceflight.com/2023/08/insight-rise/" >🔗</a> **[NASASpaceflight]** Using data from InSight, scientists discover that Mars is rotating faster
 
 
+  - <a href="https://go4liftoff.com/launch/id/3b633f7e-fad9-480e-9011-f38d1bb2f932" >🚀</a> **Atlas V 401 | InSight, Mars Cube One 1 & Mars Cube One 2** from Vandenberg SFB, CA, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/luna-25-suffers-emergency-situation-in-lunar-orbit" >🔗</a> **[The Launch Pad]** Luna-25 Suffers "Emergency Situation" In Lunar Orbit
 
 
+  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
+
+
+
 - <a href="https://spacenews.com/luna-25-malfunctions-during-lunar-orbit-maneuver/" >🔗</a> **[SpaceNews]** Luna-25 malfunctions during lunar orbit maneuver
+
+
+  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
+
 
 
 - <a href="https://spacepolicyonline.com/news/new-lexicon-for-outer-space-security-ready-for-final-oewg-session/" >🔗</a> **[SpacePolicyOnline.com]** New “Lexicon for Outer Space Security” Ready for Final OEWG Session
@@ -228,6 +248,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230820T081504">2023-08-20 08:15:04 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230820T091130">2023-08-20 09:11:30 UTC</a>
   <br>
 </div>
