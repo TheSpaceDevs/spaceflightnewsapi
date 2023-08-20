@@ -152,7 +152,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/08/luna-25-has-crashed" >🔗</a> **[The Launch Pad]** BREAKING! Luna-25 Has Crashed, Confirmed By Russia
 
 
+  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
+
+
+
 - <a href="https://spacepolicyonline.com/news/luna-25-crashes-into-moon/" >🔗</a> **[SpacePolicyOnline.com]** Luna-25 Crashes Into Moon
+
+
+  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
+
 
 
 - <a href="https://arstechnica.com/space/2023/08/russia-seems-to-have-lost-contact-with-its-first-lunar-probe-in-half-a-century/" >🔗</a> **[Arstechnica]** Russia’s Luna 25 spacecraft has crashed into the Moon
@@ -163,6 +171,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/luna-25-crashes-into-moon-after-orbit-maneuver/" >🔗</a> **[SpaceNews]** Luna-25 crashes into moon after orbit maneuver
+
+
+  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
+
 
 
 - <a href="https://spacepolicyonline.com/news/russias-luna-25-lunar-lander-experiences-anomaly/" >🔗</a> **[SpacePolicyOnline.com]** Russia’s Luna-25 Lunar Lander Experiences Anomaly
@@ -238,6 +250,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230820T191038">2023-08-20 19:10:38 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230820T201241">2023-08-20 20:12:41 UTC</a>
   <br>
 </div>
