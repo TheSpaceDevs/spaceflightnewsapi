@@ -499,13 +499,13 @@ graph = ["objgraph (>=1.7.2)"]
 
 [[package]]
 name = "dj-database-url"
-version = "2.0.0"
+version = "2.1.0"
 description = "Use Database URLs in your Django Application."
 optional = false
 python-versions = "*"
 files = [
-    {file = "dj-database-url-2.0.0.tar.gz", hash = "sha256:a35a9f0f43775ca6f90d819dc456233ef7bcc76b47377d5d908b75c7eb320624"},
-    {file = "dj_database_url-2.0.0-py3-none-any.whl", hash = "sha256:9c9e5f7224f62635a787e9cc3c6762c9be2b19541a21e3c08fa573bd01609b4b"},
+    {file = "dj-database-url-2.1.0.tar.gz", hash = "sha256:f2042cefe1086e539c9da39fad5ad7f61173bf79665e69bf7e4de55fa88b135f"},
+    {file = "dj_database_url-2.1.0-py3-none-any.whl", hash = "sha256:04bc34b248d4c21aaa13e4ab419ae6575ef5f10f3df735ce7da97722caa356e0"},
 ]
 
 [package.dependencies]
@@ -1921,4 +1921,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "1c2a9b254245edd714058010b9278275df06d4d775429d8543e888a86cf6dd5c"
+content-hash = "5b96b42b849d7db735d90e1936e2ef977c204ff54ecb77cb30d4a193849ee2fc"
