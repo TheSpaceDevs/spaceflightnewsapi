@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/weekly-space-recap-august-14-august-20/" >🔗</a> **[Teslarati]** Weekly Space Recap: August 14 – August 20
+
+
+- <a href="https://spacenews.com/eutelsats-oneweb-merger-now-just-pending-shareholder-vote/" >🔗</a> **[SpaceNews]** Eutelsat’s OneWeb merger now just pending shareholder vote
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/launch-roundup-082123/" >🔗</a> **[NASASpaceflight]** Launch Roundup: SpaceX to launch four missions, Progress MS-24 to resupply ISS
 
 
@@ -174,16 +180,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/redwire-and-sierra-space-partner-on-commercial-space-station-biotech-research-platform/" >🔗</a> **[SpaceNews]** Redwire and Sierra Space partner on commercial space station biotech research platform
 
 
-- <a href="https://www.nasaspaceflight.com/2023/08/luna-fails-to-land/" >🔗</a> **[NASASpaceflight]** Looking past Luna 25’s lunar landing failure: what’s next?
-
-
-  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
-
-
-
-- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-august-20-26-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy August 20-26, 2023
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -203,10 +199,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-august-7-13-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: August 7-13, 2023
 
 
+- <a href="https://blog.ulalaunch.com/blog/icps-3-upperstage-that-will-propel-artemis-iii-astronauts-to-the-moon-arrives-for-processing" >🔗</a> **[United Launch Alliance]** ICPS-3: Upper stage that will propel Artemis III astronauts to the Moon arrives for processing
+
+
 - <a href="https://www.planetary.org/the-downlink/hasta-la-vista-baby" >🔗</a> **[Planetary Society]** Hasta la vista, baby
-
-
-- <a href="https://blog.ulalaunch.com/blog/icps-3-upperstage-that-will-propel-artemis-iii-astronauts-to-the-moon-arrives-for-processing" >🔗</a> **[United Launch Alliance]** ICPS-3: Upperstage that will propel Artemis III astronauts to the Moon arrives for processing
 
 
 - <a href="https://www.planetary.org/articles/exoplanet-terminator-zones-search-for-life" >🔗</a> **[Planetary Society]** Are exoplanet 'terminator zones' a lead in the search for life?
@@ -226,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T211147">2023-08-21 21:11:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T221226">2023-08-21 22:12:26 UTC</a>
   <br>
 </div>
