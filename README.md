@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/axiom-space-raises-350-million/" >🔗</a> **[SpaceNews]** Axiom Space raises $350 million
+
+
 - <a href="https://spacenews.com/redwire-and-sierra-space-partner-on-commercial-space-station-biotech-research-platform/" >🔗</a> **[SpaceNews]** Redwire and Sierra Space partner on commercial space station biotech research platform
 
 
@@ -201,13 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.nasaspaceflight.com/2023/08/insight-rise/" >🔗</a> **[NASASpaceflight]** Using data from InSight, scientists discover that Mars is rotating faster
-
-
-  - <a href="https://go4liftoff.com/launch/id/3b633f7e-fad9-480e-9011-f38d1bb2f932" >🚀</a> **Atlas V 401 | InSight, Mars Cube One 1 & Mars Cube One 2** from Vandenberg SFB, CA, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -250,6 +246,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T122650">2023-08-21 12:26:50 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T131709">2023-08-21 13:17:09 UTC</a>
   <br>
 </div>
