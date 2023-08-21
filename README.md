@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/08/luna-fails-to-land/" >🔗</a> **[NASASpaceflight]** Looking past Luna 25’s lunar landing failure: what’s next?
 
 
+  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
+
+
+
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-august-20-26-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy August 20-26, 2023
 
 
@@ -181,6 +185,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.teslarati.com/spacex-reveals-starship-hot-stage-ring/" >🔗</a> **[Teslarati]** SpaceX reveals Starship hot stage ring
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
 
 
 - <a href="https://spacepolicyonline.com/news/russias-luna-25-lunar-lander-experiences-anomaly/" >🔗</a> **[SpacePolicyOnline.com]** Russia’s Luna-25 Lunar Lander Experiences Anomaly
@@ -246,6 +254,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T081741">2023-08-21 08:17:41 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T091338">2023-08-21 09:13:38 UTC</a>
   <br>
 </div>
