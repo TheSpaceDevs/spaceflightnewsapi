@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-development-agency-awards-1-5-billion-to-lockheed-martin-and-northrop-grumman-for-72-satellites/" >🔗</a> **[SpaceNews]** Space Development Agency awards contracts to Lockheed Martin, Northrop Grumman for 72 satellites
+
+
 - <a href="https://www.cnbc.com/2023/08/21/redwire-sierra-partner-to-make-drugs-on-inflatable-space-habitat.html" >🔗</a> **[CNBC]** Redwire and Sierra team up to make drugs in space on inflatable habitat’s first mission
 
 
@@ -189,16 +192,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/luna-25-crashes-into-moon-after-orbit-maneuver/" >🔗</a> **[SpaceNews]** Luna-25 crashes into moon after orbit maneuver
-
-
-  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
-
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://europeanspaceflight.substack.com/p/whats-going-on-with-saxavord-contractors" >🔗</a> **[European Spaceflight]** What’s going on with SaxaVord contractors?
+
 
 - <a href="https://www.planetary.org/the-downlink/storms-and-showers" >🔗</a> **[Planetary Society]** Storms and showers
 
@@ -231,13 +230,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-july-24-august-6-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: July 24-August 6, 2023
 
 
-- <a href="https://www.planetary.org/the-downlink/far-out-man" >🔗</a> **[Planetary Society]** Far out, man!
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T141243">2023-08-21 14:12:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T151352">2023-08-21 15:13:52 UTC</a>
   <br>
 </div>
