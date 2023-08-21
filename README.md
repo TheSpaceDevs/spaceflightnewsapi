@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/luna-25s-engines-fired-longer-than-planned/" >🔗</a> **[SpacePolicyOnline.com]** Luna-25’s Engines Fired Longer Than Planned
+
+
 - <a href="https://www.teslarati.com/weekly-space-recap-august-14-august-20/" >🔗</a> **[Teslarati]** Weekly Space Recap: August 14 – August 20
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/axiom-space-raises-350-million/" >🔗</a> **[SpaceNews]** Axiom Space raises $350 million
-
-
-- <a href="https://spacenews.com/redwire-and-sierra-space-partner-on-commercial-space-station-biotech-research-platform/" >🔗</a> **[SpaceNews]** Redwire and Sierra Space partner on commercial space station biotech research platform
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T221226">2023-08-21 22:12:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T231300">2023-08-21 23:13:00 UTC</a>
   <br>
 </div>
