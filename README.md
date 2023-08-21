@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/08/putin-wanted-to-make-russia-great-again-in-space-heres-why-he-failed/" >🔗</a> **[Arstechnica]** The failure of Luna 25 cements Putin’s role as a disastrous space leader
+
+
 - <a href="https://www.cnbc.com/2023/08/21/pentagon-awards-1point5-billion-to-lockheed-martin-northrop-grumman.html" >🔗</a> **[CNBC]** Pentagon space arm awards $1.5 billion contract to Lockheed, Northrop for communications satellites
 
 
@@ -175,13 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/luna-25-has-crashed" >🔗</a> **[The Launch Pad]** Luna-25 Has Crashed, Confirmed By Russia
-
-
-  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
-
-
-
-- <a href="https://spacepolicyonline.com/news/luna-25-crashes-into-moon/" >🔗</a> **[SpacePolicyOnline.com]** Luna-25 Crashes Into Moon
 
 
   - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T161717">2023-08-21 16:17:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T171148">2023-08-21 17:11:48 UTC</a>
   <br>
 </div>
