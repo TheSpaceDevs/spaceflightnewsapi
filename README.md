@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/redwire-and-sierra-space-partner-on-commercial-space-station-biotech-research-platform/" >🔗</a> **[SpaceNews]** Redwire and Sierra Space partner on commercial space station biotech research platform
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/luna-fails-to-land/" >🔗</a> **[NASASpaceflight]** Looking past Luna 25’s lunar landing failure: what’s next?
 
 
@@ -205,13 +208,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/08/luna-25-suffers-emergency-situation-in-lunar-orbit" >🔗</a> **[The Launch Pad]** Luna-25 Suffers "Emergency Situation" In Lunar Orbit
-
-
-  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -254,6 +250,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T111110">2023-08-21 11:11:10 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T122650">2023-08-21 12:26:50 UTC</a>
   <br>
 </div>
