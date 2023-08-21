@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/08/21/pentagon-awards-1point5-billion-to-lockheed-martin-northrop-grumman.html" >🔗</a> **[CNBC]** Pentagon space arm awards $1.5 billion contract to Lockheed, Northrop for communications satellites
+
+
 - <a href="https://spacenews.com/space-development-agency-awards-1-5-billion-to-lockheed-martin-and-northrop-grumman-for-72-satellites/" >🔗</a> **[SpaceNews]** Space Development Agency awards contracts to Lockheed Martin, Northrop Grumman for 72 satellites
 
 
@@ -185,16 +188,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://arstechnica.com/space/2023/08/russia-seems-to-have-lost-contact-with-its-first-lunar-probe-in-half-a-century/" >🔗</a> **[Arstechnica]** Russia’s Luna 25 spacecraft has crashed into the Moon
-
-
-  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
-
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-august-14-20-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: August 14-20, 2023
+
 
 - <a href="https://europeanspaceflight.substack.com/p/whats-going-on-with-saxavord-contractors" >🔗</a> **[European Spaceflight]** What’s going on with SaxaVord contractors?
 
@@ -227,13 +226,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.substack.com/p/to-stream-or-not-to-stream" >🔗</a> **[European Spaceflight]** To stream or not to stream
 
 
-- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-july-24-august-6-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: July 24-August 6, 2023
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T151352">2023-08-21 15:13:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230821T161717">2023-08-21 16:17:17 UTC</a>
   <br>
 </div>
