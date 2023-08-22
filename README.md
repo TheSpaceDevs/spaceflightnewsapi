@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/08/police-are-investigating-an-indian-actor-for-joking-about-the-countrys-moon-lander/" >🔗</a> **[Arstechnica]** Police are investigating an Indian actor for joking about the country’s Moon lander
+
+
 - <a href="https://spacenews.com/polaris-dawn-mission-likely-to-slip-to-2024/" >🔗</a> **[SpaceNews]** Polaris Dawn mission likely to slip to 2024
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.teslarati.com/weekly-space-recap-august-14-august-20/" >🔗</a> **[Teslarati]** Weekly Space Recap: August 14 – August 20
-
-
-- <a href="https://spacenews.com/eutelsats-oneweb-merger-now-just-pending-shareholder-vote/" >🔗</a> **[SpaceNews]** Eutelsat’s OneWeb merger now just pending shareholder vote
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230822T221215">2023-08-22 22:12:15 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230822T231234">2023-08-22 23:12:34 UTC</a>
   <br>
 </div>
