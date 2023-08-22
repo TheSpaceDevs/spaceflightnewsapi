@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/u-s-intelligence-office-to-investigate-lagging-procurement-of-commercial-satellite-data/" >🔗</a> **[SpaceNews]** U.S. intelligence office to investigate lagging procurement of commercial satellite data
+
+
 - <a href="https://spacenews.com/sidus-space-acquires-exo-space/" >🔗</a> **[SpaceNews]** Sidus Space acquires Exo-Space
 
 
@@ -197,9 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.cnbc.com/2023/08/21/pentagon-awards-1point5-billion-to-lockheed-martin-northrop-grumman.html" >🔗</a> **[CNBC]** Pentagon space arm awards $1.5 billion contract to Lockheed, Northrop for communications satellites
 
 
-- <a href="https://spacenews.com/space-development-agency-awards-1-5-billion-to-lockheed-martin-and-northrop-grumman-for-72-satellites/" >🔗</a> **[SpaceNews]** Space Development Agency awards contracts to Lockheed Martin, Northrop Grumman for 72 satellites
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230822T191037">2023-08-22 19:10:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230822T201356">2023-08-22 20:13:56 UTC</a>
   <br>
 </div>
