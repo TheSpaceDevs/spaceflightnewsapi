@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/umbra-selected-to-demonstrate-space-based-radar-to-track-moving-targets/" >🔗</a> **[SpaceNews]** Umbra selected to demonstrate space-based radar to track moving targets
+
+
 - <a href="https://spacenews.com/nasa-clears-crew-7-mission-for-launch-to-the-space-station/" >🔗</a> **[SpaceNews]** NASA clears Crew-7 mission for launch to the space station
 
 
@@ -197,9 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.cnbc.com/2023/08/21/redwire-sierra-partner-to-make-drugs-on-inflatable-space-habitat.html" >🔗</a> **[CNBC]** Redwire and Sierra team up to make drugs in space on inflatable habitat’s first mission
 
 
-- <a href="https://www.cnbc.com/2023/08/21/axiom-space-raises-350-million-from-saudi-and-korean-investors.html" >🔗</a> **[CNBC]** Axiom Space raises $350 million from Saudi and Korean investors
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230822T161738">2023-08-22 16:17:38 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230822T171211">2023-08-22 17:12:11 UTC</a>
   <br>
 </div>
