@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/sidus-space-acquires-exo-space/" >🔗</a> **[SpaceNews]** Sidus Space acquires Exo-Space
+
+
 - <a href="https://spacenews.com/umbra-selected-to-demonstrate-space-based-radar-to-track-moving-targets/" >🔗</a> **[SpaceNews]** Umbra selected to demonstrate space-based radar to track moving targets
 
 
@@ -174,9 +177,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/15699687-3fb1-4749-9680-fc858e5e7081" >🚀</a> **Falcon 9 Block 5 | Starlink Group 7-1** from Vandenberg SFB, CA, USA
 
-  - <a href="https://go4liftoff.com/launch/id/87fba73c-f085-4abf-830d-fae92c599977" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-11** from Cape Canaveral, FL, USA
-
   - <a href="https://go4liftoff.com/launch/id/92bf99cd-2469-4500-864a-40a9dfc65332" >🚀</a> **Soyuz 2.1a | Progress MS-24 (85P)** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+  - <a href="https://go4liftoff.com/launch/id/87fba73c-f085-4abf-830d-fae92c599977" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-11** from Cape Canaveral, FL, USA
 
   - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
 
@@ -195,9 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-development-agency-awards-1-5-billion-to-lockheed-martin-and-northrop-grumman-for-72-satellites/" >🔗</a> **[SpaceNews]** Space Development Agency awards contracts to Lockheed Martin, Northrop Grumman for 72 satellites
-
-
-- <a href="https://www.cnbc.com/2023/08/21/redwire-sierra-partner-to-make-drugs-on-inflatable-space-habitat.html" >🔗</a> **[CNBC]** Redwire and Sierra team up to make drugs in space on inflatable habitat’s first mission
 
 
 
@@ -242,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230822T181651">2023-08-22 18:16:51 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230822T191037">2023-08-22 19:10:37 UTC</a>
   <br>
 </div>
