@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/target-of-european-debris-removal-mission-hit-by-other-debris/" >🔗</a> **[SpaceNews]** Target of European debris removal mission hit by other debris
+
+
 - <a href="https://www.teslarati.com/nasa-spacex-give-go-crew-7-launch/" >🔗</a> **[Teslarati]** NASA and SpaceX give GO for Crew 7 launch
 
 
@@ -174,13 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacepolicyonline.com/news/luna-25s-engines-fired-longer-than-planned/" >🔗</a> **[SpacePolicyOnline.com]** Luna-25’s Engines Fired Longer Than Planned
-
-
-  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
 
 
 
@@ -226,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230823T021743">2023-08-23 02:17:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230823T031349">2023-08-23 03:13:49 UTC</a>
   <br>
 </div>
