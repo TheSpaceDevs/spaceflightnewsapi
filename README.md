@@ -149,7 +149,17 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/target-of-european-debris-removal-mission-hit-by-other-debris/" >🔗</a> **[SpaceNews]** Target of European debris removal mission hit by other debris
 
 
+  - <a href="https://go4liftoff.com/launch/id/351bea09-3fcf-4195-8c97-adeeaf9708ea" >🚀</a> **Vega | Proba-V, VNREDSat 1A, ESTCube-1** from Kourou, French Guiana
+
+  - <a href="https://go4liftoff.com/launch/id/b0634bea-4769-4846-8546-b7574d571bbc" >🚀</a> **Vega-C | ClearSpace-1** from Kourou, French Guiana
+
+
+
 - <a href="https://www.teslarati.com/nasa-spacex-give-go-crew-7-launch/" >🔗</a> **[Teslarati]** NASA and SpaceX give GO for Crew 7 launch
+
+
+  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://arstechnica.com/space/2023/08/police-are-investigating-an-indian-actor-for-joking-about-the-countrys-moon-lander/" >🔗</a> **[Arstechnica]** Police are investigating an Indian actor for joking about the country’s Moon lander
@@ -158,10 +168,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/polaris-dawn-mission-likely-to-slip-to-2024/" >🔗</a> **[SpaceNews]** Polaris Dawn mission likely to slip to 2024
 
 
+  - <a href="https://go4liftoff.com/launch/id/b69cfada-3320-4331-89e1-aaa8b49e6a9c" >🚀</a> **Falcon 9 Block 5 | Polaris Dawn** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://spacenews.com/mynaric-to-design-optical-ground-terminal-for-u-s-military-constellation/" >🔗</a> **[SpaceNews]** Mynaric to design optical ground terminal for U.S. military constellation
 
 
 - <a href="https://www.teslarati.com/spacex-launches-100th-dedicated-starlink-mission/" >🔗</a> **[Teslarati]** SpaceX launches 100th dedicated Starlink mission
+
+
+  - <a href="https://go4liftoff.com/launch/id/15699687-3fb1-4749-9680-fc858e5e7081" >🚀</a> **Falcon 9 Block 5 | Starlink Group 7-1** from Vandenberg SFB, CA, USA
+
 
 
 - <a href="https://spacenews.com/u-s-intelligence-office-to-investigate-lagging-procurement-of-commercial-satellite-data/" >🔗</a> **[SpaceNews]** U.S. intelligence office to investigate lagging procurement of commercial satellite data
@@ -222,6 +240,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230823T071235">2023-08-23 07:12:35 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230823T081716">2023-08-23 08:17:16 UTC</a>
   <br>
 </div>
