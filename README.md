@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/chandrayaan-3-is-a-story-of-isros-perseverance-and-triumph/" >🔗</a> **[SpaceNews]** Chandrayaan-3 is a story of ISRO’s perseverance and triumph
+
+
 - <a href="https://spacepolicyonline.com/news/modi-india-is-on-the-moon/" >🔗</a> **[SpacePolicyOnline.com]** Modi: “India is on the Moon”
 
 
@@ -199,9 +202,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/mynaric-to-design-optical-ground-terminal-for-u-s-military-constellation/" >🔗</a> **[SpaceNews]** Mynaric to design optical ground terminal for U.S. military constellation
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -240,6 +240,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230823T181451">2023-08-23 18:14:51 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230823T191030">2023-08-23 19:10:30 UTC</a>
   <br>
 </div>
