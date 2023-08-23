@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/nasa-spacex-give-go-crew-7-launch/" >🔗</a> **[Teslarati]** NASA and SpaceX give GO for Crew 7 launch
+
+
 - <a href="https://arstechnica.com/space/2023/08/police-are-investigating-an-indian-actor-for-joking-about-the-countrys-moon-lander/" >🔗</a> **[Arstechnica]** Police are investigating an Indian actor for joking about the country’s Moon lander
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
 
-
-
-- <a href="https://www.teslarati.com/weekly-space-recap-august-14-august-20/" >🔗</a> **[Teslarati]** Weekly Space Recap: August 14 – August 20
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230822T231234">2023-08-22 23:12:34 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230823T005935">2023-08-23 00:59:35 UTC</a>
   <br>
 </div>
