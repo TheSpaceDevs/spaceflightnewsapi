@@ -146,6 +146,27 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/spaced-ventures-first-exit-sidus-space-purchase-of-exo-space/" >🔗</a> **[SpaceNews]** Spaced Ventures’ first exit: Sidus Space purchase of Exo-Space
+
+
+- <a href="https://spacenews.com/chandrayaan-3-india-becomes-fourth-country-to-land-on-the-moon/" >🔗</a> **[SpaceNews]** Chandrayaan-3: India becomes fourth country to land on the moon
+
+
+  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
+
+
+
+- <a href="https://www.cnbc.com/2023/08/23/india-chandrayaan-3-moon-mission.html" >🔗</a> **[CNBC]** India becomes fourth country to land on the moon, first on south pole, with Chandrayaan-3 spacecraft
+
+
+  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/780" >📆</a> **Chandrayaan-3 Lunar Landing**
+
+
 - <a href="https://spacenews.com/target-of-european-debris-removal-mission-hit-by-other-debris/" >🔗</a> **[SpaceNews]** Target of European debris removal mission hit by other debris
 
 
@@ -183,19 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/u-s-intelligence-office-to-investigate-lagging-procurement-of-commercial-satellite-data/" >🔗</a> **[SpaceNews]** U.S. intelligence office to investigate lagging procurement of commercial satellite data
-
-
-- <a href="https://spacenews.com/sidus-space-acquires-exo-space/" >🔗</a> **[SpaceNews]** Sidus Space acquires Exo-Space
-
-
-- <a href="https://spacenews.com/umbra-selected-to-demonstrate-space-based-radar-to-track-moving-targets/" >🔗</a> **[SpaceNews]** Umbra selected to demonstrate space-based radar to track moving targets
-
-
-- <a href="https://spacenews.com/nasa-clears-crew-7-mission-for-launch-to-the-space-station/" >🔗</a> **[SpaceNews]** NASA clears Crew-7 mission for launch to the space station
-
-
-  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -240,6 +248,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230823T122635">2023-08-23 12:26:35 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230823T131619">2023-08-23 13:16:19 UTC</a>
   <br>
 </div>
