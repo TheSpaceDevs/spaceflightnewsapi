@@ -1,4 +1,4 @@
-name: Run tests on PR
+name: Run pre-commit on PR
 on:
   pull_request:
 
