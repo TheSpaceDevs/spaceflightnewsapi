@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/08/rocket-lab-joins-spacex-in-re-flying-a-rocket-engine-to-space/" >🔗</a> **[Arstechnica]** The re-flight of a Rutherford engine demonstrates rocket reuse is here to stay
+
+
+- <a href="https://europeanspaceflight.com/esas-solar-orbiter-may-have-discovered-the-source-of-solar-wind/" >🔗</a> **[European Spaceflight]** ESA’s Solar Orbiter May Have Discovered the Source of Solar Wind
+
+
 - <a href="https://www.cnbc.com/2023/08/24/doj-sues-spacex-alleging-hiring-discrimination-against-refugees-and-asylum-seekers.html" >🔗</a> **[CNBC]** DOJ sues SpaceX, alleging hiring discrimination against refugees and asylum seekers
 
 
@@ -180,12 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
 
-
-
-- <a href="https://europeanspaceflight.com/sab-orbital-vehicle-could-work-in-concert-with-space-rider/" >🔗</a> **[European Spaceflight]** SAB Orbital Vehicle Could Work in Concert With Space Rider
-
-
-- <a href="https://spacenews.com/space-imagery-startup-heo-raises-8-million/" >🔗</a> **[SpaceNews]** Space imagery startup HEO raises $8 million
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T171201">2023-08-24 17:12:01 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T181708">2023-08-24 18:17:08 UTC</a>
   <br>
 </div>
