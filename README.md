@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/rocket-lab-launches-40th-mission-first-re-flown-rutherford-engine/" >🔗</a> **[Teslarati]** Rocket Lab launches 40th mission, first re-flown Rutherford engine
+
+
+- <a href="https://mars.nasa.gov/news/9468/" >🔗</a> **[NASA]** NASA, Partners Study Ancient Life in Australia to Inform Mars Search
+
+
 - <a href="https://arstechnica.com/space/2023/08/rocket-lab-joins-spacex-in-re-flying-a-rocket-engine-to-space/" >🔗</a> **[Arstechnica]** The re-flight of a Rutherford engine demonstrates rocket reuse is here to stay
 
 
@@ -171,20 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/7975274c-81c5-48a5-82e1-9b8d982cd533" >🚀</a> **Electron | We Love the Nightlife (Capella Acadia 1)** from Onenui Station, Mahia Peninsula, New Zealand
-
-
-
-- <a href="https://www.cnbc.com/2023/08/23/india-chandrayaan-3-moon-landing-came-at-small-cost.html" >🔗</a> **[CNBC]** India’s moon landing made history on a relatively small budget
-
-
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/08/booster9_staticfireattempt2/" >🔗</a> **[NASASpaceflight]** Booster 9 prepares for static fire test re-try ahead of flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
 
 
 
@@ -226,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T181708">2023-08-24 18:17:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T191046">2023-08-24 19:10:46 UTC</a>
   <br>
 </div>
