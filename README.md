@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/08/nasa-gives-crew-7-the-go-for-launch-to-iss-on-friday/" >🔗</a> **[NASASpaceflight]** NASA gives Crew-7 the “go” for launch to ISS on Friday
+
+
+- <a href="https://spacepolicyonline.com/news/rogers-bears-down-on-usspacecom-decision/" >🔗</a> **[SpacePolicyOnline.com]** Rogers Bears Down on USSPACECOM Decision
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-forest-service-to-share-moon-tree-seedlings-promote-stem" >🔗</a> **[NASA]** NASA, Forest Service to Share Moon Tree Seedlings, Promote STEM
+
+
 - <a href="https://www.teslarati.com/rocket-lab-launches-40th-mission-first-re-flown-rutherford-engine/" >🔗</a> **[Teslarati]** Rocket Lab launches 40th mission, first re-flown Rutherford engine
 
 
@@ -165,19 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/08/24/investing-in-space-the-nascent-orbital-debris-market.html" >🔗</a> **[CNBC]** Investing in Space: The nascent market for tracking and removing debris from orbit
-
-
-- <a href="https://spacenews.com/nasa-prepares-for-space-research-decadal-survey/" >🔗</a> **[SpaceNews]** NASA prepares for space research decadal survey
-
-
-- <a href="https://spacenews.com/north-koreas-spy-satellite-launch-fails-again/" >🔗</a> **[SpaceNews]** North Korea’s spy satellite launch fails again
-
-
-- <a href="https://spacenews.com/rocket-lab-reuses-engine-on-electron-launch/" >🔗</a> **[SpaceNews]** Rocket Lab reuses engine on Electron launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/7975274c-81c5-48a5-82e1-9b8d982cd533" >🚀</a> **Electron | We Love the Nightlife (Capella Acadia 1)** from Onenui Station, Mahia Peninsula, New Zealand
-
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T191046">2023-08-24 19:10:46 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T201414">2023-08-24 20:14:14 UTC</a>
   <br>
 </div>
