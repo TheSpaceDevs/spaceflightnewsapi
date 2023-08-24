@@ -17,7 +17,7 @@ jobs:
       DB_NAME: ${{ secrets.DB_NAME }}
       DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
       DB_USER: ${{ secrets.DB_USER }}
-      DATABASE_URL: "postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:5432/${DB_NAME}"
+      DATABASE_URL: "postgres://$DB_USER:$DB_PASSWORD@$DB_HOST:5432/$DB_NAME"
       SECRET_KEY: ${{ secrets.SECRET_KEY }}
 
       # Env variables in containers
