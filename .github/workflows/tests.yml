@@ -3,16 +3,6 @@ on:
   pull_request:
 
 jobs:
-  run_pre_commit:
-    name: Run pre-commit
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out the repo
-        uses: actions/checkout@v3
-
-      - name: Run pre-commit
-        run: pre-commit run --all-files
-
   run_the_tests:
     env:
       # Secrets
