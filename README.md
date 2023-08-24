@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-rolls-booster-9-back-launch-pad-more-testing/" >🔗</a> **[Teslarati]** SpaceX rolls Booster 9 back to the Launch Pad for more testing
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/nasa-gives-crew-7-the-go-for-launch-to-iss-on-friday/" >🔗</a> **[NASASpaceflight]** NASA gives Crew-7 the “go” for launch to ISS on Friday
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-shares-first-images-from-us-pollution-monitoring-instrument" >🔗</a> **[NASA]** NASA Shares First Images from US Pollution-Monitoring Instrument
-
-
-- <a href="https://www.cnbc.com/2023/08/24/investing-in-space-the-nascent-orbital-debris-market.html" >🔗</a> **[CNBC]** Investing in Space: The nascent market for tracking and removing debris from orbit
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T201414">2023-08-24 20:14:14 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T211139">2023-08-24 21:11:39 UTC</a>
   <br>
 </div>
