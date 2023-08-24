@@ -149,10 +149,22 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/rocket-lab-reuses-engine-on-electron-launch/" >🔗</a> **[SpaceNews]** Rocket Lab reuses engine on Electron launch
 
 
+  - <a href="https://go4liftoff.com/launch/id/7975274c-81c5-48a5-82e1-9b8d982cd533" >🚀</a> **Electron | We Love the Nightlife (Capella Acadia 1)** from Onenui Station, Mahia Peninsula, New Zealand
+
+
+
 - <a href="https://www.cnbc.com/2023/08/23/india-chandrayaan-3-moon-landing-came-at-small-cost.html" >🔗</a> **[CNBC]** India’s moon landing made history on a relatively small budget
 
 
+  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
+
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/booster9_staticfireattempt2/" >🔗</a> **[NASASpaceflight]** Booster 9 rolls out for static fire test re-try ahead of flight
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
 
 
 - <a href="https://europeanspaceflight.com/sab-orbital-vehicle-could-work-in-concert-with-space-rider/" >🔗</a> **[European Spaceflight]** SAB Orbital Vehicle Could Work in Concert With Space Rider
@@ -230,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T071235">2023-08-24 07:12:35 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T081705">2023-08-24 08:17:05 UTC</a>
   <br>
 </div>
