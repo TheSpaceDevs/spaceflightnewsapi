@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-shares-first-images-from-us-pollution-monitoring-instrument" >🔗</a> **[NASA]** NASA Shares First Images from US Pollution-Monitoring Instrument
+
+
 - <a href="https://spacenews.com/nasa-prepares-for-space-research-decadal-survey/" >🔗</a> **[SpaceNews]** NASA prepares for space research decadal survey
 
 
@@ -193,13 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.teslarati.com/india-successfully-lands-chandrayaan-3-on-moon/" >🔗</a> **[Teslarati]** India successfully lands Chandrayaan-3 on the Moon
-
-
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T151405">2023-08-24 15:14:05 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T161731">2023-08-24 16:17:31 UTC</a>
   <br>
 </div>
