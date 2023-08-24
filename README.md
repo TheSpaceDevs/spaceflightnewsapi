@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nasa-prepares-for-space-research-decadal-survey/" >🔗</a> **[SpaceNews]** NASA prepares for space research decadal survey
+
+
+- <a href="https://spacenews.com/north-koreas-spy-satellite-launch-fails-again/" >🔗</a> **[SpaceNews]** North Korea’s spy satellite launch fails again
+
+
 - <a href="https://spacenews.com/rocket-lab-reuses-engine-on-electron-launch/" >🔗</a> **[SpaceNews]** Rocket Lab reuses engine on Electron launch
 
 
@@ -194,16 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/spaced-ventures-first-exit-sidus-space-purchase-of-exo-space/" >🔗</a> **[SpaceNews]** Spaced Ventures’ first exit: Sidus Space purchase of Exo-Space
-
-
-- <a href="https://spacenews.com/chandrayaan-3-india-becomes-fourth-country-to-land-on-the-moon/" >🔗</a> **[SpaceNews]** Chandrayaan-3: India becomes fourth country to land on the moon
-
-
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T111122">2023-08-24 11:11:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T122633">2023-08-24 12:26:33 UTC</a>
   <br>
 </div>
