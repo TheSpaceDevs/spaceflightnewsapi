@@ -166,7 +166,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.nasaspaceflight.com/2023/08/booster9_staticfireattempt2/" >🔗</a> **[NASASpaceflight]** Booster 9 rolls out for static fire test re-try ahead of flight
+- <a href="https://www.nasaspaceflight.com/2023/08/booster9_staticfireattempt2/" >🔗</a> **[NASASpaceflight]** Booster 9 prepares for static fire test re-try ahead of flight
 
 
   - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
@@ -204,6 +204,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 ## Latest Blog Posts 🪧
 
+- <a href="https://www.planetary.org/articles/what-would-happen-if-an-asteroid-hit-the-moon" >🔗</a> **[Planetary Society]** What would happen if an asteroid hit the Moon?
+
+
 - <a href="https://blog.ulalaunch.com/blog/silentbarker/nrol-107-payload-mate-mounted-to-atlas-v-for-launch" >🔗</a> **[United Launch Alliance]** SILENTBARKER/NROL-107: Payload mounted to Atlas V for launch
 
 
@@ -231,13 +234,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/the-downlink/hasta-la-vista-baby" >🔗</a> **[Planetary Society]** Hasta la vista, baby
 
 
-- <a href="https://www.planetary.org/articles/exoplanet-terminator-zones-search-for-life" >🔗</a> **[Planetary Society]** Are exoplanet 'terminator zones' a lead in the search for life?
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T131647">2023-08-24 13:16:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T151405">2023-08-24 15:14:05 UTC</a>
   <br>
 </div>
