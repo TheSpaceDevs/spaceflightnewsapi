@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/myradar-to-validate-technology-with-noaa-funding/" >🔗</a> **[SpaceNews]** MyRadar to validate technology with NOAA funding
+
+
+- <a href="https://spacenews.com/spacex-test-fires-booster-for-second-starship-launch/" >🔗</a> **[SpaceNews]** SpaceX test-fires booster for second Starship launch
+
+
 - <a href="https://arstechnica.com/space/2023/08/starships-next-test-flight-might-be-closer-than-you-think/" >🔗</a> **[Arstechnica]** SpaceX completes successful hot fire test of its massive Starship rocket
 
 
@@ -176,12 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/big-constellations-no-longer-necessarily-mean-small-satellites/" >🔗</a> **[SpaceNews]** Big constellations no longer necessarily mean small satellites
-
-
-- <a href="https://spacenews.com/defense-innovation-unit-to-sponsor-a-rapid-response-space-mission/" >🔗</a> **[SpaceNews]** Defense Innovation Unit to sponsor a rapid response space mission
-
-
-- <a href="https://spacenews.com/can-space-investment-become-cool-again/" >🔗</a> **[SpaceNews]** Can space investment become cool again?
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T211138">2023-08-25 21:11:38 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T221231">2023-08-25 22:12:31 UTC</a>
   <br>
 </div>
