@@ -146,7 +146,21 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/nasa-spacex-readies-crew-7-for-launch-to-the-international-space-station/" >🔗</a> **[Teslarati]** NASA, SpaceX readies Crew 7 for launch to the International Space Station
+
+
+- <a href="https://spacenews.com/viasat-reports-problem-with-new-inmarsat-satellite/" >🔗</a> **[SpaceNews]** Viasat reports problem with new Inmarsat satellite
+
+
 - <a href="https://www.teslarati.com/spacex-s-booster-9-performs-2nd-static-fire/" >🔗</a> **[Teslarati]** SpaceX’s Booster 9 performs 2nd static fire
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/856" >📆</a> **Booster 9 Static Fire #2**
 
 
 - <a href="https://spacenews.com/sedaro-wins-space-force-contract-to-develop-spacecraft-digital-twins/" >🔗</a> **[SpaceNews]** Sedaro wins Space Force contract to develop spacecraft digital twins
@@ -168,16 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/european-union-nations-join-asat-testing-ban/" >🔗</a> **[SpaceNews]** European Union nations join ASAT testing ban
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/rocketlab-flys-recovered-electron-engine-for-first-time" >🔗</a> **[The Launch Pad]** RocketLab Flys Recovered Electron Engine For First Time
-
-
-  - <a href="https://go4liftoff.com/launch/id/7975274c-81c5-48a5-82e1-9b8d982cd533" >🚀</a> **Electron | We Love the Nightlife (Capella Acadia 1)** from Onenui Station, Mahia Peninsula, New Zealand
-
-
-
-- <a href="https://spacenews.com/space-force-to-seek-industry-ideas-for-rapid-deployment-of-satellites/" >🔗</a> **[SpaceNews]** Space Force to seek industry ideas for rapid deployment of satellites
 
 
 
@@ -218,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T191048">2023-08-25 19:10:48 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T201342">2023-08-25 20:13:42 UTC</a>
   <br>
 </div>
