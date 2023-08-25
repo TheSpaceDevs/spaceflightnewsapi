@@ -152,13 +152,25 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/08/rocketlab-flys-recovered-electron-engine-for-first-time" >🔗</a> **[The Launch Pad]** RocketLab Flys Recovered Electron Engine For First Time
 
 
+  - <a href="https://go4liftoff.com/launch/id/7975274c-81c5-48a5-82e1-9b8d982cd533" >🚀</a> **Electron | We Love the Nightlife (Capella Acadia 1)** from Onenui Station, Mahia Peninsula, New Zealand
+
+
+
 - <a href="https://spacenews.com/space-force-to-seek-industry-ideas-for-rapid-deployment-of-satellites/" >🔗</a> **[SpaceNews]** Space Force to seek industry ideas for rapid deployment of satellites
 
 
 - <a href="https://www.cnbc.com/2023/08/24/viasats-inmarsat-i6-f2-satellite-suffers-power-failure.html" >🔗</a> **[CNBC]** Viasat reports second satellite malfunction in a matter of weeks
 
 
+  - <a href="https://go4liftoff.com/launch/id/d6e60f3b-21d0-44f9-be02-fe0c00289b6a" >🚀</a> **Falcon 9 Block 5 | Inmarsat-6 F2** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/north-korea-fails-to-launch-spy-satellite-again" >🔗</a> **[The Launch Pad]** North Korea Fails To Launch Spy Satellite Again
+
+
+  - <a href="https://go4liftoff.com/launch/id/b3950eeb-e69a-465a-8c73-78dd2180028c" >🚀</a> **Chollima-1 | Malligyong-1b** from Sohae Satellite Launching Station,  Cholsan County, North Pyongan Province, Democratic People's Republic of Korea
+
 
 
 - <a href="https://spacenews.com/justice-department-sues-spacex-over-hiring-practices/" >🔗</a> **[SpaceNews]** Justice Department sues SpaceX over hiring practices
@@ -222,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T061733">2023-08-25 06:17:33 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T071224">2023-08-25 07:12:24 UTC</a>
   <br>
 </div>
