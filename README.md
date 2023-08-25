@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/rideshare-industry-adapting-to-a-changing-smallsat-market/" >🔗</a> **[SpaceNews]** Rideshare industry adapting to a changing smallsat market
+
+
+- <a href="https://spacenews.com/big-constellations-no-longer-necessarily-mean-small-satellites/" >🔗</a> **[SpaceNews]** Big constellations no longer necessarily mean small satellites
+
+
+- <a href="https://spacenews.com/defense-innovation-unit-to-sponsor-a-rapid-response-space-mission/" >🔗</a> **[SpaceNews]** Defense Innovation Unit to sponsor a rapid response space mission
+
+
+- <a href="https://spacenews.com/can-space-investment-become-cool-again/" >🔗</a> **[SpaceNews]** Can space investment become cool again?
+
+
 - <a href="https://spacenews.com/european-union-nations-join-asat-testing-ban/" >🔗</a> **[SpaceNews]** European Union nations join ASAT testing ban
 
 
@@ -174,26 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/justice-department-sues-spacex-over-hiring-practices/" >🔗</a> **[SpaceNews]** Justice Department sues SpaceX over hiring practices
-
-
-- <a href="https://www.teslarati.com/spacex-rolls-booster-9-back-launch-pad-more-testing/" >🔗</a> **[Teslarati]** SpaceX rolls Booster 9 back to the Launch Pad for more testing
-
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/08/nasa-gives-crew-7-the-go-for-launch-to-iss-on-friday/" >🔗</a> **[NASASpaceflight]** NASA, SpaceX delay Crew-7 launch to ISS
-
-
-  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacepolicyonline.com/news/rogers-bears-down-on-usspacecom-decision/" >🔗</a> **[SpacePolicyOnline.com]** Rogers Bears Down on USSPACECOM Decision
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-forest-service-to-share-moon-tree-seedlings-promote-stem" >🔗</a> **[NASA]** NASA, Forest Service to Share Moon Tree Seedlings, Promote STEM
 
 
 
@@ -234,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T131611">2023-08-25 13:16:11 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T141212">2023-08-25 14:12:12 UTC</a>
   <br>
 </div>
