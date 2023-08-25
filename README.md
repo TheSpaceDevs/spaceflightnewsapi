@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/08/starships-next-test-flight-might-be-closer-than-you-think/" >🔗</a> **[Arstechnica]** SpaceX completes successful hot fire test of its massive Starship rocket
+
+
 - <a href="https://www.teslarati.com/nasa-spacex-readies-crew-7-for-launch-to-the-international-space-station/" >🔗</a> **[Teslarati]** NASA, SpaceX readies Crew 7 for launch to the International Space Station
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/can-space-investment-become-cool-again/" >🔗</a> **[SpaceNews]** Can space investment become cool again?
-
-
-- <a href="https://spacenews.com/european-union-nations-join-asat-testing-ban/" >🔗</a> **[SpaceNews]** European Union nations join ASAT testing ban
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T201342">2023-08-25 20:13:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T211138">2023-08-25 21:11:38 UTC</a>
   <br>
 </div>
