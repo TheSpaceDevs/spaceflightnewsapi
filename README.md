@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/oneweb-eutelsat-merger-hinges-on-shareholder-vote" >🔗</a> **[The Launch Pad]** OneWeb-Eutelsat Merger Hinges on Shareholder Vote
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/27-european-union-states-pledge-to-avoid-destructive-anti-satellite-tests" >🔗</a> **[The Launch Pad]** 27 European Union States Pledge to Avoid Destructive Anti-Satellite Tests
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/spacex-ignites-33-super-heavy-engines-successfully-for-first-time" >🔗</a> **[The Launch Pad]** SpaceX Ignites 33 Super Heavy Engines Successfully For First Time
+
+
+- <a href="https://www.nasaspaceflight.com/2023/08/final-icps-arrives/" >🔗</a> **[NASASpaceflight]** Final ICPS arrives in Florida for Artemis III SLS launch
+
+
 - <a href="https://spacenews.com/myradar-to-validate-technology-with-noaa-funding/" >🔗</a> **[SpaceNews]** MyRadar to validate technology with NOAA funding
 
 
@@ -170,18 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/event/id/856" >📆</a> **Booster 9 Static Fire #2**
-
-
-- <a href="https://spacenews.com/sedaro-wins-space-force-contract-to-develop-spacecraft-digital-twins/" >🔗</a> **[SpaceNews]** Sedaro wins Space Force contract to develop spacecraft digital twins
-
-
-- <a href="https://europeanspaceflight.com/polaris-spaceplanes-begins-testing-its-mira-light-vehicle/" >🔗</a> **[European Spaceflight]** POLARIS Spaceplanes Begins Testing its MIRA-Light Vehicle
-
-
-- <a href="https://spacenews.com/rideshare-industry-adapting-to-a-changing-smallsat-market/" >🔗</a> **[SpaceNews]** Rideshare industry adapting to a changing smallsat market
-
-
-- <a href="https://spacenews.com/big-constellations-no-longer-necessarily-mean-small-satellites/" >🔗</a> **[SpaceNews]** Big constellations no longer necessarily mean small satellites
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T221231">2023-08-25 22:12:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T231410">2023-08-25 23:14:10 UTC</a>
   <br>
 </div>
