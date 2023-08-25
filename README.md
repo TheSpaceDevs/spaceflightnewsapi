@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/sedaro-wins-space-force-contract-to-develop-spacecraft-digital-twins/" >🔗</a> **[SpaceNews]** Sedaro wins Space Force contract to develop spacecraft digital twins
+
+
 - <a href="https://europeanspaceflight.com/polaris-spaceplanes-begins-testing-its-mira-light-vehicle/" >🔗</a> **[European Spaceflight]** POLARIS Spaceplanes Begins Testing its MIRA-Light Vehicle
 
 
@@ -178,13 +181,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/d6e60f3b-21d0-44f9-be02-fe0c00289b6a" >🚀</a> **Falcon 9 Block 5 | Inmarsat-6 F2** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/north-korea-fails-to-launch-spy-satellite-again" >🔗</a> **[The Launch Pad]** North Korea Fails To Launch Spy Satellite Again
-
-
-  - <a href="https://go4liftoff.com/launch/id/b3950eeb-e69a-465a-8c73-78dd2180028c" >🚀</a> **Chollima-1 | Malligyong-1b** from Sohae Satellite Launching Station,  Cholsan County, North Pyongan Province, Democratic People's Republic of Korea
 
 
 
@@ -226,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T161753">2023-08-25 16:17:53 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T171157">2023-08-25 17:11:57 UTC</a>
   <br>
 </div>
