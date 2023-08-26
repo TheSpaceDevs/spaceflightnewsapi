@@ -146,7 +146,21 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-s-spacex-crew-7-launches-to-international-space-station" >🔗</a> **[NASA]** NASA’s SpaceX Crew-7 Launches to International Space Station
+
+
+- <a href="https://www.cnbc.com/2023/08/26/spacex-launches-crew-7-astronaut-mission-for-nasa.html" >🔗</a> **[CNBC]** SpaceX launches Crew-7 mission, the company’s 11th carrying astronauts
+
+
+  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/second-viasat-suffers-anomaly-in-orbit" >🔗</a> **[The Launch Pad]** 2nd ViaSat Suffers Anomaly In Orbit
+
+
+  - <a href="https://go4liftoff.com/launch/id/d6e60f3b-21d0-44f9-be02-fe0c00289b6a" >🚀</a> **Falcon 9 Block 5 | Inmarsat-6 F2** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/oneweb-eutelsat-merger-hinges-on-shareholder-vote" >🔗</a> **[The Launch Pad]** OneWeb-Eutelsat Merger Hinges on Shareholder Vote
@@ -158,7 +172,19 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/08/spacex-ignites-33-super-heavy-engines-successfully-for-first-time" >🔗</a> **[The Launch Pad]** SpaceX Ignites 33 Super Heavy Engines Successfully For First Time
 
 
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/856" >📆</a> **Booster 9 Static Fire #2**
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/final-icps-arrives/" >🔗</a> **[NASASpaceflight]** Final ICPS arrives in Florida for Artemis III SLS launch
+
+
+  - <a href="https://go4liftoff.com/launch/id/8034d81b-af96-460c-a7b7-5c8e7f1a1d86" >🚀</a> **SLS Block 1 | Artemis III** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacenews.com/myradar-to-validate-technology-with-noaa-funding/" >🔗</a> **[SpaceNews]** MyRadar to validate technology with NOAA funding
@@ -167,13 +193,23 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/spacex-test-fires-booster-for-second-starship-launch/" >🔗</a> **[SpaceNews]** SpaceX test-fires booster for second Starship launch
 
 
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/856" >📆</a> **Booster 9 Static Fire #2**
+
+
 - <a href="https://arstechnica.com/space/2023/08/starships-next-test-flight-might-be-closer-than-you-think/" >🔗</a> **[Arstechnica]** SpaceX completes successful hot fire test of its massive Starship rocket
 
 
-- <a href="https://www.teslarati.com/nasa-spacex-readies-crew-7-for-launch-to-the-international-space-station/" >🔗</a> **[Teslarati]** NASA, SpaceX readies Crew 7 for launch to the International Space Station
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
 
 
-- <a href="https://spacenews.com/viasat-reports-problem-with-new-inmarsat-satellite/" >🔗</a> **[SpaceNews]** Viasat reports problem with new Inmarsat satellite
+
+
+  - <a href="https://go4liftoff.com/event/id/856" >📆</a> **Booster 9 Static Fire #2**
 
 
 
@@ -214,6 +250,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230826T071113">2023-08-26 07:11:13 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230826T081514">2023-08-26 08:15:14 UTC</a>
   <br>
 </div>
