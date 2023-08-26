@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/second-viasat-suffers-anomaly-in-orbit" >🔗</a> **[The Launch Pad]** 2nd ViaSat Suffers Anomaly In Orbit
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/oneweb-eutelsat-merger-hinges-on-shareholder-vote" >🔗</a> **[The Launch Pad]** OneWeb-Eutelsat Merger Hinges on Shareholder Vote
 
 
@@ -171,17 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/viasat-reports-problem-with-new-inmarsat-satellite/" >🔗</a> **[SpaceNews]** Viasat reports problem with new Inmarsat satellite
-
-
-- <a href="https://www.teslarati.com/spacex-s-booster-9-performs-2nd-static-fire/" >🔗</a> **[Teslarati]** SpaceX’s Booster 9 performs 2nd static fire
-
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/856" >📆</a> **Booster 9 Static Fire #2**
 
 
 
@@ -222,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230825T231410">2023-08-25 23:14:10 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230826T005819">2023-08-26 00:58:19 UTC</a>
   <br>
 </div>
