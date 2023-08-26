@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/crew-7-launches-to-the-space-station/" >🔗</a> **[SpaceNews]** Crew-7 launches to the space station
 
 
+  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://spacepolicyonline.com/news/international-crew-on-its-way-to-iss/" >🔗</a> **[SpacePolicyOnline.com]** International Crew On Its Way to ISS
 
 
@@ -242,6 +246,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230826T111023">2023-08-26 11:10:23 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230826T122338">2023-08-26 12:23:38 UTC</a>
   <br>
 </div>
