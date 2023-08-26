@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/australian-space-imagery-startup-heo-raises-8-million" >🔗</a> **[The Launch Pad]** Australian Space Imagery Startup HEO Raises $8 Million
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/sedaro-secures-us-space-force-contract-to-develop-digital-spacecraft-twins" >🔗</a> **[The Launch Pad]** Sedaro Secures US Space Force Contract To Develop Digital Spacecraft Twins
 
 
@@ -201,13 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/856" >📆</a> **Booster 9 Static Fire #2**
 
 
-- <a href="https://www.nasaspaceflight.com/2023/08/final-icps-arrives/" >🔗</a> **[NASASpaceflight]** Final ICPS arrives in Florida for Artemis III SLS launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/8034d81b-af96-460c-a7b7-5c8e7f1a1d86" >🚀</a> **SLS Block 1 | Artemis III** from Kennedy Space Center, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -246,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230826T171041">2023-08-26 17:10:41 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230826T181527">2023-08-26 18:15:27 UTC</a>
   <br>
 </div>
