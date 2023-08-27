@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-august-27-september-2-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy August 27-September 2, 2023
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/space-rider-update/" >🔗</a> **[NASASpaceflight]** ESA’s Space Rider likely to launch third quarter of 2025, program manager says
 
 
@@ -197,9 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/08/oneweb-eutelsat-merger-hinges-on-shareholder-vote" >🔗</a> **[The Launch Pad]** OneWeb-Eutelsat Merger Hinges on Shareholder Vote
 
 
-- <a href="https://tlpnetwork.com/news/2023/08/27-european-union-states-pledge-to-avoid-destructive-anti-satellite-tests" >🔗</a> **[The Launch Pad]** 27 European Union States Pledge to Avoid Destructive Anti-Satellite Tests
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230827T122352">2023-08-27 12:23:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230827T131416">2023-08-27 13:14:16 UTC</a>
   <br>
 </div>
