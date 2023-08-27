@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/08/space-rider-update/" >🔗</a> **[NASASpaceflight]** ESA’s Space Rider likely to launch third quarter of 2025, program manager says
 
 
+  - <a href="https://go4liftoff.com/launch/id/d74f2e7b-a8b7-4d8f-8ecd-193e73937664" >🚀</a> **Vega-C | Space Rider** from Kourou, French Guiana
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/australian-space-imagery-startup-heo-raises-8-million" >🔗</a> **[The Launch Pad]** Australian Space Imagery Startup HEO Raises $8 Million
 
 
@@ -234,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230827T071128">2023-08-27 07:11:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230827T081529">2023-08-27 08:15:29 UTC</a>
   <br>
 </div>
