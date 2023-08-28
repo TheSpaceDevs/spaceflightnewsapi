@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/hera-systems-and-leostella-team-up-to-compete-for-military-satellite-orders/" >🔗</a> **[SpaceNews]** Hera Systems and LeoStella team up to compete for military satellite orders
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/xrism-slim/" >🔗</a> **[NASASpaceflight]** Japanese H-IIA scrubs launch of X-ray telescope and lunar lander
 
 
@@ -205,13 +208,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-s-spacex-crew-7-launches-to-international-space-station" >🔗</a> **[NASA]** NASA’s SpaceX Crew-7 Launches to International Space Station
-
-
-  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -250,6 +246,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230828T101531">2023-08-28 10:15:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230828T111115">2023-08-28 11:11:15 UTC</a>
   <br>
 </div>
