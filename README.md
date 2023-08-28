@@ -146,7 +146,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://www.nasaspaceflight.com/2023/08/xrism-slim/" >🔗</a> **[NASASpaceflight]** Japanese H-IIA set to launch X-ray telescope and lunar lander
+- <a href="https://www.nasaspaceflight.com/2023/08/xrism-slim/" >🔗</a> **[NASASpaceflight]** Japanese H-IIA scrubs launch of X-ray telescope and lunar lander
 
 
 - <a href="https://spacepolicyonline.com/news/crew-7-makes-it-11/" >🔗</a> **[SpacePolicyOnline.com]** Crew-7 Makes it 11
@@ -196,6 +196,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 ## Latest Blog Posts 🪧
 
+- <a href="https://blog.ulalaunch.com/blog/rocketstars-a-life-that-spans-the-atlas-v-program" >🔗</a> **[United Launch Alliance]** RocketStars: A life that spans the Atlas V program
+
+
 - <a href="https://www.planetary.org/the-downlink/moonstruck" >🔗</a> **[Planetary Society]** Moonstruck
 
 
@@ -223,13 +226,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://blog.ulalaunch.com/blog/silentbarker/nrol-107-countdown-rehearsal-tests-atlas-v" >🔗</a> **[United Launch Alliance]** SILENTBARKER/NROL-107: Countdown rehearsal tests Atlas V rocket
 
 
-- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-august-7-13-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: August 7-13, 2023
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230827T231242">2023-08-27 23:12:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230828T010121">2023-08-28 01:01:21 UTC</a>
   <br>
 </div>
