@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/united-launch-alliance-readies-first-atlas-v-launch-2023/" >🔗</a> **[Teslarati]** United Launch Alliance readies for first Atlas V launch of the year
+
+
+- <a href="https://spacenews.com/space-development-agencys-data-transport-satellites-get-more-complex/" >🔗</a> **[SpaceNews]** Space Development Agency’s data-transport satellites get more complex
+
+
 - <a href="https://europeanspaceflight.com/saxavord-does-not-need-spaceport-licence-to-launch-hyimpulse-mission/" >🔗</a> **[European Spaceflight]** SaxaVord Does Not Need Spaceport Licence to Launch HyImpulse Mission
 
 
@@ -172,16 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/benchmark-wins-afrl-award-to-develop-thrusters-for-ascent/" >🔗</a> **[SpaceNews]** Benchmark wins AFRL award to develop thrusters for ASCENT
-
-
-- <a href="https://spacenews.com/op-ed-welcome-to-the-third-space-age/" >🔗</a> **[SpaceNews]** Op-ed | Welcome to the Third Space Age
-
-
-- <a href="https://www.nasaspaceflight.com/2023/08/ula-nrol-107/" >🔗</a> **[NASASpaceflight]** ULA delays NROL-107 launch, last Atlas NRO mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/e9a5015d-aa12-4f65-9888-1248ff67ba6e" >🚀</a> **Atlas V 551 | NROL-107 (Silent Barker)** from Cape Canaveral, FL, USA
-
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230829T201435">2023-08-29 20:14:35 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230829T211156">2023-08-29 21:11:56 UTC</a>
   <br>
 </div>
