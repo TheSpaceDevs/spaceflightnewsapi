@@ -149,7 +149,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/08/ula-nrol-107/" >🔗</a> **[NASASpaceflight]** ULA delays NROL-107 launch, last Atlas NRO mission
 
 
+  - <a href="https://go4liftoff.com/launch/id/e9a5015d-aa12-4f65-9888-1248ff67ba6e" >🚀</a> **Atlas V 551 | NROL-107 (Silent Barker)** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacepolicyonline.com/news/silentbarker-to-be-u-s-watchdog-in-geosynchronous-orbit/" >🔗</a> **[SpacePolicyOnline.com]** SILENTBARKER To Be U.S. “Watchdog” in Geosynchronous Orbit
+
+
+  - <a href="https://go4liftoff.com/launch/id/e9a5015d-aa12-4f65-9888-1248ff67ba6e" >🚀</a> **Atlas V 551 | NROL-107 (Silent Barker)** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://spacenews.com/nasa-confirms-multi-year-delay-in-next-new-frontiers-competition/" >🔗</a> **[SpaceNews]** NASA confirms multi-year delay in next New Frontiers competition
@@ -161,7 +169,19 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/spacex-launches-22-starlink-satellites-brings-total-launched-over-5000/" >🔗</a> **[Teslarati]** SpaceX launches 22 Starlink satellites, brings total launched over 5,000
 
 
+  - <a href="https://go4liftoff.com/launch/id/87fba73c-f085-4abf-830d-fae92c599977" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-11** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://www.teslarati.com/crew-7-arrives-to-the-international-space-station-after-successful-launch/" >🔗</a> **[Teslarati]** Crew 7 arrives to the International Space Station after successful launch
+
+
+  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/768" >📆</a> **SpaceX Crew-7 Crew Dragon Docking**
 
 
 - <a href="https://www.nasaspaceflight.com/2023/08/xrism-slim/" >🔗</a> **[NASASpaceflight]** Japanese H-IIA scrubs launch of X-ray telescope and lunar lander
@@ -234,6 +254,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230829T061758">2023-08-29 06:17:58 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230829T071247">2023-08-29 07:12:47 UTC</a>
   <br>
 </div>
