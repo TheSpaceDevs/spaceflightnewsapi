@@ -158,6 +158,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/hera-systems-and-leostella-team-up-to-compete-for-military-satellite-orders/" >🔗</a> **[SpaceNews]** Hera Systems and LeoStella team up to compete for military satellite orders
 
 
+- <a href="https://www.teslarati.com/spacex-launches-22-starlink-satellites-brings-total-launched-over-5000/" >🔗</a> **[Teslarati]** SpaceX launches 22 Starlink satellites, brings total launched over 5,000
+
+
 - <a href="https://www.teslarati.com/crew-7-arrives-to-the-international-space-station-after-successful-launch/" >🔗</a> **[Teslarati]** Crew 7 arrives to the International Space Station after successful launch
 
 
@@ -191,13 +194,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-august-27-september-2-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy August 27-September 2, 2023
-
-
-- <a href="https://www.nasaspaceflight.com/2023/08/space-rider-update/" >🔗</a> **[NASASpaceflight]** ESA’s Space Rider likely to launch third quarter of 2025, program manager says
-
-
-  - <a href="https://go4liftoff.com/launch/id/d74f2e7b-a8b7-4d8f-8ecd-193e73937664" >🚀</a> **Vega-C | Space Rider** from Kourou, French Guiana
-
 
 
 
@@ -238,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230829T010107">2023-08-29 01:01:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230829T024904">2023-08-29 02:49:04 UTC</a>
   <br>
 </div>
