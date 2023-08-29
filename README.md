@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/benchmark-wins-afrl-award-to-develop-thrusters-for-ascent/" >🔗</a> **[SpaceNews]** Benchmark wins AFRL award to develop thrusters for ASCENT
+
+
 - <a href="https://spacenews.com/op-ed-welcome-to-the-third-space-age/" >🔗</a> **[SpaceNews]** Op-ed | Welcome to the Third Space Age
 
 
@@ -205,17 +208,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/768" >📆</a> **SpaceX Crew-7 Crew Dragon Docking**
 
 
-- <a href="https://spacenews.com/crew-7-docks-with-space-station/" >🔗</a> **[SpaceNews]** Crew-7 docks with space station
-
-
-  - <a href="https://go4liftoff.com/launch/id/1caacff9-837e-493b-afd4-4da54eeccdf2" >🚀</a> **Falcon 9 Block 5 | Crew-7** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/768" >📆</a> **SpaceX Crew-7 Crew Dragon Docking**
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -254,6 +246,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230829T101447">2023-08-29 10:14:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230829T111110">2023-08-29 11:11:10 UTC</a>
   <br>
 </div>
