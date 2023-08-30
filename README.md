@@ -155,6 +155,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/united-launch-alliance-readies-first-atlas-v-launch-2023/" >🔗</a> **[Teslarati]** United Launch Alliance readies for first Atlas V launch of the year
 
 
+  - <a href="https://go4liftoff.com/launch/id/e9a5015d-aa12-4f65-9888-1248ff67ba6e" >🚀</a> **Atlas V 551 | NROL-107 (Silent Barker)** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/space-development-agencys-data-transport-satellites-get-more-complex/" >🔗</a> **[SpaceNews]** Space Development Agency’s data-transport satellites get more complex
 
 
@@ -214,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230830T101424">2023-08-30 10:14:24 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230830T111117">2023-08-30 11:11:17 UTC</a>
   <br>
 </div>
