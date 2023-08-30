@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nasa-deep-space-network-reaches-critical-point-as-demand-grows/" >🔗</a> **[SpaceNews]** NASA Deep Space Network reaches “critical point” as demand grows
+
+
+- <a href="https://spacenews.com/saic-wins-574-million-contract-to-maintain-space-force-radar-sites/" >🔗</a> **[SpaceNews]** SAIC wins $574 million contract to maintain Space Force radar sites
+
+
 - <a href="https://www.teslarati.com/united-launch-alliance-readies-first-atlas-v-launch-2023/" >🔗</a> **[Teslarati]** United Launch Alliance readies for first Atlas V launch of the year
 
 
@@ -168,16 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/transastra-claims-nasa-contract-for-debris-capture-bag/" >🔗</a> **[SpaceNews]** TransAstra claims NASA contract for debris capture bag
-
-
-- <a href="https://arstechnica.com/space/2023/08/virgin-galactics-president-explains-how-vss-unity-is-now-flying-frequently/" >🔗</a> **[Arstechnica]** Virgin Galactic’s president explains how VSS Unity is now flying frequently
-
-
-  - <a href="https://go4liftoff.com/launch/id/3a26da85-1135-4784-b55a-6c5185e0aab6" >🚀</a> **SpaceShipTwo | Galactic 03** from Air launch to Suborbital flight
-
-
-
-- <a href="https://spacenews.com/benchmark-wins-afrl-award-to-develop-thrusters-for-ascent/" >🔗</a> **[SpaceNews]** Benchmark wins AFRL award to develop thrusters for ASCENT
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230829T231202">2023-08-29 23:12:02 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230830T010050">2023-08-30 01:00:50 UTC</a>
   <br>
 </div>
