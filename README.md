@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/esa-postpones-ariane-6-hot-fire-test-again/" >🔗</a> **[SpaceNews]** ESA postpones Ariane 6 hot-fire test again
+
+
 - <a href="https://spacenews.com/nasa-deep-space-network-reaches-critical-point-as-demand-grows/" >🔗</a> **[SpaceNews]** NASA Deep Space Network reaches “critical point” as demand grows
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/spideroak-demonstrates-zero-trust-software-on-iss/" >🔗</a> **[SpaceNews]** SpiderOak demonstrates zero-trust software on ISS
-
-
-- <a href="https://spacenews.com/transastra-claims-nasa-contract-for-debris-capture-bag/" >🔗</a> **[SpaceNews]** TransAstra claims NASA contract for debris capture bag
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230830T111117">2023-08-30 11:11:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230830T122703">2023-08-30 12:27:03 UTC</a>
   <br>
 </div>
