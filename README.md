@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-awards-contracts-for-noaa-sounder-for-microwave-based-applications-study" >🔗</a> **[NASA]** NASA Awards Contracts for NOAA Sounder for Microwave-Based Applications Study
+
+
+- <a href="https://spacenews.com/firefly-ready-for-call-up-to-launch-military-responsive-space-mission/" >🔗</a> **[SpaceNews]** Firefly ready for call-up to launch military ‘responsive space’ mission
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/transastra-secures-nasa-contract-partners-with-thinkorbital-on-debris-capture-bag-system" >🔗</a> **[The Launch Pad]** TransAstra Secures NASA Contract, Partners With ThinkOrbital On Debris Capture Bag System
+
+
+- <a href="https://tlpnetwork.com/news/2023/08/ariane-6-hot-fire-test-postponed-again-due-to-technical-issues" >🔗</a> **[The Launch Pad]** Ariane 6 Hot Fire Test Postponed Again Due To Technical Issues
+
+
 - <a href="https://arstechnica.com/space/2023/08/spacexs-vp-of-launch-shares-the-companys-special-algorithm-for-innovation/" >🔗</a> **[Arstechnica]** Why did SpaceX give up on “catching” falling fairings? Its VP of launch explains
 
 
@@ -166,18 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/e9a5015d-aa12-4f65-9888-1248ff67ba6e" >🚀</a> **Atlas V 551 | NROL-107 (Silent Barker)** from Cape Canaveral, FL, USA
 
-
-
-- <a href="https://spacenews.com/space-development-agencys-data-transport-satellites-get-more-complex/" >🔗</a> **[SpaceNews]** Space Development Agency’s data-transport satellites get more complex
-
-
-- <a href="https://europeanspaceflight.com/saxavord-does-not-need-spaceport-licence-to-launch-hyimpulse-mission/" >🔗</a> **[European Spaceflight]** SaxaVord Does Not Need Spaceport Licence to Launch HyImpulse Mission
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-invita-a-hispanohablantes-a-enviar-sus-nombres-en-europa-clipper" >🔗</a> **[NASA]** NASA invita a hispanohablantes a enviar sus nombres en Europa Clipper
-
-
-- <a href="https://spacenews.com/japanese-space-robotics-company-gitai-raises-15-million/" >🔗</a> **[SpaceNews]** Japanese space robotics company GITAI raises $15 million
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230830T191202">2023-08-30 19:12:02 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230830T201441">2023-08-30 20:14:41 UTC</a>
   <br>
 </div>
