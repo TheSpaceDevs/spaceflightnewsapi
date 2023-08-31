@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/08/space-engine-systems-tour-and-interview-with-pradeep-dass" >🔗</a> **[The Launch Pad]** The Future Of Hypersonic Flight | TLP Exclusive Tour & Interview
+
+
+- <a href="https://spacenews.com/qinetiq-wins-224-million-contract-to-provide-technical-services-to-space-development-agency/" >🔗</a> **[SpaceNews]** QinetiQ wins $224 million contract to provide technical services to Space Development Agency
+
+
+- <a href="https://europeanspaceflight.com/eu-member-states-commit-to-not-test-direct-ascent-asat-systems/" >🔗</a> **[European Spaceflight]** EU Member States Commit to Not Test Direct-Ascent ASAT Systems
+
+
 - <a href="https://spacenews.com/satixfy-sells-satellite-payload-subsidiary-to-mda/" >🔗</a> **[SpaceNews]** SatixFy sells satellite payload subsidiary to MDA
 
 
@@ -191,25 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-completes-last-osiris-rex-test-before-asteroid-sample-delivery" >🔗</a> **[NASA]** NASA Completes Last OSIRIS-REx Test Before Asteroid Sample Delivery
-
-
-  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/133" >📆</a> **OSIRIS-Rex Matchpoint rehearsal activities**
-
-  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
-
-
-- <a href="https://tlpnetwork.com/news/2023/08/nasa-deep-space-network-critically-overworked-and-underfunded" >🔗</a> **[The Launch Pad]** NASA Deep Space Network Critically Overworked & Underfunded
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-awards-contracts-for-noaa-sounder-for-microwave-based-applications-study" >🔗</a> **[NASA]** NASA Awards Contracts for NOAA Sounder for Microwave-Based Applications Study
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -248,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230831T131700">2023-08-31 13:17:00 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230831T141301">2023-08-31 14:13:01 UTC</a>
   <br>
 </div>
