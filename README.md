@@ -146,10 +146,36 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/08/tranche-0-flight-2/" >🔗</a> **[NASASpaceflight]** SpaceX to conduct second launch for Space Development Agency’s Tranche 0 and Starlink mission
+
+
+  - <a href="https://go4liftoff.com/launch/id/9248a1d0-393f-469a-b9c6-19470247e6fd" >🚀</a> **Falcon 9 Block 5 | SDA Tranche 0B** from Vandenberg SFB, CA, USA
+
+
+
+- <a href="https://spacenews.com/nasa-gears-up-for-return-of-osiris-rex-asteroid-sample/" >🔗</a> **[SpaceNews]** NASA gears up for return of OSIRIS-REx asteroid sample
+
+
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
+
+
 - <a href="https://spacenews.com/chinese-study-finds-gssap-close-approaches-a-threat-to-its-geo-assets/" >🔗</a> **[SpaceNews]** Chinese study finds GSSAP close approaches a threat to its GEO assets
 
 
 - <a href="https://spacepolicyonline.com/news/asteroid-autumn-begins-next-month-with-osiris-rex-asteroid-sample-return/" >🔗</a> **[SpacePolicyOnline.com]** “Asteroid Autumn” Begins Next Month With OSIRIS-REx Asteroid Sample Return
+
+
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
 - <a href="https://spacenews.com/spiral-blue-offers-to-run-your-code-in-space/" >🔗</a> **[SpaceNews]** Spiral Blue offers to run Your Code in Space
@@ -158,7 +184,21 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/08/firefly-officially-on-call-for-us-space-force-responsive-space-launch-demo" >🔗</a> **[The Launch Pad]** Firefly Officially "On Call" For US Space Force Responsive Space Launch Demo
 
 
+  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
+
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-completes-last-osiris-rex-test-before-asteroid-sample-delivery" >🔗</a> **[NASA]** NASA Completes Last OSIRIS-REx Test Before Asteroid Sample Delivery
+
+
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/133" >📆</a> **OSIRIS-Rex Matchpoint rehearsal activities**
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/nasa-deep-space-network-critically-overworked-and-underfunded" >🔗</a> **[The Launch Pad]** NASA Deep Space Network Critically Overworked & Underfunded
@@ -170,10 +210,8 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/firefly-ready-for-call-up-to-launch-military-responsive-space-mission/" >🔗</a> **[SpaceNews]** Firefly ready for call-up to launch military ‘responsive space’ mission
 
 
-- <a href="https://tlpnetwork.com/news/2023/08/transastra-secures-nasa-contract-partners-with-thinkorbital-on-debris-capture-bag-system" >🔗</a> **[The Launch Pad]** TransAstra Secures NASA Contract, Partners With ThinkOrbital On Debris Capture Bag System
+  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
 
-
-- <a href="https://tlpnetwork.com/news/2023/08/ariane-6-hot-fire-test-postponed-again-due-to-technical-issues" >🔗</a> **[The Launch Pad]** Ariane 6 Hot Fire Test Postponed Again Due To Technical Issues
 
 
 
@@ -214,6 +252,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230831T111117">2023-08-31 11:11:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230831T122715">2023-08-31 12:27:15 UTC</a>
   <br>
 </div>
