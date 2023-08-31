@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/satixfy-sells-satellite-payload-subsidiary-to-mda/" >🔗</a> **[SpaceNews]** SatixFy sells satellite payload subsidiary to MDA
+
+
 - <a href="https://www.nasaspaceflight.com/2023/08/tranche-0-flight-2/" >🔗</a> **[NASASpaceflight]** SpaceX to conduct second launch for Space Development Agency’s Tranche 0 and Starlink mission
 
 
@@ -207,13 +210,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-awards-contracts-for-noaa-sounder-for-microwave-based-applications-study" >🔗</a> **[NASA]** NASA Awards Contracts for NOAA Sounder for Microwave-Based Applications Study
 
 
-- <a href="https://spacenews.com/firefly-ready-for-call-up-to-launch-military-responsive-space-mission/" >🔗</a> **[SpaceNews]** Firefly ready for call-up to launch military ‘responsive space’ mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -252,6 +248,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230831T122715">2023-08-31 12:27:15 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230831T131700">2023-08-31 13:17:00 UTC</a>
   <br>
 </div>
