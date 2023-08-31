@@ -158,7 +158,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/satixfy-sells-satellite-payload-subsidiary-to-mda/" >🔗</a> **[SpaceNews]** SatixFy sells satellite payload subsidiary to MDA
 
 
-- <a href="https://www.nasaspaceflight.com/2023/08/tranche-0-flight-2/" >🔗</a> **[NASASpaceflight]** SpaceX to conduct second launch for Space Development Agency’s Tranche 0 and Starlink mission
+- <a href="https://www.nasaspaceflight.com/2023/08/tranche-0-flight-2/" >🔗</a> **[NASASpaceflight]** SpaceX scrubs second launch for Space Development Agency’s Tranche 0, but still on for Starlink mission
 
 
   - <a href="https://go4liftoff.com/launch/id/9248a1d0-393f-469a-b9c6-19470247e6fd" >🚀</a> **Falcon 9 Block 5 | SDA Tranche 0B** from Vandenberg SFB, CA, USA
@@ -238,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230831T141301">2023-08-31 14:13:01 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230831T151411">2023-08-31 15:14:11 UTC</a>
   <br>
 </div>
