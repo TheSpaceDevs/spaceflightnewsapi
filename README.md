@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/spiral-blue-offers-to-run-your-code-in-space/" >🔗</a> **[SpaceNews]** Spiral Blue offers to run Your Code in Space
+
+
 - <a href="https://tlpnetwork.com/news/2023/08/firefly-officially-on-call-for-us-space-force-responsive-space-launch-demo" >🔗</a> **[The Launch Pad]** Firefly Officially "On Call" For US Space Force Responsive Space Launch Demo
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/a-short-ariane-6-hot-fire-test-has-been-postponed/" >🔗</a> **[European Spaceflight]** A Short Ariane 6 Hot Fire Test Has Been Postponed
-
-
-- <a href="https://spacenews.com/esa-postpones-ariane-6-hot-fire-test-again/" >🔗</a> **[SpaceNews]** ESA postpones Ariane 6 hot-fire test again
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230830T231326">2023-08-30 23:13:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230831T010103">2023-08-31 01:01:03 UTC</a>
   <br>
 </div>
