@@ -146,7 +146,14 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/ball-northrop-grumman-orbital-micro-systems-and-spire-claim-noaa-contracts/" >🔗</a> **[SpaceNews]** Ball, Northrop Grumman, Orbital Micro Systems and Spire claim NOAA contracts
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-to-discuss-psyche-asteroid-mission-optical-communications-demo" >🔗</a> **[NASA]** NASA to Discuss Psyche Asteroid Mission, Optical Communications Demo
+
+
+  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacepolicyonline.com/news/sbag-wants-reconnaissance-mission-to-apophis-before-it-reaches-earth/" >🔗</a> **[SpacePolicyOnline.com]** SBAG Wants Reconnaissance Mission to Apophis Before It Reaches Earth
@@ -171,13 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/intuitive-machines-raises-20-million/" >🔗</a> **[SpaceNews]** Intuitive Machines raises $20 million
-
-
-- <a href="https://arstechnica.com/space/2023/09/rocket-report-firefly-enters-hot-standby-phase-spacexs-superfluity-of-fairings/" >🔗</a> **[Arstechnica]** Rocket Report: Firefly enters “hot standby phase”; SpaceX’s superfluity of fairings
-
-
-  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
-
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230901T171226">2023-09-01 17:12:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230901T181527">2023-09-01 18:15:27 UTC</a>
   <br>
 </div>
