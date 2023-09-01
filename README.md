@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-psyche-asteroid-mission-optical-communications-demo" >🔗</a> **[NASA]** NASA to Discuss Psyche Asteroid Mission, Optical Communications Demo
+
+
+- <a href="https://spacepolicyonline.com/news/sbag-wants-reconnaissance-mission-to-apophis-before-it-reaches-earth/" >🔗</a> **[SpacePolicyOnline.com]** SBAG Wants Reconnaissance Mission to Apophis Before It Reaches Earth
+
+
+- <a href="https://spacenews.com/space-tango-names-new-ceo/" >🔗</a> **[SpaceNews]** Space Tango names new CEO
+
+
+- <a href="https://www.cnbc.com/2023/09/01/bezos-snubbed-musk-spacex-satellite-contract-lawsuit.html" >🔗</a> **[CNBC]** Bezos snubbed Musk’s SpaceX over blockbuster satellite launch contract, Amazon shareholder says
+
+
 - <a href="https://arstechnica.com/space/2023/09/pension-fund-sues-jeff-bezos-and-amazon-for-not-using-falcon-9-rockets/" >🔗</a> **[Arstechnica]** Pension fund sues Jeff Bezos and Amazon for not using Falcon 9 rockets
 
 
@@ -162,26 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://arstechnica.com/space/2023/09/rocket-report-firefly-enters-hot-standby-phase-spacexs-superfluity-of-fairings/" >🔗</a> **[Arstechnica]** Rocket Report: Firefly enters “hot standby phase”; SpaceX’s superfluity of fairings
-
-
-  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
-
-
-
-- <a href="https://spacenews.com/tiangong-space-station-could-alter-perceptions-of-chinas-space-program-report-says/" >🔗</a> **[SpaceNews]** Tiangong space station could alter perceptions of China’s space program, report says
-
-
-- <a href="https://spacenews.com/lawsuit-claims-amazons-board-erred-in-awarding-kuiper-launch-contracts-to-blue-origin-and-others/" >🔗</a> **[SpaceNews]** Lawsuit claims Amazon’s board erred in awarding Kuiper launch contracts to Blue Origin and others
-
-
-- <a href="https://www.teslarati.com/spacex-9th-launch-august-2023/" >🔗</a> **[Teslarati]** SpaceX set for 9th launch of the month
-
-
-  - <a href="https://go4liftoff.com/launch/id/83dccf61-8e2a-4492-8784-d67252e0ff53" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-13** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://www.teslarati.com/firefly-aerospace-victus-nox-mission/" >🔗</a> **[Teslarati]** Firefly Aerospace announces they are ready for the Victus Nox mission
 
 
   - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
@@ -226,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230901T161807">2023-09-01 16:18:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230901T171226">2023-09-01 17:12:26 UTC</a>
   <br>
 </div>
