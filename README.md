@@ -146,10 +146,17 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/globalstar-picks-spacex-to-refresh-leo-constellation/" >🔗</a> **[SpaceNews]** Globalstar picks SpaceX to refresh LEO constellation
+
+
 - <a href="https://spacenews.com/intuitive-machines-raises-20-million/" >🔗</a> **[SpaceNews]** Intuitive Machines raises $20 million
 
 
 - <a href="https://arstechnica.com/space/2023/09/rocket-report-firefly-enters-hot-standby-phase-spacexs-superfluity-of-fairings/" >🔗</a> **[Arstechnica]** Rocket Report: Firefly enters “hot standby phase”; SpaceX’s superfluity of fairings
+
+
+  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
+
 
 
 - <a href="https://spacenews.com/tiangong-space-station-could-alter-perceptions-of-chinas-space-program-report-says/" >🔗</a> **[SpaceNews]** Tiangong space station could alter perceptions of China’s space program, report says
@@ -183,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/space-engine-systems-tour-and-interview-with-pradeep-dass" >🔗</a> **[The Launch Pad]** The Future Of Hypersonic Flight | TLP Exclusive Tour & Interview
-
-
-- <a href="https://spacenews.com/qinetiq-wins-224-million-contract-to-provide-technical-services-to-space-development-agency/" >🔗</a> **[SpaceNews]** QinetiQ wins $224 million contract to provide technical services to Space Development Agency
 
 
 
@@ -226,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230901T122634">2023-09-01 12:26:34 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230901T131639">2023-09-01 13:16:39 UTC</a>
   <br>
 </div>
