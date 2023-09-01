@@ -152,13 +152,25 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.teslarati.com/spacex-9th-launch-august-2023/" >🔗</a> **[Teslarati]** SpaceX set for 9th launch of the month
 
 
+  - <a href="https://go4liftoff.com/launch/id/83dccf61-8e2a-4492-8784-d67252e0ff53" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-13** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://www.teslarati.com/firefly-aerospace-victus-nox-mission/" >🔗</a> **[Teslarati]** Firefly Aerospace announces they are ready for the Victus Nox mission
+
+
+  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
+
 
 
 - <a href="https://www.cnbc.com/2023/08/31/investing-in-space-why-the-pentagon-is-spending-billions-on-a-satellite-constellation.html" >🔗</a> **[CNBC]** Investing in Space: Why the Pentagon is spending billions to build its own satellite constellation
 
 
 - <a href="https://www.nasaspaceflight.com/2023/08/ship-25-awaits-rollout-for-full-stack-of-starship-flight-2/" >🔗</a> **[NASASpaceflight]** Ship 25 awaits rollout for full-stack of Starship Flight 2
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/08/space-engine-systems-tour-and-interview-with-pradeep-dass" >🔗</a> **[The Launch Pad]** The Future Of Hypersonic Flight | TLP Exclusive Tour & Interview
@@ -218,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230901T071241">2023-09-01 07:12:41 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230901T081729">2023-09-01 08:17:29 UTC</a>
   <br>
 </div>
