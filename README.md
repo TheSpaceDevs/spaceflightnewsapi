@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/intuitive-machines-raises-20-million/" >🔗</a> **[SpaceNews]** Intuitive Machines raises $20 million
+
+
 - <a href="https://arstechnica.com/space/2023/09/rocket-report-firefly-enters-hot-standby-phase-spacexs-superfluity-of-fairings/" >🔗</a> **[Arstechnica]** Rocket Report: Firefly enters “hot standby phase”; SpaceX’s superfluity of fairings
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/qinetiq-wins-224-million-contract-to-provide-technical-services-to-space-development-agency/" >🔗</a> **[SpaceNews]** QinetiQ wins $224 million contract to provide technical services to Space Development Agency
-
-
-- <a href="https://europeanspaceflight.com/eu-member-states-commit-to-not-test-direct-ascent-asat-systems/" >🔗</a> **[European Spaceflight]** EU Member States Commit to Not Test Direct-Ascent ASAT Systems
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230901T111128">2023-09-01 11:11:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230901T122634">2023-09-01 12:26:34 UTC</a>
   <br>
 </div>
