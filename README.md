@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/nasas-lro-spots-likely-luna-25-crash-site/" >🔗</a> **[SpacePolicyOnline.com]** NASA’s LRO Spots Likely Luna-25 Crash Site
+
+
+- <a href="https://www.nasaspaceflight.com/2023/09/osiris-rex-tests/" >🔗</a> **[NASASpaceflight]** OSIRIS-REx teams conduct final rehearsals before sample capsule return in September
+
+
 - <a href="https://spacenews.com/ball-northrop-grumman-orbital-micro-systems-and-spire-claim-noaa-contracts/" >🔗</a> **[SpaceNews]** Ball, Northrop Grumman, Orbital Micro Systems and Spire claim NOAA contracts
 
 
@@ -172,12 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/georgia-texas-students-to-hear-from-nasa-astronauts-aboard-station" >🔗</a> **[NASA]** Georgia, Texas Students to Hear from NASA Astronauts Aboard Station
-
-
-- <a href="https://spacenews.com/globalstar-picks-spacex-to-refresh-leo-constellation/" >🔗</a> **[SpaceNews]** Globalstar picks SpaceX to refresh LEO constellation
-
-
-- <a href="https://spacenews.com/intuitive-machines-raises-20-million/" >🔗</a> **[SpaceNews]** Intuitive Machines raises $20 million
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230901T201354">2023-09-01 20:13:54 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230901T211146">2023-09-01 21:11:46 UTC</a>
   <br>
 </div>
