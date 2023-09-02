@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/09/nasa-confirms-new-frontiers-program-delay" >🔗</a> **[The Launch Pad]** NASA Confirms New Frontiers Program Delay
+
+
 - <a href="https://www.nasaspaceflight.com/2023/09/india-aditya-l1-pslv/" >🔗</a> **[NASASpaceflight]** India to launch first solar research mission, Aditya-L1, aboard PSLV
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://arstechnica.com/space/2023/09/pension-fund-sues-jeff-bezos-and-amazon-for-not-using-falcon-9-rockets/" >🔗</a> **[Arstechnica]** Pension fund sues Jeff Bezos and Amazon for not using Falcon 9 rockets
-
-
-- <a href="https://europeanspaceflight.com/what-is-the-esa-astronaut-policy/" >🔗</a> **[European Spaceflight]** What is the ESA Astronaut Policy?
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230902T041531">2023-09-02 04:15:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230902T051203">2023-09-02 05:12:03 UTC</a>
   <br>
 </div>
