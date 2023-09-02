@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/09/india-aditya-l1-pslv/" >🔗</a> **[NASASpaceflight]** India to launch first solar research mission, Aditya-L1, aboard PSLV
+
+
 - <a href="https://spacepolicyonline.com/news/nasas-lro-spots-likely-luna-25-crash-site/" >🔗</a> **[SpacePolicyOnline.com]** NASA’s LRO Spots Likely Luna-25 Crash Site
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/what-is-the-esa-astronaut-policy/" >🔗</a> **[European Spaceflight]** What is the ESA Astronaut Policy?
-
-
-- <a href="http://www.nasa.gov/press-release/georgia-texas-students-to-hear-from-nasa-astronauts-aboard-station" >🔗</a> **[NASA]** Georgia, Texas Students to Hear from NASA Astronauts Aboard Station
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230902T005840">2023-09-02 00:58:40 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230902T014848">2023-09-02 01:48:48 UTC</a>
   <br>
 </div>
