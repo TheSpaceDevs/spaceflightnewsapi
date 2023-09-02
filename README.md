@@ -149,10 +149,22 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.com/esa-complete-full-duration-hot-fire-test-of-ariane-6-second-stage/" >🔗</a> **[European Spaceflight]** ESA Complete Full-Duration Hot Fire Test of Ariane 6 Second Stage
 
 
+  - <a href="https://go4liftoff.com/launch/id/3e461ec0-8b64-4804-b9aa-e1e1f066065a" >🚀</a> **Ariane 62 | Maiden Flight** from Kourou, French Guiana
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/09/microsoft-partners-with-synthetaic-on-ai-and-data-analysis" >🔗</a> **[The Launch Pad]** Microsoft Partners With Synthetaic On AI And Data Analysis
 
 
 - <a href="https://tlpnetwork.com/news/2023/09/nasa-prepares-for-osirisrex-asteroid-sample-reentry-and-landing" >🔗</a> **[The Launch Pad]** NASA Prepares For OSIRIS-REx Asteroid Sample ReEntry & Landing
+
+
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
 - <a href="https://tlpnetwork.com/news/2023/09/nasa-confirms-new-frontiers-program-delay" >🔗</a> **[The Launch Pad]** NASA Confirms New Frontiers Program Delay
@@ -161,10 +173,28 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/09/india-aditya-l1-pslv/" >🔗</a> **[NASASpaceflight]** India launches first solar research mission, Aditya-L1, aboard PSLV
 
 
+  - <a href="https://go4liftoff.com/launch/id/769470b6-7cac-41ab-9dd2-69c7e9504b1a" >🚀</a> **PSLV-XL | Aditya-L1** from Satish Dhawan Space Centre, India
+
+
+
 - <a href="https://spacepolicyonline.com/news/nasas-lro-spots-likely-luna-25-crash-site/" >🔗</a> **[SpacePolicyOnline.com]** NASA’s LRO Spots Likely Luna-25 Crash Site
 
 
+  - <a href="https://go4liftoff.com/launch/id/d8d10fbf-b900-40c7-95ef-fb2f07489f6f" >🚀</a> **Atlas V 401 | LRO/LCROSS** from Cape Canaveral, FL, USA
+
+  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
+
+
+
 - <a href="https://www.nasaspaceflight.com/2023/09/osiris-rex-tests/" >🔗</a> **[NASASpaceflight]** OSIRIS-REx teams conduct final rehearsals before sample capsule return in September
+
+
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
 - <a href="https://spacenews.com/ball-northrop-grumman-orbital-micro-systems-and-spire-claim-noaa-contracts/" >🔗</a> **[SpaceNews]** Ball, Northrop Grumman, Orbital Micro Systems and Spire claim NOAA contracts
@@ -218,6 +248,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230902T081532">2023-09-02 08:15:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230902T091200">2023-09-02 09:12:00 UTC</a>
   <br>
 </div>
