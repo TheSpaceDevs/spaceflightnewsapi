@@ -149,6 +149,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/coverage-set-as-nasa-s-spacex-crew-6-prepares-for-splashdown" >🔗</a> **[NASA]** Coverage Set as NASA’s SpaceX Crew-6 Prepares for Splashdown
 
 
+  - <a href="https://go4liftoff.com/launch/id/bc325945-4bee-4412-84e1-14998b2eba5f" >🚀</a> **Falcon 9 Block 5 | Crew-6** from Kennedy Space Center, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/771" >📆</a> **SpaceX Crew-6 Crew Dragon Undocking**
+
+  - <a href="https://go4liftoff.com/event/id/772" >📆</a> **SpaceX Crew-6 Crew Dragon Splashdown**
+
+
 - <a href="https://spacenews.com/spacex-launches-13-satellites-for-u-s-space-development-agency/" >🔗</a> **[SpaceNews]** SpaceX launches 13 satellites for U.S. Space Development Agency
 
 
@@ -248,6 +258,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230902T181556">2023-09-02 18:15:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230902T191015">2023-09-02 19:10:15 UTC</a>
   <br>
 </div>
