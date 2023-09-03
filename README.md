@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-3-9-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 3-9, 2023
+
+
 - <a href="https://www.nasaspaceflight.com/2023/09/crew-6-splashdown/" >🔗</a> **[NASASpaceflight]** SpaceX crew to return to Earth after six-month ISS Stay
 
 
@@ -219,15 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacepolicyonline.com/news/nasas-lro-spots-likely-luna-25-crash-site/" >🔗</a> **[SpacePolicyOnline.com]** NASA’s LRO Spots Likely Luna-25 Crash Site
-
-
-  - <a href="https://go4liftoff.com/launch/id/d8d10fbf-b900-40c7-95ef-fb2f07489f6f" >🚀</a> **Atlas V 401 | LRO/LCROSS** from Cape Canaveral, FL, USA
-
-  - <a href="https://go4liftoff.com/launch/id/2277b184-5a07-4a71-90ce-367f41420eaa" >🚀</a> **Soyuz 2.1b/Fregat-M | Luna 25** from Vostochny Cosmodrome, Siberia, Russian Federation
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -266,6 +260,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230903T201312">2023-09-03 20:13:12 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230903T211102">2023-09-03 21:11:02 UTC</a>
   <br>
 </div>
