@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/09/launch-roundup-03092023/" >🔗</a> **[NASASpaceflight]** Launch Roundup: SpaceX to surpass 2022’s launch count with Starlink Group 6-12; China to launch three missions
+
+
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-3-9-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 3-9, 2023
 
 
@@ -215,13 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/09/nasa-confirms-new-frontiers-program-delay" >🔗</a> **[The Launch Pad]** NASA Confirms New Frontiers Program Delay
 
 
-- <a href="https://www.nasaspaceflight.com/2023/09/india-aditya-l1-pslv/" >🔗</a> **[NASASpaceflight]** India launches first solar research mission, Aditya-L1, aboard PSLV
-
-
-  - <a href="https://go4liftoff.com/launch/id/769470b6-7cac-41ab-9dd2-69c7e9504b1a" >🚀</a> **PSLV-XL | Aditya-L1** from Satish Dhawan Space Centre, India
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -260,6 +256,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230903T211102">2023-09-03 21:11:02 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230903T221220">2023-09-03 22:12:20 UTC</a>
   <br>
 </div>
