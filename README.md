@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/09/crew-6-splashdown/" >🔗</a> **[NASASpaceflight]** SpaceX crew to return to Earth after six-month ISS Stay
+
+
 - <a href="https://www.nasaspaceflight.com/2023/09/lm-nasa-orion-artemis-iii-iv/" >🔗</a> **[NASASpaceflight]** Lockheed Martin, NASA lining up next Orion spacecraft for Artemis III and IV
 
 
@@ -209,17 +212,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.nasaspaceflight.com/2023/09/osiris-rex-tests/" >🔗</a> **[NASASpaceflight]** OSIRIS-REx teams conduct final rehearsals before sample capsule return in September
-
-
-  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -258,6 +250,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230903T031332">2023-09-03 03:13:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230903T041519">2023-09-03 04:15:19 UTC</a>
   <br>
 </div>
