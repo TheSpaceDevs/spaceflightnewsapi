@@ -152,7 +152,19 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/crew-6-returns-to-earth/" >🔗</a> **[SpaceNews]** Crew-6 returns to Earth
 
 
+  - <a href="https://go4liftoff.com/launch/id/bc325945-4bee-4412-84e1-14998b2eba5f" >🚀</a> **Falcon 9 Block 5 | Crew-6** from Kennedy Space Center, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/772" >📆</a> **SpaceX Crew-6 Crew Dragon Splashdown**
+
+
 - <a href="https://spacenews.com/indias-moon-lander-set-for-nighttime-as-solar-mission-soars/" >🔗</a> **[SpaceNews]** India’s moon lander set for nighttime as solar mission soars
+
+
+  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
+
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-s-spacex-crew-6-safely-returns-to-earth-near-florida-coast" >🔗</a> **[NASA]** NASA’s SpaceX Crew-6 Safely Returns to Earth Near Florida Coast
@@ -226,6 +238,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 ## Latest Blog Posts 🪧
 
+- <a href="https://europeanspaceflight.substack.com/p/are-europeans-interested-in-going" >🔗</a> **[European Spaceflight]** Are Europeans interested in going to space?
+
+
 - <a href="https://www.planetary.org/the-downlink/see-for-yourself" >🔗</a> **[Planetary Society]** See for yourself
 
 
@@ -253,13 +268,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/the-downlink/moonstruck" >🔗</a> **[Planetary Society]** Moonstruck
 
 
-- <a href="https://blog.ulalaunch.com/blog/rocketstars-engineer-moves-from-aircraft-to-launching-satellites-at-ula" >🔗</a> **[United Launch Alliance]** RocketStars: Engineer moves from aircraft to launching satellites at ULA
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230904T141257">2023-09-04 14:12:57 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230904T151345">2023-09-04 15:13:45 UTC</a>
   <br>
 </div>
