@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/chinese-scientist-proposes-solar-system-wide-resource-utilization-roadmap/" >🔗</a> **[SpaceNews]** Chinese scientist proposes solar system-wide resource utilization roadmap
+
+
 - <a href="https://spacenews.com/crew-6-returns-to-earth/" >🔗</a> **[SpaceNews]** Crew-6 returns to Earth
 
 
@@ -219,13 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/772" >📆</a> **SpaceX Crew-6 Crew Dragon Splashdown**
 
 
-- <a href="https://spacenews.com/spacex-launches-13-satellites-for-u-s-space-development-agency/" >🔗</a> **[SpaceNews]** SpaceX launches 13 satellites for U.S. Space Development Agency
-
-
-  - <a href="https://go4liftoff.com/launch/id/9248a1d0-393f-469a-b9c6-19470247e6fd" >🚀</a> **Falcon 9 Block 5 | SDA Tranche 0B** from Vandenberg SFB, CA, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -264,6 +260,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230904T131724">2023-09-04 13:17:24 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230904T141257">2023-09-04 14:12:57 UTC</a>
   <br>
 </div>
