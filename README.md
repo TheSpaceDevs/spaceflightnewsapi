@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-crew-dragon-crew-6-returns-to-earth-six-months-in-space/" >🔗</a> **[Teslarati]** SpaceX Crew Dragon: Crew 6 returns to Earth after six months in space
+
+
 - <a href="https://www.teslarati.com/spacex-launches-62nd-orbital-mission-of-the-year/" >🔗</a> **[Teslarati]** SpaceX launches 62nd orbital mission of the year
 
 
@@ -201,13 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/772" >📆</a> **SpaceX Crew-6 Crew Dragon Splashdown**
 
 
-- <a href="https://www.nasaspaceflight.com/2023/09/launch-roundup-03092023/" >🔗</a> **[NASASpaceflight]** Launch Roundup: SpaceX surpass 2022’s launch count with Starlink Group 6-12; China to launch three missions
-
-
-  - <a href="https://go4liftoff.com/launch/id/f66687a3-d1f2-427d-8fe1-0454dc1fe9bd" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-12** from Kennedy Space Center, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -246,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230905T091352">2023-09-05 09:13:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230905T101435">2023-09-05 10:14:35 UTC</a>
   <br>
 </div>
