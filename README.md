@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/09/no-firm-date-on-ariane-6s-debut-and-no-public-talk-on-prices-either/" >🔗</a> **[Arstechnica]** European official on Ariane 6 debut: “Please allow me to not speculate at this time”
+
+
 - <a href="https://spacenews.com/breaking-the-celestial-ceiling/" >🔗</a> **[SpaceNews]** Cracking the celestial ceiling
 
 
@@ -197,17 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/chinese-scientist-proposes-solar-system-wide-resource-utilization-roadmap/" >🔗</a> **[SpaceNews]** Chinese scientist proposes solar system-wide resource utilization roadmap
 
 
-- <a href="https://spacenews.com/crew-6-returns-to-earth/" >🔗</a> **[SpaceNews]** Crew-6 returns to Earth
-
-
-  - <a href="https://go4liftoff.com/launch/id/bc325945-4bee-4412-84e1-14998b2eba5f" >🚀</a> **Falcon 9 Block 5 | Crew-6** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/772" >📆</a> **SpaceX Crew-6 Crew Dragon Splashdown**
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -246,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230905T161816">2023-09-05 16:18:16 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230905T171219">2023-09-05 17:12:19 UTC</a>
   <br>
 </div>
