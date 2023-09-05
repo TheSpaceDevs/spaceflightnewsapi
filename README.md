@@ -146,16 +146,46 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/breaking-the-celestial-ceiling/" >🔗</a> **[SpaceNews]** Cracking the celestial ceiling
+
+
+- <a href="https://www.nasaspaceflight.com/2023/09/nasa-ml-1-artemis-ii-ml-2-construction/" >🔗</a> **[NASASpaceflight]** NASA modifies ML-1 for Artemis II, ML-2 under construction for SLS Block IB
+
+
+  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://spacenews.com/chinese-ceres-1-rocket-reaches-orbit-with-first-sea-launch/" >🔗</a> **[SpaceNews]** Chinese Ceres-1 rocket reaches orbit with first sea launch
+
+
+  - <a href="https://go4liftoff.com/launch/id/2f255496-16b0-4ae6-ac9e-8e24f5deae7a" >🚀</a> **Ceres-1S | 4x Tianqi** from Sea Launch
+
 
 
 - <a href="https://www.teslarati.com/spacex-crew-dragon-crew-6-returns-to-earth-six-months-in-space/" >🔗</a> **[Teslarati]** SpaceX Crew Dragon: Crew 6 returns to Earth after six months in space
 
 
+  - <a href="https://go4liftoff.com/launch/id/bc325945-4bee-4412-84e1-14998b2eba5f" >🚀</a> **Falcon 9 Block 5 | Crew-6** from Kennedy Space Center, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/772" >📆</a> **SpaceX Crew-6 Crew Dragon Splashdown**
+
+
 - <a href="https://www.teslarati.com/spacex-launches-62nd-orbital-mission-of-the-year/" >🔗</a> **[Teslarati]** SpaceX launches 62nd orbital mission of the year
 
 
+  - <a href="https://go4liftoff.com/launch/id/f66687a3-d1f2-427d-8fe1-0454dc1fe9bd" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-12** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://www.nasaspaceflight.com/2023/09/solar-orbiter-picoflare/" >🔗</a> **[NASASpaceflight]** Solar Orbiter discovers plasma jets that could fuel the production of solar wind
+
+
+  - <a href="https://go4liftoff.com/launch/id/acdd0fab-b485-4c18-bb6f-c45cb62bdfd7" >🚀</a> **Atlas V 411 | Solar Orbiter** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://spacenews.com/esa-to-set-target-for-first-ariane-6-launch-after-upcoming-tests/" >🔗</a> **[SpaceNews]** ESA to set target for first Ariane 6 launch after upcoming tests
@@ -168,24 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/crew-6-returns-to-earth/" >🔗</a> **[SpaceNews]** Crew-6 returns to Earth
-
-
-  - <a href="https://go4liftoff.com/launch/id/bc325945-4bee-4412-84e1-14998b2eba5f" >🚀</a> **Falcon 9 Block 5 | Crew-6** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/772" >📆</a> **SpaceX Crew-6 Crew Dragon Splashdown**
-
-
-- <a href="https://spacenews.com/indias-moon-lander-set-for-nighttime-as-solar-mission-soars/" >🔗</a> **[SpaceNews]** India’s moon lander set for nighttime as solar mission soars
-
-
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
-
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-s-spacex-crew-6-safely-returns-to-earth-near-florida-coast" >🔗</a> **[NASA]** NASA’s SpaceX Crew-6 Safely Returns to Earth Near Florida Coast
 
 
   - <a href="https://go4liftoff.com/launch/id/bc325945-4bee-4412-84e1-14998b2eba5f" >🚀</a> **Falcon 9 Block 5 | Crew-6** from Kennedy Space Center, FL, USA
@@ -234,6 +246,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230905T131724">2023-09-05 13:17:24 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230905T141244">2023-09-05 14:12:44 UTC</a>
   <br>
 </div>
