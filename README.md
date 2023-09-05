@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/project-kuiper-partners-with-vodafone-in-europe-and-africa/" >🔗</a> **[SpaceNews]** Project Kuiper partners with Vodafone in Europe and Africa
+
+
+- <a href="https://spacenews.com/firefly-selected-to-launch-three-l3harris-satellites/" >🔗</a> **[SpaceNews]** Firefly selected to launch three L3Harris satellites
+
+
 - <a href="https://spacepolicyonline.com/news/india-says-good-night-to-chandrayaan-3/" >🔗</a> **[SpacePolicyOnline.com]** India Says Good Night To Chandrayaan-3
 
 
@@ -186,23 +192,12 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/772" >📆</a> **SpaceX Crew-6 Crew Dragon Splashdown**
 
 
-- <a href="https://www.teslarati.com/spacex-launches-62nd-orbital-mission-of-the-year/" >🔗</a> **[Teslarati]** SpaceX launches 62nd orbital mission of the year
-
-
-  - <a href="https://go4liftoff.com/launch/id/f66687a3-d1f2-427d-8fe1-0454dc1fe9bd" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-12** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/09/solar-orbiter-picoflare/" >🔗</a> **[NASASpaceflight]** Solar Orbiter discovers plasma jets that could fuel the production of solar wind
-
-
-  - <a href="https://go4liftoff.com/launch/id/acdd0fab-b485-4c18-bb6f-c45cb62bdfd7" >🚀</a> **Atlas V 411 | Solar Orbiter** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-august-28-september-3-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: August 28-September 3, 2023
+
 
 - <a href="https://www.planetary.org/articles/osiris-rex-sample-return-what-to-expect" >🔗</a> **[Planetary Society]** OSIRIS-REx sample return: What to expect
 
@@ -231,13 +226,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-august-21-27-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: August 21-27, 2023
 
 
-- <a href="https://blog.ulalaunch.com/blog/rocketstars-a-life-that-spans-the-atlas-v-program" >🔗</a> **[United Launch Alliance]** RocketStars: A life that spans the Atlas V program
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230905T211150">2023-09-05 21:11:50 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230905T221242">2023-09-05 22:12:42 UTC</a>
   <br>
 </div>
