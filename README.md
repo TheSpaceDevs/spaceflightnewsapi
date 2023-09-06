@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/09/starship-ift2-stacked" >🔗</a> **[The Launch Pad]** SpaceX Almost Ready For Second Starship Launch, Integrates Vehicle
+
+
+- <a href="https://spacenews.com/space-development-agency-solicits-bids-for-54-missile-tracking-satellites/" >🔗</a> **[SpaceNews]** Space Development Agency solicits bids for 54 missile-tracking satellites
+
+
 - <a href="https://arstechnica.com/space/2023/09/starship-is-stacked-and-ready-to-make-its-second-launch-attempt/" >🔗</a> **[Arstechnica]** Starship is stacked and ready to make its second launch attempt
 
 
@@ -180,24 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/firefly-selected-to-launch-three-l3harris-satellites/" >🔗</a> **[SpaceNews]** Firefly selected to launch three L3Harris satellites
-
-
-- <a href="https://spacepolicyonline.com/news/india-says-good-night-to-chandrayaan-3/" >🔗</a> **[SpacePolicyOnline.com]** India Says Good Night To Chandrayaan-3
-
-
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
-
-
-
-- <a href="https://www.teslarati.com/nasa-prepares-osiris-rex-asteroid-sample-return/" >🔗</a> **[Teslarati]** NASA prepares for the return of the Osiris-Rex asteroid sample mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
 
@@ -238,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230906T161900">2023-09-06 16:19:00 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230906T171209">2023-09-06 17:12:09 UTC</a>
   <br>
 </div>
