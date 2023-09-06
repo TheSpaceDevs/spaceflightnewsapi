@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/ariane-6-completes-short-duration-engine-test/" >🔗</a> **[SpaceNews]** Ariane 6 completes short-duration engine test
+
+
+- <a href="https://spacenews.com/terran-orbital-unveils-seven-standard-satellite-buses/" >🔗</a> **[SpaceNews]** Terran Orbital unveils seven standard satellite buses
+
+
 - <a href="https://spacenews.com/chandrayaan-3-success-to-boost-indias-space-ambitions-global-standing/" >🔗</a> **[SpaceNews]** Chandrayaan-3 success to boost India’s space ambitions, global standing
 
 
@@ -190,20 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/breaking-the-celestial-ceiling/" >🔗</a> **[SpaceNews]** Cracking the celestial ceiling
 
 
-- <a href="https://www.nasaspaceflight.com/2023/09/nasa-ml-1-artemis-ii-ml-2-construction/" >🔗</a> **[NASASpaceflight]** NASA modifies ML-1 for Artemis II, ML-2 under construction for SLS Block IB
-
-
-  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://spacenews.com/chinese-ceres-1-rocket-reaches-orbit-with-first-sea-launch/" >🔗</a> **[SpaceNews]** Chinese Ceres-1 rocket reaches orbit with first sea launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/2f255496-16b0-4ae6-ac9e-8e24f5deae7a" >🚀</a> **Ceres-1S | 4x Tianqi** from Sea Launch
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230906T101449">2023-09-06 10:14:49 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230906T111119">2023-09-06 11:11:19 UTC</a>
   <br>
 </div>
