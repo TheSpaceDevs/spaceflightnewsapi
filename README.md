@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/eutelsat-invests-in-europe-focused-space-technology-venture-fund/" >🔗</a> **[SpaceNews]** Eutelsat invests in Europe-focused space technology venture fund
+
+
 - <a href="https://spacenews.com/ariane-6-completes-short-duration-engine-test/" >🔗</a> **[SpaceNews]** Ariane 6 completes short-duration engine test
 
 
@@ -193,9 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/breaking-the-celestial-ceiling/" >🔗</a> **[SpaceNews]** Cracking the celestial ceiling
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230906T131750">2023-09-06 13:17:50 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230906T141300">2023-09-06 14:13:00 UTC</a>
   <br>
 </div>
