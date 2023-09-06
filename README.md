@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/chandrayaan-3-success-to-boost-indias-space-ambitions-global-standing/" >🔗</a> **[SpaceNews]** Chandrayaan-3 success to boost India’s space ambitions, global standing
+
+
 - <a href="https://spacenews.com/project-kuiper-partners-with-vodafone-in-europe-and-africa/" >🔗</a> **[SpaceNews]** Project Kuiper partners with Vodafone in Europe and Africa
 
 
@@ -179,17 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/2f255496-16b0-4ae6-ac9e-8e24f5deae7a" >🚀</a> **Ceres-1S | 4x Tianqi** from Sea Launch
 
-
-
-- <a href="https://www.teslarati.com/spacex-crew-dragon-crew-6-returns-to-earth-six-months-in-space/" >🔗</a> **[Teslarati]** SpaceX Crew Dragon: Crew 6 returns to Earth after six months in space
-
-
-  - <a href="https://go4liftoff.com/launch/id/bc325945-4bee-4412-84e1-14998b2eba5f" >🚀</a> **Falcon 9 Block 5 | Crew-6** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/772" >📆</a> **SpaceX Crew-6 Crew Dragon Splashdown**
 
 
 
@@ -230,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230905T231307">2023-09-05 23:13:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230906T010059">2023-09-06 01:00:59 UTC</a>
   <br>
 </div>
