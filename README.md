@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/relativity-space-expands-presence-at-nasas-stennis-space-center/" >🔗</a> **[SpaceNews]** Relativity Space expands presence at NASA’s Stennis Space Center
+
+
+- <a href="https://spacenews.com/integrated-resilient-missile-warning-tracking-and-defense/" >🔗</a> **[SpaceNews]** Integrated resilient missile warning, tracking and defense
+
+
 - <a href="https://europeanspaceflight.com/hyimpulse-qualifies-hybrid-rocket-motor-for-flight/" >🔗</a> **[European Spaceflight]** HyImpulse Qualifies Hybrid Rocket Motor for Flight
 
 
@@ -180,16 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/09/l3harris-selects-firefly-to-launch-us-national-security-satellites" >🔗</a> **[The Launch Pad]** L3Harris Selects Firefly To Launch US National Security Satellites
-
-
-- <a href="https://tlpnetwork.com/news/2023/09/galactic-energys-ceres-1-reaches-orbit-on-first-sea-launch-mission" >🔗</a> **[The Launch Pad]** Galactic Energy's Ceres-1 Reaches Orbit On First Sea Launch Mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/2f255496-16b0-4ae6-ac9e-8e24f5deae7a" >🚀</a> **Ceres-1S | 4x Tianqi** from Sea Launch
-
-
-
-- <a href="https://spacepolicyonline.com/news/ariane-6-one-step-closer-but-still-no-launch-date/" >🔗</a> **[SpacePolicyOnline.com]** Ariane 6 One Step Closer, But Still No Launch Date
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230907T151408">2023-09-07 15:14:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230907T161736">2023-09-07 16:17:36 UTC</a>
   <br>
 </div>
