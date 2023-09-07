@@ -149,7 +149,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/japan-launches-x-ray-telescope-and-lunar-lander/" >🔗</a> **[SpacePolicyOnline.com]** Japan Launches X-Ray Telescope and Lunar Lander
 
 
+  - <a href="https://go4liftoff.com/launch/id/2ba0b63c-e5f6-4899-b588-387c7c8e71ca" >🚀</a> **H-IIA 202 | XRISM & SLIM** from Tanegashima Space Center, Japan
+
+
+
 - <a href="https://spacenews.com/japan-launches-moon-lander-and-x-ray-observatory/" >🔗</a> **[SpaceNews]** Japan launches moon lander and X-ray observatory
+
+
+  - <a href="https://go4liftoff.com/launch/id/2ba0b63c-e5f6-4899-b588-387c7c8e71ca" >🚀</a> **H-IIA 202 | XRISM & SLIM** from Tanegashima Space Center, Japan
+
 
 
 - <a href="https://spacenews.com/spacechain-pivots-to-combine-ai-with-earth-imagery/" >🔗</a> **[SpaceNews]** SpaceChain pivots to combine AI with Earth imagery
@@ -158,10 +166,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/psyche-asteroid-mission-set-for-october-launch/" >🔗</a> **[SpaceNews]** Psyche asteroid mission set for October launch
 
 
+  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/09/l3harris-selects-firefly-to-launch-us-national-security-satellites" >🔗</a> **[The Launch Pad]** L3Harris Selects Firefly To Launch US National Security Satellites
 
 
 - <a href="https://tlpnetwork.com/news/2023/09/galactic-energys-ceres-1-reaches-orbit-on-first-sea-launch-mission" >🔗</a> **[The Launch Pad]** Galactic Energy's Ceres-1 Reaches Orbit On First Sea Launch Mission
+
+
+  - <a href="https://go4liftoff.com/launch/id/2f255496-16b0-4ae6-ac9e-8e24f5deae7a" >🚀</a> **Ceres-1S | 4x Tianqi** from Sea Launch
+
 
 
 - <a href="https://spacepolicyonline.com/news/ariane-6-one-step-closer-but-still-no-launch-date/" >🔗</a> **[SpacePolicyOnline.com]** Ariane 6 One Step Closer, But Still No Launch Date
@@ -214,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230907T061754">2023-09-07 06:17:54 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230907T071239">2023-09-07 07:12:39 UTC</a>
   <br>
 </div>
