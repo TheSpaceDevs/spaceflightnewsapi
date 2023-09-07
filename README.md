@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/redwire-demonstrates-bioprinting-human-tissue-in-space/" >🔗</a> **[SpaceNews]** Redwire demonstrates bioprinting human tissue in space
+
+
 - <a href="https://spacenews.com/terran-orbital-announces-plan-to-speed-up-satellite-production/" >🔗</a> **[SpaceNews]** Terran Orbital announces plan to speed up satellite production
 
 
@@ -189,9 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/pentagons-new-plan-to-counter-china-includes-swarms-of-smart-satellites/" >🔗</a> **[SpaceNews]** Pentagon’s new plan to counter China includes swarms of smart satellites
 
 
-- <a href="https://tlpnetwork.com/news/2023/09/sda-seeks-bids-for-54-hypersonic-missile-tracking-satellites" >🔗</a> **[The Launch Pad]** SDA Seeks Bids For 54 Hypersonic Missile-Tracking Satellites
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230907T111207">2023-09-07 11:12:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230907T122709">2023-09-07 12:27:09 UTC</a>
   <br>
 </div>
