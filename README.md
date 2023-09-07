@@ -146,46 +146,34 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://tlpnetwork.com/news/2023/09/starship-ift2-stacked" >🔗</a> **[The Launch Pad]** SpaceX Almost Ready For Second Starship Launch, Integrates Vehicle
+- <a href="https://spacenews.com/japan-launches-moon-lander-and-x-ray-observatory/" >🔗</a> **[SpaceNews]** Japan launches moon lander and X-ray observatory
 
 
-- <a href="https://spacenews.com/space-development-agency-solicits-bids-for-54-missile-tracking-satellites/" >🔗</a> **[SpaceNews]** Space Development Agency solicits bids for 54 missile-tracking satellites
+- <a href="https://spacenews.com/spacechain-pivots-to-combine-ai-with-earth-imagery/" >🔗</a> **[SpaceNews]** SpaceChain pivots to combine AI with Earth imagery
 
 
-- <a href="https://arstechnica.com/space/2023/09/starship-is-stacked-and-ready-to-make-its-second-launch-attempt/" >🔗</a> **[Arstechnica]** Starship is stacked and ready to make its second launch attempt
+- <a href="https://spacenews.com/psyche-asteroid-mission-set-for-october-launch/" >🔗</a> **[SpaceNews]** Psyche asteroid mission set for October launch
 
 
-- <a href="https://europeanspaceflight.com/ariane-6-core-stage-breathes-fire-for-the-first-time/" >🔗</a> **[European Spaceflight]** Ariane 6 Core Stage Breathes Fire for the First Time
+- <a href="https://tlpnetwork.com/news/2023/09/l3harris-selects-firefly-to-launch-us-national-security-satellites" >🔗</a> **[The Launch Pad]** L3Harris Selects Firefly To Launch US National Security Satellites
 
 
-  - <a href="https://go4liftoff.com/launch/id/3e461ec0-8b64-4804-b9aa-e1e1f066065a" >🚀</a> **Ariane 62 | Maiden Flight** from Kourou, French Guiana
+- <a href="https://tlpnetwork.com/news/2023/09/galactic-energys-ceres-1-reaches-orbit-on-first-sea-launch-mission" >🔗</a> **[The Launch Pad]** Galactic Energy's Ceres-1 Reaches Orbit On First Sea Launch Mission
 
 
-
-- <a href="https://spacenews.com/eutelsat-invests-in-europe-focused-space-technology-venture-fund/" >🔗</a> **[SpaceNews]** Eutelsat invests in Europe-focused space technology venture fund
-
-
-- <a href="https://spacenews.com/ariane-6-completes-short-duration-engine-test/" >🔗</a> **[SpaceNews]** Ariane 6 completes short-duration engine test
+- <a href="https://spacepolicyonline.com/news/ariane-6-one-step-closer-but-still-no-launch-date/" >🔗</a> **[SpacePolicyOnline.com]** Ariane 6 One Step Closer, But Still No Launch Date
 
 
-  - <a href="https://go4liftoff.com/launch/id/3e461ec0-8b64-4804-b9aa-e1e1f066065a" >🚀</a> **Ariane 62 | Maiden Flight** from Kourou, French Guiana
+- <a href="https://spacenews.com/pentagons-new-plan-to-counter-china-includes-swarms-of-smart-satellites/" >🔗</a> **[SpaceNews]** Pentagon’s new plan to counter China includes swarms of smart satellites
 
 
-
-- <a href="https://spacenews.com/terran-orbital-unveils-seven-standard-satellite-buses/" >🔗</a> **[SpaceNews]** Terran Orbital unveils seven standard satellite buses
-
-
-- <a href="https://spacenews.com/chandrayaan-3-success-to-boost-indias-space-ambitions-global-standing/" >🔗</a> **[SpaceNews]** Chandrayaan-3 success to boost India’s space ambitions, global standing
+- <a href="https://tlpnetwork.com/news/2023/09/sda-seeks-bids-for-54-hypersonic-missile-tracking-satellites" >🔗</a> **[The Launch Pad]** SDA Seeks Bids For 54 Hypersonic Missile-Tracking Satellites
 
 
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
+- <a href="https://tlpnetwork.com/news/2023/09/us-space-force-unveils-new-mission-statement" >🔗</a> **[The Launch Pad]** US Space Force Unveils New Mission Statement
 
 
-
-- <a href="https://spacenews.com/project-kuiper-partners-with-vodafone-in-europe-and-africa/" >🔗</a> **[SpaceNews]** Project Kuiper partners with Vodafone in Europe and Africa
-
-
-- <a href="https://spacenews.com/firefly-selected-to-launch-three-l3harris-satellites/" >🔗</a> **[SpaceNews]** Firefly selected to launch three L3Harris satellites
+- <a href="https://mars.nasa.gov/news/9474/" >🔗</a> **[NASA]** NASA's Oxygen-Generating Experiment MOXIE Completes Mars Mission
 
 
 
@@ -226,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230906T231257">2023-09-06 23:12:57 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230907T010029">2023-09-07 01:00:29 UTC</a>
   <br>
 </div>
