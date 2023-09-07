@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/new-report-recommends-space-force-change-how-it-buys-commercial-satellite-services/" >🔗</a> **[SpaceNews]** New report recommends Space Force change how it buys commercial satellite services
+
+
 - <a href="https://arstechnica.com/space/2023/09/nasa-finally-admits-what-everyone-already-knows-sls-is-unaffordable/" >🔗</a> **[Arstechnica]** NASA finally admits what everyone already knows: SLS is unaffordable
 
 
@@ -179,9 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/2ba0b63c-e5f6-4899-b588-387c7c8e71ca" >🚀</a> **H-IIA 202 | XRISM & SLIM** from Tanegashima Space Center, Japan
 
-
-
-- <a href="https://spacenews.com/spacechain-pivots-to-combine-ai-with-earth-imagery/" >🔗</a> **[SpaceNews]** SpaceChain pivots to combine AI with Earth imagery
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230907T211209">2023-09-07 21:12:09 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230907T221236">2023-09-07 22:12:36 UTC</a>
   <br>
 </div>
