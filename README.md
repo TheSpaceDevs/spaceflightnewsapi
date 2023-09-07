@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/terran-orbital-announces-plan-to-speed-up-satellite-production/" >🔗</a> **[SpaceNews]** Terran Orbital announces plan to speed up satellite production
+
+
 - <a href="https://spacepolicyonline.com/news/japan-launches-x-ray-telescope-and-lunar-lander/" >🔗</a> **[SpacePolicyOnline.com]** Japan Launches X-Ray Telescope and Lunar Lander
 
 
@@ -189,9 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/09/sda-seeks-bids-for-54-hypersonic-missile-tracking-satellites" >🔗</a> **[The Launch Pad]** SDA Seeks Bids For 54 Hypersonic Missile-Tracking Satellites
 
 
-- <a href="https://tlpnetwork.com/news/2023/09/us-space-force-unveils-new-mission-statement" >🔗</a> **[The Launch Pad]** US Space Force Unveils New Mission Statement
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230907T101628">2023-09-07 10:16:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230907T111207">2023-09-07 11:12:07 UTC</a>
   <br>
 </div>
