@@ -167,6 +167,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.com/hyimpulse-qualifies-hybrid-rocket-motor-for-flight/" >🔗</a> **[European Spaceflight]** HyImpulse Qualifies Hybrid Rocket Motor for Flight
 
 
+  - <a href="https://go4liftoff.com/launch/id/e6834392-f1ad-4bc2-997a-b08252f37181" >🚀</a> **SR75 | Maiden Flight** from SaxaVord Spaceport
+
+
+
 - <a href="https://spacenews.com/redwire-demonstrates-bioprinting-human-tissue-in-space/" >🔗</a> **[SpaceNews]** Redwire demonstrates bioprinting human tissue in space
 
 
@@ -218,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T061810">2023-09-08 06:18:10 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T071245">2023-09-08 07:12:45 UTC</a>
   <br>
 </div>
