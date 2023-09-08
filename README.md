@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/09/virgin-galactic-galactic-03-mission-complete-mystery-crew-revealed" >🔗</a> **[The Launch Pad]** Virgin Galactic's Galactic 03 Mission Complete, Mystery Crew Revealed
+
+
+- <a href="https://tlpnetwork.com/news/2023/09/relativity-space-expands-nasa-stennis-ops-with-historic-test-stand-lease" >🔗</a> **[The Launch Pad]** Relativity Space Expands NASA Stennis Ops With Historic Test Stand Lease
+
+
 - <a href="https://tlpnetwork.com/news/2023/09/south-africa-formally-partners-china-on-lunar-base" >🔗</a> **[The Launch Pad]** South Africa Formally Partners With China On Lunar Base
 
 
@@ -186,12 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://europeanspaceflight.com/maiaspace-complete-first-cryogenic-test-of-second-stage-prototype/" >🔗</a> **[European Spaceflight]** MaiaSpace Complete First Cryogenic Test of Second Stage Prototype
-
-
-- <a href="https://spacenews.com/letter-grateful-for-space-greta/" >🔗</a> **[SpaceNews]** Letter: Grateful for ‘Space Greta’
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T221234">2023-09-08 22:12:34 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T231257">2023-09-08 23:12:57 UTC</a>
   <br>
 </div>
