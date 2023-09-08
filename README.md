@@ -149,6 +149,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/faa-closes-starship-mishap-investigation-directs-63-corrective-actions-for-spacex/" >🔗</a> **[SpaceNews]** FAA closes Starship mishap investigation, directs 63 corrective actions for SpaceX
 
 
+  - <a href="https://go4liftoff.com/launch/id/e32d375f-0d6e-4e54-b4f2-2b49db657fca" >🚀</a> **Starship | Integrated Flight Test** from SpaceX Space Launch Facility, TX, USA
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
+
+
 - <a href="https://spacenews.com/rubicon-wins-nasa-and-afrl-ascent-thruster-contracts/" >🔗</a> **[SpaceNews]** Rubicon wins NASA and AFRL ASCENT thruster contracts
 
 
@@ -220,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T171211">2023-09-08 17:12:11 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T181707">2023-09-08 18:17:07 UTC</a>
   <br>
 </div>
