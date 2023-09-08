@@ -146,10 +146,22 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/faa-closes-starship-mishap-investigation-directs-63-corrective-actions-for-spacex/" >🔗</a> **[SpaceNews]** FAA closes Starship mishap investigation, directs 63 corrective actions for SpaceX
+
+
+- <a href="https://spacenews.com/rubicon-wins-nasa-and-afrl-ascent-thruster-contracts/" >🔗</a> **[SpaceNews]** Rubicon wins NASA and AFRL ASCENT thruster contracts
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-international-astronauts-to-speak-with-students-in-two-states" >🔗</a> **[NASA]** NASA, International Astronauts to Speak with Students in Two States
 
 
 - <a href="https://tlpnetwork.com/news/2023/09/faa-completes-spacex-starship-ift-1-investigation" >🔗</a> **[The Launch Pad]** BREAKING! FAA Completes SpaceX Starship IFT-1 Investigation, 63 Corrective Actions Required
+
+
+  - <a href="https://go4liftoff.com/launch/id/e32d375f-0d6e-4e54-b4f2-2b49db657fca" >🚀</a> **Starship | Integrated Flight Test** from SpaceX Space Launch Facility, TX, USA
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
 
 
 - <a href="https://europeanspaceflight.com/maiaspace-complete-first-cryogenic-test-of-second-stage-prototype/" >🔗</a> **[European Spaceflight]** MaiaSpace Complete First Cryogenic Test of Second Stage Prototype
@@ -168,12 +180,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/new-report-recommends-space-force-change-how-it-buys-commercial-satellite-services/" >🔗</a> **[SpaceNews]** New report recommends Space Force change how it buys commercial satellite services
-
-
-- <a href="https://arstechnica.com/space/2023/09/nasa-finally-admits-what-everyone-already-knows-sls-is-unaffordable/" >🔗</a> **[Arstechnica]** NASA finally admits what everyone already knows: SLS is unaffordable
-
-
-- <a href="https://spacenews.com/south-africa-joins-chinas-moon-base-project/" >🔗</a> **[SpaceNews]** South Africa joins China’s moon base project
 
 
 
@@ -214,6 +220,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T161751">2023-09-08 16:17:51 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T171211">2023-09-08 17:12:11 UTC</a>
   <br>
 </div>
