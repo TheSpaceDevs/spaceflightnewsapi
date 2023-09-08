@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/letter-grateful-for-space-greta/" >🔗</a> **[SpaceNews]** Letter: Grateful for ‘Space Greta’
+
+
+- <a href="https://spacenews.com/the-future-of-human-spaceflight-safety-is-in-the-hands-of-congress/" >🔗</a> **[SpaceNews]** The future of human spaceflight safety is in the hands of Congress
+
+
 - <a href="https://spacenews.com/gao-report-calls-for-more-transparency-on-sls-costs/" >🔗</a> **[SpaceNews]** GAO report calls for more transparency on SLS costs
 
 
@@ -172,12 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/e6834392-f1ad-4bc2-997a-b08252f37181" >🚀</a> **SR75 | Maiden Flight** from SaxaVord Spaceport
 
-
-
-- <a href="https://spacenews.com/redwire-demonstrates-bioprinting-human-tissue-in-space/" >🔗</a> **[SpaceNews]** Redwire demonstrates bioprinting human tissue in space
-
-
-- <a href="https://spacenews.com/terran-orbital-announces-plan-to-speed-up-satellite-production/" >🔗</a> **[SpaceNews]** Terran Orbital announces plan to speed up satellite production
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T131644">2023-09-08 13:16:44 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T141236">2023-09-08 14:12:36 UTC</a>
   <br>
 </div>
