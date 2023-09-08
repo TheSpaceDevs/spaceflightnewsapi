@@ -146,6 +146,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/virgin-galactic-completes-third-commercial-spaceshiptwo-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic completes third commercial SpaceShipTwo flight
+
+
+  - <a href="https://go4liftoff.com/launch/id/3a26da85-1135-4784-b55a-6c5185e0aab6" >🚀</a> **SpaceShipTwo | Galactic 03** from Air launch to Suborbital flight
+
+
+
 - <a href="https://spacenews.com/faa-closes-starship-mishap-investigation-directs-63-corrective-actions-for-spacex/" >🔗</a> **[SpaceNews]** FAA closes Starship mishap investigation, directs 63 corrective actions for SpaceX
 
 
@@ -183,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/eu-and-uk-reach-deal-on-copernicus/" >🔗</a> **[SpaceNews]** EU and UK reach deal on Copernicus
-
-
-- <a href="https://spacenews.com/new-report-recommends-space-force-change-how-it-buys-commercial-satellite-services/" >🔗</a> **[SpaceNews]** New report recommends Space Force change how it buys commercial satellite services
 
 
 
@@ -226,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T191049">2023-09-08 19:10:49 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T201427">2023-09-08 20:14:27 UTC</a>
   <br>
 </div>
