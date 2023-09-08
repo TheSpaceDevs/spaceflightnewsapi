@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/eu-and-uk-reach-deal-on-copernicus/" >🔗</a> **[SpaceNews]** EU and UK reach deal on Copernicus
+
+
 - <a href="https://spacenews.com/new-report-recommends-space-force-change-how-it-buys-commercial-satellite-services/" >🔗</a> **[SpaceNews]** New report recommends Space Force change how it buys commercial satellite services
 
 
@@ -171,13 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/japan-launches-x-ray-telescope-and-lunar-lander/" >🔗</a> **[SpacePolicyOnline.com]** Japan Launches X-Ray Telescope and Lunar Lander
-
-
-  - <a href="https://go4liftoff.com/launch/id/2ba0b63c-e5f6-4899-b588-387c7c8e71ca" >🚀</a> **H-IIA 202 | XRISM & SLIM** from Tanegashima Space Center, Japan
-
-
-
-- <a href="https://spacenews.com/japan-launches-moon-lander-and-x-ray-observatory/" >🔗</a> **[SpaceNews]** Japan launches moon lander and X-ray observatory
 
 
   - <a href="https://go4liftoff.com/launch/id/2ba0b63c-e5f6-4899-b588-387c7c8e71ca" >🚀</a> **H-IIA 202 | XRISM & SLIM** from Tanegashima Space Center, Japan
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230907T231333">2023-09-07 23:13:33 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T021937">2023-09-08 02:19:37 UTC</a>
   <br>
 </div>
