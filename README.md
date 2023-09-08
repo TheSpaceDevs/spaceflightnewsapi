@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-international-astronauts-to-speak-with-students-in-two-states" >🔗</a> **[NASA]** NASA, International Astronauts to Speak with Students in Two States
+
+
+- <a href="https://tlpnetwork.com/news/2023/09/faa-completes-spacex-starship-ift-1-investigation" >🔗</a> **[The Launch Pad]** BREAKING! FAA Completes SpaceX Starship IFT-1 Investigation, 63 Corrective Actions Required
+
+
+- <a href="https://europeanspaceflight.com/maiaspace-complete-first-cryogenic-test-of-second-stage-prototype/" >🔗</a> **[European Spaceflight]** MaiaSpace Complete First Cryogenic Test of Second Stage Prototype
+
+
 - <a href="https://spacenews.com/letter-grateful-for-space-greta/" >🔗</a> **[SpaceNews]** Letter: Grateful for ‘Space Greta’
 
 
@@ -167,22 +176,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/south-africa-joins-chinas-moon-base-project/" >🔗</a> **[SpaceNews]** South Africa joins China’s moon base project
 
 
-- <a href="https://spacenews.com/relativity-space-expands-presence-at-nasas-stennis-space-center/" >🔗</a> **[SpaceNews]** Relativity Space expands presence at NASA’s Stennis Space Center
-
-
-- <a href="https://spacenews.com/integrated-resilient-missile-warning-tracking-and-defense/" >🔗</a> **[SpaceNews]** Integrated resilient missile warning, tracking and defense
-
-
-- <a href="https://europeanspaceflight.com/hyimpulse-qualifies-hybrid-rocket-motor-for-flight/" >🔗</a> **[European Spaceflight]** HyImpulse Qualifies Hybrid Rocket Motor for Flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/e6834392-f1ad-4bc2-997a-b08252f37181" >🚀</a> **SR75 | Maiden Flight** from SaxaVord Spaceport
-
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/the-downlink/cometary-sights-and-sounds" >🔗</a> **[Planetary Society]** Cometary sights and sounds
+
+
+- <a href="https://www.planetary.org/articles/eclipse-2024-checklist" >🔗</a> **[Planetary Society]** A checklist for what to expect during the 2024 total solar eclipse
+
 
 - <a href="https://www.planetary.org/articles/are-your-solar-eclipse-glasses-safe" >🔗</a> **[Planetary Society]** Are your solar eclipse glasses safe?
 
@@ -208,16 +210,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/articles/to-the-moon-together" >🔗</a> **[Planetary Society]** To the moon together
 
 
-- <a href="https://www.planetary.org/articles/a-lunar-saga" >🔗</a> **[Planetary Society]** A lunar saga
-
-
-- <a href="https://www.planetary.org/space-missions/change-6-collecting-the-first-lunar-farside-samples" >🔗</a> **[Planetary Society]** Chang'e-6, collecting the first lunar farside samples
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T141236">2023-09-08 14:12:36 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T151148">2023-09-08 15:11:48 UTC</a>
   <br>
 </div>
