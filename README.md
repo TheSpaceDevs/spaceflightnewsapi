@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/09/south-africa-formally-partners-china-on-lunar-base" >🔗</a> **[The Launch Pad]** South Africa Formally Partners With China On Lunar Base
+
+
+- <a href="https://spacepolicyonline.com/news/faa-starship-mishap-investigation-complete-but-no-flight-approval-yet/" >🔗</a> **[SpacePolicyOnline.com]** FAA: Starship Mishap Investigation Complete, But No Flight Approval Yet
+
+
+- <a href="https://tlpnetwork.com/news/2023/09/redwire-successfully-3d-prints-human-tissue-on-iss-for-first-time" >🔗</a> **[The Launch Pad]** BREAKING! Redwire Successfully 3D Prints Human Tissue in Microgravity Aboard the ISS & Returns It To Earth
+
+
 - <a href="https://spacenews.com/virgin-galactic-completes-third-commercial-spaceshiptwo-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic completes third commercial SpaceShipTwo flight
 
 
@@ -181,15 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/letter-grateful-for-space-greta/" >🔗</a> **[SpaceNews]** Letter: Grateful for ‘Space Greta’
-
-
-- <a href="https://spacenews.com/the-future-of-human-spaceflight-safety-is-in-the-hands-of-congress/" >🔗</a> **[SpaceNews]** The future of human spaceflight safety is in the hands of Congress
-
-
-- <a href="https://spacenews.com/gao-report-calls-for-more-transparency-on-sls-costs/" >🔗</a> **[SpaceNews]** GAO report calls for more transparency on SLS costs
-
-
-- <a href="https://spacenews.com/eu-and-uk-reach-deal-on-copernicus/" >🔗</a> **[SpaceNews]** EU and UK reach deal on Copernicus
 
 
 
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T211136">2023-09-08 21:11:36 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230908T221234">2023-09-08 22:12:34 UTC</a>
   <br>
 </div>
