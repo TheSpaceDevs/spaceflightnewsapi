@@ -164,7 +164,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/faa-starship-mishap-investigation-complete-but-no-flight-approval-yet/" >🔗</a> **[SpacePolicyOnline.com]** FAA: Starship Mishap Investigation Complete, But No Flight Approval Yet
 
 
-- <a href="https://tlpnetwork.com/news/2023/09/redwire-successfully-3d-prints-human-tissue-on-iss-for-first-time" >🔗</a> **[The Launch Pad]** BREAKING! Redwire Successfully 3D Prints Human Tissue in Microgravity Aboard the ISS & Returns It To Earth
+- <a href="https://tlpnetwork.com/news/2023/09/redwire-successfully-3d-prints-human-tissue-on-iss-for-first-time" >🔗</a> **[The Launch Pad]** Redwire Successfully 3D Prints Human Tissue in Microgravity Aboard the ISS & Returns It To Earth
 
 
 - <a href="https://spacenews.com/virgin-galactic-completes-third-commercial-spaceshiptwo-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic completes third commercial SpaceShipTwo flight
@@ -224,6 +224,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230909T091147">2023-09-09 09:11:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230909T101307">2023-09-09 10:13:07 UTC</a>
   <br>
 </div>
