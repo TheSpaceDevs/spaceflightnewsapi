@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/open-cosmos-raises-50-million-to-expand-earth-observation-satellite-business/" >🔗</a> **[SpaceNews]** Open Cosmos raises $50 million to expand Earth observation satellite business
+
+
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-10-16-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 10-16, 2023
 
 
@@ -189,15 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/09/south-africa-formally-partners-china-on-lunar-base" >🔗</a> **[The Launch Pad]** South Africa Formally Partners With China On Lunar Base
 
 
-- <a href="https://spacepolicyonline.com/news/faa-starship-mishap-investigation-complete-but-no-flight-approval-yet/" >🔗</a> **[SpacePolicyOnline.com]** FAA: Starship Mishap Investigation Complete, But No Flight Approval Yet
-
-
-  - <a href="https://go4liftoff.com/launch/id/e32d375f-0d6e-4e54-b4f2-2b49db657fca" >🚀</a> **Starship | Integrated Flight Test** from SpaceX Space Launch Facility, TX, USA
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230910T221145">2023-09-10 22:11:45 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230910T231250">2023-09-10 23:12:50 UTC</a>
   <br>
 </div>
