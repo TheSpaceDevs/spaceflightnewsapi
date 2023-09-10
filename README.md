@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/ulas-atlas-5-launches-national-reconnaissance-office-mission/" >🔗</a> **[SpaceNews]** ULA’s Atlas 5 launches National Reconnaissance Office mission
+
+
 - <a href="https://www.nasaspaceflight.com/2023/09/ula-nrol-107/" >🔗</a> **[NASASpaceflight]** ULA shooting for Sunday NROL-107 launch, last Atlas NRO mission
 
 
@@ -191,13 +194,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/09/redwire-successfully-3d-prints-human-tissue-on-iss-for-first-time" >🔗</a> **[The Launch Pad]** Redwire Successfully 3D Prints Human Tissue in Microgravity Aboard the ISS & Returns It To Earth
 
 
-- <a href="https://spacenews.com/virgin-galactic-completes-third-commercial-spaceshiptwo-flight/" >🔗</a> **[SpaceNews]** Virgin Galactic completes third commercial SpaceShipTwo flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/3a26da85-1135-4784-b55a-6c5185e0aab6" >🚀</a> **SpaceShipTwo | Galactic 03** from Air launch to Suborbital flight
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +232,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230910T122422">2023-09-10 12:24:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230910T131424">2023-09-10 13:14:24 UTC</a>
   <br>
 </div>
