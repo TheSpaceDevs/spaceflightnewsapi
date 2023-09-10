@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-10-16-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 10-16, 2023
+
+
 - <a href="https://spacenews.com/ulas-atlas-5-launches-national-reconnaissance-office-mission/" >🔗</a> **[SpaceNews]** ULA’s Atlas 5 launches National Reconnaissance Office mission
 
 
@@ -195,9 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/09/redwire-successfully-3d-prints-human-tissue-on-iss-for-first-time" >🔗</a> **[The Launch Pad]** Redwire Successfully 3D Prints Human Tissue in Microgravity Aboard the ISS & Returns It To Earth
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230910T181542">2023-09-10 18:15:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230910T191019">2023-09-10 19:10:19 UTC</a>
   <br>
 </div>
