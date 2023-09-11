@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/former-airbus-executive-chris-emerson-named-chairman-of-all-space/" >🔗</a> **[SpaceNews]** Former Airbus executive Chris Emerson named chairman of All.Space
+
+
 - <a href="https://spacenews.com/paige-mccullough-promoted-to-vice-president-of-business-development-at-spacenews/" >🔗</a> **[SpaceNews]** Paige McCullough Promoted to Vice President of Business Development at SpaceNews
 
 
@@ -189,9 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://tlpnetwork.com/news/2023/09/relativity-space-expands-nasa-stennis-ops-with-historic-test-stand-lease" >🔗</a> **[The Launch Pad]** Relativity Space Expands NASA Stennis Ops With Historic Test Stand Lease
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T091437">2023-09-11 09:14:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T101506">2023-09-11 10:15:06 UTC</a>
   <br>
 </div>
