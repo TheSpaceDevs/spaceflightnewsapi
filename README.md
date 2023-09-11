@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/former-white-house-space-policy-official-audrey-schaffer-joins-slingshot-aerospace/" >🔗</a> **[SpaceNews]** Former White House space policy official Audrey Schaffer joins Slingshot Aerospace
+
+
 - <a href="https://spacenews.com/former-airbus-executive-chris-emerson-named-chairman-of-all-space/" >🔗</a> **[SpaceNews]** Former Airbus executive Chris Emerson named chairman of All.Space
 
 
@@ -183,13 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/avio-financials-boosted-by-eu-covid-recovery-funds-and-missile-contracts/" >🔗</a> **[European Spaceflight]** Avio Financials Boosted by EU Covid Recovery Funds and Missile Contracts
-
-
-- <a href="https://tlpnetwork.com/news/2023/09/virgin-galactic-galactic-03-mission-complete-mystery-crew-revealed" >🔗</a> **[The Launch Pad]** Virgin Galactic's Galactic 03 Mission Complete, Mystery Crew Revealed
-
-
-  - <a href="https://go4liftoff.com/launch/id/3a26da85-1135-4784-b55a-6c5185e0aab6" >🚀</a> **SpaceShipTwo | Galactic 03** from Air launch to Suborbital flight
-
 
 
 
@@ -230,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T111137">2023-09-11 11:11:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T122752">2023-09-11 12:27:52 UTC</a>
   <br>
 </div>
