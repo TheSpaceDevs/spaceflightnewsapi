@@ -28,7 +28,7 @@ django-minio-backend = "^3.5.0"
 
 [tool.poetry.group.dev.dependencies]
 django-stubs = {extras = ["compatible-mypy"], version = "^4.2.3"}
-black = "^23.3.0"
+black = "^23.9.1"
 isort = "^5.11.4"
 djangorestframework-stubs = "^3.14.0"
 celery-stubs = "^0.1.3"
