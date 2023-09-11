@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-leadership-to-call-agency-s-record-breaking-astronaut-in-space" >🔗</a> **[NASA]** NASA Leadership to Call Agency’s Record-Breaking Astronaut in Space
+
+
 - <a href="https://spacenews.com/telesat-signs-multi-launch-spacex-deal-covering-all-lightspeed-satellites/" >🔗</a> **[SpaceNews]** Telesat signs multi-launch SpaceX deal covering all Lightspeed satellites
 
 
@@ -173,12 +176,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.cnbc.com/2023/09/11/us-export-import-bank-working-through-5-billion-space-pipeline.html" >🔗</a> **[CNBC]** U.S. export credit agency is working through $5 billion pipeline of space financing, vice chair says
 
 
-- <a href="https://spacenews.com/former-white-house-space-policy-official-audrey-schaffer-joins-slingshot-aerospace/" >🔗</a> **[SpaceNews]** Former White House space policy official Audrey Schaffer joins Slingshot Aerospace
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-september-4-10-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: September 4-10, 2023
+
 
 - <a href="https://www.planetary.org/the-downlink/cometary-sights-and-sounds" >🔗</a> **[Planetary Society]** Cometary sights and sounds
 
@@ -207,13 +210,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/articles/your-impact-september-equinox-2023" >🔗</a> **[Planetary Society]** Your impact: September equinox 2023
 
 
-- <a href="https://www.planetary.org/articles/to-the-moon-together" >🔗</a> **[Planetary Society]** To the moon together
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T181736">2023-09-11 18:17:36 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T191102">2023-09-11 19:11:02 UTC</a>
   <br>
 </div>
