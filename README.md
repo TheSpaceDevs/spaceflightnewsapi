@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/techstars-welcomes-12-startups-to-2023-space-accelerator/" >🔗</a> **[SpaceNews]** Techstars welcomes 12 startups to 2023 Space Accelerator
+
+
+- <a href="https://tlpnetwork.com/news/2023/09/jwst-discovers-methane-co2-on-k2-18b-possible-dms-detection" >🔗</a> **[The Launch Pad]** BREAKING! JWST Discovers Methane, CO2 On on K2-18b, Possible DMS Detection
+
+
 - <a href="https://www.cnbc.com/2023/09/11/telesat-buys-spacex-launches-for-lightspeed-internet-satellites.html" >🔗</a> **[CNBC]** Telesat buys SpaceX launches for Lightspeed internet satellites
 
 
@@ -168,12 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/paige-mccullough-promoted-to-vice-president-of-business-development-at-spacenews/" >🔗</a> **[SpaceNews]** Paige McCullough Promoted to Vice President of Business Development at SpaceNews
-
-
-- <a href="https://spacenews.com/open-cosmos-raises-50-million-to-expand-earth-observation-satellite-business/" >🔗</a> **[SpaceNews]** Open Cosmos raises $50 million to expand Earth observation satellite business
-
-
-- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-10-16-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 10-16, 2023
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T151451">2023-09-11 15:14:51 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T161815">2023-09-11 16:18:15 UTC</a>
   <br>
 </div>
