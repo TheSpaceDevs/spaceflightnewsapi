@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/09/11/telesat-buys-spacex-launches-for-lightspeed-internet-satellites.html" >🔗</a> **[CNBC]** Telesat buys SpaceX launches for Lightspeed internet satellites
+
+
+- <a href="https://europeanspaceflight.com/has-avio-begun-developing-a-second-gen-space-rider-vehicle/" >🔗</a> **[European Spaceflight]** Has Avio Begun Developing a Second-Gen Space Rider Vehicle?
+
+
 - <a href="https://spacenews.com/itu-emphasizes-importance-of-space-sustainability/" >🔗</a> **[SpaceNews]** ITU emphasizes importance of space sustainability
 
 
@@ -168,20 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-10-16-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 10-16, 2023
-
-
-- <a href="https://spacenews.com/ulas-atlas-5-launches-national-reconnaissance-office-mission/" >🔗</a> **[SpaceNews]** ULA’s Atlas 5 launches National Reconnaissance Office mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/e9a5015d-aa12-4f65-9888-1248ff67ba6e" >🚀</a> **Atlas V 551 | NROL-107 (Silent Barker)** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/09/ula-nrol-107/" >🔗</a> **[NASASpaceflight]** ULA conducts NROL-107 launch, last Atlas NRO mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/e9a5015d-aa12-4f65-9888-1248ff67ba6e" >🚀</a> **Atlas V 551 | NROL-107 (Silent Barker)** from Cape Canaveral, FL, USA
-
 
 
 
@@ -222,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T141322">2023-09-11 14:13:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T151451">2023-09-11 15:14:51 UTC</a>
   <br>
 </div>
