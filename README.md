@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/itu-emphasizes-importance-of-space-sustainability/" >🔗</a> **[SpaceNews]** ITU emphasizes importance of space sustainability
+
+
+- <a href="https://spacenews.com/geost-payloads-selected-for-space-development-agency-satellites/" >🔗</a> **[SpaceNews]** Geost payloads selected for Space Development Agency satellites
+
+
 - <a href="https://www.cnbc.com/2023/09/11/us-export-import-bank-working-through-5-billion-space-pipeline.html" >🔗</a> **[CNBC]** U.S. export credit agency is working through $5 billion pipeline of space financing, vice chair says
 
 
@@ -176,16 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/e9a5015d-aa12-4f65-9888-1248ff67ba6e" >🚀</a> **Atlas V 551 | NROL-107 (Silent Barker)** from Cape Canaveral, FL, USA
 
-
-
-- <a href="https://www.nasaspaceflight.com/2023/09/swift-j0230/" >🔗</a> **[NASASpaceflight]** Using new data analysis tool on Swift, scientists discover black hole snacking on a star
-
-
-  - <a href="https://go4liftoff.com/launch/id/db02116f-17ba-429a-b6c1-8e7f13b5e787" >🚀</a> **Delta II | Swift** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/viasat-researching-more-portable-satcoms-terminals-for-dismounted-soldiers/" >🔗</a> **[SpaceNews]** Viasat researching more portable satcoms terminals for dismounted soldiers
 
 
 
@@ -226,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T131754">2023-09-11 13:17:54 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T141322">2023-09-11 14:13:22 UTC</a>
   <br>
 </div>
