@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/air-force-satisfied-with-spacex-services-not-concerned-about-its-growing-dominance/" >🔗</a> **[SpaceNews]** Air Force satisfied with SpaceX services, not concerned about its growing dominance
+
+
+- <a href="https://spacenews.com/legacy-satellite-operators-take-stock-of-starlink-fueled-transformation/" >🔗</a> **[SpaceNews]** Legacy satellite operators take stock of Starlink-fueled transformation
+
+
 - <a href="https://spacenews.com/ball-wins-489-6-million-contract-to-deliver-next-generation-weather-satellite-sounder/" >🔗</a> **[SpaceNews]** Ball wins $489.6 million contract to deliver next-generation weather satellite sounder
 
 
@@ -168,16 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/techstars-welcomes-12-startups-to-2023-space-accelerator/" >🔗</a> **[SpaceNews]** Techstars welcomes 12 startups to 2023 Space Accelerator
-
-
-- <a href="https://tlpnetwork.com/news/2023/09/jwst-discovers-methane-co2-on-k2-18b-possible-dms-detection" >🔗</a> **[The Launch Pad]** BREAKING! JWST Discovers Methane, CO2 On on K2-18b, Possible DMS Detection
-
-
-  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
-
-
-
-- <a href="https://www.cnbc.com/2023/09/11/telesat-buys-spacex-launches-for-lightspeed-internet-satellites.html" >🔗</a> **[CNBC]** Telesat buys SpaceX launches for Lightspeed internet satellites
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230911T231418">2023-09-11 23:14:18 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T005932">2023-09-12 00:59:32 UTC</a>
   <br>
 </div>
