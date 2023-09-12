@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-force-to-create-integrated-units-responsible-for-acquisition-maintenance-and-operations/" >🔗</a> **[SpaceNews]** Space Force to create “integrated” units responsible for acquisition, maintenance and operations
+
+
+- <a href="https://spacenews.com/phase-four-demonstrates-maxwell-block-2-thruster-in-orbit/" >🔗</a> **[SpaceNews]** Phase Four demonstrates Maxwell Block 2 thruster in orbit
+
+
 - <a href="https://spacenews.com/intelsat-plotting-a-meo-constellation-in-2027-with-c-band-windfall/" >🔗</a> **[SpaceNews]** Intelsat plotting a MEO constellation in 2027 with C-band windfall
 
 
@@ -186,16 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/dla-piper-expands-legal-services-for-space-industry/" >🔗</a> **[SpaceNews]** DLA Piper expands legal services for space industry
 
 
-- <a href="https://arstechnica.com/space/2023/09/a-year-after-new-shepards-accident-blue-origin-may-return-to-flight-next-month/" >🔗</a> **[Arstechnica]** A year after New Shepard’s accident, Blue Origin may return to flight next month
-
-
-  - <a href="https://go4liftoff.com/launch/id/d4a6a953-d1b2-4f68-b891-b9c75fc96ff2" >🚀</a> **New Shepard | NS-23** from Corn Ranch, Van Horn, TX, USA
-
-
-
-- <a href="https://www.cnbc.com/2023/09/12/spacex-near-rocket-market-monopoly-is-huge-concern-lazard-banker.html" >🔗</a> **[CNBC]** SpaceX’s near monopoly on rocket launches is a ‘huge concern,’ Lazard banker warns
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T201441">2023-09-12 20:14:41 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T211155">2023-09-12 21:11:55 UTC</a>
   <br>
 </div>
