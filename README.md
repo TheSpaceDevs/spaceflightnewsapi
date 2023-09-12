@@ -146,13 +146,32 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/intelsat-plotting-a-meo-constellation-in-2027-with-c-band-windfall/" >🔗</a> **[SpaceNews]** Intelsat plotting a MEO constellation in 2027 with C-band windfall
+
+
 - <a href="https://tlpnetwork.com/news/2023/09/ax3-crew" >🔗</a> **[The Launch Pad]** Axiom Space Announces International Crew Of Axiom 3 Mission
+
+
+  - <a href="https://go4liftoff.com/launch/id/da48063e-b50f-4602-adab-ad7331ee6d82" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 3** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-sets-coverage-for-launch-docking-of-new-space-station-crew" >🔗</a> **[NASA]** NASA Sets Coverage for Launch, Docking of New Space Station Crew
 
 
+  - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/773" >📆</a> **Soyuz MS-24 Docking**
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-partners-clear-axiom-space-s-third-private-astronaut-crew" >🔗</a> **[NASA]** NASA, Partners Clear Axiom Space’s Third Private Astronaut Crew
+
+
+  - <a href="https://go4liftoff.com/launch/id/da48063e-b50f-4602-adab-ad7331ee6d82" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 3** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-receives-decadal-survey-on-biological-physical-sciences-research" >🔗</a> **[NASA]** NASA Receives Decadal Survey on Biological, Physical Sciences Research
@@ -175,9 +194,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/09/12/spacex-near-rocket-market-monopoly-is-huge-concern-lazard-banker.html" >🔗</a> **[CNBC]** SpaceX’s near monopoly on rocket launches is a ‘huge concern,’ Lazard banker warns
-
-
-- <a href="https://spacenews.com/arianespace-to-launch-intelsat-small-geo-satellite/" >🔗</a> **[SpaceNews]** Arianespace to launch Intelsat small GEO satellite
 
 
 
@@ -218,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T191042">2023-09-12 19:10:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T201441">2023-09-12 20:14:41 UTC</a>
   <br>
 </div>
