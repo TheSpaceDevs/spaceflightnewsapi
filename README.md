@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/09/starlink-7-2-6-14/" >🔗</a> **[NASASpaceflight]** SpaceX to conduct 65th and 66th launches of 2023
+
+
 - <a href="https://spacenews.com/air-force-satisfied-with-spacex-services-not-concerned-about-its-growing-dominance/" >🔗</a> **[SpaceNews]** Air Force satisfied with SpaceX services, not concerned about its growing dominance
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/telesat-qa-getting-back-to-lightspeed/" >🔗</a> **[SpaceNews]** Telesat Q&A | Getting back to Lightspeed
-
-
-- <a href="https://spacenews.com/techstars-welcomes-12-startups-to-2023-space-accelerator/" >🔗</a> **[SpaceNews]** Techstars welcomes 12 startups to 2023 Space Accelerator
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T021843">2023-09-12 02:18:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T031404">2023-09-12 03:14:04 UTC</a>
   <br>
 </div>
