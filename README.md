@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/nasas-severely-underfunded-biological-and-physical-sciences-research-program-needs-tenfold-increase/" >🔗</a> **[SpacePolicyOnline.com]** NASA’s “Severely Underfunded” Biological and Physical Sciences Research Program Needs Tenfold Increase
+
+
+- <a href="https://spacenews.com/kuiper-launch-companies-say-they-can-meet-amazons-schedule/" >🔗</a> **[SpaceNews]** Kuiper launch companies say they can meet Amazon’s schedule
+
+
 - <a href="https://spacenews.com/space-force-to-create-integrated-units-responsible-for-acquisition-maintenance-and-operations/" >🔗</a> **[SpaceNews]** Space Force to create “integrated” units responsible for acquisition, maintenance and operations
 
 
@@ -186,12 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/neuraspace-platform-assets-jump-tenfold/" >🔗</a> **[SpaceNews]** NeuraSpace platform assets jump tenfold
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-to-release-discuss-unidentified-anomalous-phenomena-report" >🔗</a> **[NASA]** NASA to Release, Discuss Unidentified Anomalous Phenomena Report
-
-
-- <a href="https://spacenews.com/dla-piper-expands-legal-services-for-space-industry/" >🔗</a> **[SpaceNews]** DLA Piper expands legal services for space industry
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T221308">2023-09-12 22:13:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T231330">2023-09-12 23:13:30 UTC</a>
   <br>
 </div>
