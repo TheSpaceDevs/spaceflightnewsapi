@@ -149,6 +149,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.nasaspaceflight.com/2023/09/starlink-7-2-6-14/" >🔗</a> **[NASASpaceflight]** SpaceX to conduct 65th and 66th launches of 2023
 
 
+  - <a href="https://go4liftoff.com/launch/id/8ab7d138-f248-450f-94a6-0e957c1b19f2" >🚀</a> **Falcon 9 Block 5 | Starlink Group 7-2** from Vandenberg SFB, CA, USA
+
+  - <a href="https://go4liftoff.com/launch/id/470bac70-cd8c-45fd-9a54-08f8f8f05049" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-16** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/air-force-satisfied-with-spacex-services-not-concerned-about-its-growing-dominance/" >🔗</a> **[SpaceNews]** Air Force satisfied with SpaceX services, not concerned about its growing dominance
 
 
@@ -214,6 +220,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T061803">2023-09-12 06:18:03 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T071248">2023-09-12 07:12:48 UTC</a>
   <br>
 </div>
