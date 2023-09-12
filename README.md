@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/09/ax3-crew" >🔗</a> **[The Launch Pad]** Axiom Space Announces International Crew Of Axiom 3 Mission
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-sets-coverage-for-launch-docking-of-new-space-station-crew" >🔗</a> **[NASA]** NASA Sets Coverage for Launch, Docking of New Space Station Crew
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/arianespace-to-launch-intelsat-small-geo-satellite/" >🔗</a> **[SpaceNews]** Arianespace to launch Intelsat small GEO satellite
-
-
-- <a href="https://spacenews.com/overseas-firms-on-a-journey-to-establish-themselves-as-u-s-entities/" >🔗</a> **[SpaceNews]** Overseas firms on a journey to establish themselves as U.S. entities
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T161811">2023-09-12 16:18:11 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T171219">2023-09-12 17:12:19 UTC</a>
   <br>
 </div>
