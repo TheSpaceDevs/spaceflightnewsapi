@@ -146,10 +146,26 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-receives-decadal-survey-on-biological-physical-sciences-research" >🔗</a> **[NASA]** NASA Receives Decadal Survey on Biological, Physical Sciences Research
+
+
+- <a href="https://spacenews.com/neuraspace-platform-assets-jump-tenfold/" >🔗</a> **[SpaceNews]** NeuraSpace platform assets jump tenfold
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-to-release-discuss-unidentified-anomalous-phenomena-report" >🔗</a> **[NASA]** NASA to Release, Discuss Unidentified Anomalous Phenomena Report
+
+
 - <a href="https://spacenews.com/dla-piper-expands-legal-services-for-space-industry/" >🔗</a> **[SpaceNews]** DLA Piper expands legal services for space industry
 
 
 - <a href="https://arstechnica.com/space/2023/09/a-year-after-new-shepards-accident-blue-origin-may-return-to-flight-next-month/" >🔗</a> **[Arstechnica]** A year after New Shepard’s accident, Blue Origin may return to flight next month
+
+
+  - <a href="https://go4liftoff.com/launch/id/d4a6a953-d1b2-4f68-b891-b9c75fc96ff2" >🚀</a> **New Shepard | NS-23** from Corn Ranch, Van Horn, TX, USA
+
+
+
+- <a href="https://www.cnbc.com/2023/09/12/spacex-near-rocket-market-monopoly-is-huge-concern-lazard-banker.html" >🔗</a> **[CNBC]** SpaceX’s near monopoly on rocket launches is a ‘huge concern,’ Lazard banker warns
 
 
 - <a href="https://spacenews.com/arianespace-to-launch-intelsat-small-geo-satellite/" >🔗</a> **[SpaceNews]** Arianespace to launch Intelsat small GEO satellite
@@ -162,24 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/polaris-spaceplanes-completes-mira-light-vehicle-test-campaign/" >🔗</a> **[European Spaceflight]** POLARIS Spaceplanes Completes MIRA-Light Vehicle Test Campaign
-
-
-- <a href="https://www.nasaspaceflight.com/2023/09/starlink-7-2-6-14/" >🔗</a> **[NASASpaceflight]** SpaceX to conduct 65th and 66th launches of 2023
-
-
-  - <a href="https://go4liftoff.com/launch/id/8ab7d138-f248-450f-94a6-0e957c1b19f2" >🚀</a> **Falcon 9 Block 5 | Starlink Group 7-2** from Vandenberg SFB, CA, USA
-
-  - <a href="https://go4liftoff.com/launch/id/470bac70-cd8c-45fd-9a54-08f8f8f05049" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-16** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/air-force-satisfied-with-spacex-services-not-concerned-about-its-growing-dominance/" >🔗</a> **[SpaceNews]** Air Force satisfied with SpaceX services, not concerned about its growing dominance
-
-
-- <a href="https://spacenews.com/legacy-satellite-operators-take-stock-of-starlink-fueled-transformation/" >🔗</a> **[SpaceNews]** Legacy satellite operators take stock of Starlink-fueled transformation
-
-
-- <a href="https://spacenews.com/ball-wins-489-6-million-contract-to-deliver-next-generation-weather-satellite-sounder/" >🔗</a> **[SpaceNews]** Ball wins $489.6 million contract to deliver next-generation weather satellite sounder
 
 
 
@@ -220,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T141253">2023-09-12 14:12:53 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T151428">2023-09-12 15:14:28 UTC</a>
   <br>
 </div>
