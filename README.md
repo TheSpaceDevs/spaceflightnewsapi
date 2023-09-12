@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-sets-coverage-for-launch-docking-of-new-space-station-crew" >🔗</a> **[NASA]** NASA Sets Coverage for Launch, Docking of New Space Station Crew
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-partners-clear-axiom-space-s-third-private-astronaut-crew" >🔗</a> **[NASA]** NASA, Partners Clear Axiom Space’s Third Private Astronaut Crew
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-receives-decadal-survey-on-biological-physical-sciences-research" >🔗</a> **[NASA]** NASA Receives Decadal Survey on Biological, Physical Sciences Research
 
 
@@ -172,12 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/overseas-firms-on-a-journey-to-establish-themselves-as-u-s-entities/" >🔗</a> **[SpaceNews]** Overseas firms on a journey to establish themselves as U.S. entities
-
-
-- <a href="https://spacenews.com/comtech-plans-to-establish-networks-in-a-matter-of-hours/" >🔗</a> **[SpaceNews]** Comtech plans to establish networks “in a matter of hours”
-
-
-- <a href="https://europeanspaceflight.com/polaris-spaceplanes-completes-mira-light-vehicle-test-campaign/" >🔗</a> **[European Spaceflight]** POLARIS Spaceplanes Completes MIRA-Light Vehicle Test Campaign
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T151428">2023-09-12 15:14:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230912T161811">2023-09-12 16:18:11 UTC</a>
   <br>
 </div>
