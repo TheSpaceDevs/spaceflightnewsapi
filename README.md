@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/small-satellite-maker-swissto12-gets-capital-to-shake-up-geo-market/" >🔗</a> **[SpaceNews]** Small satellite maker Swissto12 gets capital to shake up GEO market
+
+
+- <a href="https://spacenews.com/decadal-survey-recommends-massive-funding-increase-for-nasa-biological-and-physical-sciences/" >🔗</a> **[SpaceNews]** Decadal survey recommends massive funding increase for NASA biological and physical sciences
+
+
 - <a href="https://spacepolicyonline.com/news/nasas-severely-underfunded-biological-and-physical-sciences-research-program-needs-tenfold-increase/" >🔗</a> **[SpacePolicyOnline.com]** NASA’s “Severely Underfunded” Biological and Physical Sciences Research Program Needs Tenfold Increase
 
 
@@ -186,12 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-receives-decadal-survey-on-biological-physical-sciences-research" >🔗</a> **[NASA]** NASA Receives Decadal Survey on Biological, Physical Sciences Research
-
-
-- <a href="https://spacenews.com/neuraspace-platform-assets-jump-tenfold/" >🔗</a> **[SpaceNews]** NeuraSpace platform assets jump tenfold
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230913T051253">2023-09-13 05:12:53 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230913T061820">2023-09-13 06:18:20 UTC</a>
   <br>
 </div>
