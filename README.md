@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.teslarati.com/spacex-no-longer-losing-money-starlink-antenna-production/" >🔗</a> **[Teslarati]** SpaceX says it is no longer losing money with Starlink production
+
+
+- <a href="https://www.cnbc.com/2023/09/13/spacex-no-longer-taking-losses-to-produce-starlink-satellite-antennas.html" >🔗</a> **[CNBC]** SpaceX no longer taking losses to produce Starlink antennas, a key step to improving profitability
+
+
 - <a href="https://spacenews.com/microsoft-and-esri-to-speed-up-access-to-earth-observation-data/" >🔗</a> **[SpaceNews]** Microsoft and Esri to speed up access to Earth-observation data
 
 
@@ -172,12 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/nasas-severely-underfunded-biological-and-physical-sciences-research-program-needs-tenfold-increase/" >🔗</a> **[SpacePolicyOnline.com]** NASA’s “Severely Underfunded” Biological and Physical Sciences Research Program Needs Tenfold Increase
-
-
-- <a href="https://spacenews.com/kuiper-launch-companies-say-they-can-meet-amazons-schedule/" >🔗</a> **[SpaceNews]** Kuiper launch companies say they can meet Amazon’s schedule
-
-
-- <a href="https://spacenews.com/space-force-to-create-integrated-units-responsible-for-acquisition-maintenance-and-operations/" >🔗</a> **[SpaceNews]** Space Force to create “integrated” units responsible for acquisition, maintenance and operations
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230913T151427">2023-09-13 15:14:27 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230913T171208">2023-09-13 17:12:08 UTC</a>
   <br>
 </div>
