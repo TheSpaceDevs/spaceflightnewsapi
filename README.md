@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/european-industry-could-generate-e9-9-billion-from-crewed-launch/" >🔗</a> **[European Spaceflight]** European Industry Could Generate €9.9 Billion From Crewed Launch
+
+
 - <a href="https://spacenews.com/space-force-to-release-guidelines-for-the-use-of-commercial-satellite-services/" >🔗</a> **[SpaceNews]** Space Force to release guidelines for the use of commercial satellite services
 
 
@@ -171,13 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/intelsat-and-aalyria-aim-for-subsea-cables-in-space/" >🔗</a> **[SpaceNews]** Intelsat and Aalyria aim for “subsea cables in space”
-
-
-- <a href="https://spacenews.com/axiom-space-names-crew-for-third-private-astronaut-mission-to-iss/" >🔗</a> **[SpaceNews]** Axiom Space names crew for third private astronaut mission to ISS
-
-
-  - <a href="https://go4liftoff.com/launch/id/da48063e-b50f-4602-adab-ad7331ee6d82" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 3** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230913T201239">2023-09-13 20:12:39 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230913T211007">2023-09-13 21:10:07 UTC</a>
   <br>
 </div>
