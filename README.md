@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-force-to-release-guidelines-for-the-use-of-commercial-satellite-services/" >🔗</a> **[SpaceNews]** Space Force to release guidelines for the use of commercial satellite services
+
+
 - <a href="https://arstechnica.com/space/2023/09/a-nasa-astronaut-will-finally-spend-a-full-year-in-space/" >🔗</a> **[Arstechnica]** A NASA astronaut will finally spend a full year in space
 
 
@@ -175,9 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/da48063e-b50f-4602-adab-ad7331ee6d82" >🚀</a> **Falcon 9 Block 5 | Axiom Space Mission 3** from Kennedy Space Center, FL, USA
 
-
-
-- <a href="https://www.cnbc.com/2023/09/13/spacex-starlink-partners-with-ses-for-combined-cruise-market-service.html" >🔗</a> **[CNBC]** SpaceX’s Starlink partners with European satellite giant SES for combined cruise market service
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230913T191102">2023-09-13 19:11:02 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230913T201239">2023-09-13 20:12:39 UTC</a>
   <br>
 </div>
