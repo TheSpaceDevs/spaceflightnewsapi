@@ -164,13 +164,27 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/09/a-nasa-astronaut-will-finally-spend-a-full-year-in-space/" >🔗</a> **[Arstechnica]** A NASA astronaut will finally spend a full year in space
 
 
+  - <a href="https://go4liftoff.com/launch/id/bc73ec4f-633e-4eb5-8b8e-5c996ea1733f" >🚀</a> **Soyuz 2.1a | Soyuz MS-22** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+  - <a href="https://go4liftoff.com/launch/id/e3290e0e-d967-4a5d-95eb-f8fae06a9034" >🚀</a> **Soyuz 2.1a | Soyuz MS-23** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+
+
 - <a href="https://www.nasaspaceflight.com/2023/09/space-x-wait-faa-approval-starship-flight-two/" >🔗</a> **[NASASpaceflight]** SpaceX waiting for FAA to approve launch licence for Starship’s second flight
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
 
 
 - <a href="https://spacenews.com/ula-has-no-issues-with-space-force-plan-to-select-three-national-security-launch-providers/" >🔗</a> **[SpaceNews]** ULA has ‘no issues’ with Space Force plan to select three national security launch providers
 
 
 - <a href="https://tlpnetwork.com/news/2023/09/nasa-releases-artemis-1-in-flight-anomalies-breakdown" >🔗</a> **[The Launch Pad]** NASA Releases Artemis 1 In Flight Anomalies Breakdown
+
+
+  - <a href="https://go4liftoff.com/launch/id/65896761-b6ca-4df3-9699-e077a360c52a" >🚀</a> **SLS Block 1 | Artemis I** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://www.teslarati.com/spacex-no-longer-losing-money-starlink-antenna-production/" >🔗</a> **[Teslarati]** SpaceX says it is no longer losing money with Starlink production
@@ -214,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230914T071256">2023-09-14 07:12:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230914T081738">2023-09-14 08:17:38 UTC</a>
   <br>
 </div>
