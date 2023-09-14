@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/09/rs-25-installation-artemis-ii-core-stage/" >🔗</a> **[NASASpaceflight]** RS-25 engine installation into the Artemis II SLS Core Stage begins
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-announces-summer-2023-hottest-on-record" >🔗</a> **[NASA]** NASA Announces Summer 2023 Hottest on Record
+
+
+- <a href="https://spacenews.com/kaleideo-demonstrates-on-orbit-processing/" >🔗</a> **[SpaceNews]** KaleidEO demonstrates on-orbit processing
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-shares-unidentified-anomalous-phenomena-independent-study-report" >🔗</a> **[NASA]** NASA Shares Unidentified Anomalous Phenomena Independent Study Report
 
 
@@ -169,15 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/ses-qa-leveling-up-multi-orbit-connectivity/" >🔗</a> **[SpaceNews]** SES Q&A | Leveling up multi-orbit connectivity
-
-
-- <a href="https://spacenews.com/rapid-starlink-iteration-poses-challenges-for-resellers/" >🔗</a> **[SpaceNews]** Rapid Starlink iteration poses challenges for resellers
-
-
-- <a href="https://europeanspaceflight.com/european-industry-could-generate-e9-9-billion-from-crewed-launch/" >🔗</a> **[European Spaceflight]** European Industry Could Generate €9.9 Billion From Crewed Launch
-
-
-- <a href="https://spacenews.com/space-force-to-release-guidelines-for-the-use-of-commercial-satellite-services/" >🔗</a> **[SpaceNews]** Space Force to release guidelines for the use of commercial satellite services
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230914T151428">2023-09-14 15:14:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230914T161808">2023-09-14 16:18:08 UTC</a>
   <br>
 </div>
