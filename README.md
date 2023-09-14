@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/update-nasa-shares-uap-independent-study-report-names-director" >🔗</a> **[NASA]** UPDATE: NASA Shares UAP Independent Study Report; Names Director
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-to-reveal-asteroid-sample-grabbed-in-space-delivered-to-earth" >🔗</a> **[NASA]** NASA to Reveal Asteroid Sample Grabbed in Space, Delivered to Earth
 
 
@@ -171,13 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://tlpnetwork.com/news/2023/09/nasa-releases-independent-uap-report" >🔗</a> **[The Launch Pad]** BREAKING! NASA Releases Independent UAP Report "UAP Pose A Threat To US Airspace Safety"
-
-
-- <a href="https://spacenews.com/space-force-keeping-the-responsive-launch-dream-alive/" >🔗</a> **[SpaceNews]** Space Force keeping the ‘responsive launch’ dream alive
-
-
-  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
-
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230914T201439">2023-09-14 20:14:39 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230914T211150">2023-09-14 21:11:50 UTC</a>
   <br>
 </div>
