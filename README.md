@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-to-reveal-asteroid-sample-grabbed-in-space-delivered-to-earth" >🔗</a> **[NASA]** NASA to Reveal Asteroid Sample Grabbed in Space, Delivered to Earth
+
+
+- <a href="https://spacenews.com/dod-submits-congressionally-mandated-space-policy-report/" >🔗</a> **[SpaceNews]** DoD submits congressionally mandated space policy report
+
+
 - <a href="https://www.cnbc.com/2023/09/14/investing-in-space-industry-enters-new-era.html" >🔗</a> **[CNBC]** Investing in Space: Industry enters new era with tight funding and SpaceX dominance
 
 
@@ -172,12 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
 
-
-
-- <a href="https://spacenews.com/satellite-industry-debates-size-of-direct-to-device-market/" >🔗</a> **[SpaceNews]** Satellite industry debates size of direct-to-device market
-
-
-- <a href="https://spacenews.com/chinas-military-sets-up-new-base-for-space-domain-awareness/" >🔗</a> **[SpaceNews]** China’s military sets up new base for space domain awareness
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230914T190925">2023-09-14 19:09:25 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230914T201439">2023-09-14 20:14:39 UTC</a>
   <br>
 </div>
