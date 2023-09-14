@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/post-spac-space-firms-redoubling-efforts-to-attract-institutional-investors/" >🔗</a> **[SpaceNews]** Post-SPAC space firms redoubling efforts to attract institutional investors
+
+
+- <a href="https://spacenews.com/senate-armed-services-committee-to-probe-starlink-operations-in-ukraine/" >🔗</a> **[SpaceNews]** Senate Armed Services Committee to probe Starlink operations in Ukraine
+
+
 - <a href="http://www.nasa.gov/press-release/update-nasa-shares-uap-independent-study-report-names-director" >🔗</a> **[NASA]** UPDATE: NASA Shares UAP Independent Study Report; Names Director
 
 
@@ -170,15 +176,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/kaleideo-demonstrates-on-orbit-processing/" >🔗</a> **[SpaceNews]** KaleidEO demonstrates on-orbit processing
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-shares-unidentified-anomalous-phenomena-independent-study-report" >🔗</a> **[NASA]** NASA Shares Unidentified Anomalous Phenomena Independent Study Report
-
-
-- <a href="https://tlpnetwork.com/news/2023/09/nasa-releases-independent-uap-report" >🔗</a> **[The Launch Pad]** BREAKING! NASA Releases Independent UAP Report "UAP Pose A Threat To US Airspace Safety"
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/articles/guide-to-eclipse-vocabulary" >🔗</a> **[Planetary Society]** A guide to eclipse vocabulary
+
 
 - <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-september-4-10-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: September 4-10, 2023
 
@@ -207,13 +210,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/the-downlink/see-for-yourself" >🔗</a> **[Planetary Society]** See for yourself
 
 
-- <a href="https://www.planetary.org/articles/your-impact-september-equinox-2023" >🔗</a> **[Planetary Society]** Your impact: September equinox 2023
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230914T211150">2023-09-14 21:11:50 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230914T221238">2023-09-14 22:12:38 UTC</a>
   <br>
 </div>
