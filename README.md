@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/chinas-military-sets-up-new-base-for-space-domain-awareness/" >🔗</a> **[SpaceNews]** China’s military sets up new base for space domain awareness
+
+
 - <a href="https://spacenews.com/hawkeye-360-reaches-inflection-point-on-path-to-profitability/" >🔗</a> **[SpaceNews]** HawkEye 360 reaches inflection point on path to profitability
 
 
@@ -187,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://www.teslarati.com/spacex-no-longer-losing-money-starlink-antenna-production/" >🔗</a> **[Teslarati]** SpaceX says it is no longer losing money with Starlink production
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -228,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230914T091342">2023-09-14 09:13:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230914T101521">2023-09-14 10:15:21 UTC</a>
   <br>
 </div>
