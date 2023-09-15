@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-astronaut-crewmates-reach-space-station-for-science-expedition" >🔗</a> **[NASA]** NASA Astronaut, Crewmates Reach Space Station for Science Expedition
+
+
+- <a href="https://spacenews.com/air-force-research-laboratory-delays-lunar-experiment/" >🔗</a> **[SpaceNews]** Air Force Research Laboratory delays lunar experiment
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-to-discuss-optical-communications-demo-riding-with-psyche" >🔗</a> **[NASA]** NASA to Discuss Optical Communications Demo Riding with Psyche
 
 
@@ -168,12 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://arstechnica.com/space/2023/09/firefly-and-space-force-demonstrate-ability-to-rapidly-launch-a-satellite/" >🔗</a> **[Arstechnica]** The US military just proved it can get satellites into space super fast
-
-
-- <a href="https://arstechnica.com/space/2023/09/rocket-report-new-shepard-may-fly-soon-ula-changes-mind-on-dod-competition/" >🔗</a> **[Arstechnica]** Rocket Report: New Shepard may fly soon; ULA changes mind on DoD competition
-
-
-- <a href="https://europeanspaceflight.com/pld-space-to-hire-150-new-employees-by-2024/" >🔗</a> **[European Spaceflight]** PLD Space to Hire 150 New Employees by 2024
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T191058">2023-09-15 19:10:58 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T201405">2023-09-15 20:14:05 UTC</a>
   <br>
 </div>
