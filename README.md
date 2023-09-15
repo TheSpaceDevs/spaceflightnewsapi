@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/firefly-launches-space-force-victus-nox-mission/" >🔗</a> **[SpaceNews]** Firefly launches Space Force ‘Victus Nox’ mission
+
+
 - <a href="https://spacenews.com/ex-im-bank-considering-more-than-5-billion-in-space-industry-financing/" >🔗</a> **[SpaceNews]** Ex-Im Bank considering more than $5 billion in space industry financing
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/dod-submits-congressionally-mandated-space-policy-report/" >🔗</a> **[SpaceNews]** DoD submits congressionally mandated space policy report
-
-
-- <a href="https://www.cnbc.com/2023/09/14/investing-in-space-industry-enters-new-era.html" >🔗</a> **[CNBC]** Investing in Space: Industry enters new era with tight funding and SpaceX dominance
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T071238">2023-09-15 07:12:38 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T081749">2023-09-15 08:17:49 UTC</a>
   <br>
 </div>
