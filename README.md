@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-optical-communications-demo-riding-with-psyche" >🔗</a> **[NASA]** NASA to Discuss Optical Communications Demo Riding with Psyche
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-releases-first-season-of-spanish-language-podcast" >🔗</a> **[NASA]** NASA Releases First Season of Spanish-language Podcast
 
 
@@ -171,13 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/pld-space-to-hire-150-new-employees-by-2024/" >🔗</a> **[European Spaceflight]** PLD Space to Hire 150 New Employees by 2024
-
-
-- <a href="https://spacenews.com/firefly-launches-space-force-victus-nox-mission/" >🔗</a> **[SpaceNews]** Firefly launches Space Force ‘Victus Nox’ mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
-
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T161758">2023-09-15 16:17:58 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T171226">2023-09-15 17:12:26 UTC</a>
   <br>
 </div>
