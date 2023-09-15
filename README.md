@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/ex-im-bank-considering-more-than-5-billion-in-space-industry-financing/" >🔗</a> **[SpaceNews]** Ex-Im Bank considering more than $5 billion in space industry financing
+
+
 - <a href="https://spacenews.com/nasa-releases-independent-report-on-uap-research/" >🔗</a> **[SpaceNews]** NASA releases independent report on UAP research
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/09/14/investing-in-space-industry-enters-new-era.html" >🔗</a> **[CNBC]** Investing in Space: Industry enters new era with tight funding and SpaceX dominance
-
-
-- <a href="http://www.nasa.gov/press-release/el-verano-boreal-de-2023-es-el-mas-caluroso-en-el-registro" >🔗</a> **[NASA]** NASA: El verano de 2023 es el más caluroso en el registro
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T051252">2023-09-15 05:12:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T061814">2023-09-15 06:18:14 UTC</a>
   <br>
 </div>
