@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-astronaut-tracy-c-dyson-receives-second-space-station-assignment" >🔗</a> **[NASA]** NASA Astronaut Tracy C. Dyson Receives Second Space Station Assignment
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-s-record-breaking-astronaut-to-discuss-yearlong-mission" >🔗</a> **[NASA]** NASA’s Record-Breaking Astronaut to Discuss Yearlong Mission
+
+
 - <a href="https://spacenews.com/nonprofit-supporting-european-startups-expands-rapidly/" >🔗</a> **[SpaceNews]** Nonprofit supporting European startups expands rapidly
 
 
@@ -174,15 +180,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/germany-joins-artemis-accords/" >🔗</a> **[SpacePolicyOnline.com]** Germany Joins Artemis Accords
 
 
-- <a href="https://spacepolicyonline.com/news/nasa-wants-ufo-discussion-to-shift-from-sensationalism-to-science/" >🔗</a> **[SpacePolicyOnline.com]** NASA Wants UFO Discussion to “Shift from Sensationalism to Science”
-
-
-- <a href="https://spacenews.com/post-spac-space-firms-redoubling-efforts-to-attract-institutional-investors/" >🔗</a> **[SpaceNews]** Post-SPAC space firms redoubling efforts to attract institutional investors
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/the-downlink/lost-and-found" >🔗</a> **[Planetary Society]** Lost and found
+
 
 - <a href="https://www.planetary.org/articles/guide-to-eclipse-vocabulary" >🔗</a> **[Planetary Society]** A guide to eclipse vocabulary
 
@@ -211,13 +214,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.substack.com/p/are-europeans-interested-in-going" >🔗</a> **[European Spaceflight]** Are Europeans interested in going to space?
 
 
-- <a href="https://www.planetary.org/the-downlink/see-for-yourself" >🔗</a> **[Planetary Society]** See for yourself
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T141231">2023-09-15 14:12:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T151345">2023-09-15 15:13:45 UTC</a>
   <br>
 </div>
