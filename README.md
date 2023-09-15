@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/09/rocket-report-new-shepard-may-fly-soon-ula-changes-mind-on-dod-competition/" >🔗</a> **[Arstechnica]** Rocket Report: New Shepard may fly soon; ULA changes mind on DoD competition
+
+
 - <a href="https://europeanspaceflight.com/pld-space-to-hire-150-new-employees-by-2024/" >🔗</a> **[European Spaceflight]** PLD Space to Hire 150 New Employees by 2024
 
 
@@ -175,13 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/update-nasa-shares-uap-independent-study-report-names-director" >🔗</a> **[NASA]** UPDATE: NASA Shares UAP Independent Study Report; Names Director
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-to-reveal-asteroid-sample-grabbed-in-space-delivered-to-earth" >🔗</a> **[NASA]** NASA to Reveal Asteroid Sample Grabbed in Space, Delivered to Earth
-
-
-  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
-
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T101446">2023-09-15 10:14:46 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T111122">2023-09-15 11:11:22 UTC</a>
   <br>
 </div>
