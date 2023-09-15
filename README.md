@@ -146,7 +146,14 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/pld-space-to-hire-150-new-employees-by-2024/" >🔗</a> **[European Spaceflight]** PLD Space to Hire 150 New Employees by 2024
+
+
 - <a href="https://spacenews.com/firefly-launches-space-force-victus-nox-mission/" >🔗</a> **[SpaceNews]** Firefly launches Space Force ‘Victus Nox’ mission
+
+
+  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
+
 
 
 - <a href="https://spacenews.com/ex-im-bank-considering-more-than-5-billion-in-space-industry-financing/" >🔗</a> **[SpaceNews]** Ex-Im Bank considering more than $5 billion in space industry financing
@@ -173,7 +180,8 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-to-reveal-asteroid-sample-grabbed-in-space-delivered-to-earth" >🔗</a> **[NASA]** NASA to Reveal Asteroid Sample Grabbed in Space, Delivered to Earth
 
 
-- <a href="https://spacenews.com/dod-submits-congressionally-mandated-space-policy-report/" >🔗</a> **[SpaceNews]** DoD submits congressionally mandated space policy report
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
 
 
 
@@ -214,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T081749">2023-09-15 08:17:49 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T091345">2023-09-15 09:13:45 UTC</a>
   <br>
 </div>
