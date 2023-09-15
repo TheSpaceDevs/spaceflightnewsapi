@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/germany-joins-artemis-accords/" >🔗</a> **[SpacePolicyOnline.com]** Germany Joins Artemis Accords
+
+
 - <a href="https://spacepolicyonline.com/news/nasa-wants-ufo-discussion-to-shift-from-sensationalism-to-science/" >🔗</a> **[SpacePolicyOnline.com]** NASA Wants UFO Discussion to “Shift from Sensationalism to Science”
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.nasaspaceflight.com/2023/09/rs-25-installation-artemis-ii-core-stage/" >🔗</a> **[NASASpaceflight]** RS-25 engine installation into the Artemis II SLS Core Stage begins
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-announces-summer-2023-hottest-on-record" >🔗</a> **[NASA]** NASA Announces Summer 2023 Hottest on Record
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T031424">2023-09-15 03:14:24 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T041619">2023-09-15 04:16:19 UTC</a>
   <br>
 </div>
