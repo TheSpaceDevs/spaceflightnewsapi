@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/nasa-wants-ufo-discussion-to-shift-from-sensationalism-to-science/" >🔗</a> **[SpacePolicyOnline.com]** NASA Wants UFO Discussion to “Shift from Sensationalism to Science”
+
+
 - <a href="https://spacenews.com/post-spac-space-firms-redoubling-efforts-to-attract-institutional-investors/" >🔗</a> **[SpaceNews]** Post-SPAC space firms redoubling efforts to attract institutional investors
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-announces-summer-2023-hottest-on-record" >🔗</a> **[NASA]** NASA Announces Summer 2023 Hottest on Record
-
-
-- <a href="https://spacenews.com/kaleideo-demonstrates-on-orbit-processing/" >🔗</a> **[SpaceNews]** KaleidEO demonstrates on-orbit processing
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T022102">2023-09-15 02:21:02 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230915T031424">2023-09-15 03:14:24 UTC</a>
   <br>
 </div>
