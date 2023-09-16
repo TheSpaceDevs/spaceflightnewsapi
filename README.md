@@ -158,10 +158,26 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-astronaut-crewmates-reach-space-station-for-science-expedition" >🔗</a> **[NASA]** NASA Astronaut, Crewmates Reach Space Station for Science Expedition
 
 
+  - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/773" >📆</a> **Soyuz MS-24 Docking**
+
+
 - <a href="https://spacenews.com/air-force-research-laboratory-delays-lunar-experiment/" >🔗</a> **[SpaceNews]** Air Force Research Laboratory delays lunar experiment
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-to-discuss-optical-communications-demo-riding-with-psyche" >🔗</a> **[NASA]** NASA to Discuss Optical Communications Demo Riding with Psyche
+
+
+  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/870" >📆</a> **Deep Space Optical Communications Media Teleconference**
 
 
 - <a href="http://www.nasa.gov/press-release/la-nasa-lanza-primera-temporada-de-su-podcast-en-espanol" >🔗</a> **[NASA]** La NASA lanza primera temporada de su pódcast en español
@@ -214,6 +230,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230916T141103">2023-09-16 14:11:03 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230916T151238">2023-09-16 15:12:38 UTC</a>
   <br>
 </div>
