@@ -146,98 +146,98 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://spacenews.com/nasa-prepares-for-space-research-decadal-survey/" >🔗</a> **[SpaceNews]** NASA prepares for space research decadal survey
+- <a href="https://spacepolicyonline.com/news/new-soyuz-crew-arrives-at-iss-six-months-later-than-planned/" >🔗</a> **[SpacePolicyOnline.com]** New Soyuz Crew Arrives at ISS — Six Months Later Than Planned
 
 
-- <a href="https://spacenews.com/north-koreas-spy-satellite-launch-fails-again/" >🔗</a> **[SpaceNews]** North Korea’s spy satellite launch fails again
+- <a href="https://spacenews.com/new-iss-crew-arrives-on-soyuz/" >🔗</a> **[SpaceNews]** New ISS crew arrives on Soyuz
 
 
-- <a href="https://spacenews.com/rocket-lab-reuses-engine-on-electron-launch/" >🔗</a> **[SpaceNews]** Rocket Lab reuses engine on Electron launch
-
-
-  - <a href="https://go4liftoff.com/launch/id/7975274c-81c5-48a5-82e1-9b8d982cd533" >🚀</a> **Electron | We Love the Nightlife (Capella Acadia 1)** from Onenui Station, Mahia Peninsula, New Zealand
+  - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
 
 
 
-- <a href="https://www.cnbc.com/2023/08/23/india-chandrayaan-3-moon-landing-came-at-small-cost.html" >🔗</a> **[CNBC]** India’s moon landing made history on a relatively small budget
+
+  - <a href="https://go4liftoff.com/event/id/773" >📆</a> **Soyuz MS-24 Docking**
 
 
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
+- <a href="https://spacenews.com/general-atomics-acquires-electro-optical-sensor-supplier-eo-vista/" >🔗</a> **[SpaceNews]** General Atomics acquires electro-optical sensor supplier EO Vista
 
 
-
-- <a href="https://www.nasaspaceflight.com/2023/08/booster9_staticfireattempt2/" >🔗</a> **[NASASpaceflight]** Booster 9 rolls out for static fire test re-try ahead of flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+- <a href="https://spacenews.com/germany-signs-artemis-accords/" >🔗</a> **[SpaceNews]** Germany signs Artemis Accords
 
 
-
-- <a href="https://europeanspaceflight.com/sab-orbital-vehicle-could-work-in-concert-with-space-rider/" >🔗</a> **[European Spaceflight]** SAB Orbital Vehicle Could Work in Concert With Space Rider
-
-
-- <a href="https://spacenews.com/space-imagery-startup-heo-raises-8-million/" >🔗</a> **[SpaceNews]** Space imagery startup HEO raises $8 million
+- <a href="https://spacenews.com/earth-observation-players-seek-new-capabilities-to-tackle-climate-change/" >🔗</a> **[SpaceNews]** Earth observation players seek new capabilities to tackle climate change
 
 
-- <a href="https://spacenews.com/chandrayaan-3-is-a-story-of-isros-perseverance-and-triumph/" >🔗</a> **[SpaceNews]** Chandrayaan-3 is a story of ISRO’s perseverance and triumph
+- <a href="http://www.nasa.gov/press-release/nasa-astronaut-crewmates-reach-space-station-for-science-expedition" >🔗</a> **[NASA]** NASA Astronaut, Crewmates Reach Space Station for Science Expedition
 
 
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
+  - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
 
 
 
-- <a href="https://spacepolicyonline.com/news/modi-india-is-on-the-moon/" >🔗</a> **[SpacePolicyOnline.com]** Modi: “India is on the Moon”
+
+  - <a href="https://go4liftoff.com/event/id/773" >📆</a> **Soyuz MS-24 Docking**
 
 
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
+- <a href="https://spacenews.com/air-force-research-laboratory-delays-lunar-experiment/" >🔗</a> **[SpaceNews]** Air Force Research Laboratory delays lunar experiment
+
+
+- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-optical-communications-demo-riding-with-psyche" >🔗</a> **[NASA]** NASA to Discuss Optical Communications Demo Riding with Psyche
+
+
+  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
 
 
 
-- <a href="https://www.teslarati.com/india-successfully-lands-chandrayaan-3-on-moon/" >🔗</a> **[Teslarati]** India successfully lands Chandrayaan-3 on the Moon
+
+  - <a href="https://go4liftoff.com/event/id/870" >📆</a> **Deep Space Optical Communications Media Teleconference**
 
 
-  - <a href="https://go4liftoff.com/launch/id/78f7c31d-4f29-482a-96d1-390b460a0a02" >🚀</a> **LVM-3 | Chandrayaan-3** from Satish Dhawan Space Centre, India
+- <a href="http://www.nasa.gov/press-release/la-nasa-lanza-primera-temporada-de-su-podcast-en-espanol" >🔗</a> **[NASA]** La NASA lanza primera temporada de su pódcast en español
 
+
+- <a href="http://www.nasa.gov/press-release/nasa-releases-first-season-of-spanish-language-podcast" >🔗</a> **[NASA]** NASA Releases First Season of Spanish-language Podcast
 
 
 
 
 ## Latest Blog Posts 🪧
 
-- <a href="https://blog.ulalaunch.com/blog/silentbarker/nrol-107-payload-mate-mounted-to-atlas-v-for-launch" >🔗</a> **[United Launch Alliance]** SILENTBARKER/NROL-107: Payload mounted to Atlas V for launch
+- <a href="https://www.planetary.org/the-downlink/lost-and-found" >🔗</a> **[Planetary Society]** Lost and found
 
 
-- <a href="https://www.planetary.org/articles/total-solar-eclipse-2024-path-of-totality" >🔗</a> **[Planetary Society]** Total solar eclipse 2024: Why it’s worth getting into the path of totality
+- <a href="https://www.planetary.org/articles/guide-to-eclipse-vocabulary" >🔗</a> **[Planetary Society]** A guide to eclipse vocabulary
 
 
-- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-august-14-20-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: August 14-20, 2023
+- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-september-4-10-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: September 4-10, 2023
 
 
-- <a href="https://europeanspaceflight.substack.com/p/whats-going-on-with-saxavord-contractors" >🔗</a> **[European Spaceflight]** What’s going on with SaxaVord contractors?
+- <a href="https://www.planetary.org/the-downlink/cometary-sights-and-sounds" >🔗</a> **[Planetary Society]** Cometary sights and sounds
 
 
-- <a href="https://www.planetary.org/the-downlink/storms-and-showers" >🔗</a> **[Planetary Society]** Storms and showers
+- <a href="https://www.planetary.org/articles/eclipse-2024-checklist" >🔗</a> **[Planetary Society]** A checklist for what to expect during the 2024 total solar eclipse
 
 
-- <a href="https://blog.ulalaunch.com/blog/silentbarker/nrol-107-countdown-rehearsal-tests-atlas-v" >🔗</a> **[United Launch Alliance]** SILENTBARKER/NROL-107: Countdown rehearsal tests Atlas V rocket
+- <a href="https://www.planetary.org/articles/are-your-solar-eclipse-glasses-safe" >🔗</a> **[Planetary Society]** Are your solar eclipse glasses safe?
 
 
-- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-august-7-13-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: August 7-13, 2023
+- <a href="https://www.planetary.org/articles/how-to-see-newly-discovered-comet-nishimura" >🔗</a> **[Planetary Society]** How to see newly discovered Comet Nishimura
 
 
-- <a href="https://blog.ulalaunch.com/blog/icps-3-upperstage-that-will-propel-artemis-iii-astronauts-to-the-moon-arrives-for-processing" >🔗</a> **[United Launch Alliance]** ICPS-3: Upper stage that will propel Artemis III astronauts to the Moon arrives for processing
+- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-august-28-september-3-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: August 28-September 3, 2023
 
 
-- <a href="https://www.planetary.org/the-downlink/hasta-la-vista-baby" >🔗</a> **[Planetary Society]** Hasta la vista, baby
+- <a href="https://www.planetary.org/articles/osiris-rex-sample-return-what-to-expect" >🔗</a> **[Planetary Society]** OSIRIS-REx sample return: What to expect
 
 
-- <a href="https://www.planetary.org/articles/exoplanet-terminator-zones-search-for-life" >🔗</a> **[Planetary Society]** Are exoplanet 'terminator zones' a lead in the search for life?
+- <a href="https://europeanspaceflight.substack.com/p/are-europeans-interested-in-going" >🔗</a> **[European Spaceflight]** Are Europeans interested in going to space?
 
 
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230824T122633">2023-08-24 12:26:33 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230917T151231">2023-09-17 15:12:31 UTC</a>
   <br>
 </div>
