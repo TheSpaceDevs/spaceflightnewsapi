@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/new-soyuz-crew-arrives-at-iss-six-months-later-than-planned/" >🔗</a> **[SpacePolicyOnline.com]** New Soyuz Crew Arrives at ISS — Six Months Later Than Planned
+
+
 - <a href="https://spacenews.com/new-iss-crew-arrives-on-soyuz/" >🔗</a> **[SpaceNews]** New ISS crew arrives on Soyuz
 
 
@@ -197,13 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/la-nasa-lanza-primera-temporada-de-su-podcast-en-espanol" >🔗</a> **[NASA]** La NASA lanza primera temporada de su pódcast en español
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-astronaut-tracy-c-dyson-receives-third-space-station-assignment" >🔗</a> **[NASA]** NASA Astronaut Tracy C. Dyson Receives Third Space Station Assignment
-
-
-  - <a href="https://go4liftoff.com/launch/id/96ac7396-cba9-4548-b574-3a65fd6aa4ac" >🚀</a> **Soyuz 2.1a | Soyuz MS-25** from Baikonur Cosmodrome, Republic of Kazakhstan
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230917T101258">2023-09-17 10:12:58 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230917T111024">2023-09-17 11:10:24 UTC</a>
   <br>
 </div>
