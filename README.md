@@ -149,6 +149,14 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/new-iss-crew-arrives-on-soyuz/" >🔗</a> **[SpaceNews]** New ISS crew arrives on Soyuz
 
 
+  - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/773" >📆</a> **Soyuz MS-24 Docking**
+
+
 - <a href="https://spacenews.com/general-atomics-acquires-electro-optical-sensor-supplier-eo-vista/" >🔗</a> **[SpaceNews]** General Atomics acquires electro-optical sensor supplier EO Vista
 
 
@@ -192,6 +200,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-astronaut-tracy-c-dyson-receives-third-space-station-assignment" >🔗</a> **[NASA]** NASA Astronaut Tracy C. Dyson Receives Third Space Station Assignment
 
 
+  - <a href="https://go4liftoff.com/launch/id/96ac7396-cba9-4548-b574-3a65fd6aa4ac" >🚀</a> **Soyuz 2.1a | Soyuz MS-25** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+
+
 
 
 ## Latest Blog Posts 🪧
@@ -230,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230917T071136">2023-09-17 07:11:36 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230917T081547">2023-09-17 08:15:47 UTC</a>
   <br>
 </div>
