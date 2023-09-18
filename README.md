@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/culture/2023/09/a-water-carrier-just-won-the-hardest-cycling-race-on-the-planet/" >🔗</a> **[Arstechnica]** A water carrier just won the hardest cycling race on the planet
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-finalizes-coverage-for-first-us-asteroid-sample-landing" >🔗</a> **[NASA]** NASA Finalizes Coverage for First US Asteroid Sample Landing
 
 
@@ -193,9 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.com/ride-hopes-to-make-booking-a-spaceflight-as-easy-as-a-plane-ticket/" >🔗</a> **[European Spaceflight]** RIDE! Hopes to Make Booking a Spaceflight as Easy as a Plane Ticket
 
 
-- <a href="https://arstechnica.com/space/2023/09/stoke-space-hops-its-upper-stage-leaping-toward-a-fully-reusable-rocket/" >🔗</a> **[Arstechnica]** Stoke Space hops its upper stage, leaping toward a fully reusable rocket
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T211158">2023-09-18 21:11:58 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T221248">2023-09-18 22:12:48 UTC</a>
   <br>
 </div>
