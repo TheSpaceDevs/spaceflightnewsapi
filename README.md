@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/stoke-space-flies-reusable-upper-stage-prototype/" >🔗</a> **[SpaceNews]** Stoke Space flies reusable upper stage prototype
+
+
+- <a href="https://spacenews.com/spacex-seeks-to-throw-out-justice-department-hiring-practices-case/" >🔗</a> **[SpaceNews]** SpaceX seeks to throw out Justice Department hiring practices case
+
+
 - <a href="https://tlpnetwork.com/news/2023/09/stoke-space-hops-rocket-for-first-time" >🔗</a> **[The Launch Pad]** BREAKING! Stoke Space Hops Rocket For First Time
 
 
@@ -190,20 +196,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/earth-observation-players-seek-new-capabilities-to-tackle-climate-change/" >🔗</a> **[SpaceNews]** Earth observation players seek new capabilities to tackle climate change
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-astronaut-crewmates-reach-space-station-for-science-expedition" >🔗</a> **[NASA]** NASA Astronaut, Crewmates Reach Space Station for Science Expedition
-
-
-  - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/773" >📆</a> **Soyuz MS-24 Docking**
-
-
-- <a href="https://spacenews.com/air-force-research-laboratory-delays-lunar-experiment/" >🔗</a> **[SpaceNews]** Air Force Research Laboratory delays lunar experiment
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T091431">2023-09-18 09:14:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T101511">2023-09-18 10:15:11 UTC</a>
   <br>
 </div>
