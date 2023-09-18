@@ -146,10 +146,24 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/09/launch-roundup-091823/" >🔗</a> **[NASASpaceflight]** Launch Roundup; Rocket Lab to launch “We Will Never Desert You”; SpaceX to launch two Starlink missions
+
+
+- <a href="https://tlpnetwork.com/news/2023/09/abl-secures-15-million-space-system-command-responsive-launch-contract" >🔗</a> **[The Launch Pad]** ABL Secures $15 Million Space System Command Responsive Launch Contract
+
+
 - <a href="https://mars.nasa.gov/news/9480/" >🔗</a> **[NASA]** NASA's Curiosity Reaches Mars Ridge Where Water Left Debris Pileup
 
 
+  - <a href="https://go4liftoff.com/launch/id/df8d4fdb-9add-4ce9-9f0e-aae1c61df212" >🚀</a> **Atlas V 541 | MSL (Curiosity)** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/china-launches-new-batch-of-yaogan-reconnaissance-satellites/" >🔗</a> **[SpaceNews]** China launches new batch of Yaogan reconnaissance satellites
+
+
+  - <a href="https://go4liftoff.com/launch/id/1c09bb7e-5d7c-4ca7-a4a8-81db7004c66f" >🚀</a> **Long March 2D | Yaogan 39 Group 02** from Xichang Satellite Launch Center, People's Republic of China
+
 
 
 - <a href="https://spacenews.com/l3harris-exploring-supplier-partnerships-for-its-satellite-business/" >🔗</a> **[SpaceNews]** L3Harris exploring supplier partnerships for its satellite business
@@ -172,12 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/spacex-seeks-to-throw-out-justice-department-hiring-practices-case/" >🔗</a> **[SpaceNews]** SpaceX seeks to throw out Justice Department hiring practices case
-
-
-- <a href="https://tlpnetwork.com/news/2023/09/stoke-space-hops-rocket-for-first-time" >🔗</a> **[The Launch Pad]** Stoke Space Hops Rocket For First Time
-
-
-- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-17-24-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 17-24, 2023
 
 
 
@@ -218,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T171230">2023-09-18 17:12:30 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T181812">2023-09-18 18:18:12 UTC</a>
   <br>
 </div>
