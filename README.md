@@ -152,7 +152,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/spacex-seeks-to-throw-out-justice-department-hiring-practices-case/" >🔗</a> **[SpaceNews]** SpaceX seeks to throw out Justice Department hiring practices case
 
 
-- <a href="https://tlpnetwork.com/news/2023/09/stoke-space-hops-rocket-for-first-time" >🔗</a> **[The Launch Pad]** BREAKING! Stoke Space Hops Rocket For First Time
+- <a href="https://tlpnetwork.com/news/2023/09/stoke-space-hops-rocket-for-first-time" >🔗</a> **[The Launch Pad]** Stoke Space Hops Rocket For First Time
 
 
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-17-24-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 17-24, 2023
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T122822">2023-09-18 12:28:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T131609">2023-09-18 13:16:09 UTC</a>
   <br>
 </div>
