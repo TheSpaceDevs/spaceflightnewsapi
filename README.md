@@ -146,7 +146,21 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-finalizes-coverage-for-first-us-asteroid-sample-landing" >🔗</a> **[NASA]** NASA Finalizes Coverage for First US Asteroid Sample Landing
+
+
+- <a href="https://spacenews.com/abl-gets-contract-for-u-s-space-force-responsive-launch-mission/" >🔗</a> **[SpaceNews]** ABL gets contract for U.S. Space Force ‘responsive launch’ mission
+
+
 - <a href="https://www.nasaspaceflight.com/2023/09/launch-roundup-091823/" >🔗</a> **[NASASpaceflight]** Launch Roundup; Rocket Lab to launch “We Will Never Desert You”; SpaceX to launch two Starlink missions
+
+
+  - <a href="https://go4liftoff.com/launch/id/08f52ca7-9aba-41d1-a5c7-092cab7aca92" >🚀</a> **Electron | We Will Never Desert You (Capella Acadia 2)** from Onenui Station, Mahia Peninsula, New Zealand
+
+  - <a href="https://go4liftoff.com/launch/id/7fc31961-b46f-4a45-9b1d-3caece884f61" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-17** from Cape Canaveral, FL, USA
+
+  - <a href="https://go4liftoff.com/launch/id/1c099ba2-9b8f-4364-8ba0-0c26f7993dd5" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-18** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://tlpnetwork.com/news/2023/09/abl-secures-15-million-space-system-command-responsive-launch-contract" >🔗</a> **[The Launch Pad]** ABL Secures $15 Million Space System Command Responsive Launch Contract
@@ -180,12 +194,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://arstechnica.com/space/2023/09/stoke-space-hops-its-upper-stage-leaping-toward-a-fully-reusable-rocket/" >🔗</a> **[Arstechnica]** Stoke Space hops its upper stage, leaping toward a fully reusable rocket
-
-
-- <a href="https://spacenews.com/stoke-space-flies-reusable-upper-stage-prototype/" >🔗</a> **[SpaceNews]** Stoke Space flies reusable upper stage prototype
-
-
-- <a href="https://spacenews.com/spacex-seeks-to-throw-out-justice-department-hiring-practices-case/" >🔗</a> **[SpaceNews]** SpaceX seeks to throw out Justice Department hiring practices case
 
 
 
@@ -226,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T201444">2023-09-18 20:14:44 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T211158">2023-09-18 21:11:58 UTC</a>
   <br>
 </div>
