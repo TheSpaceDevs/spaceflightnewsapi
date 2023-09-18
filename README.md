@@ -146,6 +146,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/tactically-responsive-space-strengthens-america/" >🔗</a> **[SpaceNews]** Tactically Responsive Space strengthens America
+
+
+  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
+
+
+
+- <a href="https://europeanspaceflight.com/ride-hopes-to-make-booking-a-spaceflight-as-easy-as-a-plane-ticket/" >🔗</a> **[European Spaceflight]** RIDE! Hopes to Make Booking a Spaceflight as Easy as a Plane Ticket
+
+
 - <a href="https://arstechnica.com/space/2023/09/stoke-space-hops-its-upper-stage-leaping-toward-a-fully-reusable-rocket/" >🔗</a> **[Arstechnica]** Stoke Space hops its upper stage, leaping toward a fully reusable rocket
 
 
@@ -190,12 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/773" >📆</a> **Soyuz MS-24 Docking**
 
 
-- <a href="https://spacenews.com/general-atomics-acquires-electro-optical-sensor-supplier-eo-vista/" >🔗</a> **[SpaceNews]** General Atomics acquires electro-optical sensor supplier EO Vista
-
-
-- <a href="https://spacenews.com/germany-signs-artemis-accords/" >🔗</a> **[SpaceNews]** Germany signs Artemis Accords
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -234,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T141331">2023-09-18 14:13:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T151454">2023-09-18 15:14:54 UTC</a>
   <br>
 </div>
