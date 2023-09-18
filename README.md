@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/09/stoke-space-hops-rocket-for-first-time" >🔗</a> **[The Launch Pad]** BREAKING! Stoke Space Hops Rocket For First Time
+
+
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-17-24-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 17-24, 2023
 
 
@@ -201,17 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/air-force-research-laboratory-delays-lunar-experiment/" >🔗</a> **[SpaceNews]** Air Force Research Laboratory delays lunar experiment
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-optical-communications-demo-riding-with-psyche" >🔗</a> **[NASA]** NASA to Discuss Optical Communications Demo Riding with Psyche
-
-
-  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/870" >📆</a> **Deep Space Optical Communications Media Teleconference**
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -250,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T010145">2023-09-18 01:01:45 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T022007">2023-09-18 02:20:07 UTC</a>
   <br>
 </div>
