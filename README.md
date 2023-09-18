@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://mars.nasa.gov/news/9480/" >🔗</a> **[NASA]** NASA's Curiosity Reaches Mars Ridge Where Water Left Debris Pileup
+
+
+- <a href="https://spacenews.com/china-launches-new-batch-of-yaogan-reconnaissance-satellites/" >🔗</a> **[SpaceNews]** China launches new batch of Yaogan reconnaissance satellites
+
+
 - <a href="https://spacenews.com/l3harris-exploring-supplier-partnerships-for-its-satellite-business/" >🔗</a> **[SpaceNews]** L3Harris exploring supplier partnerships for its satellite business
 
 
@@ -172,24 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-17-24-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 17-24, 2023
-
-
-- <a href="https://www.nasaspaceflight.com/2023/09/webb-k218b/" >🔗</a> **[NASASpaceflight]** Using Webb, scientists discover carbon dioxide and methane in habitable-zone exoplanet
-
-
-  - <a href="https://go4liftoff.com/launch/id/d0fa4bb2-80ea-4808-af08-7785dde53bf6" >🚀</a> **Ariane 5 ECA+ | James Webb Space Telescope (JWST)** from Kourou, French Guiana
-
-
-
-- <a href="https://spacepolicyonline.com/news/new-soyuz-crew-arrives-at-iss-six-months-later-than-planned/" >🔗</a> **[SpacePolicyOnline.com]** New Soyuz Crew Arrives at ISS — Six Months Later Than Planned
-
-
-  - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/773" >📆</a> **Soyuz MS-24 Docking**
 
 
 
@@ -230,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T161828">2023-09-18 16:18:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T171230">2023-09-18 17:12:30 UTC</a>
   <br>
 </div>
