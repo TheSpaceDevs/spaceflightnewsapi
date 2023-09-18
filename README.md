@@ -146,63 +146,54 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
-- <a href="https://spacepolicyonline.com/news/new-soyuz-crew-arrives-at-iss-six-months-later-than-planned/" >🔗</a> **[SpacePolicyOnline.com]** New Soyuz Crew Arrives at ISS — Six Months Later Than Planned
+- <a href="https://www.nasaspaceflight.com/2023/09/launch-roundup-091823/" >🔗</a> **[NASASpaceflight]** Launch Roundup; Rocket Lab to launch “We Will Never Desert You”; SpaceX to launch two Starlink missions
 
 
-- <a href="https://spacenews.com/new-iss-crew-arrives-on-soyuz/" >🔗</a> **[SpaceNews]** New ISS crew arrives on Soyuz
+- <a href="https://tlpnetwork.com/news/2023/09/abl-secures-15-million-space-system-command-responsive-launch-contract" >🔗</a> **[The Launch Pad]** ABL Secures $15 Million Space System Command Responsive Launch Contract
 
 
-  - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
+- <a href="https://mars.nasa.gov/news/9480/" >🔗</a> **[NASA]** NASA's Curiosity Reaches Mars Ridge Where Water Left Debris Pileup
 
 
-
-
-  - <a href="https://go4liftoff.com/event/id/773" >📆</a> **Soyuz MS-24 Docking**
-
-
-- <a href="https://spacenews.com/general-atomics-acquires-electro-optical-sensor-supplier-eo-vista/" >🔗</a> **[SpaceNews]** General Atomics acquires electro-optical sensor supplier EO Vista
-
-
-- <a href="https://spacenews.com/germany-signs-artemis-accords/" >🔗</a> **[SpaceNews]** Germany signs Artemis Accords
-
-
-- <a href="https://spacenews.com/earth-observation-players-seek-new-capabilities-to-tackle-climate-change/" >🔗</a> **[SpaceNews]** Earth observation players seek new capabilities to tackle climate change
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-astronaut-crewmates-reach-space-station-for-science-expedition" >🔗</a> **[NASA]** NASA Astronaut, Crewmates Reach Space Station for Science Expedition
-
-
-  - <a href="https://go4liftoff.com/launch/id/2a052554-35be-4e6c-8d60-b2b9072de17c" >🚀</a> **Soyuz 2.1a | Soyuz MS-24** from Baikonur Cosmodrome, Republic of Kazakhstan
+  - <a href="https://go4liftoff.com/launch/id/df8d4fdb-9add-4ce9-9f0e-aae1c61df212" >🚀</a> **Atlas V 541 | MSL (Curiosity)** from Cape Canaveral, FL, USA
 
 
 
-
-  - <a href="https://go4liftoff.com/event/id/773" >📆</a> **Soyuz MS-24 Docking**
-
-
-- <a href="https://spacenews.com/air-force-research-laboratory-delays-lunar-experiment/" >🔗</a> **[SpaceNews]** Air Force Research Laboratory delays lunar experiment
+- <a href="https://spacenews.com/china-launches-new-batch-of-yaogan-reconnaissance-satellites/" >🔗</a> **[SpaceNews]** China launches new batch of Yaogan reconnaissance satellites
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-to-discuss-optical-communications-demo-riding-with-psyche" >🔗</a> **[NASA]** NASA to Discuss Optical Communications Demo Riding with Psyche
-
-
-  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
+  - <a href="https://go4liftoff.com/launch/id/1c09bb7e-5d7c-4ca7-a4a8-81db7004c66f" >🚀</a> **Long March 2D | Yaogan 39 Group 02** from Xichang Satellite Launch Center, People's Republic of China
 
 
 
-
-  - <a href="https://go4liftoff.com/event/id/870" >📆</a> **Deep Space Optical Communications Media Teleconference**
-
-
-- <a href="http://www.nasa.gov/press-release/la-nasa-lanza-primera-temporada-de-su-podcast-en-espanol" >🔗</a> **[NASA]** La NASA lanza primera temporada de su pódcast en español
+- <a href="https://spacenews.com/l3harris-exploring-supplier-partnerships-for-its-satellite-business/" >🔗</a> **[SpaceNews]** L3Harris exploring supplier partnerships for its satellite business
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-releases-first-season-of-spanish-language-podcast" >🔗</a> **[NASA]** NASA Releases First Season of Spanish-language Podcast
+- <a href="https://spacenews.com/tactically-responsive-space-strengthens-america/" >🔗</a> **[SpaceNews]** Tactically Responsive Space strengthens America
+
+
+  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
+
+
+
+- <a href="https://europeanspaceflight.com/ride-hopes-to-make-booking-a-spaceflight-as-easy-as-a-plane-ticket/" >🔗</a> **[European Spaceflight]** RIDE! Hopes to Make Booking a Spaceflight as Easy as a Plane Ticket
+
+
+- <a href="https://arstechnica.com/space/2023/09/stoke-space-hops-its-upper-stage-leaping-toward-a-fully-reusable-rocket/" >🔗</a> **[Arstechnica]** Stoke Space hops its upper stage, leaping toward a fully reusable rocket
+
+
+- <a href="https://spacenews.com/stoke-space-flies-reusable-upper-stage-prototype/" >🔗</a> **[SpaceNews]** Stoke Space flies reusable upper stage prototype
+
+
+- <a href="https://spacenews.com/spacex-seeks-to-throw-out-justice-department-hiring-practices-case/" >🔗</a> **[SpaceNews]** SpaceX seeks to throw out Justice Department hiring practices case
 
 
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://europeanspaceflight.substack.com/p/is-there-a-future-for-the-european" >🔗</a> **[European Spaceflight]** Is there a future for the European Astronaut Corps?
+
 
 - <a href="https://www.planetary.org/the-downlink/lost-and-found" >🔗</a> **[Planetary Society]** Lost and found
 
@@ -231,13 +222,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/articles/osiris-rex-sample-return-what-to-expect" >🔗</a> **[Planetary Society]** OSIRIS-REx sample return: What to expect
 
 
-- <a href="https://europeanspaceflight.substack.com/p/are-europeans-interested-in-going" >🔗</a> **[European Spaceflight]** Are Europeans interested in going to space?
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230917T151231">2023-09-17 15:12:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T181812">2023-09-18 18:18:12 UTC</a>
   <br>
 </div>
