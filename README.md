@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/09/stoke-space-hops-its-upper-stage-leaping-toward-a-fully-reusable-rocket/" >🔗</a> **[Arstechnica]** Stoke Space hops its upper stage, leaping toward a fully reusable rocket
+
+
 - <a href="https://spacenews.com/stoke-space-flies-reusable-upper-stage-prototype/" >🔗</a> **[SpaceNews]** Stoke Space flies reusable upper stage prototype
 
 
@@ -193,12 +196,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/germany-signs-artemis-accords/" >🔗</a> **[SpaceNews]** Germany signs Artemis Accords
 
 
-- <a href="https://spacenews.com/earth-observation-players-seek-new-capabilities-to-tackle-climate-change/" >🔗</a> **[SpaceNews]** Earth observation players seek new capabilities to tackle climate change
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://europeanspaceflight.substack.com/p/is-there-a-future-for-the-european" >🔗</a> **[European Spaceflight]** Is there a future for the European Astronaut Corps?
+
 
 - <a href="https://www.planetary.org/the-downlink/lost-and-found" >🔗</a> **[Planetary Society]** Lost and found
 
@@ -227,13 +230,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/articles/osiris-rex-sample-return-what-to-expect" >🔗</a> **[Planetary Society]** OSIRIS-REx sample return: What to expect
 
 
-- <a href="https://europeanspaceflight.substack.com/p/are-europeans-interested-in-going" >🔗</a> **[European Spaceflight]** Are Europeans interested in going to space?
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T131609">2023-09-18 13:16:09 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230918T141331">2023-09-18 14:13:31 UTC</a>
   <br>
 </div>
