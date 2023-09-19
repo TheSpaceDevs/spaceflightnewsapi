@@ -146,10 +146,17 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/uarx-partners-with-sener-to-continue-development-of-ossie-otv/" >🔗</a> **[European Spaceflight]** UARX Partners with Sener to Continue Development of OSSIE OTV
+
+
 - <a href="https://spacenews.com/kayhan-raises-7-million-and-offers-autonomous-traffic-coordination-service/" >🔗</a> **[SpaceNews]** Kayhan raises $7 million and offers autonomous traffic-coordination service
 
 
-- <a href="https://www.cnbc.com/2023/09/19/rocket-lab-stock-drops-after-first-electron-launch-failure-in-years.html" >🔗</a> **[CNBC]** Rocket Lab stock drops 20% after first satellite launch failure in over two years
+- <a href="https://www.cnbc.com/2023/09/19/rocket-lab-stock-drops-after-first-electron-launch-failure-in-years.html" >🔗</a> **[CNBC]** Rocket Lab stock drops after first satellite launch failure in over two years
+
+
+  - <a href="https://go4liftoff.com/launch/id/08f52ca7-9aba-41d1-a5c7-092cab7aca92" >🚀</a> **Electron | We Will Never Desert You (Capella Acadia 2)** from Onenui Station, Mahia Peninsula, New Zealand
+
 
 
 - <a href="https://spacenews.com/electron-fails-during-capella-space-launch/" >🔗</a> **[SpaceNews]** Electron fails during Capella Space launch
@@ -197,13 +204,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/09/abl-secures-15-million-space-system-command-responsive-launch-contract" >🔗</a> **[The Launch Pad]** ABL Secures $15 Million Space System Command Responsive Launch Contract
 
 
-- <a href="https://mars.nasa.gov/news/9480/" >🔗</a> **[NASA]** NASA's Curiosity Reaches Mars Ridge Where Water Left Debris Pileup
-
-
-  - <a href="https://go4liftoff.com/launch/id/df8d4fdb-9add-4ce9-9f0e-aae1c61df212" >🚀</a> **Atlas V 541 | MSL (Curiosity)** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +242,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T131728">2023-09-19 13:17:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T141325">2023-09-19 14:13:25 UTC</a>
   <br>
 </div>
