@@ -155,7 +155,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/abl-gets-contract-for-u-s-space-force-responsive-launch-mission/" >🔗</a> **[SpaceNews]** ABL gets contract for U.S. Space Force ‘responsive launch’ mission
 
 
-- <a href="https://www.nasaspaceflight.com/2023/09/launch-roundup-091823/" >🔗</a> **[NASASpaceflight]** Launch Roundup; Rocket Lab to launch “We Will Never Desert You”; SpaceX to launch booster for 17th time
+- <a href="https://www.nasaspaceflight.com/2023/09/launch-roundup-091823/" >🔗</a> **[NASASpaceflight]** Launch Roundup; Rocket Lab fails during “We Will Never Desert You” launch; SpaceX to launch booster for 17th time
 
 
   - <a href="https://go4liftoff.com/launch/id/08f52ca7-9aba-41d1-a5c7-092cab7aca92" >🚀</a> **Electron | We Will Never Desert You (Capella Acadia 2)** from Onenui Station, Mahia Peninsula, New Zealand
@@ -234,6 +234,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T061831">2023-09-19 06:18:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T071253">2023-09-19 07:12:53 UTC</a>
   <br>
 </div>
