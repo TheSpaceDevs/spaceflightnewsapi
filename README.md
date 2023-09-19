@@ -146,6 +146,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/09/blue-update-091923/" >🔗</a> **[NASASpaceflight]** Blue Origin preparing for New Glenn testing at LC-36 ahead of maiden flight
+
+
+  - <a href="https://go4liftoff.com/launch/id/72873838-1773-4542-9faf-4e8c52c45f18" >🚀</a> **New Glenn | Demo Flight** from Cape Canaveral, FL, USA
+
+
+
+- <a href="https://spacenews.com/nb-iot-provider-oq-technology-moves-to-next-arianespace-vega-mission/" >🔗</a> **[SpaceNews]** NB-IoT provider OQ Technology moves to next Arianespace Vega mission
+
+
 - <a href="https://europeanspaceflight.com/uarx-partners-with-sener-to-continue-development-of-ossie-otv/" >🔗</a> **[European Spaceflight]** UARX Partners with Sener to Continue Development of OSSIE OTV
 
 
@@ -190,20 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/abl-gets-contract-for-u-s-space-force-responsive-launch-mission/" >🔗</a> **[SpaceNews]** ABL gets contract for U.S. Space Force ‘responsive launch’ mission
 
 
-- <a href="https://www.nasaspaceflight.com/2023/09/launch-roundup-091823/" >🔗</a> **[NASASpaceflight]** Launch Roundup; Rocket Lab fails during “We Will Never Desert You” launch; SpaceX to launch booster for 17th time
-
-
-  - <a href="https://go4liftoff.com/launch/id/08f52ca7-9aba-41d1-a5c7-092cab7aca92" >🚀</a> **Electron | We Will Never Desert You (Capella Acadia 2)** from Onenui Station, Mahia Peninsula, New Zealand
-
-  - <a href="https://go4liftoff.com/launch/id/7fc31961-b46f-4a45-9b1d-3caece884f61" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-17** from Cape Canaveral, FL, USA
-
-  - <a href="https://go4liftoff.com/launch/id/1c099ba2-9b8f-4364-8ba0-0c26f7993dd5" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-18** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/09/abl-secures-15-million-space-system-command-responsive-launch-contract" >🔗</a> **[The Launch Pad]** ABL Secures $15 Million Space System Command Responsive Launch Contract
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -242,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T151452">2023-09-19 15:14:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T161831">2023-09-19 16:18:31 UTC</a>
   <br>
 </div>
