@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/electron-fails-during-capella-space-launch/" >🔗</a> **[SpaceNews]** Electron fails during Capella Space launch
 
 
+  - <a href="https://go4liftoff.com/launch/id/08f52ca7-9aba-41d1-a5c7-092cab7aca92" >🚀</a> **Electron | We Will Never Desert You (Capella Acadia 2)** from Onenui Station, Mahia Peninsula, New Zealand
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/09/rocketlab-41-electron-mission-launch-failure" >🔗</a> **[The Launch Pad]** DEVELOPING STORY: RocketLab Electron Launch Failure
 
 
@@ -242,6 +246,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T081833">2023-09-19 08:18:33 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T091358">2023-09-19 09:13:58 UTC</a>
   <br>
 </div>
