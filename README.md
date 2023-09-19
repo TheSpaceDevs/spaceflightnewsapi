@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/hungarian-astronaut-to-visit-iss-aboard-axiom-5-mission/" >🔗</a> **[European Spaceflight]** Hungarian Astronaut to Visit ISS Aboard Axiom 5 Mission
+
+
 - <a href="https://spacenews.com/caci-optical-terminals-pass-initial-tests-required-for-space-development-agency-satellites/" >🔗</a> **[SpaceNews]** CACI optical terminals pass initial tests required for Space Development Agency satellites
 
 
@@ -195,9 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://arstechnica.com/culture/2023/09/a-water-carrier-just-won-the-hardest-cycling-race-on-the-planet/" >🔗</a> **[Arstechnica]** A water carrier just won the hardest cycling race on the planet
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T201445">2023-09-19 20:14:45 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T211158">2023-09-19 21:11:58 UTC</a>
   <br>
 </div>
