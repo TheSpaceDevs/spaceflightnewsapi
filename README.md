@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/faa-seeks-to-wrap-up-starship-safety-review-in-october/" >🔗</a> **[SpaceNews]** FAA seeks to wrap up Starship safety review in October
+
+
 - <a href="https://www.nasaspaceflight.com/2023/09/blue-update-091923/" >🔗</a> **[NASASpaceflight]** Blue Origin preparing for New Glenn testing at LC-36 ahead of maiden flight
 
 
@@ -197,9 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
-- <a href="https://spacenews.com/abl-gets-contract-for-u-s-space-force-responsive-launch-mission/" >🔗</a> **[SpaceNews]** ABL gets contract for U.S. Space Force ‘responsive launch’ mission
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T161831">2023-09-19 16:18:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T171214">2023-09-19 17:12:14 UTC</a>
   <br>
 </div>
