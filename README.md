@@ -146,7 +146,16 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/caci-optical-terminals-pass-initial-tests-required-for-space-development-agency-satellites/" >🔗</a> **[SpaceNews]** CACI optical terminals pass initial tests required for Space Development Agency satellites
+
+
 - <a href="https://spacenews.com/faa-seeks-to-wrap-up-starship-safety-review-in-october/" >🔗</a> **[SpaceNews]** FAA seeks to wrap up Starship safety review in October
+
+
+  - <a href="https://go4liftoff.com/launch/id/e32d375f-0d6e-4e54-b4f2-2b49db657fca" >🚀</a> **Starship | Integrated Flight Test** from SpaceX Space Launch Facility, TX, USA
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
 
 
 - <a href="https://www.nasaspaceflight.com/2023/09/blue-update-091923/" >🔗</a> **[NASASpaceflight]** Blue Origin preparing for New Glenn testing at LC-36 ahead of maiden flight
@@ -189,17 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/culture/2023/09/a-water-carrier-just-won-the-hardest-cycling-race-on-the-planet/" >🔗</a> **[Arstechnica]** A water carrier just won the hardest cycling race on the planet
 
 
-- <a href="http://www.nasa.gov/press-release/nasa-finalizes-coverage-for-first-us-asteroid-sample-landing" >🔗</a> **[NASA]** NASA Finalizes Coverage for First US Asteroid Sample Landing
-
-
-  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -238,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T171214">2023-09-19 17:12:14 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230919T181800">2023-09-19 18:18:00 UTC</a>
   <br>
 </div>
