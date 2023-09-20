@@ -146,7 +146,14 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/space-debris-removal-startup-dark-partners-with-bordeaux-airport/" >🔗</a> **[European Spaceflight]** Space Debris Removal Startup Dark Partners with Bordeaux Airport
+
+
 - <a href="https://spacenews.com/ast-spacemobiles-prototype-satellite-makes-first-5g-connection/" >🔗</a> **[SpaceNews]** AST SpaceMobile’s prototype satellite makes first 5G connection
+
+
+  - <a href="https://go4liftoff.com/launch/id/992823ad-f843-4a4a-beca-882b8ce8773a" >🚀</a> **Falcon 9 Block 5 | Starlink Group 4-2 & BlueWalker 3** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacenews.com/leolabs-saic-to-develop-space-tracking-software-platform/" >🔗</a> **[SpaceNews]** LeoLabs, SAIC to develop space-tracking software platform
@@ -181,13 +188,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/kayhan-raises-7-million-and-offers-autonomous-traffic-coordination-service/" >🔗</a> **[SpaceNews]** Kayhan raises $7 million and offers autonomous traffic-coordination service
-
-
-- <a href="https://www.cnbc.com/2023/09/19/rocket-lab-stock-drops-after-first-electron-launch-failure-in-years.html" >🔗</a> **[CNBC]** Rocket Lab stock drops after first satellite launch failure in more than two years
-
-
-  - <a href="https://go4liftoff.com/launch/id/08f52ca7-9aba-41d1-a5c7-092cab7aca92" >🚀</a> **Electron | We Will Never Desert You (Capella Acadia 2)** from Onenui Station, Mahia Peninsula, New Zealand
-
 
 
 
@@ -228,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T071256">2023-09-20 07:12:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T081827">2023-09-20 08:18:27 UTC</a>
   <br>
 </div>
