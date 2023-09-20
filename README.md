@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/09/20/spacex-countersues-doj-in-hiring-discrimination-case.html" >🔗</a> **[CNBC]** SpaceX countersues Justice Department, seeking to dismiss hiring discrimination case
+
+
 - <a href="https://europeanspaceflight.com/rfa-led-consortium-submit-argo-for-esa-commercial-cargo-initiative/" >🔗</a> **[European Spaceflight]** RFA-Led Consortium Submit Argo for ESA Commercial Cargo Initiative
 
 
@@ -187,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/nb-iot-provider-oq-technology-moves-to-next-arianespace-vega-mission/" >🔗</a> **[SpaceNews]** NB-IoT provider OQ Technology moves to next Arianespace Vega mission
 
 
-- <a href="https://europeanspaceflight.com/uarx-partners-with-sener-to-continue-development-of-ossie-otv/" >🔗</a> **[European Spaceflight]** UARX Partners with Sener to Continue Development of OSSIE OTV
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -228,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T131821">2023-09-20 13:18:21 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T141434">2023-09-20 14:14:34 UTC</a>
   <br>
 </div>
