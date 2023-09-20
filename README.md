@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/09/spacex-breaks-another-booster-reuse-record-but-did-anyone-see-it/" >🔗</a> **[Arstechnica]** SpaceX breaks another booster reuse record, but did anyone see it?
+
+
 - <a href="https://spacenews.com/fcc-directing-more-satellite-constellations-to-mitigate-effects-on-astronomy/" >🔗</a> **[SpaceNews]** FCC directing more satellite constellations to mitigate effects on astronomy
 
 
@@ -177,18 +180,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/caci-optical-terminals-pass-initial-tests-required-for-space-development-agency-satellites/" >🔗</a> **[SpaceNews]** CACI optical terminals pass initial tests required for Space Development Agency satellites
 
 
-- <a href="https://spacenews.com/faa-seeks-to-wrap-up-starship-safety-review-in-october/" >🔗</a> **[SpaceNews]** FAA seeks to wrap up Starship safety review in October
-
-
-  - <a href="https://go4liftoff.com/launch/id/e32d375f-0d6e-4e54-b4f2-2b49db657fca" >🚀</a> **Starship | Integrated Flight Test** from SpaceX Space Launch Facility, TX, USA
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://blog.ulalaunch.com/blog/protoflight-atlas-v-stacked-ahead-of-first-kuiper-launch" >🔗</a> **[United Launch Alliance]** Protoflight: Atlas V stacked ahead of first Kuiper launch
+
 
 - <a href="https://europeanspaceflight.substack.com/p/is-there-a-future-for-the-european" >🔗</a> **[European Spaceflight]** Is there a future for the European Astronaut Corps?
 
@@ -217,13 +214,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-august-28-september-3-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: August 28-September 3, 2023
 
 
-- <a href="https://www.planetary.org/articles/osiris-rex-sample-return-what-to-expect" >🔗</a> **[Planetary Society]** OSIRIS-REx sample return: What to expect
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T161820">2023-09-20 16:18:20 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T171226">2023-09-20 17:12:26 UTC</a>
   <br>
 </div>
