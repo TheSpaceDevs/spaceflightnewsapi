@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/fcc-directing-more-satellite-constellations-to-mitigate-effects-on-astronomy/" >🔗</a> **[SpaceNews]** FCC directing more satellite constellations to mitigate effects on astronomy
+
+
 - <a href="https://spacenews.com/the-startup-nation-in-space-israels-equation-for-the-space-ecosystem/" >🔗</a> **[SpaceNews]** The Startup Nation in Space – Israel’s Equation for the Space Ecosystem
 
 
@@ -180,13 +183,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/launch/id/e32d375f-0d6e-4e54-b4f2-2b49db657fca" >🚀</a> **Starship | Integrated Flight Test** from SpaceX Space Launch Facility, TX, USA
 
   - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
-- <a href="https://www.nasaspaceflight.com/2023/09/blue-update-091923/" >🔗</a> **[NASASpaceflight]** Blue Origin preparing for New Glenn testing at LC-36 ahead of maiden flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/72873838-1773-4542-9faf-4e8c52c45f18" >🚀</a> **New Glenn | Demo Flight** from Cape Canaveral, FL, USA
 
 
 
@@ -228,6 +224,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T151417">2023-09-20 15:14:17 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T161820">2023-09-20 16:18:20 UTC</a>
   <br>
 </div>
