@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/09/spacex-breaks-another-booster-reuse-record-but-did-anyone-see-it/" >🔗</a> **[Arstechnica]** SpaceX breaks another booster reuse record, but did anyone see it?
 
 
+  - <a href="https://go4liftoff.com/launch/id/7fc31961-b46f-4a45-9b1d-3caece884f61" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-17** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/fcc-directing-more-satellite-constellations-to-mitigate-effects-on-astronomy/" >🔗</a> **[SpaceNews]** FCC directing more satellite constellations to mitigate effects on astronomy
 
 
@@ -218,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T171226">2023-09-20 17:12:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T181812">2023-09-20 18:18:12 UTC</a>
   <br>
 </div>
