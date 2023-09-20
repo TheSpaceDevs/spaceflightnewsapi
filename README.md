@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/rfa-led-consortium-submit-argo-for-esa-commercial-cargo-initiative/" >🔗</a> **[European Spaceflight]** RFA-Led Consortium Submit Argo for ESA Commercial Cargo Initiative
+
+
 - <a href="https://europeanspaceflight.com/space-debris-removal-startup-dark-partners-with-bordeaux-airport/" >🔗</a> **[European Spaceflight]** Space Debris Removal Startup Dark Partners with Bordeaux Airport
 
 
@@ -187,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.com/uarx-partners-with-sener-to-continue-development-of-ossie-otv/" >🔗</a> **[European Spaceflight]** UARX Partners with Sener to Continue Development of OSSIE OTV
 
 
-- <a href="https://spacenews.com/kayhan-raises-7-million-and-offers-autonomous-traffic-coordination-service/" >🔗</a> **[SpaceNews]** Kayhan raises $7 million and offers autonomous traffic-coordination service
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -228,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T111154">2023-09-20 11:11:54 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T122745">2023-09-20 12:27:45 UTC</a>
   <br>
 </div>
