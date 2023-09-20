@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/maxar-technologies-to-reorganize-under-two-separate-businesses/" >🔗</a> **[SpaceNews]** Maxar Technologies reorganizes as two separate businesses
+
+
+- <a href="https://tlpnetwork.com/news/2023/09/artemis-ii-crew-conduct-launch-day-demo-at-ksc" >🔗</a> **[The Launch Pad]** Artemis II Crew Conduct Launch Day Demo At KSC
+
+
+- <a href="https://tlpnetwork.com/news/2023/09/nasa-set-to-begin-artemis-ii-ground-system-testing" >🔗</a> **[The Launch Pad]** NASA Set To Begin Artemis II Ground System Testing
+
+
 - <a href="https://arstechnica.com/space/2023/09/spacex-breaks-another-booster-reuse-record-but-did-anyone-see-it/" >🔗</a> **[Arstechnica]** SpaceX breaks another booster reuse record, but did anyone see it?
 
 
@@ -173,15 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/992823ad-f843-4a4a-beca-882b8ce8773a" >🚀</a> **Falcon 9 Block 5 | Starlink Group 4-2 & BlueWalker 3** from Kennedy Space Center, FL, USA
 
-
-
-- <a href="https://spacenews.com/leolabs-saic-to-develop-space-tracking-software-platform/" >🔗</a> **[SpaceNews]** LeoLabs, SAIC to develop space-tracking software platform
-
-
-- <a href="https://europeanspaceflight.com/hungarian-astronaut-to-visit-iss-aboard-axiom-mission/" >🔗</a> **[European Spaceflight]** Hungarian Astronaut to Visit ISS Aboard Axiom Mission
-
-
-- <a href="https://europeanspaceflight.com/hungarian-astronaut-to-visit-space-aboard-axiom-mission/" >🔗</a> **[European Spaceflight]** Hungarian Astronaut to Visit Space Aboard Axiom Mission
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T221256">2023-09-20 22:12:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T231312">2023-09-20 23:13:12 UTC</a>
   <br>
 </div>
