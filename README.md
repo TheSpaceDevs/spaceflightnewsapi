@@ -178,10 +178,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/leolabs-saic-to-develop-space-tracking-software-platform/" >🔗</a> **[SpaceNews]** LeoLabs, SAIC to develop space-tracking software platform
 
 
-- <a href="https://europeanspaceflight.com/hungarian-astronaut-to-visit-iss-aboard-axiom-5-mission/" >🔗</a> **[European Spaceflight]** Hungarian Astronaut to Visit ISS Aboard Axiom 5 Mission
+- <a href="https://europeanspaceflight.com/hungarian-astronaut-to-visit-iss-aboard-axiom-mission/" >🔗</a> **[European Spaceflight]** Hungarian Astronaut to Visit ISS Aboard Axiom Mission
 
 
-- <a href="https://spacenews.com/caci-optical-terminals-pass-initial-tests-required-for-space-development-agency-satellites/" >🔗</a> **[SpaceNews]** CACI optical terminals pass initial tests required for Space Development Agency satellites
+- <a href="https://europeanspaceflight.com/hungarian-astronaut-to-visit-space-aboard-axiom-mission/" >🔗</a> **[European Spaceflight]** Hungarian Astronaut to Visit Space Aboard Axiom Mission
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T211149">2023-09-20 21:11:49 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230920T221256">2023-09-20 22:12:56 UTC</a>
   <br>
 </div>
