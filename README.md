@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/rubio-hits-365-day-mark-in-space-eager-to-get-home/" >🔗</a> **[SpacePolicyOnline.com]** Rubio Hits 365-Day Mark in Space, Eager to Get Home
+
+
+- <a href="https://tlpnetwork.com/news/2023/09/ariane-6-long-duration-hot-fire-delayed-following-anomaly" >🔗</a> **[The Launch Pad]** Ariane 6 Long Duration Hot Fire Delayed Following Anomaly
+
+
 - <a href="https://mars.nasa.gov/news/9482/" >🔗</a> **[NASA]** Autonomous Systems Help NASA's Perseverance Do More Science on Mars
 
 
@@ -168,16 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/faa-proposes-upper-stage-disposal-rule-to-limit-space-debris/" >🔗</a> **[SpacePolicyOnline.com]** FAA Proposes Upper Stage Disposal Rule To Limit Space Debris
-
-
-- <a href="https://spacenews.com/maxar-technologies-to-reorganize-under-two-separate-businesses/" >🔗</a> **[SpaceNews]** Maxar Technologies reorganizes as two separate businesses
-
-
-- <a href="https://tlpnetwork.com/news/2023/09/artemis-ii-crew-conduct-launch-day-demo-at-ksc" >🔗</a> **[The Launch Pad]** Artemis II Crew Conduct Launch Day Demo At KSC
-
-
-  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T161706">2023-09-21 16:17:06 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T171254">2023-09-21 17:12:54 UTC</a>
   <br>
 </div>
