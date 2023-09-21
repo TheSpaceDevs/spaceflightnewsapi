@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://arstechnica.com/space/2023/09/independent-review-finds-mars-sample-return-mission-important-but-broken/" >🔗</a> **[Arstechnica]** Independent reviewers find NASA Mars Sample Return plans are seriously flawed
+
+
 - <a href="https://tlpnetwork.com/news/2023/09/rfa-argo" >🔗</a> **[The Launch Pad]** RFA Submits Argo Spacecraft to ESA Commercial Cargo Transportation Initiative
 
 
@@ -195,9 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/chinas-galactic-energy-suffers-first-launch-failure/" >🔗</a> **[SpaceNews]** China’s Galactic Energy suffers first launch failure
 
 
-- <a href="https://spacenews.com/faa-proposes-rule-to-limit-lifetime-of-upper-stages-in-orbit/" >🔗</a> **[SpaceNews]** FAA proposes rule to limit lifetime of upper stages in orbit
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T201324">2023-09-21 20:13:24 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T211210">2023-09-21 21:12:10 UTC</a>
   <br>
 </div>
