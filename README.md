@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/faa-proposes-upper-stage-disposal-rule-to-limit-space-debris/" >🔗</a> **[SpacePolicyOnline.com]** FAA Proposes Upper Stage Disposal Rule To Limit Space Debris
+
+
 - <a href="https://spacenews.com/maxar-technologies-to-reorganize-under-two-separate-businesses/" >🔗</a> **[SpaceNews]** Maxar Technologies reorganizes as two separate businesses
 
 
@@ -175,13 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/space-debris-removal-startup-dark-partners-with-bordeaux-airport/" >🔗</a> **[European Spaceflight]** Space Debris Removal Startup Dark Partners with Bordeaux Airport
-
-
-- <a href="https://spacenews.com/ast-spacemobiles-prototype-satellite-makes-first-5g-connection/" >🔗</a> **[SpaceNews]** AST SpaceMobile’s prototype satellite makes first 5G connection
-
-
-  - <a href="https://go4liftoff.com/launch/id/992823ad-f843-4a4a-beca-882b8ce8773a" >🚀</a> **Falcon 9 Block 5 | Starlink Group 4-2 & BlueWalker 3** from Kennedy Space Center, FL, USA
-
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T041642">2023-09-21 04:16:42 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T051310">2023-09-21 05:13:10 UTC</a>
   <br>
 </div>
