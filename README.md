@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://mars.nasa.gov/news/9482/" >🔗</a> **[NASA]** Autonomous Systems Help NASA's Perseverance Do More Science on Mars
+
+
+- <a href="https://europeanspaceflight.com/arianegroup-invests-e27m-more-into-maiaspace/" >🔗</a> **[European Spaceflight]** ArianeGroup Invests €27M More into MaiaSpace
+
+
 - <a href="https://spacenews.com/the-artemis-accords-changing-the-narrative-from-space-race-to-space-cooperation/" >🔗</a> **[SpaceNews]** The Artemis Accords: Changing the Narrative from Space Race to Space Cooperation
 
 
@@ -171,20 +177,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://tlpnetwork.com/news/2023/09/nasa-set-to-begin-artemis-ii-ground-system-testing" >🔗</a> **[The Launch Pad]** NASA Set To Begin Artemis II Ground System Testing
-
-
-  - <a href="https://go4liftoff.com/launch/id/41699701-2ef4-4b0c-ac9d-6757820cde87" >🚀</a> **SLS Block 1 | Artemis II** from Kennedy Space Center, FL, USA
-
-
-
-- <a href="https://arstechnica.com/space/2023/09/spacex-breaks-another-booster-reuse-record-but-did-anyone-see-it/" >🔗</a> **[Arstechnica]** SpaceX breaks another booster reuse record, but did anyone see it?
-
-
-  - <a href="https://go4liftoff.com/launch/id/7fc31961-b46f-4a45-9b1d-3caece884f61" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-17** from Cape Canaveral, FL, USA
 
 
 
@@ -226,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T151352">2023-09-21 15:13:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T161706">2023-09-21 16:17:06 UTC</a>
   <br>
 </div>
