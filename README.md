@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/faa-proposes-rule-to-limit-lifetime-of-upper-stages-in-orbit/" >🔗</a> **[SpaceNews]** FAA proposes rule to limit lifetime of upper stages in orbit
+
+
 - <a href="https://spacenews.com/space-force-revising-commercial-space-strategy-to-make-it-actionable/" >🔗</a> **[SpaceNews]** Space Force revising commercial space strategy to make it “actionable”
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/the-startup-nation-in-space-israels-equation-for-the-space-ecosystem/" >🔗</a> **[SpaceNews]** The Startup Nation in Space – Israel’s Equation for the Space Ecosystem
-
-
-- <a href="https://www.cnbc.com/2023/09/20/spacex-countersues-doj-in-hiring-discrimination-case.html" >🔗</a> **[CNBC]** SpaceX countersues Justice Department, seeking to dismiss hiring discrimination case
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T111147">2023-09-21 11:11:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T122822">2023-09-21 12:28:22 UTC</a>
   <br>
 </div>
