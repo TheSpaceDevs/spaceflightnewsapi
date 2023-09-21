@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/smallspark-completes-hot-fire-test-of-thruster-prototype/" >🔗</a> **[European Spaceflight]** SmallSpark Completes Hot Fire Test of Thruster Prototype
+
+
 - <a href="https://spacepolicyonline.com/news/faa-proposes-upper-stage-disposal-rule-to-limit-space-debris/" >🔗</a> **[SpacePolicyOnline.com]** FAA Proposes Upper Stage Disposal Rule To Limit Space Debris
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/rfa-led-consortium-submit-argo-for-esa-commercial-cargo-initiative/" >🔗</a> **[European Spaceflight]** RFA-Led Consortium Submit Argo for ESA Commercial Cargo Initiative
-
-
-- <a href="https://europeanspaceflight.com/space-debris-removal-startup-dark-partners-with-bordeaux-airport/" >🔗</a> **[European Spaceflight]** Space Debris Removal Startup Dark Partners with Bordeaux Airport
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T081823">2023-09-21 08:18:23 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T091408">2023-09-21 09:14:08 UTC</a>
   <br>
 </div>
