@@ -146,16 +146,44 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/09/rfa-argo" >🔗</a> **[The Launch Pad]** RFA Submits Argo Spacecraft to ESA Commercial Cargo Transportation Initiative
+
+
+- <a href="https://mars.nasa.gov/news/9483/" >🔗</a> **[NASA]** NASA Releases Independent Review's Mars Sample Return Report
+
+
 - <a href="https://www.cnbc.com/2023/09/21/investing-in-space-fireflys-space-force-launch-represents-key-moment.html" >🔗</a> **[CNBC]** Investing in Space: Firefly’s successful launch represents a key moment for company’s future
+
+
+  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
+
 
 
 - <a href="https://spacepolicyonline.com/news/rubio-hits-365-day-mark-in-space-eager-to-get-home/" >🔗</a> **[SpacePolicyOnline.com]** Rubio Hits 365-Day Mark in Space, Eager to Get Home
 
 
+  - <a href="https://go4liftoff.com/launch/id/bc73ec4f-633e-4eb5-8b8e-5c996ea1733f" >🚀</a> **Soyuz 2.1a | Soyuz MS-22** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+  - <a href="https://go4liftoff.com/launch/id/e3290e0e-d967-4a5d-95eb-f8fae06a9034" >🚀</a> **Soyuz 2.1a | Soyuz MS-23** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+
+
 - <a href="https://tlpnetwork.com/news/2023/09/ariane-6-long-duration-hot-fire-delayed-following-anomaly" >🔗</a> **[The Launch Pad]** Ariane 6 Long Duration Hot Fire Delayed Following Anomaly
 
 
+  - <a href="https://go4liftoff.com/launch/id/3e461ec0-8b64-4804-b9aa-e1e1f066065a" >🚀</a> **Ariane 62 | Maiden Flight** from Kourou, French Guiana
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/864" >📆</a> **Ariane 6 Full-Duration Static Fire**
+
+
 - <a href="https://mars.nasa.gov/news/9482/" >🔗</a> **[NASA]** Autonomous Systems Help NASA's Perseverance Do More Science on Mars
+
+
+  - <a href="https://go4liftoff.com/launch/id/c4db6995-f25f-4608-8eb9-ce95d5226af2" >🚀</a> **Atlas V 541 | Mars 2020 (Perseverance rover & Ingenuity helicopter)** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://europeanspaceflight.com/arianegroup-invests-e27m-more-into-maiaspace/" >🔗</a> **[European Spaceflight]** ArianeGroup Invests €27M More into MaiaSpace
@@ -170,15 +198,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/faa-proposes-rule-to-limit-lifetime-of-upper-stages-in-orbit/" >🔗</a> **[SpaceNews]** FAA proposes rule to limit lifetime of upper stages in orbit
 
 
-- <a href="https://spacenews.com/space-force-revising-commercial-space-strategy-to-make-it-actionable/" >🔗</a> **[SpaceNews]** Space Force revising commercial space strategy to make it “actionable”
-
-
-- <a href="https://europeanspaceflight.com/smallspark-completes-hot-fire-test-of-thruster-prototype/" >🔗</a> **[European Spaceflight]** SmallSpark Completes Hot Fire Test of Thruster Prototype
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/articles/the-day-of-action-returns-to-capitol-hill" >🔗</a> **[Planetary Society]** The Day of Action returns to Capitol Hill
+
 
 - <a href="https://www.planetary.org/articles/tips-for-2024-total-solar-eclipse" >🔗</a> **[Planetary Society]** Want to experience the 2024 total solar eclipse? Here are some tips.
 
@@ -207,13 +232,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/articles/are-your-solar-eclipse-glasses-safe" >🔗</a> **[Planetary Society]** Are your solar eclipse glasses safe?
 
 
-- <a href="https://www.planetary.org/articles/how-to-see-newly-discovered-comet-nishimura" >🔗</a> **[Planetary Society]** How to see newly discovered Comet Nishimura
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T181833">2023-09-21 18:18:33 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T191054">2023-09-21 19:10:54 UTC</a>
   <br>
 </div>
