@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/record-setting-nasa-astronaut-soon-returns-to-earth-watch-live" >🔗</a> **[NASA]** Record-Setting NASA Astronaut Soon Returns to Earth; Watch Live
+
+
+  - <a href="https://go4liftoff.com/launch/id/bc73ec4f-633e-4eb5-8b8e-5c996ea1733f" >🚀</a> **Soyuz 2.1a | Soyuz MS-22** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+  - <a href="https://go4liftoff.com/launch/id/e3290e0e-d967-4a5d-95eb-f8fae06a9034" >🚀</a> **Soyuz 2.1a | Soyuz MS-23** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+
+
+- <a href="https://europeanspaceflight.com/spain-partner-with-esa-to-build-80m-euro-atlantic-constellation/" >🔗</a> **[European Spaceflight]** Spain Partner with ESA to Build €80M Atlantic Constellation
+
+
 - <a href="https://spacenews.com/house-speaker-introduces-bill-to-extend-commercial-spaceflight-regulatory-learning-period/" >🔗</a> **[SpaceNews]** House Speaker introduces bill to extend commercial spaceflight regulatory learning period
 
 
@@ -178,19 +190,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/09/rfa-argo" >🔗</a> **[The Launch Pad]** RFA Submits Argo Spacecraft to ESA Commercial Cargo Transportation Initiative
 
 
-- <a href="https://mars.nasa.gov/news/9483/" >🔗</a> **[NASA]** NASA Releases Independent Review's Mars Sample Return Report
-
-
-- <a href="https://www.cnbc.com/2023/09/21/investing-in-space-fireflys-space-force-launch-represents-key-moment.html" >🔗</a> **[CNBC]** Investing in Space: Firefly’s successful launch represents a key moment for company’s future
-
-
-  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/the-downlink/equinox-and-equilux" >🔗</a> **[Planetary Society]** Equinox and equilux
+
 
 - <a href="https://www.planetary.org/articles/what-is-an-annular-solar-eclipse" >🔗</a> **[Planetary Society]** What is an annular solar eclipse?
 
@@ -219,13 +224,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/the-downlink/cometary-sights-and-sounds" >🔗</a> **[Planetary Society]** Cometary sights and sounds
 
 
-- <a href="https://www.planetary.org/articles/eclipse-2024-checklist" >🔗</a> **[Planetary Society]** A checklist for what to expect during the 2024 total solar eclipse
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T141246">2023-09-22 14:12:46 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T151412">2023-09-22 15:14:12 UTC</a>
   <br>
 </div>
