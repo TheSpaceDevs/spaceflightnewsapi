@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-scientists-to-discuss-oct-14-ring-of-fire-solar-eclipse" >🔗</a> **[NASA]** NASA Scientists to Discuss Oct. 14 'Ring of Fire' Solar Eclipse
+
+
 - <a href="https://spacenews.com/satellogic-relocating-to-the-united-states-in-search-of-government-growth/" >🔗</a> **[SpaceNews]** Satellogic relocating to the United States in search of government growth
 
 
@@ -187,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/nasa-mars-sample-return-budget-and-schedule-unrealistic-independent-review-concludes/" >🔗</a> **[SpaceNews]** NASA Mars Sample Return budget and schedule “unrealistic,” independent review concludes
 
 
-- <a href="https://spacepolicyonline.com/news/mars-sample-return-scientifically-critical-but-eye-poppingly-expensive/" >🔗</a> **[SpacePolicyOnline.com]** Mars Sample Return Scientifically Critical, But Eye-Poppingly Expensive
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -228,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T191104">2023-09-22 19:11:04 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T201421">2023-09-22 20:14:21 UTC</a>
   <br>
 </div>
