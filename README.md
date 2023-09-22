@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/sierra-space-tests-inflatable-module-technology/" >🔗</a> **[SpaceNews]** Sierra Space tests inflatable module technology
+
+
 - <a href="https://spacenews.com/true-anomaly-gets-17-million-space-force-contract-for-space-domain-awareness-software/" >🔗</a> **[SpaceNews]** True Anomaly gets $17 million Space Force contract for space domain awareness software
 
 
@@ -191,13 +194,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/864" >📆</a> **Ariane 6 Full-Duration Static Fire**
 
 
-- <a href="https://mars.nasa.gov/news/9482/" >🔗</a> **[NASA]** Autonomous Systems Help NASA's Perseverance Do More Science on Mars
-
-
-  - <a href="https://go4liftoff.com/launch/id/c4db6995-f25f-4608-8eb9-ce95d5226af2" >🚀</a> **Atlas V 541 | Mars 2020 (Perseverance rover & Ingenuity helicopter)** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +232,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T022022">2023-09-22 02:20:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T031409">2023-09-22 03:14:09 UTC</a>
   <br>
 </div>
