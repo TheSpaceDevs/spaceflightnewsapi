@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/09/sierra-space-conducts-5th-life-module-burst-test" >🔗</a> **[The Launch Pad]** Sierra Space Conducts 5th LIFE Module Burst Test
+
+
+- <a href="https://tlpnetwork.com/news/2023/09/chinas-galactic-energy-experiences-first-launch-failure" >🔗</a> **[The Launch Pad]** China's Galactic Energy Experiences First Launch Failure
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-scientists-to-discuss-oct-14-ring-of-fire-solar-eclipse" >🔗</a> **[NASA]** NASA Scientists to Discuss Oct. 14 'Ring of Fire' Solar Eclipse
 
 
@@ -182,12 +188,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/sierra-space-tests-inflatable-module-technology/" >🔗</a> **[SpaceNews]** Sierra Space tests inflatable module technology
-
-
-- <a href="https://spacenews.com/true-anomaly-gets-17-million-space-force-contract-for-space-domain-awareness-software/" >🔗</a> **[SpaceNews]** True Anomaly gets $17 million Space Force contract for space domain awareness software
-
-
-- <a href="https://spacenews.com/nasa-mars-sample-return-budget-and-schedule-unrealistic-independent-review-concludes/" >🔗</a> **[SpaceNews]** NASA Mars Sample Return budget and schedule “unrealistic,” independent review concludes
 
 
 
@@ -228,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T211131">2023-09-22 21:11:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T221304">2023-09-22 22:13:04 UTC</a>
   <br>
 </div>
