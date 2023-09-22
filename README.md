@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nasa-mars-sample-return-budget-and-schedule-unrealistic-independent-review-concludes/" >🔗</a> **[SpaceNews]** NASA Mars Sample Return budget and schedule “unrealistic,” independent review concludes
+
+
+- <a href="https://spacepolicyonline.com/news/mars-sample-return-scientifically-critical-but-eye-poppingly-expensive/" >🔗</a> **[SpacePolicyOnline.com]** Mars Sample Return Scientifically Critical, But Eye-Poppingly Expensive
+
+
 - <a href="https://arstechnica.com/space/2023/09/independent-review-finds-mars-sample-return-mission-important-but-broken/" >🔗</a> **[Arstechnica]** Independent reviewers find NASA Mars Sample Return plans are seriously flawed
 
 
@@ -192,12 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.com/arianegroup-invests-e27m-more-into-maiaspace/" >🔗</a> **[European Spaceflight]** ArianeGroup Invests €27M More into MaiaSpace
 
 
-- <a href="https://spacenews.com/the-artemis-accords-changing-the-narrative-from-space-race-to-space-cooperation/" >🔗</a> **[SpaceNews]** The Artemis Accords: Changing the Narrative from Space Race to Space Cooperation
-
-
-- <a href="https://spacenews.com/chinas-galactic-energy-suffers-first-launch-failure/" >🔗</a> **[SpaceNews]** China’s Galactic Energy suffers first launch failure
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230921T231349">2023-09-21 23:13:49 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T010149">2023-09-22 01:01:49 UTC</a>
   <br>
 </div>
