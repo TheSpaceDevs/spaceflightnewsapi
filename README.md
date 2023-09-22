@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/nasa-ready-for-osiris-rex-sample-return/" >🔗</a> **[SpaceNews]** NASA ready for OSIRIS-REx sample return
+
+
 - <a href="https://tlpnetwork.com/news/2023/09/sierra-space-conducts-5th-life-module-burst-test" >🔗</a> **[The Launch Pad]** Sierra Space Conducts 5th LIFE Module Burst Test
 
 
@@ -187,9 +190,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/864" >📆</a> **Ariane 6 Full-Duration Static Fire**
 
 
-- <a href="https://spacenews.com/sierra-space-tests-inflatable-module-technology/" >🔗</a> **[SpaceNews]** Sierra Space tests inflatable module technology
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -228,6 +228,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T221304">2023-09-22 22:13:04 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T231303">2023-09-22 23:13:03 UTC</a>
   <br>
 </div>
