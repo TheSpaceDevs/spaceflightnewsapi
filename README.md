@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/true-anomaly-gets-17-million-space-force-contract-for-space-domain-awareness-software/" >🔗</a> **[SpaceNews]** True Anomaly gets $17 million Space Force contract for space domain awareness software
+
+
 - <a href="https://spacenews.com/nasa-mars-sample-return-budget-and-schedule-unrealistic-independent-review-concludes/" >🔗</a> **[SpaceNews]** NASA Mars Sample Return budget and schedule “unrealistic,” independent review concludes
 
 
@@ -195,9 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://europeanspaceflight.com/arianegroup-invests-e27m-more-into-maiaspace/" >🔗</a> **[European Spaceflight]** ArianeGroup Invests €27M More into MaiaSpace
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T010149">2023-09-22 01:01:49 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230922T022022">2023-09-22 02:20:22 UTC</a>
   <br>
 </div>
