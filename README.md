@@ -155,19 +155,39 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/nasa-ready-for-osiris-rex-sample-return/" >🔗</a> **[SpaceNews]** NASA ready for OSIRIS-REx sample return
 
 
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
+
+
 - <a href="https://tlpnetwork.com/news/2023/09/sierra-space-conducts-5th-life-module-burst-test" >🔗</a> **[The Launch Pad]** Sierra Space Conducts 5th LIFE Module Burst Test
 
 
 - <a href="https://tlpnetwork.com/news/2023/09/chinas-galactic-energy-experiences-first-launch-failure" >🔗</a> **[The Launch Pad]** China's Galactic Energy Experiences First Launch Failure
 
 
+  - <a href="https://go4liftoff.com/launch/id/6eef3c8d-90a9-499c-96cd-e42326722d12" >🚀</a> **Ceres-1 | Jilin-1 High Resolution 04B** from Jiuquan Satellite Launch Center, People's Republic of China
+
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-scientists-to-discuss-oct-14-ring-of-fire-solar-eclipse" >🔗</a> **[NASA]** NASA Scientists to Discuss Oct. 14 'Ring of Fire' Solar Eclipse
+
+
+
+  - <a href="https://go4liftoff.com/event/id/857" >📆</a> **2023 Annular Solar Eclipse**
 
 
 - <a href="https://spacenews.com/satellogic-relocating-to-the-united-states-in-search-of-government-growth/" >🔗</a> **[SpaceNews]** Satellogic relocating to the United States in search of government growth
 
 
 - <a href="https://www.nasaspaceflight.com/2023/09/starship-upgrades-upcoming-test-flight/" >🔗</a> **[NASASpaceflight]** Pending FAA approval, Starship ready to sport upgrades for upcoming test flight
+
+
+  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
+
 
 
 - <a href="http://www.nasa.gov/press-release/record-setting-nasa-astronaut-soon-returns-to-earth-watch-live" >🔗</a> **[NASA]** Record-Setting NASA Astronaut Soon Returns to Earth; Watch Live
@@ -220,6 +240,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230923T071139">2023-09-23 07:11:39 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230923T081552">2023-09-23 08:15:52 UTC</a>
   <br>
 </div>
