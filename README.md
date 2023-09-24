@@ -146,13 +146,40 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-s-first-asteroid-sample-has-landed-now-secure-in-clean-room" >🔗</a> **[NASA]** NASA’s First Asteroid Sample Has Landed, Now Secure in Clean Room
+
+
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
+
+
 - <a href="https://spacenews.com/osiris-rex-sample-capsule-lands-in-utah/" >🔗</a> **[SpaceNews]** OSIRIS-REx sample capsule lands in Utah
+
+
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-24-30-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 24-30, 2023
 
 
 - <a href="https://www.nasaspaceflight.com/2023/09/osirisrex-landing/" >🔗</a> **[NASASpaceflight]** Historic OSIRIS-REx asteroid samples successfully return to Earth
+
+
+  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
+
+
+
+
+  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
 - <a href="https://spacenews.com/space-force-gets-another-weather-satellite-from-noaa/" >🔗</a> **[SpaceNews]** Space Force gets another weather satellite from NOAA
@@ -187,15 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/6eef3c8d-90a9-499c-96cd-e42326722d12" >🚀</a> **Ceres-1 | Jilin-1 High Resolution 04B** from Jiuquan Satellite Launch Center, People's Republic of China
 
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-scientists-to-discuss-oct-14-ring-of-fire-solar-eclipse" >🔗</a> **[NASA]** NASA Scientists to Discuss Oct. 14 'Ring of Fire' Solar Eclipse
-
-
-
-  - <a href="https://go4liftoff.com/event/id/874" >📆</a> **2023 Annular Solar Eclipse Media Teleconference**
-
-  - <a href="https://go4liftoff.com/event/id/857" >📆</a> **2023 Annular Solar Eclipse**
 
 
 
@@ -236,6 +254,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230924T211058">2023-09-24 21:10:58 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230924T221200">2023-09-24 22:12:00 UTC</a>
   <br>
 </div>
