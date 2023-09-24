@@ -149,6 +149,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/space-force-gets-another-weather-satellite-from-noaa/" >🔗</a> **[SpaceNews]** Space Force gets another weather satellite from NOAA
 
 
+  - <a href="https://go4liftoff.com/launch/id/54add5a6-de47-48bb-9486-982181cf2766" >🚀</a> **Delta IV M+(4,2) | GOES-P (GOES 15)** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/office-of-space-commerce-touts-progress-on-civil-space-traffic-coordination-system/" >🔗</a> **[SpaceNews]** Office of Space Commerce touts progress on civil space traffic coordination system
 
 
@@ -179,6 +183,8 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-scientists-to-discuss-oct-14-ring-of-fire-solar-eclipse" >🔗</a> **[NASA]** NASA Scientists to Discuss Oct. 14 'Ring of Fire' Solar Eclipse
 
 
+
+  - <a href="https://go4liftoff.com/event/id/874" >📆</a> **2023 Annular Solar Eclipse Media Teleconference**
 
   - <a href="https://go4liftoff.com/event/id/857" >📆</a> **2023 Annular Solar Eclipse**
 
@@ -240,6 +246,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230924T091208">2023-09-24 09:12:08 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230924T101301">2023-09-24 10:13:01 UTC</a>
   <br>
 </div>
