@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-24-30-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 24-30, 2023
+
+
 - <a href="https://www.nasaspaceflight.com/2023/09/osirisrex-landing/" >🔗</a> **[NASASpaceflight]** OSIRIS-REx asteroid samples set for historic return to Earth
 
 
@@ -195,13 +198,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/satellogic-relocating-to-the-united-states-in-search-of-government-growth/" >🔗</a> **[SpaceNews]** Satellogic relocating to the United States in search of government growth
 
 
-- <a href="https://www.nasaspaceflight.com/2023/09/starship-upgrades-upcoming-test-flight/" >🔗</a> **[NASASpaceflight]** Pending FAA approval, Starship ready to sport upgrades for upcoming test flight
-
-
-  - <a href="https://go4liftoff.com/launch/id/04b91bb8-38a7-4868-b025-4bbe05d1fbfe" >🚀</a> **Starship | Integrated Flight Test 2** from SpaceX Space Launch Facility, TX, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -240,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230924T111031">2023-09-24 11:10:31 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230924T122438">2023-09-24 12:24:38 UTC</a>
   <br>
 </div>
