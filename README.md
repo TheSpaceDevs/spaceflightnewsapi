@@ -146,10 +146,13 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/osiris-rex-sample-capsule-lands-in-utah/" >🔗</a> **[SpaceNews]** OSIRIS-REx sample capsule lands in Utah
+
+
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-24-30-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 24-30, 2023
 
 
-- <a href="https://www.nasaspaceflight.com/2023/09/osirisrex-landing/" >🔗</a> **[NASASpaceflight]** OSIRIS-REx asteroid samples set for historic return to Earth
+- <a href="https://www.nasaspaceflight.com/2023/09/osirisrex-landing/" >🔗</a> **[NASASpaceflight]** Historic OSIRIS-REx asteroid samples successfully return to Earth
 
 
 - <a href="https://spacenews.com/space-force-gets-another-weather-satellite-from-noaa/" >🔗</a> **[SpaceNews]** Space Force gets another weather satellite from NOAA
@@ -195,12 +198,12 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/857" >📆</a> **2023 Annular Solar Eclipse**
 
 
-- <a href="https://spacenews.com/satellogic-relocating-to-the-united-states-in-search-of-government-growth/" >🔗</a> **[SpaceNews]** Satellogic relocating to the United States in search of government growth
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/articles/osiris-rex-returns-sample-to-earth" >🔗</a> **[Planetary Society]** OSIRIS-REx returns sample from asteroid Bennu to Earth
+
 
 - <a href="https://www.planetary.org/the-downlink/equinox-and-equilux" >🔗</a> **[Planetary Society]** Equinox and equilux
 
@@ -229,13 +232,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-september-4-10-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: September 4-10, 2023
 
 
-- <a href="https://www.planetary.org/the-downlink/cometary-sights-and-sounds" >🔗</a> **[Planetary Society]** Cometary sights and sounds
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230924T151234">2023-09-24 15:12:34 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230924T161605">2023-09-24 16:16:05 UTC</a>
   <br>
 </div>
