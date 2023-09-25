@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/italian-launch-startup-sidereus-space-raises-e5-1m-in-seed-funding/" >🔗</a> **[European Spaceflight]** Italian Launch Startup Sidereus Space Raises €5.1M in Seed+ Funding
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-names-new-head-of-technology-policy-strategy" >🔗</a> **[NASA]** NASA Names New Head of Technology, Policy, Strategy
 
 
@@ -209,9 +212,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 
-- <a href="https://spacenews.com/office-of-space-commerce-touts-progress-on-civil-space-traffic-coordination-system/" >🔗</a> **[SpaceNews]** Office of Space Commerce touts progress on civil space traffic coordination system
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -250,6 +250,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T171230">2023-09-25 17:12:30 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T181825">2023-09-25 18:18:25 UTC</a>
   <br>
 </div>
