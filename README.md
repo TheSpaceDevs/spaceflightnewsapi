@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://tlpnetwork.com/news/2023/09/jeff-bezos-announces-new-blue-origin-ceo" >🔗</a> **[The Launch Pad]** BREAKING! Jeff Bezos Announces New Blue Origin CEO In Message To Employees
+
+
 - <a href="https://www.cnbc.com/2023/09/25/blue-origin-ceo-bob-smith-out-replaced-by-former-amazon-exec-dave-limp.html" >🔗</a> **[CNBC]** Jeff Bezos’ Blue Origin to replace CEO Bob Smith with former Amazon exec Dave Limp
 
 
@@ -171,17 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/beijing-to-foster-commercial-space-and-satellite-constellations-as-key-future-industries/" >🔗</a> **[SpaceNews]** Beijing to foster commercial space and satellite constellations as key future industries
-
-
-- <a href="https://spacepolicyonline.com/news/bonanza-of-asteroid-riches-lands-in-utah/" >🔗</a> **[SpacePolicyOnline.com]** Bonanza of Asteroid Riches Lands in Utah
-
-
-  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
 
@@ -222,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T211155">2023-09-25 21:11:55 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T221232">2023-09-25 22:12:32 UTC</a>
   <br>
 </div>
