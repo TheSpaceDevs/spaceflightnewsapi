@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/blue-origin-ceo-smith-to-step-down/" >🔗</a> **[SpaceNews]** Blue Origin CEO Smith to step down
+
+
+- <a href="https://arstechnica.com/space/2023/09/bob-smith-is-finally-gone-from-blue-origin-his-replacement-comes-from-amazon/" >🔗</a> **[Arstechnica]** Jeff Bezos finally got rid of Bob Smith at Blue Origin
+
+
 - <a href="https://tlpnetwork.com/news/2023/09/jeff-bezos-announces-new-blue-origin-ceo" >🔗</a> **[The Launch Pad]** BREAKING! Jeff Bezos Announces New Blue Origin CEO In Message To Employees
 
 
@@ -168,12 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/nasa-names-new-head-of-technology-policy-strategy" >🔗</a> **[NASA]** NASA Names New Head of Technology, Policy, Strategy
-
-
-- <a href="https://mars.nasa.gov/news/9485/" >🔗</a> **[NASA]** Historic Wind Tunnel Facility Testing NASA's Mars Ascent Vehicle Rocket
-
-
-- <a href="https://spacenews.com/beijing-to-foster-commercial-space-and-satellite-constellations-as-key-future-industries/" >🔗</a> **[SpaceNews]** Beijing to foster commercial space and satellite constellations as key future industries
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T221232">2023-09-25 22:12:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T231310">2023-09-25 23:13:10 UTC</a>
   <br>
 </div>
