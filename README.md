@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/nasa-names-new-head-of-technology-policy-strategy" >🔗</a> **[NASA]** NASA Names New Head of Technology, Policy, Strategy
+
+
 - <a href="https://mars.nasa.gov/news/9485/" >🔗</a> **[NASA]** Historic Wind Tunnel Facility Testing NASA's Mars Ascent Vehicle Rocket
 
 
@@ -209,9 +212,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/office-of-space-commerce-touts-progress-on-civil-space-traffic-coordination-system/" >🔗</a> **[SpaceNews]** Office of Space Commerce touts progress on civil space traffic coordination system
 
 
-- <a href="https://spacenews.com/air-force-validates-boeings-new-wgs-satellite/" >🔗</a> **[SpaceNews]** Air Force validates Boeing’s new WGS satellite
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -250,6 +250,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T161843">2023-09-25 16:18:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T171230">2023-09-25 17:12:30 UTC</a>
   <br>
 </div>
