@@ -146,6 +146,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/09/25/blue-origin-ceo-bob-smith-out-replaced-by-former-amazon-exec-dave-limp.html" >🔗</a> **[CNBC]** Jeff Bezos’ Blue Origin to replace CEO Bob Smith with former Amazon exec Dave Limp
+
+
+- <a href="https://www.cnbc.com/2023/09/25/blue-origin-ceo-bob-smith-out-replaced-by-outgoing-amazon-exec-dave-limp.html" >🔗</a> **[CNBC]** Jeff Bezos’ Blue Origin to replace CEO Bob Smith with outgoing Amazon exec Dave Limp
+
+
+- <a href="https://spacenews.com/uaes-5-billion-commitment-opens-doors-for-yahsat/" >🔗</a> **[SpaceNews]** UAE’s $5 billion commitment opens doors for Yahsat
+
+
 - <a href="https://spacenews.com/u-s-space-force-and-astroscale-to-co-invest-in-a-refueling-satellite/" >🔗</a> **[SpaceNews]** U.S. Space Force and Astroscale to co-invest in a refueling satellite
 
 
@@ -173,31 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
   - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-s-first-asteroid-sample-has-landed-now-secure-in-clean-room" >🔗</a> **[NASA]** NASA’s First Asteroid Sample Has Landed, Now Secure in Clean Room
-
-
-  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
-
-
-- <a href="https://spacenews.com/osiris-rex-sample-capsule-lands-in-utah/" >🔗</a> **[SpaceNews]** OSIRIS-REx sample capsule lands in Utah
-
-
-  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
-
-
-- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-24-30-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 24-30, 2023
 
 
 
@@ -238,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T201447">2023-09-25 20:14:47 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T211155">2023-09-25 21:11:55 UTC</a>
   <br>
 </div>
