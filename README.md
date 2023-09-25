@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/u-s-space-force-and-astroscale-to-co-invest-in-a-refueling-satellite/" >🔗</a> **[SpaceNews]** U.S. Space Force and Astroscale to co-invest in a refueling satellite
+
+
+- <a href="https://www.cnbc.com/2023/09/25/sierra-space-fundraising-nearly-300-million-at-5-billion-valuation.html" >🔗</a> **[CNBC]** Sierra Space raising nearly $300 million from Japanese consortium at $5 billion valuation
+
+
 - <a href="https://europeanspaceflight.com/italian-launch-startup-sidereus-space-raises-e5-1m-in-seed-funding/" >🔗</a> **[European Spaceflight]** Italian Launch Startup Sidereus Space Raises €5.1M in Seed+ Funding
 
 
@@ -194,24 +200,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-september-24-30-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy September 24-30, 2023
 
 
-- <a href="https://www.nasaspaceflight.com/2023/09/osirisrex-landing/" >🔗</a> **[NASASpaceflight]** Historic OSIRIS-REx asteroid samples successfully return to Earth
-
-
-  - <a href="https://go4liftoff.com/launch/id/0bcc6850-4c51-4b08-aa19-0b3753351b9b" >🚀</a> **Atlas V 411 | OSIRIS-REx** from Cape Canaveral, FL, USA
-
-
-
-
-  - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
-
-
-- <a href="https://spacenews.com/space-force-gets-another-weather-satellite-from-noaa/" >🔗</a> **[SpaceNews]** Space Force gets another weather satellite from NOAA
-
-
-  - <a href="https://go4liftoff.com/launch/id/54add5a6-de47-48bb-9486-982181cf2766" >🚀</a> **Delta IV M+(4,2) | GOES-P (GOES 15)** from Cape Canaveral, FL, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -250,6 +238,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T191118">2023-09-25 19:11:18 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T201447">2023-09-25 20:14:47 UTC</a>
   <br>
 </div>
