@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/beijing-to-foster-commercial-space-and-satellite-constellations-as-key-future-industries/" >🔗</a> **[SpaceNews]** Beijing to foster commercial space and satellite constellations as key future industries
+
+
 - <a href="https://spacepolicyonline.com/news/bonanza-of-asteroid-riches-lands-in-utah/" >🔗</a> **[SpacePolicyOnline.com]** Bonanza of Asteroid Riches Lands in Utah
 
 
@@ -217,9 +220,6 @@ A nice to have if you want to have a "related news/launches" section in your app
   - <a href="https://go4liftoff.com/event/id/36" >📆</a> **OSIRIS-Rex Sample Return**
 
 
-- <a href="https://tlpnetwork.com/news/2023/09/sierra-space-conducts-5th-life-module-burst-test" >🔗</a> **[The Launch Pad]** Sierra Space Conducts 5th LIFE Module Burst Test
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -258,6 +258,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T131807">2023-09-25 13:18:07 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230925T141332">2023-09-25 14:13:32 UTC</a>
   <br>
 </div>
