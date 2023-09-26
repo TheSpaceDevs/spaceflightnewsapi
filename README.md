@@ -164,10 +164,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://tlpnetwork.com/news/2023/09/jeff-bezos-announces-new-blue-origin-ceo" >🔗</a> **[The Launch Pad]** Jeff Bezos Announces New Blue Origin CEO In Message To Employees
 
 
-- <a href="https://www.cnbc.com/2023/09/25/blue-origin-ceo-bob-smith-out-replaced-by-former-amazon-exec-dave-limp.html" >🔗</a> **[CNBC]** Jeff Bezos’ Blue Origin to replace CEO Bob Smith with former Amazon exec Dave Limp
-
-
 - <a href="https://www.cnbc.com/2023/09/25/blue-origin-ceo-bob-smith-out-replaced-by-outgoing-amazon-exec-dave-limp.html" >🔗</a> **[CNBC]** Jeff Bezos’ Blue Origin to replace CEO Bob Smith with outgoing Amazon exec Dave Limp
+
+
+- <a href="https://www.cnbc.com/2023/09/25/blue-origin-ceo-bob-smith-out-replaced-by-former-amazon-exec-dave-limp.html" >🔗</a> **[CNBC]** Jeff Bezos’ Blue Origin to replace CEO Bob Smith with former Amazon exec Dave Limp
 
 
 - <a href="https://spacenews.com/uaes-5-billion-commitment-opens-doors-for-yahsat/" >🔗</a> **[SpaceNews]** UAE’s $5 billion commitment opens doors for Yahsat
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230926T141356">2023-09-26 14:13:56 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230926T151512">2023-09-26 15:15:12 UTC</a>
   <br>
 </div>
