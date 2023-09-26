@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacepolicyonline.com/news/charity-weeden-is-nasas-new-policy-chief/" >🔗</a> **[SpacePolicyOnline.com]** Charity Weeden is NASA’s New Policy Chief
+
+
+- <a href="https://spacenews.com/boeings-quantum-leap-satellites-in-record-time-boosting-national-security-and-commercial-connectivity/" >🔗</a> **[SpaceNews]** Boeing’s Quantum Leap: Satellites in Record Time, Boosting National Security and Commercial Connectivity
+
+
 - <a href="https://spacenews.com/blue-origin-ceo-smith-to-step-down/" >🔗</a> **[SpaceNews]** Blue Origin CEO Smith to step down
 
 
@@ -168,12 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/09/25/sierra-space-fundraising-nearly-300-million-at-5-billion-valuation.html" >🔗</a> **[CNBC]** Sierra Space raising nearly $300 million from Japanese consortium at $5 billion valuation
-
-
-- <a href="https://europeanspaceflight.com/italian-launch-startup-sidereus-space-raises-e5-1m-in-seed-funding/" >🔗</a> **[European Spaceflight]** Italian Launch Startup Sidereus Space Raises €5.1M in Seed+ Funding
-
-
-- <a href="http://www.nasa.gov/press-release/nasa-names-new-head-of-technology-policy-strategy" >🔗</a> **[NASA]** NASA Names New Head of Technology, Policy, Strategy
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230926T031416">2023-09-26 03:14:16 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230926T041640">2023-09-26 04:16:40 UTC</a>
   <br>
 </div>
