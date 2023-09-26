@@ -158,7 +158,7 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://arstechnica.com/space/2023/09/bob-smith-is-finally-gone-from-blue-origin-his-replacement-comes-from-amazon/" >🔗</a> **[Arstechnica]** Jeff Bezos finally got rid of Bob Smith at Blue Origin
 
 
-- <a href="https://tlpnetwork.com/news/2023/09/jeff-bezos-announces-new-blue-origin-ceo" >🔗</a> **[The Launch Pad]** BREAKING! Jeff Bezos Announces New Blue Origin CEO In Message To Employees
+- <a href="https://tlpnetwork.com/news/2023/09/jeff-bezos-announces-new-blue-origin-ceo" >🔗</a> **[The Launch Pad]** Jeff Bezos Announces New Blue Origin CEO In Message To Employees
 
 
 - <a href="https://www.cnbc.com/2023/09/25/blue-origin-ceo-bob-smith-out-replaced-by-former-amazon-exec-dave-limp.html" >🔗</a> **[CNBC]** Jeff Bezos’ Blue Origin to replace CEO Bob Smith with former Amazon exec Dave Limp
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230926T091412">2023-09-26 09:14:12 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230926T101528">2023-09-26 10:15:28 UTC</a>
   <br>
 </div>
