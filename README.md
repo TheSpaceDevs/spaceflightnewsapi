@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/after-setting-new-record-for-responsive-launch-space-force-eyes-next-challenge/" >🔗</a> **[SpaceNews]** After setting new record for responsive launch, Space Force eyes next challenge
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-awards-aerospace-model-systems-fabrication-follow-on-contract" >🔗</a> **[NASA]** NASA Awards Aerospace Model Systems Fabrication Follow-On Contract
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/blue-origin-ceo-smith-to-step-down/" >🔗</a> **[SpaceNews]** Blue Origin CEO Smith to step down
-
-
-- <a href="https://arstechnica.com/space/2023/09/bob-smith-is-finally-gone-from-blue-origin-his-replacement-comes-from-amazon/" >🔗</a> **[Arstechnica]** Jeff Bezos finally got rid of Bob Smith at Blue Origin
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230926T221237">2023-09-26 22:12:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230926T231305">2023-09-26 23:13:05 UTC</a>
   <br>
 </div>
