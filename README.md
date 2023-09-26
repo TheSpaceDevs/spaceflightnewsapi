@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/sierra-space-raises-290-million/" >🔗</a> **[SpaceNews]** Sierra Space raises $290 million
+
+
 - <a href="https://spacepolicyonline.com/news/charity-weeden-is-nasas-new-policy-chief/" >🔗</a> **[SpacePolicyOnline.com]** Charity Weeden is NASA’s New Policy Chief
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/u-s-space-force-and-astroscale-to-co-invest-in-a-refueling-satellite/" >🔗</a> **[SpaceNews]** U.S. Space Force and Astroscale to co-invest in a refueling satellite
-
-
-- <a href="https://www.cnbc.com/2023/09/25/sierra-space-fundraising-nearly-300-million-at-5-billion-valuation.html" >🔗</a> **[CNBC]** Sierra Space raising nearly $300 million from Japanese consortium at $5 billion valuation
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230926T111159">2023-09-26 11:11:59 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230926T122814">2023-09-26 12:28:14 UTC</a>
   <br>
 </div>
