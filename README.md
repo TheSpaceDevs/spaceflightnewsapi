@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/cybersecurity-firm-xage-gets-17-million-contract-to-protect-space-force-networks/" >🔗</a> **[SpaceNews]** Cybersecurity firm Xage gets $17 million contract to protect Space Force networks
+
+
+- <a href="https://spacenews.com/china-narrows-field-for-low-cost-space-station-cargo-missions/" >🔗</a> **[SpaceNews]** China narrows field for low-cost space station cargo missions
+
+
 - <a href="https://spacenews.com/space-force-selects-university-partner-to-evaluate-classified-ground-systems-software/" >🔗</a> **[SpaceNews]** Space Force selects university partner to evaluate classified ground systems software
 
 
@@ -172,12 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-critical-infrastructure-breaking-the-binary-debate-and-a-call-for-space-council-action/" >🔗</a> **[SpaceNews]** Space Critical Infrastructure: Breaking the Binary Debate and a Call for Space Council Action
-
-
-- <a href="https://spacenews.com/sierra-space-raises-290-million/" >🔗</a> **[SpaceNews]** Sierra Space raises $290 million
-
-
-- <a href="https://spacepolicyonline.com/news/charity-weeden-is-nasas-new-policy-chief/" >🔗</a> **[SpacePolicyOnline.com]** Charity Weeden is NASA’s New Policy Chief
 
 
 
@@ -218,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230927T091355">2023-09-27 09:13:55 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230927T101514">2023-09-27 10:15:14 UTC</a>
   <br>
 </div>
