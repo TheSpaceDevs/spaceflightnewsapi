@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/09/27/faa-closes-investigation-into-blue-origins-new-shepard-rocket-failure.html" >🔗</a> **[CNBC]** FAA closes investigation into Blue Origin rocket failure, requires 21 ‘corrective actions’
+
+
 - <a href="https://europeanspaceflight.com/esa-to-publish-vega-c-test-z40-test-failure-findings-this-week/" >🔗</a> **[European Spaceflight]** ESA to Publish Vega C Test Z40 Test Failure Findings This Week
 
 
@@ -191,13 +194,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/nasa-offers-choice-of-contract-type-for-iss-deorbit-vehicle/" >🔗</a> **[SpaceNews]** NASA offers choice of contract type for ISS deorbit vehicle
 
 
-- <a href="https://spacenews.com/after-setting-new-record-for-responsive-launch-space-force-eyes-next-challenge/" >🔗</a> **[SpaceNews]** After setting new record for responsive launch, Space Force eyes next challenge
-
-
-  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
-
-
-
 
 
 ## Latest Blog Posts 🪧
@@ -236,6 +232,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230927T211222">2023-09-27 21:12:22 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230927T221228">2023-09-27 22:12:28 UTC</a>
   <br>
 </div>
