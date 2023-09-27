@@ -155,6 +155,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacenews.com/after-setting-new-record-for-responsive-launch-space-force-eyes-next-challenge/" >🔗</a> **[SpaceNews]** After setting new record for responsive launch, Space Force eyes next challenge
 
 
+  - <a href="https://go4liftoff.com/launch/id/b8f2e028-285c-457d-b807-a6749cfc3af6" >🚀</a> **Firefly Alpha | FLTA003 (VICTUS NOX)** from Vandenberg SFB, CA, USA
+
+
+
 - <a href="http://www.nasa.gov/press-release/nasa-awards-aerospace-model-systems-fabrication-follow-on-contract" >🔗</a> **[NASA]** NASA Awards Aerospace Model Systems Fabrication Follow-On Contract
 
 
@@ -214,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230927T071237">2023-09-27 07:12:37 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230927T081813">2023-09-27 08:18:13 UTC</a>
   <br>
 </div>
