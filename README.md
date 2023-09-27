@@ -152,10 +152,28 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/record-setting-nasa-astronaut-crewmates-return-from-space-mission" >🔗</a> **[NASA]** Record-Setting NASA Astronaut, Crewmates Return from Space Mission
 
 
+  - <a href="https://go4liftoff.com/launch/id/bc73ec4f-633e-4eb5-8b8e-5c996ea1733f" >🚀</a> **Soyuz 2.1a | Soyuz MS-22** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+  - <a href="https://go4liftoff.com/launch/id/e3290e0e-d967-4a5d-95eb-f8fae06a9034" >🚀</a> **Soyuz 2.1a | Soyuz MS-23** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+
+
 - <a href="https://spacepolicyonline.com/news/frank-rubio-back-on-terra-firma-after-record-setting-371-day-spaceflight/" >🔗</a> **[SpacePolicyOnline.com]** Frank Rubio Back on Terra Firma After Record-Setting 371-Day Spaceflight
 
 
+  - <a href="https://go4liftoff.com/launch/id/bc73ec4f-633e-4eb5-8b8e-5c996ea1733f" >🚀</a> **Soyuz 2.1a | Soyuz MS-22** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+  - <a href="https://go4liftoff.com/launch/id/e3290e0e-d967-4a5d-95eb-f8fae06a9034" >🚀</a> **Soyuz 2.1a | Soyuz MS-23** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+
+
 - <a href="https://spacenews.com/soyuz-returns-iss-crew-after-record-setting-stay/" >🔗</a> **[SpaceNews]** Soyuz returns ISS crew after record-setting stay
+
+
+  - <a href="https://go4liftoff.com/launch/id/bc73ec4f-633e-4eb5-8b8e-5c996ea1733f" >🚀</a> **Soyuz 2.1a | Soyuz MS-22** from Baikonur Cosmodrome, Republic of Kazakhstan
+
+  - <a href="https://go4liftoff.com/launch/id/e3290e0e-d967-4a5d-95eb-f8fae06a9034" >🚀</a> **Soyuz 2.1a | Soyuz MS-23** from Baikonur Cosmodrome, Republic of Kazakhstan
+
 
 
 - <a href="https://spacenews.com/cybersecurity-firm-xage-gets-17-million-contract-to-protect-space-force-networks/" >🔗</a> **[SpaceNews]** Cybersecurity firm Xage gets $17 million contract to protect Space Force networks
@@ -218,6 +236,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230927T151514">2023-09-27 15:15:14 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230927T161839">2023-09-27 16:18:39 UTC</a>
   <br>
 </div>
