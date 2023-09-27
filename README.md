@@ -146,6 +146,18 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/faa-closes-new-shepard-mishap-investigation/" >🔗</a> **[SpaceNews]** FAA closes New Shepard mishap investigation
+
+
+- <a href="https://spacenews.com/x-bow-to-demonstrate-additive-manufacturing-of-solid-rocket-motors-for-u-s-air-force/" >🔗</a> **[SpaceNews]** X-Bow to demonstrate additive manufacturing of solid rocket motors for U.S. Air Force
+
+
+- <a href="https://www.cnbc.com/2023/09/27/spacex-wins-first-pentagon-contract-for-starshield.html" >🔗</a> **[CNBC]** SpaceX wins first Pentagon contract for Starshield, its satellite network for military use
+
+
+- <a href="https://spacenews.com/rogue-space-systems-gets-us-air-force-funds-to-advance-in-orbit-servicing-tech/" >🔗</a> **[SpaceNews]** Rogue Space Systems gets US Air Force funds to advance in-orbit servicing tech
+
+
 - <a href="https://www.cnbc.com/2023/09/27/faa-closes-investigation-into-blue-origins-new-shepard-rocket-failure.html" >🔗</a> **[CNBC]** FAA closes investigation into Blue Origin rocket failure, requires 21 ‘corrective actions’
 
 
@@ -180,18 +192,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
   - <a href="https://go4liftoff.com/launch/id/e3290e0e-d967-4a5d-95eb-f8fae06a9034" >🚀</a> **Soyuz 2.1a | Soyuz MS-23** from Baikonur Cosmodrome, Republic of Kazakhstan
 
-
-
-- <a href="https://spacenews.com/cybersecurity-firm-xage-gets-17-million-contract-to-protect-space-force-networks/" >🔗</a> **[SpaceNews]** Cybersecurity firm Xage gets $17 million contract to protect Space Force networks
-
-
-- <a href="https://spacenews.com/china-narrows-field-for-low-cost-space-station-cargo-missions/" >🔗</a> **[SpaceNews]** China narrows field for low-cost space station cargo missions
-
-
-- <a href="https://spacenews.com/space-force-selects-university-partner-to-evaluate-classified-ground-systems-software/" >🔗</a> **[SpaceNews]** Space Force selects university partner to evaluate classified ground systems software
-
-
-- <a href="https://spacenews.com/nasa-offers-choice-of-contract-type-for-iss-deorbit-vehicle/" >🔗</a> **[SpaceNews]** NASA offers choice of contract type for ISS deorbit vehicle
 
 
 
@@ -232,6 +232,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230927T221228">2023-09-27 22:12:28 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230927T231321">2023-09-27 23:13:21 UTC</a>
   <br>
 </div>
