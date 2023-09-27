@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="http://www.nasa.gov/press-release/regreso-del-astronauta-de-la-NASA-que-batio-records-y-sus-companeros" >🔗</a> **[NASA]** Regreso del astronauta de la NASA que batió récords y sus compañeros
+
+
 - <a href="http://www.nasa.gov/press-release/record-setting-nasa-astronaut-crewmates-return-from-space-mission" >🔗</a> **[NASA]** Record-Setting NASA Astronaut, Crewmates Return from Space Mission
 
 
@@ -177,12 +180,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="http://www.nasa.gov/press-release/nasa-awards-aerospace-model-systems-fabrication-follow-on-contract" >🔗</a> **[NASA]** NASA Awards Aerospace Model Systems Fabrication Follow-On Contract
 
 
-- <a href="https://europeanspaceflight.com/portugal-adopts-new-space-law/" >🔗</a> **[European Spaceflight]** Portugal Adopts New Space Law
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://europeanspaceflight.substack.com/p/avios-stock-price-takes-a-dive" >🔗</a> **[European Spaceflight]** Avio's stock price takes a dive
+
 
 - <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-september-11-24-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: September 11-24, 2023
 
@@ -211,13 +214,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://www.planetary.org/the-downlink/lost-and-found" >🔗</a> **[Planetary Society]** Lost and found
 
 
-- <a href="https://www.planetary.org/articles/guide-to-eclipse-vocabulary" >🔗</a> **[Planetary Society]** A guide to eclipse vocabulary
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230927T141325">2023-09-27 14:13:25 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230927T151514">2023-09-27 15:15:14 UTC</a>
   <br>
 </div>
