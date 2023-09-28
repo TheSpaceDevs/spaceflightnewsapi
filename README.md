@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/09/28/investing-in-space-moon-company-ispace-opens-denver-headquarters.html" >🔗</a> **[CNBC]** Investing in Space: Japan’s ispace opens Denver headquarters as companies chase moon market
+
+
 - <a href="https://europeanspaceflight.com/germany-commits-2m-euros-to-fund-offshore-launch-infrastructure/" >🔗</a> **[European Spaceflight]** Germany Commits €2M to Fund Offshore Launch Infrastructure
 
 
@@ -175,13 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/rogue-space-systems-gets-us-air-force-funds-to-advance-in-orbit-servicing-tech/" >🔗</a> **[SpaceNews]** Rogue Space Systems gets US Air Force funds to advance in-orbit servicing tech
-
-
-- <a href="https://www.cnbc.com/2023/09/27/faa-closes-investigation-into-blue-origins-new-shepard-rocket-failure.html" >🔗</a> **[CNBC]** FAA closes investigation into Blue Origin rocket failure, requires 21 ‘corrective actions’
-
-
-  - <a href="https://go4liftoff.com/launch/id/d4a6a953-d1b2-4f68-b891-b9c75fc96ff2" >🚀</a> **New Shepard | NS-23** from Corn Ranch, Van Horn, TX, USA
-
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230928T161824">2023-09-28 16:18:24 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230928T171232">2023-09-28 17:12:32 UTC</a>
   <br>
 </div>
