@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/rogers-to-continue-to-challenge-decision-to-keep-space-command-in-colorado/" >🔗</a> **[SpaceNews]** Rogers to continue to challenge decision to keep Space Command in Colorado
+
+
+- <a href="https://www.cnbc.com/2023/09/28/blue-origin-sierra-space-orbital-reef-space-station-in-limbo.html" >🔗</a> **[CNBC]** Blue Origin, Sierra Space weigh future of Orbital Reef space station as partnership turns rocky
+
+
 - <a href="https://spacenews.com/astroscale-inspector-satellite-ready-for-launch/" >🔗</a> **[SpaceNews]** Astroscale inspector satellite ready for launch
 
 
@@ -172,16 +178,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/eutelsat-completes-multi-orbit-oneweb-merger-after-shareholder-vote/" >🔗</a> **[SpaceNews]** Eutelsat completes multi-orbit OneWeb merger after shareholder vote
-
-
-- <a href="https://spacenews.com/faa-closes-new-shepard-mishap-investigation/" >🔗</a> **[SpaceNews]** FAA closes New Shepard mishap investigation
-
-
-  - <a href="https://go4liftoff.com/launch/id/d4a6a953-d1b2-4f68-b891-b9c75fc96ff2" >🚀</a> **New Shepard | NS-23** from Corn Ranch, Van Horn, TX, USA
-
-
-
-- <a href="https://spacenews.com/x-bow-to-demonstrate-additive-manufacturing-of-solid-rocket-motors-for-u-s-air-force/" >🔗</a> **[SpaceNews]** X-Bow to demonstrate additive manufacturing of solid rocket motors for U.S. Air Force
 
 
 
@@ -222,6 +218,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230928T211215">2023-09-28 21:12:15 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230928T221305">2023-09-28 22:13:05 UTC</a>
   <br>
 </div>
