@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.cnbc.com/2023/09/28/eutelsat-oneweb-merge-to-create-satellite-challenger-to-musks-starlink.html" >🔗</a> **[CNBC]** Eutelsat and OneWeb combine to create European satellite giant as Musk’s Starlink pressures sector
+
+
 - <a href="https://europeanspaceflight.com/uk-to-provide-65m-for-high-risk-high-reward-space-tech-projects/" >🔗</a> **[European Spaceflight]** UK to Provide £65M for High-Risk, High-Reward Space Tech Projects
 
 
@@ -181,12 +184,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.com/esa-to-publish-vega-c-test-z40-test-failure-findings-this-week/" >🔗</a> **[European Spaceflight]** ESA to Publish Vega C Test Z40 Test Failure Findings This Week
 
 
-- <a href="http://www.nasa.gov/press-release/regreso-del-astronauta-de-la-NASA-que-batio-records-y-sus-companeros" >🔗</a> **[NASA]** Regreso del astronauta de la NASA que batió récords y sus compañeros
-
-
 
 
 ## Latest Blog Posts 🪧
+
+- <a href="https://www.planetary.org/articles/why-partial-eclipses-are-worth-seeing" >🔗</a> **[Planetary Society]** Why partial eclipses are worth seeing
+
 
 - <a href="https://europeanspaceflight.substack.com/p/avios-stock-price-takes-a-dive" >🔗</a> **[European Spaceflight]** Avio's stock price takes a dive
 
@@ -215,13 +218,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://europeanspaceflight.substack.com/p/is-there-a-future-for-the-european" >🔗</a> **[European Spaceflight]** Is there a future for the European Astronaut Corps?
 
 
-- <a href="https://www.planetary.org/the-downlink/lost-and-found" >🔗</a> **[Planetary Society]** Lost and found
-
-
 
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230928T131739">2023-09-28 13:17:39 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230928T141333">2023-09-28 14:13:33 UTC</a>
   <br>
 </div>
