@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/uk-to-provide-65m-for-high-risk-high-reward-space-tech-projects/" >🔗</a> **[European Spaceflight]** UK to Provide £65M for High-Risk, High-Reward Space Tech Projects
+
+
 - <a href="https://spacenews.com/mynaric-optical-terminals-selected-for-northorp-grumman-satellites-pass-key-tests/" >🔗</a> **[SpaceNews]** Mynaric optical terminals selected for Northrop Grumman satellites pass key tests
 
 
@@ -179,15 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="http://www.nasa.gov/press-release/regreso-del-astronauta-de-la-NASA-que-batio-records-y-sus-companeros" >🔗</a> **[NASA]** Regreso del astronauta de la NASA que batió récords y sus compañeros
-
-
-- <a href="http://www.nasa.gov/press-release/record-setting-nasa-astronaut-crewmates-return-from-space-mission" >🔗</a> **[NASA]** Record-Setting NASA Astronaut, Crewmates Return from Space Mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/bc73ec4f-633e-4eb5-8b8e-5c996ea1733f" >🚀</a> **Soyuz 2.1a | Soyuz MS-22** from Baikonur Cosmodrome, Republic of Kazakhstan
-
-  - <a href="https://go4liftoff.com/launch/id/e3290e0e-d967-4a5d-95eb-f8fae06a9034" >🚀</a> **Soyuz 2.1a | Soyuz MS-23** from Baikonur Cosmodrome, Republic of Kazakhstan
-
 
 
 
@@ -228,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230928T122750">2023-09-28 12:27:50 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230928T131739">2023-09-28 13:17:39 UTC</a>
   <br>
 </div>
