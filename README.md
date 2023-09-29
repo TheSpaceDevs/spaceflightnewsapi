@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/ispace-revises-design-of-lunar-lander-for-nasa-clps-mission/" >🔗</a> **[SpaceNews]** Ispace revises design of lunar lander for NASA CLPS mission
+
+
 - <a href="https://europeanspaceflight.com/european-commission-launches-targeted-consultation-for-eu-space-law/" >🔗</a> **[European Spaceflight]** European Commission Launches Targeted Consultation for EU Space Law
 
 
@@ -183,9 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.cnbc.com/2023/09/28/investing-in-space-moon-company-ispace-opens-denver-headquarters.html" >🔗</a> **[CNBC]** Investing in Space: Japan’s ispace opens Denver headquarters as companies chase moon market
-
-
-- <a href="https://europeanspaceflight.com/germany-commits-2m-euros-to-fund-offshore-launch-infrastructure/" >🔗</a> **[European Spaceflight]** Germany Commits €2M to Fund Offshore Launch Infrastructure
 
 
 
@@ -226,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230929T111143">2023-09-29 11:11:43 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230929T122725">2023-09-29 12:27:25 UTC</a>
   <br>
 </div>
