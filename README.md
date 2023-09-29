@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/esa-calls-for-small-moon-mission-ideas/" >🔗</a> **[European Spaceflight]** ESA Calls for Small Moon Mission Ideas
+
+
+- <a href="https://www.nasaspaceflight.com/2023/09/dream-chaser-tps/" >🔗</a> **[NASASpaceflight]** How Sierra Space Protects America’s Next Space Plane, Dream Chaser
+
+
 - <a href="https://spacenews.com/space-development-agency-funds-demonstration-of-satellite-laser-links-in-degraded-environments/" >🔗</a> **[SpaceNews]** Space Development Agency funds demonstration of satellite laser links in ‘degraded’ environments
 
 
@@ -176,12 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/rogers-to-continue-to-challenge-decision-to-keep-space-command-in-colorado/" >🔗</a> **[SpaceNews]** Rogers to continue to challenge decision to keep Space Command in Colorado
-
-
-- <a href="https://www.cnbc.com/2023/09/28/blue-origin-sierra-space-orbital-reef-space-station-in-limbo.html" >🔗</a> **[CNBC]** Blue Origin, Sierra Space weigh future of Orbital Reef space station as partnership turns rocky
-
-
-- <a href="https://spacenews.com/astroscale-inspector-satellite-ready-for-launch/" >🔗</a> **[SpaceNews]** Astroscale inspector satellite ready for launch
 
 
 
@@ -222,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230929T191112">2023-09-29 19:11:12 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230929T201424">2023-09-29 20:14:24 UTC</a>
   <br>
 </div>
