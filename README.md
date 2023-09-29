@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/space-development-agency-funds-demonstration-of-satellite-laser-links-in-degraded-environments/" >🔗</a> **[SpaceNews]** Space Development Agency funds demonstration of satellite laser links in ‘degraded’ environments
+
+
 - <a href="https://mars.nasa.gov/news/9490/" >🔗</a> **[NASA]** NASA's Perseverance Captures Dust-Filled Martian Whirlwind
 
 
@@ -179,13 +182,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/astroscale-inspector-satellite-ready-for-launch/" >🔗</a> **[SpaceNews]** Astroscale inspector satellite ready for launch
-
-
-- <a href="https://www.nasaspaceflight.com/2023/09/starlink-group-6-19/" >🔗</a> **[NASASpaceflight]** SpaceX to close out third quarter with record-breaking Starlink mission
-
-
-  - <a href="https://go4liftoff.com/launch/id/1c75cf8f-7097-46cc-9fe3-28c4886df4a6" >🚀</a> **Falcon 9 Block 5 | Starlink Group 6-19** from Cape Canaveral, FL, USA
-
 
 
 
@@ -226,6 +222,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230929T181811">2023-09-29 18:18:11 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230929T191112">2023-09-29 19:11:12 UTC</a>
   <br>
 </div>
