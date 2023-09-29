@@ -146,7 +146,21 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://europeanspaceflight.com/european-commission-launches-targeted-consultation-for-eu-space-law/" >🔗</a> **[European Spaceflight]** European Commission Launches Targeted Consultation for EU Space Law
+
+
+- <a href="https://spacenews.com/china-to-attempt-lunar-far-side-sample-return-in-2024/" >🔗</a> **[SpaceNews]** China to attempt lunar far side sample return in 2024
+
+
+  - <a href="https://go4liftoff.com/launch/id/9e857a6e-3b00-48db-859c-658c5bfe8b47" >🚀</a> **Long March 5  | Chang'e 6** from Wenchang Space Launch Site, People's Republic of China
+
+
+
 - <a href="https://spacenews.com/nasa-delays-psyche-launch-a-week/" >🔗</a> **[SpaceNews]** NASA delays Psyche launch a week
+
+
+  - <a href="https://go4liftoff.com/launch/id/66133437-db31-4098-8e3e-cf34c8125f9b" >🚀</a> **Falcon Heavy | Psyche** from Kennedy Space Center, FL, USA
+
 
 
 - <a href="https://spacepolicyonline.com/news/rogers-demands-air-force-ig-investigation-of-usspacecom-hq-decision/" >🔗</a> **[SpacePolicyOnline.com]** Rogers Demands Air Force IG Investigation of USSPACECOM HQ Decision
@@ -172,12 +186,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://europeanspaceflight.com/germany-commits-2m-euros-to-fund-offshore-launch-infrastructure/" >🔗</a> **[European Spaceflight]** Germany Commits €2M to Fund Offshore Launch Infrastructure
-
-
-- <a href="https://www.cnbc.com/2023/09/28/eutelsat-oneweb-merge-to-create-satellite-challenger-to-musks-starlink.html" >🔗</a> **[CNBC]** Eutelsat and OneWeb combine to create European satellite giant as Musk’s Starlink pressures sector
-
-
-- <a href="https://europeanspaceflight.com/uk-to-provide-65m-for-high-risk-high-reward-space-tech-projects/" >🔗</a> **[European Spaceflight]** UK to Provide £65M for High-Risk, High-Reward Space Tech Projects
 
 
 
@@ -218,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230929T081755">2023-09-29 08:17:55 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230929T091332">2023-09-29 09:13:32 UTC</a>
   <br>
 </div>
