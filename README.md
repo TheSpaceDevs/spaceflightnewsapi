@@ -146,6 +146,12 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://www.nasaspaceflight.com/2023/10/saturn-rings/" >🔗</a> **[NASASpaceflight]** New research provides explanation for the origin of Saturn’s rings and icy moons
+
+
+- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-october-1-7-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy October 1-7, 2023
+
+
 - <a href="https://spacenews.com/stopgap-spending-bill-includes-faa-learning-period-extension/" >🔗</a> **[SpaceNews]** Stopgap spending bill includes FAA learning period extension
 
 
@@ -168,16 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/space-development-agency-funds-demonstration-of-satellite-laser-links-in-degraded-environments/" >🔗</a> **[SpaceNews]** Space Development Agency funds demonstration of satellite laser links in ‘degraded’ environments
-
-
-- <a href="https://mars.nasa.gov/news/9490/" >🔗</a> **[NASA]** NASA's Perseverance Captures Dust-Filled Martian Whirlwind
-
-
-  - <a href="https://go4liftoff.com/launch/id/c4db6995-f25f-4608-8eb9-ce95d5226af2" >🚀</a> **Atlas V 541 | Mars 2020 (Perseverance rover & Ingenuity helicopter)** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/ispace-revises-design-of-lunar-lander-for-nasa-clps-mission/" >🔗</a> **[SpaceNews]** Ispace revises design of lunar lander for NASA CLPS mission
 
 
 
@@ -218,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20231001T181626">2023-10-01 18:16:26 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20231001T191021">2023-10-01 19:10:21 UTC</a>
   <br>
 </div>
