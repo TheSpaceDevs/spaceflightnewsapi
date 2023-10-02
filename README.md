@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/china-outlines-change-8-resource-utilization-mission-to-the-lunar-south-pole/" >🔗</a> **[SpaceNews]** China outlines Chang’e-8 resource utilization mission to the lunar south pole
+
+
 - <a href="https://spacenews.com/spacenews-announces-promotion-of-kamal-flucker-to-global-sales-director/" >🔗</a> **[SpaceNews]** SpaceNews Announces Promotion of Kamal Flucker to Global Sales Director
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-october-1-7-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy October 1-7, 2023
-
-
-- <a href="https://spacenews.com/stopgap-spending-bill-includes-faa-learning-period-extension/" >🔗</a> **[SpaceNews]** Stopgap spending bill includes FAA learning period extension
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20231002T201452">2023-10-02 20:14:52 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20231002T211232">2023-10-02 21:12:32 UTC</a>
   <br>
 </div>
