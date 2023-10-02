@@ -5,7 +5,7 @@ on:
       - 'v*'
 
 jobs:
-  push_to_registry:
+  build_and_push:
     name: Push Docker image to GitHub Packages
     runs-on: ubuntu-latest
     steps:
