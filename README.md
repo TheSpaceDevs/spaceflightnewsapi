@@ -146,6 +146,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 ## Latest News Articles 📰
+- <a href="https://spacenews.com/fcc-fines-dish-network-for-botched-satellite-de-orbit/" >🔗</a> **[SpaceNews]** FCC fines Dish Network for botched satellite de-orbit
+
+
 - <a href="https://spacenews.com/china-outlines-change-8-resource-utilization-mission-to-the-lunar-south-pole/" >🔗</a> **[SpaceNews]** China outlines Chang’e-8 resource utilization mission to the lunar south pole
 
 
@@ -171,9 +174,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://www.nasaspaceflight.com/2023/10/saturn-rings/" >🔗</a> **[NASASpaceflight]** New research provides explanation for the origin of Saturn’s rings and icy moons
-
-
-- <a href="https://spacepolicyonline.com/news/whats-happening-in-space-policy-october-1-7-2023/" >🔗</a> **[SpacePolicyOnline.com]** What’s Happening in Space Policy October 1-7, 2023
 
 
 
@@ -214,6 +214,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20231002T211232">2023-10-02 21:12:32 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20231002T221256">2023-10-02 22:12:56 UTC</a>
   <br>
 </div>
