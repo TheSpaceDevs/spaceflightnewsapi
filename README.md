@@ -149,7 +149,15 @@ A nice to have if you want to have a "related news/launches" section in your app
 - <a href="https://spacepolicyonline.com/news/fcc-issues-first-space-debris-fine/" >🔗</a> **[SpacePolicyOnline.com]** FCC Issues First Space Debris Fine
 
 
+  - <a href="https://go4liftoff.com/launch/id/713ef9aa-dd25-4cda-9720-2705a7a8a6bf" >🚀</a> **Atlas | Echostar VII** from Cape Canaveral, FL, USA
+
+
+
 - <a href="https://spacenews.com/fcc-fines-dish-network-for-botched-satellite-de-orbit/" >🔗</a> **[SpaceNews]** FCC fines Dish Network for botched satellite de-orbit
+
+
+  - <a href="https://go4liftoff.com/launch/id/713ef9aa-dd25-4cda-9720-2705a7a8a6bf" >🚀</a> **Atlas | Echostar VII** from Cape Canaveral, FL, USA
+
 
 
 - <a href="https://spacenews.com/china-outlines-change-8-resource-utilization-mission-to-the-lunar-south-pole/" >🔗</a> **[SpaceNews]** China outlines Chang’e-8 resource utilization mission to the lunar south pole
@@ -171,6 +179,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 
 - <a href="https://spacenews.com/esa-delays-vega-c-return-to-flight-to-late-2024/" >🔗</a> **[SpaceNews]** ESA delays Vega C return to flight to late 2024
+
+
+  - <a href="https://go4liftoff.com/launch/id/aa79ad61-9276-4c14-8d01-40fd348d641e" >🚀</a> **Vega-C | Sentinel-1C** from Kourou, French Guiana
+
 
 
 - <a href="https://europeanspaceflight.com/vega-c-nozzle-design-to-blame-for-zefiro-40-test-failure/" >🔗</a> **[European Spaceflight]** Vega C Nozzle Design to Blame for Zefiro 40 Test Failure
@@ -214,6 +226,6 @@ A nice to have if you want to have a "related news/launches" section in your app
 
 <hr>
   <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20231003T081821">2023-10-03 08:18:21 UTC</a>
+  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20231003T091354">2023-10-03 09:13:54 UTC</a>
   <br>
 </div>
