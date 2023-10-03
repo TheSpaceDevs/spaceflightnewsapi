@@ -1,56 +1,56 @@
-
-name: Update README
-
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "*/60 * * * *"   # every 60 mins
-
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 🍽️ Get working copy
-        uses: actions/checkout@main
-        with:
-          fetch-depth: 1
-      - name: Create branch & Setup bot account
-        env:
-          GH_TOKEN: ${{ secrets.SNAPI_BOT_TOKEN }}
-        run: |
-          gh auth setup-git
-          gh auth status
-          git config user.name "snapi-bot"
-          git config user.email "134217814+snapi-bot@users.noreply.github.com"
-      - name: Check if branch already exists
-        run: |
-          if [[ -z $(git ls-remote --heads origin readme-update) ]]; then
-            echo "branch_exists=false" >> "$GITHUB_ENV"
-          else
-            echo "branch_exists=true" >> "$GITHUB_ENV"
-          fi
-      - name: Delete branch if it already exists
-        if: env.branch_exists == 'true'
-        run: git push origin -d readme-update
-      - name: Create branch
-        run: |
-          git checkout -b readme-update
-      - name: 🐍 Set up Python 3.11
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.11'
-      - name: 💿 Install Jinja2 & requests
-        run: pip install Jinja2 requests
-      - name: 🍳 Update README
-        run: |
-          cd ${GITHUB_WORKSPACE}/.github/profile/src/
-          python update.py
-      - name: 🚀 Deploy
-        env:
-          GH_TOKEN: ${{ secrets.SNAPI_BOT_TOKEN }}
-        run: |
-          git add .
-          git commit -u -am "automation(README): Update content"
-          git push -u origin readme-update
-          gh pr create --title "automation(README): Update content" --body "Auto generated content" --base main --head readme-update
-          gh pr merge --squash --auto --delete-branch
+#
+#name: Update README
+#
+#on:
+#  workflow_dispatch:
+#  schedule:
+#    - cron: "*/60 * * * *"   # every 60 mins
+#
+#jobs:
+#  build-and-deploy:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: 🍽️ Get working copy
+#        uses: actions/checkout@main
+#        with:
+#          fetch-depth: 1
+#      - name: Create branch & Setup bot account
+#        env:
+#          GH_TOKEN: ${{ secrets.SNAPI_BOT_TOKEN }}
+#        run: |
+#          gh auth setup-git
+#          gh auth status
+#          git config user.name "snapi-bot"
+#          git config user.email "134217814+snapi-bot@users.noreply.github.com"
+#      - name: Check if branch already exists
+#        run: |
+#          if [[ -z $(git ls-remote --heads origin readme-update) ]]; then
+#            echo "branch_exists=false" >> "$GITHUB_ENV"
+#          else
+#            echo "branch_exists=true" >> "$GITHUB_ENV"
+#          fi
+#      - name: Delete branch if it already exists
+#        if: env.branch_exists == 'true'
+#        run: git push origin -d readme-update
+#      - name: Create branch
+#        run: |
+#          git checkout -b readme-update
+#      - name: 🐍 Set up Python 3.11
+#        uses: actions/setup-python@v2
+#        with:
+#          python-version: '3.11'
+#      - name: 💿 Install Jinja2 & requests
+#        run: pip install Jinja2 requests
+#      - name: 🍳 Update README
+#        run: |
+#          cd ${GITHUB_WORKSPACE}/.github/profile/src/
+#          python update.py
+#      - name: 🚀 Deploy
+#        env:
+#          GH_TOKEN: ${{ secrets.SNAPI_BOT_TOKEN }}
+#        run: |
+#          git add .
+#          git commit -u -am "automation(README): Update content"
+#          git push -u origin readme-update
+#          gh pr create --title "automation(README): Update content" --body "Auto generated content" --base main --head readme-update
+#          gh pr merge --squash --auto --delete-branch
