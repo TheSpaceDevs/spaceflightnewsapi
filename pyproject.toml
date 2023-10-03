@@ -56,3 +56,6 @@ target-version = ["py311"]
 
 [tool.ruff]
 extend-exclude = ["snapy/settings.py"]
+
+[tool.bandit]
+exclude_dirs = ["tests", ".github"]
