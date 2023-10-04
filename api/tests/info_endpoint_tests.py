@@ -13,12 +13,12 @@ class TestInfoEndpoint(APITestCase):
         response = self.client.get("/v4/info/")
         version = response.json()["version"]
 
-        self.assertEquals(response.status_code, 200)
-        self.assertEquals(version, settings.VERSION)
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(version, settings.VERSION)
 
     def test_news_sites(self):
         response = self.client.get("/v4/info/")
         news_sites = response.json()["news_sites"]
 
-        self.assertEquals(response.status_code, 200)
-        self.assertEquals(len(news_sites), 5)
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(news_sites), 5)
