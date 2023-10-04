@@ -29,7 +29,7 @@ services:
       - POSTGRES_PASSWORD=${DB_PASSWORD}
 
   app:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${VERSION}
     restart: unless-stopped
     command:
       - /bin/sh
@@ -60,7 +60,7 @@ services:
         condition: service_healthy
 
   beat:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${VERSION}
     restart: unless-stopped
     command: celery -A snapy beat -l INFO
     networks:
@@ -77,7 +77,7 @@ services:
 
 
   worker:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${VERSION}
     restart: unless-stopped
     command: celery -A snapy worker -l INFO
     networks:
