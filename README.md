@@ -93,6 +93,11 @@ A nice to have if you want to have a "related news/launches" section in your app
 <details>
 <summary>Expand</summary>
 
+# V4.0.5
+
+- Package updates
+- Migrated to Python 3.12
+
 # V4.0.0
 
 - Rewritten in Python and Django.
@@ -144,90 +149,3 @@ A nice to have if you want to have a "related news/launches" section in your app
 - Complete rewrite of the app, focusing on existing features
 
 </details>
-
-
-
-## Latest News Articles 📰
-- <a href="https://spacenews.com/air-force-research-lab-awards-design-contracts-for-nuclear-powered-spacecraft/" >🔗</a> **[SpaceNews]** Air Force Research Lab awards design contracts for nuclear powered spacecraft
-
-
-- <a href="https://spacepolicyonline.com/news/fcc-issues-first-space-debris-fine/" >🔗</a> **[SpacePolicyOnline.com]** FCC Issues First Space Debris Fine
-
-
-  - <a href="https://go4liftoff.com/launch/id/713ef9aa-dd25-4cda-9720-2705a7a8a6bf" >🚀</a> **Atlas | Echostar VII** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/fcc-fines-dish-network-for-botched-satellite-de-orbit/" >🔗</a> **[SpaceNews]** FCC fines Dish Network for botched satellite de-orbit
-
-
-  - <a href="https://go4liftoff.com/launch/id/713ef9aa-dd25-4cda-9720-2705a7a8a6bf" >🚀</a> **Atlas | Echostar VII** from Cape Canaveral, FL, USA
-
-
-
-- <a href="https://spacenews.com/china-outlines-change-8-resource-utilization-mission-to-the-lunar-south-pole/" >🔗</a> **[SpaceNews]** China outlines Chang’e-8 resource utilization mission to the lunar south pole
-
-
-- <a href="https://spacenews.com/spacenews-announces-promotion-of-kamal-flucker-to-global-sales-director/" >🔗</a> **[SpaceNews]** SpaceNews Announces Promotion of Kamal Flucker to Global Sales Director
-
-
-- <a href="https://www.cnbc.com/2023/10/02/fcc-enforces-first-space-debris-penalty-in-dish-network-settlement.html" >🔗</a> **[CNBC]** FCC enforces first space debris penalty in $150,000 settlement with Dish
-
-
-- <a href="https://spacenews.com/space-force-goal-of-a-multi-vendor-space-network-called-impractical/" >🔗</a> **[SpaceNews]** Space Force goal of a multi-vendor space network called impractical
-
-
-- <a href="https://arstechnica.com/space/2023/10/northrop-grumman-likely-to-end-its-bid-for-a-commercial-space-station/" >🔗</a> **[Arstechnica]** Northrop Grumman likely to end its bid for a commercial space station
-
-
-- <a href="https://spacenews.com/heads-of-agencies-update-on-crewed-robotic-lunar-plans/" >🔗</a> **[SpaceNews]** Heads of agencies update on crewed, robotic lunar plans
-
-
-- <a href="https://spacenews.com/esa-delays-vega-c-return-to-flight-to-late-2024/" >🔗</a> **[SpaceNews]** ESA delays Vega C return to flight to late 2024
-
-
-  - <a href="https://go4liftoff.com/launch/id/aa79ad61-9276-4c14-8d01-40fd348d641e" >🚀</a> **Vega-C | Sentinel-1C** from Kourou, French Guiana
-
-
-
-
-
-## Latest Blog Posts 🪧
-
-- <a href="https://www.planetary.org/articles/psyche-launch-what-to-expect" >🔗</a> **[Planetary Society]** The Psyche launch and its journey to a metal world: What to expect
-
-
-- <a href="https://www.planetary.org/the-downlink/with-an-eye-to-the-future" >🔗</a> **[Planetary Society]** With an eye to the future
-
-
-- <a href="https://blog.ulalaunch.com/blog/protoflight-project-kuiper-payload-placed-atop-atlas-v" >🔗</a> **[United Launch Alliance]** Protoflight: Project Kuiper payload placed atop Atlas V
-
-
-- <a href="https://www.planetary.org/articles/mike-puzio-bennu-interview" >🔗</a> **[Planetary Society]** The boy who named Bennu is now an aspiring astronaut
-
-
-- <a href="https://www.planetary.org/articles/why-partial-eclipses-are-worth-seeing" >🔗</a> **[Planetary Society]** Why partial eclipses are worth seeing
-
-
-- <a href="https://europeanspaceflight.substack.com/p/avios-stock-price-takes-a-dive" >🔗</a> **[European Spaceflight]** Avio's stock price takes a dive
-
-
-- <a href="https://spacepolicyonline.com/news/weekly-roundup-for-spacepolicyonline-com-september-11-24-2023/" >🔗</a> **[SpacePolicyOnline.com]** Weekly Roundup for SpacePolicyOnline.com: September 11-24, 2023
-
-
-- <a href="https://www.planetary.org/articles/osiris-rex-returns-sample-to-earth" >🔗</a> **[Planetary Society]** OSIRIS-REx returns sample from asteroid Bennu to Earth
-
-
-- <a href="https://www.planetary.org/the-downlink/equinox-and-equilux" >🔗</a> **[Planetary Society]** Equinox and equilux
-
-
-- <a href="https://www.planetary.org/articles/what-is-an-annular-solar-eclipse" >🔗</a> **[Planetary Society]** What is an annular solar eclipse?
-
-
-
-
-<hr>
-  <div align="center">
-  This <code>README.md</code> was last auto generated at <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20231003T101525">2023-10-03 10:15:25 UTC</a>
-  <br>
-</div>
