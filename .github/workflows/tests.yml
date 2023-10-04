@@ -11,28 +11,15 @@ jobs:
       - uses: pre-commit/action@v3.0.0
 
   tests:
-    env:
-      # Secrets
-      DB_NAME: ${{ secrets.DB_NAME }}
-      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-      DB_USER: ${{ secrets.DB_USER }}
-      DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      SECRET_KEY: ${{ secrets.SECRET_KEY }}
-
-      # Env variables in containers
-      CELERY_BROKER_URL: ${{ vars.CELERY_BROKER_URL }}
-      CSRF_TRUSTED_ORIGIN: ${{ vars.CSRF_TRUSTED_ORIGIN }}
-      DEBUG: ${{ vars.DEBUG }}
-      LL_URL: ${{ vars.LL_URL }}
-      SNAPI_VERSION: "v4-testing"
-
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
 
-      - name: Run the compose file
-        run: docker compose -f docker-compose.dev.yml up -d
-
-      - name: Run the tests
-        run: docker compose -f docker-compose.dev.yml exec app python manage.py test
+      - name: Run pytest
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.12"
+        run: |
+          pip install pytest
+          pytest
