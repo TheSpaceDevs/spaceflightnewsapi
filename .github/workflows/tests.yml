@@ -1,4 +1,4 @@
-name: Run tests on PR
+name: Testing and Linting
 on:
   pull_request:
 
@@ -26,7 +26,6 @@ jobs:
       LL_URL: ${{ vars.LL_URL }}
       SNAPI_VERSION: "v4-testing"
 
-    name: Run the tests
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
