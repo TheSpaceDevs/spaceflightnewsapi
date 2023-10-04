@@ -55,7 +55,7 @@ profile = "black"
 target-version = ["py311"]
 
 [tool.ruff]
-#extend-exclude = ["snapy/settings.py"]
+extend-exclude = ["snapy/settings.py"]
 
 [tool.bandit]
 exclude_dirs = ["tests", ".github"]
