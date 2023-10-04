@@ -24,6 +24,7 @@ sentry-sdk = "^1.30.0"
 dj-database-url = "^2.0.0"
 django-minio-backend = "^3.5.0"
 ruff = "^0.0.292"
+psycopg2-binary = "^2.9.9"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -54,7 +55,7 @@ profile = "black"
 target-version = ["py311"]
 
 [tool.ruff]
-extend-exclude = ["snapy/settings.py"]
+#extend-exclude = ["snapy/settings.py"]
 
 [tool.bandit]
 exclude_dirs = ["tests", ".github"]
