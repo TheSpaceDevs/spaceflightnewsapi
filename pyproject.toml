@@ -39,6 +39,7 @@ mypy = "^1.3.0"
 bandit = { extras = ["toml"], version = "^1.7.5" }
 pytest-django = "^4.5.2"
 pytest-env = "^1.0.1"
+pytest = "^7.4.2"
 
 [build-system]
 requires = ["poetry-core"]
