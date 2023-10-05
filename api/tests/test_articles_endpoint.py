@@ -5,7 +5,7 @@ Most code is shared between the two.
 
 import pytest
 
-from api.models import Article, Launch
+from api.models import Article, Launch, NewsSite
 
 
 @pytest.mark.django_db
@@ -67,3 +67,14 @@ class TestArticlesEndpoint:
             data["results"][0]["launches"][0]["provider"] == launches[0].provider.name
         )
         assert len(data["results"]) == 1
+
+    def test_get_articles_by_news_site(
+        self, client, articles: list[Article], news_sites: list[NewsSite]
+    ):
+        response = client.get(f"/v4/articles/?news_site={news_sites[0].name}")
+        assert response.status_code == 200
+
+        data = response.json()
+        assert data["results"][0]["title"] == articles[0].title
+        assert data["results"][0]["news_site"] == news_sites[0].name
+        assert len(data["results"]) == 2
