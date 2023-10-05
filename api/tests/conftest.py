@@ -8,7 +8,7 @@ from api.models import Article, Launch, NewsSite, Provider
 @pytest.fixture
 def news_sites() -> list[NewsSite]:
     sites: list[NewsSite] = []
-    for i in range(10):
+    for i in range(20):
         site = NewsSite.objects.create(name=f"News Site {i}")
         sites.append(site)
 

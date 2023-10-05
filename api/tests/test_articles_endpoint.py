@@ -31,3 +31,6 @@ class TestArticlesEndpoint:
         data = response.json()
 
         assert len(data["results"]) == 2
+
+    def test_get_single_article_with_launch(self):
+        pass
