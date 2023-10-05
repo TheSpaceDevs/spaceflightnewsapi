@@ -1,4 +1,4 @@
-.env
+.env.example
 .idea
 .github
 .pre-commit-config.yaml
