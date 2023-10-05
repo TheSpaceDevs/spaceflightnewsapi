@@ -31,4 +31,3 @@ ADD --chown=${APP_USER}:${APP_USER} . ${APP_HOME}
 ENV PATH="${APP_HOME}/.venv/bin:$PATH"
 USER ${APP_USER}
 EXPOSE 8000
-
