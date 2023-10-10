@@ -120,3 +120,15 @@ class TestArticlesEndpoint:
         data = response.json()
 
         assert len(data["results"]) == 5
+
+    def test_get_articles_with_ordering(self, client, articles: list[Article]):
+        sorted_data = sorted(
+            articles, key=lambda article: article.published_at, reverse=True
+        )
+
+        response = client.get("/v4/articles/?ordering=-published_at")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert data["results"][0]["title"] == sorted_data[0].title
