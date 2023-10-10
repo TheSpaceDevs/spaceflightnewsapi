@@ -112,3 +112,11 @@ class TestArticlesEndpoint:
         data = response.json()
 
         assert len(data["results"]) == 10
+
+    def test_get_articles_with_limit(self, client, articles: list[Article]):
+        response = client.get("/v4/articles/?limit=5")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert len(data["results"]) == 5
