@@ -1,14 +1,17 @@
+from random import randrange
 from uuid import uuid4
 
 import pytest
 
 from api.models import Article, Launch, NewsSite, Provider
 
+NUMBER_OF_NEWS_SITES = 20
+
 
 @pytest.fixture
 def news_sites() -> list[NewsSite]:
     sites: list[NewsSite] = []
-    for i in range(20):
+    for i in range(NUMBER_OF_NEWS_SITES):
         site = NewsSite.objects.create(name=f"News Site {i}")
         sites.append(site)
 
@@ -37,13 +40,13 @@ def launches(provider: Provider) -> list[Launch]:
 @pytest.fixture
 def articles(news_sites: list[NewsSite], launches: list[Launch]) -> list[Article]:
     articles: list[Article] = []
-    for i in range(8):
+    for i in range(100):
         article = Article.objects.create(
             title=f"Article {i}",
             summary=f"Description {i}",
             url=f"https://example.com/{i}",
             image_url=f"https://example.com/{i}.png",
-            news_site=news_sites[i],
+            news_site=news_sites[randrange(NUMBER_OF_NEWS_SITES)],
             published_at="2021-01-01T00:00:00Z",
             updated_at="2021-01-01T00:00:00Z",
         )

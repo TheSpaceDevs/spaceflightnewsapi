@@ -2,7 +2,6 @@
 This module tests both articles and the blogs endpoints.
 Most code is shared between the two.
 """
-
 import pytest
 
 from api.models import Article, Launch, NewsSite
@@ -17,13 +16,13 @@ class TestArticlesEndpoint:
         data = response.json()
 
         assert all(
-            article.title in [article["title"] for article in data["results"]]
-            for article in articles
+            article["title"] in [article.title for article in articles]
+            for article in data["results"]
         )
         assert all(
-            article.news_site.name
-            in [json_article["news_site"] for json_article in data["results"]]
-            for article in articles
+            article["news_site"]
+            in [fixture_article.news_site.name for fixture_article in articles]
+            for article in data["results"]
         )
         assert len(data["results"]) == 10
 
@@ -59,7 +58,7 @@ class TestArticlesEndpoint:
         assert response.status_code == 200
 
         data = response.json()
-        assert data["results"][0]["title"] == articles[8].title
+        assert data["results"][0]["title"] == articles[100].title
         assert data["results"][0]["launches"][0]["launch_id"] == str(
             launches[0].launch_id
         )
@@ -71,25 +70,45 @@ class TestArticlesEndpoint:
     def test_get_articles_by_news_site(
         self, client, articles: list[Article], news_sites: list[NewsSite]
     ):
+        filtered_articles = [
+            article
+            for article in articles
+            if article.news_site.name == news_sites[0].name
+        ]
+
         response = client.get(f"/v4/articles/?news_site={news_sites[0].name}")
         assert response.status_code == 200
 
         data = response.json()
-        assert data["results"][0]["title"] == articles[0].title
+        assert data["results"][0]["title"] == filtered_articles[0].title
         assert data["results"][0]["news_site"] == news_sites[0].name
-        assert len(data["results"]) == 2
+        assert len(data["results"]) == len(filtered_articles)
 
     def test_get_articles_by_multiple_news_sites(
         self, client, articles: list[Article], news_sites: list[NewsSite]
     ):
+        filtered_articles = [
+            article
+            for article in articles
+            if article.news_site.name in [news_sites[0].name, news_sites[1].name]
+        ]
+
         response = client.get(
-            f"/v4/articles/?news_site={news_sites[0].name},{news_sites[1].name}"
+            f"/v4/articles/?news_site={news_sites[0].name},{news_sites[1].name}&limit=100"
         )
         assert response.status_code == 200
 
         data = response.json()
-        assert data["results"][0]["title"] == articles[0].title
-        assert data["results"][0]["news_site"] == news_sites[0].name
-        assert data["results"][1]["title"] == articles[1].title
-        assert data["results"][1]["news_site"] == news_sites[1].name
-        assert len(data["results"]) == 4
+        assert len(data["results"]) == len(filtered_articles)
+        assert all(
+            article["title"] in [article.title for article in filtered_articles]
+            for article in data["results"]
+        )
+
+    def test_get_articles_with_offset(self, client, articles: list[Article]):
+        response = client.get("/v4/articles/?offset=5")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert len(data["results"]) == 10
