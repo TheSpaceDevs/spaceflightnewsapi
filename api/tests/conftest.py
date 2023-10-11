@@ -1,9 +1,10 @@
+import random
 from random import randrange
 from uuid import uuid4
 
 import pytest
 
-from api.models import Article, Launch, NewsSite, Provider
+from api.models import Article, Event, Launch, NewsSite, Provider
 
 NUMBER_OF_NEWS_SITES = 20
 
@@ -38,7 +39,23 @@ def launches(provider: Provider) -> list[Launch]:
 
 
 @pytest.fixture
-def articles(news_sites: list[NewsSite], launches: list[Launch]) -> list[Article]:
+def events(provider: Provider) -> list[Event]:
+    events: list[Event] = []
+    for i in range(10):
+        event = Event.objects.create(
+            event_id=random.randint(0, 100),
+            name=f"Event {i}",
+            provider=provider,
+        )
+        events.append(event)
+
+    return events
+
+
+@pytest.fixture
+def articles(
+    news_sites: list[NewsSite], launches: list[Launch], events: list[Event]
+) -> list[Article]:
     articles: list[Article] = []
     for i in range(100):
         article = Article.objects.create(
@@ -75,6 +92,30 @@ def articles(news_sites: list[NewsSite], launches: list[Launch]) -> list[Article
     )
     article_with_launch_2.launches.add(launches[1])
     articles.append(article_with_launch_2)
+
+    article_with_event_1 = Article.objects.create(
+        title="Article with Event 1",
+        summary="Description of an article with an event 1",
+        url="https://example.com/event_1",
+        image_url="https://example.com/event_1.png",
+        news_site=news_sites[0],
+        published_at="2021-01-01T00:00:00Z",
+        updated_at="2021-01-01T00:00:00Z",
+    )
+    article_with_event_1.events.add(events[0])
+    articles.append(article_with_event_1)
+
+    article_with_event_2 = Article.objects.create(
+        title="Article with Event 2",
+        summary="Description of an article with an event 2",
+        url="https://example.com/event_2",
+        image_url="https://example.com/event_2.png",
+        news_site=news_sites[1],
+        published_at="2021-01-01T00:00:00Z",
+        updated_at="2021-01-01T00:00:00Z",
+    )
+    article_with_event_2.events.add(events[1])
+    articles.append(article_with_event_2)
 
     article_in_the_future_1 = Article.objects.create(
         title="Article in the future 1",

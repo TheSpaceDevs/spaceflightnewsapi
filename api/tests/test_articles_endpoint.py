@@ -5,7 +5,7 @@ Most code is shared between the two.
 
 import pytest
 
-from api.models import Article, Launch, NewsSite
+from api.models import Article, Event, Launch, NewsSite
 
 
 @pytest.mark.django_db
@@ -52,6 +52,14 @@ class TestArticlesEndpoint:
 
         assert len(data["results"]) == 2
 
+    def test_get_all_articles_with_events(self, client, articles: list[Article]):
+        response = client.get("/v4/articles/?has_event=true")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert len(data["results"]) == 2
+
     def test_get_articles_with_launch(
         self, client, articles: list[Article], launches: list[Launch]
     ):
@@ -66,6 +74,21 @@ class TestArticlesEndpoint:
         assert (
             data["results"][0]["launches"][0]["provider"] == launches[0].provider.name
         )
+        assert len(data["results"]) == 1
+
+    def test_get_articles_with_event(
+        self, client, articles: list[Article], events: list[Event]
+    ):
+        article_with_event = [
+            article for article in articles if article.title == "Article with Event 1"
+        ][0]
+        response = client.get(f"/v4/articles/?event={events[0].event_id}")
+        assert response.status_code == 200
+
+        data = response.json()
+        assert data["results"][0]["title"] == article_with_event.title
+        assert data["results"][0]["events"][0]["event_id"] == events[0].event_id
+        assert data["results"][0]["events"][0]["provider"] == events[0].provider.name
         assert len(data["results"]) == 1
 
     def test_get_articles_by_news_site(
