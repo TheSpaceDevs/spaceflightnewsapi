@@ -62,6 +62,7 @@ target-version = ["py311"]
 extend-exclude = ["snapy/settings.py"]
 
 [tool.bandit]
+targets = ["snapy", "api"]
 exclude_dirs = ["tests", ".github"]
 
 [tool.pytest.ini_options]
