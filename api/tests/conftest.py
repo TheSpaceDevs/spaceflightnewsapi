@@ -120,4 +120,15 @@ def articles(news_sites: list[NewsSite], launches: list[Launch]) -> list[Article
     )
     articles.append(article_in_the_past_2)
 
+    article_with_specific_title = Article.objects.create(
+        title="Article with specific title",
+        summary="Description of an article with a specific title",
+        url="https://example.com/specific",
+        image_url="https://example.com/specific.png",
+        news_site=news_sites[6],
+        published_at="2021-01-01T00:00:00Z",
+        updated_at="2021-01-01T00:00:00Z",
+    )
+    articles.append(article_with_specific_title)
+
     return articles

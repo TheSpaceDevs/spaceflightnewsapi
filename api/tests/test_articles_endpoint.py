@@ -144,13 +144,10 @@ class TestArticlesEndpoint:
             )
         )
 
-        print(articles_in_the_future)
-
         response = client.get("/v4/articles/?published_at_gt=2040-10-01")
         assert response.status_code == 200
 
         data = response.json()
-        print(data["results"])
 
         assert all(
             article["title"] in [article.title for article in articles_in_the_future]
@@ -166,13 +163,10 @@ class TestArticlesEndpoint:
             )
         )
 
-        print(articles_in_the_future)
-
         response = client.get("/v4/articles/?updated_at_gt=2040-10-01")
         assert response.status_code == 200
 
         data = response.json()
-        print(data["results"])
 
         assert all(
             article["title"] in [article.title for article in articles_in_the_future]
@@ -188,13 +182,10 @@ class TestArticlesEndpoint:
             )
         )
 
-        print(articles_in_the_past)
-
         response = client.get("/v4/articles/?published_at_lt=2001-01-01")
         assert response.status_code == 200
 
         data = response.json()
-        print(data["results"])
 
         assert all(
             article["title"] in [article.title for article in articles_in_the_past]
@@ -210,16 +201,30 @@ class TestArticlesEndpoint:
             )
         )
 
-        print(articles_in_the_past)
-
         response = client.get("/v4/articles/?updated_at_lt=2001-01-01")
         assert response.status_code == 200
 
         data = response.json()
-        print(data["results"])
 
         assert all(
             article["title"] in [article.title for article in articles_in_the_past]
             for article in data["results"]
         )
         assert len(data["results"]) == 2
+
+    def test_get_search_articles(self, client, articles: list[Article]):
+        response = client.get("/v4/articles/?search=title")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert all(
+            article["title"] in [article.title for article in articles]
+            for article in data["results"]
+        )
+        assert all(
+            article["news_site"]
+            in [fixture_article.news_site.name for fixture_article in articles]
+            for article in data["results"]
+        )
+        assert len(data["results"]) == 1
