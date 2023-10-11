@@ -1,17 +1,38 @@
-name: Testing and Linting
+name: Lining and Testing
 on:
   pull_request:
 
 jobs:
-  pre-commit:
-    runs-on: ubuntu-latest
+  linters:
+    runs-on: rockylinux/8
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3
-      - uses: pre-commit/action@v3.0.0
+        - name: Check out the repo
+          uses: actions/checkout@v3
+
+        - name: Install dependencies
+          run: |
+            dnf install -y python3-pip
+            pip3 install --upgrade pip
+            pip3 install poetry
+            poetry export -f requirements.txt --output requirements.txt --without-hashes --with=dev
+            pip3 install -r requirements.txt
+
+        - name: Run linters
+          run: |
+            black --check .
+            isort --check-only --diff .
+            mypy --junit-xml TEST-mypy.xml .
+            bandit -c pyproject.toml -r -f xml -o TEST-bandit.xml
+
+        - name: Publish linter reports
+          uses: mikepenz/action-junit-report@v4
+          if: success() || failure() # always run even if the previous step fails
+          with:
+            report_paths: 'test_results/TEST-*.xml'
+
 
   tests:
-    runs-on: ubuntu-latest
+    runs-on: rockylinux/8
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
@@ -31,7 +52,7 @@ jobs:
       - name: Run tests
         run: pytest --junitxml=test_results/TEST-pytest.xml
 
-      - name: Publish Test Report
+      - name: Publish test report
         uses: mikepenz/action-junit-report@v4
         if: success() || failure() # always run even if the previous step fails
         with:
