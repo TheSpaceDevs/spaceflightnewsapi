@@ -24,7 +24,7 @@ jobs:
           run: |
             black --check .
             isort --check-only --diff .
-            bandit -c pyproject.toml -r . -f xml -o TEST-bandit.xml
+            bandit -c pyproject.toml -r . -f xml -o test_results/TEST-bandit.xml
             ruff check .
 
         - name: Publish linter reports
