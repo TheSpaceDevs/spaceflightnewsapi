@@ -2,6 +2,7 @@
 This module tests both articles and the blogs endpoints.
 Most code is shared between the two.
 """
+
 import pytest
 
 from api.models import Article, Launch, NewsSite
@@ -132,3 +133,26 @@ class TestArticlesEndpoint:
         data = response.json()
 
         assert data["results"][0]["title"] == sorted_data[0].title
+
+    def test_get_article_published_greater_then(self, client, articles: list[Article]):
+        # Get the article from articles with the title "Article in the future"
+        articles_in_the_future = list(
+            filter(
+                lambda article: article.title.startswith("Article in the future"),
+                articles,
+            )
+        )
+
+        print(articles_in_the_future)
+
+        response = client.get("/v4/articles/?published_at_gt=2040-10-01")
+        assert response.status_code == 200
+
+        data = response.json()
+        print(data["results"])
+
+        assert all(
+            article["title"] in [article.title for article in articles_in_the_future]
+            for article in data["results"]
+        )
+        assert len(data["results"]) == 2
