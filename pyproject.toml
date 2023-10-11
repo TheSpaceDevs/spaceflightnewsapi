@@ -56,14 +56,13 @@ django_settings_module = "snapy.settings"
 profile = "black"
 
 [tool.black]
-target-version = ["py311"]
+target-version = ["py312"]
 
 [tool.ruff]
 extend-exclude = ["snapy/settings.py"]
 
 [tool.bandit]
-targets = ["snapy", "api"]
-exclude_dirs = ["tests", ".github"]
+exclude_dirs = ["tests/", ".github/", ".venv/"]
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "snapy.settings"
