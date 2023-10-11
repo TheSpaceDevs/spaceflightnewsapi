@@ -22,6 +22,7 @@ jobs:
 
         - name: Run linters
           run: |
+            mkdir test_results
             black --check .
             isort --check-only --diff .
             bandit -c pyproject.toml -r . -f xml -o test_results/TEST-bandit.xml
