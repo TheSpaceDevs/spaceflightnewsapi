@@ -156,3 +156,26 @@ class TestArticlesEndpoint:
             for article in data["results"]
         )
         assert len(data["results"]) == 2
+
+    def test_get_article_update_at_greater_then(self, client, articles: list[Article]):
+        # Get the article from articles with the title "Article in the future"
+        articles_in_the_future = list(
+            filter(
+                lambda article: article.title.startswith("Article in the future"),
+                articles,
+            )
+        )
+
+        print(articles_in_the_future)
+
+        response = client.get("/v4/articles/?updated_at_gt=2040-10-01")
+        assert response.status_code == 200
+
+        data = response.json()
+        print(data["results"])
+
+        assert all(
+            article["title"] in [article.title for article in articles_in_the_future]
+            for article in data["results"]
+        )
+        assert len(data["results"]) == 2
