@@ -134,8 +134,9 @@ class TestArticlesEndpoint:
 
         assert data["results"][0]["title"] == sorted_data[0].title
 
-    def test_get_article_published_greater_then(self, client, articles: list[Article]):
-        # Get the article from articles with the title "Article in the future"
+    def test_get_article_published_at_greater_then(
+        self, client, articles: list[Article]
+    ):
         articles_in_the_future = list(
             filter(
                 lambda article: article.title.startswith("Article in the future"),
@@ -158,7 +159,6 @@ class TestArticlesEndpoint:
         assert len(data["results"]) == 2
 
     def test_get_article_update_at_greater_then(self, client, articles: list[Article]):
-        # Get the article from articles with the title "Article in the future"
         articles_in_the_future = list(
             filter(
                 lambda article: article.title.startswith("Article in the future"),
@@ -176,6 +176,50 @@ class TestArticlesEndpoint:
 
         assert all(
             article["title"] in [article.title for article in articles_in_the_future]
+            for article in data["results"]
+        )
+        assert len(data["results"]) == 2
+
+    def test_get_article_published_at_lower_then(self, client, articles: list[Article]):
+        articles_in_the_past = list(
+            filter(
+                lambda article: article.title.startswith("Article in the past"),
+                articles,
+            )
+        )
+
+        print(articles_in_the_past)
+
+        response = client.get("/v4/articles/?published_at_lt=2001-01-01")
+        assert response.status_code == 200
+
+        data = response.json()
+        print(data["results"])
+
+        assert all(
+            article["title"] in [article.title for article in articles_in_the_past]
+            for article in data["results"]
+        )
+        assert len(data["results"]) == 2
+
+    def test_get_article_update_at_lower_then(self, client, articles: list[Article]):
+        articles_in_the_past = list(
+            filter(
+                lambda article: article.title.startswith("Article in the past"),
+                articles,
+            )
+        )
+
+        print(articles_in_the_past)
+
+        response = client.get("/v4/articles/?updated_at_lt=2001-01-01")
+        assert response.status_code == 200
+
+        data = response.json()
+        print(data["results"])
+
+        assert all(
+            article["title"] in [article.title for article in articles_in_the_past]
             for article in data["results"]
         )
         assert len(data["results"]) == 2

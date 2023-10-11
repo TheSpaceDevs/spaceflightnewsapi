@@ -98,4 +98,26 @@ def articles(news_sites: list[NewsSite], launches: list[Launch]) -> list[Article
     )
     articles.append(article_in_the_future_2)
 
+    article_in_the_past_1 = Article.objects.create(
+        title="Article in the past 1",
+        summary="Description of an article in the past 1",
+        url="https://example.com/past1",
+        image_url="https://example.com/past1.png",
+        news_site=news_sites[4],
+        published_at="1999-01-01T00:00:00Z",
+        updated_at="1999-01-01T00:00:00Z",
+    )
+    articles.append(article_in_the_past_1)
+
+    article_in_the_past_2 = Article.objects.create(
+        title="Article in the past 2",
+        summary="Description of an article in the past 2",
+        url="https://example.com/past2",
+        image_url="https://example.com/past2.png",
+        news_site=news_sites[5],
+        published_at="2000-01-01T00:00:00Z",
+        updated_at="2000-01-01T00:00:00Z",
+    )
+    articles.append(article_in_the_past_2)
+
     return articles
