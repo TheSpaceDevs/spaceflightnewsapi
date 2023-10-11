@@ -134,7 +134,7 @@ class TestArticlesEndpoint:
 
         assert data["results"][0]["title"] == sorted_data[0].title
 
-    def test_get_article_published_at_greater_then(
+    def test_get_articles_published_at_greater_then(
         self, client, articles: list[Article]
     ):
         articles_in_the_future = list(
@@ -155,7 +155,7 @@ class TestArticlesEndpoint:
         )
         assert len(data["results"]) == 2
 
-    def test_get_article_update_at_greater_then(self, client, articles: list[Article]):
+    def test_get_articles_update_at_greater_then(self, client, articles: list[Article]):
         articles_in_the_future = list(
             filter(
                 lambda article: article.title.startswith("Article in the future"),
@@ -174,7 +174,9 @@ class TestArticlesEndpoint:
         )
         assert len(data["results"]) == 2
 
-    def test_get_article_published_at_lower_then(self, client, articles: list[Article]):
+    def test_get_articles_published_at_lower_then(
+        self, client, articles: list[Article]
+    ):
         articles_in_the_past = list(
             filter(
                 lambda article: article.title.startswith("Article in the past"),
@@ -193,7 +195,7 @@ class TestArticlesEndpoint:
         )
         assert len(data["results"]) == 2
 
-    def test_get_article_update_at_lower_then(self, client, articles: list[Article]):
+    def test_get_articles_update_at_lower_then(self, client, articles: list[Article]):
         articles_in_the_past = list(
             filter(
                 lambda article: article.title.startswith("Article in the past"),
@@ -221,7 +223,7 @@ class TestArticlesEndpoint:
         assert data["results"][0]["title"] == "Article with specific title"
         assert len(data["results"]) == 1
 
-    def test_get_article_search_summary(self, client, articles: list[Article]):
+    def test_get_articles_search_summary(self, client, articles: list[Article]):
         response = client.get("/v4/articles/?search=title")
         assert response.status_code == 200
 
@@ -231,4 +233,31 @@ class TestArticlesEndpoint:
             data["results"][0]["summary"]
             == "Description of an article with a specific title"
         )
+        assert len(data["results"]) == 1
+
+    def test_get_articles_title_contains(self, client, articles: list[Article]):
+        response = client.get("/v4/articles/?title_contains=Article with specific")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert data["results"][0]["title"] == "Article with specific title"
+        assert len(data["results"]) == 1
+
+    def test_get_articles_title_contains_one(self, client, articles: list[Article]):
+        response = client.get("/v4/articles/?title_contains_one=SpaceX, specific")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert data["results"][0]["title"] == "Article with specific title"
+        assert len(data["results"]) == 1
+
+    def test_get_articles_title_contains_all(self, client, articles: list[Article]):
+        response = client.get("/v4/articles/?title_contains_all=specific, with, title")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert data["results"][0]["title"] == "Article with specific title"
         assert len(data["results"]) == 1
