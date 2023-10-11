@@ -25,6 +25,7 @@ jobs:
             black --check .
             isort --check-only --diff .
             bandit -c pyproject.toml -r . -f xml -o TEST-bandit.xml
+            ruff check ./
 
         - name: Publish linter reports
           uses: mikepenz/action-junit-report@v4
