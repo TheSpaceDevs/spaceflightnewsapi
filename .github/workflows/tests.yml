@@ -4,7 +4,7 @@ on:
 
 jobs:
   linters:
-    runs-on: rockylinux/8
+    runs-on: ubuntu-latest
     steps:
         - name: Check out the repo
           uses: actions/checkout@v3
@@ -32,7 +32,7 @@ jobs:
 
 
   tests:
-    runs-on: rockylinux/8
+    runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
