@@ -4,19 +4,17 @@ on:
 
 jobs:
   linters:
-    runs-on: rockylinux/8
+    runs-on: ubuntu-latest
     steps:
         - name: Check out the repo
           uses: actions/checkout@v3
 
         - name: Install dependencies
           run: |
-            dnf install -y python3-pip
-            pip3 install --upgrade pip
-            pip3 install poetry
+            python -m pip install --upgrade pip
+            pip install poetry
             poetry export -f requirements.txt --output requirements.txt --without-hashes --with=dev
-            pip3 install -r requirements.txt
-
+            pip install -r requirements.txt
         - name: Run linters
           run: |
             black --check .
@@ -32,7 +30,7 @@ jobs:
 
 
   tests:
-    runs-on: rockylinux/8
+    runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
