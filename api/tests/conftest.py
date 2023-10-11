@@ -131,4 +131,15 @@ def articles(news_sites: list[NewsSite], launches: list[Launch]) -> list[Article
     )
     articles.append(article_with_specific_title)
 
+    article_with_spacex = Article.objects.create(
+        title="Article with SpaceX",
+        summary="Description of an article with SpaceX",
+        url="https://example.com/spacex",
+        image_url="https://example.com/spacex.png",
+        news_site=news_sites[7],
+        published_at="2021-01-01T00:00:00Z",
+        updated_at="2021-01-01T00:00:00Z",
+    )
+    articles.append(article_with_spacex)
+
     return articles

@@ -251,10 +251,39 @@ class TestArticlesEndpoint:
         data = response.json()
 
         assert data["results"][0]["title"] == "Article with specific title"
-        assert len(data["results"]) == 1
+        assert len(data["results"]) == 2
 
     def test_get_articles_title_contains_all(self, client, articles: list[Article]):
         response = client.get("/v4/articles/?title_contains_all=specific, with, title")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert data["results"][0]["title"] == "Article with specific title"
+        assert len(data["results"]) == 1
+
+    def test_get_articles_summary_contains(self, client, articles: list[Article]):
+        response = client.get("/v4/articles/?summary_contains=specific")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert data["results"][0]["title"] == "Article with specific title"
+        assert len(data["results"]) == 1
+
+    def test_get_articles_summary_contains_one(self, client, articles: list[Article]):
+        response = client.get("/v4/articles/?summary_contains_one=SpaceX, specific")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert data["results"][0]["title"] == "Article with specific title"
+        assert len(data["results"]) == 2
+
+    def test_get_articles_summary_contains_all(self, client, articles: list[Article]):
+        response = client.get(
+            "/v4/articles/?summary_contains_all=specific, with, title"
+        )
         assert response.status_code == 200
 
         data = response.json()
