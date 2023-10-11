@@ -218,13 +218,5 @@ class TestArticlesEndpoint:
 
         data = response.json()
 
-        assert all(
-            article["title"] in [article.title for article in articles]
-            for article in data["results"]
-        )
-        assert all(
-            article["news_site"]
-            in [fixture_article.news_site.name for fixture_article in articles]
-            for article in data["results"]
-        )
+        assert data["results"][0]["title"] == "Article with specific title"
         assert len(data["results"]) == 1
