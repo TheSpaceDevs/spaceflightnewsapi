@@ -212,11 +212,23 @@ class TestArticlesEndpoint:
         )
         assert len(data["results"]) == 2
 
-    def test_get_search_articles(self, client, articles: list[Article]):
+    def test_get_article_search_articles(self, client, articles: list[Article]):
         response = client.get("/v4/articles/?search=title")
         assert response.status_code == 200
 
         data = response.json()
 
         assert data["results"][0]["title"] == "Article with specific title"
+        assert len(data["results"]) == 1
+
+    def test_get_article_search_summary(self, client, articles: list[Article]):
+        response = client.get("/v4/articles/?search=title")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert (
+            data["results"][0]["summary"]
+            == "Description of an article with a specific title"
+        )
         assert len(data["results"]) == 1
