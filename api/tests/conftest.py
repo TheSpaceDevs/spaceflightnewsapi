@@ -1,4 +1,3 @@
-import random
 from random import randrange
 from uuid import uuid4
 
@@ -43,7 +42,7 @@ def events(provider: Provider) -> list[Event]:
     events: list[Event] = []
     for i in range(10):
         event = Event.objects.create(
-            event_id=random.randint(0, 100),
+            event_id=i,
             name=f"Event {i}",
             provider=provider,
         )
