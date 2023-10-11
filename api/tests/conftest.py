@@ -3,7 +3,7 @@ from uuid import uuid4
 
 import pytest
 
-from api.models import Article, Event, Launch, NewsSite, Provider
+from api.models import Article, Event, Launch, NewsSite, Provider, Report
 
 NUMBER_OF_NEWS_SITES = 20
 
@@ -183,3 +183,21 @@ def articles(
     articles.append(article_with_spacex)
 
     return articles
+
+
+@pytest.fixture
+def reports(news_sites: list[NewsSite]) -> list[Report]:
+    reports: list[Report] = []
+    for i in range(10):
+        report = Report.objects.create(
+            title=f"Report {i}",
+            url=f"https://example.com/report_{i}",
+            image_url=f"https://example.com/report_{i}.png",
+            news_site=news_sites[randrange(NUMBER_OF_NEWS_SITES)],
+            summary=f"Description {i}",
+            published_at="2021-01-01T00:00:00Z",
+            updated_at="2021-01-01T00:00:00Z",
+        )
+        reports.append(report)
+
+    return reports
