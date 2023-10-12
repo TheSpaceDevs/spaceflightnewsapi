@@ -40,6 +40,7 @@ bandit = { extras = ["toml"], version = "^1.7.5" }
 pytest-django = "^4.5.2"
 pytest-env = "^1.0.1"
 pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -55,13 +56,13 @@ django_settings_module = "snapy.settings"
 profile = "black"
 
 [tool.black]
-target-version = ["py311"]
+target-version = ["py312"]
 
 [tool.ruff]
 extend-exclude = ["snapy/settings.py"]
 
 [tool.bandit]
-exclude_dirs = ["tests", ".github"]
+exclude_dirs = ["tests/", ".github/", ".venv/"]
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "snapy.settings"

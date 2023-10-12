@@ -1,14 +1,17 @@
+from random import randrange
 from uuid import uuid4
 
 import pytest
 
-from api.models import Article, Launch, NewsSite, Provider
+from api.models import Article, Event, Launch, NewsSite, Provider, Report
+
+NUMBER_OF_NEWS_SITES = 20
 
 
 @pytest.fixture
 def news_sites() -> list[NewsSite]:
     sites: list[NewsSite] = []
-    for i in range(10):
+    for i in range(NUMBER_OF_NEWS_SITES):
         site = NewsSite.objects.create(name=f"News Site {i}")
         sites.append(site)
 
@@ -35,15 +38,31 @@ def launches(provider: Provider) -> list[Launch]:
 
 
 @pytest.fixture
-def articles(news_sites: list[NewsSite], launches: list[Launch]) -> list[Article]:
+def events(provider: Provider) -> list[Event]:
+    events: list[Event] = []
+    for i in range(10):
+        event = Event.objects.create(
+            event_id=i,
+            name=f"Event {i}",
+            provider=provider,
+        )
+        events.append(event)
+
+    return events
+
+
+@pytest.fixture
+def articles(
+    news_sites: list[NewsSite], launches: list[Launch], events: list[Event]
+) -> list[Article]:
     articles: list[Article] = []
-    for i in range(8):
+    for i in range(100):
         article = Article.objects.create(
             title=f"Article {i}",
             summary=f"Description {i}",
             url=f"https://example.com/{i}",
             image_url=f"https://example.com/{i}.png",
-            news_site=news_sites[i],
+            news_site=news_sites[randrange(NUMBER_OF_NEWS_SITES)],
             published_at="2021-01-01T00:00:00Z",
             updated_at="2021-01-01T00:00:00Z",
         )
@@ -73,4 +92,178 @@ def articles(news_sites: list[NewsSite], launches: list[Launch]) -> list[Article
     article_with_launch_2.launches.add(launches[1])
     articles.append(article_with_launch_2)
 
+    article_with_event_1 = Article.objects.create(
+        title="Article with Event 1",
+        summary="Description of an article with an event 1",
+        url="https://example.com/event_1",
+        image_url="https://example.com/event_1.png",
+        news_site=news_sites[0],
+        published_at="2021-01-01T00:00:00Z",
+        updated_at="2021-01-01T00:00:00Z",
+    )
+    article_with_event_1.events.add(events[0])
+    articles.append(article_with_event_1)
+
+    article_with_event_2 = Article.objects.create(
+        title="Article with Event 2",
+        summary="Description of an article with an event 2",
+        url="https://example.com/event_2",
+        image_url="https://example.com/event_2.png",
+        news_site=news_sites[1],
+        published_at="2021-01-01T00:00:00Z",
+        updated_at="2021-01-01T00:00:00Z",
+    )
+    article_with_event_2.events.add(events[1])
+    articles.append(article_with_event_2)
+
+    article_in_the_future_1 = Article.objects.create(
+        title="Article in the future 1",
+        summary="Description of an article in the future 1",
+        url="https://example.com/future1",
+        image_url="https://example.com/future1.png",
+        news_site=news_sites[2],
+        published_at="2042-01-01T00:00:00Z",
+        updated_at="2042-01-01T00:00:00Z",
+    )
+    articles.append(article_in_the_future_1)
+
+    article_in_the_future_2 = Article.objects.create(
+        title="Article in the future 2",
+        summary="Description of an article in the future 2",
+        url="https://example.com/future2",
+        image_url="https://example.com/future2.png",
+        news_site=news_sites[3],
+        published_at="2041-01-01T00:00:00Z",
+        updated_at="2041-01-01T00:00:00Z",
+    )
+    articles.append(article_in_the_future_2)
+
+    article_in_the_past_1 = Article.objects.create(
+        title="Article in the past 1",
+        summary="Description of an article in the past 1",
+        url="https://example.com/past1",
+        image_url="https://example.com/past1.png",
+        news_site=news_sites[4],
+        published_at="1999-01-01T00:00:00Z",
+        updated_at="1999-01-01T00:00:00Z",
+    )
+    articles.append(article_in_the_past_1)
+
+    article_in_the_past_2 = Article.objects.create(
+        title="Article in the past 2",
+        summary="Description of an article in the past 2",
+        url="https://example.com/past2",
+        image_url="https://example.com/past2.png",
+        news_site=news_sites[5],
+        published_at="2000-01-01T00:00:00Z",
+        updated_at="2000-01-01T00:00:00Z",
+    )
+    articles.append(article_in_the_past_2)
+
+    article_with_specific_title = Article.objects.create(
+        title="Article with specific title",
+        summary="Description of an article with a specific title",
+        url="https://example.com/specific",
+        image_url="https://example.com/specific.png",
+        news_site=news_sites[6],
+        published_at="2021-01-01T00:00:00Z",
+        updated_at="2021-01-01T00:00:00Z",
+    )
+    articles.append(article_with_specific_title)
+
+    article_with_spacex = Article.objects.create(
+        title="Article with SpaceX",
+        summary="Description of an article with SpaceX",
+        url="https://example.com/spacex",
+        image_url="https://example.com/spacex.png",
+        news_site=news_sites[7],
+        published_at="2021-01-01T00:00:00Z",
+        updated_at="2021-01-01T00:00:00Z",
+    )
+    articles.append(article_with_spacex)
+
     return articles
+
+
+@pytest.fixture
+def reports(news_sites: list[NewsSite]) -> list[Report]:
+    reports: list[Report] = []
+    for i in range(10):
+        report = Report.objects.create(
+            title=f"Report {i}",
+            url=f"https://example.com/report_{i}",
+            image_url=f"https://example.com/report_{i}.png",
+            news_site=news_sites[i],
+            summary=f"Description {i}",
+            published_at="2021-01-01T00:00:00Z",
+            updated_at="2021-01-01T00:00:00Z",
+        )
+        reports.append(report)
+
+    report_in_the_future_1 = Report.objects.create(
+        title="Report in the future 1",
+        url="https://example.com/report_future_1",
+        image_url="https://example.com/report_future_1.png",
+        news_site=news_sites[11],
+        summary="Description in the future 1",
+        published_at="2042-01-01T00:00:00Z",
+        updated_at="2042-01-01T00:00:00Z",
+    )
+    reports.append(report_in_the_future_1)
+
+    report_in_the_future_2 = Report.objects.create(
+        title="Report in the future 2",
+        url="https://example.com/report_future_2",
+        image_url="https://example.com/report_future_2.png",
+        news_site=news_sites[12],
+        summary="Description in the future 2",
+        published_at="2042-01-01T00:00:00Z",
+        updated_at="2042-01-01T00:00:00Z",
+    )
+    reports.append(report_in_the_future_2)
+
+    reports_in_the_past_1 = Report.objects.create(
+        title="Report in the past 1",
+        url="https://example.com/report_past_1",
+        image_url="https://example.com/report_past_1.png",
+        news_site=news_sites[13],
+        summary="Description in the past 1",
+        published_at="1999-01-01T00:00:00Z",
+        updated_at="1999-01-01T00:00:00Z",
+    )
+    reports.append(reports_in_the_past_1)
+
+    reports_in_the_past_2 = Report.objects.create(
+        title="Report in the past 2",
+        url="https://example.com/report_past_2",
+        image_url="https://example.com/report_past_2.png",
+        news_site=news_sites[14],
+        summary="Description in the past 2",
+        published_at="1999-01-01T00:00:00Z",
+        updated_at="1999-01-01T00:00:00Z",
+    )
+    reports.append(reports_in_the_past_2)
+
+    report_with_specific_title = Report.objects.create(
+        title="Report with specific title",
+        url="https://example.com/report_specific",
+        image_url="https://example.com/report_specific.png",
+        news_site=news_sites[15],
+        summary="Description of an report with a specific title",
+        published_at="2021-01-01T00:00:00Z",
+        updated_at="2021-01-01T00:00:00Z",
+    )
+    reports.append(report_with_specific_title)
+
+    report_with_spacex = Report.objects.create(
+        title="Report with SpaceX",
+        url="https://example.com/report_spacex",
+        image_url="https://example.com/report_spacex.png",
+        news_site=news_sites[16],
+        summary="Description of an report with SpaceX",
+        published_at="2021-01-01T00:00:00Z",
+        updated_at="2021-01-01T00:00:00Z",
+    )
+    reports.append(report_with_spacex)
+
+    return reports
