@@ -1,12 +1,13 @@
 from django_filters import rest_framework
 from rest_framework import filters, viewsets
 
-from api import models, serializers
+from api import serializers
+from api.models.report import Report
 from api.views.filters import BaseFilter, SearchFilter
 
 
 class ReportViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = models.Report.objects.all()
+    queryset = Report.objects.all()
     serializer_class = serializers.ReportSerializer
     authentication_classes = []
     filterset_class = BaseFilter

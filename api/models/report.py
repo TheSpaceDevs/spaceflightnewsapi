@@ -10,7 +10,7 @@ class Report(models.Model):
     published_at = models.DateTimeField()
     updated_at = models.DateTimeField()
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.title
 
     class Meta:
