@@ -14,8 +14,12 @@ import os
 from pathlib import Path
 
 import dj_database_url
+import django_stubs_ext
 import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
+
+# Extensions for Django Stubs
+django_stubs_ext.monkeypatch()
 
 VERSION = os.getenv("SNAPI_VERSION")
 

@@ -1,15 +1,17 @@
 """Custom admin views for the Spaceflight News API."""
 from django.contrib import admin
-from django.db.models import Count
+from django.db.models import Count, QuerySet
+from django.http import HttpRequest
 
 from api.models import Article, Blog, Event, Launch, NewsSite, Provider, Report
+from api.models.abc import NewsItem
 
 
 # Register your models here.
 # Models that need customization
 @admin.register(Article)
 @admin.register(Blog)
-class ArticleAdmin(admin.ModelAdmin):
+class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     """Admin view for articles and blogs."""
 
     list_display = (
@@ -26,16 +28,16 @@ class ArticleAdmin(admin.ModelAdmin):
     ordering = ("-published_at",)
 
     @staticmethod
-    def assigned_launches(obj):
+    def assigned_launches(obj: NewsItem) -> int:
         """Returns the number of launches assigned to the article."""
-        return obj.launch_count
+        return obj.launch_count  # type: ignore
 
     @staticmethod
-    def assigned_events(obj):
+    def assigned_events(obj: NewsItem) -> int:
         """Returns the number of events assigned to the article."""
-        return obj.event_count
+        return obj.event_count  # type: ignore
 
-    def get_queryset(self, request):
+    def get_queryset(self, request: HttpRequest) -> QuerySet[NewsItem]:
         queryset = super().get_queryset(request)
         queryset = queryset.annotate(
             launch_count=Count("launches"), event_count=Count("events")
@@ -44,7 +46,7 @@ class ArticleAdmin(admin.ModelAdmin):
 
 
 @admin.register(Report)
-class ReportAdmin(admin.ModelAdmin):
+class ReportAdmin(admin.ModelAdmin[Report]):
     """Custom admin view for reports."""
 
     list_display = ("title", "news_site", "published_at")
