@@ -42,3 +42,10 @@ repos:
       - id: bandit
         args: [ "-c", "pyproject.toml" ]
         additional_dependencies: [ "bandit[toml]" ]
+
+
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.15.0
+    hooks:
+      - id: pyupgrade
+        args: [ "--py312-plus" ]

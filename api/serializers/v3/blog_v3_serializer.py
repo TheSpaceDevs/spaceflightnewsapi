@@ -1,5 +1,3 @@
-from typing import List
-
 from rest_framework import serializers
 
 from api.models import Blog, Event, Launch, NewsSite
@@ -19,8 +17,8 @@ class BlogV3Serializer(serializers.Serializer):
 
     def create(self, validated_data) -> Blog:
         news_site = NewsSite.objects.get(name=validated_data["newsSite"])
-        launches_list: List[Launch] = []
-        events_list: List[Event] = []
+        launches_list: list[Launch] = []
+        events_list: list[Event] = []
 
         for launch in validated_data["launches"]:
             launches_list.append(Launch.objects.get(launch_id=launch["id"]))
