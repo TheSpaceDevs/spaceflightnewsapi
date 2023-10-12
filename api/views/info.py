@@ -1,5 +1,3 @@
-from typing import List
-
 from django.conf import settings
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -12,7 +10,7 @@ class InfoView(APIView):
     serializer_class = InfoSerializer
     authentication_classes = []
 
-    def get_news_sites(self) -> List[str]:
+    def get_news_sites(self) -> list[str]:
         news_sites = NewsSite.objects.all().order_by("name")
         sites = [site.name for site in news_sites]
 
