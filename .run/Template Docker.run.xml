@@ -15,7 +15,7 @@
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
               <option name="name" value="DATABASE_URL" />
-              <option name="value" value="postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:5432/${DB_NAME}" />
+              <option name="value" value="postgres://snapy-sa:Welkom123@database:5432/snapy" />
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
               <option name="name" value="DB_HOST" />
