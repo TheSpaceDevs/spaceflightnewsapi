@@ -48,6 +48,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.mypy]
+strict = true
 plugins = ["mypy_django_plugin.main", "mypy_drf_plugin.main"]
 
 [tool.django-stubs]
