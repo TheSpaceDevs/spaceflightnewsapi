@@ -6,7 +6,7 @@ from api.serializers import BlogSerializer
 from api.views.filters import DocsFilter, SearchFilter
 
 
-class BlogViewSet(viewsets.ReadOnlyModelViewSet):
+class BlogViewSet(viewsets.ReadOnlyModelViewSet[Blog]):
     queryset = Blog.objects.all()
     serializer_class = BlogSerializer
     authentication_classes = []

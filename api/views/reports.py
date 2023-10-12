@@ -6,7 +6,7 @@ from api.models.report import Report
 from api.views.filters import BaseFilter, SearchFilter
 
 
-class ReportViewSet(viewsets.ReadOnlyModelViewSet):
+class ReportViewSet(viewsets.ReadOnlyModelViewSet[Report]):
     queryset = Report.objects.all()
     serializer_class = serializers.ReportSerializer
     authentication_classes = []
