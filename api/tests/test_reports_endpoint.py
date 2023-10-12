@@ -30,7 +30,7 @@ class TestReportsEndpoint:
 
     def test_get_report_by_news_site(
         self, client: Client, reports: list[Report], news_sites: list[NewsSite]
-    ):
+    ) -> None:
         filtered_reports = [
             report for report in reports if report.news_site.name == news_sites[0].name
         ]
@@ -45,7 +45,7 @@ class TestReportsEndpoint:
 
     def test_get_reports_by_multiple_news_sites(
         self, client: Client, reports: list[Report], news_sites: list[NewsSite]
-    ):
+    ) -> None:
         filtered_reports = [
             report
             for report in reports
