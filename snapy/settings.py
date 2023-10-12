@@ -195,5 +195,5 @@ CELERY_CACHE_BACKEND = "django-cache"
 CELERY_RESULT_EXTENDED = True
 
 # LL Settings
-LL_URL = os.getenv("LL_URL")
+LL_URL = os.getenv("LL_URL", "https://ll.thespacedevs.com/2.2.0")
 LL_TOKEN = os.getenv("LL_TOKEN", "")

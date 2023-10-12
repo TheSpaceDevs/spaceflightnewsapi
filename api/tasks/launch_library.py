@@ -7,8 +7,9 @@ from api.serializers.launch_library import (
     LaunchLibraryEventSerializer,
     LaunchLibraryLaunchSerializer,
 )
+from api.serializers.utils import ClientOptions
 
-client_options = {
+client_options: ClientOptions = {
     "base_url": settings.LL_URL,
     "headers": {
         "Authorization": f"Token {settings.LL_TOKEN}",
