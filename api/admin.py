@@ -30,12 +30,12 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     @staticmethod
     def assigned_launches(obj: NewsItem) -> int:
         """Returns the number of launches assigned to the article."""
-        return obj.launch_count  # type: ignore
+        return obj.launches.count()
 
     @staticmethod
     def assigned_events(obj: NewsItem) -> int:
         """Returns the number of events assigned to the article."""
-        return obj.event_count  # type: ignore
+        return obj.events.count()
 
     def get_queryset(self, request: HttpRequest) -> QuerySet[NewsItem]:
         queryset = super().get_queryset(request)
