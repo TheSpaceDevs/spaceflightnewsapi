@@ -13,7 +13,7 @@ client_options = {"base_url": "https://api.spaceflightnewsapi.net/v3"}
 
 
 @shared_task(name="Sync Articles")
-def sync_articles():
+def sync_articles() -> None:
     with httpx.Client(**client_options) as client:
         count = client.get(url="/articles/count").json()
 
@@ -36,7 +36,7 @@ def sync_articles():
 
 
 @shared_task(name="Sync Blogs")
-def sync_blogs():
+def sync_blogs() -> None:
     with httpx.Client(**client_options) as client:
         count = client.get(url="/blogs/count").json()
 
@@ -59,7 +59,7 @@ def sync_blogs():
 
 
 @shared_task(name="Sync News Sites")
-def sync_news_sites():
+def sync_news_sites() -> None:
     with httpx.Client(**client_options) as client:
         response = client.get(url="/info").json()
 
@@ -69,7 +69,7 @@ def sync_news_sites():
 
 # Task to migrate reports. It's not that much, so we do everything in a single task.
 @shared_task(name="Sync Reports")
-def sync_reports():
+def sync_reports() -> None:
     with httpx.Client(**client_options) as client:
         count = client.get(url="/reports/count").json()
 
