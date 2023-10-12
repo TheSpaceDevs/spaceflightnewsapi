@@ -1,18 +1,19 @@
 import pytest
+from django.test.client import Client
 
 from api.models import NewsSite, Report
 
 
 @pytest.mark.django_db
 class TestReportsEndpoint:
-    def test_get_reports(self, client, reports: list[Report]):
+    def test_get_reports(self, client: Client, reports: list[Report]) -> None:
         response = client.get("/v4/reports/")
         assert response.status_code == 200
 
         data = response.json()
         assert len(data["results"]) == 10
 
-    def test_get_single_report(self, client, reports: list[Report]):
+    def test_get_single_report(self, client: Client, reports: list[Report]) -> None:
         response = client.get("/v4/reports/1/")
         assert response.status_code == 200
 
@@ -20,7 +21,7 @@ class TestReportsEndpoint:
         assert data["id"] == 1
         assert data["title"] == "Report 0"
 
-    def test_limit_reports(self, client, reports: list[Report]):
+    def test_limit_reports(self, client: Client, reports: list[Report]) -> None:
         response = client.get("/v4/reports/?limit=5")
         assert response.status_code == 200
 
@@ -28,7 +29,7 @@ class TestReportsEndpoint:
         assert len(data["results"]) == 5
 
     def test_get_report_by_news_site(
-        self, client, reports: list[Report], news_sites: list[NewsSite]
+        self, client: Client, reports: list[Report], news_sites: list[NewsSite]
     ):
         filtered_reports = [
             report for report in reports if report.news_site.name == news_sites[0].name
@@ -43,7 +44,7 @@ class TestReportsEndpoint:
         assert len(data["results"]) == len(filtered_reports)
 
     def test_get_reports_by_multiple_news_sites(
-        self, client, reports: list[Report], news_sites: list[NewsSite]
+        self, client: Client, reports: list[Report], news_sites: list[NewsSite]
     ):
         filtered_reports = [
             report
@@ -63,7 +64,9 @@ class TestReportsEndpoint:
             for report in data["results"]
         )
 
-    def test_get_reports_with_offset(self, client, reports: list[Report]):
+    def test_get_reports_with_offset(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         response = client.get("/v4/reports/?offset=5")
         assert response.status_code == 200
 
@@ -71,7 +74,9 @@ class TestReportsEndpoint:
 
         assert len(data["results"]) == 10
 
-    def test_get_reports_with_limit(self, client, reports: list[Report]):
+    def test_get_reports_with_limit(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         response = client.get("/v4/reports/?limit=3")
         assert response.status_code == 200
 
@@ -79,7 +84,9 @@ class TestReportsEndpoint:
 
         assert len(data["results"]) == 3
 
-    def test_get_reports_with_ordering(self, client, reports: list[Report]):
+    def test_get_reports_with_ordering(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         sorted_data = sorted(
             reports, key=lambda report: report.published_at, reverse=True
         )
@@ -91,7 +98,9 @@ class TestReportsEndpoint:
 
         assert data["results"][0]["title"] == sorted_data[0].title
 
-    def test_get_reports_published_at_greater_then(self, client, reports: list[Report]):
+    def test_get_reports_published_at_greater_then(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         reports_in_the_future = list(
             filter(
                 lambda report: report.title.startswith("Report in the future"),
@@ -110,7 +119,9 @@ class TestReportsEndpoint:
         )
         assert len(data["results"]) == 2
 
-    def test_get_reports_update_at_greater_then(self, client, reports: list[Report]):
+    def test_get_reports_update_at_greater_then(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         reports_in_the_future = list(
             filter(
                 lambda report: report.title.startswith("Report in the future"),
@@ -129,7 +140,9 @@ class TestReportsEndpoint:
         )
         assert len(data["results"]) == 2
 
-    def test_get_reports_published_at_lower_then(self, client, reports: list[Report]):
+    def test_get_reports_published_at_lower_then(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         reports_in_the_past = list(
             filter(
                 lambda report: report.title.startswith("Report in the past"),
@@ -148,7 +161,9 @@ class TestReportsEndpoint:
         )
         assert len(data["results"]) == 2
 
-    def test_get_reports_update_at_lower_then(self, client, reports: list[Report]):
+    def test_get_reports_update_at_lower_then(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         reports_in_the_past = list(
             filter(
                 lambda report: report.title.startswith("Report in the past"),
@@ -167,7 +182,9 @@ class TestReportsEndpoint:
         )
         assert len(data["results"]) == 2
 
-    def test_get_report_search_reports(self, client, reports: list[Report]):
+    def test_get_report_search_reports(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         response = client.get("/v4/reports/?search=title")
         assert response.status_code == 200
 
@@ -176,7 +193,9 @@ class TestReportsEndpoint:
         assert data["results"][0]["title"] == "Report with specific title"
         assert len(data["results"]) == 1
 
-    def test_get_reports_search_summary(self, client, reports: list[Report]):
+    def test_get_reports_search_summary(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         response = client.get("/v4/reports/?search=title")
         assert response.status_code == 200
 
@@ -188,7 +207,9 @@ class TestReportsEndpoint:
         )
         assert len(data["results"]) == 1
 
-    def test_get_reports_title_contains(self, client, reports: list[Report]):
+    def test_get_reports_title_contains(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         response = client.get("/v4/reports/?title_contains=Report with specific")
         assert response.status_code == 200
 
@@ -197,7 +218,9 @@ class TestReportsEndpoint:
         assert data["results"][0]["title"] == "Report with specific title"
         assert len(data["results"]) == 1
 
-    def test_get_reports_title_contains_one(self, client, reports: list[Report]):
+    def test_get_reports_title_contains_one(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         response = client.get("/v4/reports/?title_contains_one=SpaceX, specific")
         assert response.status_code == 200
 
@@ -206,7 +229,9 @@ class TestReportsEndpoint:
         assert data["results"][0]["title"] == "Report with specific title"
         assert len(data["results"]) == 2
 
-    def test_get_reports_title_contains_all(self, client, reports: list[Report]):
+    def test_get_reports_title_contains_all(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         response = client.get("/v4/reports/?title_contains_all=specific, with, title")
         assert response.status_code == 200
 
@@ -215,7 +240,9 @@ class TestReportsEndpoint:
         assert data["results"][0]["title"] == "Report with specific title"
         assert len(data["results"]) == 1
 
-    def test_get_reports_summary_contains(self, client, reports: list[Report]):
+    def test_get_reports_summary_contains(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         response = client.get("/v4/reports/?summary_contains=specific")
         assert response.status_code == 200
 
@@ -224,7 +251,9 @@ class TestReportsEndpoint:
         assert data["results"][0]["title"] == "Report with specific title"
         assert len(data["results"]) == 1
 
-    def test_get_reports_summary_contains_one(self, client, reports: list[Report]):
+    def test_get_reports_summary_contains_one(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         response = client.get("/v4/reports/?summary_contains_one=SpaceX, specific")
         assert response.status_code == 200
 
@@ -233,7 +262,9 @@ class TestReportsEndpoint:
         assert data["results"][0]["title"] == "Report with specific title"
         assert len(data["results"]) == 2
 
-    def test_get_reports_summary_contains_all(self, client, reports: list[Report]):
+    def test_get_reports_summary_contains_all(
+        self, client: Client, reports: list[Report]
+    ) -> None:
         response = client.get("/v4/reports/?summary_contains_all=specific, with, title")
         assert response.status_code == 200
 
