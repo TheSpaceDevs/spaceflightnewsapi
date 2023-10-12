@@ -11,11 +11,14 @@
 
 # Spaceflight News API
 
-The Spaceflight News API was created as a solution for my problem when I wanted to develop an app for Spaceflight News: many (great!) news sites with different APIs.
+The Spaceflight News API was created as a solution for my problem when I wanted to develop an app for Spaceflight News:
+many (great!) news sites with different APIs.
 
-To make it easier for myself, I began a project that would aggregate metadata from those news sites and publish them through an API. Since there are others that might benefit from this API, I decided make the API publicly available.
+To make it easier for myself, I began a project that would aggregate metadata from those news sites and publish them
+through an API. Since there are others that might benefit from this API, I decided make the API publicly available.
 
-There are great apps out on the internet, that are connected to services like <https://thespacedevs.com>. By making this API available to everyone, I hope to open new doors for the developers of these apps.
+There are great apps out on the internet, that are connected to services like <https://thespacedevs.com>. By making this
+API available to everyone, I hope to open new doors for the developers of these apps.
 
 ## Documentation 📖
 
@@ -25,23 +28,28 @@ The documentation is generated from the code, and can be found at <https://api.s
 
 ### Version 2
 
-In July 2020, Launch Library 2.0 was released, within the new <a href="https://thespacedevs.com">The Space Devs API</a> group. I've joined this group as a partner developer, and started finalizing SNAPI 2.0.
+In July 2020, Launch Library 2.0 was released, within the new <a href="https://thespacedevs.com">The Space Devs API</a>
+group. I've joined this group as a partner developer, and started finalizing SNAPI 2.0.
 
 Version 2.0 of SNAPI is a rewrite of the entire API using Strapi as a backend, with custom endpoints written by me.
 SNAPI 2 sets the stage for new features to come and focuses on bringing the existing features to the new format.
 
 ### Version 3
 
-In the Spring of 2021, Strapi announced that they would retire support for MongoDB. Since SNAPI was using MongoDB as the database, this had quite a big impact.
-Version 3 of the API is exactly the same as version 2 (in terms of the response), except the IDs. These changed from ObjectIDs (strings) to integers.
+In the Spring of 2021, Strapi announced that they would retire support for MongoDB. Since SNAPI was using MongoDB as the
+database, this had quite a big impact.
+Version 3 of the API is exactly the same as version 2 (in terms of the response), except the IDs. These changed from
+ObjectIDs (strings) to integers.
 
 ### Version 4
+
 In 2023 SNAPI V4 launched, completely re-written in Python (Django) for various reasons.
 Using proven libraries, this version is focussed on long-term stability and maintainability.
 
 ## Launch Library 2 integration 🚀
 
-Starting from version 2, we now have <a href="https://thespacedevs.com/llapi">Launch Library 2 API</a> integration. This way you can easily get news related to a specific launch.
+Starting from version 2, we now have <a href="https://thespacedevs.com/llapi">Launch Library 2 API</a> integration. This
+way you can easily get news related to a specific launch.
 A nice to have if you want to have a "related news/launches" section in your app!
 
 ## Currently imported news sites 🌐
@@ -86,10 +94,10 @@ A nice to have if you want to have a "related news/launches" section in your app
 - United Launch Alliance
 - Virgin Galactic
 
-
 </details>
 
 ## Changelog 📝
+
 <details>
 <summary>Expand</summary>
 
@@ -149,3 +157,9 @@ A nice to have if you want to have a "related news/launches" section in your app
 - Complete rewrite of the app, focusing on existing features
 
 </details>
+
+## Showcase
+
+For a list of users, please visit the [users page](https://www.spaceflightnewsapi.net/users/).
+On the [profile page](https://github.com/TheSpaceDevs#api-showcase---spaceflight-news-api-) of TheSpaceDevs
+organisation, you'll also find a simple showcase of the API.
