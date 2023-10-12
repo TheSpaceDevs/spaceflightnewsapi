@@ -1,4 +1,5 @@
 from django.conf import settings
+from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -16,6 +17,6 @@ class InfoView(APIView):
 
         return sites
 
-    def get(self, _request) -> Response:
+    def get(self, _request: Request) -> Response:
         sites = self.get_news_sites()
         return Response({"version": settings.VERSION, "news_sites": sites})
