@@ -9,5 +9,5 @@ class Launch(models.Model):
     class Meta:
         verbose_name_plural = "Launches"
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.name
