@@ -1,3 +1,5 @@
+from typing import Any
+
 from django.core.management.base import BaseCommand, CommandError
 from django_celery_beat.models import (  # type: ignore
     CrontabSchedule,
@@ -9,7 +11,7 @@ from django_celery_beat.models import (  # type: ignore
 class Command(BaseCommand):
     help = "Initialize the default periodic tasks for Celery (Beat)."
 
-    def handle(self, *args, **kwargs):
+    def handle(self, *args: Any, **kwargs: object) -> None:
         try:
             # Schedules
             five_minute_schedule, _ = IntervalSchedule.objects.get_or_create(
