@@ -5,7 +5,7 @@ from api.serializers.event_serializer import EventSerializer
 from api.serializers.launch_serializer import LaunchSerializer
 
 
-class BlogSerializer(serializers.ModelSerializer):
+class BlogSerializer(serializers.ModelSerializer[Blog]):
     news_site: "serializers.StringRelatedField[NewsSite]" = (
         serializers.StringRelatedField()
     )
