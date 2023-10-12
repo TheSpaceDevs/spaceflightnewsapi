@@ -20,7 +20,7 @@ client_options: ClientOptions = {
 
 
 @shared_task(name="Sync Launches")
-def sync_launches():
+def sync_launches() -> None:
     next_url = "/launch/"
     provider = Provider.objects.get(name="Launch Library 2")
 
@@ -39,7 +39,7 @@ def sync_launches():
 
 
 @shared_task(name="Sync Events")
-def sync_events():
+def sync_events() -> None:
     next_url = "/event/"
     provider = Provider.objects.get(name="Launch Library 2")
 
