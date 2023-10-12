@@ -8,7 +8,8 @@ class LaunchLibraryLaunchSerializer(serializers.Serializer[LaunchResult]):
     id = serializers.UUIDField()
     name = serializers.CharField()
 
-    def create(self, validated_data: LaunchResult) -> Launch:
+    # TODO: Return a LaunchResult object instead of a Launch object
+    def create(self, validated_data: LaunchResult) -> LaunchResult:
         launch, _ = Launch.objects.update_or_create(
             launch_id=validated_data.id,
             defaults={
