@@ -1,4 +1,4 @@
-name: Lining and Testing
+name: Linting and Testing
 on:
   pull_request:
 
@@ -25,15 +25,8 @@ jobs:
             mkdir test_results
             black --check .
             isort --check-only --diff .
-            bandit -c pyproject.toml -r . -f xml -o test_results/TEST-bandit.xml
+            bandit -c pyproject.toml -r .
             ruff check .
-
-        - name: Publish linter reports
-          uses: mikepenz/action-junit-report@v4
-          if: success() || failure() # always run even if the previous step fails
-          with:
-            report_paths: 'test_results/TEST-*.xml'
-
 
   tests:
     runs-on: ubuntu-latest
