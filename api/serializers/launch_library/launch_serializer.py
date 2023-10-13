@@ -1,5 +1,6 @@
-from rest_framework import serializers
+from typing import Dict
 
+from rest_framework import serializers
 from api.models import Launch
 from api.utils.types.launch_response import LaunchResult
 
@@ -8,14 +9,15 @@ class LaunchLibraryLaunchSerializer(serializers.Serializer[LaunchResult]):
     id = serializers.UUIDField()
     name = serializers.CharField()
 
-    # TODO: Return a LaunchResult object instead of a Launch object
-    def create(self, validated_data: LaunchResult) -> LaunchResult:
-        launch, _ = Launch.objects.update_or_create(
-            launch_id=validated_data.id,
+    def create(self, validated_data) -> LaunchResult:
+        return LaunchResult(**validated_data)
+
+    def create_launch(self) -> tuple[Launch, bool]:
+        return Launch.objects.update_or_create(
+            launch_id=self.validated_data.id,
             defaults={
-                "name": validated_data.name,
+                "name": self.validated_data.name,
                 "provider": self.context["provider"],
             },
         )
 
-        return launch

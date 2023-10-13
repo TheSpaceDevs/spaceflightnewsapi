@@ -33,7 +33,7 @@ def sync_launches() -> None:
                     data=data, context={"provider": provider}
                 )
                 launch.is_valid(raise_exception=True)
-                launch.save()
+                launch.create_launch()
 
             next_url = response["next"]
 
