@@ -6,7 +6,7 @@ from api.serializers import ArticleSerializer
 from api.views.filters import DocsFilter, SearchFilter
 
 
-class ArticleViewSet(viewsets.ReadOnlyModelViewSet[Article]):
+class ArticleViewSet(viewsets.ReadOnlyModelViewSet):  # type: ignore
     queryset = Article.objects.all()
     serializer_class = ArticleSerializer
     authentication_classes = []
