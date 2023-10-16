@@ -6,7 +6,7 @@ authors = ["Derk Weijers <derk@weijers.xyz>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 django = "~4.2"
 djangorestframework = "^3.14.0"
 markdown = "^3.4.1"
