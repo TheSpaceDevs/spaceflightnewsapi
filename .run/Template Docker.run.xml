@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" server-name="Colima">
+  <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
     <deployment type="docker-compose.yml">
       <settings>
         <option name="envFilePath" value="" />
@@ -55,6 +55,7 @@
             </DockerEnvVarImpl>
           </list>
         </option>
+        <option name="commandLineOptions" value="--build" />
         <option name="sourceFilePath" value="docker-compose.dev.yml" />
       </settings>
     </deployment>
