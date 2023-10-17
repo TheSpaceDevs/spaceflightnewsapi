@@ -1,23 +1,27 @@
-from typing import Dict
+from typing import TypedDict
+from uuid import UUID
 
 from rest_framework import serializers
+
 from api.models import Launch
-from api.utils.types.launch_response import LaunchResult
 
 
-class LaunchLibraryLaunchSerializer(serializers.Serializer[LaunchResult]):
+class ValidatedDataDict(TypedDict):
+    id: UUID
+    name: str
+
+
+class LaunchLibraryLaunchSerializer(serializers.Serializer[Launch]):
     id = serializers.UUIDField()
     name = serializers.CharField()
 
-    def create(self, validated_data) -> LaunchResult:
-        return LaunchResult(**validated_data)
-
-    def create_launch(self) -> tuple[Launch, bool]:
-        return Launch.objects.update_or_create(
-            launch_id=self.validated_data.id,
+    def create(self, validated_data: ValidatedDataDict) -> Launch:
+        result = Launch.objects.update_or_create(
+            launch_id=validated_data.get("id"),
             defaults={
-                "name": self.validated_data.name,
-                "provider": self.context["provider"],
+                "name": validated_data.get("name"),
+                "provider": self.context.get("provider"),
             },
         )
 
+        return result[0]
