@@ -4,7 +4,7 @@ default_install_hook_types: [ pre-commit, commit-msg ]
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.2.0
+    rev: v4.5.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -12,7 +12,7 @@ repos:
       - id: check-added-large-files
 
   - repo: https://github.com/psf/black
-    rev: 23.9.1
+    rev: 23.10.0
     hooks:
       - id: black
         language_version: python3.11
@@ -24,7 +24,7 @@ repos:
       - id: isort
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.0.292
+    rev: v0.1.0
     hooks:
       - id: ruff
 
@@ -48,4 +48,21 @@ repos:
     rev: v3.15.0
     hooks:
       - id: pyupgrade
-        args: [ "--py312-plus" ]
+        args: [ "--py311-plus" ]
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: 'v1.6.0'
+    hooks:
+    -   id: mypy
+        additional_dependencies:
+          - django-stubs
+          - djangorestframework-stubs
+          - celery
+          - dj_database_url
+          - sentry_sdk
+          - djangorestframework
+          - django_celery_beat
+          - django-filter
+          - django-cors-headers
+          - drf_spectacular
+          - django_celery_results
