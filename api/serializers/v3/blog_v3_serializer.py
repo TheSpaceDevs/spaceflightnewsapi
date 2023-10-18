@@ -1,9 +1,23 @@
 from rest_framework import serializers
+from typing import TypedDict
 
 from api.models import Blog, Event, Launch, NewsSite
 
 
-class BlogV3Serializer(serializers.Serializer):
+class ValidatedBlogDataDict(TypedDict):
+    id: int
+    title: str
+    url: str
+    imageUrl: str
+    newsSite: str
+    summary: str
+    publishedAt: str
+    updatedAt: str
+    launches: list[dict[str, str]]
+    events: list[dict[str, str | int]]
+
+
+class BlogV3Serializer(serializers.Serializer[Blog]):
     id = serializers.IntegerField()
     title = serializers.CharField()
     url = serializers.URLField()
@@ -15,7 +29,7 @@ class BlogV3Serializer(serializers.Serializer):
     launches = serializers.ListField()
     events = serializers.ListField()
 
-    def create(self, validated_data) -> Blog:
+    def create(self, validated_data: ValidatedBlogDataDict) -> Blog:
         news_site = NewsSite.objects.get(name=validated_data["newsSite"])
         launches_list: list[Launch] = []
         events_list: list[Event] = []
