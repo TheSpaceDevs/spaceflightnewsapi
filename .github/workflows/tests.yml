@@ -27,7 +27,7 @@ jobs:
             isort --check-only --diff .
             bandit -c pyproject.toml -r .
             ruff check .
-            mypy api/
+            mypy .
 
   tests:
     runs-on: ubuntu-latest
