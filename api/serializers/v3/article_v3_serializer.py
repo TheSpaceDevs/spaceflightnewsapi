@@ -1,7 +1,7 @@
 import datetime
+from typing import TypedDict
 
 from rest_framework import serializers
-from typing import TypedDict
 
 from api.models import Article, Event, Launch, NewsSite
 
@@ -17,7 +17,7 @@ class ValidatedArticleDataDict(TypedDict):
     updatedAt: datetime.date
     featured: bool
     launches: list[dict[str, str]]
-    events: list[dict[str, str | str, int]]
+    events: list[dict[str, str | int]]
 
 
 class ArticleV3Serializer(serializers.Serializer[Article]):
