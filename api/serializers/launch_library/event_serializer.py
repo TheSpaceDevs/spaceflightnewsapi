@@ -6,8 +6,8 @@ from api.models import Event
 
 
 class ValidatedEventDataDict(TypedDict):
-    id: int
-    name: str
+    id: serializers.IntegerField
+    name: serializers.CharField
 
 
 class LaunchLibraryEventSerializer(serializers.Serializer[Event]):
