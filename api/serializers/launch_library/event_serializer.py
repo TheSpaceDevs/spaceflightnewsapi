@@ -6,8 +6,8 @@ from api.models import Event
 
 
 class ValidatedEventDataDict(TypedDict):
-    id: serializers.IntegerField
-    name: serializers.CharField
+    id: int
+    name: str
 
 
 class LaunchLibraryEventSerializer(serializers.Serializer[Event]):
@@ -16,10 +16,10 @@ class LaunchLibraryEventSerializer(serializers.Serializer[Event]):
 
     def create(self, validated_data: ValidatedEventDataDict) -> Event:
         event, _ = Event.objects.update_or_create(
-            event_id=validated_data.get("id"),
+            event_id=validated_data["id"],
             defaults={
-                "name": validated_data.get("name"),
-                "provider": self.context.get("provider"),
+                "name": validated_data["name"],
+                "provider": self.context["provider"],
             },
         )
 
