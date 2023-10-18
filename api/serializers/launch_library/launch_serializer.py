@@ -7,8 +7,8 @@ from api.models import Launch
 
 
 class ValidatedLaunchDataDict(TypedDict):
-    id: serializers.UUIDField
-    name: serializers.CharField
+    id: str | UUID
+    name: str
 
 
 class LaunchLibraryLaunchSerializer(serializers.Serializer[Launch]):
