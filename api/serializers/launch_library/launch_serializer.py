@@ -1,5 +1,4 @@
 from typing import TypedDict
-from uuid import UUID
 
 from rest_framework import serializers
 
@@ -7,7 +6,7 @@ from api.models import Launch
 
 
 class ValidatedLaunchDataDict(TypedDict):
-    id: str | UUID
+    id: str
     name: str
 
 
