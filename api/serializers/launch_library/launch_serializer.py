@@ -17,10 +17,10 @@ class LaunchLibraryLaunchSerializer(serializers.Serializer[Launch]):
 
     def create(self, validated_data: ValidatedLaunchDataDict) -> Launch:
         launch, _ = Launch.objects.update_or_create(
-            launch_id=validated_data.get("id"),
+            launch_id=validated_data["id"],
             defaults={
-                "name": validated_data.get("name"),
-                "provider": self.context.get("provider"),
+                "name": validated_data["name"],
+                "provider": self.context["provider"],
             },
         )
 
