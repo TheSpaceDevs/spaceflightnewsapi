@@ -17,7 +17,7 @@ class ValidatedArticleDataDict(TypedDict):
     updatedAt: datetime.date
     featured: bool
     launches: list[dict[str, str]]
-    events: list[dict[str, str]]
+    events: list[dict[str, str | str, int]]
 
 
 class ArticleV3Serializer(serializers.Serializer[Article]):
@@ -34,7 +34,7 @@ class ArticleV3Serializer(serializers.Serializer[Article]):
     events = serializers.ListField()
 
     def create(self, validated_data: ValidatedArticleDataDict) -> Article:
-        news_site = NewsSite.objects.get(name=validated_data.get("newsSite"))
+        news_site = NewsSite.objects.get(name=validated_data["newsSite"])
         launches_list: list[Launch] = []
         events_list: list[Event] = []
 
