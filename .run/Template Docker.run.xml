@@ -35,7 +35,7 @@
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
               <option name="name" value="DEBUG" />
-              <option name="value" value="True" />
+              <option name="value" value="1" />
             </DockerEnvVarImpl>
             <DockerEnvVarImpl>
               <option name="name" value="LL_TOKEN" />
