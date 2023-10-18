@@ -36,7 +36,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv("DEBUG", "False")
+DEBUG = os.getenv("DEBUG", 1)
 
 if DEBUG is False:
     sentry_sdk.init(
