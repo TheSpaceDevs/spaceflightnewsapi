@@ -1,5 +1,6 @@
-from rest_framework import serializers
 from typing import TypedDict
+
+from rest_framework import serializers
 
 from api.models import Blog, Event, Launch, NewsSite
 
