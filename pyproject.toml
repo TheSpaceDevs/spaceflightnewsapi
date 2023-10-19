@@ -27,7 +27,7 @@ psycopg2-binary = "^2.9.9"
 
 
 [tool.poetry.group.dev.dependencies]
-django-stubs = { extras = ["compatible-mypy"], version = "^4.2.3" }
+django-stubs = { extras = ["compatible-mypy"], version = "^4.2.5" }
 black = "^23.3.0"
 isort = "^5.11.4"
 djangorestframework-stubs = "^3.14.0"
