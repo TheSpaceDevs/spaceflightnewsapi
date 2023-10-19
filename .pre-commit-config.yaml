@@ -63,6 +63,7 @@ repos:
           - django_celery_results
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.1.0
+    # Ruff version.
+    rev: v0.0.292
     hooks:
       - id: ruff
