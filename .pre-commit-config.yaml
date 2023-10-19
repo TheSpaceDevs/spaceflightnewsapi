@@ -23,11 +23,6 @@ repos:
     hooks:
       - id: isort
 
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.1.0
-    hooks:
-      - id: ruff
-
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
     rev: v9.5.0
     hooks:
@@ -51,7 +46,7 @@ repos:
         args: [ "--py311-plus" ]
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: 'v1.6.0'
+    rev: 'v1.6.1'
     hooks:
     -   id: mypy
         additional_dependencies:
@@ -66,3 +61,8 @@ repos:
           - django-cors-headers
           - drf_spectacular
           - django_celery_results
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.0
+    hooks:
+      - id: ruff
