@@ -6,7 +6,7 @@ authors = ["Derk Weijers <derk@weijers.xyz>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 django = "~4.2"
 djangorestframework = "^3.14.0"
 markdown = "^3.4.1"
@@ -23,7 +23,6 @@ gunicorn = "^21.2.0"
 sentry-sdk = "^1.30.0"
 dj-database-url = "^2.0.0"
 django-minio-backend = "^3.5.0"
-ruff = "^0.0.292"
 psycopg2-binary = "^2.9.9"
 
 
@@ -42,12 +41,15 @@ pytest-env = "^1.0.1"
 pytest = "^7.4.2"
 pytest-cov = "^4.1.0"
 pyupgrade = "^3.15.0"
+django-stubs-ext = "^4.2.2"
+ruff = "^0.0.292"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.mypy]
+strict = true
 plugins = ["mypy_django_plugin.main", "mypy_drf_plugin.main"]
 
 [tool.django-stubs]

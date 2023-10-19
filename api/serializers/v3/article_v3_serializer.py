@@ -1,13 +1,30 @@
+import datetime
+from typing import TypedDict
+
 from rest_framework import serializers
 
 from api.models import Article, Event, Launch, NewsSite
 
 
-class ArticleV3Serializer(serializers.Serializer):
+class ValidatedArticleDataDict(TypedDict):
+    id: int
+    title: str
+    url: str
+    imageUrl: str
+    newsSite: str
+    summary: str
+    publishedAt: datetime.date
+    updatedAt: datetime.date
+    featured: bool
+    launches: list[dict[str, str]]
+    events: list[dict[str, str | int]]
+
+
+class ArticleV3Serializer(serializers.Serializer[Article]):
     id = serializers.IntegerField()
     title = serializers.CharField()
     url = serializers.URLField()
-    imageUrl = serializers.CharField()
+    imageUrl = serializers.URLField()
     newsSite = serializers.CharField()
     summary = serializers.CharField(allow_blank=True)
     publishedAt = serializers.DateTimeField()
@@ -16,7 +33,7 @@ class ArticleV3Serializer(serializers.Serializer):
     launches = serializers.ListField()
     events = serializers.ListField()
 
-    def create(self, validated_data) -> Article:
+    def create(self, validated_data: ValidatedArticleDataDict) -> Article:
         news_site = NewsSite.objects.get(name=validated_data["newsSite"])
         launches_list: list[Launch] = []
         events_list: list[Event] = []

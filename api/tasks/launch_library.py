@@ -7,8 +7,9 @@ from api.serializers.launch_library import (
     LaunchLibraryEventSerializer,
     LaunchLibraryLaunchSerializer,
 )
+from api.serializers.utils import ClientOptions
 
-client_options = {
+client_options: ClientOptions = {
     "base_url": settings.LL_URL,
     "headers": {
         "Authorization": f"Token {settings.LL_TOKEN}",
@@ -19,7 +20,7 @@ client_options = {
 
 
 @shared_task(name="Sync Launches")
-def sync_launches():
+def sync_launches() -> None:
     next_url = "/launch/"
     provider = Provider.objects.get(name="Launch Library 2")
 
@@ -38,7 +39,7 @@ def sync_launches():
 
 
 @shared_task(name="Sync Events")
-def sync_events():
+def sync_events() -> None:
     next_url = "/event/"
     provider = Provider.objects.get(name="Launch Library 2")
 

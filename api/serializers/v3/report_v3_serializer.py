@@ -1,9 +1,22 @@
+from typing import TypedDict
+
 from rest_framework import serializers
 
 from api.models import NewsSite, Report
 
 
-class ReportV3Serializer(serializers.Serializer):
+class ValidatedReportDataDict(TypedDict):
+    id: int
+    title: str
+    url: str
+    imageUrl: str
+    newsSite: str
+    summary: str
+    publishedAt: str
+    updatedAt: str
+
+
+class ReportV3Serializer(serializers.Serializer[Report]):
     id = serializers.IntegerField()
     title = serializers.CharField()
     url = serializers.URLField()
@@ -13,7 +26,7 @@ class ReportV3Serializer(serializers.Serializer):
     publishedAt = serializers.DateTimeField()
     updatedAt = serializers.DateTimeField()
 
-    def create(self, validated_data) -> Report:
+    def create(self, validated_data: ValidatedReportDataDict) -> Report:
         news_site = NewsSite.objects.get(name=validated_data["newsSite"])
 
         report, _ = Report.objects.update_or_create(

@@ -6,5 +6,5 @@ class Event(models.Model):
     name = models.CharField(max_length=250)
     provider = models.ForeignKey("Provider", on_delete=models.CASCADE)
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.name

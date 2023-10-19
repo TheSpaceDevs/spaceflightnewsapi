@@ -1,11 +1,12 @@
 import pytest
+from django.test.client import Client
 
 from api.models import NewsSite
 
 
 @pytest.mark.django_db
 class TestInfoEndpoint:
-    def test_version(self, client):
+    def test_version(self, client: Client) -> None:
         response = client.get("/v4/info/")
         assert response.status_code == 200
 
@@ -13,7 +14,7 @@ class TestInfoEndpoint:
 
         assert data["version"] == "v1.2.3"
 
-    def test_news_sites(self, client, news_sites: list[NewsSite]):
+    def test_news_sites(self, client: Client, news_sites: list[NewsSite]) -> None:
         response = client.get("/v4/info/")
         assert response.status_code == 200
 

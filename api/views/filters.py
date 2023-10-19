@@ -1,4 +1,6 @@
-from django.db.models import Q
+from typing import Any
+
+from django.db.models import Q, QuerySet
 from django_filters import (
     BaseInFilter,
     BooleanFilter,
@@ -12,21 +14,19 @@ from rest_framework import filters
 
 
 class UUIDInFilter(BaseInFilter, UUIDFilter):
-    def __init__(self, *args, **kwargs):
+    def __init__(self, *args: Any, **kwargs: Any):
         super().__init__(*args, **kwargs)
 
 
 class NumberInFilter(BaseInFilter, NumberFilter):
-    def __init__(self, *args, **kwargs):
+    def __init__(self, *args: Any, **kwargs: Any):
         super().__init__(*args, **kwargs)
 
 
 class CharInFilter(CharFilter):
-    def __init__(self, *args, **kwargs):
+    def __init__(self, **kwargs: Any):
         self.field_name = kwargs.pop("field_name")
         super().__init__(
-            *args,
-            **kwargs,
             field_name=self.field_name,
             method=self.filter_keywords,
             label=f"Search for documents with a {self.field_name} "
@@ -34,7 +34,7 @@ class CharInFilter(CharFilter):
             f"insensitive.",
         )
 
-    def filter_keywords(self, queryset, name, value):
+    def filter_keywords(self, queryset: QuerySet[Any], name: str, value: str) -> Any:
         words = value.split(",")
         q = Q()
         for word in words:
@@ -43,11 +43,9 @@ class CharInFilter(CharFilter):
 
 
 class ContainsOneFilter(CharFilter):
-    def __init__(self, *args, **kwargs):
+    def __init__(self, **kwargs: Any):
         self.field_name = kwargs.pop("field_name")
         super().__init__(
-            *args,
-            **kwargs,
             field_name=self.field_name,
             method=self.filter_keywords,
             label=f"Search for documents with a {self.field_name} "
@@ -55,7 +53,7 @@ class ContainsOneFilter(CharFilter):
             f"comma-separated values.",
         )
 
-    def filter_keywords(self, queryset, name, value):
+    def filter_keywords(self, queryset: QuerySet[Any], name: str, value: str) -> Any:
         words = value.split(",")
         q = Q()
         for word in words:
@@ -64,18 +62,16 @@ class ContainsOneFilter(CharFilter):
 
 
 class ContainsAllFilter(CharFilter):
-    def __init__(self, *args, **kwargs):
+    def __init__(self, **kwargs: Any):
         self.field_name = kwargs.pop("field_name")
         super().__init__(
-            *args,
-            **kwargs,
             field_name=self.field_name,
             method=self.filter_keywords,
             label=f"Search for documents with a {self.field_name} "
             f"containing all keywords from comma-separated values.",
         )
 
-    def filter_keywords(self, queryset, name, value):
+    def filter_keywords(self, queryset: QuerySet[Any], name: str, value: str) -> Any:
         words = value.split(",")
         q = Q()
         for word in words:

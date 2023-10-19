@@ -7,13 +7,20 @@ import httpx
 from celery import shared_task
 
 from api.models import NewsSite
+from api.serializers.utils import ClientOptions
 from api.serializers.v3 import ArticleV3Serializer, BlogV3Serializer, ReportV3Serializer
 
-client_options = {"base_url": "https://api.spaceflightnewsapi.net/v3"}
+BASE_URL = "https://api.spaceflightnewsapi.net/v3"
+
+client_options: ClientOptions = {
+    "base_url": BASE_URL,
+    "headers": {"User-Agent": "SNAPI V4"},
+    "timeout": 1440.0,
+}
 
 
 @shared_task(name="Sync Articles")
-def sync_articles():
+def sync_articles() -> None:
     with httpx.Client(**client_options) as client:
         count = client.get(url="/articles/count").json()
 
@@ -36,8 +43,8 @@ def sync_articles():
 
 
 @shared_task(name="Sync Blogs")
-def sync_blogs():
-    with httpx.Client(**client_options) as client:
+def sync_blogs() -> None:
+    with httpx.Client(base_url=BASE_URL) as client:
         count = client.get(url="/blogs/count").json()
 
         limit = 1000
@@ -59,8 +66,8 @@ def sync_blogs():
 
 
 @shared_task(name="Sync News Sites")
-def sync_news_sites():
-    with httpx.Client(**client_options) as client:
+def sync_news_sites() -> None:
+    with httpx.Client(base_url=BASE_URL) as client:
         response = client.get(url="/info").json()
 
         for site in response["newsSites"]:
@@ -69,8 +76,8 @@ def sync_news_sites():
 
 # Task to migrate reports. It's not that much, so we do everything in a single task.
 @shared_task(name="Sync Reports")
-def sync_reports():
-    with httpx.Client(**client_options) as client:
+def sync_reports() -> None:
+    with httpx.Client(base_url=BASE_URL) as client:
         count = client.get(url="/reports/count").json()
 
         limit = 1000

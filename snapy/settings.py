@@ -14,8 +14,12 @@ import os
 from pathlib import Path
 
 import dj_database_url
+import django_stubs_ext
 import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
+
+# Extensions for Django Stubs
+django_stubs_ext.monkeypatch()
 
 VERSION = os.getenv("SNAPI_VERSION")
 
@@ -32,7 +36,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv("DEBUG", "False")
+DEBUG = os.getenv("DEBUG", 1)
 
 if DEBUG is False:
     sentry_sdk.init(
@@ -195,5 +199,5 @@ CELERY_CACHE_BACKEND = "django-cache"
 CELERY_RESULT_EXTENDED = True
 
 # LL Settings
-LL_URL = os.getenv("LL_URL")
+LL_URL = os.getenv("LL_URL", "https://ll.thespacedevs.com/2.2.0")
 LL_TOKEN = os.getenv("LL_TOKEN", "")
