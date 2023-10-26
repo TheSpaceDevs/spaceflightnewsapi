@@ -38,7 +38,7 @@ services:
         python manage.py collectstatic --no-input &&
         python manage.py migrate --no-input &&
         python manage.py createdefaulttasks &&
-        gunicorn snapy.wsgi:application --bind 0.0.0.0:8000 --access-logfile - --disable-redirect-access-to-syslog
+        gunicorn snapy.wsgi:application --workers 13 --bind 0.0.0.0:8000 --access-logfile - --disable-redirect-access-to-syslog
     networks:
       - snapy
       - nginx-proxy-manager_default
