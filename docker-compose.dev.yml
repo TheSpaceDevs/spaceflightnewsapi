@@ -30,15 +30,7 @@ services:
       - ./manage.py:/code/manage.py
     ports:
       - "8000:8000"
-    environment:
-      - SNAPI_VERSION=${SNAPI_VERSION}
-      - DEBUG=${DEBUG}
-      - SECRET_KEY=${SECRET_KEY}
-      - DATABASE_URL=${DATABASE_URL}
-      - LL_URL=${LL_URL}
-      - LL_TOKEN=${LL_TOKEN}
-      - CELERY_BROKER_URL=${CELERY_BROKER_URL}
-      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
+    env_file: .env
     depends_on:
       database:
         condition: service_healthy
@@ -58,11 +50,7 @@ services:
       - ./api:/code/api
       - ./snapy:/code/snapy
       - ./manage.py:/code/manage.py
-    environment:
-      - SNAPI_VERSION=${SNAPI_VERSION}
-      - DATABASE_URL=${DATABASE_URL}
-      - CELERY_BROKER_URL=${CELERY_BROKER_URL}
-      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
+    env_file: .env
     depends_on:
       rabbitmq:
         condition: service_started
@@ -76,14 +64,7 @@ services:
       - ./api:/code/api
       - ./snapy:/code/snapy
       - ./manage.py:/code/manage.py
-    environment:
-      - SNAPI_VERSION=${SNAPI_VERSION}
-      - DATABASE_URL=${DATABASE_URL}
-      - SECRET_KEY=${SECRET_KEY}
-      - LL_URL=${LL_URL}
-      - LL_TOKEN=${LL_TOKEN}
-      - CELERY_BROKER_URL=${CELERY_BROKER_URL}
-      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
+    env_file: .env
     depends_on:
       rabbitmq:
         condition: service_started

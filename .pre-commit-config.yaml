@@ -61,6 +61,8 @@ repos:
           - django-cors-headers
           - drf_spectacular
           - django_celery_results
+          - environs[django]
+          - psycopg2
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.

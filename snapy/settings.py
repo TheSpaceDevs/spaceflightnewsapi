@@ -10,18 +10,20 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
-import os
 from pathlib import Path
 
-import dj_database_url
 import django_stubs_ext
 import sentry_sdk
+from environs import Env
 from sentry_sdk.integrations.django import DjangoIntegration
+
+env = Env()
+env.read_env()
 
 # Extensions for Django Stubs
 django_stubs_ext.monkeypatch()
 
-VERSION = os.getenv("SNAPI_VERSION")
+VERSION = env.str("SNAPI_VERSION")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -30,17 +32,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv("SECRET_KEY")
+SECRET_KEY = env.str("SECRET_KEY")
 
 # Get the forwarded protocol from the proxy server
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv("DEBUG", 0)
+DEBUG = env.bool("DEBUG", False)
 
 if DEBUG is False:
     sentry_sdk.init(
-        dsn=os.getenv("SENTRY_DSN"),
+        dsn=env.str("SENTRY_DSN"),
         integrations=[DjangoIntegration()],
         traces_sample_rate=1.0,
         send_default_pii=True,
@@ -49,7 +51,7 @@ if DEBUG is False:
     )
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = [os.getenv("CSRF_TRUSTED_ORIGIN")]
+CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGIN")
 
 # Application definition
 
@@ -105,12 +107,7 @@ WSGI_APPLICATION = "snapy.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    "default": dj_database_url.config(
-        conn_max_age=600,
-        conn_health_checks=True,
-    ),
-}
+DATABASES = {"default": env.dj_db_url("DATABASE_URL")}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
@@ -145,15 +142,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 # STATIC_URL = "static/"
 # STATIC_ROOT = BASE_DIR / "staticfiles"
-USE_MINIO = os.getenv("USE_MINIO", False)
+USE_MINIO = env.bool("USE_MINIO", False)
 if USE_MINIO:
     INSTALLED_APPS.append("django_minio_backend")
-    MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT", "http://localhost:9000")
+    MINIO_ENDPOINT = env.str("MINIO_ENDPOINT", "http://localhost:9000")
     MINIO_USE_HTTPS = True
-    MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY", "minioadmin")
-    MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY", "minioadmin")
-    MINIO_PUBLIC_BUCKETS = [os.getenv("MINIO_BUCKET_NAME", "static")]
-    MINIO_STATIC_FILES_BUCKET = os.getenv("MINIO_BUCKET_NAME", "static")
+    MINIO_ACCESS_KEY = env.str("MINIO_ACCESS_KEY", "minioadmin")
+    MINIO_SECRET_KEY = env.str("MINIO_SECRET_KEY", "minioadmin")
+    MINIO_PUBLIC_BUCKETS = env.list("MINIO_PUBLIC_BUCKETS", ["static"])
+    MINIO_STATIC_FILES_BUCKET = env.str("MINIO_BUCKET_NAME", "static")
     MINIO_BUCKET_CHECK_ON_SAVE = True
 
     STATICFILES_STORAGE = "django_minio_backend.models.MinioBackendStatic"
@@ -194,11 +191,11 @@ SPECTACULAR_SETTINGS = {
 # Celery Configuration Options
 CELERY_TIME_ZONE = TIME_ZONE
 CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"
-CELERY_BROKER_URL = os.getenv("CELERY_BROKER_URL")
+CELERY_BROKER_URL = env.str("CELERY_BROKER_URL")
 CELERY_RESULT_BACKEND = "django-db"
 CELERY_CACHE_BACKEND = "django-cache"
 CELERY_RESULT_EXTENDED = True
 
 # LL Settings
-LL_URL = os.getenv("LL_URL", "https://ll.thespacedevs.com/2.2.0")
-LL_TOKEN = os.getenv("LL_TOKEN", "")
+LL_URL = env.url("LL_URL")
+LL_TOKEN = env.str("LL_TOKEN", "")
