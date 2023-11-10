@@ -64,6 +64,9 @@ target-version = ["py312"]
 [tool.ruff]
 extend-exclude = ["snapy/settings.py"]
 
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "DJ", "UP"]
+
 [tool.bandit]
 exclude_dirs = ["tests/", ".github/", ".venv/"]
 

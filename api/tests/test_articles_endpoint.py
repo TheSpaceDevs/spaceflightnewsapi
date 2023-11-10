@@ -1,5 +1,4 @@
-"""
-This module tests both articles and the blogs endpoints.
+"""This module tests both articles and the blogs endpoints.
 Most code is shared between the two.
 """
 

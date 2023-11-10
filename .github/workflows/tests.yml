@@ -25,7 +25,6 @@ jobs:
           run: |
             mkdir test_results
             black --check .
-            isort --check-only --diff .
             bandit -c pyproject.toml -r .
             ruff check .
             mypy .
