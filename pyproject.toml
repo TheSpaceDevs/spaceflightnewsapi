@@ -25,6 +25,9 @@ django-minio-backend = "^3.5.0"
 psycopg2-binary = "^2.9.9"
 environs = {extras = ["django"], version = "^9.5.0"}
 
+[tool.poetry.group.dev]
+optional = true
+
 
 [tool.poetry.group.dev.dependencies]
 django-stubs = { extras = ["compatible-mypy"], version = "^4.2.5" }
