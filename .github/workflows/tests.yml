@@ -12,12 +12,12 @@ env:
     SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
     SNAPI_BOT_TOKEN: ${{ secrets.SNAPI_BOT_TOKEN }}
 
-    CELERY_BROKER_URL: ${{ CELERY_BROKER_URL }}
-    CSRF_TRUSTED_ORIGIN: ${{ CSRF_TRUSTED_ORIGIN }}
-    DEBUG: ${{ DEBUG }}
-    LL_URL: ${{ LL_URL }}
-    SNAPI_VERSION: ${{ SNAPI_VERSION }}
-    USE_MINIO: ${{ USE_MINIO }}
+    CELERY_BROKER_URL: ${{ env.CELERY_BROKER_URL }}
+    CSRF_TRUSTED_ORIGIN: ${{ env.CSRF_TRUSTED_ORIGIN }}
+    DEBUG: ${{ env.DEBUG }}
+    LL_URL: ${{ env.LL_URL }}
+    SNAPI_VERSION: ${{ env.SNAPI_VERSION }}
+    USE_MINIO: ${{ env.USE_MINIO }}
 
 jobs:
   linters:
