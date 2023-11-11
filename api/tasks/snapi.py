@@ -1,5 +1,4 @@
-"""
-Tasks to support the migration of old content into this Django project.
+"""Tasks to support the migration of old content into this Django project.
 """
 import math
 

@@ -1,5 +1,5 @@
 ---
-version: "3.8"
+version: "3"
 
 volumes:
   database:
@@ -42,19 +42,7 @@ services:
     networks:
       - snapy
       - nginx-proxy-manager_default
-    environment:
-      - SECRET_KEY=${SECRET_KEY}
-      - DATABASE_URL=${DATABASE_URL}
-      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
-      - LL_URL=${LL_URL}
-      - LL_TOKEN=${LL_TOKEN}
-      - CELERY_BROKER_URL=${CELERY_BROKER_URL}
-      - SENTRY_DSN=${SENTRY_DSN}
-      - USE_MINIO=${USE_MINIO}
-      - MINIO_ACCESS_KEY=${MINIO_ACCESS_KEY}
-      - MINIO_SECRET_KEY=${MINIO_SECRET_KEY}
-      - MINIO_BUCKET_NAME=${MINIO_BUCKET_NAME}
-      - MINIO_ENDPOINT=${MINIO_ENDPOINT}
+    env_file: .env
     depends_on:
       database:
         condition: service_healthy
@@ -66,11 +54,7 @@ services:
     networks:
       - mq
       - snapy
-    environment:
-      - DATABASE_URL=${DATABASE_URL}
-      - CELERY_BROKER_URL=${CELERY_BROKER_URL}
-      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
-      - SENTRY_DSN=${SENTRY_DSN}
+    env_file: .env
     depends_on:
       database:
         condition: service_healthy
@@ -83,14 +67,7 @@ services:
     networks:
       - mq
       - snapy
-    environment:
-      - DATABASE_URL=${DATABASE_URL}
-      - SECRET_KEY=${SECRET_KEY}
-      - LL_URL=${LL_URL}
-      - LL_TOKEN=${LL_TOKEN}
-      - CELERY_BROKER_URL=${CELERY_BROKER_URL}
-      - CSRF_TRUSTED_ORIGIN=${CSRF_TRUSTED_ORIGIN}
-      - SENTRY_DSN=${SENTRY_DSN}
+    env_file: .env
     depends_on:
       database:
         condition: service_healthy

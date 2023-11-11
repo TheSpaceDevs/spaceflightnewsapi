@@ -1,5 +1,4 @@
-"""
-WSGI config for snapy project.
+"""WSGI config for snapy project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

@@ -10,8 +10,8 @@ class Report(models.Model):
     published_at = models.DateTimeField()
     updated_at = models.DateTimeField()
 
-    def __str__(self) -> str:
-        return self.title
-
     class Meta:
         ordering = ["-published_at"]
+
+    def __str__(self) -> str:
+        return self.title

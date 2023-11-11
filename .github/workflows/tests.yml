@@ -2,6 +2,23 @@ name: Linting and Testing
 on:
   pull_request:
 
+env:
+  CR_PAT: ${{ secrets.CR_PAT }}
+  DATABASE_URL: ${{ secrets.DATABASE_URL }}
+  DB_NAME: ${{ secrets.DB_NAME }}
+  DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+  DB_USER: ${{ secrets.DB_USER }}
+  SECRET_KEY: ${{ secrets.SECRET_KEY }}
+  SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+  SNAPI_BOT_TOKEN: ${{ secrets.SNAPI_BOT_TOKEN }}
+
+  CELERY_BROKER_URL: ${{ vars.CELERY_BROKER_URL }}
+  CSRF_TRUSTED_ORIGIN: ${{ vars.CSRF_TRUSTED_ORIGIN }}
+  DEBUG: ${{ vars.DEBUG }}
+  LL_URL: ${{ vars.LL_URL }}
+  SNAPI_VERSION: ${{ vars.SNAPI_VERSION }}
+  USE_MINIO: ${{ vars.USE_MINIO }}
+
 jobs:
   linters:
     runs-on: ubuntu-latest
@@ -25,7 +42,6 @@ jobs:
           run: |
             mkdir test_results
             black --check .
-            isort --check-only --diff .
             bandit -c pyproject.toml -r .
             ruff check .
             mypy .

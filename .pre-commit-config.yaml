@@ -12,19 +12,14 @@ repos:
       - id: check-added-large-files
 
   - repo: https://github.com/psf/black
-    rev: 23.10.0
+    rev: 23.11.0
     hooks:
       - id: black
         language_version: python3.11
 
 
-  - repo: https://github.com/PyCQA/isort
-    rev: 5.12.0
-    hooks:
-      - id: isort
-
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
-    rev: v9.5.0
+    rev: v9.8.0
     hooks:
       - id: commitlint
         stages: [ commit-msg ]
@@ -45,25 +40,9 @@ repos:
       - id: pyupgrade
         args: [ "--py311-plus" ]
 
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: 'v1.6.1'
-    hooks:
-      - id: mypy
-        additional_dependencies:
-          - django-stubs
-          - djangorestframework-stubs
-          - celery
-          - dj_database_url
-          - sentry_sdk
-          - djangorestframework
-          - django_celery_beat
-          - django-filter
-          - django-cors-headers
-          - drf_spectacular
-          - django_celery_results
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
-    rev: v0.0.292
+    rev: v0.1.5
     hooks:
       - id: ruff
