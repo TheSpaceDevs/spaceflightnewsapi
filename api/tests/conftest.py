@@ -182,6 +182,18 @@ def articles(
     )
     articles.append(article_with_spacex)
 
+    article_that_is_soft_deleted = Article.objects.create(
+        title="Deleted Article",
+        summary="Summary of softdeleted article",
+        url="https://example.com/delete",
+        image_url="https://example.com/delete.jpg",
+        news_site=news_sites[7],
+        published_at="2021-01-01T00:00:00Z",
+        updated_at="2021-01-01T00:00:00Z",
+        is_deleted=True,
+    )
+
+    articles.append(article_that_is_soft_deleted)
     return articles
 
 
@@ -266,4 +278,16 @@ def reports(news_sites: list[NewsSite]) -> list[Report]:
     )
     reports.append(report_with_spacex)
 
+    report_that_is_soft_deleted = Report.objects.create(
+        title="Deleted Report",
+        summary="Summary of softdeleted report",
+        url="https://example.com/delete",
+        image_url="https://example.com/delete.jpg",
+        news_site=news_sites[7],
+        published_at="2021-01-01T00:00:00Z",
+        updated_at="2021-01-01T00:00:00Z",
+        is_deleted=True,
+    )
+
+    reports.append(report_that_is_soft_deleted)
     return reports
