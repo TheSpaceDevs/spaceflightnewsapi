@@ -1,3 +1,5 @@
+from typing import Any
+
 from django.db import models
 
 from api.models.event import Event
@@ -16,9 +18,15 @@ class NewsItem(models.Model):
     featured = models.BooleanField(default=False)
     launches = models.ManyToManyField(Launch, blank=True)
     events = models.ManyToManyField(Event, blank=True)
+    is_deleted = models.BooleanField(default=False)
 
     class Meta:
         abstract = True
 
     def __str__(self) -> str:
         return self.title
+
+    def delete(self, using: Any = ..., keep_parents: bool = ...):
+        """Mark the item as delete instead of actually deleting it."""
+        self.is_deleted = True
+        self.save()
