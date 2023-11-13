@@ -19,7 +19,7 @@ class Report(models.Model):
     def __str__(self) -> str:
         return self.title
 
-    def delete(self, using: Any = ..., keep_parents: bool = ...):
+    def delete(self, using: Any = ..., keep_parents: bool = ...) -> None:  # type: ignore
         """Mark the item as delete instead of actually deleting it."""
         self.is_deleted = True
-        self.save()
+        return self.save()

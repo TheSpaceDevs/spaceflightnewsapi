@@ -344,7 +344,7 @@ class TestArticlesEndpoint:
         assert data["results"][0]["title"] == "Article with specific title"
         assert len(data["results"]) == 1
 
-    def test_soft_deleted(self, client: Client, articles: list[Article]):
+    def test_soft_deleted(self, client: Client, articles: list[Article]) -> None:
         response = client.get("/v4/articles/?title_contains=Deleted")
         assert response.status_code == 200
 
