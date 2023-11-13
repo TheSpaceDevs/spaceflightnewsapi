@@ -7,7 +7,7 @@ from api.views.filters import DocsFilter, SearchFilter
 
 
 class BlogViewSet(viewsets.ReadOnlyModelViewSet):  # type: ignore
-    queryset = Blog.objects.all()
+    queryset = Blog.objects.exclude(is_deleted=True)
     serializer_class = BlogSerializer
     authentication_classes = []
     filter_backends = [

@@ -7,7 +7,7 @@ from api.views.filters import BaseFilter, SearchFilter
 
 
 class ReportViewSet(viewsets.ReadOnlyModelViewSet):  # type: ignore
-    queryset = Report.objects.all()
+    queryset = Report.objects.exclude(is_deleted=True)
     serializer_class = serializers.ReportSerializer
     authentication_classes = []
     filterset_class = BaseFilter

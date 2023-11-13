@@ -21,8 +21,9 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         "featured",
         "assigned_launches",
         "assigned_events",
+        "is_deleted",
     )
-    list_filter = ("published_at", "featured", "news_site")
+    list_filter = ("published_at", "featured", "news_site", "is_deleted")
     filter_horizontal = ["launches", "events"]
     search_fields = ["title"]
     ordering = ("-published_at",)
@@ -49,7 +50,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
 class ReportAdmin(admin.ModelAdmin[Report]):
     """Custom admin view for reports."""
 
-    list_display = ("title", "news_site", "published_at")
+    list_display = ("title", "news_site", "published_at", "is_deleted")
     search_fields = ["title"]
     ordering = ("-published_at",)
 
