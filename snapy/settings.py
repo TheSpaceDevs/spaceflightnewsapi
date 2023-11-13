@@ -148,7 +148,7 @@ if USE_MINIO:
     MINIO_USE_HTTPS = True
     MINIO_ACCESS_KEY = env.str("MINIO_ACCESS_KEY", "minioadmin")
     MINIO_SECRET_KEY = env.str("MINIO_SECRET_KEY", "minioadmin")
-    MINIO_PUBLIC_BUCKETS = env.list("MINIO_PUBLIC_BUCKETS", ["static"])
+    MINIO_PUBLIC_BUCKETS = env.list("MINIO_BUCKET_NAME", ["static"])
     MINIO_STATIC_FILES_BUCKET = env.str("MINIO_BUCKET_NAME", "static")
     MINIO_BUCKET_CHECK_ON_SAVE = True
 
