@@ -42,6 +42,25 @@ class CharInFilter(CharFilter):
         return queryset.filter(q)
 
 
+class CharNotInFilter(CharFilter):
+    def __init__(self, **kwargs: Any):
+        self.field_name = kwargs.pop("field_name")
+        super().__init__(
+            field_name=self.field_name,
+            method=self.filter_keywords,
+            label=f"Search for documents with a {self.field_name} "
+            f"not present in a list of comma-separated values. "
+            f"Case insensitive.",
+        )
+
+    def filter_keywords(self, queryset: QuerySet[Any], name: str, value: str) -> Any:
+        words = value.split(",")
+        q = Q()
+        for word in words:
+            q |= Q(**{f"{name}__iexact": word.strip()})
+        return queryset.exclude(q)
+
+
 class ContainsOneFilter(CharFilter):
     def __init__(self, **kwargs: Any):
         self.field_name = kwargs.pop("field_name")
@@ -79,6 +98,24 @@ class ContainsAllFilter(CharFilter):
         return queryset.filter(q)
 
 
+class ContainsNoneFilter(CharFilter):
+    def __init__(self, **kwargs: Any):
+        self.field_name = kwargs.pop("field_name")
+        super().__init__(
+            field_name=self.field_name,
+            method=self.filter_keywords,
+            label=f"Search for documents with a {self.field_name} "
+            f"containing no keywords from comma-separated values.",
+        )
+
+    def filter_keywords(self, queryset: QuerySet[Any], name: str, value: str) -> Any:
+        words = value.split(",")
+        q = Q()
+        for word in words:
+            q |= Q(**{f"{name}__icontains": word.strip()})
+        return queryset.exclude(q)
+
+
 class BaseFilter(FilterSet):
     title_contains = CharFilter(
         field_name="title",
@@ -90,6 +127,10 @@ class BaseFilter(FilterSet):
     summary_contains_one = ContainsOneFilter(field_name="summary")
     summary_contains_all = ContainsAllFilter(field_name="summary")
     news_site = CharInFilter(field_name="news_site__name")
+    news_site_contains_one = ContainsOneFilter(field_name="news_site")
+    news_site_contains_all = ContainsAllFilter(field_name="news_site")
+    news_site_contains_none = ContainsNoneFilter(field_name="news_site")
+    news_site_exclude = CharNotInFilter(field_name="news_site")
     summary_contains = CharFilter(
         field_name="summary",
         lookup_expr="icontains",
