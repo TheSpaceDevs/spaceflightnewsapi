@@ -360,7 +360,7 @@ class TestArticlesEndpoint:
 
         assert all(article["news_site"] != "SpaceNews" for article in data["results"])
 
-    def test_news_site_exlude_multiple(
+    def test_news_site_exclude_multiple(
         self, client: Client, articles: list[Article]
     ) -> None:
         response = client.get(
