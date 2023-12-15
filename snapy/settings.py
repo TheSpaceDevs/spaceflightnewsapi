@@ -196,5 +196,5 @@ CELERY_CACHE_BACKEND = "django-cache"
 CELERY_RESULT_EXTENDED = True
 
 # LL Settings
-LL_URL = env.url("LL_URL")
+LL_URL = env.str("LL_URL")
 LL_TOKEN = env.str("LL_TOKEN", "")
