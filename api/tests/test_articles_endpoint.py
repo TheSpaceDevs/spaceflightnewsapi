@@ -351,3 +351,26 @@ class TestArticlesEndpoint:
         data = response.json()
 
         assert len(data["results"]) == 0
+
+    def test_news_site_exclude(self, client: Client, articles: list[Article]) -> None:
+        response = client.get("/v4/articles/?news_site_exclude=SpaceNews")
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert all(article["news_site"] != "SpaceNews" for article in data["results"])
+
+    def test_news_site_exlude_multiple(
+        self, client: Client, articles: list[Article]
+    ) -> None:
+        response = client.get(
+            "/v4/articles/?news_site_exclude=SpaceNews,SpaceFlightNow"
+        )
+        assert response.status_code == 200
+
+        data = response.json()
+
+        assert all(
+            article["news_site"] not in ["SpaceNews", "SpaceFlightNow"]
+            for article in data["results"]
+        )
