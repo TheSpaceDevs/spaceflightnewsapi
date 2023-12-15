@@ -39,10 +39,14 @@ class ArticleV3Serializer(serializers.Serializer[Article]):
         events_list: list[Event] = []
 
         for launch in validated_data["launches"]:
-            launches_list.append(Launch.objects.get(launch_id=launch["id"]))
+            launch_in_db = Launch.objects.filter(launch_id=launch["id"])
+            if launch_in_db:
+                launches_list.append(launch_in_db[0])
 
         for event in validated_data["events"]:
-            events_list.append(Event.objects.get(event_id=event["id"]))
+            event_in_db = Event.objects.filter(event_id=event["id"])
+            if event_in_db:
+                events_list.append(event_in_db[0])
 
         article, _ = Article.objects.update_or_create(
             id=validated_data["id"],
