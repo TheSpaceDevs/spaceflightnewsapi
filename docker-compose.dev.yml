@@ -21,20 +21,6 @@ services:
     ports:
       - "5432:5432"
 
-  app:
-    build: .
-    command: python manage.py runserver 0.0.0.0:8000
-    volumes:
-      - ./api:/code/api
-      - ./snapy:/code/snapy
-      - ./manage.py:/code/manage.py
-    ports:
-      - "8000:8000"
-    env_file: .env
-    depends_on:
-      database:
-        condition: service_healthy
-
   rabbitmq:
     image: rabbitmq:3-management-alpine
     ports:
@@ -42,31 +28,3 @@ services:
       - "15672:15672"
     volumes:
       - rabbitmq:/var/lib/rabbitmq/
-
-  beat:
-    build: .
-    command: celery -A snapy beat -l INFO
-    volumes:
-      - ./api:/code/api
-      - ./snapy:/code/snapy
-      - ./manage.py:/code/manage.py
-    env_file: .env
-    depends_on:
-      rabbitmq:
-        condition: service_started
-      database:
-          condition: service_healthy
-
-  worker:
-    build: .
-    command: celery -A snapy worker -l INFO
-    volumes:
-      - ./api:/code/api
-      - ./snapy:/code/snapy
-      - ./manage.py:/code/manage.py
-    env_file: .env
-    depends_on:
-      rabbitmq:
-        condition: service_started
-      database:
-        condition: service_healthy
