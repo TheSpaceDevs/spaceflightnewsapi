@@ -16,7 +16,7 @@ class BlogImportSerializer(serializers.Serializer[Blog]):
     def create(self, validated_data: dict[str, Any]) -> Blog:
         news_site = NewsSite.objects.get(id=validated_data["newsSite"])
 
-        article, _ = Blog.objects.update_or_create(
+        blog, _ = Blog.objects.update_or_create(
             url=validated_data["url"],
             defaults={
                 "title": validated_data["title"],
@@ -27,4 +27,4 @@ class BlogImportSerializer(serializers.Serializer[Blog]):
             },
         )
 
-        return article
+        return blog

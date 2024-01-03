@@ -16,7 +16,7 @@ class ReportImportSerializer(serializers.Serializer[Report]):
     def create(self, validated_data: dict[str, Any]) -> Report:
         news_site = NewsSite.objects.get(id=validated_data["newsSite"])
 
-        article, _ = Report.objects.update_or_create(
+        report, _ = Report.objects.update_or_create(
             url=validated_data["url"],
             defaults={
                 "title": validated_data["title"],
@@ -27,4 +27,4 @@ class ReportImportSerializer(serializers.Serializer[Report]):
             },
         )
 
-        return article
+        return report
