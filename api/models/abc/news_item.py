@@ -14,7 +14,7 @@ class NewsItem(models.Model):
     news_site = models.ForeignKey(NewsSite, on_delete=models.CASCADE)
     summary = models.TextField()
     published_at = models.DateTimeField()
-    updated_at = models.DateTimeField()
+    updated_at = models.DateTimeField(auto_now=True)
     featured = models.BooleanField(default=False)
     launches = models.ManyToManyField(Launch, blank=True)
     events = models.ManyToManyField(Event, blank=True)
