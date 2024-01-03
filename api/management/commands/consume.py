@@ -57,6 +57,10 @@ class Command(BaseCommand):
 
         channel = connection.channel()
 
+        channel.queue_declare(queue="articles", durable=True)
+        channel.queue_declare(queue="blogs", durable=True)
+        channel.queue_declare(queue="reports", durable=True)
+
         channel.basic_consume("articles", self._article_message_callback)
         channel.basic_consume("blogs", self._blog_message_callback)
         channel.basic_consume("reports", self._report_message_callback)
