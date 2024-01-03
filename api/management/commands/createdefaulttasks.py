@@ -52,44 +52,5 @@ class Command(BaseCommand):
                     "enabled": False,
                 },
             )
-
-            # SNAPI V3
-            PeriodicTask.objects.get_or_create(
-                name="Sync News Sites",
-                defaults={
-                    "interval": five_minute_schedule,
-                    "task": "Sync News Sites",
-                    "enabled": False,
-                    "one_off": True,
-                },
-            )
-
-            PeriodicTask.objects.get_or_create(
-                name="Sync Articles",
-                defaults={
-                    "interval": five_minute_schedule,
-                    "task": "Sync Articles",
-                    "enabled": False,
-                },
-            )
-
-            PeriodicTask.objects.get_or_create(
-                name="Sync Blogs",
-                defaults={
-                    "interval": five_minute_schedule,
-                    "task": "Sync Blogs",
-                    "enabled": False,
-                },
-            )
-
-            PeriodicTask.objects.get_or_create(
-                name="Sync Reports",
-                defaults={
-                    "interval": five_minute_schedule,
-                    "task": "Sync Reports",
-                    "enabled": False,
-                },
-            )
-
         except Exception as e:
             raise CommandError("Periodic task initialization failed.", e)
