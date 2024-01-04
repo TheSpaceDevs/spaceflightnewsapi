@@ -198,3 +198,11 @@ CELERY_RESULT_EXTENDED = True
 # LL Settings
 LL_URL = env.str("LL_URL")
 LL_TOKEN = env.str("LL_TOKEN", "")
+
+
+# AMQP Settings
+AMQP_HOST = env.str("AMQP_HOST", "localhost")
+AMQP_PORT = env.int("AMQP_PORT", 5672)
+AMQP_USERNAME = env.str("AMQP_USERNAME", "guest")
+AMQP_PASSWORD = env.str("AMQP_PASSWORD", "guest")
+AMQP_VHOST = env.str("AMQP_VHOST", "/")

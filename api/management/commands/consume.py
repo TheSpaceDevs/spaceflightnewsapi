@@ -4,6 +4,7 @@ from datetime import datetime
 from typing import Any
 
 import pika
+from django.conf import settings
 from django.core.management.base import BaseCommand
 
 from api.serializers.importer import ArticleImportSerializer, BlogImportSerializer
@@ -68,7 +69,12 @@ class Command(BaseCommand):
     def handle(self, *args: Any, **kwargs: Any) -> None:
         connection = pika.BlockingConnection(
             pika.ConnectionParameters(
-                host="localhost", credentials=pika.PlainCredentials("guest", "guest")
+                host=settings.AMQP_HOST,
+                port=settings.AMQP_PORT,
+                virtual_host=settings.AMQP_VHOST,
+                credentials=pika.PlainCredentials(
+                    settings.AMQP_USERNAME, settings.AMQP_PASSWORD
+                ),
             )
         )
 
