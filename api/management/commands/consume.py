@@ -1,4 +1,6 @@
 import json
+import logging
+from datetime import datetime
 from typing import Any
 
 import pika
@@ -9,44 +11,59 @@ from api.serializers.importer.report import ReportImportSerializer
 
 
 class Command(BaseCommand):
-    help = "Start consuming from the article, blog and report queues."
+    help = "Start consuming from the import queue."
+    logger = logging.getLogger(__name__)
 
-    def _article_message_callback(
-        self, channel, method_frame, header_frame, body
+    def _message_callback(
+        self,
+        channel: pika.adapters.blocking_connection.BlockingChannel,
+        method_frame: pika.spec.Basic.Deliver,
+        header_frame: pika.spec.BasicProperties,
+        body: bytes,
     ) -> None:
         try:
-            article = ArticleImportSerializer(data=json.loads(body))
-            article.is_valid(raise_exception=True)
+            # Decode the message
+            message = json.loads(body)
 
-            article.save()
-            channel.basic_ack(delivery_tag=method_frame.delivery_tag)
+            # Handle the message based on the type
+            if message["type"] == "article":
+                self._save_article(message["data"])
+
+            if message["type"] == "blog":
+                self._save_blog(message["data"])
+
+            if message["type"] == "report":
+                self._save_report(message["data"])
+
+            # Acknowledge the message if there were no issues.
+            # Apparently the method_frame.delivery_tag can be None,
+            # so we need to check for that.
+            if method_frame.delivery_tag:
+                channel.basic_ack(delivery_tag=method_frame.delivery_tag)
+        except KeyError as e:
+            self.logger.error(f"KeyError: {e} is probably missing from the message.")
+            channel.basic_nack(delivery_tag=method_frame.delivery_tag)
         except Exception as e:
-            print(e)
+            self.logger.error(type(e))
             channel.basic_nack(delivery_tag=method_frame.delivery_tag)
 
-    def _blog_message_callback(self, channel, method_frame, header_frame, body) -> None:
-        try:
-            blog = BlogImportSerializer(data=json.loads(body))
-            blog.is_valid(raise_exception=True)
+    def _save_article(self, data: dict[str, str | datetime]) -> None:
+        article = ArticleImportSerializer(data=data)
+        article.is_valid(raise_exception=True)
 
-            blog.save()
-            channel.basic_ack(delivery_tag=method_frame.delivery_tag)
-        except Exception as e:
-            print(e)
-            channel.basic_nack(delivery_tag=method_frame.delivery_tag)
+        article.save()
 
-    def _report_message_callback(
-        self, channel, method_frame, header_frame, body
-    ) -> None:
-        try:
-            report = ReportImportSerializer(data=json.loads(body))
-            report.is_valid(raise_exception=True)
+    def _save_blog(self, data: dict[str, str | datetime]) -> None:
+        blog = BlogImportSerializer(data=data)
+        blog.is_valid(raise_exception=True)
 
-            report.save()
-            channel.basic_ack(delivery_tag=method_frame.delivery_tag)
-        except Exception as e:
-            print(e)
-            channel.basic_nack(delivery_tag=method_frame.delivery_tag)
+        blog.save()
+
+    def _save_report(self, data: dict[str, str | datetime]) -> None:
+        report = ReportImportSerializer(data=data)
+        report.is_valid(raise_exception=True)
+
+        report.save()
 
     def handle(self, *args: Any, **kwargs: Any) -> None:
         connection = pika.BlockingConnection(
@@ -55,18 +72,18 @@ class Command(BaseCommand):
             )
         )
 
+        # Create the channel
         channel = connection.channel()
 
-        channel.queue_declare(queue="articles", durable=True)
-        channel.queue_declare(queue="blogs", durable=True)
-        channel.queue_declare(queue="reports", durable=True)
+        # Check that the channel exists
+        channel.queue_declare(queue="snapi", passive=True)
 
-        channel.basic_consume("articles", self._article_message_callback)
-        channel.basic_consume("blogs", self._blog_message_callback)
-        channel.basic_consume("reports", self._report_message_callback)
+        # Start consuming from the snapi queue
+        channel.basic_consume("snapi", self._message_callback)
 
         try:
             channel.start_consuming()
         except KeyboardInterrupt:
             channel.stop_consuming()
+
         connection.close()
