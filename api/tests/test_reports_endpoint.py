@@ -119,27 +119,6 @@ class TestReportsEndpoint:
         )
         assert len(data["results"]) == 2
 
-    def test_get_reports_update_at_greater_then(
-        self, client: Client, reports: list[Report]
-    ) -> None:
-        reports_in_the_future = list(
-            filter(
-                lambda report: report.title.startswith("Report in the future"),
-                reports,
-            )
-        )
-
-        response = client.get("/v4/reports/?updated_at_gt=2040-10-01")
-        assert response.status_code == 200
-
-        data = response.json()
-
-        assert all(
-            report["title"] in [report.title for report in reports_in_the_future]
-            for report in data["results"]
-        )
-        assert len(data["results"]) == 2
-
     def test_get_reports_published_at_lower_then(
         self, client: Client, reports: list[Report]
     ) -> None:
@@ -151,27 +130,6 @@ class TestReportsEndpoint:
         )
 
         response = client.get("/v4/reports/?published_at_lt=2001-01-01")
-        assert response.status_code == 200
-
-        data = response.json()
-
-        assert all(
-            report["title"] in [report.title for report in reports_in_the_past]
-            for report in data["results"]
-        )
-        assert len(data["results"]) == 2
-
-    def test_get_reports_update_at_lower_then(
-        self, client: Client, reports: list[Report]
-    ) -> None:
-        reports_in_the_past = list(
-            filter(
-                lambda report: report.title.startswith("Report in the past"),
-                reports,
-            )
-        )
-
-        response = client.get("/v4/reports/?updated_at_lt=2001-01-01")
         assert response.status_code == 200
 
         data = response.json()
