@@ -1,0 +1,2 @@
+class MqConsumer:
+    pass
