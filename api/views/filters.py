@@ -190,6 +190,11 @@ class DocsFilter(BaseFilter):
         exclude=True,
         label="Get all documents that have a related event.",
     )
+    is_featured = BooleanFilter(
+        field_name="featured",
+        lookup_expr="exact",
+        label="Get all documents that are featured.",
+    )
 
 
 class SearchFilter(filters.SearchFilter):
