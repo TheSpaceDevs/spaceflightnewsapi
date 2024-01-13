@@ -57,6 +57,10 @@ class MqConsumer:
         serializer.is_valid(raise_exception=True)
         serializer.save()
 
+        self.logger.info(
+            f"Saved {serializer_class.__name__} with title: {serializer.validated_data['title']}"
+        )
+
     def _save_article(self, data: dict[str, str | datetime]) -> None:
         self._save_data(ArticleImportSerializer, data)
 

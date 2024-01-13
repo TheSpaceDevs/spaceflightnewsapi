@@ -69,6 +69,7 @@ target-version = ["py312"]
 
 [tool.ruff]
 extend-exclude = ["snapy/settings.py"]
+line-length = 121
 
 [tool.ruff.lint]
 select = ["E", "W", "F", "I", "DJ", "UP"]
