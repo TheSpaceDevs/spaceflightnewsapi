@@ -24,15 +24,17 @@ class MqConsumer:
             # Decode the message
             message = json.loads(body)
 
-            # Handle the message based on the type
-            if message["type"] == "article":
-                self._save_article(message["data"])
-
-            if message["type"] == "blog":
-                self._save_blog(message["data"])
-
-            if message["type"] == "report":
-                self._save_report(message["data"])
+            match message["type"]:
+                case "article":
+                    self._save_article(message["data"])
+                case "blog":
+                    self._save_blog(message["data"])
+                case "report":
+                    self._save_report(message["data"])
+                case _:
+                    channel.basic_nack(
+                        delivery_tag=method_frame.delivery_tag, requeue=False
+                    )
 
             # Acknowledge the message if there were no issues.
             # Apparently the method_frame.delivery_tag can be None,
