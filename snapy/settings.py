@@ -8,7 +8,7 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-
+import sys
 from pathlib import Path
 
 import django_stubs_ext
@@ -101,6 +101,35 @@ TEMPLATES = [
         },
     },
 ]
+
+LOGLEVEL = "DEBUG" if DEBUG else "INFO"
+
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "standard": {
+            "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+            "datefmt": "%m-%d-%Y %H:%M:%S",
+        },
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "stream": sys.stdout,
+            "formatter": "standard",
+        },
+    },
+    "loggers": {
+        "": {"handlers": ["console"], "level": LOGLEVEL, "propogate": True},
+        "django": {
+            "handlers": ["console"],
+            "level": LOGLEVEL,
+            "propagate": True,
+        },
+    },
+}
 
 WSGI_APPLICATION = "snapy.wsgi.application"
 
