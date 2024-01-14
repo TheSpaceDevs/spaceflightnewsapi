@@ -1,6 +1,5 @@
 import json
 import logging
-from datetime import datetime
 
 import pika
 from django.conf import settings
@@ -53,7 +52,7 @@ class MqConsumer:
         serializer_class: type[
             ArticleImportSerializer | BlogImportSerializer | ReportImportSerializer
         ],
-        data: dict[str, str | datetime],
+        data: dict[str, str | dict[str, str | int]],
     ) -> None:
         serializer = serializer_class(data=data)
         serializer.is_valid(raise_exception=True)
@@ -63,13 +62,13 @@ class MqConsumer:
             f"Saved {serializer_class.__name__} with title: {serializer.validated_data['title']}"
         )
 
-    def _save_article(self, data: dict[str, str | datetime]) -> None:
+    def _save_article(self, data: dict[str, str | dict[str, str | int]]) -> None:
         self._save_data(ArticleImportSerializer, data)
 
-    def _save_blog(self, data: dict[str, str | datetime]) -> None:
+    def _save_blog(self, data: dict[str, str | dict[str, str | int]]) -> None:
         self._save_data(BlogImportSerializer, data)
 
-    def _save_report(self, data: dict[str, str | datetime]) -> None:
+    def _save_report(self, data: dict[str, str | dict[str, str | int]]) -> None:
         self._save_data(ReportImportSerializer, data)
 
     def consume(self) -> None:
