@@ -10,7 +10,7 @@ class Report(models.Model):
     news_site = models.ForeignKey("NewsSite", on_delete=models.CASCADE)
     summary = models.TextField(blank=True)
     published_at = models.DateTimeField()
-    updated_at = models.DateTimeField()
+    updated_at = models.DateTimeField(auto_now=True)
     is_deleted = models.BooleanField(default=False)
 
     class Meta:

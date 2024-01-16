@@ -8,7 +8,7 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-
+import sys
 from pathlib import Path
 
 import django_stubs_ext
@@ -56,6 +56,7 @@ CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGIN")
 
 INSTALLED_APPS = [
     "api.apps.ApiConfig",
+    "consumer.apps.ConsumerConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -100,6 +101,35 @@ TEMPLATES = [
         },
     },
 ]
+
+LOGLEVEL = "DEBUG" if DEBUG else "INFO"
+
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "standard": {
+            "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+            "datefmt": "%m-%d-%Y %H:%M:%S",
+        },
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "stream": sys.stdout,
+            "formatter": "standard",
+        },
+    },
+    "loggers": {
+        "": {"handlers": ["console"], "level": LOGLEVEL, "propogate": True},
+        "django": {
+            "handlers": ["console"],
+            "level": LOGLEVEL,
+            "propagate": True,
+        },
+    },
+}
 
 WSGI_APPLICATION = "snapy.wsgi.application"
 
@@ -198,3 +228,12 @@ CELERY_RESULT_EXTENDED = True
 # LL Settings
 LL_URL = env.str("LL_URL")
 LL_TOKEN = env.str("LL_TOKEN", "")
+
+
+# AMQP Settings
+AMQP_HOST = env.str("AMQP_HOST", "localhost")
+AMQP_PORT = env.int("AMQP_PORT", 5672)
+AMQP_USERNAME = env.str("AMQP_USERNAME", "guest")
+AMQP_PASSWORD = env.str("AMQP_PASSWORD", "guest")
+AMQP_VHOST = env.str("AMQP_VHOST", "/")
+AMQP_QUEUE = env.str("AMQP_QUEUE", "snapi")

@@ -71,3 +71,15 @@ services:
     depends_on:
       database:
         condition: service_healthy
+
+  consumer:
+    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${VERSION}
+    restart: unless-stopped
+    command: python manage.py consume
+    networks:
+      - mq
+      - snapy
+    env_file: .env
+    depends_on:
+      database:
+        condition: service_healthy
