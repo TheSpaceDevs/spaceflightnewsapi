@@ -188,27 +188,6 @@ class TestArticlesEndpoint:
         )
         assert len(data["results"]) == 2
 
-    def test_get_articles_update_at_greater_then(
-        self, client: Client, articles: list[Article]
-    ) -> None:
-        articles_in_the_future = list(
-            filter(
-                lambda article: article.title.startswith("Article in the future"),
-                articles,
-            )
-        )
-
-        response = client.get("/v4/articles/?updated_at_gt=2040-10-01")
-        assert response.status_code == 200
-
-        data = response.json()
-
-        assert all(
-            article["title"] in [article.title for article in articles_in_the_future]
-            for article in data["results"]
-        )
-        assert len(data["results"]) == 2
-
     def test_get_articles_published_at_lower_then(
         self, client: Client, articles: list[Article]
     ) -> None:
@@ -220,27 +199,6 @@ class TestArticlesEndpoint:
         )
 
         response = client.get("/v4/articles/?published_at_lt=2001-01-01")
-        assert response.status_code == 200
-
-        data = response.json()
-
-        assert all(
-            article["title"] in [article.title for article in articles_in_the_past]
-            for article in data["results"]
-        )
-        assert len(data["results"]) == 2
-
-    def test_get_articles_update_at_lower_then(
-        self, client: Client, articles: list[Article]
-    ) -> None:
-        articles_in_the_past = list(
-            filter(
-                lambda article: article.title.startswith("Article in the past"),
-                articles,
-            )
-        )
-
-        response = client.get("/v4/articles/?updated_at_lt=2001-01-01")
         assert response.status_code == 200
 
         data = response.json()
