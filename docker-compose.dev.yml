@@ -28,3 +28,13 @@ services:
       - "15672:15672"
     volumes:
       - rabbitmq:/var/lib/rabbitmq/
+
+  consumer:
+    build:
+      context: .
+    restart: unless-stopped
+    command: python manage.py consume
+    env_file: .env
+    depends_on:
+      database:
+        condition: service_healthy

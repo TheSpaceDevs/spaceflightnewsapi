@@ -61,4 +61,128 @@
     </deployment>
     <method v="2" />
   </configuration>
+  <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+    <deployment type="docker-compose.yml">
+      <settings>
+        <option name="envFilePath" value="" />
+        <option name="envVars">
+          <list>
+            <DockerEnvVarImpl>
+              <option name="name" value="CELERY_BROKER_URL" />
+              <option name="value" value="rabbitmq" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="CSRF_TRUSTED_ORIGIN" />
+              <option name="value" value="http://127.0.0.1" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DATABASE_URL" />
+              <option name="value" value="postgres://snapy-sa:Welkom123@database:5432/snapy" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DB_HOST" />
+              <option name="value" value="database" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DB_NAME" />
+              <option name="value" value="snapy" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DB_PASSWORD" />
+              <option name="value" value="Welkom123" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DB_USER" />
+              <option name="value" value="snapy-sa" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DEBUG" />
+              <option name="value" value="1" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="LL_TOKEN" />
+              <option name="value" value="dummy" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="LL_URL" />
+              <option name="value" value="https://ll.thespacedevs.com/2.2.0" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="SECRET_KEY" />
+              <option name="value" value="'django-insecure-2kkmxbid^6w20^-5c#g+*@b%sl@0e1j85%@)yh(&amp;t_z@hkqxvu'" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="SNAPI_VERSION" />
+              <option name="value" value="4-develop" />
+            </DockerEnvVarImpl>
+          </list>
+        </option>
+        <option name="commandLineOptions" value="--build" />
+        <option name="sourceFilePath" value="docker-compose.dev.yml" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+  <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+    <deployment type="docker-compose.yml">
+      <settings>
+        <option name="envFilePath" value="" />
+        <option name="envVars">
+          <list>
+            <DockerEnvVarImpl>
+              <option name="name" value="CELERY_BROKER_URL" />
+              <option name="value" value="rabbitmq" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="CSRF_TRUSTED_ORIGIN" />
+              <option name="value" value="http://127.0.0.1" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DATABASE_URL" />
+              <option name="value" value="postgres://snapy-sa:Welkom123@database:5432/snapy" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DB_HOST" />
+              <option name="value" value="database" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DB_NAME" />
+              <option name="value" value="snapy" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DB_PASSWORD" />
+              <option name="value" value="Welkom123" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DB_USER" />
+              <option name="value" value="snapy-sa" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="DEBUG" />
+              <option name="value" value="1" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="LL_TOKEN" />
+              <option name="value" value="dummy" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="LL_URL" />
+              <option name="value" value="https://ll.thespacedevs.com/2.2.0" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="SECRET_KEY" />
+              <option name="value" value="'django-insecure-2kkmxbid^6w20^-5c#g+*@b%sl@0e1j85%@)yh(&amp;t_z@hkqxvu'" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="SNAPI_VERSION" />
+              <option name="value" value="4-develop" />
+            </DockerEnvVarImpl>
+          </list>
+        </option>
+        <option name="commandLineOptions" value="--build" />
+        <option name="sourceFilePath" value="docker-compose.dev.yml" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
 </component>
