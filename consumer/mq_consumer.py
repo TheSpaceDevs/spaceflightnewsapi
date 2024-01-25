@@ -4,8 +4,8 @@ import logging
 import pika
 from django.conf import settings
 
-from api.serializers.importer import ArticleImportSerializer, BlogImportSerializer
-from api.serializers.importer.report import ReportImportSerializer
+from consumer.serializers.importer import ArticleImportSerializer, BlogImportSerializer
+from consumer.serializers.importer.report import ReportImportSerializer
 
 
 class MqConsumer:
