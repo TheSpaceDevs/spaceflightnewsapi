@@ -87,7 +87,7 @@ class MqConsumer:
         channel = self.connection.channel()
 
         # Check that the queue exists
-        channel.queue_declare(queue=settings.AMQP_QUEUE)
+        channel.queue_declare(queue=settings.AMQP_QUEUE, durable=True)
 
         # Bind the queue to the exchange
         channel.queue_bind(exchange=settings.AMQP_EXCHANGE, queue=settings.AMQP_QUEUE)
