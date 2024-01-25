@@ -73,12 +73,12 @@ class MqConsumer:
 
     def consume(self) -> None:
         self.connection = pika.BlockingConnection(
-            pika.ConnectionParameters(
+            parameters=pika.ConnectionParameters(
                 host=settings.AMQP_HOST,
                 port=settings.AMQP_PORT,
                 virtual_host=settings.AMQP_VHOST,
                 credentials=pika.PlainCredentials(
-                    settings.AMQP_USERNAME, settings.AMQP_PASSWORD
+                    username=settings.AMQP_USERNAME, password=settings.AMQP_PASSWORD
                 ),
             )
         )
@@ -86,11 +86,16 @@ class MqConsumer:
         # Create the channel
         channel = self.connection.channel()
 
-        # Check that the channel exists
-        channel.queue_declare(queue=settings.AMQP_QUEUE, passive=True)
+        # Check that the queue exists
+        channel.queue_declare(queue=settings.AMQP_QUEUE)
+
+        # Bind the queue to the exchange
+        channel.queue_bind(exchange=settings.AMQP_EXCHANGE, queue=settings.AMQP_QUEUE)
 
         # Start consuming from the snapi queue
-        channel.basic_consume(settings.AMQP_QUEUE, self._message_callback)
+        channel.basic_consume(
+            queue=settings.AMQP_QUEUE, on_message_callback=self._message_callback
+        )
 
         try:
             channel.start_consuming()
