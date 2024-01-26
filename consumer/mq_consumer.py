@@ -1,11 +1,15 @@
 import json
 import logging
+from pprint import pprint
 
 import pika
 from django.conf import settings
 
-from consumer.serializers.importer import ArticleImportSerializer, BlogImportSerializer
-from consumer.serializers.importer.report import ReportImportSerializer
+from consumer.serializers import (
+    ArticleImportSerializer,
+    BlogImportSerializer,
+    ReportImportSerializer,
+)
 
 
 class MqConsumer:
@@ -23,13 +27,15 @@ class MqConsumer:
             # Decode the message
             message = json.loads(body)
 
+            pprint(message)
+
             match message["type"]:
                 case "article":
-                    self._save_article(message["data"])
+                    self._save_data(ArticleImportSerializer, message["data"])
                 case "blog":
-                    self._save_blog(message["data"])
+                    self._save_data(BlogImportSerializer, message["data"])
                 case "report":
-                    self._save_report(message["data"])
+                    self._save_data(ReportImportSerializer, message["data"])
                 case _:
                     channel.basic_nack(
                         delivery_tag=method_frame.delivery_tag, requeue=False
@@ -61,15 +67,6 @@ class MqConsumer:
         self.logger.info(
             f"Saved {serializer_class.__name__} with title: {serializer.validated_data['title']}"
         )
-
-    def _save_article(self, data: dict[str, str | dict[str, str | int]]) -> None:
-        self._save_data(ArticleImportSerializer, data)
-
-    def _save_blog(self, data: dict[str, str | dict[str, str | int]]) -> None:
-        self._save_data(BlogImportSerializer, data)
-
-    def _save_report(self, data: dict[str, str | dict[str, str | int]]) -> None:
-        self._save_data(ReportImportSerializer, data)
 
     def consume(self) -> None:
         self.connection = pika.BlockingConnection(
