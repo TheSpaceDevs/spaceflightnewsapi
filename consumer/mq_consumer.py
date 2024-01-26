@@ -1,6 +1,5 @@
 import json
 import logging
-from pprint import pprint
 
 import pika
 from django.conf import settings
@@ -26,8 +25,6 @@ class MqConsumer:
         try:
             # Decode the message
             message = json.loads(body)
-
-            pprint(message)
 
             match message["type"]:
                 case "article":

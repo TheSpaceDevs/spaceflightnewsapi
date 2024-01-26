@@ -14,7 +14,7 @@ class BlogImportSerializer(serializers.Serializer[Blog]):
     publishedAt = serializers.DateTimeField()
 
     def create(self, validated_data: dict[str, Any]) -> Blog:
-        news_site = NewsSite.objects.get(id=validated_data["newsSite"])
+        news_site = NewsSite.objects.get(pk=validated_data["newsSite"])
 
         blog, _ = Blog.objects.update_or_create(
             url=validated_data["url"],
