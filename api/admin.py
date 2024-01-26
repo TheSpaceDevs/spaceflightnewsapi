@@ -55,10 +55,14 @@ class ReportAdmin(admin.ModelAdmin[Report]):
     ordering = ("-published_at",)
 
 
+@admin.register(NewsSite)
+class NewsSiteAdmin(admin.ModelAdmin[NewsSite]):
+    list_display = ("name", "id")
+
+
 # Models that can be registered as is
 admin.site.register(Event)
 admin.site.register(Launch)
-admin.site.register(NewsSite)
 admin.site.register(Provider)
 
 # Other customizations
