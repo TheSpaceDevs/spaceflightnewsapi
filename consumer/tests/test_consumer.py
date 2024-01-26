@@ -3,6 +3,11 @@ from rest_framework.exceptions import ValidationError
 
 from api.models import Article, Blog, NewsSite, Report
 from consumer.mq_consumer import MqConsumer
+from consumer.serializers import (
+    ArticleImportSerializer,
+    BlogImportSerializer,
+    ReportImportSerializer,
+)
 
 
 @pytest.mark.django_db
@@ -23,7 +28,7 @@ class TestConsumer:
         }
 
         # Ignore the type error since the real implementation of this method is called with a different object.
-        self.mq_consumer._save_article(data["data"])  # type: ignore
+        self.mq_consumer._save_data(ArticleImportSerializer, data["data"])  # type: ignore
 
         assert Article.objects.filter(title="TheBigCombo").exists()
 
@@ -40,7 +45,7 @@ class TestConsumer:
         }
 
         with pytest.raises(ValidationError):
-            self.mq_consumer._save_article(data["data"])  # type: ignore
+            self.mq_consumer._save_data(ArticleImportSerializer, data["data"])  # type: ignore
 
     def test_saving_blog(self, news_sites: list[NewsSite]) -> None:
         data = {
@@ -56,7 +61,7 @@ class TestConsumer:
         }
 
         # Ignore the type error since the real implementation of this method is called with a different object.
-        self.mq_consumer._save_blog(data["data"])  # type: ignore
+        self.mq_consumer._save_data(BlogImportSerializer, data["data"])  # type: ignore
 
         assert Blog.objects.filter(title="TheBigCombo").exists()
 
@@ -73,7 +78,7 @@ class TestConsumer:
         }
 
         with pytest.raises(ValidationError):
-            self.mq_consumer._save_blog(data["data"])  # type: ignore
+            self.mq_consumer._save_data(BlogImportSerializer, data["data"])  # type: ignore
 
     def test_saving_report(self, news_sites: list[NewsSite]) -> None:
         data = {
@@ -89,7 +94,7 @@ class TestConsumer:
         }
 
         # Ignore the type error since the real implementation of this method is called with a different object.
-        self.mq_consumer._save_report(data["data"])  # type: ignore
+        self.mq_consumer._save_data(ReportImportSerializer, data["data"])  # type: ignore
 
         assert Report.objects.filter(title="TheBigCombo").exists()
 
@@ -106,4 +111,4 @@ class TestConsumer:
         }
 
         with pytest.raises(ValidationError):
-            self.mq_consumer._save_report(data["data"])  # type: ignore
+            self.mq_consumer._save_data(ReportImportSerializer, data["data"])  # type: ignore
