@@ -53,9 +53,7 @@ class Status:
     abbrev: Abbrev
     description: str | None
 
-    def __init__(
-        self, id: int, name: StatusName, abbrev: Abbrev, description: str | None
-    ) -> None:
+    def __init__(self, id: int, name: StatusName, abbrev: Abbrev, description: str | None) -> None:
         self.id = id
         self.name = name
         self.abbrev = abbrev
@@ -107,9 +105,7 @@ class CountryCode(Enum):
 
 
 class LocationName(Enum):
-    BAIKONUR_COSMODROME_REPUBLIC_OF_KAZAKHSTAN = (
-        "Baikonur Cosmodrome, Republic of Kazakhstan"
-    )
+    BAIKONUR_COSMODROME_REPUBLIC_OF_KAZAKHSTAN = "Baikonur Cosmodrome, Republic of Kazakhstan"
     CAPE_CANAVERAL_FL_USA = "Cape Canaveral, FL, USA"
 
 
@@ -224,9 +220,7 @@ class Configuration:
     full_name: str
     variant: str
 
-    def __init__(
-        self, id: int, url: str, name: str, family: Family, full_name: str, variant: str
-    ) -> None:
+    def __init__(self, id: int, url: str, name: str, family: Family, full_name: str, variant: str) -> None:
         self.id = id
         self.url = url
         self.name = name
@@ -350,9 +344,7 @@ class LaunchResponse:
     previous: None
     results: list[LaunchResult]
 
-    def __init__(
-        self, count: int, next: str, previous: None, results: list[LaunchResult]
-    ) -> None:
+    def __init__(self, count: int, next: str, previous: None, results: list[LaunchResult]) -> None:
         self.count = count
         self.next = next
         self.previous = previous

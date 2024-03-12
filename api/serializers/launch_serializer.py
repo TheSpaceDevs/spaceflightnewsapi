@@ -4,9 +4,7 @@ from api.models import Launch, Provider
 
 
 class LaunchSerializer(serializers.ModelSerializer[Launch]):
-    provider: "serializers.StringRelatedField[Provider]" = (
-        serializers.StringRelatedField()
-    )
+    provider: "serializers.StringRelatedField[Provider]" = serializers.StringRelatedField()
 
     class Meta:
         model = Launch

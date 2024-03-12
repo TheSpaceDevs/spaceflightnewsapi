@@ -34,9 +34,7 @@ class MqConsumer:
                 case "report":
                     self._save_data(ReportImportSerializer, message["data"])
                 case _:
-                    channel.basic_nack(
-                        delivery_tag=method_frame.delivery_tag, requeue=False
-                    )
+                    channel.basic_nack(delivery_tag=method_frame.delivery_tag, requeue=False)
 
             # Acknowledge the message if there were no issues.
             # Apparently the method_frame.delivery_tag can be None,
@@ -52,18 +50,14 @@ class MqConsumer:
 
     def _save_data(
         self,
-        serializer_class: type[
-            ArticleImportSerializer | BlogImportSerializer | ReportImportSerializer
-        ],
+        serializer_class: type[ArticleImportSerializer | BlogImportSerializer | ReportImportSerializer],
         data: dict[str, str | dict[str, str | int]],
     ) -> None:
         serializer = serializer_class(data=data)
         serializer.is_valid(raise_exception=True)
         serializer.save()
 
-        self.logger.info(
-            f"Saved {serializer_class.__name__} with title: {serializer.validated_data['title']}"
-        )
+        self.logger.info(f"Saved {serializer_class.__name__} with title: {serializer.validated_data['title']}")
 
     def consume(self) -> None:
         self.connection = pika.BlockingConnection(
@@ -71,9 +65,7 @@ class MqConsumer:
                 host=settings.AMQP_HOST,
                 port=settings.AMQP_PORT,
                 virtual_host=settings.AMQP_VHOST,
-                credentials=pika.PlainCredentials(
-                    username=settings.AMQP_USERNAME, password=settings.AMQP_PASSWORD
-                ),
+                credentials=pika.PlainCredentials(username=settings.AMQP_USERNAME, password=settings.AMQP_PASSWORD),
             )
         )
 
@@ -87,9 +79,7 @@ class MqConsumer:
         channel.queue_bind(exchange=settings.AMQP_EXCHANGE, queue=settings.AMQP_QUEUE)
 
         # Start consuming from the snapi queue
-        channel.basic_consume(
-            queue=settings.AMQP_QUEUE, on_message_callback=self._message_callback
-        )
+        channel.basic_consume(queue=settings.AMQP_QUEUE, on_message_callback=self._message_callback)
 
         try:
             channel.start_consuming()

@@ -60,9 +60,7 @@ class Migration(migrations.Migration):
                 ("updated_at", models.DateTimeField()),
                 (
                     "news_site",
-                    models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, to="api.newssite"
-                    ),
+                    models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to="api.newssite"),
                 ),
             ],
             options={
@@ -85,9 +83,7 @@ class Migration(migrations.Migration):
                 ("name", models.CharField(max_length=250)),
                 (
                     "provider",
-                    models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, to="api.provider"
-                    ),
+                    models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to="api.provider"),
                 ),
             ],
             options={
@@ -110,9 +106,7 @@ class Migration(migrations.Migration):
                 ("name", models.CharField(max_length=250)),
                 (
                     "provider",
-                    models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, to="api.provider"
-                    ),
+                    models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to="api.provider"),
                 ),
             ],
         ),
@@ -139,9 +133,7 @@ class Migration(migrations.Migration):
                 ("launches", models.ManyToManyField(blank=True, to="api.launch")),
                 (
                     "news_site",
-                    models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, to="api.newssite"
-                    ),
+                    models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to="api.newssite"),
                 ),
             ],
             options={
@@ -172,9 +164,7 @@ class Migration(migrations.Migration):
                 ("launches", models.ManyToManyField(blank=True, to="api.launch")),
                 (
                     "news_site",
-                    models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, to="api.newssite"
-                    ),
+                    models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to="api.newssite"),
                 ),
             ],
             options={

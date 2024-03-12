@@ -41,9 +41,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
 
     def get_queryset(self, request: HttpRequest) -> QuerySet[NewsItem]:
         queryset = super().get_queryset(request)
-        queryset = queryset.annotate(
-            launch_count=Count("launches"), event_count=Count("events")
-        )
+        queryset = queryset.annotate(launch_count=Count("launches"), event_count=Count("events"))
         return queryset
 
 

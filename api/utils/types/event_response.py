@@ -206,9 +206,7 @@ class Status:
     abbrev: str
     description: str | None
 
-    def __init__(
-        self, id: int, name: str, abbrev: str, description: str | None
-    ) -> None:
+    def __init__(self, id: int, name: str, abbrev: str, description: str | None) -> None:
         self.id = id
         self.name = name
         self.abbrev = abbrev
@@ -383,9 +381,7 @@ class Configuration:
     full_name: str
     variant: str
 
-    def __init__(
-        self, id: int, url: str, name: str, family: str, full_name: str, variant: str
-    ) -> None:
+    def __init__(self, id: int, url: str, name: str, family: str, full_name: str, variant: str) -> None:
         self.id = id
         self.url = url
         self.name = name
@@ -585,9 +581,7 @@ class EventResponse:
     previous: None
     results: list[EventResult]
 
-    def __init__(
-        self, count: int, next: str, previous: None, results: list[EventResult]
-    ) -> None:
+    def __init__(self, count: int, next: str, previous: None, results: list[EventResult]) -> None:
         self.count = count
         self.next = next
         self.previous = previous
