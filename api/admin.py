@@ -1,4 +1,5 @@
 """Custom admin views for the Spaceflight News API."""
+
 from django.contrib import admin
 from django.db.models import Count, QuerySet
 from django.http import HttpRequest
