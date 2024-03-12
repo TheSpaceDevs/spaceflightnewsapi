@@ -4,9 +4,7 @@ from api.models import NewsSite, Report
 
 
 class ReportSerializer(serializers.ModelSerializer[Report]):
-    news_site: "serializers.StringRelatedField[NewsSite]" = (
-        serializers.StringRelatedField()
-    )
+    news_site: "serializers.StringRelatedField[NewsSite]" = serializers.StringRelatedField()
 
     class Meta:
         model = Report

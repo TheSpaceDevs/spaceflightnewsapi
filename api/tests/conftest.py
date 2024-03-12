@@ -52,9 +52,7 @@ def events(provider: Provider) -> list[Event]:
 
 
 @pytest.fixture
-def articles(
-    news_sites: list[NewsSite], launches: list[Launch], events: list[Event]
-) -> list[Article]:
+def articles(news_sites: list[NewsSite], launches: list[Launch], events: list[Event]) -> list[Article]:
     articles: list[Article] = []
     for i in range(100):
         article = Article.objects.create(

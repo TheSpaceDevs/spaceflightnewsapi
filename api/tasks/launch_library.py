@@ -29,9 +29,7 @@ def sync_launches() -> None:
             response = client.get(url=next_url).json()
 
             for data in response["results"]:
-                launch = LaunchLibraryLaunchSerializer(
-                    data=data, context={"provider": provider}
-                )
+                launch = LaunchLibraryLaunchSerializer(data=data, context={"provider": provider})
                 launch.is_valid(raise_exception=True)
                 launch.save()
 
@@ -48,9 +46,7 @@ def sync_events() -> None:
             response = client.get(url=next_url).json()
 
             for data in response["results"]:
-                event = LaunchLibraryEventSerializer(
-                    data=data, context={"provider": provider}
-                )
+                event = LaunchLibraryEventSerializer(data=data, context={"provider": provider})
                 event.is_valid(raise_exception=True)
                 event.save()
 
