@@ -9,6 +9,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
+import os
 import sys
 from pathlib import Path
 
@@ -70,6 +71,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "drf_spectacular",
     "django_celery_results",
+    "storages",
 ]
 
 MIDDLEWARE = [
@@ -172,21 +174,22 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 # STATIC_URL = "static/"
 # STATIC_ROOT = BASE_DIR / "staticfiles"
-USE_MINIO = env.bool("USE_MINIO", False)
-if USE_MINIO:
-    INSTALLED_APPS.append("django_minio_backend")
-    MINIO_ENDPOINT = env.str("MINIO_ENDPOINT", "http://localhost:9000")
-    MINIO_USE_HTTPS = True
-    MINIO_ACCESS_KEY = env.str("MINIO_ACCESS_KEY", "minioadmin")
-    MINIO_SECRET_KEY = env.str("MINIO_SECRET_KEY", "minioadmin")
-    MINIO_PUBLIC_BUCKETS = env.list("MINIO_BUCKET_NAME", ["static"])
-    MINIO_STATIC_FILES_BUCKET = env.str("MINIO_BUCKET_NAME", "static")
-    MINIO_BUCKET_CHECK_ON_SAVE = True
+USE_S3 = env.bool("USE_S3", False)
+if USE_S3:
+    AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
+    AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
+    AWS_STORAGE_BUCKET_NAME = os.getenv("AWS_STORAGE_BUCKET_NAME")
+    AWS_DEFAULT_ACL = "public-read"
+    AWS_S3_ENDPOINT_URL = "https://ams3.digitaloceanspaces.com"
+    AWS_S3_OBJECT_PARAMETERS = {"CacheControl": "max-age=86400"}
 
-    STATICFILES_STORAGE = "django_minio_backend.models.MinioBackendStatic"
-    STATIC_URL = "https://none/"  # This is required but not used because we use STATICFILES_STORAGE.
+    # static settings
+    AWS_LOCATION = "static"
+    STATIC_URL = f"https://{AWS_S3_ENDPOINT_URL}/{AWS_LOCATION}/"
+    STATICFILES_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 else:
     STATIC_URL = "static/"
+    STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
