@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Delete workflow runs
-        uses: dmvict/clean-workflow-runs@v1.2.1
+        uses: dmvict/clean-workflow-runs@v1.2.2
         with:
           token: ${{ secrets.CR_PAT }}
           save_min_runs_number: 0
