@@ -18,4 +18,4 @@ class BlogViewSet(viewsets.ReadOnlyModelViewSet):  # type: ignore
     filterset_class = DocsFilter
     search_fields = ["title", "summary", "news_site__name"]
     ordering = ["-published_at"]
-    ordering_fields = ["published_at", " updated_at"]
+    ordering_fields = ["published_at", "updated_at"]
