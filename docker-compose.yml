@@ -83,3 +83,14 @@ services:
     depends_on:
       database:
         condition: service_healthy
+
+  scraper:
+    image: ghcr.io/spaceflightnewsapi/snapiscraper:latest
+    restart: unless-stopped
+    networks:
+      - mq
+      - snapy
+    env_file: .env
+    depends_on:
+      database:
+        condition: service_healthy
