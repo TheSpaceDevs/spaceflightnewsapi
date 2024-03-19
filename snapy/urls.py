@@ -18,9 +18,11 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.urls import include, re_path
+from django.urls import include, path, re_path
 
 urlpatterns = [
+    path("jet/", include("jet.urls", "jet")),  # Django JET URLS
+    path("jet/dashboard/", include("jet.dashboard.urls", "jet-dashboard")),  # Django JET dashboard URLS
     re_path(r"^v4/", include(("api.urls", "api"), namespace="v4")),
-    re_path(r"^v4/admin/", admin.site.urls),  # Temp on the v4 path to not conflict with v3.
+    re_path(r"^v4/admin/", admin.site.urls),
 ]

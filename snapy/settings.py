@@ -59,6 +59,8 @@ CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGIN")
 INSTALLED_APPS = [
     "api.apps.ApiConfig",
     "consumer.apps.ConsumerConfig",
+    'jet.dashboard',
+    'jet',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -105,9 +107,8 @@ TEMPLATES = [
     },
 ]
 
-LOGLEVEL = "DEBUG" if DEBUG else "INFO"
 
-
+LOGLEVEL = env.str("LOGLEVEL", "INFO")
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
