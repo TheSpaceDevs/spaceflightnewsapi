@@ -60,8 +60,18 @@ class NewsSiteAdmin(admin.ModelAdmin[NewsSite]):
 
 
 # Models that can be registered as is
-admin.site.register(Event)
-admin.site.register(Launch)
+@admin.register(Event)
+class EventAdmin(admin.ModelAdmin[Event]):
+    list_display = ("name",)
+    search_fields = ["name", "event_id"]
+
+
+@admin.register(Launch)
+class LaunchAdmin(admin.ModelAdmin[Launch]):
+    list_display = ("name",)
+    search_fields = ["name", "launch_id"]
+
+
 admin.site.register(Provider)
 
 # Other customizations
