@@ -177,12 +177,15 @@ USE_TZ = True
 # STATIC_ROOT = BASE_DIR / "staticfiles"
 USE_S3 = env.bool("USE_S3", False)
 if USE_S3:
+    AWS_QUERYSTRING_AUTH = False
     AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
     AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
     AWS_STORAGE_BUCKET_NAME = os.getenv("AWS_STORAGE_BUCKET_NAME")
     AWS_DEFAULT_ACL = "public-read"
     AWS_S3_ENDPOINT_URL = "https://ams3.digitaloceanspaces.com"
     AWS_S3_OBJECT_PARAMETERS = {"CacheControl": "max-age=86400"}
+    AWS_PRELOAD_METADATA = True
+    AWS_IS_GZIPPED = True
 
     # static settings
     AWS_LOCATION = "static"
