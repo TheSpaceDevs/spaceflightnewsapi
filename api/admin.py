@@ -138,13 +138,13 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     )
 
     @staticmethod
-    def image_tag(obj) -> SafeString:
+    def image_tag(obj: NewsItem) -> SafeString:
         """Returns the image of the article."""
         return format_html('<img src="{}" width=50%/>', obj.image_url)
 
     image_tag.short_description = "Image"
 
-    def changelist_view(self, request: HttpRequest, extra_context=None) -> HttpResponse:
+    def changelist_view(self: "ArticleAdmin", request: HttpRequest, extra_context=None) -> HttpResponse:
         extra_context = {"title": "News"}
         return super().changelist_view(request, extra_context=extra_context)
 
@@ -162,7 +162,7 @@ class ReportAdmin(admin.ModelAdmin[Report]):
 class NewsSiteAdmin(admin.ModelAdmin[NewsSite]):
     list_display = ("name", "id")
 
-    def changelist_view(self, request, extra_context=None):
+    def changelist_view(self: "NewsSiteAdmin", request: HttpRequest, extra_context=None) -> HttpResponse:
         extra_context = {"title": "News Sites"}
         return super().changelist_view(request, extra_context=extra_context)
 
