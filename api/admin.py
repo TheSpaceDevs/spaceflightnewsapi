@@ -60,22 +60,31 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     ]
 
     @staticmethod
+    @admin.display(
+        ordering="-published_at",
+        description="Published at",
+    )
     def published_at_formatted(obj: NewsItem) -> str:
         """Returns the publication datetime as a formatted string."""
         return obj.published_at.strftime("%B %d, %Y – %H:%M")
 
-    published_at_formatted.short_description = "Published at"
-    published_at_formatted.admin_order_field = "published_at"
-
     @staticmethod
+    @admin.display(
+        ordering="news_site",
+        description="News site",
+    )
     def news_site_formatted(obj: NewsItem) -> SafeString:
         """Returns the news site as a hyperlink to the article page."""
         return format_html('<a href="{}">{}</a>', obj.url, obj.news_site)
 
-    news_site_formatted.short_description = "News site"
-    news_site_formatted.admin_order_field = "news_site"
-
     @staticmethod
+    @admin.display(
+        description=format_html(
+            '<div  title="{}">{}</div >',
+            "LL2 Launches",
+            "L",
+        ),
+    )
     def assigned_launches(obj: NewsItem) -> SafeString:
         """Returns the number of launches assigned to the article."""
         count = obj.launches.count()
@@ -87,13 +96,14 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
             obj.launches.count(),
         )
 
-    assigned_launches.short_description = format_html(
-        '<div  title="{}">{}</div >',
-        "LL2 Launches",
-        "L",
-    )
-
     @staticmethod
+    @admin.display(
+        description=format_html(
+            '<div  title="{}">{}</div >',
+            "LL2 Events",
+            "E",
+        )
+    )
     def assigned_events(obj: NewsItem) -> SafeString:
         """Returns the number of events assigned to the article."""
         count = obj.events.count()
@@ -105,44 +115,39 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
             obj.events.count(),
         )
 
-    assigned_events.short_description = format_html(
-        '<div  title="{}">{}</div >',
-        "LL2 Events",
-        "E",
-    )
-
     @staticmethod
+    @admin.display(
+        boolean=True,
+        ordering="featured",
+        description=format_html(
+            '<div  title="{}">{}</div >',
+            "Featured",
+            "F",
+        ),
+    )
     def featured_formatted(obj: NewsItem) -> bool:
         """Returns whether the article is featured."""
         return obj.featured
 
-    featured_formatted.boolean = True
-    featured_formatted.admin_order_field = "featured"
-    featured_formatted.short_description = format_html(
-        '<div  title="{}">{}</div >',
-        "Featured",
-        "F",
-    )
-
     @staticmethod
+    @admin.display(
+        boolean=True,
+        ordering="is_deleted",
+        description=format_html(
+            '<div  title="{}">{}</div >',
+            "Deleted",
+            "D",
+        ),
+    )
     def is_deleted_formatted(obj: NewsItem) -> bool:
         """Returns whether the article is hidden from the API response."""
         return obj.is_deleted
 
-    featured_formatted.boolean = True
-    featured_formatted.admin_order_field = "is_deleted"
-    featured_formatted.short_description = format_html(
-        '<div  title="{}">{}</div >',
-        "Deleted",
-        "D",
-    )
-
     @staticmethod
+    @admin.display(description="Image")
     def image_tag(obj: NewsItem) -> SafeString:
         """Returns the image of the article."""
         return format_html('<img src="{}" width=50%/>', obj.image_url)
-
-    image_tag.short_description = "Image"
 
     def changelist_view(self: "ArticleAdmin", request: HttpRequest, extra_context=None) -> HttpResponse:
         extra_context = {"title": "News"}
