@@ -5,7 +5,9 @@ from django.contrib import admin
 from django.http import HttpRequest, HttpResponse
 from django.utils.html import format_html
 from django.utils.safestring import SafeString
-from jet.filters import RelatedFieldAjaxListFilter
+
+# ignore the type error as it seems there's no package for it
+from jet.filters import RelatedFieldAjaxListFilter  # type: ignore
 
 from api.models import Article, Blog, Event, Launch, NewsSite, Provider, Report
 from api.models.abc import NewsItem
@@ -149,9 +151,9 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         """Returns the image of the article."""
         return format_html('<img src="{}" width=50%/>', obj.image_url)
 
-    def changelist_view(self: "ArticleAdmin", request: HttpRequest, extra_context=None) -> HttpResponse:
+    def changelist_view(self, request: HttpRequest, extra_context: dict[str, str] | None = None) -> HttpResponse:
         extra_context = {"title": "News"}
-        return super().changelist_view(request, extra_context=extra_context)
+        return super().changelist_view(request, extra_context)
 
 
 @admin.register(Report)
@@ -167,9 +169,9 @@ class ReportAdmin(admin.ModelAdmin[Report]):
 class NewsSiteAdmin(admin.ModelAdmin[NewsSite]):
     list_display = ("name", "id")
 
-    def changelist_view(self: "NewsSiteAdmin", request: HttpRequest, extra_context=None) -> HttpResponse:
+    def changelist_view(self, request: HttpRequest, extra_context: dict[str, str] | None = None) -> HttpResponse:
         extra_context = {"title": "News Sites"}
-        return super().changelist_view(request, extra_context=extra_context)
+        return super().changelist_view(request, extra_context)
 
 
 # Models that can be registered as is
