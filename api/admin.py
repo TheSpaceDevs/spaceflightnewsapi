@@ -1,4 +1,5 @@
 """Custom admin views for the Spaceflight News API."""
+
 from django import forms
 from django.contrib import admin
 from django.http import HttpResponse
@@ -38,7 +39,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         ("events", RelatedFieldAjaxListFilter),
         "published_at",
         "featured",
-        "is_deleted"
+        "is_deleted",
     )
     search_fields = ["title"]
     ordering = ("-published_at",)
