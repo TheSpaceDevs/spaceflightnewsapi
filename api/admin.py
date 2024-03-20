@@ -2,7 +2,7 @@
 
 from django import forms
 from django.contrib import admin
-from django.http import HttpResponse, HttpRequest
+from django.http import HttpRequest, HttpResponse
 from django.utils.html import format_html
 from django.utils.safestring import SafeString
 from jet.filters import RelatedFieldAjaxListFilter
