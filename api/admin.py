@@ -144,7 +144,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
 
     def changelist_view(self, request, extra_context=None) -> HttpResponse:
         extra_context = {"title": "News"}
-        return super(ArticleAdmin, self).changelist_view(request, extra_context=extra_context)
+        return super().changelist_view(request, extra_context=extra_context)
 
 
 @admin.register(Report)
@@ -162,7 +162,7 @@ class NewsSiteAdmin(admin.ModelAdmin[NewsSite]):
 
     def changelist_view(self, request, extra_context=None):
         extra_context = {"title": "News Sites"}
-        return super(NewsSiteAdmin, self).changelist_view(request, extra_context=extra_context)
+        return super().changelist_view(request, extra_context=extra_context)
 
 
 # Models that can be registered as is
