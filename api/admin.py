@@ -51,6 +51,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     fields = [
         "title",
         "url",
+        "image_url",
         "news_site",
         "summary",
         "published_at",
