@@ -744,17 +744,17 @@ Django = "*"
 
 [[package]]
 name = "django-minio-backend"
-version = "3.5.0"
+version = "3.6.0"
 description = "The django-minio-backend provides a wrapper around the MinIO Python Library."
 optional = false
 python-versions = "*"
 files = [
-    {file = "django-minio-backend-3.5.0.tar.gz", hash = "sha256:be9eb19dbe3ecaf5b6561b37ca90adde8bf735ab3557738de45edfe7ee172d46"},
-    {file = "django_minio_backend-3.5.0-py3-none-any.whl", hash = "sha256:fcb9031b1aa7ca5c5d08a512bbf03fb95ca03a5381a90cc60b8c8d9cc85b867c"},
+    {file = "django-minio-backend-3.6.0.tar.gz", hash = "sha256:d25b0a7bb837873178e71a45e4e31049f5c724a6a55c6cf892e34ebeb530bb5a"},
+    {file = "django_minio_backend-3.6.0-py3-none-any.whl", hash = "sha256:2a507713acdc9c9d7fa793dbf6858c43ec1d68905fbf17371c721dd58970795b"},
 ]
 
 [package.dependencies]
-Django = ">=2.2.2"
+Django = ">=3.2"
 minio = ">=7.0.2"
 
 [[package]]
