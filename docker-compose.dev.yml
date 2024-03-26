@@ -1,5 +1,3 @@
-version: "3.8"
-
 volumes:
   database:
   rabbitmq:
@@ -7,11 +5,12 @@ volumes:
 services:
   database:
     image: postgres:15-alpine
+    restart: unless-stopped
     healthcheck:
-      test: [ "CMD-SHELL", "pg_isready" ]
-      interval: 10s
+      test: [ "CMD-SHELL", "pg_isready -d $${POSTGRES_DB} -U $${POSTGRES_USER}"]
+      interval: 2s
       timeout: 5s
-      retries: 5
+      retries: 15
     volumes:
       - database:/var/lib/postgresql/data
     environment:
@@ -27,13 +26,35 @@ services:
       - "5672:5672"
       - "15672:15672"
     volumes:
-      - rabbitmq:/var/lib/rabbitmq/
+      - rabbitmq:/var/lib/rabbitmq
 
   consumer:
     build:
       context: .
     restart: unless-stopped
     command: python manage.py consume
+    env_file: .env
+    depends_on:
+      database:
+        condition: service_healthy
+
+
+  beat:
+    build:
+      context: .
+    restart: unless-stopped
+    command: celery -A snapy beat -l INFO
+    env_file: .env
+    depends_on:
+      database:
+        condition: service_healthy
+
+
+  worker:
+    build:
+      context: .
+    restart: unless-stopped
+    command: celery -A snapy worker -l INFO
     env_file: .env
     depends_on:
       database:
