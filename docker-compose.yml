@@ -14,8 +14,9 @@ networks:
 services:
   database:
     image: postgres:15-alpine
+    restart: unless-stopped
     healthcheck:
-      test: [ "CMD-SHELL", "pg_isready" ]
+      test: [ "CMD-SHELL", "pg_isready -d $${POSTGRES_DB} -U $${POSTGRES_USER}" ]
       interval: 2s
       timeout: 5s
       retries: 15
@@ -38,7 +39,7 @@ services:
         python manage.py collectstatic --no-input &&
         python manage.py migrate --no-input &&
         python manage.py createdefaulttasks &&
-        gunicorn snapy.wsgi:application --workers 13 --bind 0.0.0.0:8000 --access-logfile - --disable-redirect-access-to-syslog
+        gunicorn snapy.wsgi:application --workers 4 --bind 0.0.0.0:8000 --access-logfile - --disable-redirect-access-to-syslog
     networks:
       - snapy
       - nginx-proxy-manager_default
