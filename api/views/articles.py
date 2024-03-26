@@ -7,7 +7,9 @@ from api.views.filters import DocsFilter, SearchFilter
 
 
 class ArticleViewSet(viewsets.ReadOnlyModelViewSet):  # type: ignore
-    queryset = Article.objects.exclude(is_deleted=True)
+    queryset = (
+        Article.objects.exclude(is_deleted=True).prefetch_related("launches", "events").select_related("news_site")
+    )
     serializer_class = ArticleSerializer
     authentication_classes = []
     filter_backends = [
