@@ -34,6 +34,9 @@ services:
     restart: unless-stopped
     command: python manage.py consume
     env_file: .env
+    environment:
+      - DB_HOST=database
+      - AMQP_HOST=rabbitmq
     depends_on:
       database:
         condition: service_healthy
@@ -45,6 +48,9 @@ services:
     restart: unless-stopped
     command: celery -A snapy beat -l INFO
     env_file: .env
+    environment:
+      - DB_HOST=database
+      - AMQP_HOST=rabbitmq
     depends_on:
       database:
         condition: service_healthy
@@ -56,6 +62,9 @@ services:
     restart: unless-stopped
     command: celery -A snapy worker -l INFO
     env_file: .env
+    environment:
+      - DB_HOST=database
+      - AMQP_HOST=rabbitmq
     depends_on:
       database:
         condition: service_healthy
