@@ -7,6 +7,26 @@ on:
 jobs:
   linters:
     runs-on: ubuntu-latest
+    services:
+      # Label used to access the service container
+      postgres:
+        # Docker Hub image
+        image: postgres
+        # Provide the password for postgres
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        # Set health checks to wait until postgres has started
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          # Maps tcp port 5432 on service container to the host
+          - 5432:5432
+
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
@@ -33,6 +53,10 @@ jobs:
 
   tests:
     runs-on: ubuntu-latest
+    env:
+      SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+      SECRET_KEY: "iosdjgiowjgiorjgioFAKESECRETweuigweruighwiu"
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
