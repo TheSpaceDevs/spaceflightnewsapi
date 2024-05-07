@@ -4,6 +4,9 @@ on:
     branches:
       - main
 
+env:
+  SNAPI_VERSION: v4-ci
+
 jobs:
   linters:
     runs-on: ubuntu-latest
@@ -67,8 +70,8 @@ jobs:
       CSRF_TRUSTED_ORIGIN: "http://localhost"
       CELERY_BROKER_URL: "redis://localhost:6379/0"
       LL_URL: "https://lldev.thespacedevs.com/2.2.0/launch"
-      SNAPI_VERSION: v4-ci
       USE_S3: "false"
+
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
