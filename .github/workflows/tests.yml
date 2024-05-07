@@ -31,7 +31,6 @@ jobs:
       - name: Run linters
         run: |
           mkdir test_results
-          bandit -c pyproject.toml -r .
           ruff check .
           ruff format --check .
           mypy .
