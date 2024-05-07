@@ -61,7 +61,7 @@ jobs:
         ports:
           - 6379:6379
     env:
-      SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+      DEBUG: "true"
       SECRET_KEY: "iosdjgiowjgiorjgioFAKESECRETweuigweruighwiu"
       DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres
       CSRF_TRUSTED_ORIGIN: "http://localhost"
@@ -82,7 +82,7 @@ jobs:
       - name: Setup Poetry
         uses: pronovic/setup-poetry@v2
         with:
-          version: "1.8.0"
+          version: "1.8.2"
           cache-venv: "true"
           cache-poetry: "true"
 
