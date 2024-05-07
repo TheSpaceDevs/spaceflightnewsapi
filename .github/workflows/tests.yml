@@ -6,6 +6,13 @@ on:
 
 env:
   SNAPI_VERSION: v4-ci
+  DEBUG: "true"
+  SECRET_KEY: "iosdjgiowjgiorjgioFAKESECRETweuigweruighwiu"
+  DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres
+  CSRF_TRUSTED_ORIGIN: "http://localhost"
+  CELERY_BROKER_URL: "redis://localhost:6379/0"
+  LL_URL: "https://lldev.thespacedevs.com/2.2.0/launch"
+  USE_S3: "false"
 
 jobs:
   linters:
@@ -63,14 +70,6 @@ jobs:
         image: redis
         ports:
           - 6379:6379
-    env:
-      DEBUG: "true"
-      SECRET_KEY: "iosdjgiowjgiorjgioFAKESECRETweuigweruighwiu"
-      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres
-      CSRF_TRUSTED_ORIGIN: "http://localhost"
-      CELERY_BROKER_URL: "redis://localhost:6379/0"
-      LL_URL: "https://lldev.thespacedevs.com/2.2.0/launch"
-      USE_S3: "false"
 
     steps:
       - name: Check out the repo
