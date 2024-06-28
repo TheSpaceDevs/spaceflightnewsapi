@@ -11,3 +11,14 @@ updates:
       - "derkweijers"
     schedule:
       interval: "weekly"
+    groups:
+      package-updates:
+        applies-to: version-updates
+        patterns: ["*"]
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    assignees:
+      - "derkweijers"
+    schedule:
+      interval: "weekly"
