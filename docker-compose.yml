@@ -1,97 +1,70 @@
----
-version: "3"
+# For local dev environment.
 
 volumes:
   database:
-
-networks:
-  snapy:
-  nginx-proxy-manager_default:
-    external: true
-  mq:
-    external: true
+  rabbitmq:
 
 services:
   database:
     image: postgres:15-alpine
     restart: unless-stopped
     healthcheck:
-      test: [ "CMD-SHELL", "pg_isready -d $${POSTGRES_DB} -U $${POSTGRES_USER}" ]
+      test: ["CMD-SHELL", "pg_isready -d $${POSTGRES_DB} -U $${POSTGRES_USER}"]
       interval: 2s
       timeout: 5s
       retries: 15
-    networks:
-      - snapy
     volumes:
       - database:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_USER=${DB_USER}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
+    ports:
+      - "5432:5432"
 
-  app:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${VERSION}
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq:/var/lib/rabbitmq
+
+  consumer:
+    build:
+      context: .
     restart: unless-stopped
-    command:
-      - /bin/sh
-      - -c
-      - |
-        python manage.py collectstatic --no-input &&
-        python manage.py migrate --no-input &&
-        python manage.py createdefaulttasks &&
-        gunicorn snapy.wsgi:application --workers 4 --bind 0.0.0.0:8000 --access-logfile - --disable-redirect-access-to-syslog
-    networks:
-      - snapy
-      - nginx-proxy-manager_default
+    command: python manage.py consume
     env_file: .env
+    environment:
+      - DB_HOST=database
+      - AMQP_HOST=rabbitmq
     depends_on:
       database:
         condition: service_healthy
 
   beat:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${VERSION}
+    build:
+      context: .
     restart: unless-stopped
     command: celery -A snapy beat -l INFO
-    networks:
-      - mq
-      - snapy
     env_file: .env
+    environment:
+      - DB_HOST=database
+      - AMQP_HOST=rabbitmq
     depends_on:
       database:
         condition: service_healthy
-
 
   worker:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${VERSION}
+    build:
+      context: .
     restart: unless-stopped
     command: celery -A snapy worker -l INFO
-    networks:
-      - mq
-      - snapy
     env_file: .env
-    depends_on:
-      database:
-        condition: service_healthy
-
-  consumer:
-    image: ghcr.io/spaceflightnewsapi/spaceflightnewsapi:${VERSION}
-    restart: unless-stopped
-    command: python manage.py consume
-    networks:
-      - mq
-      - snapy
-    env_file: .env
-    depends_on:
-      database:
-        condition: service_healthy
-
-  scraper:
-    image: ghcr.io/spaceflightnewsapi/snapiscraper:latest
-    restart: unless-stopped
-    networks:
-      - mq
-      - snapy
-    env_file: .env
+    environment:
+      - DB_HOST=database
+      - AMQP_HOST=rabbitmq
     depends_on:
       database:
         condition: service_healthy
