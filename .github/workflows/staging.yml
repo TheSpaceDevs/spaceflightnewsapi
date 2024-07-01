@@ -39,20 +39,22 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          build-args: |
-            RELEASE_VERSION=${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image.version'] }}
 
-      # - name: Helm 3
-      #   uses: WyriHaximus/github-action-helm3@v4.0.1
-      #   with:
-      #     chart: charts/spaceflightnewsapi
-      #     kubeconfig: ${{ secrets.KUBECONFIG }}
-      #     namespace: spaceflightnewsapi-staging
-      #     values: |
-      #       image:
-      #         repository: ghcr.io/spaceflightnewsapi/spaceflightnewsapi
-      #         tag: ${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image.version'] }}
-      #       ingress:
-      #         enabled: true
-      #         hosts:
-      #           - host: staging
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment: TSD Staging
+    steps:
+
+      - name: Checkout the deployments repo
+        uses: actions/checkout@v4
+        with:
+          repository: 'TheSpaceDevs/TSD-Deployments'
+
+      - name: Helm 3
+        uses: WyriHaximus/github-action-helm3@v4.0.1
+        with:
+          kubeconfig: '${{ secrets.KUBECONFIG }}'
+          overrule_existing_kubeconfig: "true"
+          exec: helm upgrade snapi-staging ./snapi-django --set image.tag=${{ github.event.release.tag_name }}
