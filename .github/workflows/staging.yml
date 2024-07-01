@@ -51,6 +51,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: 'TheSpaceDevs/TSD-Deployments'
+          ref: 'master'
+
 
       - name: Helm 3
         uses: WyriHaximus/github-action-helm3@v4.0.1
