@@ -16,6 +16,8 @@ import django_stubs_ext
 import sentry_sdk
 from environs import Env
 from sentry_sdk.integrations.django import DjangoIntegration
+import importlib.metadata
+
 
 env = Env()
 env.read_env()
@@ -23,7 +25,7 @@ env.read_env()
 # Extensions for Django Stubs
 django_stubs_ext.monkeypatch()
 
-VERSION = env.str("SNAPI_VERSION")
+VERSION = importlib.metadata.version('snapy')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent

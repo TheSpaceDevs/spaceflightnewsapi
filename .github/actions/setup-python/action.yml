@@ -1,0 +1,23 @@
+name: 'Setup Python & Poetry'
+description: 'Setup Python and Poetry for the project'
+inputs:
+  python-version:
+    description: 'Version that will be used to tag the image. Should be the version of the API.'
+    default: '3.12'
+  poetry-version:
+    description: 'Poetry version to use.'
+    default: '1.8.0'
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        cache: "pip"
+        python-version: ${{ inputs.python-version }}
+
+    - name: Setup Poetry
+      uses: pronovic/setup-poetry@v2
+      with:
+        version: ${{ inputs.poetry-version }}
+        cache-venv: "true"
+        cache-poetry: "true"

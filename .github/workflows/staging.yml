@@ -15,6 +15,13 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v4
 
+      # We need Python (specifically Poetry) in the "Build Image" step to increment the version.
+      - name: Setup Python and Poetry
+        uses: './.github/actions/setup-python'
+        with:
+          python-version: "3.12"
+          poetry-version: "1.8.0"
+
       - name: Build Image
         uses: ./.github/actions/build-image
         with:
@@ -33,7 +40,6 @@ jobs:
           repository: 'TheSpaceDevs/TSD-Deployments'
           path: 'deployments'
           token: ${{ secrets.CR_PAT }}  # https://github.com/actions/checkout?tab=readme-ov-file#checkout-multiple-repos-private
-
 
       - name: Helm 3
         uses: WyriHaximus/github-action-helm3@v4.0.1

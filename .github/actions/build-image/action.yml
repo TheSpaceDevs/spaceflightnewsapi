@@ -10,6 +10,10 @@ inputs:
 runs:
   using: "composite"
   steps:
+    - name: Update version in pyproject.toml
+      shell: bash
+      run: poetry version ${{ inputs.version }}
+
     - name: Docker meta
       id: meta
       uses: docker/metadata-action@v5
