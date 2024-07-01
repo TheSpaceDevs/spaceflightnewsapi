@@ -59,7 +59,7 @@ jobs:
         with:
           repository: 'TheSpaceDevs/TSD-Deployments'
           path: 'deployments'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.CR_PAT }}  # https://github.com/actions/checkout?tab=readme-ov-file#checkout-multiple-repos-private
 
 
       - name: Helm 3
