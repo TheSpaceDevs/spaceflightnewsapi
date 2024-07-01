@@ -4,6 +4,9 @@ inputs:
   version:  # id of input
     description: 'Version that will be used to tag the image. Should be the version of the API.'
     required: true
+  token:
+    description: 'GitHub token to use for the action'
+    required: true
 runs:
   using: "composite"
   steps:
@@ -23,7 +26,7 @@ runs:
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+        password: ${{ inputs.token }}
 
     - name: Build and push
       id: docker_build

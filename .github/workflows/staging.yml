@@ -19,7 +19,7 @@ jobs:
         uses: ./.github/actions/build-image
         with:
           version: ${{ github.event.release.tag_name }}
-
+          token: ${{ secrets.GITHUB_TOKEN }}
 
   deploy:
     runs-on: ubuntu-latest
