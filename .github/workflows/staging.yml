@@ -50,9 +50,6 @@ jobs:
     needs: build
     environment: TSD Staging
 
-    permissions: write-all
-
-
     steps:
       - name: Checkout the deployments repo
         uses: actions/checkout@v4
