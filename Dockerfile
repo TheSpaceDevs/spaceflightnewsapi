@@ -16,14 +16,12 @@ RUN pip install poetry
 RUN poetry config virtualenvs.in-project true
 
 ADD --chown=${APP_USER}:${APP_USER} pyproject.toml poetry.lock ./
-RUN poetry install --no-interaction --no-root --no-ansi
+RUN poetry install --no-interaction
 
 
 FROM base
-LABEL org.opencontainers.image.source https://github.com/TheSpaceDevs/spaceflightnewsapi
+LABEL org.opencontainers.image.source=https://github.com/TheSpaceDevs/spaceflightnewsapi
 
-ARG RELEASE_VERSION
-ENV SNAPI_VERSION=$RELEASE_VERSION
 
 COPY --chown=${APP_USER}:${APP_USER} --from=base ${APP_HOME} ${APP_HOME}
 ADD --chown=${APP_USER}:${APP_USER} . ${APP_HOME}
