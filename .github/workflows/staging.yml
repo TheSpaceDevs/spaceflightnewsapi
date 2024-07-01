@@ -67,4 +67,4 @@ jobs:
         with:
           kubeconfig: '${{ secrets.KUBECONFIG }}'
           overrule_existing_kubeconfig: "true"
-          exec: helm upgrade snapi-staging ./deployments/snapi-django --set image.tag=${{ github.event.release.tag_name }}
+          exec: helm upgrade snapi-staging ./deployments/snapi-django -f ./deployments/snapi-django/values.yaml -f ./deployments/snapi-django/values-staging.yaml --set image.tag=${{ github.event.release.tag_name }} .
