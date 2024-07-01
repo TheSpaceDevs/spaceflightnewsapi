@@ -45,6 +45,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     environment: TSD Staging
+    permissions:
+      contents: read
+      packages: write
+
     steps:
 
       - name: Checkout the deployments repo
