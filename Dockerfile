@@ -26,6 +26,11 @@ LABEL org.opencontainers.image.source=https://github.com/TheSpaceDevs/spacefligh
 COPY --chown=${APP_USER}:${APP_USER} --from=base ${APP_HOME} ${APP_HOME}
 ADD --chown=${APP_USER}:${APP_USER} . ${APP_HOME}
 
+# Install the project again, to install the project in the final image (and have the version available)
+RUN poetry install --no-interaction
+
 ENV PATH="${APP_HOME}/.venv/bin:$PATH"
+
+
 USER ${APP_USER}
 EXPOSE 8000
