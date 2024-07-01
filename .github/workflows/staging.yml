@@ -22,7 +22,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            ghcr.io/spaceflightnewsapi/spaceflightnewsapi
+            ghcr.io/TheSpaceDevs/spaceflightnewsapi
           tags: |
             type=ref,event=tag
 
