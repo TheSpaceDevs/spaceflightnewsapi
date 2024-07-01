@@ -9,6 +9,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
+import importlib.metadata
 import sys
 from pathlib import Path
 
@@ -16,7 +17,6 @@ import django_stubs_ext
 import sentry_sdk
 from environs import Env
 from sentry_sdk.integrations.django import DjangoIntegration
-import importlib.metadata
 
 
 env = Env()
@@ -46,9 +46,9 @@ if DEBUG is False:
     sentry_sdk.init(
         dsn=env.str("SENTRY_DSN"),
         integrations=[DjangoIntegration()],
-        traces_sample_rate=1.0,
-        send_default_pii=True,
-        enable_tracing=True,
+        traces_sample_rate=0.1,
+        send_default_pii=False,
+        enable_tracing=False,
         release=VERSION,
     )
 
