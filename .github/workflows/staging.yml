@@ -53,6 +53,7 @@ jobs:
           repository: 'TheSpaceDevs/TSD-Deployments'
           path: 'deployments'
           ref: 'master'
+          token: ${{ secrets.CR_PAT }}
 
 
       - name: Helm 3
