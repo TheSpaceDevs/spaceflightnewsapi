@@ -15,7 +15,7 @@ WORKDIR ${APP_HOME}
 RUN pip install poetry
 RUN poetry config virtualenvs.in-project true
 
-ADD --chown=${APP_USER}:${APP_USER} pyproject.toml poetry.lock ./
+COPY --chown=${APP_USER}:${APP_USER} pyproject.toml poetry.lock ./
 RUN poetry install --no-interaction
 
 
@@ -24,7 +24,7 @@ LABEL org.opencontainers.image.source=https://github.com/TheSpaceDevs/spacefligh
 
 
 COPY --chown=${APP_USER}:${APP_USER} --from=base ${APP_HOME} ${APP_HOME}
-ADD --chown=${APP_USER}:${APP_USER} . ${APP_HOME}
+COPY --chown=${APP_USER}:${APP_USER} . ${APP_HOME}
 
 # Install the project again, to install the project in the final image (and have the version available)
 RUN poetry install --no-interaction
