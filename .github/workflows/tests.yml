@@ -8,6 +8,8 @@ env:
   SECRET_KEY: "some-insecure-key"
   SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
   DATABASE_URL: "postgresql://postgres:postgres@localhost:5432/postgres"
+  CSRF_TRUSTED_ORIGIN: http://127.0.0.1
+
 
 
 jobs:
