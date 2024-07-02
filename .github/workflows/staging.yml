@@ -1,4 +1,4 @@
-name: Build and deploy to staging
+name: Build and deploy to production
 on:
   release:
     types:
