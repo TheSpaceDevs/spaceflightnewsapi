@@ -12,9 +12,13 @@ runs:
   steps:
     - name: Update version in pyproject.toml
       shell: bash
-      run: |
-        poetry version ${{ inputs.version }}
-        git commit pyproject.toml -m "Bump version to ${{ inputs.version }}"
+      run: poetry version ${{ inputs.version }}
+
+    - name: Add & Commit
+      uses: EndBug/add-and-commit@v9.1.4
+      with:
+        message: "Bump version to ${{ inputs.version }}"
+        add: "pyproject.toml"
 
     - name: Docker meta
       id: meta
