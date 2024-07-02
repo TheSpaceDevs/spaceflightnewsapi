@@ -1,9 +1,0 @@
-.env.example
-.idea
-.github
-.pre-commit-config.yaml
-.venv
-commitlint.config.js
-docker-compose.dev.yml
-docker-compose.yml
-Dockerfile
