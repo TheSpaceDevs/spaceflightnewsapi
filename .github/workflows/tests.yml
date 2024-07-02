@@ -23,6 +23,8 @@ jobs:
           pip install -r requirements.txt -e .
 
       - name: Run linters
+        env:
+          SECRET_KEY: "some-insecure-key"
         run: |
           mkdir test_results
           ruff check .
