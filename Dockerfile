@@ -27,6 +27,7 @@ COPY --chown=${APP_USER}:${APP_USER} --from=base ${APP_HOME} ${APP_HOME}
 COPY --chown=${APP_USER}:${APP_USER} ./api ${APP_HOME}/api
 COPY --chown=${APP_USER}:${APP_USER} ./snapy ${APP_HOME}/snapy
 COPY --chown=${APP_USER}:${APP_USER} ./consumer ${APP_HOME}/consumer
+COPY --chown=${APP_USER}:${APP_USER} ./manage.py ${APP_HOME}/
 
 
 # Install the project again, to install the project in the final image (and have the version available)
