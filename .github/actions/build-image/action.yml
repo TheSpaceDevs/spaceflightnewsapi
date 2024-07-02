@@ -14,15 +14,6 @@ runs:
       shell: bash
       run: poetry version ${{ inputs.version }}
 
-    - name: Create temporary directory for build context
-      shell: bash
-      run: mkdir -p build_context
-
-    - name: Copy files to temporary directory
-      shell: bash
-      run: |
-        cp -R * build_context/
-
     - name: Docker meta
       id: meta
       uses: docker/metadata-action@v5
@@ -48,6 +39,6 @@ runs:
         cache-from: type=gha
         cache-to: type=gha,mode=max
         push: true
-        context: build_context
+        context: .
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
