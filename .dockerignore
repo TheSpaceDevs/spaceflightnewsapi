@@ -6,5 +6,4 @@
 commitlint.config.js
 docker-compose.dev.yml
 docker-compose.yml
-README.md
 Dockerfile
