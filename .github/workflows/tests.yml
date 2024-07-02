@@ -4,6 +4,12 @@ on:
     branches:
       - main
 
+env:
+  SECRET_KEY: "some-insecure-key"
+  SENTRY_DSN: "https://sentry.io/123456"
+  DATABASE_URL: "postgresql://postgres:postgres@localhost:5432/postgres"
+
+
 jobs:
   linters:
     runs-on: ubuntu-latest
@@ -23,8 +29,6 @@ jobs:
           pip install -r requirements.txt -e .
 
       - name: Run linters
-        env:
-          SECRET_KEY: "some-insecure-key"
         run: |
           mkdir test_results
           ruff check .
