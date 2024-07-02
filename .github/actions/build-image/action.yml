@@ -12,7 +12,9 @@ runs:
   steps:
     - name: Update version in pyproject.toml
       shell: bash
-      run: poetry version ${{ inputs.version }}
+      run: |
+        poetry version ${{ inputs.version }}
+        git commit pyproject.toml -m "Bump version to ${{ inputs.version }}"
 
     - name: Docker meta
       id: meta
