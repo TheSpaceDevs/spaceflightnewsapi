@@ -77,6 +77,7 @@ jobs:
         run: |
           poetry export -f requirements.txt --output requirements.txt --without-hashes --with=dev
           pip install -r requirements.txt
+          pip install -e .
 
       - name: Run tests
         run: pytest --junitxml=test_results/TEST-pytest.xml
