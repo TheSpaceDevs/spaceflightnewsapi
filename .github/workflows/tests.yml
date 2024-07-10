@@ -9,6 +9,7 @@ env:
   SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
   DATABASE_URL: "postgresql://postgres:postgres@localhost:5432/postgres"
   CSRF_TRUSTED_ORIGIN: http://127.0.0.1
+  CELERY_BROKER_URL: "redis://localhost:6379/0"
 
 
 
