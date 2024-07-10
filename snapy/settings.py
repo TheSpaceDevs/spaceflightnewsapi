@@ -42,7 +42,8 @@ SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool("DEBUG", False)
 
-if DEBUG is False:
+
+if env.str("SENTRY_DSN", None):
     sentry_sdk.init(
         dsn=env.str("SENTRY_DSN"),
         integrations=[DjangoIntegration()],
@@ -235,7 +236,7 @@ CELERY_CACHE_BACKEND = "django-cache"
 CELERY_RESULT_EXTENDED = True
 
 # LL Settings
-LL_URL = env.str("LL_URL")
+LL_URL = env.str("LL_URL", "https://lldev.thespacedevs.com/2.2.0")
 LL_TOKEN = env.str("LL_TOKEN", "")
 
 
