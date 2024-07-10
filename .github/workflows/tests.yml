@@ -67,18 +67,11 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Setup Python & Poetry
+        uses: './.github/actions/setup-python'
         with:
-          cache: "pip"
           python-version: "3.12"
-
-      - name: Setup Poetry
-        uses: pronovic/setup-poetry@v2
-        with:
-          version: "1.8.2"
-          cache-venv: "true"
-          cache-poetry: "true"
+          poetry-version: "1.8.0"
 
       - name: Install dependencies
         run: |
