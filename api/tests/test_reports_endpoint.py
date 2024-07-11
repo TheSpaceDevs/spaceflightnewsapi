@@ -4,6 +4,7 @@ from django.test.client import Client
 from api.models import NewsSite, Report
 
 
+@pytest.mark.benchmark
 @pytest.mark.django_db
 class TestReportsEndpoint:
     def test_get_reports(self, client: Client, reports: list[Report]) -> None:

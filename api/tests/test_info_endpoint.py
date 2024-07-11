@@ -4,6 +4,7 @@ from django.test.client import Client
 from api.models import NewsSite
 
 
+@pytest.mark.benchmark
 @pytest.mark.django_db
 class TestInfoEndpoint:
     def test_version(self, client: Client) -> None:
