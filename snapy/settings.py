@@ -17,6 +17,7 @@ import django_stubs_ext
 import sentry_sdk
 from environs import Env
 from sentry_sdk.integrations.django import DjangoIntegration
+import logfire
 
 
 env = Env()
@@ -248,3 +249,6 @@ AMQP_PASSWORD = env.str("AMQP_PASSWORD", "guest")
 AMQP_VHOST = env.str("AMQP_VHOST", "/")
 AMQP_QUEUE = env.str("AMQP_QUEUE", "snapi")
 AMQP_EXCHANGE = env.str("AMQP_EXCHANGE", "importer")
+
+logfire.configure()
+logfire.instrument_django()
