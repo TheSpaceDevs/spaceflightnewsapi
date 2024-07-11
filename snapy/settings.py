@@ -14,9 +14,7 @@ import sys
 from pathlib import Path
 
 import django_stubs_ext
-import sentry_sdk
 from environs import Env
-from sentry_sdk.integrations.django import DjangoIntegration
 
 
 env = Env()
@@ -44,6 +42,8 @@ DEBUG = env.bool("DEBUG", False)
 
 
 if env.str("SENTRY_DSN", None):
+    import sentry_sdk
+    from sentry_sdk.integrations.django import DjangoIntegration
     sentry_sdk.init(
         dsn=env.str("SENTRY_DSN"),
         integrations=[DjangoIntegration()],
@@ -248,3 +248,8 @@ AMQP_PASSWORD = env.str("AMQP_PASSWORD", "guest")
 AMQP_VHOST = env.str("AMQP_VHOST", "/")
 AMQP_QUEUE = env.str("AMQP_QUEUE", "snapi")
 AMQP_EXCHANGE = env.str("AMQP_EXCHANGE", "importer")
+
+if env.str("LOGFIRE_TOKEN", None):
+    import logfire
+    logfire.configure()
+    logfire.instrument_django()
