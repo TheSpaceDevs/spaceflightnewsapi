@@ -8,6 +8,7 @@ from django.test.client import Client
 from api.models import Article, Event, Launch, NewsSite
 
 
+@pytest.mark.benchmark
 @pytest.mark.django_db
 class TestArticlesEndpoint:
     def test_get_articles(self, client: Client, articles: list[Article]) -> None:
