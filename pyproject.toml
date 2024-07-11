@@ -80,5 +80,4 @@ env = [
     "SECRET_KEY=dummy-secret-key",
     "DATABASE_URL=sqlite://:memory:",
     "SNAPI_VERSION=v1.2.3",
-    "CSRF_TRUSTED_ORIGINS=localhost",
 ]
