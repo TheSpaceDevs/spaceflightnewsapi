@@ -1,9 +1,12 @@
 name: Run CodSpeed Benchmarks
 
 on:
+  push:
+      branches:
+        - "main"
   pull_request:
     branches:
-      - "main" # or "master"
+      - "main"
   workflow_dispatch:
 
 env:
