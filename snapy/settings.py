@@ -76,6 +76,9 @@ INSTALLED_APPS = [
     "drf_spectacular",
     "django_celery_results",
     "storages",
+    'health_check',
+    'health_check.db',
+    'health_check.contrib.rabbitmq',
 ]
 
 MIDDLEWARE = [
@@ -253,3 +256,11 @@ if env.str("LOGFIRE_TOKEN", None):
     import logfire
     logfire.configure()
     logfire.instrument_django()
+
+
+HEALTH_CHECK = {
+        "SUBSETS": {
+            "startup-probe": ["MigrationsHealthCheck", "DatabaseBackend"],
+            "liveness-probe": ["DatabaseBackend"],
+        },
+    }
