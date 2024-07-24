@@ -62,6 +62,12 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         "image_tag",
     ]
 
+    
+    def get_queryset(self, request):
+        qs = super().get_queryset(request)
+        qs = qs.select_related("news_site").prefetch_related("launches", "events")
+        return qs
+    
     @staticmethod
     @admin.display(
         ordering="-published_at",
@@ -95,7 +101,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
             return format_html("")
         return format_html(
             '<div  title="{}" style="text-align:center;background:LawnGreen;color:black">{}</div >',
-            "\n".join(obj.launches.values_list("name", flat=True)),
+            "\n".join([launch.name for launch in obj.launches.all()]),
             obj.launches.count(),
         )
 
@@ -114,7 +120,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
             return format_html("")
         return format_html(
             '<div  title="{}" style="text-align:center;background:PaleTurquoise;color:black">{}</div >',
-            "\n".join(obj.events.values_list("name", flat=True)),
+            "\n".join([event.name for event in obj.events.all()]),
             obj.events.count(),
         )
 
@@ -164,6 +170,9 @@ class ReportAdmin(admin.ModelAdmin[Report]):
     list_display = ("title", "news_site", "published_at", "is_deleted")
     search_fields = ["title"]
     ordering = ("-published_at",)
+    
+    def get_queryset(self, request):
+        return super().get_queryset(request).select_related("news_site")
 
 
 @admin.register(NewsSite)
