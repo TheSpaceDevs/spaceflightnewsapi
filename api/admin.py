@@ -2,6 +2,7 @@
 
 from django import forms
 from django.contrib import admin
+from django.db.models import QuerySet
 from django.http import HttpRequest, HttpResponse
 from django.utils.html import format_html
 from django.utils.safestring import SafeString
@@ -62,12 +63,11 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         "image_tag",
     ]
 
-    
-    def get_queryset(self, request):
-        qs = super().get_queryset(request)
-        qs = qs.select_related("news_site").prefetch_related("launches", "events")
+    def get_queryset(self, request: HttpRequest) -> QuerySet[NewsItem]:
+        """Return the queryset with related fields prefetched."""
+        qs = super().get_queryset(request).select_related("news_site").prefetch_related("launches", "events")
         return qs
-    
+
     @staticmethod
     @admin.display(
         ordering="-published_at",
@@ -159,6 +159,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         return format_html('<img src="{}" width=50%/>', obj.image_url)
 
     def changelist_view(self, request: HttpRequest, extra_context: dict[str, str] | None = None) -> HttpResponse:
+        """Customize the title of the article admin view."""
         extra_context = {"title": "News"}
         return super().changelist_view(request, extra_context)
 
@@ -170,8 +171,9 @@ class ReportAdmin(admin.ModelAdmin[Report]):
     list_display = ("title", "news_site", "published_at", "is_deleted")
     search_fields = ["title"]
     ordering = ("-published_at",)
-    
-    def get_queryset(self, request):
+
+    def get_queryset(self, request: HttpRequest) -> QuerySet[Report]:
+        """Return the queryset with related fields prefetched."""
         return super().get_queryset(request).select_related("news_site")
 
 
@@ -180,6 +182,7 @@ class NewsSiteAdmin(admin.ModelAdmin[NewsSite]):
     list_display = ("name", "id")
 
     def changelist_view(self, request: HttpRequest, extra_context: dict[str, str] | None = None) -> HttpResponse:
+        """Customize the title of the news site admin view."""
         extra_context = {"title": "News Sites"}
         return super().changelist_view(request, extra_context)
 
