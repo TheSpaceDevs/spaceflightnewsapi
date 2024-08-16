@@ -109,34 +109,6 @@ TEMPLATES = [
     },
 ]
 
-
-LOGLEVEL = env.str("LOGLEVEL", "INFO")
-LOGGING = {
-    "version": 1,
-    "disable_existing_loggers": False,
-    "formatters": {
-        "standard": {
-            "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-            "datefmt": "%m-%d-%Y %H:%M:%S",
-        },
-    },
-    "handlers": {
-        "console": {
-            "class": "logging.StreamHandler",
-            "stream": sys.stdout,
-            "formatter": "standard",
-        },
-    },
-    "loggers": {
-        "": {"handlers": ["console"], "level": LOGLEVEL, "propogate": True},
-        "django": {
-            "handlers": ["console"],
-            "level": LOGLEVEL,
-            "propagate": True,
-        },
-    },
-}
-
 WSGI_APPLICATION = "snapy.wsgi.application"
 
 # Database
