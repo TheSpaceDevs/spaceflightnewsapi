@@ -156,7 +156,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     @admin.display(description="Image")
     def image_tag(obj: NewsItem) -> SafeString:
         """Returns the image of the article."""
-        return format_html('<img src="{}" width=50%/>', obj.image_url)
+        return format_html('<img loading="lazy" src="{}" width=50%/>', obj.image_url)
 
     def changelist_view(self, request: HttpRequest, extra_context: dict[str, str] | None = None) -> HttpResponse:
         """Customize the title of the article admin view."""
