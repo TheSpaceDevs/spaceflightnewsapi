@@ -47,9 +47,9 @@ if env.str("SENTRY_DSN", None):
     sentry_sdk.init(
         dsn=env.str("SENTRY_DSN"),
         integrations=[DjangoIntegration()],
-        traces_sample_rate=0.1,
-        send_default_pii=False,
-        enable_tracing=False,
+        traces_sample_rate=0.01,
+        send_default_pii=True,
+        enable_tracing=True,
         release=VERSION,
     )
 
