@@ -47,9 +47,9 @@ if env.str("SENTRY_DSN", None):
     sentry_sdk.init(
         dsn=env.str("SENTRY_DSN"),
         integrations=[DjangoIntegration()],
-        traces_sample_rate=0.1,
-        send_default_pii=False,
-        enable_tracing=False,
+        traces_sample_rate=0.01,
+        send_default_pii=True,
+        enable_tracing=True,
         release=VERSION,
     )
 
@@ -111,34 +111,6 @@ TEMPLATES = [
         },
     },
 ]
-
-
-LOGLEVEL = env.str("LOGLEVEL", "INFO")
-LOGGING = {
-    "version": 1,
-    "disable_existing_loggers": False,
-    "formatters": {
-        "standard": {
-            "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-            "datefmt": "%m-%d-%Y %H:%M:%S",
-        },
-    },
-    "handlers": {
-        "console": {
-            "class": "logging.StreamHandler",
-            "stream": sys.stdout,
-            "formatter": "standard",
-        },
-    },
-    "loggers": {
-        "": {"handlers": ["console"], "level": LOGLEVEL, "propogate": True},
-        "django": {
-            "handlers": ["console"],
-            "level": LOGLEVEL,
-            "propagate": True,
-        },
-    },
-}
 
 WSGI_APPLICATION = "snapy.wsgi.application"
 
