@@ -1185,13 +1185,13 @@ zookeeper = ["kazoo (>=2.8.0)"]
 
 [[package]]
 name = "logfire"
-version = "0.51.0"
+version = "0.52.0"
 description = "The best Python observability tool! 🪵🔥"
 optional = false
 python-versions = "*"
 files = [
-    {file = "logfire-0.51.0-py2.py3-none-any.whl", hash = "sha256:0b6490876ef1d652af82ad4c0eb3f2748d3ad45c7dc151628f3551d422797557"},
-    {file = "logfire-0.51.0.tar.gz", hash = "sha256:fa9ea9c566ac2c61053a838395ea185f1a8ac5da6564fa8d1e1b0c17a096fec6"},
+    {file = "logfire-0.52.0-py2.py3-none-any.whl", hash = "sha256:2faa346b858adbbfad0bd9895103479e0d3a52c882a7d83e6290c8a00bd24db1"},
+    {file = "logfire-0.52.0.tar.gz", hash = "sha256:21b202901e13f340e41765b072af11dc84d96b29ebd54dfd346dcac4942be6c9"},
 ]
 
 [package.dependencies]
