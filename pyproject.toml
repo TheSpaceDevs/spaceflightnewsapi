@@ -30,6 +30,7 @@ boto3 = "^1.35.5"
 django-jet-reboot = "^1.3.7"
 feedparser = "^6.0.11"
 logfire = {extras = ["django"], version = "^0.51.0"}
+django-health-check = "^3.18.3"
 
 [tool.poetry.group.dev]
 optional = true

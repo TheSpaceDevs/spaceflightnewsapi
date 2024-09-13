@@ -79,6 +79,8 @@ INSTALLED_APPS = [
     'health_check',
     'health_check.db',
     'health_check.contrib.rabbitmq',
+    'health_check.contrib.s3boto3_storage',
+    'health_check.contrib.celery',
 ]
 
 MIDDLEWARE = [
