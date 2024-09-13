@@ -51,6 +51,7 @@ if env.str("SENTRY_DSN", None):
         send_default_pii=True,
         enable_tracing=True,
         release=VERSION,
+        environment=env.str("SENTRY_ENVIRONMENT"),
     )
 
 ALLOWED_HOSTS = ["*"]
