@@ -29,7 +29,8 @@ django-storages = "^1.14.4"
 boto3 = "^1.35.14"
 django-jet-reboot = "^1.3.9"
 feedparser = "^6.0.11"
-logfire = {extras = ["django"], version = "^0.52.0"}
+logfire = {extras = ["django"], version = "^0.51.0"}
+django-health-check = "^3.18.3"
 
 [tool.poetry.group.dev]
 optional = true
