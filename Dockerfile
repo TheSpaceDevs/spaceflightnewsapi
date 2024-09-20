@@ -1,40 +1,23 @@
-FROM python:3.12-slim AS base
+FROM python:3.12-slim-bookworm
 
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
-ENV POETRY_CACHE_DIR='/var/cache/pypoetry'
-ENV POETRY_HOME='/usr/local'
-ENV APP_HOME=/code
-ENV APP_USER=appuser
+# The uv provided image is not working, so we're installing it ourselves.
+# The installer requires curl (and certificates) to download the release archive
+RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certificates
 
-RUN groupadd --system $APP_USER && \
-    useradd --system --gid $APP_USER --create-home --home $APP_HOME $APP_USER
+# Download the latest installer
+ADD https://astral.sh/uv/install.sh /uv-installer.sh
 
-WORKDIR ${APP_HOME}
+# Run the installer then remove it
+RUN sh /uv-installer.sh && rm /uv-installer.sh
 
-RUN pip install poetry
-RUN poetry config virtualenvs.in-project true
+# Ensure the installed binary is on the `PATH`
+ENV PATH="/root/.cargo/bin/:$PATH"
 
-COPY --chown=${APP_USER}:${APP_USER} pyproject.toml poetry.lock README.md ./
-RUN poetry install --no-interaction
+# Copy the project into the image
+ADD api consumer snapy manage.py pyproject.toml uv.lock /app
 
+# Sync the project into a new environment, using the frozen lockfile
+WORKDIR /app
+RUN uv sync --frozen
 
-FROM base
-LABEL org.opencontainers.image.source=https://github.com/TheSpaceDevs/spaceflightnewsapi
-
-
-COPY --chown=${APP_USER}:${APP_USER} --from=base ${APP_HOME} ${APP_HOME}
-COPY --chown=${APP_USER}:${APP_USER} ./api ${APP_HOME}/api
-COPY --chown=${APP_USER}:${APP_USER} ./snapy ${APP_HOME}/snapy
-COPY --chown=${APP_USER}:${APP_USER} ./consumer ${APP_HOME}/consumer
-COPY --chown=${APP_USER}:${APP_USER} ./manage.py ${APP_HOME}/
-
-
-# Install the project again, to install the project in the final image (and have the version available)
-RUN poetry install --no-interaction
-
-ENV PATH="${APP_HOME}/.venv/bin:$PATH"
-
-
-USER ${APP_USER}
 EXPOSE 8000
