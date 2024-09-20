@@ -1,5 +1,5 @@
 [project]
-name = "spaceflightnewsapi"
+name = "snapy"
 version = "4"
 description = "Spaceflight News API (SNAPI) enables developers to add the latest spaceflight news to their apps."
 authors = [{ name = "Derk Weijers", email = "derk@weijers.xyz" }]
@@ -75,3 +75,7 @@ env = [
     "DATABASE_URL=sqlite://:memory:",
     "SNAPI_VERSION=v1.2.3",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
