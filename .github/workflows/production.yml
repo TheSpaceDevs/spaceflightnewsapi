@@ -20,7 +20,6 @@ jobs:
         uses: './.github/actions/setup-python'
         with:
           python-version: "3.12"
-          poetry-version: "1.8.0"
 
       - name: Build Image
         uses: ./.github/actions/build-image
