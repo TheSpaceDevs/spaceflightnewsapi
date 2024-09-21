@@ -23,8 +23,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: |
-          uv sync --frozen
+        run: uv sync --frozen
 
       - name: Run linters
         run: |

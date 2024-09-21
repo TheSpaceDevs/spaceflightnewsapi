@@ -25,15 +25,12 @@ jobs:
         uses: './.github/actions/setup-python'
         with:
           python-version: "3.12"
-          poetry-version: "1.8.0"
 
       - name: Install dependencies
-        run: |
-          poetry export -f requirements.txt --output requirements.txt --without-hashes --with=dev
-          pip install -r requirements.txt -e .
+        run: uv sync --frozen
 
       - name: Run benchmarks
         uses: CodSpeedHQ/action@v3
         with:
           token: ${{ secrets.CODSPEED_TOKEN }}
-          run: pytest --codspeed
+          run: uv run pytest --codspeed
