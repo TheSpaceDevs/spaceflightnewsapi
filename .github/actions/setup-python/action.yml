@@ -12,7 +12,6 @@ runs:
   steps:
     - uses: actions/setup-python@v5
       with:
-        cache: "pip"
         python-version: ${{ inputs.python-version }}
 
     - name: Setup uv
