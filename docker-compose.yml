@@ -34,6 +34,8 @@ services:
     build:
       context: .
     restart: unless-stopped
+    profiles:
+      - all
     command: python manage.py consume
     env_file: .env
     environment:
@@ -47,6 +49,8 @@ services:
     build:
       context: .
     restart: unless-stopped
+    profiles:
+      - all
     command: celery -A snapy beat -l INFO
     env_file: .env
     environment:
@@ -60,6 +64,8 @@ services:
     build:
       context: .
     restart: unless-stopped
+    profiles:
+      - all
     command: celery -A snapy worker -l INFO
     env_file: .env
     environment:

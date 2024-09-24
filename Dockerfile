@@ -4,10 +4,8 @@ FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 RUN apt-get update && apt-get install -y
 
 # Copy the project files into the image
-ADD api/ /app/api/
-ADD consumer/ /app/consumer/
-ADD snapy/ /app/snapy/
-ADD manage.py pyproject.toml uv.lock README.md /app/
+ADD pyproject.toml uv.lock README.md /app/
+ADD src/ /app/src/
 
 # Sync the project into a new environment, using the frozen lockfile
 WORKDIR /app

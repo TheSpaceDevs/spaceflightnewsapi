@@ -10,12 +10,10 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 import importlib.metadata
-import sys
 from pathlib import Path
 
 import django_stubs_ext
 from environs import Env
-
 
 env = Env()
 env.read_env()
@@ -23,7 +21,7 @@ env.read_env()
 # Extensions for Django Stubs
 django_stubs_ext.monkeypatch()
 
-VERSION = importlib.metadata.version('snapy')
+VERSION = importlib.metadata.version("snapy")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -44,6 +42,7 @@ DEBUG = env.bool("DEBUG", False)
 if env.str("SENTRY_DSN", None):
     import sentry_sdk
     from sentry_sdk.integrations.django import DjangoIntegration
+
     sentry_sdk.init(
         dsn=env.str("SENTRY_DSN"),
         integrations=[DjangoIntegration()],
@@ -62,8 +61,8 @@ CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGIN")
 INSTALLED_APPS = [
     "api.apps.ApiConfig",
     "consumer.apps.ConsumerConfig",
-    'jet.dashboard',
-    'jet',
+    "jet.dashboard",
+    "jet",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -77,11 +76,11 @@ INSTALLED_APPS = [
     "drf_spectacular",
     "django_celery_results",
     "storages",
-    'health_check',
-    'health_check.db',
-    'health_check.contrib.rabbitmq',
-    'health_check.contrib.s3boto3_storage',
-    'health_check.contrib.celery',
+    "health_check",
+    "health_check.db",
+    "health_check.contrib.rabbitmq",
+    "health_check.contrib.s3boto3_storage",
+    "health_check.contrib.celery",
 ]
 
 MIDDLEWARE = [
@@ -229,13 +228,14 @@ AMQP_EXCHANGE = env.str("AMQP_EXCHANGE", "importer")
 
 if env.str("LOGFIRE_TOKEN", None):
     import logfire
+
     logfire.configure()
     logfire.instrument_django()
 
 
 HEALTH_CHECK = {
-        "SUBSETS": {
-            "startup-probe": ["MigrationsHealthCheck", "DatabaseBackend"],
-            "liveness-probe": ["DatabaseBackend"],
-        },
-    }
+    "SUBSETS": {
+        "startup-probe": ["MigrationsHealthCheck", "DatabaseBackend"],
+        "liveness-probe": ["DatabaseBackend"],
+    },
+}

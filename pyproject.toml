@@ -59,7 +59,7 @@ plugins = ["mypy_django_plugin.main", "mypy_drf_plugin.main"]
 django_settings_module = "snapy.settings"
 
 [tool.ruff]
-extend-exclude = ["snapy/settings.py"]
+extend-exclude = ["src/snapy/settings.py"]
 line-length = 121
 
 [tool.ruff.lint]
