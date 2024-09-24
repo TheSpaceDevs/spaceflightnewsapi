@@ -4,20 +4,17 @@ inputs:
   python-version:
     description: 'Version that will be used to tag the image. Should be the version of the API.'
     default: '3.12'
-  poetry-version:
-    description: 'Poetry version to use.'
-    default: '1.8.0'
+  uv-version:
+    description: 'UV version to use.'
+    default: '0.4.13'
 runs:
   using: "composite"
   steps:
     - uses: actions/setup-python@v5
       with:
-        cache: "pip"
         python-version: ${{ inputs.python-version }}
 
-    - name: Setup Poetry
-      uses: pronovic/setup-poetry@v2
+    - name: Setup uv
+      uses: yezz123/setup-uv@v4
       with:
-        version: ${{ inputs.poetry-version }}
-        cache-venv: "true"
-        cache-poetry: "true"
+        uv-version: ${{ inputs.uv-version }}

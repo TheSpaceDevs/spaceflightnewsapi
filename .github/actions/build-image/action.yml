@@ -12,7 +12,8 @@ runs:
   steps:
     - name: Update version in pyproject.toml
       shell: bash
-      run: poetry version ${{ inputs.version }}
+      run: |
+        sed -i "s/version = \".*\"/version = \"${{ inputs.version }}\"/g" pyproject.toml
 
     - name: Docker meta
       id: meta
