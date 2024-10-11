@@ -1382,7 +1382,7 @@ wheels = [
 [[package]]
 name = "snapy"
 version = "4"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "boto3" },
     { name = "celery" },

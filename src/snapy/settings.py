@@ -9,7 +9,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
-from version import __version__
+import importlib.metadata
 from pathlib import Path
 
 import django_stubs_ext
@@ -21,7 +21,7 @@ env.read_env()
 # Extensions for Django Stubs
 django_stubs_ext.monkeypatch()
 
-VERSION = __version__
+VERSION = importlib.metadata.version("snapy")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -49,7 +49,7 @@ if env.str("SENTRY_DSN", None):
         traces_sample_rate=0.01,
         send_default_pii=True,
         enable_tracing=True,
-        release=str(VERSION),
+        release=VERSION,
         environment=env.str("SENTRY_ENVIRONMENT"),
     )
 
