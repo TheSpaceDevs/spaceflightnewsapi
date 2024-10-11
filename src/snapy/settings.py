@@ -49,7 +49,7 @@ if env.str("SENTRY_DSN", None):
         traces_sample_rate=0.01,
         send_default_pii=True,
         enable_tracing=True,
-        release=VERSION,
+        release=str(VERSION),
         environment=env.str("SENTRY_ENVIRONMENT"),
     )
 

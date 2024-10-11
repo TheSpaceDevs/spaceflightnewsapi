@@ -54,6 +54,8 @@ dev-dependencies = [
 [tool.mypy]
 strict = true
 plugins = ["mypy_django_plugin.main", "mypy_drf_plugin.main"]
+mypy_path = "src"
+explicit_package_bases = true
 
 [tool.django-stubs]
 django_settings_module = "snapy.settings"
