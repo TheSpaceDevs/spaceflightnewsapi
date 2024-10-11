@@ -13,7 +13,7 @@ class TestInfoEndpoint:
 
         data = response.json()
 
-        assert data["version"] == 4
+        assert data["version"] == "4"
 
     def test_news_sites(self, client: Client, news_sites: list[NewsSite]) -> None:
         response = client.get("/v4/info/")

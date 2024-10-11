@@ -10,10 +10,10 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Update the version in src/version.py
+    - name: Update version in pyproject.toml
       shell: bash
       run: |
-        echo "__version__ = '${{ inputs.version }}'" > src/version.py
+        sed -i "s/version = \".*\"/version = \"${{ inputs.version }}\"/g" pyproject.toml
 
     - name: Docker meta
       id: meta
