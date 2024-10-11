@@ -71,6 +71,7 @@ select = ["E", "W", "F", "I", "DJ", "UP"]
 exclude_dirs = ["tests/", ".github/", ".venv/"]
 
 [tool.pytest.ini_options]
+pythonpath = "src/"
 DJANGO_SETTINGS_MODULE = "snapy.settings"
 env = [
     "SECRET_KEY=dummy-secret-key",
