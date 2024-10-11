@@ -54,6 +54,8 @@ dev-dependencies = [
 [tool.mypy]
 strict = true
 plugins = ["mypy_django_plugin.main", "mypy_drf_plugin.main"]
+mypy_path = "src"
+explicit_package_bases = true
 
 [tool.django-stubs]
 django_settings_module = "snapy.settings"
@@ -69,13 +71,10 @@ select = ["E", "W", "F", "I", "DJ", "UP"]
 exclude_dirs = ["tests/", ".github/", ".venv/"]
 
 [tool.pytest.ini_options]
+pythonpath = "src/"
 DJANGO_SETTINGS_MODULE = "snapy.settings"
 env = [
     "SECRET_KEY=dummy-secret-key",
     "DATABASE_URL=sqlite://:memory:",
     "SNAPI_VERSION=v1.2.3",
 ]
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
