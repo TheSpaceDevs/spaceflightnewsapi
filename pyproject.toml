@@ -75,7 +75,3 @@ env = [
     "DATABASE_URL=sqlite://:memory:",
     "SNAPI_VERSION=v1.2.3",
 ]
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"

@@ -9,7 +9,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
-import importlib.metadata
+from version import __version__
 from pathlib import Path
 
 import django_stubs_ext
@@ -21,7 +21,7 @@ env.read_env()
 # Extensions for Django Stubs
 django_stubs_ext.monkeypatch()
 
-VERSION = importlib.metadata.version("snapy")
+VERSION = __version__
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
