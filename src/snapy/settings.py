@@ -216,7 +216,6 @@ CELERY_RESULT_EXTENDED = True
 LL_URL = env.str("LL_URL", "https://lldev.thespacedevs.com/2.2.0")
 LL_TOKEN = env.str("LL_TOKEN", "")
 
-
 # AMQP Settings
 AMQP_HOST = env.str("AMQP_HOST", "localhost")
 AMQP_PORT = env.int("AMQP_PORT", 5672)
@@ -225,13 +224,6 @@ AMQP_PASSWORD = env.str("AMQP_PASSWORD", "guest")
 AMQP_VHOST = env.str("AMQP_VHOST", "/")
 AMQP_QUEUE = env.str("AMQP_QUEUE", "snapi")
 AMQP_EXCHANGE = env.str("AMQP_EXCHANGE", "importer")
-
-if env.str("LOGFIRE_TOKEN", None):
-    import logfire
-
-    logfire.configure()
-    logfire.instrument_django()
-
 
 HEALTH_CHECK = {
     "SUBSETS": {
