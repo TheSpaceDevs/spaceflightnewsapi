@@ -59,8 +59,8 @@ CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGIN")
 # Application definition
 
 INSTALLED_APPS = [
-    "api.apps.ApiConfig",
-    "consumer.apps.ConsumerConfig",
+    "api",
+    "importer",
     "jet.dashboard",
     "jet",
     "django.contrib.admin",
