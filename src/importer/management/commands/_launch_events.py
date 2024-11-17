@@ -12,7 +12,6 @@ provider = Provider.objects.get(name="Launch Library 2")
 class ClientOptions(TypedDict):
     base_url: str
     headers: dict[str, str]
-    timeout: float
 
 
 client_options: ClientOptions = {
@@ -21,16 +20,13 @@ client_options: ClientOptions = {
         "Authorization": f"Token {settings.LL_TOKEN}",
         "User-Agent": f"SNAPI {settings.VERSION}",
     },
-    "timeout": 1440.0,
 }
 
 
 def fetch_launches() -> None:
     next_url = "/launch/"
 
-    with httpx.Client(
-        base_url=client_options["base_url"], timeout=client_options["timeout"], headers=client_options["headers"]
-    ) as client:
+    with httpx.Client(base_url=client_options["base_url"], timeout=1440, headers=client_options["headers"]) as client:
         while next_url:
             response = client.get(url=next_url).json()
 
@@ -45,9 +41,7 @@ def fetch_launches() -> None:
 def fetch_events() -> None:
     next_url = "/event/"
 
-    with httpx.Client(
-        base_url=client_options["base_url"], timeout=client_options["timeout"], headers=client_options["headers"]
-    ) as client:
+    with httpx.Client(base_url=client_options["base_url"], timeout=1400, headers=client_options["headers"]) as client:
         while next_url:
             response = client.get(url=next_url).json()
 
