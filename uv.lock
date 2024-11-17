@@ -608,10 +608,13 @@ django = [
 [[package]]
 name = "feedparser"
 version = "6.0.11"
-source = { git = "https://github.com/kurtmckee/feedparser.git?branch=develop#94897c256969604613f5e7774f3c2b5d8cc1fdcc" }
+source = { registry = "https://pypi.thespacedevs.com/simple/" }
 dependencies = [
-    { name = "requests" },
     { name = "sgmllib3k" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/ff/aa/7af346ebeb42a76bf108027fe7f3328bb4e57a3a96e53e21fd9ef9dd6dd0/feedparser-6.0.11.tar.gz", hash = "sha256:c9d0407b64c6f2a065d0ebb292c2b35c01050cc0dc33757461aaabdc4c4184d5", size = 286197 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7c/d4/8c31aad9cc18f451c49f7f9cfb5799dadffc88177f7917bc90a66459b1d7/feedparser-6.0.11-py3-none-any.whl", hash = "sha256:0be7ee7b395572b19ebeb1d6aafb0028dee11169f1c934e0ed67d54992f4ad45", size = 81343 },
 ]
 
 [[package]]
@@ -646,8 +649,8 @@ wheels = [
 
 [[package]]
 name = "harvester"
-version = "0.3.2"
-source = { editable = "../harvester" }
+version = "0.3.4"
+source = { registry = "https://pypi.thespacedevs.com/simple/" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "feedparser" },
@@ -657,30 +660,9 @@ dependencies = [
     { name = "requests" },
     { name = "selenium" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "beautifulsoup4", specifier = ">=4.12.3" },
-    { name = "feedparser", git = "https://github.com/kurtmckee/feedparser.git?branch=develop" },
-    { name = "html5lib", specifier = ">=1.1" },
-    { name = "polars", specifier = ">=1.12.0" },
-    { name = "pydantic", specifier = ">=2.9.2" },
-    { name = "requests", specifier = ">=2.32.3" },
-    { name = "selenium", specifier = ">=4.25.0" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "mypy", specifier = ">=1.11.2" },
-    { name = "pre-commit", specifier = ">=4.0.1" },
-    { name = "pytest", specifier = ">=8.3.3" },
-    { name = "pytest-cov", specifier = ">=5.0.0" },
-    { name = "pytest-xdist", specifier = ">=3.6.1" },
-    { name = "python-semantic-release", specifier = ">=9.12.1" },
-    { name = "ruff", specifier = ">=0.6.9" },
-    { name = "types-beautifulsoup4", specifier = ">=4.12.0.20240907" },
-    { name = "types-requests", specifier = ">=2.32.0.20241016" },
-    { name = "types-selenium", specifier = ">=3.141.9" },
+sdist = { url = "https://pypi.thespacedevs.com/packages/harvester-0.3.4.tar.gz", hash = "sha256:2d14217643f783731723eb97ca6ddc04362b813cb4f06b2c629377ccd5d3e548" }
+wheels = [
+    { url = "https://pypi.thespacedevs.com/packages/harvester-0.3.4-py3-none-any.whl", hash = "sha256:3457c4e6ea9e7d4afc7706734d145839218a9403f1c03b9f5290b74b1875bfcb" },
 ]
 
 [[package]]
@@ -1430,7 +1412,7 @@ requires-dist = [
     { name = "environs", extras = ["django"], specifier = ">=11.0.0" },
     { name = "feedparser", specifier = ">=6.0.11" },
     { name = "gunicorn", specifier = ">=23.0.0" },
-    { name = "harvester", editable = "../harvester" },
+    { name = "harvester", specifier = ">=0.3.2" },
     { name = "httpx", specifier = ">=0.27.2" },
     { name = "markdown", specifier = ">=3.7" },
     { name = "pika", specifier = ">=1.3.2" },

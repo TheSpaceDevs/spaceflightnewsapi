@@ -70,17 +70,14 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "django_celery_beat",
     "django_filters",
     "corsheaders",
     "drf_spectacular",
-    "django_celery_results",
     "storages",
     "health_check",
     "health_check.db",
     "health_check.contrib.rabbitmq",
     "health_check.contrib.s3boto3_storage",
-    "health_check.contrib.celery",
 ]
 
 MIDDLEWARE = [
@@ -203,14 +200,6 @@ SPECTACULAR_SETTINGS = {
     "SERVE_INCLUDE_SCHEMA": False,
     "SCHEMA_PATH_PREFIX": "/v4",
 }
-
-# Celery Configuration Options
-CELERY_TIME_ZONE = TIME_ZONE
-CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"
-CELERY_BROKER_URL = env.str("CELERY_BROKER_URL")
-CELERY_RESULT_BACKEND = "django-db"
-CELERY_CACHE_BACKEND = "django-cache"
-CELERY_RESULT_EXTENDED = True
 
 # LL Settings
 LL_URL = env.str("LL_URL", "https://lldev.thespacedevs.com/2.2.0")

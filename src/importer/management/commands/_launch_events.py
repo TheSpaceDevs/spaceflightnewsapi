@@ -1,30 +1,36 @@
+from typing import TypedDict
+
 import httpx
-from celery import shared_task
 from django.conf import settings
 
 from api.models import Provider
-from api.serializers.launch_library import (
-    LaunchLibraryEventSerializer,
-    LaunchLibraryLaunchSerializer,
-)
-from api.serializers.utils import ClientOptions
+from importer.serializers import LaunchLibraryEventSerializer, LaunchLibraryLaunchSerializer
+
+provider = Provider.objects.get(name="Launch Library 2")
+
+
+class ClientOptions(TypedDict):
+    base_url: str
+    headers: dict[str, str]
+    timeout: float
+
 
 client_options: ClientOptions = {
     "base_url": settings.LL_URL,
     "headers": {
         "Authorization": f"Token {settings.LL_TOKEN}",
-        "User-Agent": "SNAPI V4",
+        "User-Agent": f"SNAPI {settings.VERSION}",
     },
     "timeout": 1440.0,
 }
 
 
-@shared_task(name="Sync Launches")
-def sync_launches() -> None:
+def fetch_launches() -> None:
     next_url = "/launch/"
-    provider = Provider.objects.get(name="Launch Library 2")
 
-    with httpx.Client(**client_options) as client:
+    with httpx.Client(
+        base_url=client_options["base_url"], timeout=client_options["timeout"], headers=client_options["headers"]
+    ) as client:
         while next_url:
             response = client.get(url=next_url).json()
 
@@ -36,12 +42,12 @@ def sync_launches() -> None:
             next_url = response["next"]
 
 
-@shared_task(name="Sync Events")
-def sync_events() -> None:
+def fetch_events() -> None:
     next_url = "/event/"
-    provider = Provider.objects.get(name="Launch Library 2")
 
-    with httpx.Client(**client_options) as client:
+    with httpx.Client(
+        base_url=client_options["base_url"], timeout=client_options["timeout"], headers=client_options["headers"]
+    ) as client:
         while next_url:
             response = client.get(url=next_url).json()
 
