@@ -14,6 +14,7 @@ class ClientOptions(TypedDict):
     headers: dict[str, str]
 
 
+# Not setting the timout on this dict since Bandit doesn't like it
 client_options: ClientOptions = {
     "base_url": settings.LL_URL,
     "headers": {
