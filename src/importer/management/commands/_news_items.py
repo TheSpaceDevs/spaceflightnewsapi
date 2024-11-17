@@ -7,11 +7,12 @@ from harvester.schemas import ArticleSchema, BlogSchema, ReportSchema
 from api.models import Article, Blog, NewsSite, Report
 
 logger = logging.getLogger(__name__)
+news_sites = NewsSite.objects.all()
 
 
 def process_article(article: ArticleSchema) -> None:
     # Get the news site
-    news_site = NewsSite.objects.get(id=article.news_site_id)
+    news_site = news_sites.get(id=article.news_site_id)
 
     # Check if the article already exists
     if Article.objects.filter(title=article.title, url=article.url).exists():
@@ -33,7 +34,7 @@ def process_article(article: ArticleSchema) -> None:
 
 def process_blog(blog: BlogSchema) -> None:
     # Get the news site
-    news_site = NewsSite.objects.get(id=blog.news_site_id)
+    news_site = news_sites.get(id=blog.news_site_id)
 
     # Check if the blog already exists
     if Blog.objects.filter(title=blog.title, url=blog.url).exists():
@@ -55,7 +56,7 @@ def process_blog(blog: BlogSchema) -> None:
 
 def process_report(report: ReportSchema) -> None:
     # Get the news site
-    news_site = NewsSite.objects.get(id=report.news_site_id)
+    news_site = news_sites.get(id=report.news_site_id)
 
     # Check if the report already exists
     if Report.objects.filter(title=report.title, url=report.url).exists():
