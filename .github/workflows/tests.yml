@@ -8,7 +8,8 @@ env:
   SECRET_KEY: "some-insecure-key"
   DATABASE_URL: "postgresql://postgres:postgres@localhost:5432/postgres"
   CSRF_TRUSTED_ORIGIN: http://127.0.0.1
-  CELERY_BROKER_URL: "redis://localhost:6379/0"
+  UV_INDEX_TSD_USERNAME: ${{ secrets.UV_INDEX_TSD_USERNAME }}
+  UV_INDEX_TSD_PASSWORD: ${{ secrets.UV_INDEX_TSD_PASSWORD }}
 
 jobs:
   linters:
@@ -75,7 +76,7 @@ jobs:
         run: uv run pytest --junitxml=test_results/TEST-pytest.xml
 
       - name: Publish test report
-        uses: mikepenz/action-junit-report@v4
+        uses: mikepenz/action-junit-report@v5
         if: success() || failure() # always run even if the previous step fails
         with:
           report_paths: "test_results/TEST-*.xml"
