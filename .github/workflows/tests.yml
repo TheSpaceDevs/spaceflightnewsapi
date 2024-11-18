@@ -8,6 +8,8 @@ env:
   SECRET_KEY: "some-insecure-key"
   DATABASE_URL: "postgresql://postgres:postgres@localhost:5432/postgres"
   CSRF_TRUSTED_ORIGIN: http://127.0.0.1
+  UV_INDEX_TSD_USERNAME: ${{ secrets.UV_INDEX_TSD_USERNAME }}
+  UV_INDEX_TSD_PASSWORD: ${{ secrets.UV_INDEX_TSD_PASSWORD }}
 
 jobs:
   linters:
