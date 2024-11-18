@@ -16,5 +16,8 @@ runs:
 
     - name: Setup uv
       uses: yezz123/setup-uv@v4
+      env:
+        UV_INDEX_TSD_USERNAME: ${{ secrets.UV_INDEX_TSD_USERNAME }}
+        UV_INDEX_TSD_PASSWORD: ${{ secrets.UV_INDEX_TSD_PASSWORD }}
       with:
         uv-version: ${{ inputs.uv-version }}
