@@ -76,7 +76,6 @@ INSTALLED_APPS = [
     "storages",
     "health_check",
     "health_check.db",
-    "health_check.contrib.rabbitmq",
     "health_check.contrib.s3boto3_storage",
 ]
 
@@ -149,10 +148,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
-# STATIC_URL = "static/"
-# STATIC_ROOT = BASE_DIR / "staticfiles"
-USE_S3 = env.bool("USE_S3", False)
-if USE_S3:
+if env.bool("USE_S3", False):
     AWS_QUERYSTRING_AUTH = False
     AWS_ACCESS_KEY_ID = env.str("AWS_ACCESS_KEY_ID")
     AWS_SECRET_ACCESS_KEY = env.str("AWS_SECRET_ACCESS_KEY")
@@ -204,15 +200,6 @@ SPECTACULAR_SETTINGS = {
 # LL Settings
 LL_URL = env.str("LL_URL", "https://lldev.thespacedevs.com/2.2.0")
 LL_TOKEN = env.str("LL_TOKEN", "")
-
-# AMQP Settings
-AMQP_HOST = env.str("AMQP_HOST", "localhost")
-AMQP_PORT = env.int("AMQP_PORT", 5672)
-AMQP_USERNAME = env.str("AMQP_USERNAME", "guest")
-AMQP_PASSWORD = env.str("AMQP_PASSWORD", "guest")
-AMQP_VHOST = env.str("AMQP_VHOST", "/")
-AMQP_QUEUE = env.str("AMQP_QUEUE", "snapi")
-AMQP_EXCHANGE = env.str("AMQP_EXCHANGE", "importer")
 
 HEALTH_CHECK = {
     "SUBSETS": {
