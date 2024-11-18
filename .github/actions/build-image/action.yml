@@ -7,6 +7,12 @@ inputs:
   token:
     description: 'GitHub token to use for the action'
     required: true
+  repository_username:
+    description: 'Username of the repository'
+    required: true
+  repository_password:
+    description: 'Password of the repository'
+    required: true
 runs:
   using: "composite"
   steps:
@@ -40,6 +46,9 @@ runs:
         cache-from: type=gha
         cache-to: type=gha,mode=max
         push: true
+        build-args: |
+          UV_INDEX_TSD_USERNAME=${{ inputs.repository_username }}
+          UV_INDEX_TSD_PASSWORD=${{ inputs.repository_password }}
         context: .
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}

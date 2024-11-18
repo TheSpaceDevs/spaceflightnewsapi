@@ -1,5 +1,13 @@
 FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
+# Get the required UV tokens for the project
+ARG UV_INDEX_TSD_USERNAME
+ARG UV_INDEX_TSD_PASSWORD
+
+# Set the UV tokens as environment variables
+ENV UV_INDEX_TSD_USERNAME=$UV_INDEX_TSD_USERNAME
+ENV UV_INDEX_TSD_PASSWORD=$UV_INDEX_TSD_PASSWORD
+
 # Update the package os dependencies
 RUN apt-get update && apt-get install -y
 

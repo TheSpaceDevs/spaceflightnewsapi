@@ -11,10 +11,6 @@ jobs:
       contents: read
       packages: write
 
-    env:
-      UV_INDEX_TSD_USERNAME: ${{ secrets.UV_INDEX_TSD_USERNAME }}
-      UV_INDEX_TSD_PASSWORD: ${{ secrets.UV_INDEX_TSD_PASSWORD }}
-
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
@@ -24,6 +20,8 @@ jobs:
         with:
           version: ${{ github.event.release.tag_name }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          repository_username: ${{ secrets.UV_INDEX_TSD_USERNAME }}
+          repository_password: ${{ secrets.UV_INDEX_TSD_PASSWORD }}
 
   deploy:
     runs-on: ubuntu-latest
