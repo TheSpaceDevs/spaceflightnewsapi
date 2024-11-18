@@ -7,13 +7,6 @@ inputs:
   uv-version:
     description: 'UV version to use.'
     default: '0.4.13'
-  registry-username:
-    description: 'Username to use to login to the registry.'
-    required: true
-  registry-password:
-    description: 'Password to use to login to the registry.'
-    required: true
-
 runs:
   using: "composite"
   steps:
@@ -24,7 +17,7 @@ runs:
     - name: Setup uv
       uses: yezz123/setup-uv@v4
       env:
-        UV_INDEX_TSD_USERNAME: ${{ inputs.registry-username }}
-        UV_INDEX_TSD_PASSWORD: ${{ inputs.registry-password }}
+        UV_INDEX_TSD_USERNAME: ${{ secrets.UV_INDEX_TSD_USERNAME }}
+        UV_INDEX_TSD_PASSWORD: ${{ secrets.UV_INDEX_TSD_PASSWORD }}
       with:
         uv-version: ${{ inputs.uv-version }}
