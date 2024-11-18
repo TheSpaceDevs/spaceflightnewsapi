@@ -59,8 +59,8 @@ CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGIN")
 # Application definition
 
 INSTALLED_APPS = [
-    "api.apps.ApiConfig",
-    "consumer.apps.ConsumerConfig",
+    "api",
+    "importer",
     "jet.dashboard",
     "jet",
     "django.contrib.admin",
@@ -70,17 +70,13 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "django_celery_beat",
     "django_filters",
     "corsheaders",
     "drf_spectacular",
-    "django_celery_results",
     "storages",
     "health_check",
     "health_check.db",
-    "health_check.contrib.rabbitmq",
     "health_check.contrib.s3boto3_storage",
-    "health_check.contrib.celery",
 ]
 
 MIDDLEWARE = [
@@ -152,10 +148,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
-# STATIC_URL = "static/"
-# STATIC_ROOT = BASE_DIR / "staticfiles"
-USE_S3 = env.bool("USE_S3", False)
-if USE_S3:
+if env.bool("USE_S3", False):
     AWS_QUERYSTRING_AUTH = False
     AWS_ACCESS_KEY_ID = env.str("AWS_ACCESS_KEY_ID")
     AWS_SECRET_ACCESS_KEY = env.str("AWS_SECRET_ACCESS_KEY")
@@ -204,30 +197,27 @@ SPECTACULAR_SETTINGS = {
     "SCHEMA_PATH_PREFIX": "/v4",
 }
 
-# Celery Configuration Options
-CELERY_TIME_ZONE = TIME_ZONE
-CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"
-CELERY_BROKER_URL = env.str("CELERY_BROKER_URL")
-CELERY_RESULT_BACKEND = "django-db"
-CELERY_CACHE_BACKEND = "django-cache"
-CELERY_RESULT_EXTENDED = True
-
 # LL Settings
 LL_URL = env.str("LL_URL", "https://lldev.thespacedevs.com/2.2.0")
 LL_TOKEN = env.str("LL_TOKEN", "")
-
-# AMQP Settings
-AMQP_HOST = env.str("AMQP_HOST", "localhost")
-AMQP_PORT = env.int("AMQP_PORT", 5672)
-AMQP_USERNAME = env.str("AMQP_USERNAME", "guest")
-AMQP_PASSWORD = env.str("AMQP_PASSWORD", "guest")
-AMQP_VHOST = env.str("AMQP_VHOST", "/")
-AMQP_QUEUE = env.str("AMQP_QUEUE", "snapi")
-AMQP_EXCHANGE = env.str("AMQP_EXCHANGE", "importer")
 
 HEALTH_CHECK = {
     "SUBSETS": {
         "startup-probe": ["MigrationsHealthCheck", "DatabaseBackend"],
         "liveness-probe": ["DatabaseBackend"],
+    },
+}
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+        },
+    },
+    "root": {
+        "handlers": ["console"],
+        "level": "INFO",
     },
 }
