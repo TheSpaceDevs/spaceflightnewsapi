@@ -6,7 +6,7 @@ inputs:
     default: '3.12'
   uv-version:
     description: 'UV version to use.'
-    default: '0.4.13'
+    default: '0.5.2'
 runs:
   using: "composite"
   steps:
@@ -14,7 +14,7 @@ runs:
       with:
         python-version: ${{ inputs.python-version }}
 
-    - name: Setup uv
-      uses: yezz123/setup-uv@v4
+    - name: Setup | Install uv
+      uses: astral-sh/setup-uv@v3
       with:
-        uv-version: ${{ inputs.uv-version }}
+        version: ${{ inputs.uv-version }}
