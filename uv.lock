@@ -495,7 +495,7 @@ wheels = [
 
 [[package]]
 name = "harvester"
-version = "0.4.0"
+version = "0.7.0"
 source = { registry = "https://pypi.thespacedevs.com/simple/" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -506,9 +506,9 @@ dependencies = [
     { name = "requests" },
     { name = "selenium" },
 ]
-sdist = { url = "https://pypi.thespacedevs.com/packages/harvester-0.4.0.tar.gz", hash = "sha256:dd2b720621da6317f9bf4eb5b5a77067461a96bd00d5a30c3d5ea1e329222468" }
+sdist = { url = "https://pypi.thespacedevs.com/packages/harvester-0.7.0.tar.gz", hash = "sha256:01b8ff1ce781679a84596594b4fc9931b31fc2e5d33ddfa246ec62f343d4f320" }
 wheels = [
-    { url = "https://pypi.thespacedevs.com/packages/harvester-0.4.0-py3-none-any.whl", hash = "sha256:9501e12d2874fb0e5507d6fb593d4295fe75efb62d95644d09fd2bf218ff5c32" },
+    { url = "https://pypi.thespacedevs.com/packages/harvester-0.7.0-py3-none-any.whl", hash = "sha256:336a54581a5181367acc52b5a2b314fba2370b156c96f6f4d867435ae28317fe" },
 ]
 
 [[package]]
@@ -1203,7 +1203,7 @@ requires-dist = [
     { name = "environs", extras = ["django"], specifier = ">=11.0.0" },
     { name = "feedparser", specifier = ">=6.0.11" },
     { name = "gunicorn", specifier = ">=23.0.0" },
-    { name = "harvester", specifier = ">=0.4.0" },
+    { name = "harvester", specifier = ">=0.7.0" },
     { name = "httpx", specifier = ">=0.27.2" },
     { name = "markdown", specifier = ">=3.7" },
     { name = "psycopg2-binary", specifier = ">=2.9.9" },
