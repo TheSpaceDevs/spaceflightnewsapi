@@ -21,7 +21,7 @@ RUN uv sync --frozen --no-dev
 FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
 # Update the package os dependencies
-RUN apt-get update && apt-get install -y
+RUN apt-get update && apt-get upgrade -y
 
 WORKDIR /app
 
