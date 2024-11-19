@@ -38,7 +38,7 @@ def process_blog(blog: BlogSchema) -> None:
 
     # Check if the blog already exists
     if Blog.objects.filter(title=blog.title, url=blog.url).exists():
-        logger.info(f"Blog {blog.title} already exists")
+        logger.debug(f"Blog {blog.title} already exists")
         return
 
     logger.info(f"Adding blog: {blog.title}")
@@ -60,7 +60,7 @@ def process_report(report: ReportSchema) -> None:
 
     # Check if the report already exists
     if Report.objects.filter(title=report.title, url=report.url).exists():
-        logger.info(f"Report {report.title} already exists")
+        logger.debug(f"Report {report.title} already exists")
         return
 
     logger.info(f"Adding report: {report.title}")
