@@ -21,7 +21,10 @@ RUN uv sync --frozen --no-dev
 FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
 # Update the package os dependencies
-RUN apt-get update && apt-get upgrade -y
+RUN apt-get update && apt-get upgrade -y && apt-get install wget -y
+RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    && echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list
+RUN apt-get update && apt-get -y install google-chrome-stable
 
 WORKDIR /app
 
