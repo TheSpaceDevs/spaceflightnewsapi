@@ -15,7 +15,7 @@ def process_article(article: ArticleSchema) -> None:
     news_site = news_sites.get(id=article.news_site_id)
 
     # Check if the article already exists
-    if Article.objects.filter(title=article.title, url=article.url).exists():
+    if Article.objects.filter(url=article.url).exists():
         logger.debug(f"Article {article.title} already exists")
         return
 
@@ -37,7 +37,7 @@ def process_blog(blog: BlogSchema) -> None:
     news_site = news_sites.get(id=blog.news_site_id)
 
     # Check if the blog already exists
-    if Blog.objects.filter(title=blog.title, url=blog.url).exists():
+    if Blog.objects.filter(url=blog.url).exists():
         logger.debug(f"Blog {blog.title} already exists")
         return
 
@@ -59,7 +59,7 @@ def process_report(report: ReportSchema) -> None:
     news_site = news_sites.get(id=report.news_site_id)
 
     # Check if the report already exists
-    if Report.objects.filter(title=report.title, url=report.url).exists():
+    if Report.objects.filter(url=report.url).exists():
         logger.debug(f"Report {report.title} already exists")
         return
 
