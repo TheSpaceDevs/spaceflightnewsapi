@@ -77,6 +77,7 @@ INSTALLED_APPS = [
     "health_check",
     "health_check.db",
     "health_check.contrib.s3boto3_storage",
+    "graphene_django",
 ]
 
 MIDDLEWARE = [
@@ -220,4 +221,8 @@ LOGGING = {
         "handlers": ["console"],
         "level": "INFO",
     },
+}
+
+GRAPHENE = {
+    "SCHEMA": "snapy.schema.schema",
 }
