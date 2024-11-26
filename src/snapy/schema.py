@@ -4,7 +4,7 @@ from django.db.models.manager import BaseManager
 from graphene import UUID, Int, List, ObjectType, Schema, String
 from graphene_django import DjangoObjectType
 
-from api.models import Article, Blog, Event, Launch, Report
+from api.models import Article, Blog, Event, Launch, NewsSite, Report
 
 
 class ArticleType(DjangoObjectType):
@@ -28,13 +28,19 @@ class ReportType(DjangoObjectType):
 class LaunchType(DjangoObjectType):
     class Meta:
         model = Launch
-        fields = ("id", "launch_id", "nane", "provider")
+        fields = ("id", "launch_id", "name", "provider")
 
 
 class EventType(DjangoObjectType):
     class Meta:
         model = Event
         fields = ("id", "event_id", "name", "provider")
+
+
+class NewsSiteType(DjangoObjectType):
+    class Meta:
+        model = NewsSite
+        fields = ("id", "name")
 
 
 class Query(ObjectType):
