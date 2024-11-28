@@ -8,6 +8,7 @@ from django_filters import (
     FilterSet,
     IsoDateTimeFilter,
     NumberFilter,
+    OrderingFilter,
     UUIDFilter,
 )
 from rest_framework import filters
@@ -154,6 +155,16 @@ class BaseFilter(FilterSet):
         field_name="updated_at",
         lookup_expr="lt",
         label="Get all documents updated before a given ISO8601 " "timestamp (excluded).",
+    )
+
+    ordering = OrderingFilter(
+        fields=(
+            (
+                "published_at",
+                "published_at",
+            ),
+            ("updated_at", "updated_at"),
+        )
     )
 
 

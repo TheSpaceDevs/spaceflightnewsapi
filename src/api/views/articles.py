@@ -1,5 +1,5 @@
 from django_filters import rest_framework
-from rest_framework import filters, viewsets
+from rest_framework import viewsets
 
 from api.models import Article
 from api.serializers import ArticleSerializer
@@ -15,9 +15,6 @@ class ArticleViewSet(viewsets.ReadOnlyModelViewSet):  # type: ignore
     filter_backends = [
         rest_framework.DjangoFilterBackend,
         SearchFilter,
-        filters.OrderingFilter,
     ]
     filterset_class = DocsFilter
     search_fields = ["title", "summary", "news_site__name"]
-    ordering = ["-published_at"]
-    ordering_fields = ["published_at", "updated_at"]

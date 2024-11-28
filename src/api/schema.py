@@ -52,7 +52,7 @@ class NewsSiteType(DjangoObjectType):
 
 class Query(ObjectType):
     article = relay.Node.Field(ArticleType)
-    all_articles = DjangoFilterConnectionField(ArticleType)
+    all_articles = DjangoFilterConnectionField(ArticleType, order_by="published_at")
 
     blog = relay.Node.Field(BlogType)
     all_blogs = DjangoFilterConnectionField(BlogType)
