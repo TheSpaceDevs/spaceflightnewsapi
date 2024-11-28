@@ -5,13 +5,14 @@ from graphene_django import DjangoObjectType
 from graphene_django.filter import DjangoFilterConnectionField
 
 from api.models import Article, Blog, Event, Launch, NewsSite, Report
+from api.views.filters import BaseFilter, DocsFilter
 
 
 class ArticleType(DjangoObjectType):
     class Meta:
         model = Article
         exclude = ["is_deleted"]
-        filter_fields = ["title", "news_site", "published_at", "updated_at"]
+        filterset_class = DocsFilter
         interfaces = (relay.Node,)
 
 
@@ -19,7 +20,7 @@ class BlogType(DjangoObjectType):
     class Meta:
         model = Blog
         exclude = ["is_deleted"]
-        filter_fields = ["title", "news_site", "published_at", "updated_at"]
+        filterset_class = DocsFilter
         interfaces = (relay.Node,)
 
 
@@ -27,7 +28,7 @@ class ReportType(DjangoObjectType):
     class Meta:
         model = Report
         exclude = ["is_deleted"]
-        filter_fields = ["title", "news_site", "published_at", "updated_at"]
+        filterset_class = BaseFilter
         interfaces = (relay.Node,)
 
 
