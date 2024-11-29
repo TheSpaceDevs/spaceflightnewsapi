@@ -1,5 +1,6 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
+default_install_hook_types: [pre-commit, pre-push, commit-msg]
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -10,28 +11,18 @@ repos:
       - id: check-yaml
       - id: check-added-large-files
 
-  - repo: https://github.com/compilerla/conventional-pre-commit
-    rev: v3.6.0
-    hooks:
-      - id: conventional-pre-commit
-        stages: [commit-msg]
-        args: []
-
-
   - repo: https://github.com/PyCQA/bandit
     rev: 1.7.10
     hooks:
       - id: bandit
-        args: [ "-c", "pyproject.toml" ]
-        additional_dependencies: [ "bandit[toml]" ]
-
+        args: ["-c", "pyproject.toml"]
+        additional_dependencies: ["bandit[toml]"]
 
   - repo: https://github.com/asottile/pyupgrade
     rev: v3.19.0
     hooks:
       - id: pyupgrade
-        args: [ "--py312-plus" ]
-
+        args: ["--py312-plus"]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
@@ -41,3 +32,11 @@ repos:
       - id: ruff
       # Run the formatter.
       - id: ruff-format
+
+  - repo: https://github.com/commitizen-tools/commitizen
+    hooks:
+      - id: commitizen
+      - id: commitizen-branch
+        stages:
+          - pre-push
+    rev: v4.0.0
