@@ -919,12 +919,6 @@ wheels = [
 ]
 
 [[package]]
-name = "pika-stubs"
-version = "0.1.3"
-source = { registry = "https://pypi.thespacedevs.com/simple/" }
-sdist = { url = "https://files.pythonhosted.org/packages/c6/7a/0ce91b1507e1a88e104bddd2b64d47cc80a9eda53b7e74bb5a6038c926ae/pika-stubs-0.1.3.tar.gz", hash = "sha256:aaa78fa9f52eb3591b6073fbbe2607567405d1857be268d447bea252e22dd6cf", size = 15155 }
-
-[[package]]
 name = "pluggy"
 version = "1.5.0"
 source = { registry = "https://pypi.thespacedevs.com/simple/" }
@@ -1450,7 +1444,7 @@ wheels = [
 
 [[package]]
 name = "snapy"
-version = "4.17.0rc1"
+version = "4.17.0rc2"
 source = { editable = "." }
 dependencies = [
     { name = "boto3" },
@@ -1485,7 +1479,6 @@ dev = [
     { name = "django-filter-stubs" },
     { name = "djangorestframework-stubs", extra = ["compatible-mypy"] },
     { name = "mypy" },
-    { name = "pika-stubs" },
     { name = "pytest" },
     { name = "pytest-codspeed" },
     { name = "pytest-cov" },
@@ -1530,7 +1523,6 @@ dev = [
     { name = "django-filter-stubs", specifier = ">=0.1.3" },
     { name = "djangorestframework-stubs", extras = ["compatible-mypy"], specifier = ">=3.14.0,<3.15.0" },
     { name = "mypy", specifier = ">=1.7.0,<1.8.0" },
-    { name = "pika-stubs", specifier = ">=0.1.3" },
     { name = "pytest", specifier = ">=8.3.3" },
     { name = "pytest-codspeed", specifier = ">=2.2.1" },
     { name = "pytest-cov", specifier = ">=5.0.0" },
