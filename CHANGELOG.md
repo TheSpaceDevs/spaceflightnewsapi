@@ -1,6 +1,19 @@
 # CHANGELOG
 
 
+## v4.17.0-rc.2 (2024-11-29)
+
+### Bug Fixes
+
+- Update commit message format for semantic release
+  ([`25a90a2`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/25a90a2210c3357039476e358cd931037d803a0f))
+
+### Chores
+
+- Update harvester to 0.10.0
+  ([`97dd87e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/97dd87e5b40ce930a9e1f0600165e35e5b5ed157))
+
+
 ## v4.17.0-rc.1 (2024-11-29)
 
 ### Features
