@@ -27,6 +27,7 @@ dependencies = [
     "sentry-sdk>=2.14.0",
     "uritemplate>=4.1.1",
     "harvester>=0.9.0",
+    "graphene-django>=3.2.2",
 ]
 
 [tool.uv]
