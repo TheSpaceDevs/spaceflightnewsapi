@@ -111,6 +111,8 @@ TEMPLATES = [
     },
 ]
 
+JET_DEFAULT_THEME = "dark"
+
 WSGI_APPLICATION = "snapy.wsgi.application"
 
 # Database
@@ -208,7 +210,6 @@ HEALTH_CHECK = {
         "liveness-probe": ["DatabaseBackend"],
     },
 }
-
 
 GRAPHENE = {
     "SCHEMA": "snapy.schema.schema",
