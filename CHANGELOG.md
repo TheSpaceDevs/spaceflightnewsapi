@@ -1,60 +1,6 @@
 # CHANGELOG
 
 
-## v4.17.0-rc.2 (2024-11-29)
-
-### Bug Fixes
-
-- Update commit message format for semantic release
-  ([`25a90a2`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/25a90a2210c3357039476e358cd931037d803a0f))
-
-### Chores
-
-- Update harvester to 0.10.0
-  ([`97dd87e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/97dd87e5b40ce930a9e1f0600165e35e5b5ed157))
-
-
-## v4.17.0-rc.1 (2024-11-29)
-
-### Features
-
-- Add graphql ([#3632](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3632),
-  [`e9173ec`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/e9173eca24bcd095bf9443ed53381fb965b852ea))
-
-* feat: add GraphQL support with schema and queries for articles, blogs, and reports
-
-* feat: extend GraphQL schema to include Launch and Event types with new queries for articles and
-  blogs by news site, launch, and event
-
-* refactor: remove logging configuration from settings.py
-
-* feat: add NewsSite type to GraphQL schema and fix typo in LaunchType fields
-
-* feat: implement GraphQL types and queries for Article, Blog, Report, Launch, Event, and NewsSite
-
-* feat: update GraphQL types to use custom filter classes for Article, Blog, and Report
-
-* feat: enhance article and blog queries with ordering by published date
-
-* fix: remove ordering from all_articles query in GraphQL schema
-
-* chore: sync pyproject
-
-* chore: ignore type beceause it's not available
-
-- Add Python Semantic Release
-  ([#3631](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3631),
-  [`63556ea`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/63556ea8e5aa82ba51a6611650472e4f32f3de6c))
-
-* feat: added commitizen
-
-* feat: added config for commitizen
-
-* feat: added psr config
-
-* feat: add GitHub Actions workflow for semantic release
-
-
 ## v4.16.4 (2024-11-22)
 
 ### Chores
