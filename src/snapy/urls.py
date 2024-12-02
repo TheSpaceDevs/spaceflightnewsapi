@@ -23,12 +23,14 @@ from django.views.decorators.csrf import csrf_exempt
 from graphene_django.views import GraphQLView  # type: ignore
 
 urlpatterns = [
+    # Jet URLs
     re_path(r"^v4/jet/dashboard/", include("jet.dashboard.urls", "jet-dashboard")),  # Django JET dashboard URLS
     re_path(r"^v4/jet/", include("jet.urls", "jet")),  # Django JET URLS
+    # GraphQL URLs
     re_path(r"^v4/graphql/", csrf_exempt(GraphQLView.as_view(graphiql=True))),
+    # API URLs
     re_path(r"^v4/", include(("api.urls", "api"), namespace="v4")),
     # Non v4 URLs
     re_path(r"health/", include("health_check.urls")),
-    re_path(r"admin/", admin.site.urls),
     re_path(r"admin/", admin.site.urls),
 ]
