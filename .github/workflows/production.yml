@@ -38,7 +38,7 @@ jobs:
           token: ${{ secrets.PAT }}  # https://github.com/actions/checkout?tab=readme-ov-file#checkout-multiple-repos-private
 
       - name: Helm 3
-        uses: WyriHaximus/github-action-helm3@v4.0.1
+        uses: WyriHaximus/github-action-helm3@v4.0.2
         with:
           kubeconfig: '${{ secrets.KUBECONFIG }}'
           overrule_existing_kubeconfig: "true"
