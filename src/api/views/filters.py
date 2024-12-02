@@ -8,6 +8,7 @@ from django_filters import (
     FilterSet,
     IsoDateTimeFilter,
     NumberFilter,
+    OrderingFilter,
     UUIDFilter,
 )
 from rest_framework import filters
@@ -98,6 +99,21 @@ class ContainsAllFilter(CharFilter):
         return queryset.filter(q)
 
 
+class OrderingFilterWithLabel(OrderingFilter):
+    def __init__(self, **kwargs: Any) -> None:
+        self.fields = kwargs.get("fields")
+
+        assert self.fields, "The 'fields' argument is required."
+
+        # Itterate over the tupple, generating a string of all first elements, including negative ones.
+        fields = ", ".join([f"{field[0]}, -{field[0]}" for field in self.fields])
+
+        super().__init__(
+            label=f"Order the result on `{fields}`.",
+            **kwargs,
+        )
+
+
 class BaseFilter(FilterSet):
     title_contains = CharFilter(
         field_name="title",
@@ -154,6 +170,16 @@ class BaseFilter(FilterSet):
         field_name="updated_at",
         lookup_expr="lt",
         label="Get all documents updated before a given ISO8601 " "timestamp (excluded).",
+    )
+
+    ordering = OrderingFilterWithLabel(
+        fields=(
+            (
+                "published_at",
+                "published_at",
+            ),
+            ("updated_at", "updated_at"),
+        ),
     )
 
 
