@@ -15,6 +15,10 @@ class ArticleType(DjangoObjectType):
         filterset_class = DocsFilter
         interfaces = (relay.Node,)
 
+    @classmethod
+    def get_queryset(cls, queryset, info):
+        return queryset.order_by("-published_at")
+
 
 class BlogType(DjangoObjectType):
     class Meta:
@@ -23,6 +27,10 @@ class BlogType(DjangoObjectType):
         filterset_class = DocsFilter
         interfaces = (relay.Node,)
 
+    @classmethod
+    def get_queryset(cls, queryset, info):
+        return queryset.order_by("-published_at")
+
 
 class ReportType(DjangoObjectType):
     class Meta:
@@ -30,6 +38,10 @@ class ReportType(DjangoObjectType):
         exclude = ["is_deleted"]
         filterset_class = BaseFilter
         interfaces = (relay.Node,)
+
+    @classmethod
+    def get_queryset(cls, queryset, info):
+        return queryset.order_by("-published_at")
 
 
 class LaunchType(DjangoObjectType):
