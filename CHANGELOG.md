@@ -1,6 +1,25 @@
 # CHANGELOG
 
 
+## v4.17.0 (2024-12-03)
+
+### Chores
+
+- Set the default ordering for graphql
+  ([`66f61db`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/66f61db8d7cc7b63d8f62430fa076ceae78059d2))
+
+- Url cleanup
+  ([`241e0d1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/241e0d16a91ba9fdbdbf45974d804ed486d7081f))
+
+### Features
+
+- Move admin to non-v4 url
+  ([`f1e931f`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f1e931f027f031b97d1d81a2e1c8b4f50be97d10))
+
+- Move admin to non-v4 url
+  ([`1e3959c`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/1e3959cfe46efb0664c19d9f7a704c47c086859f))
+
+
 ## v4.17.0-rc.1 (2024-12-02)
 
 ### Chores
