@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v4.17.1 (2024-12-05)
+
+### Bug Fixes
+
+- Add order_by to queryset
+  ([`e96ca9b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/e96ca9b65b790af4b5200855b2f2af205308ab0a))
+
+
 ## v4.17.0 (2024-12-03)
 
 ### Chores
