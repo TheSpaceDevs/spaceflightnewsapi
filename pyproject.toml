@@ -28,6 +28,8 @@ dependencies = [
     "uritemplate>=4.1.1",
     "harvester>=0.10.0",
     "graphene-django>=3.2.2",
+    "redis>=5.2.0",
+    "hiredis>=3.1.0",
 ]
 
 [tool.uv]
