@@ -75,8 +75,10 @@ INSTALLED_APPS = [
     "drf_spectacular",
     "storages",
     "health_check",
+    "health_check.cache",
     "health_check.db",
     "health_check.contrib.s3boto3_storage",
+    "health_check.contrib.redis",
     "graphene_django",
 ]
 
@@ -211,7 +213,7 @@ LL_TOKEN = env.str("LL_TOKEN", "")
 
 HEALTH_CHECK = {
     "SUBSETS": {
-        "startup-probe": ["MigrationsHealthCheck", "DatabaseBackend"],
+        "startup-probe": ["MigrationsHealthCheck", "DatabaseBackend", "CacheBackend"],
         "liveness-probe": ["DatabaseBackend"],
     },
 }
