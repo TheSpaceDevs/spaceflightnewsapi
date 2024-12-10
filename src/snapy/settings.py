@@ -80,9 +80,11 @@ INSTALLED_APPS = [
     "health_check.contrib.s3boto3_storage",
     "health_check.contrib.redis",
     "graphene_django",
+    "debug_toolbar",
 ]
 
 MIDDLEWARE = [
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -230,3 +232,7 @@ CACHES = {
         "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
     }
 }
+
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
