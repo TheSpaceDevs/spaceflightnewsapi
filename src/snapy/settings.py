@@ -194,6 +194,8 @@ SPECTACULAR_SETTINGS = {
     "TITLE": "Spaceflight News API",
     "DESCRIPTION": "The Spaceflight News API (SNAPI) is a product by [The Space Devs](https://thespacedevs.com) (TSD). It's the most complete and up-to-date spaceflight news API currently available."
     "\n\nWhile this API is **free to use**, we do encourage developers to support us through [Patreon](https://www.patreon.com/TheSpaceDevs) to keep the API up and running."
+    "\n\n ### GraphQL"
+    "\n\n The Spaceflight News API also has GraphQL support available! You can find the GraphiQl IDE [here](https://api.spaceflightnewsapi.net/v4/graphql/)."
     "\n\n ### FAQs & Tutorials"
     "\n\n - [GitHub repository](https://github.com/TheSpaceDevs/Tutorials/): contains FAQs and tutorials for TSD APIs"
     "\n\n - [TSD FAQ](https://github.com/TheSpaceDevs/Tutorials/blob/main/faqs/faq_TSD.md): TSD-specific FAQ (e.g. history, network, funding, etc.)"
