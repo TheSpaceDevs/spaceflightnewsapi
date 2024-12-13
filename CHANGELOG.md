@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v4.18.0-rc.3 (2024-12-13)
+
+### Features
+
+- Conditionally add debug toolbar to installed apps in development mode
+  ([`2338cc7`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2338cc7513c67b49d58611b812bd5e0a53aa1c19))
+
+
 ## v4.18.0-rc.2 (2024-12-13)
 
 ### Features
