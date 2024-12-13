@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v4.18.0-rc.4 (2024-12-13)
+
+### Features
+
+- Conditionally include debug toolbar middleware and URLs in development mode
+  ([`3fc5178`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3fc5178bed8c69ebe3e500a3a5092c844fd6dc4f))
+
+
 ## v4.18.0-rc.3 (2024-12-13)
 
 ### Features
