@@ -83,6 +83,9 @@ INSTALLED_APPS = [
     "debug_toolbar",
 ]
 
+if DEBUG:
+    INSTALLED_APPS.append("debug_toolbar")
+
 MIDDLEWARE = [
     "debug_toolbar.middleware.DebugToolbarMiddleware",
     "corsheaders.middleware.CorsMiddleware",
