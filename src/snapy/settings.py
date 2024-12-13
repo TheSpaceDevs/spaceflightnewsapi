@@ -80,9 +80,11 @@ INSTALLED_APPS = [
     "health_check.contrib.s3boto3_storage",
     "health_check.contrib.redis",
     "graphene_django",
+    "debug_toolbar",
 ]
 
 MIDDLEWARE = [
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -188,6 +190,12 @@ REST_FRAMEWORK = {
     "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "DEFAULT_VERSIONING_CLASS": "rest_framework.versioning.NamespaceVersioning",
+    'DEFAULT_THROTTLE_CLASSES': [
+        'rest_framework.throttling.AnonRateThrottle',
+    ],
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '5/second',
+    }
 }
 
 SPECTACULAR_SETTINGS = {
@@ -230,3 +238,7 @@ CACHES = {
         "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
     }
 }
+
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
