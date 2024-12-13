@@ -80,8 +80,7 @@ INSTALLED_APPS = [
     "health_check.contrib.s3boto3_storage",
     "health_check.contrib.redis",
     "graphene_django",
-    "debug_toolbar",
-]
+    ]
 
 if DEBUG:
     INSTALLED_APPS.append("debug_toolbar")
