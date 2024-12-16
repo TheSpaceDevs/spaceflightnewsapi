@@ -12,6 +12,7 @@ from jet.filters import RelatedFieldAjaxListFilter  # type: ignore
 
 from api.models import Article, Blog, Event, Launch, NewsSite, Provider, Report
 from api.models.abc import NewsItem
+from api.models.author import Author
 
 
 class ArticleForm(forms.ModelForm[NewsItem]):
@@ -40,6 +41,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         ("news_site", RelatedFieldAjaxListFilter),
         ("launches", RelatedFieldAjaxListFilter),
         ("events", RelatedFieldAjaxListFilter),
+        ("authors", RelatedFieldAjaxListFilter),
         "published_at",
         "featured",
         "is_deleted",
@@ -51,6 +53,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     ]
     fields = [
         "title",
+        "authors",
         "url",
         "image_url",
         "news_site",
@@ -201,6 +204,7 @@ class LaunchAdmin(admin.ModelAdmin[Launch]):
 
 
 admin.site.register(Provider)
+admin.site.register(Author)
 
 # Other customizations
 admin.site.site_title = "SNAPI Admin"
