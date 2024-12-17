@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v4.17.2 (2024-12-17)
+
+### Bug Fixes
+
+- Update harvester for correct url quotation
+  ([`9f8fae6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9f8fae6cbf74784b8028dcbc874d55677a1efd26))
+
+
 ## v4.17.1 (2024-12-05)
 
 ### Bug Fixes
