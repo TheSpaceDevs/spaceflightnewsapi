@@ -10,8 +10,9 @@ from django.utils.safestring import SafeString
 # ignore the type error as it seems there's no package for it
 from jet.filters import RelatedFieldAjaxListFilter  # type: ignore
 
-from api.models import Article, Blog, Event, Launch, NewsSite, Provider, Report
+from api.models import Article, Blog, Event, Launch, NewsSite, Provider, Report, Socials
 from api.models.abc import NewsItem
+from api.models.author import Author
 
 
 class ArticleForm(forms.ModelForm[NewsItem]):
@@ -40,6 +41,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         ("news_site", RelatedFieldAjaxListFilter),
         ("launches", RelatedFieldAjaxListFilter),
         ("events", RelatedFieldAjaxListFilter),
+        ("authors", RelatedFieldAjaxListFilter),
         "published_at",
         "featured",
         "is_deleted",
@@ -51,6 +53,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     ]
     fields = [
         "title",
+        "authors",
         "url",
         "image_url",
         "news_site",
@@ -200,7 +203,13 @@ class LaunchAdmin(admin.ModelAdmin[Launch]):
     search_fields = ["name", "launch_id"]
 
 
+@admin.register(Socials)
+class SocialsAdmin(admin.ModelAdmin[Socials]):
+    list_display = ("x", "youtube", "instagram")
+
+
 admin.site.register(Provider)
+admin.site.register(Author)
 
 # Other customizations
 admin.site.site_title = "SNAPI Admin"

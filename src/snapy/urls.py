@@ -17,6 +17,7 @@ Including another URLconf
 
 """
 
+from django.conf import settings
 from django.contrib import admin
 from django.urls import include, re_path
 from django.views.decorators.csrf import csrf_exempt
@@ -34,3 +35,8 @@ urlpatterns = [
     re_path(r"health/", include("health_check.urls")),
     re_path(r"admin/", admin.site.urls),
 ]
+
+if settings.DEBUG:
+    from debug_toolbar.toolbar import debug_toolbar_urls  # type: ignore
+
+    urlpatterns += debug_toolbar_urls()

@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch Django App",
+            "program": "${workspaceFolder}/src/manage.py",
+            "args": [
+                "runserver",
+                "0.0.0.0:8000"
+            ],
+            "django": true
+        }
+    ]
+}

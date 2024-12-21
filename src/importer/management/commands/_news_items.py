@@ -1,18 +1,36 @@
 import logging
 import time
+from functools import lru_cache
 
 from harvester import sources
 from harvester.schemas import ArticleSchema, BlogSchema, ReportSchema
 
-from api.models import Article, Blog, NewsSite, Report
+from api.models import Article, Author, Blog, NewsSite, Report
 
 logger = logging.getLogger(__name__)
-news_sites = NewsSite.objects.all()
+
+
+@lru_cache
+def _get_author(author_name: str) -> Author:
+    author_name = author_name.strip()
+    author = Author.objects.filter(name=author_name).first()
+    if not author:
+        logger.info(f"Adding author: {author_name}")
+        author = Author.objects.create(name=author_name)
+
+    return author
+
+
+@lru_cache
+def _get_news_site(id: int) -> NewsSite:
+    news_site = NewsSite.objects.get(id=id)
+    return news_site
 
 
 def process_article(article: ArticleSchema) -> None:
     # Get the news site
-    news_site = news_sites.get(id=article.news_site_id)
+    news_site = _get_news_site(id=article.news_site_id)
+    author = _get_author(author_name=article.author)
 
     # Check if the article already exists
     if Article.objects.filter(url=article.url).exists():
@@ -22,7 +40,7 @@ def process_article(article: ArticleSchema) -> None:
     logger.info(f"Adding article: {article.title}")
 
     # Create the article
-    Article.objects.create(
+    new_article = Article.objects.create(
         title=article.title,
         url=article.url,
         news_site=news_site,
@@ -31,10 +49,13 @@ def process_article(article: ArticleSchema) -> None:
         image_url=article.image_url,
     )
 
+    new_article.authors.add(author)
+
 
 def process_blog(blog: BlogSchema) -> None:
     # Get the news site
-    news_site = news_sites.get(id=blog.news_site_id)
+    news_site = _get_news_site(id=blog.news_site_id)
+    author = _get_author(author_name=blog.author)
 
     # Check if the blog already exists
     if Blog.objects.filter(url=blog.url).exists():
@@ -44,7 +65,7 @@ def process_blog(blog: BlogSchema) -> None:
     logger.info(f"Adding blog: {blog.title}")
 
     # Create the blog
-    Blog.objects.create(
+    new_blog = Blog.objects.create(
         title=blog.title,
         url=blog.url,
         news_site=news_site,
@@ -53,10 +74,13 @@ def process_blog(blog: BlogSchema) -> None:
         image_url=blog.image_url,
     )
 
+    new_blog.authors.add(author)
+
 
 def process_report(report: ReportSchema) -> None:
     # Get the news site
-    news_site = news_sites.get(id=report.news_site_id)
+    news_site = _get_news_site(id=report.news_site_id)
+    author = _get_author(author_name=report.author)
 
     # Check if the report already exists
     if Report.objects.filter(url=report.url).exists():
@@ -66,7 +90,7 @@ def process_report(report: ReportSchema) -> None:
     logger.info(f"Adding report: {report.title}")
 
     # Create the report
-    Report.objects.create(
+    new_report = Report.objects.create(
         title=report.title,
         url=report.url,
         news_site=news_site,
@@ -74,6 +98,8 @@ def process_report(report: ReportSchema) -> None:
         summary=report.summary,
         image_url=report.image_url,
     )
+
+    new_report.authors.add(author)
 
 
 def fetch_news() -> None:
