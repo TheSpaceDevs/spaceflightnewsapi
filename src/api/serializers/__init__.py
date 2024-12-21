@@ -6,6 +6,7 @@ from api.serializers.info_serializer import InfoSerializer
 from api.serializers.launch_serializer import LaunchSerializer
 from api.serializers.news_site_serializer import NewsSiteSerializer
 from api.serializers.report_serializer import ReportSerializer
+from api.serializers.socials_serializer import SocialsSerializer
 
 __all__ = [
     "ArticleSerializer",
@@ -13,6 +14,7 @@ __all__ = [
     "BlogSerializer",
     "EventSerializer",
     "LaunchSerializer",
+    "SocialsSerializer",
     "NewsSiteSerializer",
     "ReportSerializer",
     "InfoSerializer",
