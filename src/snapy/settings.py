@@ -236,12 +236,13 @@ GRAPHENE = {
     "SCHEMA": "snapy.schema.schema",
 }
 
-CACHES = {
-    "default": {
-        "BACKEND": "django.core.cache.backends.redis.RedisCache",
-        "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
+if not DEBUG:
+    CACHES = {
+        "default": {
+            "BACKEND": "django.core.cache.backends.redis.RedisCache",
+            "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
+        }
     }
-}
 
 INTERNAL_IPS = [
     "127.0.0.1",
