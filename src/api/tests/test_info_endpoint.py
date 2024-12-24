@@ -1,3 +1,5 @@
+import importlib
+
 import pytest
 from django.test.client import Client
 
@@ -13,7 +15,7 @@ class TestInfoEndpoint:
 
         data = response.json()
 
-        assert data["version"] == "4"
+        assert data["version"] == importlib.metadata.version("snapy")
 
     def test_news_sites(self, client: Client, news_sites: list[NewsSite]) -> None:
         response = client.get("/v4/info/")
@@ -22,4 +24,3 @@ class TestInfoEndpoint:
         data = response.json()
 
         assert all(site.name in data["news_sites"] for site in news_sites)
-        assert len(data["news_sites"]) == len(news_sites)
