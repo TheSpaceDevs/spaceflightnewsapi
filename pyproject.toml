@@ -73,7 +73,7 @@ DJANGO_SETTINGS_MODULE = "snapy.settings"
 env = [
     "SECRET_KEY=dummy-secret-key",
     "DATABASE_URL=sqlite://:memory:",
-    "SNAPI_VERSION=v1.2.3",
+    "DEBUG=True",
 ]
 
 [build-system]
