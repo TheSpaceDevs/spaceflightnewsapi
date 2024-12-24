@@ -2,6 +2,7 @@ from typing import Any
 
 from django.db import models
 
+from api.models.author import Author
 from api.models.event import Event
 from api.models.launch import Launch
 from api.models.news_site import NewsSite
@@ -19,6 +20,7 @@ class NewsItem(models.Model):
     launches = models.ManyToManyField(Launch, blank=True)
     events = models.ManyToManyField(Event, blank=True)
     is_deleted = models.BooleanField(default=False)
+    authors = models.ManyToManyField(Author, blank=True)
 
     class Meta:
         abstract = True

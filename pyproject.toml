@@ -26,7 +26,7 @@ dependencies = [
     "pyyaml>=6.0.2",
     "sentry-sdk>=2.14.0",
     "uritemplate>=4.1.1",
-    "harvester>=0.10.0",
+    "harvester>=0.12.0",
     "graphene-django>=3.2.2",
     "redis>=5.2.0",
     "hiredis>=3.1.0",
@@ -73,7 +73,7 @@ DJANGO_SETTINGS_MODULE = "snapy.settings"
 env = [
     "SECRET_KEY=dummy-secret-key",
     "DATABASE_URL=sqlite://:memory:",
-    "SNAPI_VERSION=v1.2.3",
+    "DEBUG=True",
 ]
 
 [build-system]

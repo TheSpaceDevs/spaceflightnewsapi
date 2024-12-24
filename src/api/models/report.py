@@ -2,6 +2,8 @@ from typing import Any
 
 from django.db import models
 
+from api.models.author import Author
+
 
 class Report(models.Model):
     title = models.CharField(max_length=250)
@@ -12,6 +14,7 @@ class Report(models.Model):
     published_at = models.DateTimeField()
     updated_at = models.DateTimeField(auto_now=True)
     is_deleted = models.BooleanField(default=False)
+    authors = models.ManyToManyField(Author, blank=True)
 
     class Meta:
         ordering = ["-published_at"]
