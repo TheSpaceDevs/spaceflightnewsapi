@@ -1,12 +1,51 @@
 # CHANGELOG
 
 
-## v4.17.2 (2024-12-17)
+## v4.18.0-rc.4 (2024-12-13)
 
-### Bug Fixes
+### Features
 
-- Update harvester for correct url quotation
-  ([`9f8fae6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9f8fae6cbf74784b8028dcbc874d55677a1efd26))
+- Conditionally include debug toolbar middleware and URLs in development mode
+  ([`3fc5178`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3fc5178bed8c69ebe3e500a3a5092c844fd6dc4f))
+
+
+## v4.18.0-rc.3 (2024-12-13)
+
+### Features
+
+- Conditionally add debug toolbar to installed apps in development mode
+  ([`2338cc7`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2338cc7513c67b49d58611b812bd5e0a53aa1c19))
+
+
+## v4.18.0-rc.2 (2024-12-13)
+
+### Features
+
+- Add debug toolbar to installed apps in development mode
+  ([`217d83b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/217d83b86452b8a6fb2d5e326779a96a880b4049))
+
+
+## v4.18.0-rc.1 (2024-12-13)
+
+### Features
+
+- Add cache health check to startup probe
+  ([`18abba4`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/18abba4f4b0eec582f5ecd3619431ab8fe78b4d3))
+
+- Add django-debug-toolbar for improved debugging support
+  ([`eeeda3c`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/eeeda3cf28ba3a46a1389083671d875118e31e88))
+
+- Add GraphQL support information to API description
+  ([`d63137d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d63137d368d7786b5c877d7fd2648fd73b934251))
+
+- Add launch configuration for debugging Django app in VSCode
+  ([`1379a8d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/1379a8d421e9139c6a4348aba0e16a311281cada))
+
+- Add throttling configuration for API requests
+  ([`9d71be1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9d71be10c676e8fdaf8ecf606d7848a7c24b599d))
+
+- Update API throttling settings to limit anonymous requests to 5 per second
+  ([`58a4761`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/58a47616e36c5f440396bede342b40a5392d37d9))
 
 
 ## v4.17.1 (2024-12-05)
@@ -15,6 +54,16 @@
 
 - Add order_by to queryset
   ([`e96ca9b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/e96ca9b65b790af4b5200855b2f2af205308ab0a))
+
+### Features
+
+- Add caching to the api
+  ([`b13e17f`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b13e17fadd4270ac6afb453b8a7641cc525125f5))
+
+feat: add caching to the api
+
+- Add Redis support and middleware configuration
+  ([`a139e06`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/a139e064fb29d538c7dca137c1141d54d032b7ed))
 
 
 ## v4.17.0 (2024-12-03)

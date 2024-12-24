@@ -75,10 +75,15 @@ INSTALLED_APPS = [
     "drf_spectacular",
     "storages",
     "health_check",
+    "health_check.cache",
     "health_check.db",
     "health_check.contrib.s3boto3_storage",
+    "health_check.contrib.redis",
     "graphene_django",
-]
+    ]
+
+if DEBUG:
+    INSTALLED_APPS.append("debug_toolbar")
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
@@ -89,7 +94,13 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "django.middleware.cache.UpdateCacheMiddleware",
+    "django.middleware.common.CommonMiddleware",
+    "django.middleware.cache.FetchFromCacheMiddleware",
 ]
+
+if DEBUG:
+    MIDDLEWARE.append("debug_toolbar.middleware.DebugToolbarMiddleware")
 
 ROOT_URLCONF = "snapy.urls"
 
@@ -183,12 +194,22 @@ REST_FRAMEWORK = {
     "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "DEFAULT_VERSIONING_CLASS": "rest_framework.versioning.NamespaceVersioning",
+    'DEFAULT_THROTTLE_CLASSES': [],
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '5/second',
+    }
 }
+
+# If we are testing, we don't want to throttle requests
+if not DEBUG:
+    REST_FRAMEWORK['DEFAULT_THROTTLE_CLASSES'].append('rest_framework.throttling.AnonRateThrottle')
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "Spaceflight News API",
     "DESCRIPTION": "The Spaceflight News API (SNAPI) is a product by [The Space Devs](https://thespacedevs.com) (TSD). It's the most complete and up-to-date spaceflight news API currently available."
     "\n\nWhile this API is **free to use**, we do encourage developers to support us through [Patreon](https://www.patreon.com/TheSpaceDevs) to keep the API up and running."
+    "\n\n ### GraphQL"
+    "\n\n The Spaceflight News API also has GraphQL support available! You can find the GraphiQl IDE [here](https://api.spaceflightnewsapi.net/v4/graphql/)."
     "\n\n ### FAQs & Tutorials"
     "\n\n - [GitHub repository](https://github.com/TheSpaceDevs/Tutorials/): contains FAQs and tutorials for TSD APIs"
     "\n\n - [TSD FAQ](https://github.com/TheSpaceDevs/Tutorials/blob/main/faqs/faq_TSD.md): TSD-specific FAQ (e.g. history, network, funding, etc.)"
@@ -208,7 +229,7 @@ LL_TOKEN = env.str("LL_TOKEN", "")
 
 HEALTH_CHECK = {
     "SUBSETS": {
-        "startup-probe": ["MigrationsHealthCheck", "DatabaseBackend"],
+        "startup-probe": ["MigrationsHealthCheck", "DatabaseBackend", "CacheBackend"],
         "liveness-probe": ["DatabaseBackend"],
     },
 }
@@ -216,3 +237,15 @@ HEALTH_CHECK = {
 GRAPHENE = {
     "SCHEMA": "snapy.schema.schema",
 }
+
+if not DEBUG:
+    CACHES = {
+        "default": {
+            "BACKEND": "django.core.cache.backends.redis.RedisCache",
+            "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
+        }
+    }
+
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
