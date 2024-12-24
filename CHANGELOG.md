@@ -1,6 +1,79 @@
 # CHANGELOG
 
 
+## v4.18.0-rc.5 (2024-12-24)
+
+### Chores
+
+- Enable DEBUG mode in GitHub Actions workflow
+  ([`f119885`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f11988591bff600ef4c702ddd62806e4f8d6af11))
+
+- Merge branch 'main' into add-authors
+  ([`f2e0736`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f2e073642ca1b0734a0c833c0bb61f3d10133c3b))
+
+- Remove the static version during testing
+  ([`bfed4cd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/bfed4cd980586b61ade61e6981882680e5832f03))
+
+- Use DEBUG when testing
+  ([`8366f98`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/8366f9818e06fda1f13e8b3482ba8416ed1f4430))
+
+- **deps**: Bump astral-sh/setup-uv from 4 to 5
+  ([`dc46b81`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/dc46b81b17ea43c897453d0d926a34ca68ce3462))
+
+Bumps [astral-sh/setup-uv](https://github.com/astral-sh/setup-uv) from 4 to 5. - [Release
+  notes](https://github.com/astral-sh/setup-uv/releases) -
+  [Commits](https://github.com/astral-sh/setup-uv/compare/v4...v5)
+
+--- updated-dependencies: - dependency-name: astral-sh/setup-uv dependency-type: direct:production
+
+update-type: version-update:semver-major
+
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+### Features
+
+- Add author and their socials
+  ([`6838bfb`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6838bfb80b96b462e6d3ec52194df5c956ae3f90))
+
+- Add authors from the import to the article models
+  ([`af0c110`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/af0c110d6e7bb882f82d67d9a3619a5c5dd55537))
+
+- Add VSCode settings for pytest configuration
+  ([`6d0d03e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6d0d03e80212e0cb6a5d59611d9c509744b022c8))
+
+- Disable request throttling during testing
+  ([`c4dd2b6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c4dd2b6121a8429106070b84eca87dcc482227a1))
+
+- Only use cache when not in DEBUG
+  ([`f5668f3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f5668f36238b6e754a2404eb7e4767f1e33c2e42))
+
+- Update version assertion in test_info_endpoint to use dynamic version retrieval
+  ([`5517022`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5517022f14402bf1043c2f76780f11fb40cdc597))
+
+### Testing
+
+- Skip failing version test during testing phase
+  ([`41134d5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/41134d549b57133376914c7357fb4664d61235ed))
+
+
+## v4.17.2 (2024-12-17)
+
+### Bug Fixes
+
+- Correct debug toolbar URL
+  ([`92bf69c`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/92bf69c741331de5dea66fc1770ab4d6b0dbb213))
+
+- Update harvester for correct url quotation
+  ([`9f8fae6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9f8fae6cbf74784b8028dcbc874d55677a1efd26))
+
+### Features
+
+- Add authors to the news items
+  ([`3b6cec7`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3b6cec79105d796a79e499ae53240000454bfaf4))
+
+
 ## v4.18.0-rc.4 (2024-12-13)
 
 ### Features
