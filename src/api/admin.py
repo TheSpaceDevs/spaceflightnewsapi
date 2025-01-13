@@ -77,7 +77,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     @staticmethod
     def thumbnail(obj: NewsItem) -> SafeString:
         """Returns the publication image as an interactive thumbnail."""
-        return format_html('<img loading="lazy" src="{}" width="{}%" class="hover-image-detail"/>', obj.image_url, 15)
+        return format_html('<img loading="lazy" src="{}" width=50px class="hover-image-list"/>', obj.image_url)
 
     @staticmethod
     @admin.display(
@@ -180,7 +180,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     @admin.display(description="Image")
     def image_tag(obj: NewsItem) -> SafeString:
         """Returns the image of the article."""
-        return format_html('<img loading="lazy" src="{}" width=50%/>', obj.image_url)
+        return format_html('<img loading="lazy" src="{}" width=50% class="hover-image-detail"/>', obj.image_url)
 
     def changelist_view(self, request: HttpRequest, extra_context: dict[str, str] | None = None) -> HttpResponse:
         """Customize the title of the article admin view."""
