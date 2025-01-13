@@ -104,7 +104,8 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     def authors_formatted(obj: NewsItem) -> SafeString:
         """Returns the authors as a list of hyperlinks."""
         authors_list = [
-            resolve_url(admin_urlname(Author._meta, format_html("change")), author.id) for author in obj.authors.all()
+            f'<a href="{resolve_url(admin_urlname(Author._meta, format_html("change")), author.id)}">{author.name}</a>'
+            for author in obj.authors.all()
         ]
         string = [authors_list[i : i + 3] for i in range(0, len(authors_list), 3)]  # Group into lines of up to 3 authors
         split_string = "<br>".join([", ".join(line) for line in string])  # Format each line and join with <br>
