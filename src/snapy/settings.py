@@ -162,7 +162,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
-if env.bool("USE_S3", False):
+if env.str("AWS_ACCESS_KEY_ID", None):
     AWS_QUERYSTRING_AUTH = False
     AWS_ACCESS_KEY_ID = env.str("AWS_ACCESS_KEY_ID")
     AWS_SECRET_ACCESS_KEY = env.str("AWS_SECRET_ACCESS_KEY")
