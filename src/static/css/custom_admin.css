@@ -1,0 +1,15 @@
+.hover-image-list {
+    transition: transform 0.7s ease;
+}
+
+.hover-image-list:hover {
+    transform: scale(5); /* Increases size by 5 times */
+}
+
+.hover-image-detail {
+    transition: width 0.7s ease;
+}
+
+.hover-image-detail:hover {
+    width: 60%; /* Increases width by 60% */
+}

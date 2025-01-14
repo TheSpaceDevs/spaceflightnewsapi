@@ -3,3 +3,6 @@
 {% block extrahead %}
     <link rel="shortcut icon" href="{% static 'api/images/favicon.ico' %}" />
 {% endblock %}
+{% block html %}{{ block.super }}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/custom_admin.css' %}">
+{% endblock %}

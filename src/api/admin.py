@@ -2,17 +2,18 @@
 
 from django import forms
 from django.contrib import admin
+from django.contrib.admin.templatetags.admin_urls import admin_urlname
 from django.db.models import QuerySet
 from django.http import HttpRequest, HttpResponse
+from django.shortcuts import resolve_url
 from django.utils.html import format_html
 from django.utils.safestring import SafeString
 
 # ignore the type error as it seems there's no package for it
 from jet.filters import RelatedFieldAjaxListFilter  # type: ignore
 
-from api.models import Article, Blog, Event, Launch, NewsSite, Provider, Report, Socials
+from api.models import Article, Author, Blog, Event, Launch, NewsSite, Provider, Report, Socials
 from api.models.abc import NewsItem
-from api.models.author import Author
 
 
 class ArticleForm(forms.ModelForm[NewsItem]):
@@ -30,8 +31,10 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     form = ArticleForm
     list_display = (
         "title",
+        "thumbnail",
         "published_at_formatted",
         "news_site_formatted",
+        "authors_formatted",
         "assigned_launches",
         "assigned_events",
         "featured_formatted",
@@ -72,6 +75,11 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         return qs
 
     @staticmethod
+    def thumbnail(obj: NewsItem) -> SafeString:
+        """Returns the publication image as an interactive thumbnail."""
+        return format_html('<img loading="lazy" src="{}" width=50px class="hover-image-list"/>', obj.image_url)
+
+    @staticmethod
     @admin.display(
         ordering="-published_at",
         description="Published at",
@@ -88,6 +96,20 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     def news_site_formatted(obj: NewsItem) -> SafeString:
         """Returns the news site as a hyperlink to the article page."""
         return format_html('<a href="{}">{}</a>', obj.url, obj.news_site)
+
+    @staticmethod
+    @admin.display(
+        description="Authors",
+    )
+    def authors_formatted(obj: NewsItem) -> SafeString:
+        """Returns the authors as a list of hyperlinks."""
+        authors_list = [
+            f'<a href="{resolve_url(admin_urlname(Author._meta, format_html("change")), author.id)}">{author.name}</a>'
+            for author in obj.authors.all()
+        ]
+        string = [authors_list[i : i + 3] for i in range(0, len(authors_list), 3)]  # Group into lines of up to 3 authors
+        split_string = "<br>".join([", ".join(line) for line in string])  # Format each line and join with <br>
+        return format_html(split_string)
 
     @staticmethod
     @admin.display(
@@ -159,7 +181,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     @admin.display(description="Image")
     def image_tag(obj: NewsItem) -> SafeString:
         """Returns the image of the article."""
-        return format_html('<img loading="lazy" src="{}" width=50%/>', obj.image_url)
+        return format_html('<img loading="lazy" src="{}" width=50% class="hover-image-detail"/>', obj.image_url)
 
     def changelist_view(self, request: HttpRequest, extra_context: dict[str, str] | None = None) -> HttpResponse:
         """Customize the title of the article admin view."""
