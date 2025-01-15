@@ -2,6 +2,7 @@ from django.db import models
 
 
 class Socials(models.Model):
+    name = models.CharField()
     x = models.URLField(blank=True)
     youtube = models.URLField(blank=True)
     instagram = models.URLField(blank=True)
@@ -13,4 +14,4 @@ class Socials(models.Model):
         verbose_name_plural = "Socials"
 
     def __str__(self) -> str:
-        return self.x
+        return self.name
