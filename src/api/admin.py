@@ -225,13 +225,9 @@ class LaunchAdmin(admin.ModelAdmin[Launch]):
     search_fields = ["name", "launch_id"]
 
 
-@admin.register(Socials)
-class SocialsAdmin(admin.ModelAdmin[Socials]):
-    list_display = ("x", "youtube", "instagram")
-
-
 admin.site.register(Provider)
 admin.site.register(Author)
+admin.site.register(Socials)
 
 # Other customizations
 admin.site.site_title = "SNAPI Admin"
