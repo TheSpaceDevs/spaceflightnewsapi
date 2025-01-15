@@ -102,6 +102,8 @@ MIDDLEWARE = [
 if DEBUG:
     MIDDLEWARE.append("debug_toolbar.middleware.DebugToolbarMiddleware")
 
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+
 ROOT_URLCONF = "snapy.urls"
 
 CORS_ORIGIN_ALLOW_ALL = True
