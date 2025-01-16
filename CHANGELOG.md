@@ -1,6 +1,39 @@
 # CHANGELOG
 
 
+## v4.18.0-rc.6 (2025-01-16)
+
+### Chores
+
+- Cleanup env variables
+  ([`292ff7d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/292ff7dc8c80cd031d768243bce475be29b32f25))
+
+- Package maintenance
+  ([`b82f28d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b82f28d559dc2f7526a64575cb6cd60fb17a3f1e))
+
+- Register Socials model in admin panel
+  ([`adcf83e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/adcf83eb5b45c212f6b63705d3a0f9bf261df09b))
+
+### Features
+
+- Add fields for bluesky, linkedin, and mastodon to socials model
+  ([`6bcc545`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6bcc54507da82f68720abde497cadac1dba1c1fc))
+
+- Add linkedin, mastodon, and bluesky fields to socials serializer
+  ([`d6a49c1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d6a49c16d22f4e1b1a1bd7e8fa4b5f356c89a019))
+
+- Add name field to socials model and update migration
+  ([`062f111`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/062f111e28084c6a253a46aee5fed36e0dcdeb6b))
+
+- Add X_FRAME_OPTIONS setting for enhanced security
+  ([`6df602e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6df602ef8e836d4c20efa635810cb36e6314f3e2))
+
+### Testing
+
+- Remove benchmark markers from article, info, and reports endpoint tests
+  ([`d227551`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d22755107322e97e1fe3341f59e5427a818daae5))
+
+
 ## v4.18.0-rc.5 (2024-12-24)
 
 ### Chores
@@ -51,6 +84,9 @@ Signed-off-by: dependabot[bot] <support@github.com>
 
 - Update version assertion in test_info_endpoint to use dynamic version retrieval
   ([`5517022`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5517022f14402bf1043c2f76780f11fb40cdc597))
+
+- **admin**: Untested attempt at adding thumbnails and authors to the NewsItem admin lists
+  ([`03680e6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/03680e6cbc7463de61334d1bcf85232e1fe56af2))
 
 ### Testing
 
