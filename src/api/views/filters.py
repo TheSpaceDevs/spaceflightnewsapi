@@ -103,7 +103,8 @@ class OrderingFilterWithLabel(OrderingFilter):
     def __init__(self, **kwargs: Any) -> None:
         self.fields = kwargs.get("fields")
 
-        assert self.fields, "The 'fields' argument is required."
+        if not self.fields:
+            raise AssertionError("The 'fields' argument is required.")
 
         # Itterate over the tupple, generating a string of all first elements, including negative ones.
         fields = ", ".join([f"{field[0]}, -{field[0]}" for field in self.fields])

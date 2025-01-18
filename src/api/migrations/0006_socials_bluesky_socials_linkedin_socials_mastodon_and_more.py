@@ -4,30 +4,29 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('api', '0005_add_author_and_socials'),
+        ("api", "0005_add_author_and_socials"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='socials',
-            name='bluesky',
+            model_name="socials",
+            name="bluesky",
             field=models.URLField(blank=True),
         ),
         migrations.AddField(
-            model_name='socials',
-            name='linkedin',
+            model_name="socials",
+            name="linkedin",
             field=models.URLField(blank=True),
         ),
         migrations.AddField(
-            model_name='socials',
-            name='mastodon',
+            model_name="socials",
+            name="mastodon",
             field=models.URLField(blank=True),
         ),
         migrations.AddField(
-            model_name='socials',
-            name='name',
+            model_name="socials",
+            name="name",
             field=models.CharField(),
             preserve_default=False,
         ),
