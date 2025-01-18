@@ -87,8 +87,7 @@ class ContainsAllFilter(CharFilter):
         super().__init__(
             field_name=self.field_name,
             method=self.filter_keywords,
-            label=f"Search for documents with a {self.field_name} "
-            f"containing all keywords from comma-separated values.",
+            label=f"Search for documents with a {self.field_name} containing all keywords from comma-separated values.",
         )
 
     def filter_keywords(self, queryset: QuerySet[Any], name: str, value: str) -> Any:
@@ -135,42 +134,42 @@ class BaseFilter(FilterSet):
     published_at_gte = IsoDateTimeFilter(
         field_name="published_at",
         lookup_expr="gte",
-        label="Get all documents published after a given " "ISO8601 timestamp (included).",
+        label="Get all documents published after a given ISO8601 timestamp (included).",
     )
     published_at_lte = IsoDateTimeFilter(
         field_name="published_at",
         lookup_expr="lte",
-        label="Get all documents published before a given ISO8601 " "timestamp (included).",
+        label="Get all documents published before a given ISO8601 timestamp (included).",
     )
     published_at_gt = IsoDateTimeFilter(
         field_name="published_at",
         lookup_expr="gt",
-        label="Get all documents published after a given ISO8601 " "timestamp (excluded).",
+        label="Get all documents published after a given ISO8601 timestamp (excluded).",
     )
     published_at_lt = IsoDateTimeFilter(
         field_name="published_at",
         lookup_expr="lt",
-        label="Get all documents published before a given ISO8601 " "timestamp (excluded).",
+        label="Get all documents published before a given ISO8601 timestamp (excluded).",
     )
     updated_at_gte = IsoDateTimeFilter(
         field_name="updated_at",
         lookup_expr="gte",
-        label="Get all documents updated after a given ISO8601 " "timestamp (included).",
+        label="Get all documents updated after a given ISO8601 timestamp (included).",
     )
     updated_at_lte = IsoDateTimeFilter(
         field_name="updated_at",
         lookup_expr="lte",
-        label="Get all documents updated before a given ISO8601 " "timestamp (included).",
+        label="Get all documents updated before a given ISO8601 timestamp (included).",
     )
     updated_at_gt = IsoDateTimeFilter(
         field_name="updated_at",
         lookup_expr="gt",
-        label="Get all documents updated after a given ISO8601 " "timestamp (excluded).",
+        label="Get all documents updated after a given ISO8601 timestamp (excluded).",
     )
     updated_at_lt = IsoDateTimeFilter(
         field_name="updated_at",
         lookup_expr="lt",
-        label="Get all documents updated before a given ISO8601 " "timestamp (excluded).",
+        label="Get all documents updated before a given ISO8601 timestamp (excluded).",
     )
 
     ordering = OrderingFilterWithLabel(
@@ -188,12 +187,12 @@ class DocsFilter(BaseFilter):
     launch = UUIDInFilter(
         field_name="launches__launch_id",
         lookup_expr="in",
-        help_text="Search for all documents related to a specific " "launch using its Launch Library 2 ID.",
+        help_text="Search for all documents related to a specific launch using its Launch Library 2 ID.",
     )
     event = NumberInFilter(
         field_name="events__event_id",
         lookup_expr="in",
-        help_text="Search for all documents related to a specific " "event using its Launch Library 2 ID.",
+        help_text="Search for all documents related to a specific event using its Launch Library 2 ID.",
     )
     has_launch = BooleanFilter(
         field_name="launches",
