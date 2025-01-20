@@ -32,6 +32,7 @@ jobs:
           mkdir test_results
           uv run ruff check .
           uv run ruff format --check .
+          uv run mypy .
 
   tests:
     runs-on: ubuntu-latest
