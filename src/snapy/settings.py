@@ -164,7 +164,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
-if env.str("AWS_ACCESS_KEY_ID", None):
+if env.bool("USE_S3_STATICFILES", False):
     AWS_QUERYSTRING_AUTH = False
     AWS_ACCESS_KEY_ID = env.str("AWS_ACCESS_KEY_ID")
     AWS_SECRET_ACCESS_KEY = env.str("AWS_SECRET_ACCESS_KEY")
@@ -196,17 +196,18 @@ REST_FRAMEWORK = {
     "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "DEFAULT_VERSIONING_CLASS": "rest_framework.versioning.NamespaceVersioning",
-    'DEFAULT_THROTTLE_CLASSES': [
-        'rest_framework.throttling.AnonRateThrottle'
-    ],
-    'DEFAULT_THROTTLE_RATES': {
-        'anon': '5/second',
-    }
 }
 
-# If we are testing, we don't want to throttle requests
-if DEBUG:
-    REST_FRAMEWORK['DEFAULT_THROTTLE_CLASSES'] = []
+
+if env.bool("ENABLE_THROTTLE", False):
+    REST_FRAMEWORK['DEFAULT_THROTTLE_CLASSES'] = [
+        'rest_framework.throttling.AnonRateThrottle'
+    ]
+
+    REST_FRAMEWORK['DEFAULT_THROTTLE_RATES'] = {
+        'anon': '5/second',
+    }
+
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "Spaceflight News API",
@@ -242,17 +243,16 @@ GRAPHENE = {
     "SCHEMA": "snapy.schema.schema",
 }
 
-CACHES = {
-        "default": {
-            "BACKEND": "django.core.cache.backends.redis.RedisCache",
-            "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
-        }
-    }
+
 
 # Turn off cache when running in debug mode
-if DEBUG:
-    CACHES = {}
-    
+if env.bool("ENABLE_CACHE", False):
+    CACHES = {
+            "default": {
+                "BACKEND": "django.core.cache.backends.redis.RedisCache",
+                "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
+            }
+        }
 
 INTERNAL_IPS = [
     "127.0.0.1",
