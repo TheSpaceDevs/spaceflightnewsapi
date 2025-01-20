@@ -70,9 +70,9 @@ exclude_dirs = ["tests/", ".github/", ".venv/"]
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "snapy.settings"
 env = [
-    "SECRET_KEY=dummy-secret-key",
-    "DATABASE_URL=sqlite://:memory:",
-    "DEBUG=True",
+    # "SECRET_KEY=dummy-secret-key",
+    # "DATABASE_URL=sqlite://:memory:",
+    # "DEBUG=True",
 ]
 
 [build-system]
