@@ -1135,18 +1135,6 @@ wheels = [
 ]
 
 [[package]]
-name = "pytest-env"
-version = "1.1.5"
-source = { registry = "https://pypi.thespacedevs.com/simple/" }
-dependencies = [
-    { name = "pytest" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/1f/31/27f28431a16b83cab7a636dce59cf397517807d247caa38ee67d65e71ef8/pytest_env-1.1.5.tar.gz", hash = "sha256:91209840aa0e43385073ac464a554ad2947cc2fd663a9debf88d03b01e0cc1cf", size = 8911 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/de/b8/87cfb16045c9d4092cfcf526135d73b88101aac83bc1adcf82dfb5fd3833/pytest_env-1.1.5-py3-none-any.whl", hash = "sha256:ce90cf8772878515c24b31cd97c7fa1f4481cd68d588419fd45f10ecaee6bc30", size = 6141 },
-]
-
-[[package]]
 name = "python-dateutil"
 version = "2.9.0.post0"
 source = { registry = "https://pypi.thespacedevs.com/simple/" }
@@ -1505,7 +1493,6 @@ dev = [
     { name = "pytest" },
     { name = "pytest-cov" },
     { name = "pytest-django" },
-    { name = "pytest-env" },
     { name = "python-semantic-release" },
     { name = "pyupgrade" },
     { name = "ruff" },
@@ -1551,7 +1538,6 @@ dev = [
     { name = "pytest", specifier = ">=8.3.3" },
     { name = "pytest-cov", specifier = ">=5.0.0" },
     { name = "pytest-django", specifier = ">=4.9.0" },
-    { name = "pytest-env", specifier = ">=1.1.5" },
     { name = "python-semantic-release", specifier = ">=9.14.0" },
     { name = "pyupgrade", specifier = ">=3.17.0" },
     { name = "ruff", specifier = ">=0.6.6" },

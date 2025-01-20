@@ -44,7 +44,6 @@ dev-dependencies = [
     "pytest>=8.3.3",
     "pytest-cov>=5.0.0",
     "pytest-django>=4.9.0",
-    "pytest-env>=1.1.5",
     "python-semantic-release>=9.14.0",
     "pyupgrade>=3.17.0",
     "ruff>=0.6.6",
@@ -69,11 +68,6 @@ exclude_dirs = ["tests/", ".github/", ".venv/"]
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "snapy.settings"
-env = [
-    # "SECRET_KEY=dummy-secret-key",
-    # "DATABASE_URL=sqlite://:memory:",
-    # "DEBUG=True",
-]
 
 [build-system]
 requires = ["hatchling"]
