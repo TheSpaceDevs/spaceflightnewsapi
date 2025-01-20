@@ -42,11 +42,11 @@ def process_article(article: ArticleSchema) -> None:
     # Create the article
     new_article = Article.objects.create(
         title=article.title,
-        url=article.url,
+        url=str(article.url),
         news_site=news_site,
         published_at=article.published_at,
         summary=article.summary,
-        image_url=article.image_url,
+        image_url=str(article.image_url),
     )
 
     new_article.authors.add(author)
@@ -67,11 +67,11 @@ def process_blog(blog: BlogSchema) -> None:
     # Create the blog
     new_blog = Blog.objects.create(
         title=blog.title,
-        url=blog.url,
+        url=str(blog.url),
         news_site=news_site,
         published_at=blog.published_at,
         summary=blog.summary,
-        image_url=blog.image_url,
+        image_url=str(blog.image_url),
     )
 
     new_blog.authors.add(author)
@@ -92,11 +92,11 @@ def process_report(report: ReportSchema) -> None:
     # Create the report
     new_report = Report.objects.create(
         title=report.title,
-        url=report.url,
+        url=str(report.url),
         news_site=news_site,
         published_at=report.published_at,
         summary=report.summary,
-        image_url=report.image_url,
+        image_url=str(report.image_url),
     )
 
     new_report.authors.add(author)
