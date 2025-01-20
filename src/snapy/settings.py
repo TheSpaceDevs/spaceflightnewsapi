@@ -196,15 +196,17 @@ REST_FRAMEWORK = {
     "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "DEFAULT_VERSIONING_CLASS": "rest_framework.versioning.NamespaceVersioning",
-    'DEFAULT_THROTTLE_CLASSES': [],
+    'DEFAULT_THROTTLE_CLASSES': [
+        'rest_framework.throttling.AnonRateThrottle'
+    ],
     'DEFAULT_THROTTLE_RATES': {
         'anon': '5/second',
     }
 }
 
 # If we are testing, we don't want to throttle requests
-if not DEBUG:
-    REST_FRAMEWORK['DEFAULT_THROTTLE_CLASSES'].append('rest_framework.throttling.AnonRateThrottle')
+if DEBUG:
+    REST_FRAMEWORK['DEFAULT_THROTTLE_CLASSES'] = []
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "Spaceflight News API",
@@ -240,13 +242,17 @@ GRAPHENE = {
     "SCHEMA": "snapy.schema.schema",
 }
 
-if not DEBUG:
-    CACHES = {
+CACHES = {
         "default": {
             "BACKEND": "django.core.cache.backends.redis.RedisCache",
             "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
         }
     }
+
+# Turn off cache when running in debug mode
+if DEBUG:
+    CACHES = {}
+    
 
 INTERNAL_IPS = [
     "127.0.0.1",
