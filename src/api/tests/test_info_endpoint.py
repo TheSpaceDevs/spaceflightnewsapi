@@ -6,7 +6,6 @@ from django.test.client import Client
 from api.models import NewsSite
 
 
-@pytest.mark.benchmark
 @pytest.mark.django_db
 @pytest.mark.skip(reason="Fails during testing, works in production.")
 class TestInfoEndpoint:

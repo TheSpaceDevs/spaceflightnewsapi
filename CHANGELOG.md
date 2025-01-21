@@ -1,6 +1,167 @@
 # CHANGELOG
 
 
+## v4.18.0-rc.7 (2025-01-21)
+
+### Chores
+
+- Bandit rule 101 fix
+  ([`3c36dbf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3c36dbf83ad723d92a9e0b90ae7ff56acf5b8bca))
+
+- Update snapy package version to 4.18.0rc6
+  ([`87a6aae`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/87a6aaedf40fa51d0d1a32fc4fbebd5da44c724c))
+
+### Continuous Integration
+
+- Add mypy check back to tests workflow
+  ([`38fd632`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/38fd632dc3e892d98076be2e4e2f0950a9bb6101))
+
+- Comment out sensitive environment variables in pyproject.toml
+  ([`bd92b31`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/bd92b314414980c7985d671854dede1ef6a1f3b9))
+
+- Remove mypy check from tests workflow in prep for pyright/pylance
+  ([`3e37b5b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3e37b5bd9dee8946439240f6f0c88d321832f022))
+
+### Documentation
+
+- Ruff fixes
+  ([`f2f5025`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f2f502586a6cd41b6b4654dbe14cc565b83b74ae))
+
+### Features
+
+- Add peek-python and its dependencies to project configuration
+  ([`b9a6dfc`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b9a6dfc859196074ddea2093fb3120ef0c5321f7))
+
+### Refactoring
+
+- Add environment variables for S3 static files, throttling, and caching settings
+  ([`b7283f3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b7283f3273c31234ffd6e45b78402a212a46f4b0))
+
+- Convert URLs and image URLs to strings in article, blog, and report creation
+  ([`ae83f92`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ae83f92a40c30c6916206e5b70b0dc3633679845))
+
+- Remove pytest-env dependency from project configuration
+  ([`c12f6a1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c12f6a13584a827896ede40b14a4ab78de74d9ac))
+
+- Remove unused Redis service from tests workflow
+  ([`19f9455`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/19f9455612b887ba13bd741483e5334610388a9d))
+
+- Update test_get_single_report to use named argument for clarity
+  ([`ca2bd2e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ca2bd2e5bfd815813b225be384013e68c623f447))
+
+- Update throttling and caching settings for DEBUG mode
+  ([`63f31da`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/63f31dae599d9d7bdb95d27ef30812daef315039))
+
+
+## v4.18.0-rc.6 (2025-01-16)
+
+### Chores
+
+- Cleanup env variables
+  ([`292ff7d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/292ff7dc8c80cd031d768243bce475be29b32f25))
+
+- Package maintenance
+  ([`b82f28d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b82f28d559dc2f7526a64575cb6cd60fb17a3f1e))
+
+- Register Socials model in admin panel
+  ([`adcf83e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/adcf83eb5b45c212f6b63705d3a0f9bf261df09b))
+
+### Features
+
+- Add fields for bluesky, linkedin, and mastodon to socials model
+  ([`6bcc545`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6bcc54507da82f68720abde497cadac1dba1c1fc))
+
+- Add linkedin, mastodon, and bluesky fields to socials serializer
+  ([`d6a49c1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d6a49c16d22f4e1b1a1bd7e8fa4b5f356c89a019))
+
+- Add name field to socials model and update migration
+  ([`062f111`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/062f111e28084c6a253a46aee5fed36e0dcdeb6b))
+
+- Add X_FRAME_OPTIONS setting for enhanced security
+  ([`6df602e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6df602ef8e836d4c20efa635810cb36e6314f3e2))
+
+### Testing
+
+- Remove benchmark markers from article, info, and reports endpoint tests
+  ([`d227551`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d22755107322e97e1fe3341f59e5427a818daae5))
+
+
+## v4.18.0-rc.5 (2024-12-24)
+
+### Chores
+
+- Enable DEBUG mode in GitHub Actions workflow
+  ([`f119885`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f11988591bff600ef4c702ddd62806e4f8d6af11))
+
+- Merge branch 'main' into add-authors
+  ([`f2e0736`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f2e073642ca1b0734a0c833c0bb61f3d10133c3b))
+
+- Remove the static version during testing
+  ([`bfed4cd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/bfed4cd980586b61ade61e6981882680e5832f03))
+
+- Use DEBUG when testing
+  ([`8366f98`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/8366f9818e06fda1f13e8b3482ba8416ed1f4430))
+
+- **deps**: Bump astral-sh/setup-uv from 4 to 5
+  ([`dc46b81`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/dc46b81b17ea43c897453d0d926a34ca68ce3462))
+
+Bumps [astral-sh/setup-uv](https://github.com/astral-sh/setup-uv) from 4 to 5. - [Release
+  notes](https://github.com/astral-sh/setup-uv/releases) -
+  [Commits](https://github.com/astral-sh/setup-uv/compare/v4...v5)
+
+--- updated-dependencies: - dependency-name: astral-sh/setup-uv dependency-type: direct:production
+
+update-type: version-update:semver-major
+
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+### Features
+
+- Add author and their socials
+  ([`6838bfb`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6838bfb80b96b462e6d3ec52194df5c956ae3f90))
+
+- Add authors from the import to the article models
+  ([`af0c110`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/af0c110d6e7bb882f82d67d9a3619a5c5dd55537))
+
+- Add VSCode settings for pytest configuration
+  ([`6d0d03e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6d0d03e80212e0cb6a5d59611d9c509744b022c8))
+
+- Disable request throttling during testing
+  ([`c4dd2b6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c4dd2b6121a8429106070b84eca87dcc482227a1))
+
+- Only use cache when not in DEBUG
+  ([`f5668f3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f5668f36238b6e754a2404eb7e4767f1e33c2e42))
+
+- Update version assertion in test_info_endpoint to use dynamic version retrieval
+  ([`5517022`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5517022f14402bf1043c2f76780f11fb40cdc597))
+
+- **admin**: Untested attempt at adding thumbnails and authors to the NewsItem admin lists
+  ([`03680e6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/03680e6cbc7463de61334d1bcf85232e1fe56af2))
+
+### Testing
+
+- Skip failing version test during testing phase
+  ([`41134d5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/41134d549b57133376914c7357fb4664d61235ed))
+
+
+## v4.17.2 (2024-12-17)
+
+### Bug Fixes
+
+- Correct debug toolbar URL
+  ([`92bf69c`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/92bf69c741331de5dea66fc1770ab4d6b0dbb213))
+
+- Update harvester for correct url quotation
+  ([`9f8fae6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9f8fae6cbf74784b8028dcbc874d55677a1efd26))
+
+### Features
+
+- Add authors to the news items
+  ([`3b6cec7`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3b6cec79105d796a79e499ae53240000454bfaf4))
+
+
 ## v4.18.0-rc.4 (2024-12-13)
 
 ### Features
