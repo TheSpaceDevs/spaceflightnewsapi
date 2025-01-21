@@ -1,6 +1,58 @@
 # CHANGELOG
 
 
+## v4.18.0-rc.7 (2025-01-21)
+
+### Chores
+
+- Bandit rule 101 fix
+  ([`3c36dbf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3c36dbf83ad723d92a9e0b90ae7ff56acf5b8bca))
+
+- Update snapy package version to 4.18.0rc6
+  ([`87a6aae`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/87a6aaedf40fa51d0d1a32fc4fbebd5da44c724c))
+
+### Continuous Integration
+
+- Add mypy check back to tests workflow
+  ([`38fd632`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/38fd632dc3e892d98076be2e4e2f0950a9bb6101))
+
+- Comment out sensitive environment variables in pyproject.toml
+  ([`bd92b31`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/bd92b314414980c7985d671854dede1ef6a1f3b9))
+
+- Remove mypy check from tests workflow in prep for pyright/pylance
+  ([`3e37b5b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3e37b5bd9dee8946439240f6f0c88d321832f022))
+
+### Documentation
+
+- Ruff fixes
+  ([`f2f5025`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f2f502586a6cd41b6b4654dbe14cc565b83b74ae))
+
+### Features
+
+- Add peek-python and its dependencies to project configuration
+  ([`b9a6dfc`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b9a6dfc859196074ddea2093fb3120ef0c5321f7))
+
+### Refactoring
+
+- Add environment variables for S3 static files, throttling, and caching settings
+  ([`b7283f3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b7283f3273c31234ffd6e45b78402a212a46f4b0))
+
+- Convert URLs and image URLs to strings in article, blog, and report creation
+  ([`ae83f92`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ae83f92a40c30c6916206e5b70b0dc3633679845))
+
+- Remove pytest-env dependency from project configuration
+  ([`c12f6a1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c12f6a13584a827896ede40b14a4ab78de74d9ac))
+
+- Remove unused Redis service from tests workflow
+  ([`19f9455`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/19f9455612b887ba13bd741483e5334610388a9d))
+
+- Update test_get_single_report to use named argument for clarity
+  ([`ca2bd2e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ca2bd2e5bfd815813b225be384013e68c623f447))
+
+- Update throttling and caching settings for DEBUG mode
+  ([`63f31da`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/63f31dae599d9d7bdb95d27ef30812daef315039))
+
+
 ## v4.18.0-rc.6 (2025-01-16)
 
 ### Chores
