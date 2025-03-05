@@ -5,10 +5,11 @@
 
 version: 2
 updates:
-  - package-ecosystem: "pip" # See documentation for possible values
+  - package-ecosystem: "uv" # See documentation for possible values
     directory: "/" # Location of package manifests
     assignees:
       - "derkweijers"
+    enable-beta-ecosystems: true
     schedule:
       interval: "weekly"
     groups:
