@@ -1,12 +1,7 @@
 # CHANGELOG
 
 
-## v4.18.0-rc.8 (2025-03-18)
-
-### Chores
-
-- Package updates
-  ([`8182a9e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/8182a9eeae9eb613208d1343879b527c2be007e7))
+## v4.18.0 (2025-01-21)
 
 
 ## v4.18.0-rc.7 (2025-01-21)
