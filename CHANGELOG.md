@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v4.18.0-rc.8 (2025-03-18)
+
+### Chores
+
+- Package updates
+  ([`8182a9e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/8182a9eeae9eb613208d1343879b527c2be007e7))
+
+
 ## v4.18.0-rc.7 (2025-01-21)
 
 ### Chores
@@ -111,9 +119,7 @@ Bumps [astral-sh/setup-uv](https://github.com/astral-sh/setup-uv) from 4 to 5. -
 
 --- updated-dependencies: - dependency-name: astral-sh/setup-uv dependency-type: direct:production
 
-update-type: version-update:semver-major
-
-...
+update-type: version-update:semver-major ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -319,9 +325,7 @@ Bumps [astral-sh/setup-uv](https://github.com/astral-sh/setup-uv) from 3 to 4. -
 
 --- updated-dependencies: - dependency-name: astral-sh/setup-uv dependency-type: direct:production
 
-update-type: version-update:semver-major
-
-...
+update-type: version-update:semver-major ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -338,9 +342,7 @@ Bumps [WyriHaximus/github-action-helm3](https://github.com/wyrihaximus/github-ac
 --- updated-dependencies: - dependency-name: WyriHaximus/github-action-helm3 dependency-type:
   direct:production
 
-update-type: version-update:semver-patch
-
-...
+update-type: version-update:semver-patch ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -630,7 +632,7 @@ update-type: version-update:semver-minor
 
 - dependency-name: ruff dependency-type: direct:development
 
-...
+dependency-group: package-updates ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -687,7 +689,7 @@ update-type: version-update:semver-patch
 
 - dependency-name: ruff dependency-type: direct:development
 
-...
+dependency-group: package-updates ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -766,7 +768,7 @@ dependency-group: package-updates
 
 - dependency-name: ruff dependency-type: direct:development
 
-...
+dependency-group: package-updates ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -803,9 +805,7 @@ Co-authored-by: Derk Weijers <derkweijers@users.noreply.github.com>
 Bumps [django](https://github.com/django/django) from 4.2.14 to 4.2.15. -
   [Commits](https://github.com/django/django/compare/4.2.14...4.2.15)
 
---- updated-dependencies: - dependency-name: django dependency-type: direct:production
-
-...
+--- updated-dependencies: - dependency-name: django dependency-type: direct:production ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -867,7 +867,7 @@ update-type: version-update:semver-minor
 
 - dependency-name: ruff dependency-type: direct:development
 
-...
+dependency-group: package-updates ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -947,7 +947,7 @@ update-type: version-update:semver-patch
 
 - dependency-name: ruff dependency-type: direct:development
 
-...
+dependency-group: package-updates ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1031,7 +1031,7 @@ update-type: version-update:semver-patch
 
 - dependency-name: ruff dependency-type: direct:development
 
-...
+dependency-group: package-updates ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1088,7 +1088,7 @@ update-type: version-update:semver-patch
 
 - dependency-name: ruff dependency-type: direct:development
 
-...
+dependency-group: package-updates ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1183,9 +1183,7 @@ To automate the cleanup tasks, the cleanup workflow has been updated to include 
 Bumps [certifi](https://github.com/certifi/python-certifi) from 2024.6.2 to 2024.7.4. -
   [Commits](https://github.com/certifi/python-certifi/compare/2024.06.02...2024.07.04)
 
---- updated-dependencies: - dependency-name: certifi dependency-type: indirect
-
-...
+--- updated-dependencies: - dependency-name: certifi dependency-type: indirect ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1217,7 +1215,7 @@ dependency-group: package-updates
 
 - dependency-name: ruff dependency-type: direct:development
 
-...
+dependency-group: package-updates ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1399,9 +1397,7 @@ Bumps [django-cors-headers](https://github.com/adamchainz/django-cors-headers) f
 
 --- updated-dependencies: - dependency-name: django-cors-headers dependency-type: direct:production
 
-update-type: version-update:semver-minor
-
-...
+update-type: version-update:semver-minor ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1421,9 +1417,7 @@ Bumps [markdown](https://github.com/Python-Markdown/markdown) from 3.4.4 to 3.5.
 
 --- updated-dependencies: - dependency-name: markdown dependency-type: direct:production
 
-update-type: version-update:semver-minor
-
-...
+update-type: version-update:semver-minor ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1448,9 +1442,7 @@ Bumps [sentry-sdk](https://github.com/getsentry/sentry-python) from 1.23.1 to 1.
 
 --- updated-dependencies: - dependency-name: sentry-sdk dependency-type: direct:production
 
-update-type: version-update:semver-minor
-
-...
+update-type: version-update:semver-minor ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1467,9 +1459,7 @@ Bumps [sentry-sdk](https://github.com/getsentry/sentry-python) from 1.31.0 to 1.
 
 --- updated-dependencies: - dependency-name: sentry-sdk dependency-type: direct:production
 
-update-type: version-update:semver-minor
-
-...
+update-type: version-update:semver-minor ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1486,9 +1476,7 @@ Bumps [urllib3](https://github.com/urllib3/urllib3) from 2.0.5 to 2.0.6. - [Rele
   [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst) -
   [Commits](https://github.com/urllib3/urllib3/compare/v2.0.5...2.0.6)
 
---- updated-dependencies: - dependency-name: urllib3 dependency-type: indirect
-
-...
+--- updated-dependencies: - dependency-name: urllib3 dependency-type: indirect ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1503,9 +1491,7 @@ Bumps [urllib3](https://github.com/urllib3/urllib3) from 2.0.6 to 2.0.7. - [Rele
   [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst) -
   [Commits](https://github.com/urllib3/urllib3/compare/2.0.6...2.0.7)
 
---- updated-dependencies: - dependency-name: urllib3 dependency-type: indirect
-
-...
+--- updated-dependencies: - dependency-name: urllib3 dependency-type: indirect ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1524,9 +1510,7 @@ Bumps [black](https://github.com/psf/black) from 23.9.1 to 23.10.0. - [Release
 
 --- updated-dependencies: - dependency-name: black dependency-type: direct:development
 
-update-type: version-update:semver-minor
-
-...
+update-type: version-update:semver-minor ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1542,9 +1526,7 @@ Bumps [django-stubs](https://github.com/typeddjango/django-stubs) from 4.2.4 to 
 
 --- updated-dependencies: - dependency-name: django-stubs dependency-type: direct:development
 
-update-type: version-update:semver-patch
-
-...
+update-type: version-update:semver-patch ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1564,9 +1546,7 @@ Bumps [djangorestframework-stubs](https://github.com/typeddjango/djangorestframe
 --- updated-dependencies: - dependency-name: djangorestframework-stubs dependency-type:
   direct:development
 
-update-type: version-update:semver-patch
-
-...
+update-type: version-update:semver-patch ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1583,9 +1563,7 @@ Bumps [pytest-django](https://github.com/pytest-dev/pytest-django) from 4.5.2 to
 
 --- updated-dependencies: - dependency-name: pytest-django dependency-type: direct:development
 
-update-type: version-update:semver-minor
-
-...
+update-type: version-update:semver-minor ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1601,9 +1579,7 @@ Bumps [pytest-env](https://github.com/pytest-dev/pytest-env) from 1.1.0 to 1.1.1
 
 --- updated-dependencies: - dependency-name: pytest-env dependency-type: direct:development
 
-update-type: version-update:semver-patch
-
-...
+update-type: version-update:semver-patch ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1622,9 +1598,7 @@ Bumps [ruff](https://github.com/astral-sh/ruff) from 0.1.2 to 0.1.3. - [Release
 
 --- updated-dependencies: - dependency-name: ruff dependency-type: direct:development
 
-update-type: version-update:semver-patch
-
-...
+update-type: version-update:semver-patch ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1892,9 +1866,7 @@ Bumps [boto3](https://github.com/boto/boto3) from 1.34.99 to 1.34.108. - [Releas
 
 --- updated-dependencies: - dependency-name: boto3 dependency-type: direct:production
 
-update-type: version-update:semver-patch
-
-...
+update-type: version-update:semver-patch ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1913,9 +1885,7 @@ Updates `boto3` from 1.34.135 to 1.34.136 - [Release notes](https://github.com/b
 
 update-type: version-update:semver-patch
 
-dependency-group: package-updates
-
-...
+dependency-group: package-updates ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1937,9 +1907,7 @@ Bumps [django-filter](https://github.com/carltongibson/django-filter) from 23.5 
 
 --- updated-dependencies: - dependency-name: django-filter dependency-type: direct:production
 
-update-type: version-update:semver-major
-
-...
+update-type: version-update:semver-major ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1954,9 +1922,7 @@ Bumps [docker/build-push-action](https://github.com/docker/build-push-action) fr
 --- updated-dependencies: - dependency-name: docker/build-push-action dependency-type:
   direct:production
 
-update-type: version-update:semver-major
-
-...
+update-type: version-update:semver-major ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -1973,9 +1939,7 @@ Bumps [sentry-sdk](https://github.com/getsentry/sentry-python) from 1.45.0 to 2.
 
 --- updated-dependencies: - dependency-name: sentry-sdk dependency-type: direct:production
 
-update-type: version-update:semver-major
-
-...
+update-type: version-update:semver-major ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
@@ -2496,9 +2460,7 @@ Updates `ruff` from 0.4.10 to 0.5.0 - [Release notes](https://github.com/astral-
 
 update-type: version-update:semver-minor
 
-dependency-group: package-updates
-
-...
+dependency-group: package-updates ...
 
 Signed-off-by: dependabot[bot] <support@github.com>
 
