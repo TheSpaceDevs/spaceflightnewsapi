@@ -1522,7 +1522,7 @@ wheels = [
 
 [[package]]
 name = "snapy"
-version = "4.18.0rc7"
+version = "4.18.0"
 source = { editable = "." }
 dependencies = [
     { name = "boto3" },
