@@ -12,21 +12,21 @@ repos:
       - id: check-added-large-files
 
   - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.10
+    rev: 1.8.3
     hooks:
       - id: bandit
         args: ["-c", "pyproject.toml"]
         additional_dependencies: ["bandit[toml]"]
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.19.0
+    rev: v3.19.1
     hooks:
       - id: pyupgrade
         args: ["--py312-plus"]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
-    rev: v0.7.4
+    rev: v0.11.0
     hooks:
       # Run the linter.
       - id: ruff
@@ -39,4 +39,4 @@ repos:
       - id: commitizen-branch
         stages:
           - pre-push
-    rev: v4.0.0
+    rev: v4.4.1
