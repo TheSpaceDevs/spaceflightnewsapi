@@ -54,7 +54,7 @@ if env.str("SENTRY_DSN", None):
     )
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGIN")
+CSRF_TRUSTED_ORIGINS: list["str"] = env.list("CSRF_TRUSTED_ORIGIN")
 
 # Application definition
 
