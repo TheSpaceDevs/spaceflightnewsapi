@@ -1,7 +1,35 @@
 # CHANGELOG
 
 
+## v4.19.0-rc.1 (2025-03-18)
+
+### Bug Fixes
+
+- Move beta directive up
+  ([`7b002e2`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7b002e266cef0c9247295d6d7270d4a940cfe295))
+
+- Update snapy version to 4.18.0
+  ([`6ff350b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6ff350b1bcafa6b4578c5a39062435ddfb66fe73))
+
+### Chores
+
+- Merge branch 'main' into beta
+  ([`5ad3723`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5ad37231cafe60910e32efa7753563cd30959409))
+
+### Features
+
+- Add uv support for dependatbot
+  ([`0183425`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/018342549602d2632852633f908f6adc73ff085d))
+
+chore: enable dependabot
+
+
 ## v4.18.0 (2025-01-21)
+
+### Chores
+
+- Package updates
+  ([`8182a9e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/8182a9eeae9eb613208d1343879b527c2be007e7))
 
 
 ## v4.18.0-rc.7 (2025-01-21)
