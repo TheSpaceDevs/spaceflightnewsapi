@@ -8,6 +8,8 @@ on:
 
 jobs:
   renovate:
+    env:
+      RENOVATE_TOKEN: ${{secrets.RENOVATE_TOKEN}}
     runs-on: ubuntu-latest
     steps:
       - name: Renovate Bot GitHub Action
