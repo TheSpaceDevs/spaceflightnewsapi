@@ -2,6 +2,7 @@ name: Run renovate
 
 on:
   workflow_dispatch:
+  pull_request: # Temp, to test
   schedule:
     - cron: '0 0 * * *'
 
