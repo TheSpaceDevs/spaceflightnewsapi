@@ -10,7 +10,8 @@ jobs:
   renovate:
     env:
       RENOVATE_TOKEN: ${{secrets.RENOVATE_TOKEN}}
-      RENOVATE_REPOSITORIES: ["https://github.com/TheSpaceDevs/spaceflightnewsapi"]
+      RENOVATE_REPOSITORIES:
+       - "https://github.com/TheSpaceDevs/spaceflightnewsapi"
     runs-on: ubuntu-latest
     steps:
       - name: Renovate Bot GitHub Action
