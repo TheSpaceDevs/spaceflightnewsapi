@@ -10,6 +10,7 @@ jobs:
   renovate:
     env:
       RENOVATE_TOKEN: ${{secrets.RENOVATE_TOKEN}}
+      RENOVATE_AUTODISCOVER_FILTER: "spaceflightnewsapi"
     runs-on: ubuntu-latest
     steps:
       - name: Renovate Bot GitHub Action
