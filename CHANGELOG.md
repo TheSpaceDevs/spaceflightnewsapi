@@ -1,7 +1,7 @@
 # CHANGELOG
 
 
-## v4.19.0 (2025-03-18)
+## v4.19.0-rc.2 (2025-05-26)
 
 ### Bug Fixes
 
@@ -13,12 +13,12 @@
 - Update pre-commit dependencies to latest versions
   ([`99373ff`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/99373ffd388633a4b85f14d17dbaf8610de4f4fc))
 
-### Continuous Integration
+### Features
 
-- Merge beta into main
-  ([`9f284b6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9f284b6e0d8d9f23d403d8b63f2c086ed374634f))
+- Switch to renovate ([#3663](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3663),
+  [`14314fa`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/14314fa431efeca0bcec7709d43a87225c99038b))
 
-Beta to main
+* feat: switch to renovate
 
 
 ## v4.19.0-rc.1 (2025-03-18)
