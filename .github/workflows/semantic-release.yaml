@@ -16,13 +16,13 @@ jobs:
     steps:
       - name: Generate a token
         id: generate_token
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v2
         with:
           app-id: ${{ secrets.SNAPI_APP_ID }}
           private-key: ${{ secrets.SNAPI_PRIVATE_KEY }}
 
       - name: Setup | Install uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v6
 
       - name: Setup | Checkout Repository
         uses: actions/checkout@v4
