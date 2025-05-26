@@ -1,6 +1,26 @@
 # CHANGELOG
 
 
+## v4.19.0-rc.2 (2025-05-26)
+
+### Bug Fixes
+
+- Update CSRF_TRUSTED_ORIGINS type annotation to list[str]
+  ([`9c943a3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9c943a33f5419a95ff36d4ac20e637c66c146546))
+
+### Chores
+
+- Update pre-commit dependencies to latest versions
+  ([`99373ff`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/99373ffd388633a4b85f14d17dbaf8610de4f4fc))
+
+### Features
+
+- Switch to renovate ([#3663](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3663),
+  [`14314fa`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/14314fa431efeca0bcec7709d43a87225c99038b))
+
+* feat: switch to renovate
+
+
 ## v4.19.0-rc.1 (2025-03-18)
 
 ### Bug Fixes
