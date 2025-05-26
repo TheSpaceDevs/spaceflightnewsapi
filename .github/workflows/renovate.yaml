@@ -1,0 +1,16 @@
+name: Run Renovate
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  renovate:
+    env:
+      RENOVATE_TOKEN: ${{secrets.RENOVATE_TOKEN}}
+      RENOVATE_REPOSITORIES: "TheSpaceDevs/spaceflightnewsapi"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Renovate Bot GitHub Action
+        uses: renovatebot/github-action@v42.0.3
