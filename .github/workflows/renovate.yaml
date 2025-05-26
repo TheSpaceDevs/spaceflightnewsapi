@@ -5,11 +5,14 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+env:
+  RENOVATE_TOKEN: ${{secrets.RENOVATE_TOKEN}}
+  RENOVATE_REPOSITORIES: "TheSpaceDevs/spaceflightnewsapi"
+  UV_INDEX_TSD_USERNAME: ${{secrets.UV_INDEX_TSD_USERNAME}}
+  UV_INDEX_TSD_PASSWORD: ${{secrets.UV_INDEX_TSD_PASSWORD}}
+
 jobs:
   renovate:
-    env:
-      RENOVATE_TOKEN: ${{secrets.RENOVATE_TOKEN}}
-      RENOVATE_REPOSITORIES: "TheSpaceDevs/spaceflightnewsapi"
     runs-on: ubuntu-latest
     steps:
       - name: Renovate Bot GitHub Action
