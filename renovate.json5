@@ -1,6 +1,19 @@
 {
-  $schema: "https://docs.renovatebot.com/renovate-schema.json",
-  lockFileMaintenance: {
-    enabled: true,
-  },
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "matchManagers": ["uv"],
+      "groupName": "Python dependencies",
+      "matchDepTypes": ["dependencies"],
+      "rangeStrategy": "update-lockfile"
+    },
+    {
+      "matchManagers": ["uv"],
+      "groupName": "Python dev dependencies",
+      "matchDepTypes": ["dev-dependencies"],
+      "rangeStrategy": "update-lockfile"
+    }
+  ]
 }
