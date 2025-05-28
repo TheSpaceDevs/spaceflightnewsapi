@@ -1,6 +1,28 @@
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   rangeStrategy: "in-range-only",
+  packageRules: [
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor"
+      ],
+      "groupName": "devDependencies (non-major)"
+    },
+    {
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor"
+      ],
+      "groupName": "dependencies (non-major)"
+    }
+  ],
   lockFileMaintenance: {
     enabled: true,
   },
