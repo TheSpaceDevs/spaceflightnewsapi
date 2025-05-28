@@ -23,6 +23,7 @@
       "groupName": "dependencies (non-major)"
     }
   ],
+  recreateClose: true,
   lockFileMaintenance: {
     enabled: true,
   },
