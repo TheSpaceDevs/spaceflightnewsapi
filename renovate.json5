@@ -4,13 +4,13 @@
   "dependencyDashboard": true,
   "packageRules": [
     {
-      "matchManagers": ["uv"],
+      "matchManagers": ["pep621"],
       "groupName": "Python dependencies",
       "matchDepTypes": ["dependencies"],
       "rangeStrategy": "update-lockfile"
     },
     {
-      "matchManagers": ["uv"],
+      "matchManagers": ["pep621"],
       "groupName": "Python dev dependencies",
       "matchDepTypes": ["dev-dependencies"],
       "rangeStrategy": "update-lockfile"
