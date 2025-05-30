@@ -4,28 +4,6 @@
     'config:recommended',
   ],
   dependencyDashboard: true,
-  packageRules: [
-    {
-      matchManagers: [
-        'pep621',
-      ],
-      groupName: 'Python dependencies',
-      matchDepTypes: [
-        'dependencies',
-      ],
-      rangeStrategy: 'update-lockfile',
-    },
-    {
-      matchManagers: [
-        'pep621',
-      ],
-      groupName: 'Python dev dependencies',
-      matchDepTypes: [
-        'dev-dependencies',
-      ],
-      rangeStrategy: 'update-lockfile',
-    },
-  ],
   lockFileMaintenance: {
     enabled: true,
   },
