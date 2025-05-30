@@ -15,5 +15,8 @@
       "matchDepTypes": ["dev-dependencies"],
       "rangeStrategy": "update-lockfile"
     }
-  ]
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  }
 }
