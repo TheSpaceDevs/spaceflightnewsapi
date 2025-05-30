@@ -6,6 +6,5 @@
   dependencyDashboard: true,
   lockFileMaintenance: {
     enabled: true,
-  },
-  detectHostRulesFromEnv: true
+  }
 }
