@@ -20,4 +20,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Renovate Bot GitHub Action
-        uses: renovatebot/github-action@v42.0.3
+        uses: renovatebot/github-action@v43.0.5
