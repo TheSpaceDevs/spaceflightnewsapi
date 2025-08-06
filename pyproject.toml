@@ -77,6 +77,10 @@ build-backend = "hatchling.build"
 [[tool.uv.index]]
 name = "tsd"
 url = "https://pypi.thespacedevs.com/simple/"
+explicit = true
+
+[tool.uv.sources]
+harvester = { index = "tsd" }
 
 # Mainly as fallback, as Python Semenatic Release will also handle this.
 [tool.commitizen]
