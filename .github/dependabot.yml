@@ -13,6 +13,7 @@ registries:
 updates:
   - package-ecosystem: "uv" # See documentation for possible values
     directory: "/" # Location of package manifests
+    registries: "*"
     assignees:
       - "derkweijers"
     schedule:
