@@ -424,4 +424,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/linux,macos,django,python,windows,intellij+all
 
 TEST-*.xml
-.env
+.envrc
