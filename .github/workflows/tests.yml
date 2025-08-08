@@ -96,6 +96,6 @@ jobs:
             cache-to: type=gha,mode=max
             push: false
             build-args: |
-              UV_INDEX_TSD_USERNAME=${{ environment.UV_INDEX_TSD_USERNAME }}
-              UV_INDEX_TSD_PASSWORD=${{ environment.UV_INDEX_TSD_PASSWORD }}
+              UV_INDEX_TSD_USERNAME=${{ env.UV_INDEX_TSD_USERNAME }}
+              UV_INDEX_TSD_PASSWORD=${{ env.UV_INDEX_TSD_PASSWORD }}
             context: .
