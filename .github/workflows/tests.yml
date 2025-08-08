@@ -77,3 +77,25 @@ jobs:
         if: success() || failure() # always run even if the previous step fails
         with:
           report_paths: "test_results/TEST-*.xml"
+
+  # Try to build the docker image to ensure it works
+    docker:
+      runs-on: ubuntu-latest
+      steps:
+          - name: Check out the repo
+            uses: actions/checkout@v4
+
+          - name: Set up Docker Buildx
+            uses: docker/setup-buildx-action@v3
+
+          - name: Build the image
+            id: docker_build
+            uses: docker/build-push-action@v6
+            with:
+              cache-from: type=gha
+              cache-to: type=gha,mode=max
+              push: false
+              build-args: |
+                UV_INDEX_TSD_USERNAME=${{ environment.UV_INDEX_TSD_USERNAME }}
+                UV_INDEX_TSD_PASSWORD=${{ environment.UV_INDEX_TSD_PASSWORD }}
+              context: .
