@@ -1443,6 +1443,7 @@ wheels = [
 
 [[package]]
 name = "snapy"
+version = "4.20.0"
 source = { virtual = "." }
 dependencies = [
     { name = "boto3" },
