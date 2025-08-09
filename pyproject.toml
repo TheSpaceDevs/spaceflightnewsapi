@@ -70,10 +70,6 @@ exclude_dirs = ["tests/", ".github/", ".venv/"]
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "snapy.settings"
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [[tool.uv.index]]
 name = "tsd"
 url = "https://pypi.thespacedevs.com/simple/"
@@ -100,6 +96,7 @@ allow_zero_version = true
 no_git_verify = false
 tag_format = "{version}"
 version_toml = ["pyproject.toml:project.version"]
+version_variables = ["src/snapy/__init__.py:__version__"]
 
 [tool.semantic_release.branches.main]
 match = "main"

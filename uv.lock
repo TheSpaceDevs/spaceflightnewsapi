@@ -1443,8 +1443,7 @@ wheels = [
 
 [[package]]
 name = "snapy"
-version = "4.20.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "boto3" },
     { name = "django" },
