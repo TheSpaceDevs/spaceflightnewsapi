@@ -21,7 +21,7 @@ RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --frozen --no-dev
 
 # Copy the project files into the image and sync it to the virtual environment
-ADD src/ /app/
+ADD src/ /app/src/
 
 FROM python:3.13-slim-bookworm
 
@@ -33,7 +33,7 @@ ENV PATH="/app/.venv/bin:$PATH"
 # Using the www-data user for security. This user is already present in the base image.
 ENV APP_USER=www-data
 
-WORKDIR /app
+WORKDIR /app/src
 
 # Copy the project files into the image
 COPY --from=builder --chown=$APP_USER:$APP_USER /app /app
