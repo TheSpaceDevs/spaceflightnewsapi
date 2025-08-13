@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v4.21.0-rc.2 (2025-08-13)
+
+### Bug Fixes
+
+- Update the workdir ([#3694](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3694),
+  [`16639fe`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/16639fe4246faa1cf071643179163cf2ce0a5fcb))
+
+
 ## v4.21.0-rc.1 (2025-08-13)
 
 ### Bug Fixes
