@@ -71,6 +71,7 @@ jobs:
 
       - name: Run tests
         run: uv run pytest --junitxml=test_results/TEST-pytest.xml
+        working-directory: src/
 
       - name: Publish test report
         uses: mikepenz/action-junit-report@v5
