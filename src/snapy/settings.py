@@ -14,6 +14,7 @@ from pathlib import Path
 
 import django_stubs_ext
 from environs import Env
+from snapy import __version__
 
 env = Env()
 env.read_env()
@@ -21,7 +22,7 @@ env.read_env()
 # Extensions for Django Stubs
 django_stubs_ext.monkeypatch()
 
-VERSION = importlib.metadata.version("snapy")
+VERSION = __version__
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
