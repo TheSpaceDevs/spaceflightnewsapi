@@ -1,43 +1,189 @@
 # CHANGELOG
 
 
+## v4.21.0-rc.4 (2025-08-14)
+
+### Bug Fixes
+
+- Add extra secrets ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Add static url setting ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Fix ll syncs ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Make http errors a bit more clearer
+  ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Static configs ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Update launch and event endpoint urls and configs
+  ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Update the workdir ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+### Chores
+
+- Add some logging ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Fix launch sync ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+
+## v4.21.0-rc.3 (2025-08-14)
+
+### Bug Fixes
+
+- Add extra secrets ([#3697](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3697),
+  [`c9792a6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c9792a67b1aae5d63e18ffe37744c639b529f722))
+
+- Static configs ([#3697](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3697),
+  [`c9792a6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c9792a67b1aae5d63e18ffe37744c639b529f722))
+
+- Update the workdir ([#3697](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3697),
+  [`c9792a6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c9792a67b1aae5d63e18ffe37744c639b529f722))
+
+### Chores
+
+- Update statics and secrets ([#3697](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3697),
+  [`c9792a6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c9792a67b1aae5d63e18ffe37744c639b529f722))
+
+
+## v4.21.0-rc.2 (2025-08-13)
+
+### Bug Fixes
+
+- Update the workdir ([#3694](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3694),
+  [`16639fe`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/16639fe4246faa1cf071643179163cf2ce0a5fcb))
+
+
+## v4.21.0-rc.1 (2025-08-13)
+
+### Bug Fixes
+
+- Enable private registries ([#3689](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3689),
+  [`e1ac42a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/e1ac42ac47270e1aed34c38785f52b645cf11415))
+
+- Run the command from the correct working dir
+  ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+### Chores
+
+- Add new version variable definition
+  ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Add private regstries
+  ([`a1a9a88`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/a1a9a888ae5a247af396dda6396f73901eb9bd5b))
+
+- Add private regstries
+  ([`5a2f490`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5a2f4903a470ee6bb18d37283ac4fa81dbee0437))
+
+- Cleanup renovate
+  ([`e4f987e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/e4f987e2bd562935af198edf7abc2d41b4cd8623))
+
+- Introduced new version as we're not using a build backend anymore
+  ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Lock update ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Make resolution more efficient
+  ([`26cf43c`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/26cf43c3b2a447166df4631a032a8bd9fdfcbb10))
+
+- Pin dependencies based on the django version
+  ([`3f674d9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3f674d967d13a1e66610c0ffab1c4cacb6585d76))
+
+- Remove .vscode configs
+  ([`9aa094f`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9aa094f41b7b3700f2383a609f2978cec08731b4))
+
+- Removed unused variables ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Set python 3.13 ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Test building the docker image as well
+  ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Update dockerfile, set python 3.13
+  ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Update pre-commit ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Update the docker image to use python 3.13
+  ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Update the dockerfile since we're not installing the project anymore
+  ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Update to djagno 5.2 ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Updated deprecated commit parser
+  ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
+  [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Use direnv
+  ([`6af78dd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6af78dd3b6886c33921b2706a487c09b925df5ca))
+
+- **deps**: Bump the package-updates group with 3 updates
+  ([#3693](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3693),
+  [`b655e09`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b655e09043b31672e90552d324c1f5f6cff19908))
+
+
 ## v4.20.0 (2025-07-08)
 
 ### Bug Fixes
 
-- Add uv credentials (#3667) ([#3667](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3667),
+- Add uv credentials ([#3667](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3667),
   [`94db6e7`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/94db6e7fee6320b45913b186038437c11f5e5a18))
+
+- Enable private registries ([#3685](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3685),
+  [`055810f`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/055810fc0e964609597fffe86a757b88dde71c01))
 
 - Enable private registries
   ([`2592e7e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2592e7e263b98a0819fc3c75e539bd01c0b64990))
 
-- Enable private registries (#3685)
-  ([#3685](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3685),
-  [`055810f`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/055810fc0e964609597fffe86a757b88dde71c01))
-
 - Only update within specified range
   ([`eac6a90`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/eac6a90ba1314810e5308de4e7df33fcbc343f6e))
 
-- Only update within specified range (#3681)
+- Only update within specified range
   ([#3681](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3681),
   [`8f13be2`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/8f13be283b0c6d6beb7aeecfc9b848be6e5ed54f))
 
+- Only update within specified range
+  ([#3675](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3675),
+  [`fac8c65`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/fac8c65042607c1996795ad707e5ccd55d67f2e3))
+
 ### Build System
 
-- Update all packages (#3687)
-  ([#3687](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3687),
+- Update all packages ([#3687](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3687),
   [`fb0423d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/fb0423d162a6ffbf3ffbd188237fcd173117a343))
 
 ### Chores
 
-- Config renovate (#3675) ([#3675](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3675),
+- Config renovate ([#3675](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3675),
   [`fac8c65`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/fac8c65042607c1996795ad707e5ccd55d67f2e3))
 
-- Update renovate.json5 (#3677)
-  ([#3677](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3677),
+- Update renovate.json5 ([#3677](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3677),
   [`90180f9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/90180f9674f726c750c40163be8e6b6a2825f407))
 
-- **config**: Migrate config renovate.json5 (#3682)
+- **config**: Migrate config renovate.json5
   ([#3682](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3682),
   [`fd88e9e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/fd88e9ef2a16ed9405f1e7dc6f1a82b1b28a2531))
 
@@ -47,13 +193,21 @@
 - **deps**: Bump astral-sh/setup-uv from 5 to 6
   ([`49d0c68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/49d0c685c0404f515e4e14f48811f32fd8543f09))
 
-- **deps**: Update astral-sh/setup-uv action to v6 (#3669)
+- **deps**: Update astral-sh/setup-uv action to v6
   ([#3669](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3669),
   [`ae48aad`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ae48aada17f781692e72140040732ae95841f05b))
 
 ### Continuous Integration
 
 - Merge beta to main
+  ([`471624a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/471624a5e56bc8a03a2d21a548d64d99d395357a))
+
+### Features
+
+- Switch to renovate ([#3663](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3663),
+  [`471624a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/471624a5e56bc8a03a2d21a548d64d99d395357a))
+
+- Switch to renovate
   ([`471624a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/471624a5e56bc8a03a2d21a548d64d99d395357a))
 
 
@@ -69,11 +223,6 @@
 - Update pre-commit dependencies to latest versions
   ([`99373ff`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/99373ffd388633a4b85f14d17dbaf8610de4f4fc))
 
-### Continuous Integration
-
-- Merge beta into main
-  ([`9f284b6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9f284b6e0d8d9f23d403d8b63f2c086ed374634f))
-
 
 ## v4.19.0-rc.1 (2025-03-18)
 
@@ -84,16 +233,6 @@
 
 - Update snapy version to 4.18.0
   ([`6ff350b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6ff350b1bcafa6b4578c5a39062435ddfb66fe73))
-
-### Chores
-
-- Merge branch 'main' into beta
-  ([`5ad3723`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5ad37231cafe60910e32efa7753563cd30959409))
-
-### Features
-
-- Add uv support for dependatbot
-  ([`0183425`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/018342549602d2632852633f908f6adc73ff085d))
 
 
 ## v4.18.0 (2025-01-21)
@@ -195,9 +334,6 @@
 
 - Enable DEBUG mode in GitHub Actions workflow
   ([`f119885`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f11988591bff600ef4c702ddd62806e4f8d6af11))
-
-- Merge branch 'main' into add-authors
-  ([`f2e0736`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f2e073642ca1b0734a0c833c0bb61f3d10133c3b))
 
 - Remove the static version during testing
   ([`bfed4cd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/bfed4cd980586b61ade61e6981882680e5832f03))
@@ -309,9 +445,6 @@
 
 ### Features
 
-- Add caching to the api
-  ([`b13e17f`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b13e17fadd4270ac6afb453b8a7641cc525125f5))
-
 - Add Redis support and middleware configuration
   ([`a139e06`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/a139e064fb29d538c7dca137c1141d54d032b7ed))
 
@@ -337,27 +470,117 @@
 
 ## v4.17.0-rc.1 (2024-12-02)
 
+### Bug Fixes
+
+- Remove ordering from all_articles query in GraphQL schema
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Update commit message format for semantic release
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Update STATIC_ROOT and add STATICFILES_DIRS for improved static file handling
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
 ### Chores
 
 - Cleanup for re-release
   ([`773d764`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/773d764c2d4728efd31f8334569b6354d24ba053))
 
-- Merge beta to main (#3637) ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+- Ignore type beceause it's not available
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
   [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
 
-- **deps**: Bump astral-sh/setup-uv from 3 to 4 (#3636)
+- Merge beta to main ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Package updates ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Remove unused pika-stubs ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Sync pyproject ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Update harvester to 0.10.0 ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- **deps**: Bump astral-sh/setup-uv from 3 to 4
   ([#3636](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3636),
   [`1e4de33`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/1e4de33b9cb8a74c980fb42dcc3909c5e9deca0a))
 
-- **deps**: Bump WyriHaximus/github-action-helm3 from 4.0.1 to 4.0.2 (#3635)
+- **deps**: Bump WyriHaximus/github-action-helm3 from 4.0.1 to 4.0.2
   ([#3635](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3635),
   [`eb57250`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/eb5725082c2b3774196672b318538527fad353fd))
 
 ### Features
 
-- Add Python Semantic Release (#3631)
+- Add GitHub Actions workflow for semantic release
   ([#3631](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3631),
   [`63556ea`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/63556ea8e5aa82ba51a6611650472e4f32f3de6c))
+
+- Add graphql ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Add GraphQL support with schema and queries for articles, blogs, and reports
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Add NewsSite type to GraphQL schema and fix typo in LaunchType fields
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Add Python Semantic Release
+  ([#3631](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3631),
+  [`63556ea`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/63556ea8e5aa82ba51a6611650472e4f32f3de6c))
+
+- Added commitizen ([#3631](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3631),
+  [`63556ea`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/63556ea8e5aa82ba51a6611650472e4f32f3de6c))
+
+- Added config for commitizen
+  ([#3631](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3631),
+  [`63556ea`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/63556ea8e5aa82ba51a6611650472e4f32f3de6c))
+
+- Added psr config ([#3631](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3631),
+  [`63556ea`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/63556ea8e5aa82ba51a6611650472e4f32f3de6c))
+
+- Enhance article and blog queries with ordering by published date
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Extend GraphQL schema to include Launch and Event types with new queries for articles and blogs by
+  news site, launch, and event
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Generate the label dynamically
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Implement GraphQL types and queries for Article, Blog, Report, Launch, Event, and NewsSite
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- Update GraphQL types to use custom filter classes for Article, Blog, and Report
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- **#3630**: Add django admin dark theme
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+- **#3630**: Django admin dark theme
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
+
+### Refactoring
+
+- Remove logging configuration from settings.py
+  ([#3637](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3637),
+  [`b036b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b036b8a2a1cad75f414d5db71171d80c6b64cc07))
 
 
 ## v4.16.4 (2024-11-22)
@@ -388,25 +611,32 @@
 
 ### Chores
 
+- Package updates ([#3622](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3622),
+  [`2ac68b8`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2ac68b8234f463e18047df86bd76382e446586dd))
+
 - Remove AMQP configuration from .env.example and update Dockerfile to use apt-get upgrade
   ([`82bb1b3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/82bb1b3ad12e8a1a42fa24b824d3beec75029092))
 
-- Revert "feat: update Dockerfile to install Google Chrome and wget (#3623)" (#3624)
+- Revert "feat: update Dockerfile to install Google Chrome and wget (#3623)"
   ([#3624](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3624),
   [`d455fef`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d455fef5197a4d42f62b1f41827057dbaf7cbbba))
+
+- Update harvester dependency to version 0.5.0 in pyproject.toml and uv.lock
+  ([#3623](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3623),
+  [`dcd179d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/dcd179dee3aaaded83a25777b44c9c0e5c103d8d))
 
 - Update harvester dependency version to 0.7.0 in pyproject.toml and uv.lock
   ([`49c2f98`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/49c2f986a00e03b75004fe874f9f86dd240955ab))
 
 ### Features
 
-- Update Dockerfile to install Google Chrome and wget (#3623)
+- Update Dockerfile to install Google Chrome and wget
   ([#3623](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3623),
   [`dcd179d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/dcd179dee3aaaded83a25777b44c9c0e5c103d8d))
 
 ### Refactoring
 
-- Change log level from info to debug for existing blog and report checks (#3622)
+- Change log level from info to debug for existing blog and report checks
   ([#3622](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3622),
   [`2ac68b8`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2ac68b8234f463e18047df86bd76382e446586dd))
 
@@ -415,34 +645,130 @@
 
 ### Bug Fixes
 
-- Docker build (#3621) ([#3621](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3621),
+- Docker build ([#3621](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3621),
   [`561b279`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/561b2792d7d3a140a3898381881552c36d903075))
 
 ### Chores
 
+- Add registry credentials inputs to setup-python action for improved security
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Add UV_INDEX_TSD credentials to GitHub workflows for enhanced security
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
 - Add UV_INDEX_TSD credentials to GitHub workflows for enhanced security
   ([`a013715`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/a013715bb71006da0fd4960b96d8b34bf745c6e5))
 
-- **deps**: Bump mikepenz/action-junit-report from 4 to 5 (#3618)
+- Add UV_INDEX_TSD credentials to setup-python action for enhanced security
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Remove deprecated importer ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Remove unused AMQP settings from configuration
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Revert "chore: add registry credentials inputs to setup-python action for improved security"
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Revert "chore: add UV_INDEX_TSD credentials to setup-python action for enhanced security"
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Update pre-commit hooks to latest versions
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Update setup-python action for improved security and credential management
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Update UV version and action reference in setup-python action
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- **deps**: Bump mikepenz/action-junit-report from 4 to 5
   ([#3618](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3618),
   [`28a0543`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/28a0543929aca9db1c51d8ec0695139da2e39324))
 
 ### Features
 
-- Add harvester & django-admin commands (#3619)
+- Add harvester & django-admin commands
   ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
   [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
 
-- Add repository credentials as inputs for build-image action (#3620)
+- Add harvester dependency and configure uv sources
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Add logging configuration to settings
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Add repository credentials as inputs for build-image action
+  ([#3621](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3621),
+  [`561b279`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/561b2792d7d3a140a3898381881552c36d903075))
+
+- Add repository credentials as inputs for build-image action
   ([#3620](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3620),
   [`cc14fe4`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/cc14fe4b7bf31eeb023ea2eb413c617012351479))
+
+- Add the new importer app ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Add uv variables for private packages
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Enhance news processing with blog and report handling, improve logging
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Implement news processing commands with logging
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- New importer app with the harvester lib
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Optimize Dockerfile by adding multi-stage build for improved image size
+  ([#3621](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3621),
+  [`561b279`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/561b2792d7d3a140a3898381881552c36d903075))
+
+### Refactoring
+
+- Optimize news site retrieval by caching news_sites query
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Remove Celery integration and add ll commands
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Remove Makefile as it is no longer needed
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Remove timeout from client options and set it directly in httpx.Client
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
+
+- Remove timeout from client options to comply with security guidelines
+  ([#3619](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3619),
+  [`b17a498`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b17a49846eb98f4a30c980761775849fca4714c1))
 
 
 ## v4.15.1 (2024-11-03)
 
 ### Chores
 
-- Remove logfire (#3616) ([#3616](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3616),
+- Remove logfire ([#3616](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3616),
   [`a73ecdb`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/a73ecdb5c723d7d9e649c836d3a7696db9fbb849))
 
 - Update dependencies for improved performance
@@ -453,44 +779,114 @@
 
 ### Bug Fixes
 
-- Revert "chore: move to file based version (#3612)" (#3613)
+- Revert "chore: move to file based version (#3612)"
   ([#3613](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3613),
   [`8f547f1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/8f547f1beb913299c939e9135153e189c35626f6))
 
 ### Chores
 
-- Add migrate command to Makefile (#3610)
+- Add migrate command to Makefile
   ([#3610](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3610),
   [`0c6ce30`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/0c6ce307af3c150ab416bb38458d333e99ac9248))
 
-- Move to file based version (#3612)
-  ([#3612](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3612),
-  [`efe1153`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/efe115308501d033e8738495f3af82ea9b9504ea))
-
-- Src layout (#3609) ([#3609](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3609),
+- Making life a bit easier ([#3609](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3609),
   [`253df3b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/253df3b6dec512e7ffd36dda320a08a3b41fe457))
 
-- Update django-stubs-ext to version 4.2.7 (#3611)
+- Move to file based version ([#3612](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3612),
+  [`efe1153`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/efe115308501d033e8738495f3af82ea9b9504ea))
+
+- Src layout ([#3609](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3609),
+  [`253df3b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/253df3b6dec512e7ffd36dda320a08a3b41fe457))
+
+- Update django-stubs-ext to version 4.2.7
   ([#3611](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3611),
   [`2404866`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2404866202ccf4da93f0c2c0cd1341a6d7a6a0e5))
 
+- Update Dockerfile to use uv for project dependencies
+  ([#3606](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3606),
+  [`81c7c60`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/81c7c603f566142646912fb805ae33eb8171ccd8))
+
+- Update project configuration and dependencies
+  ([#3612](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3612),
+  [`efe1153`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/efe115308501d033e8738495f3af82ea9b9504ea))
+
+- Update project name to "snapy"
+  ([#3606](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3606),
+  [`81c7c60`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/81c7c603f566142646912fb805ae33eb8171ccd8))
+
+- Update project name to "spaceflightnewsapi"
+  ([#3606](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3606),
+  [`81c7c60`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/81c7c603f566142646912fb805ae33eb8171ccd8))
+
+- Update pytest configuration and add pythonpath to pyproject.toml
+  ([#3612](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3612),
+  [`efe1153`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/efe115308501d033e8738495f3af82ea9b9504ea))
+
+- Update Python version in production and staging workflows
+  ([#3606](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3606),
+  [`81c7c60`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/81c7c603f566142646912fb805ae33eb8171ccd8))
+
+- Update test workflow and mypy configuration
+  ([#3612](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3612),
+  [`efe1153`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/efe115308501d033e8738495f3af82ea9b9504ea))
+
+- Update version in pyproject.toml using inputs.version
+  ([#3606](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3606),
+  [`81c7c60`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/81c7c603f566142646912fb805ae33eb8171ccd8))
+
+- Update version in src/version.py
+  ([#3612](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3612),
+  [`efe1153`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/efe115308501d033e8738495f3af82ea9b9504ea))
+
+- Update workflows to use uv ([#3606](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3606),
+  [`81c7c60`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/81c7c603f566142646912fb805ae33eb8171ccd8))
+
+- Update workflows to use uv for dependency management
+  ([#3606](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3606),
+  [`81c7c60`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/81c7c603f566142646912fb805ae33eb8171ccd8))
+
 ### Features
 
-- Start using uv (#3606) ([#3606](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3606),
+- Add profiles to docker-compose services
+  ([#3609](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3609),
+  [`253df3b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/253df3b6dec512e7ffd36dda320a08a3b41fe457))
+
+- Going to a src layout ([#3609](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3609),
+  [`253df3b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/253df3b6dec512e7ffd36dda320a08a3b41fe457))
+
+- Start using uv ([#3606](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3606),
   [`81c7c60`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/81c7c603f566142646912fb805ae33eb8171ccd8))
+
+### Refactoring
+
+- Remove CodSpeed benchmark workflow
+  ([#3609](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3609),
+  [`253df3b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/253df3b6dec512e7ffd36dda320a08a3b41fe457))
+
+- Remove unnecessary VSCode configuration files
+  ([#3609](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3609),
+  [`253df3b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/253df3b6dec512e7ffd36dda320a08a3b41fe457))
+
+- Update Dockerfile to include src directory
+  ([#3609](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3609),
+  [`253df3b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/253df3b6dec512e7ffd36dda320a08a3b41fe457))
+
+- Update exclude path for ruff linting
+  ([#3609](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3609),
+  [`253df3b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/253df3b6dec512e7ffd36dda320a08a3b41fe457))
 
 
 ## v4.14.0 (2024-09-16)
 
 ### Chores
 
-- **deps**: Bump the package-updates group with 3 updates (#3605)
+- **deps**: Bump the package-updates group with 3 updates
   ([#3605](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3605),
   [`5f78229`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5f78229457832f9db8323bdeaf86f567bb52adda))
 
 ### Features
 
-- Add environment variable for Sentry environment (#3604)
+- Add environment variable for Sentry environment
   ([#3604](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3604),
   [`86ab9e2`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/86ab9e2811aed05b7939d233f00a67b2eaaa2a31))
 
@@ -499,15 +895,27 @@
 
 ### Chores
 
-- **deps**: Bump the package-updates group with 4 updates (#3601)
-  ([#3601](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3601),
-  [`af0346b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/af0346b74c132d5a0f5cbdf55797eae615ce9ac2))
+- Remove unused psycopg2_binary packages
+  ([#3586](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3586),
+  [`5cac9f3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5cac9f3d87a5130dfe82ea2155f4d0b181a486c4))
 
-- **deps**: Bump the package-updates group with 4 updates (#3602)
+- **deps**: Bump the package-updates group with 4 updates
+  ([#3586](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3586),
+  [`5cac9f3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5cac9f3d87a5130dfe82ea2155f4d0b181a486c4))
+
+- **deps**: Bump the package-updates group with 4 updates
   ([#3602](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3602),
   [`b08ab11`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b08ab1120875ec8aa8549cd5cb8c6bdad488edfd))
 
-- **deps**: Bump the package-updates group with 6 updates (#3603)
+- **deps**: Bump the package-updates group with 4 updates
+  ([#3601](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3601),
+  [`af0346b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/af0346b74c132d5a0f5cbdf55797eae615ce9ac2))
+
+- **deps**: Bump the package-updates group with 6 updates
+  ([#3586](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3586),
+  [`5cac9f3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5cac9f3d87a5130dfe82ea2155f4d0b181a486c4))
+
+- **deps**: Bump the package-updates group with 6 updates
   ([#3603](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3603),
   [`d3530d6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d3530d6252034ddf05413b56e5ac86ff148b854a))
 
@@ -516,7 +924,13 @@
 
 ### Features
 
-- Add health checks (#3586) ([#3586](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3586),
+- Add health checks ([#3586](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3586),
+  [`5cac9f3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5cac9f3d87a5130dfe82ea2155f4d0b181a486c4))
+
+### Refactoring
+
+- Optimize code for better performance
+  ([#3586](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3586),
   [`5cac9f3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5cac9f3d87a5130dfe82ea2155f4d0b181a486c4))
 
 
@@ -524,7 +938,7 @@
 
 ### Chores
 
-- **deps**: Bump the package-updates group with 4 updates (#3600)
+- **deps**: Bump the package-updates group with 4 updates
   ([#3600](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3600),
   [`3e74c91`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3e74c9124bc54982242caf8b12db410353403260))
 
@@ -533,8 +947,7 @@
 
 ### Features
 
-- Add lazy loading to admin (#3598)
-  ([#3598](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3598),
+- Add lazy loading to admin ([#3598](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3598),
   [`0a1e91d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/0a1e91de40f6502399eddff48deb3496923b5c21))
 
 
@@ -542,7 +955,7 @@
 
 ### Chores
 
-- Revert log settings to defaults (#3597)
+- Revert log settings to defaults
   ([#3597](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3597),
   [`250dcc6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/250dcc6e7ebbad00e6d5e46c3ca73dd362d314e2))
 
@@ -551,11 +964,11 @@
 
 ### Chores
 
-- **deps**: Bump django from 4.2.14 to 4.2.15 (#3595)
+- **deps**: Bump django from 4.2.14 to 4.2.15
   ([#3595](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3595),
   [`5b6b1be`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5b6b1be9d84667470db24cb38227c07f3ac0fb9c))
 
-- **deps**: Bump the package-updates group with 6 updates (#3596)
+- **deps**: Bump the package-updates group with 6 updates
   ([#3596](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3596),
   [`86f0b94`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/86f0b94b195c78a9d9117a2d6760baf722909c75))
 
@@ -564,43 +977,66 @@
 
 ### Chores
 
-- **deps**: Bump CodSpeedHQ/action from 2 to 3 (#3592)
+- **deps**: Bump CodSpeedHQ/action from 2 to 3
   ([#3592](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3592),
   [`3b01de5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3b01de558304183da55388d31ffa38ee7d099703))
 
-- **deps**: Bump the package-updates group with 6 updates (#3591)
-  ([#3591](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3591),
-  [`14ad9c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/14ad9c5f8ec7283989a9c7843d3ab88982aa6bc1))
-
-- **deps**: Bump the package-updates group with 6 updates (#3594)
+- **deps**: Bump the package-updates group with 6 updates
   ([#3594](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3594),
   [`fefc21a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/fefc21a479069911e805e8947a4f6784f6fd0525))
 
+- **deps**: Bump the package-updates group with 6 updates
+  ([#3591](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3591),
+  [`14ad9c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/14ad9c5f8ec7283989a9c7843d3ab88982aa6bc1))
+
 ### Features
 
-- Favicon for admin (#3593) ([#3593](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3593),
+- Favicon for admin ([#3593](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3593),
   [`9d4ddbf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9d4ddbf45db1da008862080cddfe29b4b52d9f6a))
 
 
 ## v4.10.0 (2024-07-24)
 
+### Bug Fixes
+
+- Correct pytest command ([#3585](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3585),
+  [`1e76eff`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/1e76eff862654670cca43cc3ce99410516ebe8e5))
+
 ### Chores
 
-- Add pytest-codspeed for benchmarking (#3585)
+- Add benchmarking with pytest-codspeed for info and reports endpoints
   ([#3585](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3585),
   [`1e76eff`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/1e76eff862654670cca43cc3ce99410516ebe8e5))
 
-- **deps**: Bump the package-updates group with 5 updates (#3587)
-  ([#3587](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3587),
-  [`67457bc`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/67457bc596ce0cd886f7a7e94b7554c3dea5744f))
+- Add CSRF_TRUSTED_ORIGINS=localhost to pyproject.toml
+  ([#3585](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3585),
+  [`1e76eff`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/1e76eff862654670cca43cc3ce99410516ebe8e5))
 
-- **deps**: Bump the package-updates group with 5 updates (#3588)
+- Add docstrings and cleanup ([#3590](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3590),
+  [`c689638`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c68963824c07f39d9aca35395771938f8d227b5d))
+
+- Add pytest-codspeed for benchmarking
+  ([#3585](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3585),
+  [`1e76eff`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/1e76eff862654670cca43cc3ce99410516ebe8e5))
+
+- Update environment variables in codspeed.yml and pyproject.toml
+  ([#3585](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3585),
+  [`1e76eff`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/1e76eff862654670cca43cc3ce99410516ebe8e5))
+
+- Update the name ([#3585](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3585),
+  [`1e76eff`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/1e76eff862654670cca43cc3ce99410516ebe8e5))
+
+- **deps**: Bump the package-updates group with 5 updates
   ([#3588](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3588),
   [`3c1704e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3c1704ec868e3b747013076b2056905b33904e2b))
 
+- **deps**: Bump the package-updates group with 5 updates
+  ([#3587](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3587),
+  [`67457bc`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/67457bc596ce0cd886f7a7e94b7554c3dea5744f))
+
 ### Features
 
-- **#3589**: Optimize admin querysets (#3590)
+- **#3589**: Optimize admin querysets
   ([#3590](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3590),
   [`c689638`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c68963824c07f39d9aca35395771938f8d227b5d))
 
@@ -617,32 +1053,84 @@
 
 ### Bug Fixes
 
-- Cleanup action (#3582) ([#3582](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3582),
+- Cleanup action ([#3582](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3582),
   [`4210d35`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/4210d3533dd96131dbc43f9f8135b20368f45a8f))
 
-### Chores
-
-- Add logfire library for Django logging (#3583)
-  ([#3583](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3583),
-  [`dc0db25`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/dc0db25d30b51941a6b0183348cd72b08e9271e8))
-
-- Update deployment workflows to use GITHUB_TOKEN instead of CR_PAT (#3584)
-  ([#3584](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3584),
-  [`0dbfba1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/0dbfba1df3c90f753ab43d4afe025b654f007741))
-
-- Update Python and Poetry setup in tests workflow (#3578)
+- Fix version that's being tested
   ([#3578](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3578),
   [`7ed7fcf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7ed7fcf686e7334de29c1ad226c7abb19a181089))
 
-- **deps**: Bump certifi from 2024.6.2 to 2024.7.4 (#3579)
+### Chores
+
+- Add logfire library for Django logging
+  ([#3583](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3583),
+  [`dc0db25`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/dc0db25d30b51941a6b0183348cd72b08e9271e8))
+
+- Add write permissions to delete_runs job in cleanup workflow
+  ([#3582](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3582),
+  [`4210d35`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/4210d3533dd96131dbc43f9f8135b20368f45a8f))
+
+- Remove token from cleanup workflow
+  ([#3582](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3582),
+  [`4210d35`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/4210d3533dd96131dbc43f9f8135b20368f45a8f))
+
+- Schedule cleanup tasks to run daily at midnight
+  ([#3582](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3582),
+  [`4210d35`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/4210d3533dd96131dbc43f9f8135b20368f45a8f))
+
+- Update deployment workflows to use GITHUB_TOKEN instead of CR_PAT
+  ([#3584](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3584),
+  [`0dbfba1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/0dbfba1df3c90f753ab43d4afe025b654f007741))
+
+- Update linters and set SECRET_KEY in tests workflow
+  ([#3578](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3578),
+  [`7ed7fcf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7ed7fcf686e7334de29c1ad226c7abb19a181089))
+
+- Update LL_URL with default value in settings.py
+  ([#3578](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3578),
+  [`7ed7fcf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7ed7fcf686e7334de29c1ad226c7abb19a181089))
+
+- Update Python and Poetry setup in tests workflow
+  ([#3578](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3578),
+  [`7ed7fcf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7ed7fcf686e7334de29c1ad226c7abb19a181089))
+
+- Update tests workflow to include CELERY_BROKER_URL environment variable
+  ([#3578](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3578),
+  [`7ed7fcf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7ed7fcf686e7334de29c1ad226c7abb19a181089))
+
+- Update tests workflow to include project installation in editable mode
+  ([#3578](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3578),
+  [`7ed7fcf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7ed7fcf686e7334de29c1ad226c7abb19a181089))
+
+- Update tests workflow to include SENTRY_DSN environment variable
+  ([#3578](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3578),
+  [`7ed7fcf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7ed7fcf686e7334de29c1ad226c7abb19a181089))
+
+- Update tests workflow to install project in editable mode
+  ([#3578](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3578),
+  [`7ed7fcf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7ed7fcf686e7334de29c1ad226c7abb19a181089))
+
+- Update tests workflow with CSRF_TRUSTED_ORIGIN environment variable
+  ([#3578](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3578),
+  [`7ed7fcf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7ed7fcf686e7334de29c1ad226c7abb19a181089))
+
+- Update tests workflow with environment variables
+  ([#3578](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3578),
+  [`7ed7fcf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7ed7fcf686e7334de29c1ad226c7abb19a181089))
+
+- Update tests workflow with secrets and environment variables
+  ([#3578](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3578),
+  [`7ed7fcf`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7ed7fcf686e7334de29c1ad226c7abb19a181089))
+
+- **deps**: Bump certifi from 2024.6.2 to 2024.7.4
   ([#3579](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3579),
   [`430463d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/430463d05d1ea733cedd61b9668bc27543f2a788))
 
-- **deps**: Bump django from 4.2.13 to 4.2.14 (#3581)
+- **deps**: Bump django from 4.2.13 to 4.2.14
   ([#3581](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3581),
   [`4e002c2`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/4e002c24bd9e4bead2f4149569d91e78710b1a2f))
 
-- **deps**: Bump the package-updates group with 2 updates (#3580)
+- **deps**: Bump the package-updates group with 2 updates
   ([#3580](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3580),
   [`a078bc1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/a078bc1647af364f2febb90c55a358f02f35a887))
 
@@ -651,7 +1139,7 @@
 
 ### Chores
 
-- Refactor Dockerfile for improved file copying and project installation (#3577)
+- Refactor Dockerfile for improved file copying and project installation
   ([#3577](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3577),
   [`38a5392`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/38a5392a8560b364a03459a37875f42a35d574bf))
 
