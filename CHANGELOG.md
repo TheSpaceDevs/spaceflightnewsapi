@@ -1,6 +1,42 @@
 # CHANGELOG
 
 
+## v4.21.0-rc.4 (2025-08-14)
+
+### Bug Fixes
+
+- Add extra secrets ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Add static url setting ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Fix ll syncs ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Make http errors a bit more clearer
+  ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Static configs ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Update launch and event endpoint urls and configs
+  ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Update the workdir ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+### Chores
+
+- Add some logging ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+- Fix launch sync ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
+  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+
+
 ## v4.21.0-rc.3 (2025-08-14)
 
 ### Bug Fixes
