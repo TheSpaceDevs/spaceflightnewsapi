@@ -1,6 +1,25 @@
 # CHANGELOG
 
 
+## v4.21.0-rc.3 (2025-08-14)
+
+### Bug Fixes
+
+- Add extra secrets ([#3697](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3697),
+  [`c9792a6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c9792a67b1aae5d63e18ffe37744c639b529f722))
+
+- Static configs ([#3697](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3697),
+  [`c9792a6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c9792a67b1aae5d63e18ffe37744c639b529f722))
+
+- Update the workdir ([#3697](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3697),
+  [`c9792a6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c9792a67b1aae5d63e18ffe37744c639b529f722))
+
+### Chores
+
+- Update statics and secrets ([#3697](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3697),
+  [`c9792a6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c9792a67b1aae5d63e18ffe37744c639b529f722))
+
+
 ## v4.21.0-rc.2 (2025-08-13)
 
 ### Bug Fixes
