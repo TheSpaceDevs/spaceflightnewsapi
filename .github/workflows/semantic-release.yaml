@@ -1,7 +1,11 @@
 name: Release with Python Semantic Release
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - production
+      - staging
 
 
 jobs:
