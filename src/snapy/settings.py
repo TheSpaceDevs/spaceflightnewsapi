@@ -165,24 +165,23 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
-if env.bool("USE_S3_STATICFILES", False):
-    AWS_QUERYSTRING_AUTH = False
-    AWS_ACCESS_KEY_ID = env.str("AWS_ACCESS_KEY_ID")
-    AWS_SECRET_ACCESS_KEY = env.str("AWS_SECRET_ACCESS_KEY")
-    AWS_STORAGE_BUCKET_NAME = env.str("AWS_STORAGE_BUCKET_NAME")
-    AWS_DEFAULT_ACL = "public-read"
-    AWS_S3_ENDPOINT_URL = "https://ams3.digitaloceanspaces.com"
-    AWS_S3_OBJECT_PARAMETERS = {"CacheControl": "max-age=86400"}
-    AWS_PRELOAD_METADATA = True
-    AWS_IS_GZIPPED = True
-
-    # static settings
-    AWS_LOCATION = "static"
-    STATIC_URL = f"https://{AWS_S3_ENDPOINT_URL}/{AWS_LOCATION}/"
-    STATICFILES_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
-else:
-    STATIC_URL = "static/"
-    STATIC_ROOT = BASE_DIR.joinpath("staticfiles")
+STORAGES = {
+    "staticfiles": {
+        "BACKEND": "storages.backends.s3.S3Storage",
+        "OPTIONS": {
+            "access_key": env.str("AWS_ACCESS_KEY_ID"),
+            "secret_key": env.str("AWS_SECRET_ACCESS_KEY"),
+            "bucket_name": env.str("AWS_STORAGE_BUCKET_NAME"),
+            "endpoint_url": env.str("AWS_S3_ENDPOINT_URL", "https://ams3.digitaloceanspaces.com"),
+            "object_parameters": {"CacheControl": "max-age=86400"},
+            "default_acl": "public-read",
+            "querystring_auth": False,
+            "region_name": env.str("AWS_S3_REGION_NAME", "ams3"),
+            "gzip": True,
+            "location": "static",
+        },
+    },
+}
 
 STATICFILES_DIRS = [BASE_DIR.joinpath("static")]
 
