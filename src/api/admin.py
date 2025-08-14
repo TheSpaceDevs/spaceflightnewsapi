@@ -29,7 +29,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
 
     list_per_page = 30
     form = ArticleForm
-    actions = ["mark_as_audited"]
+    actions = ["mark_as_audited", "unmark_as_audited"]
     list_display = (
         "title",
         "thumbnail",
@@ -76,6 +76,10 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     @admin.action(description="Mark selected articles as audited")
     def mark_as_audited(self, request: HttpRequest, queryset: QuerySet[NewsItem]) -> None:
         queryset.update(audited=True)
+
+    @admin.action(description="Unmark selected articles as audited")
+    def unmark_as_audited(self, request: HttpRequest, queryset: QuerySet[NewsItem]) -> None:
+        queryset.update(audited=False)
 
     def get_queryset(self, request: HttpRequest) -> QuerySet[NewsItem]:
         """Return the queryset with related fields prefetched."""
