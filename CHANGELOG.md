@@ -1,79 +1,59 @@
 # CHANGELOG
 
 
-## v4.21.0-rc.4 (2025-08-14)
+## v4.21.0 (2025-08-14)
 
 ### Bug Fixes
 
-- Add extra secrets ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
-  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+- Add extra secrets ([#3700](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3700),
+  [`9b043d0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9b043d02353270d9d8336987ba3e035ef826b58f))
 
-- Add static url setting ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
-  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+- Add extra secrets ([#3696](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3696),
+  [`5291223`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5291223a76607ccd2fbf8b055721dcff4187d9a5))
 
-- Fix ll syncs ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
-  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
+- Add static url setting ([#3700](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3700),
+  [`9b043d0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9b043d02353270d9d8336987ba3e035ef826b58f))
 
-- Make http errors a bit more clearer
-  ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
-  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
-
-- Static configs ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
-  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
-
-- Update launch and event endpoint urls and configs
-  ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
-  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
-
-- Update the workdir ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
-  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
-
-### Chores
-
-- Add some logging ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
-  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
-
-- Fix launch sync ([#3699](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3699),
-  [`2b9bb68`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2b9bb68080d9d2c2de0783a739f981c6eb382f86))
-
-
-## v4.21.0-rc.3 (2025-08-14)
-
-### Bug Fixes
-
-- Add extra secrets ([#3697](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3697),
-  [`c9792a6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c9792a67b1aae5d63e18ffe37744c639b529f722))
-
-- Static configs ([#3697](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3697),
-  [`c9792a6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c9792a67b1aae5d63e18ffe37744c639b529f722))
-
-- Update the workdir ([#3697](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3697),
-  [`c9792a6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c9792a67b1aae5d63e18ffe37744c639b529f722))
-
-### Chores
-
-- Update statics and secrets ([#3697](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3697),
-  [`c9792a6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c9792a67b1aae5d63e18ffe37744c639b529f722))
-
-
-## v4.21.0-rc.2 (2025-08-13)
-
-### Bug Fixes
-
-- Update the workdir ([#3694](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3694),
-  [`16639fe`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/16639fe4246faa1cf071643179163cf2ce0a5fcb))
-
-
-## v4.21.0-rc.1 (2025-08-13)
-
-### Bug Fixes
+- Add static url setting
+  ([`9c73985`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9c739855bc7919a35176ced2994282a8a9f8902d))
 
 - Enable private registries ([#3689](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3689),
   [`e1ac42a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/e1ac42ac47270e1aed34c38785f52b645cf11415))
 
+- Fix ll syncs ([#3700](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3700),
+  [`9b043d0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9b043d02353270d9d8336987ba3e035ef826b58f))
+
+- Make http errors a bit more clearer
+  ([#3700](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3700),
+  [`9b043d0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9b043d02353270d9d8336987ba3e035ef826b58f))
+
+- Make http errors a bit more clearer
+  ([#3698](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3698),
+  [`38112b0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/38112b00d7cb47a40f5b33498298fcb24c29fd2e))
+
 - Run the command from the correct working dir
   ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
   [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
+
+- Static configs ([#3700](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3700),
+  [`9b043d0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9b043d02353270d9d8336987ba3e035ef826b58f))
+
+- Static configs ([#3695](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3695),
+  [`6b48bef`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6b48bef170c67ce1863eae340edcb0f31b16a4dd))
+
+- Update launch and event endpoint urls and configs
+  ([#3700](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3700),
+  [`9b043d0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9b043d02353270d9d8336987ba3e035ef826b58f))
+
+- Update launch and event endpoint urls and configs
+  ([#3698](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3698),
+  [`38112b0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/38112b00d7cb47a40f5b33498298fcb24c29fd2e))
+
+- Update the workdir ([#3700](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3700),
+  [`9b043d0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9b043d02353270d9d8336987ba3e035ef826b58f))
+
+- Update the workdir
+  ([`16b1ef8`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/16b1ef807753455ed33c746ee7311a79e2ed4e7a))
 
 ### Chores
 
@@ -87,8 +67,20 @@
 - Add private regstries
   ([`5a2f490`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5a2f4903a470ee6bb18d37283ac4fa81dbee0437))
 
+- Add some logging ([#3700](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3700),
+  [`9b043d0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9b043d02353270d9d8336987ba3e035ef826b58f))
+
+- Add some logging ([#3698](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3698),
+  [`38112b0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/38112b00d7cb47a40f5b33498298fcb24c29fd2e))
+
 - Cleanup renovate
   ([`e4f987e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/e4f987e2bd562935af198edf7abc2d41b4cd8623))
+
+- Fix launch sync ([#3700](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3700),
+  [`9b043d0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9b043d02353270d9d8336987ba3e035ef826b58f))
+
+- Fix launch sync ([#3698](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3698),
+  [`38112b0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/38112b00d7cb47a40f5b33498298fcb24c29fd2e))
 
 - Introduced new version as we're not using a build backend anymore
   ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
@@ -123,6 +115,9 @@
 - Update pre-commit ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
   [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
 
+- Update statics and secrets ([#3700](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3700),
+  [`9b043d0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9b043d02353270d9d8336987ba3e035ef826b58f))
+
 - Update the docker image to use python 3.13
   ([#3692](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3692),
   [`d9105c5`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d9105c5e19c79b85fd00a54b838b582f3945999c))
@@ -144,6 +139,11 @@
 - **deps**: Bump the package-updates group with 3 updates
   ([#3693](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3693),
   [`b655e09`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b655e09043b31672e90552d324c1f5f6cff19908))
+
+### Continuous Integration
+
+- Merge beta back into main ([#3700](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3700),
+  [`9b043d0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9b043d02353270d9d8336987ba3e035ef826b58f))
 
 
 ## v4.20.0 (2025-07-08)
