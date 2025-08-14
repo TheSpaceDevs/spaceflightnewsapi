@@ -1,3 +1,4 @@
+from logging import INFO, WARN, basicConfig, getLogger
 from typing import TypedDict
 
 import httpx
@@ -5,6 +6,13 @@ from django.conf import settings
 
 from api.models import Provider
 from importer.serializers import LaunchLibraryEventSerializer, LaunchLibraryLaunchSerializer
+
+LOGGER = getLogger(__name__)
+basicConfig(level=INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+
+# disable httpx INFO logging
+httpx_logger = getLogger("httpx")
+httpx_logger.setLevel(WARN)
 
 try:
     provider = Provider.objects.get(name="Launch Library 2")
@@ -32,6 +40,8 @@ def fetch_launches() -> None:
 
     with httpx.Client(base_url=client_options["base_url"], timeout=1440, headers=client_options["headers"]) as client:
         while next_url:
+            LOGGER.info(f"Fetching launches from {next_url}")
+
             response = client.get(url=next_url)
             response.raise_for_status()
 
@@ -44,12 +54,15 @@ def fetch_launches() -> None:
 
             next_url = data["next"]
 
+        LOGGER.info("Finished fetching launches.")
+
 
 def fetch_events() -> None:
     next_url = "/event/"
 
     with httpx.Client(base_url=client_options["base_url"], timeout=1400, headers=client_options["headers"]) as client:
         while next_url:
+            LOGGER.info(f"Fetching events from {next_url}")
             response = client.get(url=next_url)
             response.raise_for_status()
 
@@ -61,3 +74,5 @@ def fetch_events() -> None:
                 event.save()
 
             next_url = data["next"]
+
+        LOGGER.info("Finished fetching events.")
