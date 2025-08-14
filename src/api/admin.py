@@ -214,9 +214,10 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         extra_context = {"title": "News"}
         return super().changelist_view(request, extra_context)
 
-    def save_model(self, request: HttpRequest, obj: NewsItem, form: forms.ModelForm, change: bool) -> None:
+    def save_model(self, request: HttpRequest, obj: NewsItem, form: forms.ModelForm[NewsItem], change: bool) -> None:
         if change:
-            old_object: NewsItem = type(obj).objects.get(pk=obj.pk)
+            # Ignore the type error as obj will be an instance of Article of Blog
+            old_object: NewsItem = type(obj).objects.get(pk=obj.pk)  # type: ignore
 
             # If the audited field is not the same as the old object, update it
             # Otherwise, set it to True by default
