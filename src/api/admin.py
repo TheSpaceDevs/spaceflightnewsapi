@@ -200,7 +200,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         ),
     )
     def audited_formatted(obj: NewsItem) -> bool:
-        """Returns whether the article is hidden from the API response."""
+        """Returns whether the article has been audited."""
         return obj.audited
 
     @staticmethod
