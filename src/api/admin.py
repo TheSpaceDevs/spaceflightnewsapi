@@ -39,6 +39,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         "assigned_events",
         "featured_formatted",
         "is_deleted_formatted",
+        "audited_formatted",
     )
     list_filter = (
         ("news_site", RelatedFieldAjaxListFilter),
@@ -48,6 +49,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         "published_at",
         "featured",
         "is_deleted",
+        "audited",
     )
     search_fields = ["title"]
     ordering = ("-published_at",)
@@ -62,11 +64,12 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         "news_site",
         "summary",
         "published_at",
-        "featured",
         "launches",
         "events",
-        "is_deleted",
         "image_tag",
+        "audited",
+        "featured",
+        "is_deleted",
     ]
 
     def get_queryset(self, request: HttpRequest) -> QuerySet[NewsItem]:
@@ -178,6 +181,20 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         return obj.is_deleted
 
     @staticmethod
+    @admin.display(
+        boolean=True,
+        ordering="audited",
+        description=format_html(
+            '<div  title="{}">{}</div >',
+            "Audited",
+            "A",
+        ),
+    )
+    def audited_formatted(obj: NewsItem) -> bool:
+        """Returns whether the article is hidden from the API response."""
+        return obj.audited
+
+    @staticmethod
     @admin.display(description="Image")
     def image_tag(obj: NewsItem) -> SafeString:
         """Returns the image of the article."""
@@ -187,6 +204,20 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         """Customize the title of the article admin view."""
         extra_context = {"title": "News"}
         return super().changelist_view(request, extra_context)
+
+    def save_model(self, request: HttpRequest, obj: Article | Blog, form: forms.ModelForm, change: bool) -> None:
+        if change:
+            old_object: Article | Blog = type(obj).objects.get(pk=obj.pk)
+
+            # If the audited field is not the same as the old object, update it
+            # Otherwise, set it to True by default
+            if old_object.audited != obj.audited:
+                obj.audited = form.cleaned_data["audited"]
+            else:
+                obj.audited = True
+        else:
+            obj.audited = True
+        super().save_model(request, obj, form, change)
 
 
 @admin.register(Report)

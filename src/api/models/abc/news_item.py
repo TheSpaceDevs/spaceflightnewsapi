@@ -21,6 +21,7 @@ class NewsItem(models.Model):
     events = models.ManyToManyField(Event, blank=True)
     is_deleted = models.BooleanField(default=False)
     authors = models.ManyToManyField(Author, blank=True)
+    audited = models.BooleanField(default=False)
 
     class Meta:
         abstract = True
