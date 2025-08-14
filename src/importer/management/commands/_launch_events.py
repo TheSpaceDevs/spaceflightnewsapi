@@ -36,7 +36,7 @@ client_options: ClientOptions = {
 
 
 def fetch_launches() -> None:
-    next_url = "/launch/"
+    next_url = "/launches/"
 
     with httpx.Client(base_url=client_options["base_url"], timeout=1440, headers=client_options["headers"]) as client:
         while next_url:
@@ -58,7 +58,7 @@ def fetch_launches() -> None:
 
 
 def fetch_events() -> None:
-    next_url = "/event/"
+    next_url = "/events/"
 
     with httpx.Client(base_url=client_options["base_url"], timeout=1400, headers=client_options["headers"]) as client:
         while next_url:
