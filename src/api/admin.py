@@ -29,6 +29,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
 
     list_per_page = 30
     form = ArticleForm
+    actions = ["mark_as_audited"]
     list_display = (
         "title",
         "thumbnail",
@@ -71,6 +72,10 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         "featured",
         "is_deleted",
     ]
+
+    @admin.action(description="Mark selected articles as audited")
+    def mark_as_audited(self, request: HttpRequest, queryset: QuerySet[NewsItem]) -> None:
+        queryset.update(audited=True)
 
     def get_queryset(self, request: HttpRequest) -> QuerySet[NewsItem]:
         """Return the queryset with related fields prefetched."""
@@ -205,9 +210,9 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         extra_context = {"title": "News"}
         return super().changelist_view(request, extra_context)
 
-    def save_model(self, request: HttpRequest, obj: Article | Blog, form: forms.ModelForm, change: bool) -> None:
+    def save_model(self, request: HttpRequest, obj: NewsItem, form: forms.ModelForm, change: bool) -> None:
         if change:
-            old_object: Article | Blog = type(obj).objects.get(pk=obj.pk)
+            old_object: NewsItem = type(obj).objects.get(pk=obj.pk)
 
             # If the audited field is not the same as the old object, update it
             # Otherwise, set it to True by default
