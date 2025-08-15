@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v4.22.0-rc.2 (2025-08-15)
+
+### Chores
+
+- Use the x_forwarded_for header
+  ([#3702](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3702),
+  [`97014a9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/97014a9d221e0c3b21cada1cd9aaec128431964a))
+
+
 ## v4.22.0-rc.1 (2025-08-14)
 
 ### Bug Fixes
