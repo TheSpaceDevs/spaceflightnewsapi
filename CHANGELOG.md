@@ -1,6 +1,56 @@
 # CHANGELOG
 
 
+## v4.22.0 (2025-08-15)
+
+
+## v4.22.0-rc.2 (2025-08-15)
+
+### Chores
+
+- Use the x_forwarded_for header
+  ([#3702](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3702),
+  [`97014a9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/97014a9d221e0c3b21cada1cd9aaec128431964a))
+
+
+## v4.22.0-rc.1 (2025-08-14)
+
+### Bug Fixes
+
+- Mypy error ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
+  [`21c4ba9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21c4ba920ba5e45cd12c48f3aae91197c53677d4))
+
+- Update the docstring ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
+  [`21c4ba9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21c4ba920ba5e45cd12c48f3aae91197c53677d4))
+
+### Chores
+
+- Update mypy config ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
+  [`21c4ba9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21c4ba920ba5e45cd12c48f3aae91197c53677d4))
+
+### Continuous Integration
+
+- Auto deploy on specific branches
+  ([`f724fb0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f724fb0590b64625d41a3bfea1d76ff6840626e6))
+
+### Features
+
+- Add audited field ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
+  [`21c4ba9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21c4ba920ba5e45cd12c48f3aae91197c53677d4))
+
+- Add audited field to the admin
+  ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
+  [`21c4ba9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21c4ba920ba5e45cd12c48f3aae91197c53677d4))
+
+- Batch update the audited field
+  ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
+  [`21c4ba9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21c4ba920ba5e45cd12c48f3aae91197c53677d4))
+
+- Batch update the audited field to unset it
+  ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
+  [`21c4ba9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21c4ba920ba5e45cd12c48f3aae91197c53677d4))
+
+
 ## v4.21.0 (2025-08-14)
 
 ### Bug Fixes
