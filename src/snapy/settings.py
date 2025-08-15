@@ -35,6 +35,7 @@ SECRET_KEY = env.str("SECRET_KEY")
 
 # Get the forwarded protocol from the proxy server
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+USE_X_FORWARDED_HOST = True
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool("DEBUG", False)
