@@ -1,6 +1,29 @@
 # CHANGELOG
 
 
+## v4.23.0 (2025-08-15)
+
+### Bug Fixes
+
+- Set num_proxies to be used by drf
+  ([#3706](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3706),
+  [`34dd4bd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/34dd4bdd3e0fbea125e51d98a604b6fe996a8d3c))
+
+### Chores
+
+- Use the x_forwarded_for header
+  ([#3706](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3706),
+  [`34dd4bd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/34dd4bdd3e0fbea125e51d98a604b6fe996a8d3c))
+
+### Continuous Integration
+
+- Merge prod back into main ([#3706](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3706),
+  [`34dd4bd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/34dd4bdd3e0fbea125e51d98a604b6fe996a8d3c))
+
+- Prod ([#3706](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3706),
+  [`34dd4bd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/34dd4bdd3e0fbea125e51d98a604b6fe996a8d3c))
+
+
 ## v4.22.0 (2025-08-15)
 
 
