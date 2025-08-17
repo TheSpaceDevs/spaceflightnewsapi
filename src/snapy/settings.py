@@ -88,6 +88,7 @@ if DEBUG:
     INSTALLED_APPS.append("debug_toolbar")
 
 MIDDLEWARE = [
+    "django.middleware.cache.UpdateCacheMiddleware",
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -96,8 +97,6 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    "django.middleware.cache.UpdateCacheMiddleware",
-    "django.middleware.common.CommonMiddleware",
     "django.middleware.cache.FetchFromCacheMiddleware",
 ]
 
@@ -208,7 +207,7 @@ if env.bool("ENABLE_THROTTLE", False):
     ]
 
     REST_FRAMEWORK['DEFAULT_THROTTLE_RATES'] = {
-        'anon': '5/second',
+        'anon': '5/minute',
     }
 
 
@@ -246,16 +245,26 @@ GRAPHENE = {
     "SCHEMA": "snapy.schema.schema",
 }
 
-
-
-# Turn off cache when running in debug mode
+# Cache middleware settings
 if env.bool("ENABLE_CACHE", False):
     CACHES = {
-            "default": {
-                "BACKEND": "django.core.cache.backends.redis.RedisCache",
-                "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
-            }
+        "default": {
+            "BACKEND": "django.core.cache.backends.redis.RedisCache",
+            "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
         }
+    }
+
+    # Cache middleware configuration
+    CACHE_MIDDLEWARE_ALIAS = "default"
+    CACHE_MIDDLEWARE_SECONDS = env.int("CACHE_MIDDLEWARE_SECONDS", 300)  # 5 minutes default
+    CACHE_MIDDLEWARE_KEY_PREFIX = env.str("CACHE_MIDDLEWARE_KEY_PREFIX", "snapy")
+else:
+    # Disable caching when ENABLE_CACHE is False
+    CACHES = {
+        "default": {
+            "BACKEND": "django.core.cache.backends.dummy.DummyCache",
+        }
+    }
 
 INTERNAL_IPS = [
     "127.0.0.1",
