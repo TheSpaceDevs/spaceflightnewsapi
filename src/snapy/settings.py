@@ -246,17 +246,18 @@ GRAPHENE = {
     "SCHEMA": "snapy.schema.schema",
 }
 
-CACHES = {
-    "default": {
-        "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
-        "OPTIONS": {
-            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+if env.bool("ENABLE_CACHE", False):
+    CACHES = {
+        "default": {
+            "BACKEND": "django_redis.cache.RedisCache",
+            "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
+            "OPTIONS": {
+                "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            }
         }
     }
-}
-CACHALOT_ENABLED = env.bool("CACHALOT_ENABLED", False)
-CACHALOT_TIMEOUT = env.int("CACHALOT_TIMEOUT", 300)
+    CACHALOT_ENABLED = env.bool("CACHALOT_ENABLED", False)
+    CACHALOT_TIMEOUT = env.int("CACHALOT_TIMEOUT", 300)
 
 DEBUG_TOOLBAR_PANELS = [
     "debug_toolbar.panels.versions.VersionsPanel",
