@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build Image
         uses: ./.github/actions/build-image
@@ -30,7 +30,7 @@ jobs:
 
     steps:
       - name: Checkout the deployments repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: 'TheSpaceDevs/TSD-Deployments'
           path: 'deployments'
