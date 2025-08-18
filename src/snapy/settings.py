@@ -82,6 +82,7 @@ INSTALLED_APPS = [
     "health_check.contrib.s3boto3_storage",
     "health_check.contrib.redis",
     "graphene_django",
+    "cachalot"
     ]
 
 if DEBUG:
@@ -207,7 +208,7 @@ if env.bool("ENABLE_THROTTLE", False):
     ]
 
     REST_FRAMEWORK['DEFAULT_THROTTLE_RATES'] = {
-        'anon': '5/minute',
+        'anon': '5/second',
     }
 
 
@@ -245,27 +246,32 @@ GRAPHENE = {
     "SCHEMA": "snapy.schema.schema",
 }
 
-# Cache middleware settings
-if env.bool("ENABLE_CACHE", False):
-    CACHES = {
-        "default": {
-            "BACKEND": "django.core.cache.backends.redis.RedisCache",
-            "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     }
+}
+CACHALOT_ENABLED = env.bool("CACHALOT_ENABLED", False)
+CACHALOT_TIMEOUT = env.int("CACHALOT_TIMEOUT", 300)
 
-    # Cache middleware configuration
-    CACHE_MIDDLEWARE_ALIAS = "default"
-    CACHE_MIDDLEWARE_SECONDS = env.int("CACHE_MIDDLEWARE_SECONDS", 300)  # 5 minutes default
-    CACHE_MIDDLEWARE_KEY_PREFIX = env.str("CACHE_MIDDLEWARE_KEY_PREFIX", "snapy")
-else:
-    # Disable caching when ENABLE_CACHE is False
-    CACHES = {
-        "default": {
-            "BACKEND": "django.core.cache.backends.dummy.DummyCache",
-        }
-    }
-
+DEBUG_TOOLBAR_PANELS = [
+    "debug_toolbar.panels.versions.VersionsPanel",
+    "debug_toolbar.panels.timer.TimerPanel",
+    "debug_toolbar.panels.settings.SettingsPanel",
+    "debug_toolbar.panels.headers.HeadersPanel",
+    "debug_toolbar.panels.request.RequestPanel",
+    "debug_toolbar.panels.sql.SQLPanel",
+    "debug_toolbar.panels.staticfiles.StaticFilesPanel",
+    "debug_toolbar.panels.templates.TemplatesPanel",
+    "debug_toolbar.panels.cache.CachePanel",
+    "debug_toolbar.panels.signals.SignalsPanel",
+    "debug_toolbar.panels.logging.LoggingPanel",
+    "cachalot.panels.CachalotPanel"
+]
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
