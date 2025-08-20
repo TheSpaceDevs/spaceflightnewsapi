@@ -101,8 +101,8 @@ tag_format = "{version}"
 version_toml = ["pyproject.toml:project.version"]
 version_variables = ["src/snapy/__init__.py:__version__"]
 
-[tool.semantic_release.branches.production]
-match = "production"
+[tool.semantic_release.branches.main]
+match = "main"
 prerelease_token = "rc"
 prerelease = false
 
