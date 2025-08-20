@@ -1,23 +1,7 @@
 name: Release with Python Semantic Release
 
 on:
-  workflow_dispatch:
-    inputs:
-      force_minor:
-        description: 'Force a minor version bump'
-        required: false
-        default: 'false'
-        type: boolean
-      force_major:
-        description: 'Force a major version bump'
-        required: false
-        default: 'false'
-        type: boolean
-      force_patch:
-        description: 'Force a patch version bump'
-        required: false
-        default: 'false'
-        type: boolean
+  workflow_dispatch: {}
 
 
 jobs:
@@ -54,6 +38,4 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.generate_token.outputs.token }}
         run: |
-          uv run semantic-release version --force-minor ${{ github.event.inputs.force_minor }} \
-            --force-major ${{ github.event.inputs.force_major }} \
-            --force-patch ${{ github.event.inputs.force_patch }}
+          uv run semantic-release version
