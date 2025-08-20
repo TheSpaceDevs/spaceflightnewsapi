@@ -1,39 +1,69 @@
 # CHANGELOG
 
 
-## v4.22.0 (2025-08-15)
-
-
-## v4.22.0-rc.2 (2025-08-15)
-
-### Chores
-
-- Use the x_forwarded_for header
-  ([#3702](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3702),
-  [`97014a9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/97014a9d221e0c3b21cada1cd9aaec128431964a))
-
-
-## v4.22.0-rc.1 (2025-08-14)
+## v4.24.0 (2025-08-20)
 
 ### Bug Fixes
 
+- Cache settings ([#3707](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3707),
+  [`0df0571`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/0df057120c554070722cb61082fbe04ad49650eb))
+
+- Manually update the version to sync it with the tags
+  ([#3712](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3712),
+  [`c10b314`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c10b314d13cd8239b4fcd2dccdb0c4b424371e0c))
+
 - Mypy error ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
   [`21c4ba9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21c4ba920ba5e45cd12c48f3aae91197c53677d4))
+
+- Set num_proxies to be used by drf
+  ([`36741cd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/36741cd98a50d2b9186cea1de35a0a80e4ce860f))
+
+- Update semantic release branch match from production to main
+  ([#3711](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3711),
+  [`31dd00d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/31dd00d810891af5d6e27ad9778080b59b7e1a4c))
 
 - Update the docstring ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
   [`21c4ba9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21c4ba920ba5e45cd12c48f3aae91197c53677d4))
 
 ### Chores
 
+- Revert "feat: add options to force version bumps in release workflow (#3713)"
+  ([#3714](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3714),
+  [`9c3daf6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9c3daf6fe0769e8a317bb3ffafe9de232c569735))
+
 - Update mypy config ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
   [`21c4ba9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21c4ba920ba5e45cd12c48f3aae91197c53677d4))
+
+- Use the x_forwarded_for header
+  ([#3702](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3702),
+  [`31b144a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/31b144a053afb1238a861d3dbcf2ae548894ac47))
+
+- Use the x_forwarded_for header
+  ([`de2ffde`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/de2ffdefc601092f94a0f6f01a5a2c2438cee149))
+
+- **deps**: Bump actions/checkout from 4 to 5
+  ([#3710](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3710),
+  [`d25f1d9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d25f1d91892f768b576180ddf5b1a7dd1680cd06))
+
+- **deps**: Bump the package-updates group with 4 updates
+  ([#3709](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3709),
+  [`e2653fa`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/e2653fa46fdd6277d2a2ae078259cd00ec71a3ba))
 
 ### Continuous Integration
 
 - Auto deploy on specific branches
   ([`f724fb0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f724fb0590b64625d41a3bfea1d76ff6840626e6))
 
+- Merge prod back into main
+  ([`31b144a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/31b144a053afb1238a861d3dbcf2ae548894ac47))
+
+- Restore original release flow
+  ([`e1bef16`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/e1bef16b76495615b5b66912a25d351c3527d55a))
+
 ### Features
+
+- Add and enable cachalot ([#3708](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3708),
+  [`3083b8a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3083b8a8098c08c117ad44bf235df3102f344377))
 
 - Add audited field ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
   [`21c4ba9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21c4ba920ba5e45cd12c48f3aae91197c53677d4))
@@ -41,6 +71,10 @@
 - Add audited field to the admin
   ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
   [`21c4ba9`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21c4ba920ba5e45cd12c48f3aae91197c53677d4))
+
+- Add options to force version bumps in release workflow
+  ([#3713](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3713),
+  [`85d2cd1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/85d2cd1a9fd5e3ca70397dbb32b44ded26e9a2ea))
 
 - Batch update the audited field
   ([#3701](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3701),
@@ -286,6 +320,9 @@
 
 
 ## v4.18.0 (2025-01-21)
+
+
+## v4.18.0-rc.8 (2025-03-18)
 
 ### Chores
 
