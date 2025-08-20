@@ -30,6 +30,8 @@ dependencies = [
     "graphene-django>=3.2.2",
     "redis>=5.2.0",
     "hiredis>=3.1.0",
+    "django-cachalot>=2.8.0",
+    "django-redis>=6.0.0",
 ]
 
 [tool.uv]
