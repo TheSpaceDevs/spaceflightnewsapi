@@ -1,6 +1,18 @@
 # CHANGELOG
 
 
+## v4.25.0 (2025-09-08)
+
+### Chores
+
+- Package updates ([#3716](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3716),
+  [`9b8d0b0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9b8d0b0de397033e88355e764755bd4d22459506))
+
+- **deps**: Bump boto3 in the package-updates group
+  ([#3715](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3715),
+  [`ded3065`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ded30651c14a802ac7416d76a07d7f3b488d8bbc))
+
+
 ## v4.24.0 (2025-08-20)
 
 ### Bug Fixes
@@ -320,9 +332,6 @@
 
 
 ## v4.18.0 (2025-01-21)
-
-
-## v4.18.0-rc.8 (2025-03-18)
 
 ### Chores
 
