@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v4.25.1 (2025-09-11)
+
+### Bug Fixes
+
+- Socials object could be null
+  ([#3718](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3718),
+  [`e398e7f`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/e398e7f61d5fc86de742efccd836dd7596235fbc))
+
+
 ## v4.25.0 (2025-09-08)
 
 ### Chores
