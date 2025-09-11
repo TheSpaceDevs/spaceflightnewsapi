@@ -5,7 +5,7 @@ from api.serializers.socials_serializer import SocialsSerializer
 
 
 class AuthorSerializer(serializers.ModelSerializer[Author]):
-    socials = SocialsSerializer()
+    socials = SocialsSerializer(required=False)
 
     class Meta:
         model = Author
