@@ -1,6 +1,25 @@
 # CHANGELOG
 
 
+## v4.26.0-rc.1 (2025-09-23)
+
+### Chores
+
+- **deps**: Bump the package-updates group with 3 updates
+  ([#3720](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3720),
+  [`233bc81`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/233bc81b32f168de8012969af438ed32d4d5ef35))
+
+- **deps**: Bump the package-updates group with 5 updates
+  ([#3719](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3719),
+  [`98b1d6b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/98b1d6bcc61a61c57791301404c1c3c394373f76))
+
+### Features
+
+- Integrate OpenTelemetry for enhanced tracing and monitoring
+  ([#3721](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3721),
+  [`f51c853`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f51c853472dbdd42fd549ea26daf2520da09fdc0))
+
+
 ## v4.25.1 (2025-09-11)
 
 ### Bug Fixes
