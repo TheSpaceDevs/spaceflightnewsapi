@@ -1,3 +1,4 @@
+from environs import Env
 from opentelemetry import trace
 from opentelemetry.exporter.otlp.proto.grpc.trace_exporter import (
     OTLPSpanExporter,
@@ -5,6 +6,11 @@ from opentelemetry.exporter.otlp.proto.grpc.trace_exporter import (
 from opentelemetry.sdk.resources import Resource
 from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
+
+from snapy import __version__
+
+env = Env()
+env.read_env()
 
 bind = ":8000"
 
@@ -19,13 +25,12 @@ loglevel = "info"
 accesslog = "-"
 
 
-def post_fork(server, worker):
+def post_fork(server, worker):  # type: ignore
+    """Post-fork hook to initialize OpenTelemetry tracing in each worker."""
     server.log.info("Worker spawned (pid: %s)", worker.pid)
 
-    resource = Resource.create(attributes={"service.name": "spaceflight-news-api"})
+    resource = Resource.create(attributes={"service.name": env.str("OTEL_SERVICE_NAME"), "service.version": __version__})
 
     trace.set_tracer_provider(TracerProvider(resource=resource))
-    # This uses insecure connection for the purpose of example. Please see the
-    # OTLP Exporter documentation for other options.
-    span_processor = BatchSpanProcessor(OTLPSpanExporter(endpoint="localhost:4317", insecure=True))
-    trace.get_tracer_provider().add_span_processor(span_processor)
+    span_processor = BatchSpanProcessor(OTLPSpanExporter(endpoint=env.str("OTEL_EXPORTER_OTLP_ENDPOINT")))
+    trace.get_tracer_provider().add_span_processor(span_processor)  # type: ignore
