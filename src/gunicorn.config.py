@@ -7,8 +7,6 @@ from opentelemetry.sdk.resources import Resource
 from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
 
-from snapy import __version__
-
 env = Env()
 env.read_env()
 
@@ -29,13 +27,7 @@ def post_fork(server, worker):  # type: ignore
     """Post-fork hook to initialize OpenTelemetry tracing in each worker."""
     server.log.info("Worker spawned (pid: %s)", worker.pid)
 
-    resource = Resource.create(
-        attributes={
-            "service.name": env.str("OTEL_SERVICE_NAME"),
-            "service.version": __version__,
-            "service.environment": env.str("SENTRY_ENVIRONMENT"),
-        }
-    )
+    resource = Resource.create(attributes={"service.name": env.str("OTEL_SERVICE_NAME")})
 
     trace.set_tracer_provider(TracerProvider(resource=resource))
     span_processor = BatchSpanProcessor(OTLPSpanExporter(endpoint=env.str("OTEL_EXPORTER_OTLP_ENDPOINT")))
