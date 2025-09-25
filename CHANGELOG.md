@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v4.26.0-rc.3 (2025-09-25)
+
+### Chores
+
+- Remove unused parameters ([#3723](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3723),
+  [`24d549f`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/24d549fca1c2b628e1f0eea4fcef8bf5d38a0e94))
+
+
 ## v4.26.0-rc.2 (2025-09-25)
 
 ### Bug Fixes
