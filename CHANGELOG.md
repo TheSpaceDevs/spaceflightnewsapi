@@ -1,23 +1,12 @@
 # CHANGELOG
 
 
-## v4.26.0-rc.3 (2025-09-25)
+## v4.26.0 (2025-09-25)
 
-### Chores
+### Build System
 
-- Remove unused parameters ([#3723](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3723),
-  [`24d549f`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/24d549fca1c2b628e1f0eea4fcef8bf5d38a0e94))
-
-
-## v4.26.0-rc.2 (2025-09-25)
-
-### Bug Fixes
-
-- Update telemetry settings ([#3722](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3722),
-  [`3dc48a1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3dc48a157f304e0706c724fc99ab45d57004b61e))
-
-
-## v4.26.0-rc.1 (2025-09-23)
+- Merge staging to main ([#3724](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3724),
+  [`d2f7a5a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d2f7a5abc0c992032869f91f096cfcbca04bdfd8))
 
 ### Chores
 
