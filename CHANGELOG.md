@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v4.26.0-rc.2 (2025-09-25)
+
+### Bug Fixes
+
+- Update telemetry settings ([#3722](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3722),
+  [`3dc48a1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3dc48a157f304e0706c724fc99ab45d57004b61e))
+
+
 ## v4.26.0-rc.1 (2025-09-23)
 
 ### Chores
