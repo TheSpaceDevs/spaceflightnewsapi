@@ -29,6 +29,7 @@ FROM python:3.13-slim-bookworm
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 ENV PATH="/app/.venv/bin:$PATH"
+ENV DJANGO_SETTINGS_MODULE=snapy.settings
 
 # Using the www-data user for security. This user is already present in the base image.
 ENV APP_USER=www-data
