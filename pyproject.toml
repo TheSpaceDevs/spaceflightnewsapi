@@ -56,8 +56,8 @@ dependencies = [
     "opentelemetry-instrumentation-urllib3==0.58b0",
 ]
 
-[tool.uv]
-dev-dependencies = [
+[dependency-groups]
+dev = [
     "bandit[toml]>=1.7.9",
     "commitizen>=4.0.0",
     "coverage>=7.6.1",
