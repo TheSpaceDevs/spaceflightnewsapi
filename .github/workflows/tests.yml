@@ -79,7 +79,7 @@ jobs:
         working-directory: src/
 
       - name: Publish test report
-        uses: mikepenz/action-junit-report@v5
+        uses: mikepenz/action-junit-report@v6
         if: success() || failure() # always run even if the previous step fails
         with:
           report_paths: "test_results/TEST-*.xml"
