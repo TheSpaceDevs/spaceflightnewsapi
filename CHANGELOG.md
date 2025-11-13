@@ -1,6 +1,42 @@
 # CHANGELOG
 
 
+## v4.27.0-rc.1 (2025-11-13)
+
+### Bug Fixes
+
+- Fix news related ajax field
+  ([#3737](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3737),
+  [`531e9f6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/531e9f658f597a44718b5874baf2ccbe7886e482))
+
+### Chores
+
+- **deps**: Bump astral-sh/setup-uv from 6 to 7
+  ([#3727](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3727),
+  [`3c5078a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3c5078aee715e39e5efc99c9351b244c1f1bce25))
+
+- **deps**: Bump mikepenz/action-junit-report from 5 to 6
+  ([#3732](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3732),
+  [`0522662`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/052266211964f9cf94d440231b3f7bd6b1ec623a))
+
+- **deps**: Bump the package-updates group across 1 directory with 6 updates
+  ([#3734](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3734),
+  [`ecc472d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ecc472d93e9d1702e0adfb301e7cb6da6b225ee4))
+
+- **deps**: Bump the package-updates group across 1 directory with 8 updates
+  ([#3730](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3730),
+  [`b8765c4`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b8765c49366a62188c4f7ea7b5e4682317fc46a7))
+
+- **deps**: Update pre-commit hooks to latest versions
+  ([#3736](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3736),
+  [`9e9f403`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9e9f4038d9fcf1032e590bdb48d7aaaee291ea52))
+
+### Refactoring
+
+- Move to dependency groups ([#3735](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3735),
+  [`6fa6614`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6fa6614d9923c9a1f0a86aa0e7f1f3a3415c6d37))
+
+
 ## v4.26.0 (2025-09-25)
 
 ### Build System
