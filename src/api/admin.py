@@ -43,10 +43,10 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         "audited_formatted",
     )
     list_filter = (
-        ("news_site", RelatedFieldAjaxListFilter),
         ("launches", RelatedFieldAjaxListFilter),
         ("events", RelatedFieldAjaxListFilter),
         ("authors", RelatedFieldAjaxListFilter),
+        "news_site",
         "published_at",
         "featured",
         "is_deleted",
