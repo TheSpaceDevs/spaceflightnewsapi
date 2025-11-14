@@ -1,24 +1,12 @@
 # CHANGELOG
 
 
-## v4.27.0-rc.2 (2025-11-14)
+## v4.27.0 (2025-11-14)
 
 ### Chores
 
-- **deps**: Update harvester dependency to version 0.17.0
-  ([#3738](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3738),
-  [`3f9f73d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3f9f73d6fed56e79b608258c791e76d7641f3f0f))
-
-
-## v4.27.0-rc.1 (2025-11-13)
-
-### Bug Fixes
-
-- Fix news related ajax field
-  ([#3737](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3737),
-  [`531e9f6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/531e9f658f597a44718b5874baf2ccbe7886e482))
-
-### Chores
+- Staging ([#3739](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3739),
+  [`12652e3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/12652e3eaaa8a0418ee4b4b5070cb6d0940c1189))
 
 - **deps**: Bump astral-sh/setup-uv from 6 to 7
   ([#3727](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3727),
