@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v4.27.0-rc.2 (2025-11-14)
+
+### Chores
+
+- **deps**: Update harvester dependency to version 0.17.0
+  ([#3738](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3738),
+  [`3f9f73d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3f9f73d6fed56e79b608258c791e76d7641f3f0f))
+
+
 ## v4.27.0-rc.1 (2025-11-13)
 
 ### Bug Fixes
