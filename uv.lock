@@ -703,7 +703,7 @@ wheels = [
 
 [[package]]
 name = "harvester"
-version = "0.16.0"
+version = "0.17.0"
 source = { registry = "https://pypi.thespacedevs.com/simple/" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -714,9 +714,9 @@ dependencies = [
     { name = "requests" },
     { name = "selenium" },
 ]
-sdist = { url = "https://pypi.thespacedevs.com/packages/harvester-0.16.0.tar.gz", hash = "sha256:e4f71a05a0fa7fa95d380058bd1c7aa26aa1d9d693c4f7c8d1abe93fc7ea0965" }
+sdist = { url = "https://pypi.thespacedevs.com/packages/harvester-0.17.0.tar.gz", hash = "sha256:f840900d7d4134789a2c53b3b60eac8b7b0ef16c4d089577dd0630bee6669138" }
 wheels = [
-    { url = "https://pypi.thespacedevs.com/packages/harvester-0.16.0-py3-none-any.whl", hash = "sha256:7b9b7616fa73bc03f8b2af7d28c4990ff2bfa4f4e23d20edd1713e176835a053" },
+    { url = "https://pypi.thespacedevs.com/packages/harvester-0.17.0-py3-none-any.whl", hash = "sha256:c06c6011059856cbe77436d5922dd593949bad8c65bebeefad1e510e5ac430b3" },
 ]
 
 [[package]]
@@ -1982,7 +1982,7 @@ wheels = [
 
 [[package]]
 name = "snapy"
-version = "4.26.0"
+version = "4.27.0rc1"
 source = { virtual = "." }
 dependencies = [
     { name = "boto3" },
@@ -2072,7 +2072,7 @@ requires-dist = [
     { name = "feedparser", specifier = ">=6.0.11" },
     { name = "graphene-django", specifier = ">=3.2.2" },
     { name = "gunicorn", specifier = ">=23.0.0" },
-    { name = "harvester", specifier = ">=0.12.0", index = "https://pypi.thespacedevs.com/simple/" },
+    { name = "harvester", specifier = ">=0.17.0", index = "https://pypi.thespacedevs.com/simple/" },
     { name = "hiredis", specifier = ">=3.1.0" },
     { name = "httpx", specifier = ">=0.27.2" },
     { name = "markdown", specifier = ">=3.7" },
