@@ -25,7 +25,7 @@ jobs:
         uses: astral-sh/setup-uv@v7
 
       - name: Setup | Checkout Repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           token: ${{ steps.generate_token.outputs.token }}
           fetch-depth: 0
