@@ -277,7 +277,7 @@ INTERNAL_IPS = [
     "127.0.0.1",
 ]
 
-LOG_LEVEL = env.str("LOG_LEVEL", "INFO")
+LOG_LEVEL = env.str("LOG_LEVEL", "INFO", validate=lambda x: x in ["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"])
 
 LOGGING = {
     "version": 1,
