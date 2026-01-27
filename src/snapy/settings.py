@@ -277,6 +277,8 @@ INTERNAL_IPS = [
     "127.0.0.1",
 ]
 
+LOG_LEVEL = env.str("LOG_LEVEL", "INFO")
+
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
@@ -293,22 +295,22 @@ LOGGING = {
     },
     "loggers": {
         "django": {
-            "level": "INFO",
+            "level": LOG_LEVEL,
             "handlers": ["stdout"],
             "propagate": False,
         },
         "": {
-            "level": "INFO",
+            "level": LOG_LEVEL,
             "handlers": ["stdout"],
             "propagate": False,
         },
         "gunicorn.access": {
-            "level": "INFO",
+            "level": LOG_LEVEL,
             "handlers": ["stdout"],
             "propagate": False,
         },
         "gunicorn.error": {
-            "level": "INFO",
+            "level": LOG_LEVEL,
             "handlers": ["stdout"],
             "propagate": False,
         },
