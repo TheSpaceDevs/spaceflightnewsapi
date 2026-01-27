@@ -302,7 +302,6 @@ LOGGING = {
         "": {
             "level": LOG_LEVEL,
             "handlers": ["stdout"],
-            "propagate": False,
         },
         "gunicorn.access": {
             "level": LOG_LEVEL,
