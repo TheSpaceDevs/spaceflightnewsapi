@@ -276,3 +276,42 @@ DEBUG_TOOLBAR_PANELS = [
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
+
+LOG_LEVEL = env.str("LOG_LEVEL", "INFO", validate=lambda x: x in ["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"])
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "json": {
+            "()": "snapy.logs.JSONFormatter"
+        },
+    },
+    "handlers": {
+        "stdout": {
+            "class": "logging.StreamHandler",
+            "formatter": "json"
+        },
+    },
+    "loggers": {
+        "django": {
+            "level": LOG_LEVEL,
+            "handlers": ["stdout"],
+            "propagate": False,
+        },
+        "": {
+            "level": LOG_LEVEL,
+            "handlers": ["stdout"],
+        },
+        "gunicorn.access": {
+            "level": LOG_LEVEL,
+            "handlers": ["stdout"],
+            "propagate": False,
+        },
+        "gunicorn.error": {
+            "level": LOG_LEVEL,
+            "handlers": ["stdout"],
+            "propagate": False,
+        },
+    },
+}
