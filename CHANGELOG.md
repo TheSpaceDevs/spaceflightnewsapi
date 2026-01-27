@@ -1,6 +1,44 @@
 # CHANGELOG
 
 
+## v4.28.0-rc.1 (2026-01-27)
+
+### Chores
+
+- **deps**: Bump actions/checkout from 5 to 6
+  ([#3740](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3740),
+  [`ba999f0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ba999f0c0562b0f476d6c8e85883d7755fc5559f))
+
+- **deps**: Bump the package-updates group across 1 directory with 10 updates
+  ([#3750](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3750),
+  [`7160e10`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7160e10d7f98ed3a2f906071858f1009f73c9405))
+
+- **deps**: Bump the package-updates group across 1 directory with 10 updates
+  ([#3744](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3744),
+  [`cd58ce1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/cd58ce17b21f654918055972485741be30d6c8d1))
+
+- **deps**: Bump the package-updates group across 1 directory with 7 updates
+  ([#3748](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3748),
+  [`7968ed3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7968ed3ea80019990c99f52ad9016d56e3338dc6))
+
+- **deps**: Bump the package-updates group with 4 updates
+  ([#3742](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3742),
+  [`5da770a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5da770a3ad07663130450201020df0bc6dae3e67))
+
+- **deps**: Bump the package-updates group with 5 updates
+  ([#3745](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3745),
+  [`277789d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/277789d3fbefb20e6bb3a79fb4e2606c56c5a6df))
+
+- **deps**: Bump the package-updates group with 6 updates
+  ([#3741](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3741),
+  [`74c6342`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/74c6342253f0df6d22dae1070c6e616f4d986786))
+
+### Features
+
+- Switch to json logging ([#3754](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3754),
+  [`81f97f4`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/81f97f47198648d06ba070877ef324644f035fc4))
+
+
 ## v4.27.0 (2025-11-14)
 
 ### Chores
