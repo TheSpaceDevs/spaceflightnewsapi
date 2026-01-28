@@ -12,10 +12,6 @@ env:
   UV_INDEX_TSD_USERNAME: ${{ secrets.UV_INDEX_TSD_USERNAME }}
   UV_INDEX_TSD_PASSWORD: ${{ secrets.UV_INDEX_TSD_PASSWORD }}
 
-  AWS_STORAGE_BUCKET_NAME: ${{ secrets.AWS_STORAGE_BUCKET_NAME }}
-  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-
 jobs:
   linters:
     runs-on: ubuntu-latest
