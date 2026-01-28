@@ -78,10 +78,8 @@ INSTALLED_APPS = [
     "health_check",
     "health_check.cache",
     "health_check.db",
-    "health_check.contrib.s3boto3_storage",
     "health_check.contrib.redis",
     "graphene_django",
-    "cachalot"
     ]
 
 if DEBUG:
@@ -249,7 +247,6 @@ DEBUG_TOOLBAR_PANELS = [
     "debug_toolbar.panels.cache.CachePanel",
     "debug_toolbar.panels.signals.SignalsPanel",
     "debug_toolbar.panels.logging.LoggingPanel",
-    "cachalot.panels.CachalotPanel"
 ]
 INTERNAL_IPS = [
     "127.0.0.1",
