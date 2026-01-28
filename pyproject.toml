@@ -33,6 +33,7 @@ dependencies = [
     "django-cachalot>=2.8.0",
     "django-redis>=6.0.0",
     "json-log-formatter>=1.1.1",
+    "whitenoise[brotli]>=6.11.0",
 ]
 
 [dependency-groups]
