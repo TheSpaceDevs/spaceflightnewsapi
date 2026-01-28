@@ -1,6 +1,28 @@
 # CHANGELOG
 
 
+## v4.28.0-rc.3 (2026-01-28)
+
+### Chores
+
+- Cleanup
+  ([`ef66210`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ef662104b034374d7ed7b7472a4dc6ae80abb488))
+
+### Features
+
+- Integrate Whitenoise for static file handling and remove AWS S3 configuration
+  ([`4ed0f8c`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/4ed0f8ca7772e1592f811b4b5bec87c8aa5f0364))
+
+### Refactoring
+
+- Remove unused import of importlib.metadata from settings.py
+  ([#3758](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3758),
+  [`4c77fab`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/4c77fabced97c7958501971594dee3175f5dd4ca))
+
+- Streamline cache configuration and remove unused settings
+  ([`741a1a3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/741a1a3c71858b7e04fc37e81d418dc65b478263))
+
+
 ## v4.28.0-rc.2 (2026-01-28)
 
 
