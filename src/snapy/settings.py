@@ -187,7 +187,6 @@ REST_FRAMEWORK = {
     "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "DEFAULT_VERSIONING_CLASS": "rest_framework.versioning.NamespaceVersioning",
-    "NUM_PROXIES": env.int("NUM_PROXIES", 0),
 }
 
 
@@ -236,17 +235,7 @@ GRAPHENE = {
 }
 
 if env.bool("ENABLE_CACHE", False):
-    CACHES = {
-        "default": {
-            "BACKEND": "django_redis.cache.RedisCache",
-            "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
-            "OPTIONS": {
-                "CLIENT_CLASS": "django_redis.client.DefaultClient",
-            }
-        }
-    }
-    CACHALOT_ENABLED = env.bool("CACHALOT_ENABLED", False)
-    CACHALOT_TIMEOUT = env.int("CACHALOT_TIMEOUT", 300)
+    CACHES = {"default": env.dj_cache_url("CACHE_URL")}
 
 DEBUG_TOOLBAR_PANELS = [
     "debug_toolbar.panels.versions.VersionsPanel",
