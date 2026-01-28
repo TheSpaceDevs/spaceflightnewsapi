@@ -1,9 +1,15 @@
 # CHANGELOG
 
 
+## v4.28.0-rc.2 (2026-01-28)
+
+
 ## v4.28.0-rc.1 (2026-01-27)
 
 ### Chores
+
+- Cleanup config
+  ([`afbd38b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/afbd38b6b9a393fdd1829e540996a60147bdc2b4))
 
 - **deps**: Bump actions/checkout from 5 to 6
   ([#3740](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3740),
