@@ -207,6 +207,8 @@ if env.bool("ENABLE_THROTTLE", False):
         'anon': '5/second',
     }
 
+    REST_FRAMEWORK['NUM_PROXIES'] = 1
+
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "Spaceflight News API",
