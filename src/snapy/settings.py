@@ -9,7 +9,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
-import importlib.metadata
 from pathlib import Path
 
 import django_stubs_ext
@@ -79,10 +78,8 @@ INSTALLED_APPS = [
     "health_check",
     "health_check.cache",
     "health_check.db",
-    "health_check.contrib.s3boto3_storage",
     "health_check.contrib.redis",
     "graphene_django",
-    "cachalot"
     ]
 
 if DEBUG:
@@ -198,7 +195,6 @@ REST_FRAMEWORK = {
     "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "DEFAULT_VERSIONING_CLASS": "rest_framework.versioning.NamespaceVersioning",
-    "NUM_PROXIES": env.int("NUM_PROXIES", 0),
 }
 
 
@@ -247,17 +243,7 @@ GRAPHENE = {
 }
 
 if env.bool("ENABLE_CACHE", False):
-    CACHES = {
-        "default": {
-            "BACKEND": "django_redis.cache.RedisCache",
-            "LOCATION": env.str("REDIS_URL", "redis://localhost:6379"),
-            "OPTIONS": {
-                "CLIENT_CLASS": "django_redis.client.DefaultClient",
-            }
-        }
-    }
-    CACHALOT_ENABLED = env.bool("CACHALOT_ENABLED", False)
-    CACHALOT_TIMEOUT = env.int("CACHALOT_TIMEOUT", 300)
+    CACHES = {"default": env.dj_cache_url("CACHE_URL")}
 
 DEBUG_TOOLBAR_PANELS = [
     "debug_toolbar.panels.versions.VersionsPanel",
@@ -271,7 +257,6 @@ DEBUG_TOOLBAR_PANELS = [
     "debug_toolbar.panels.cache.CachePanel",
     "debug_toolbar.panels.signals.SignalsPanel",
     "debug_toolbar.panels.logging.LoggingPanel",
-    "cachalot.panels.CachalotPanel"
 ]
 INTERNAL_IPS = [
     "127.0.0.1",

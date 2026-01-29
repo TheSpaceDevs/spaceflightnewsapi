@@ -1,6 +1,110 @@
 # CHANGELOG
 
 
+## v4.28.0-rc.6 (2026-01-29)
+
+### Chores
+
+- Use a single worker per pod
+  ([`33789ed`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/33789eddb1706e9fe6eed75a1fb79a115d7c519c))
+
+
+## v4.28.0-rc.5 (2026-01-29)
+
+### Bug Fixes
+
+- Update boto3, botocore, sentry-sdk, and wrapt to latest versions
+  ([`97cec15`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/97cec1560617139efb81525788ae66329f7e26cf))
+
+
+## v4.28.0-rc.4 (2026-01-29)
+
+### Bug Fixes
+
+- Back to s3 statics
+  ([`c33b0d4`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c33b0d4aa3d0643c72774866c8c3825256f84755))
+
+### Refactoring
+
+- Add AWS environment variables to workflow
+  ([`5c76aef`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5c76aefeb9ce9a08df27fb97019e899e078dbf20))
+
+- Remove django-cachalot dependency from project
+  ([`9462777`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9462777d6428af222dd5c349027654618d4465fb))
+
+- Remove unused AWS environment variables from workflow
+  ([`875c477`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/875c477770b5653f118ebd630be771fab717bbce))
+
+- Remove WhiteNoise middleware from settings
+  ([`3a0b771`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3a0b771211275831cdaf87209028571b32d65675))
+
+
+## v4.28.0-rc.3 (2026-01-28)
+
+### Chores
+
+- Cleanup
+  ([`ef66210`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ef662104b034374d7ed7b7472a4dc6ae80abb488))
+
+### Features
+
+- Integrate Whitenoise for static file handling and remove AWS S3 configuration
+  ([`4ed0f8c`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/4ed0f8ca7772e1592f811b4b5bec87c8aa5f0364))
+
+### Refactoring
+
+- Remove unused import of importlib.metadata from settings.py
+  ([#3758](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3758),
+  [`4c77fab`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/4c77fabced97c7958501971594dee3175f5dd4ca))
+
+- Streamline cache configuration and remove unused settings
+  ([`741a1a3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/741a1a3c71858b7e04fc37e81d418dc65b478263))
+
+
+## v4.28.0-rc.2 (2026-01-28)
+
+
+## v4.28.0-rc.1 (2026-01-27)
+
+### Chores
+
+- Cleanup config
+  ([`afbd38b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/afbd38b6b9a393fdd1829e540996a60147bdc2b4))
+
+- **deps**: Bump actions/checkout from 5 to 6
+  ([#3740](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3740),
+  [`ba999f0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ba999f0c0562b0f476d6c8e85883d7755fc5559f))
+
+- **deps**: Bump the package-updates group across 1 directory with 10 updates
+  ([#3750](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3750),
+  [`7160e10`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7160e10d7f98ed3a2f906071858f1009f73c9405))
+
+- **deps**: Bump the package-updates group across 1 directory with 10 updates
+  ([#3744](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3744),
+  [`cd58ce1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/cd58ce17b21f654918055972485741be30d6c8d1))
+
+- **deps**: Bump the package-updates group across 1 directory with 7 updates
+  ([#3748](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3748),
+  [`7968ed3`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7968ed3ea80019990c99f52ad9016d56e3338dc6))
+
+- **deps**: Bump the package-updates group with 4 updates
+  ([#3742](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3742),
+  [`5da770a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5da770a3ad07663130450201020df0bc6dae3e67))
+
+- **deps**: Bump the package-updates group with 5 updates
+  ([#3745](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3745),
+  [`277789d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/277789d3fbefb20e6bb3a79fb4e2606c56c5a6df))
+
+- **deps**: Bump the package-updates group with 6 updates
+  ([#3741](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3741),
+  [`74c6342`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/74c6342253f0df6d22dae1070c6e616f4d986786))
+
+### Features
+
+- Switch to json logging ([#3754](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3754),
+  [`81f97f4`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/81f97f47198648d06ba070877ef324644f035fc4))
+
+
 ## v4.27.0 (2025-11-14)
 
 ### Chores

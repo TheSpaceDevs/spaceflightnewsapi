@@ -42,4 +42,4 @@ COPY --from=builder --chown=$APP_USER:$APP_USER /app /app
 USER $APP_USER
 EXPOSE 8000
 
-CMD ["opentelemetry-instrument", "gunicorn", "snapy.wsgi", "-c", "gunicorn.config.py"]
+CMD ["gunicorn", "snapy.wsgi", "-c", "gunicorn.config.py"]
