@@ -1,6 +1,25 @@
 # CHANGELOG
 
 
+## v4.28.0-rc.4 (2026-01-29)
+
+### Bug Fixes
+
+- Back to s3 statics
+  ([`c33b0d4`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c33b0d4aa3d0643c72774866c8c3825256f84755))
+
+### Refactoring
+
+- Add AWS environment variables to workflow
+  ([`5c76aef`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5c76aefeb9ce9a08df27fb97019e899e078dbf20))
+
+- Remove django-cachalot dependency from project
+  ([`9462777`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9462777d6428af222dd5c349027654618d4465fb))
+
+- Remove unused AWS environment variables from workflow
+  ([`875c477`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/875c477770b5653f118ebd630be771fab717bbce))
+
+
 ## v4.28.0-rc.3 (2026-01-28)
 
 ### Chores
