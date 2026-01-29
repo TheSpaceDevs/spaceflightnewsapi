@@ -166,13 +166,24 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 STORAGES = {
     "staticfiles": {
-        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+        "BACKEND": "storages.backends.s3.S3Storage",
+        "OPTIONS": {
+            "access_key": env.str("AWS_ACCESS_KEY_ID"),
+            "secret_key": env.str("AWS_SECRET_ACCESS_KEY"),
+            "bucket_name": env.str("AWS_STORAGE_BUCKET_NAME"),
+            "endpoint_url": env.str("AWS_S3_ENDPOINT_URL", "https://ams3.digitaloceanspaces.com"),
+            "object_parameters": {"CacheControl": "max-age=86400"},
+            "default_acl": "public-read",
+            "querystring_auth": False,
+            "region_name": env.str("AWS_S3_REGION_NAME", "ams3"),
+            "gzip": True,
+            "location": "static",
+        },
     },
 }
 
 STATICFILES_DIRS = [BASE_DIR.joinpath("static")]
 STATIC_URL = "static/"
-STATIC_ROOT = BASE_DIR.joinpath("staticfiles")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
