@@ -19,6 +19,9 @@
 - Remove unused AWS environment variables from workflow
   ([`875c477`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/875c477770b5653f118ebd630be771fab717bbce))
 
+- Remove WhiteNoise middleware from settings
+  ([`3a0b771`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3a0b771211275831cdaf87209028571b32d65675))
+
 
 ## v4.28.0-rc.3 (2026-01-28)
 
