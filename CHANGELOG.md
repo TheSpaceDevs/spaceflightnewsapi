@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v4.29.0-rc.1 (2026-01-29)
+
+### Features
+
+- Add NUM_PROXIES setting to REST_FRAMEWORK for throttling
+  ([`9aa7b66`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9aa7b669df6e9a44f0ccef9a43830d38671e0973))
+
+
 ## v4.28.0 (2026-01-29)
 
 ### Chores
