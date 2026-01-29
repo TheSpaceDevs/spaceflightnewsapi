@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v4.28.0-rc.5 (2026-01-29)
+
+### Bug Fixes
+
+- Update boto3, botocore, sentry-sdk, and wrapt to latest versions
+  ([`97cec15`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/97cec1560617139efb81525788ae66329f7e26cf))
+
+
 ## v4.28.0-rc.4 (2026-01-29)
 
 ### Bug Fixes
