@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v4.28.0-rc.6 (2026-01-29)
+
+### Chores
+
+- Use a single worker per pod
+  ([`33789ed`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/33789eddb1706e9fe6eed75a1fb79a115d7c519c))
+
+
 ## v4.28.0-rc.5 (2026-01-29)
 
 ### Bug Fixes
