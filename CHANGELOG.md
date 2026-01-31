@@ -1,6 +1,17 @@
 # CHANGELOG
 
 
+## v4.29.0-rc.2 (2026-01-31)
+
+### Features
+
+- Enhance access log format documentation in gunicorn configuration
+  ([`75bc14b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/75bc14b66e0a6ac3e028fb575f05e8d5d970a571))
+
+- Make num_proxies configurable
+  ([`ead42f8`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ead42f815fc96e523b353c1272a940ad7e84b340))
+
+
 ## v4.29.0-rc.1 (2026-01-29)
 
 ### Features
