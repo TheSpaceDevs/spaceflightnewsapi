@@ -207,7 +207,7 @@ if env.bool("ENABLE_THROTTLE", False):
         'anon': '5/second',
     }
 
-    REST_FRAMEWORK['NUM_PROXIES'] = 1
+    REST_FRAMEWORK['NUM_PROXIES'] = env.int("NUM_PROXIES")
 
 
 SPECTACULAR_SETTINGS = {
