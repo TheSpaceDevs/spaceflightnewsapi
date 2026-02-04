@@ -42,4 +42,4 @@ COPY --from=builder --chown=$APP_USER:$APP_USER /app /app
 USER $APP_USER
 EXPOSE 8000
 
-CMD ["granian", "--access-log", "--access-log-fmt", "'%(addr)s; %(method)s; %(path)s; %(protocol)s; %(status)d; %(dt_ms).3f'", "--interface", "wsgi", "snapy.wsgi:application"]
+CMD ["granian", "--host", "0.0.0.0", "--access-log", "--access-log-fmt", "'%(addr)s; %(method)s; %(path)s; %(protocol)s; %(status)d; %(dt_ms).3f'", "--interface", "wsgi", "snapy.wsgi:application"]
