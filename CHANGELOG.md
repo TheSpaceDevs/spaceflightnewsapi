@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v4.29.0-rc.3 (2026-02-04)
+
+### Features
+
+- Setup granian
+  ([`9aad63b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9aad63b50bb3a0e7e6ab8a1215b49d970ddaf97d))
+
+
 ## v4.29.0-rc.2 (2026-01-31)
 
 ### Features
