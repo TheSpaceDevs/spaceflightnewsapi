@@ -290,12 +290,7 @@ LOGGING = {
             "level": LOG_LEVEL,
             "handlers": ["stdout"],
         },
-        "gunicorn.access": {
-            "level": LOG_LEVEL,
-            "handlers": ["stdout"],
-            "propagate": False,
-        },
-        "gunicorn.error": {
+        "granian.access": {
             "level": LOG_LEVEL,
             "handlers": ["stdout"],
             "propagate": False,
