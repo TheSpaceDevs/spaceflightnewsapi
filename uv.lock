@@ -832,12 +832,6 @@ wheels = [
 ]
 
 [[package]]
-name = "json-log-formatter"
-version = "1.1.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/e8/ef/324f4a28ed0152a32b80685b26316b604218e4ac77487ea82719c3c28bc6/json_log_formatter-1.1.1.tar.gz", hash = "sha256:0815e3b4469e5c79cf3f6dc8a0613ba6601f4a7464f85ba03655cfa6e3e17d10", size = 5896, upload-time = "2025-02-27T22:56:15.643Z" }
-
-[[package]]
 name = "jsonschema"
 version = "4.26.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1519,7 +1513,7 @@ wheels = [
 
 [[package]]
 name = "snapy"
-version = "4.29.0rc2"
+version = "4.29.0rc3"
 source = { virtual = "." }
 dependencies = [
     { name = "django" },
@@ -1540,7 +1534,6 @@ dependencies = [
     { name = "harvester" },
     { name = "hiredis" },
     { name = "httpx" },
-    { name = "json-log-formatter" },
     { name = "markdown" },
     { name = "psycopg2-binary" },
     { name = "pyyaml" },
@@ -1587,7 +1580,6 @@ requires-dist = [
     { name = "harvester", specifier = ">=0.17.0", index = "https://pypi.thespacedevs.com/simple/" },
     { name = "hiredis", specifier = ">=3.1.0" },
     { name = "httpx", specifier = ">=0.27.2" },
-    { name = "json-log-formatter", specifier = ">=1.1.1" },
     { name = "markdown", specifier = ">=3.7" },
     { name = "psycopg2-binary", specifier = ">=2.9.9" },
     { name = "pyyaml", specifier = ">=6.0.2" },
