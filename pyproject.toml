@@ -1,6 +1,6 @@
 [project]
 name = "snapy"
-version = "4.28.0"
+version = "4.29.0-rc.4"
 description = "Spaceflight News API (SNAPI) enables developers to add the latest spaceflight news to their apps."
 authors = [{ name = "Derk Weijers", email = "derk@weijers.xyz" }]
 readme = "README.md"
@@ -18,7 +18,6 @@ dependencies = [
     "drf-spectacular>=0.27.2",
     "environs[django]>=11.0.0",
     "feedparser>=6.0.11",
-    "gunicorn>=23.0.0",
     "httpx>=0.27.2",
     "markdown>=3.7",
     "psycopg2-binary>=2.9.9",
@@ -30,7 +29,7 @@ dependencies = [
     "redis>=5.2.0",
     "hiredis>=3.1.0",
     "django-redis>=6.0.0",
-    "json-log-formatter>=1.1.1",
+    "granian>=2.7.0",
 ]
 
 [dependency-groups]

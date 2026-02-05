@@ -42,4 +42,4 @@ COPY --from=builder --chown=$APP_USER:$APP_USER /app /app
 USER $APP_USER
 EXPOSE 8000
 
-CMD ["gunicorn", "snapy.wsgi", "-c", "gunicorn.config.py"]
+CMD ["granian", "--host", "0.0.0.0", "--access-log", "--interface", "wsgi", "snapy.wsgi:application"]

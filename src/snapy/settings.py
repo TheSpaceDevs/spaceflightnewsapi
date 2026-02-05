@@ -35,6 +35,7 @@ SECRET_KEY = env.str("SECRET_KEY")
 # Get the forwarded protocol from the proxy server
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 USE_X_FORWARDED_HOST = True
+USE_X_FORWARDED_PORT = True
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool("DEBUG", False)
@@ -207,6 +208,8 @@ if env.bool("ENABLE_THROTTLE", False):
         'anon': '5/second',
     }
 
+    REST_FRAMEWORK['NUM_PROXIES'] = env.int("NUM_PROXIES")
+
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "Spaceflight News API",
@@ -261,42 +264,3 @@ DEBUG_TOOLBAR_PANELS = [
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
-
-LOG_LEVEL = env.str("LOG_LEVEL", "INFO", validate=lambda x: x in ["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"])
-
-LOGGING = {
-    "version": 1,
-    "disable_existing_loggers": False,
-    "formatters": {
-        "json": {
-            "()": "snapy.logs.JSONFormatter"
-        },
-    },
-    "handlers": {
-        "stdout": {
-            "class": "logging.StreamHandler",
-            "formatter": "json"
-        },
-    },
-    "loggers": {
-        "django": {
-            "level": LOG_LEVEL,
-            "handlers": ["stdout"],
-            "propagate": False,
-        },
-        "": {
-            "level": LOG_LEVEL,
-            "handlers": ["stdout"],
-        },
-        "gunicorn.access": {
-            "level": LOG_LEVEL,
-            "handlers": ["stdout"],
-            "propagate": False,
-        },
-        "gunicorn.error": {
-            "level": LOG_LEVEL,
-            "handlers": ["stdout"],
-            "propagate": False,
-        },
-    },
-}
