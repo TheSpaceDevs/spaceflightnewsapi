@@ -1,52 +1,16 @@
 # CHANGELOG
 
 
-## v4.29.0-rc.4 (2026-02-05)
-
-### Bug Fixes
-
-- Ensure USE_X_FORWARDED_PORT is set to True for proxy configuration
-  ([`d6abf4b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d6abf4b89a33c933ac9cc0085a9582eb184e75d2))
-
-- Remove redundant access-log-fmt option from granian command in Dockerfile
-  ([`a65965c`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/a65965c19bd51dfd6d0bfcfc8a6899f418f0ac0d))
+## v4.29.0 (2026-02-05)
 
 ### Chores
 
-- Keep logging simple for now
-  ([`bdc3d6c`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/bdc3d6c644ce452d425a3aedf0c5ab0a988c2a18))
+- Staging to main ([#3762](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3762),
+  [`85aca53`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/85aca53597e0e148bd39e0ce02cfbceb3060207c))
 
-### Features
-
-- Add host option to granian command in Dockerfile
-  ([`bbb126e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/bbb126e10830c949568a330fb3df972ea69f9cb1))
-
-
-## v4.29.0-rc.3 (2026-02-04)
-
-### Features
-
-- Setup granian
-  ([`9aad63b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9aad63b50bb3a0e7e6ab8a1215b49d970ddaf97d))
-
-
-## v4.29.0-rc.2 (2026-01-31)
-
-### Features
-
-- Enhance access log format documentation in gunicorn configuration
-  ([`75bc14b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/75bc14b66e0a6ac3e028fb575f05e8d5d970a571))
-
-- Make num_proxies configurable
-  ([`ead42f8`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ead42f815fc96e523b353c1272a940ad7e84b340))
-
-
-## v4.29.0-rc.1 (2026-01-29)
-
-### Features
-
-- Add NUM_PROXIES setting to REST_FRAMEWORK for throttling
-  ([`9aa7b66`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9aa7b669df6e9a44f0ccef9a43830d38671e0973))
+- **deps**: Bump django from 5.2.10 to 5.2.11
+  ([#3761](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3761),
+  [`ca9b070`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ca9b0706a5da0b17ed8cbfd3b35c7c1332c0531b))
 
 
 ## v4.28.0 (2026-01-29)
