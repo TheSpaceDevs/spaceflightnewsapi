@@ -1,6 +1,27 @@
 # CHANGELOG
 
 
+## v4.29.0-rc.4 (2026-02-05)
+
+### Bug Fixes
+
+- Ensure USE_X_FORWARDED_PORT is set to True for proxy configuration
+  ([`d6abf4b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d6abf4b89a33c933ac9cc0085a9582eb184e75d2))
+
+- Remove redundant access-log-fmt option from granian command in Dockerfile
+  ([`a65965c`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/a65965c19bd51dfd6d0bfcfc8a6899f418f0ac0d))
+
+### Chores
+
+- Keep logging simple for now
+  ([`bdc3d6c`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/bdc3d6c644ce452d425a3aedf0c5ab0a988c2a18))
+
+### Features
+
+- Add host option to granian command in Dockerfile
+  ([`bbb126e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/bbb126e10830c949568a330fb3df972ea69f9cb1))
+
+
 ## v4.29.0-rc.3 (2026-02-04)
 
 ### Features
