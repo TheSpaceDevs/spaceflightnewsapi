@@ -96,7 +96,7 @@ jobs:
 
         - name: Build the image
           id: docker_build
-          uses: docker/build-push-action@v6
+          uses: docker/build-push-action@v7
           with:
             cache-from: type=gha
             cache-to: type=gha,mode=max
