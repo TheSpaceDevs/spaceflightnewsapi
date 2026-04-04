@@ -10,7 +10,7 @@ class ReportViewSet(viewsets.ReadOnlyModelViewSet):  # type: ignore
     queryset = (
         Report.objects.exclude(is_deleted=True)
         .select_related("news_site")
-        .prefetch_related("authors")
+        .prefetch_related("authors", "authors__socials")
         .order_by("-published_at")
     )
     serializer_class = ReportSerializer
