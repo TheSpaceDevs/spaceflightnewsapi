@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v4.30.1 (2026-04-04)
+
+### Bug Fixes
+
+- Use select_related for author socials to stop flooding db connections
+  ([#3774](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3774),
+  [`3b11124`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3b11124f8b0db080080c3722186a56daa19ca215))
+
+
 ## v4.30.0 (2026-04-04)
 
 ### Bug Fixes
