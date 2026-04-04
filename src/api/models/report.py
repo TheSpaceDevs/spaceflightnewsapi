@@ -6,11 +6,11 @@ from api.models.author import Author
 
 
 class Report(models.Model):
-    title = models.CharField(max_length=250)
+    title = models.CharField(max_length=250, db_index=True)
     url = models.URLField()
     image_url = models.URLField()
     news_site = models.ForeignKey("NewsSite", on_delete=models.CASCADE)
-    summary = models.TextField(blank=True)
+    summary = models.TextField(blank=True, db_index=True)
     published_at = models.DateTimeField()
     updated_at = models.DateTimeField(auto_now=True)
     is_deleted = models.BooleanField(default=False)
