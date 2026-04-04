@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v4.30.2-rc.1 (2026-04-04)
+
+### Bug Fixes
+
+- Add indexes to model fields
+  ([#3775](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3775),
+  [`a239067`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/a2390675a0f4ee7c1578cc3fcc2ce028f77c2cbf))
+
+
 ## v4.30.1 (2026-04-04)
 
 ### Bug Fixes
