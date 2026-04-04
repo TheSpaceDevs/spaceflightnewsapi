@@ -1,7 +1,9 @@
+from django.db.models import Prefetch
 from django_filters import rest_framework
 from rest_framework import viewsets
 
 from api.models import Blog
+from api.models.author import Author
 from api.serializers import BlogSerializer
 from api.views.filters import DocsFilter, SearchFilter
 
@@ -9,7 +11,11 @@ from api.views.filters import DocsFilter, SearchFilter
 class BlogViewSet(viewsets.ReadOnlyModelViewSet):  # type: ignore
     queryset = (
         Blog.objects.exclude(is_deleted=True)
-        .prefetch_related("launches", "events", "authors", "authors__socials")
+        .prefetch_related(
+            "launches",
+            "events",
+            Prefetch("authors", queryset=Author.objects.select_related("socials")),
+        )
         .select_related("news_site")
         .order_by("-published_at")
     )

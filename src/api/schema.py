@@ -1,10 +1,12 @@
 # type: ignore
 
+from django.db.models import Prefetch
 from graphene import ObjectType, relay
 from graphene_django import DjangoObjectType
 from graphene_django.filter import DjangoFilterConnectionField
 
 from api.models import Article, Blog, Event, Launch, NewsSite, Report
+from api.models.author import Author
 from api.views.filters import BaseFilter, DocsFilter
 
 
@@ -17,7 +19,15 @@ class ArticleType(DjangoObjectType):
 
     @classmethod
     def get_queryset(cls, queryset, info):
-        return queryset.order_by("-published_at")
+        return (
+            queryset.order_by("-published_at")
+            .select_related("news_site")
+            .prefetch_related(
+                "launches",
+                "events",
+                Prefetch("authors", queryset=Author.objects.select_related("socials")),
+            )
+        )
 
 
 class BlogType(DjangoObjectType):
@@ -29,7 +39,15 @@ class BlogType(DjangoObjectType):
 
     @classmethod
     def get_queryset(cls, queryset, info):
-        return queryset.order_by("-published_at")
+        return (
+            queryset.order_by("-published_at")
+            .select_related("news_site")
+            .prefetch_related(
+                "launches",
+                "events",
+                Prefetch("authors", queryset=Author.objects.select_related("socials")),
+            )
+        )
 
 
 class ReportType(DjangoObjectType):
@@ -41,7 +59,13 @@ class ReportType(DjangoObjectType):
 
     @classmethod
     def get_queryset(cls, queryset, info):
-        return queryset.order_by("-published_at")
+        return (
+            queryset.order_by("-published_at")
+            .select_related("news_site")
+            .prefetch_related(
+                Prefetch("authors", queryset=Author.objects.select_related("socials")),
+            )
+        )
 
 
 class LaunchType(DjangoObjectType):

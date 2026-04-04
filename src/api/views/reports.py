@@ -1,6 +1,8 @@
+from django.db.models import Prefetch
 from django_filters import rest_framework
 from rest_framework import viewsets
 
+from api.models.author import Author
 from api.models.report import Report
 from api.serializers.report_serializer import ReportSerializer
 from api.views.filters import BaseFilter, SearchFilter
@@ -10,7 +12,9 @@ class ReportViewSet(viewsets.ReadOnlyModelViewSet):  # type: ignore
     queryset = (
         Report.objects.exclude(is_deleted=True)
         .select_related("news_site")
-        .prefetch_related("authors", "authors__socials")
+        .prefetch_related(
+            Prefetch("authors", queryset=Author.objects.select_related("socials")),
+        )
         .order_by("-published_at")
     )
     serializer_class = ReportSerializer
