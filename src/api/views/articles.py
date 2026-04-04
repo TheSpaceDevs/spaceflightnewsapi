@@ -9,7 +9,7 @@ from api.views.filters import DocsFilter, SearchFilter
 class ArticleViewSet(viewsets.ReadOnlyModelViewSet):  # type: ignore
     queryset = (
         Article.objects.exclude(is_deleted=True)
-        .prefetch_related("launches", "events", "authors")
+        .prefetch_related("launches", "events", "authors", "authors__socials")
         .select_related("news_site")
         .order_by("-published_at")
     )
