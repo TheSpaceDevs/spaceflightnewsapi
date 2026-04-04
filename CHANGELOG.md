@@ -1,6 +1,41 @@
 # CHANGELOG
 
 
+## v4.30.0 (2026-04-04)
+
+### Bug Fixes
+
+- Add prefetch for authors__socials to fix N+1 query issue
+  ([#3773](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3773),
+  [`3dba9f7`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/3dba9f7e285e3a8dbd94f96ab13cdf8d7654ae24))
+
+### Chores
+
+- **deps**: Bump actions/create-github-app-token from 2 to 3
+  ([#3769](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3769),
+  [`cd8a783`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/cd8a7834f801c3c1bdba615adc669f75ce0f9d80))
+
+- **deps**: Bump django from 5.2.11 to 5.2.12
+  ([#3766](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3766),
+  [`9f90ad0`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/9f90ad022e2cb0edbb367c63ebcd32230405fe5f))
+
+- **deps**: Bump docker/build-push-action from 6 to 7
+  ([#3767](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3767),
+  [`ebc7096`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ebc709653efc3c44553b4f19b8b4814c8317dd7a))
+
+- **deps**: Bump docker/setup-buildx-action from 3 to 4
+  ([#3768](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3768),
+  [`d8ab35d`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d8ab35d44c83a6b05813dd5e15223becb8d48820))
+
+- **deps**: Bump pygments from 2.19.2 to 2.20.0
+  ([#3772](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3772),
+  [`c10f577`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c10f577b6d5125e292b122d3c5208a85cd14e6b7))
+
+- **deps**: Bump requests from 2.32.5 to 2.33.0
+  ([#3771](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3771),
+  [`750687b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/750687beffce2bae58530d80ec141af8bf5d660a))
+
+
 ## v4.29.0 (2026-02-05)
 
 ### Chores
