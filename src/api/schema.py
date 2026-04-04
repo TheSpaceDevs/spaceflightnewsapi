@@ -20,7 +20,8 @@ class ArticleType(DjangoObjectType):
     @classmethod
     def get_queryset(cls, queryset, info):
         return (
-            queryset.order_by("-published_at")
+            queryset.exclude(is_deleted=True)
+            .order_by("-published_at")
             .select_related("news_site")
             .prefetch_related(
                 "launches",
@@ -40,7 +41,8 @@ class BlogType(DjangoObjectType):
     @classmethod
     def get_queryset(cls, queryset, info):
         return (
-            queryset.order_by("-published_at")
+            queryset.exclude(is_deleted=True)
+            .order_by("-published_at")
             .select_related("news_site")
             .prefetch_related(
                 "launches",
@@ -60,7 +62,8 @@ class ReportType(DjangoObjectType):
     @classmethod
     def get_queryset(cls, queryset, info):
         return (
-            queryset.order_by("-published_at")
+            queryset.exclude(is_deleted=True)
+            .order_by("-published_at")
             .select_related("news_site")
             .prefetch_related(
                 Prefetch("authors", queryset=Author.objects.select_related("socials")),
