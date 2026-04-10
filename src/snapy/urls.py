@@ -22,6 +22,7 @@ from django.contrib import admin
 from django.urls import include, re_path
 from django.views.decorators.csrf import csrf_exempt
 from graphene_django.views import GraphQLView  # type: ignore
+from health_check.views import HealthCheckView
 
 urlpatterns = [
     # Jet URLs
@@ -32,7 +33,16 @@ urlpatterns = [
     # API URLs
     re_path(r"^v4/", include(("api.urls", "api"), namespace="v4")),
     # Non v4 URLs
-    re_path(r"health/", include("health_check.urls")),
+    re_path(
+        r"health/",
+        HealthCheckView.as_view(
+            checks=[
+                "health_check.Cache",
+                "health_check.Database",
+                "health_check.DNS",
+            ]
+        ),
+    ),
     re_path(r"admin/", admin.site.urls),
 ]
 
