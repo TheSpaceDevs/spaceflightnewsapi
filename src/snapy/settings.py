@@ -77,9 +77,6 @@ INSTALLED_APPS = [
     "drf_spectacular",
     "storages",
     "health_check",
-    "health_check.cache",
-    "health_check.db",
-    "health_check.contrib.redis",
     "graphene_django",
     ]
 
