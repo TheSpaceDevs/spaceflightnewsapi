@@ -1,18 +1,18 @@
 from rest_framework import serializers
 
-from api.models import Blog, NewsSite
+from api.models import Blog
 from api.serializers.author_serializer import AuthorSerializer
 from api.serializers.event_serializer import EventSerializer
 from api.serializers.launch_serializer import LaunchSerializer
 
 
 class BlogSerializer(serializers.ModelSerializer[Blog]):
-    news_site: "serializers.StringRelatedField[NewsSite]" = serializers.StringRelatedField()
+    news_site = serializers.StringRelatedField()
     launches = LaunchSerializer(many=True)
     events = EventSerializer(many=True)
     authors = AuthorSerializer(many=True)
 
-    class Meta:
+    class Meta:  # pyrefly: ignore[bad-override]
         model = Blog
         fields = [
             "id",

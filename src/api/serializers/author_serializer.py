@@ -4,9 +4,9 @@ from api.models.author import Author
 from api.serializers.socials_serializer import SocialsSerializer
 
 
-class AuthorSerializer(serializers.ModelSerializer[Author]):
+class AuthorSerializer(serializers.ModelSerializer):
     socials = SocialsSerializer(required=False)
 
-    class Meta:
+    class Meta:  # pyrefly: ignore[bad-override]
         model = Author
         fields = ["name", "socials"]

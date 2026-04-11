@@ -1,11 +1,11 @@
 from rest_framework import serializers
 
-from api.models import Launch, Provider
+from api.models import Launch
 
 
-class LaunchSerializer(serializers.ModelSerializer[Launch]):
-    provider: "serializers.StringRelatedField[Provider]" = serializers.StringRelatedField()
+class LaunchSerializer(serializers.ModelSerializer):
+    provider = serializers.StringRelatedField()
 
-    class Meta:
+    class Meta:  # pyrefly: ignore[bad-override]
         model = Launch
         fields = ["launch_id", "provider"]
