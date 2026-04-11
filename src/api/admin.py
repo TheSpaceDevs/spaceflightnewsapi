@@ -16,7 +16,7 @@ from api.models import Article, Author, Blog, Event, Launch, NewsSite, Provider,
 from api.models.abc import NewsItem
 
 
-class ArticleForm(forms.ModelForm[NewsItem]):
+class ArticleForm(forms.ModelForm):
     title = forms.CharField(widget=forms.TextInput(attrs={"size": 70}), required=True)
 
 
@@ -24,7 +24,7 @@ class ArticleForm(forms.ModelForm[NewsItem]):
 # Models that need customization
 @admin.register(Article)
 @admin.register(Blog)
-class ArticleAdmin(admin.ModelAdmin[NewsItem]):
+class ArticleAdmin(admin.ModelAdmin):
     """Admin view for articles and blogs."""
 
     list_per_page = 30
@@ -74,14 +74,14 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
     ]
 
     @admin.action(description="Mark selected articles as audited")
-    def mark_as_audited(self, request: HttpRequest, queryset: QuerySet[NewsItem]) -> None:
+    def mark_as_audited(self, request: HttpRequest, queryset: QuerySet) -> None:
         queryset.update(audited=True)
 
     @admin.action(description="Unmark selected articles as audited")
-    def unmark_as_audited(self, request: HttpRequest, queryset: QuerySet[NewsItem]) -> None:
+    def unmark_as_audited(self, request: HttpRequest, queryset: QuerySet) -> None:
         queryset.update(audited=False)
 
-    def get_queryset(self, request: HttpRequest) -> QuerySet[NewsItem]:
+    def get_queryset(self, request: HttpRequest) -> QuerySet:
         """Return the queryset with related fields prefetched."""
         qs = super().get_queryset(request).select_related("news_site").prefetch_related("launches", "events")
         return qs
@@ -214,7 +214,7 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
         extra_context = {"title": "News"}
         return super().changelist_view(request, extra_context)
 
-    def save_model(self, request: HttpRequest, obj: NewsItem, form: forms.ModelForm[NewsItem], change: bool) -> None:
+    def save_model(self, request: HttpRequest, obj: NewsItem, form: forms.ModelForm, change: bool) -> None:
         if change:
             # Ignore the type error as obj will be an instance of Article of Blog
             old_object: NewsItem = type(obj).objects.get(pk=obj.pk)  # type: ignore
@@ -231,20 +231,20 @@ class ArticleAdmin(admin.ModelAdmin[NewsItem]):
 
 
 @admin.register(Report)
-class ReportAdmin(admin.ModelAdmin[Report]):
+class ReportAdmin(admin.ModelAdmin):
     """Custom admin view for reports."""
 
     list_display = ("title", "news_site", "published_at", "is_deleted")
     search_fields = ["title"]
     ordering = ("-published_at",)
 
-    def get_queryset(self, request: HttpRequest) -> QuerySet[Report]:
+    def get_queryset(self, request: HttpRequest) -> QuerySet:
         """Return the queryset with related fields prefetched."""
         return super().get_queryset(request).select_related("news_site")
 
 
 @admin.register(NewsSite)
-class NewsSiteAdmin(admin.ModelAdmin[NewsSite]):
+class NewsSiteAdmin(admin.ModelAdmin):
     list_display = ("name", "id")
 
     def changelist_view(self, request: HttpRequest, extra_context: dict[str, str] | None = None) -> HttpResponse:
@@ -255,13 +255,13 @@ class NewsSiteAdmin(admin.ModelAdmin[NewsSite]):
 
 # Models that can be registered as is
 @admin.register(Event)
-class EventAdmin(admin.ModelAdmin[Event]):
+class EventAdmin(admin.ModelAdmin):
     list_display = ("name",)
     search_fields = ["name", "event_id"]
 
 
 @admin.register(Launch)
-class LaunchAdmin(admin.ModelAdmin[Launch]):
+class LaunchAdmin(admin.ModelAdmin):
     list_display = ("name",)
     search_fields = ["name", "launch_id"]
 

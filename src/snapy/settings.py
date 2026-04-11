@@ -10,16 +10,14 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+from typing import Any
 
-import django_stubs_ext
 from environs import Env
 from snapy import __version__
 
 env = Env()
 env.read_env()
 
-# Extensions for Django Stubs
-django_stubs_ext.monkeypatch()
 
 VERSION = __version__
 
@@ -187,7 +185,7 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-REST_FRAMEWORK = {
+REST_FRAMEWORK: dict[str, Any] = {  # quick hack because type hint is not correct for the "DEFAULT_THROTTLE_RATES"
     "DEFAULT_PAGINATION_CLASS": "api.utils.pagination.CustomLimitOffsetPagination",
     "PAGE_SIZE": 10,
     "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],

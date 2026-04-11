@@ -12,21 +12,21 @@ repos:
       - id: check-added-large-files
 
   - repo: https://github.com/PyCQA/bandit
-    rev: 1.8.6
+    rev: 1.9.4
     hooks:
       - id: bandit
         args: ["-c", "pyproject.toml"]
         additional_dependencies: ["bandit[toml]"]
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.21.1
+    rev: v3.21.2
     hooks:
       - id: pyupgrade
         args: ["--py313-plus"]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
-    rev: v0.14.4
+    rev: v0.15.10
     hooks:
       # Run the linter.
       - id: ruff-check
@@ -39,4 +39,12 @@ repos:
       - id: commitizen-branch
         stages:
           - pre-push
-    rev: v4.9.1
+    rev: v4.13.9
+
+  - repo: https://github.com/facebook/pyrefly-pre-commit
+    rev: 0.60.1
+    hooks:
+      - id: pyrefly-check
+        name: Pyrefly (type checking)
+        pass_filenames: false  # Recommended to do full repo checks. However, you can change this to `true` to only check changed files
+        language: system  # Use system-installed pyrefly
