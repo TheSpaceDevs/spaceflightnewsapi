@@ -27,7 +27,7 @@ dependencies = [
     "redis>=5.2.0",
     "hiredis>=3.1.0",
     "django-redis>=6.0.0",
-    "granian>=2.7.0",
+    "granian>=2.7.4",
 ]
 
 [dependency-groups]
