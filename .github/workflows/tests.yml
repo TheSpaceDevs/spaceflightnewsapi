@@ -21,10 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
 
       - name: Setup Python and Poetry
-        uses: './.github/actions/setup-python'
+        uses: "./.github/actions/setup-python"
         with:
           python-version: "3.12"
 
@@ -63,10 +63,10 @@ jobs:
 
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
 
       - name: Setup Python & Poetry
-        uses: './.github/actions/setup-python'
+        uses: "./.github/actions/setup-python"
         with:
           python-version: "3.12"
 
@@ -79,7 +79,7 @@ jobs:
         working-directory: src/
 
       - name: Publish test report
-        uses: mikepenz/action-junit-report@v6
+        uses: mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d
         if: success() || failure() # always run even if the previous step fails
         with:
           report_paths: "test_results/TEST-*.xml"
@@ -88,20 +88,20 @@ jobs:
   test-docker-image:
     runs-on: ubuntu-latest
     steps:
-        - name: Check out the repo
-          uses: actions/checkout@v6
+      - name: Check out the repo
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
 
-        - name: Set up Docker Buildx
-          uses: docker/setup-buildx-action@v4
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5
 
-        - name: Build the image
-          id: docker_build
-          uses: docker/build-push-action@v7
-          with:
-            cache-from: type=gha
-            cache-to: type=gha,mode=max
-            push: false
-            build-args: |
-              UV_INDEX_TSD_USERNAME=${{ env.UV_INDEX_TSD_USERNAME }}
-              UV_INDEX_TSD_PASSWORD=${{ env.UV_INDEX_TSD_PASSWORD }}
-            context: .
+      - name: Build the image
+        id: docker_build
+        uses: docker/build-push-action@f9f3042f7e2789586610d6e8b85c8f03e5195baf
+        with:
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          push: false
+          build-args: |
+            UV_INDEX_TSD_USERNAME=${{ env.UV_INDEX_TSD_USERNAME }}
+            UV_INDEX_TSD_PASSWORD=${{ env.UV_INDEX_TSD_PASSWORD }}
+          context: .

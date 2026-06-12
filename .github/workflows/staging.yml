@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
 
       - name: Build Image
         uses: ./.github/actions/build-image
@@ -30,15 +30,15 @@ jobs:
 
     steps:
       - name: Checkout the deployments repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
         with:
-          repository: 'TheSpaceDevs/TSD-Deployments'
-          path: 'deployments'
-          token: ${{ secrets.PAT }}  # https://github.com/actions/checkout?tab=readme-ov-file#checkout-multiple-repos-private
+          repository: "TheSpaceDevs/TSD-Deployments"
+          path: "deployments"
+          token: ${{ secrets.PAT }} # https://github.com/actions/checkout?tab=readme-ov-file#checkout-multiple-repos-private
 
       - name: Helm 3
-        uses: WyriHaximus/github-action-helm3@v4.0.2
+        uses: WyriHaximus/github-action-helm3@e3894d973c282349e3d41d3347767f2b2545b583
         with:
-          kubeconfig: '${{ secrets.KUBECONFIG }}'
+          kubeconfig: "${{ secrets.KUBECONFIG }}"
           overrule_existing_kubeconfig: "true"
           exec: helm upgrade snapi-staging -f ./deployments/snapi-django/values.yaml -f ./deployments/snapi-django/values-staging.yaml --set image.tag=${{ github.event.release.tag_name }} ./deployments/snapi-django
