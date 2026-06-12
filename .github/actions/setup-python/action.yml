@@ -1,20 +1,20 @@
-name: 'Setup Python & Poetry'
-description: 'Setup Python and Poetry for the project'
+name: "Setup Python & Poetry"
+description: "Setup Python and Poetry for the project"
 inputs:
   python-version:
-    description: 'Version that will be used to tag the image. Should be the version of the API.'
-    default: '3.12'
+    description: "Version that will be used to tag the image. Should be the version of the API."
+    default: "3.12"
   uv-version:
-    description: 'UV version to use.'
-    default: '0.5.2'
+    description: "UV version to use."
+    default: "0.5.2"
 runs:
   using: "composite"
   steps:
-    - uses: actions/setup-python@v5
+    - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405
       with:
         python-version: ${{ inputs.python-version }}
 
     - name: Setup | Install uv
-      uses: astral-sh/setup-uv@v6
+      uses: astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39
       with:
         version: ${{ inputs.uv-version }}

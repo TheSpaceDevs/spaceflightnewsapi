@@ -1,17 +1,17 @@
-name: 'Build Image'
-description: 'Builds, tags and pushes an image to the configured registry'
+name: "Build Image"
+description: "Builds, tags and pushes an image to the configured registry"
 inputs:
-  version:  # id of input
-    description: 'Version that will be used to tag the image. Should be the version of the API.'
+  version: # id of input
+    description: "Version that will be used to tag the image. Should be the version of the API."
     required: true
   token:
-    description: 'GitHub token to use for the action'
+    description: "GitHub token to use for the action"
     required: true
   repository_username:
-    description: 'Username of the repository'
+    description: "Username of the repository"
     required: true
   repository_password:
-    description: 'Password of the repository'
+    description: "Password of the repository"
     required: true
 runs:
   using: "composite"
@@ -23,17 +23,17 @@ runs:
 
     - name: Docker meta
       id: meta
-      uses: docker/metadata-action@v5
+      uses: docker/metadata-action@80c7e94dd9b9319bd5eb7a0e0fe9291e23a2a2e9
       with:
         images: |
           ghcr.io/TheSpaceDevs/spaceflightnewsapi
         tags: ${{ inputs.version }}
 
     - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
+      uses: docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5
 
     - name: Login to GitHub Container Registry
-      uses: docker/login-action@v3
+      uses: docker/login-action@650006c6eb7dba73a995cc03b0b2d7f5ca915bee
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
@@ -41,7 +41,7 @@ runs:
 
     - name: Build and push
       id: docker_build
-      uses: docker/build-push-action@v6
+      uses: docker/build-push-action@f9f3042f7e2789586610d6e8b85c8f03e5195baf
       with:
         cache-from: type=gha
         cache-to: type=gha,mode=max
