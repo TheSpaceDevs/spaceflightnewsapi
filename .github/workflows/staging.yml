@@ -34,7 +34,7 @@ jobs:
         with:
           repository: "TheSpaceDevs/TSD-Deployments"
           path: "deployments"
-          token: ${{ secrets.PAT }} # https://github.com/actions/checkout?tab=readme-ov-file#checkout-multiple-repos-private
+          token: ${{ secrets.PAT || github.token }} # https://github.com/actions/checkout?tab=readme-ov-file#checkout-multiple-repos-private
 
       - name: Helm 3
         uses: WyriHaximus/github-action-helm3@e3894d973c282349e3d41d3347767f2b2545b583
