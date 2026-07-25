@@ -1564,10 +1564,10 @@ requires-dist = [
     { name = "django-health-check", specifier = "~=4.0" },
     { name = "django-jet-reboot", specifier = ">=1.3.9" },
     { name = "django-redis", specifier = ">=6.0.0" },
-    { name = "django-storages", extras = ["s3"], specifier = ">=1.14.4" },
+    { name = "django-storages", extras = ["s3"], specifier = ">=1.14.6" },
     { name = "djangorestframework", specifier = ">=3.15.2" },
     { name = "drf-spectacular", specifier = ">=0.27.2" },
-    { name = "environs", extras = ["django"], specifier = ">=11.0.0" },
+    { name = "environs", extras = ["django"], specifier = ">=15.0.1" },
     { name = "feedparser", specifier = ">=6.0.11" },
     { name = "granian", specifier = ">=2.7.0" },
     { name = "graphene-django", specifier = ">=3.2.2" },
@@ -1584,7 +1584,7 @@ requires-dist = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "bandit", extras = ["toml"], specifier = ">=1.7.9" },
+    { name = "bandit", extras = ["toml"], specifier = ">=1.9.4" },
     { name = "commitizen", specifier = ">=4.0.0" },
     { name = "coverage", specifier = ">=7.6.1" },
     { name = "django-debug-toolbar", specifier = ">=4.4.6" },
