@@ -311,16 +311,16 @@ wheels = [
 
 [[package]]
 name = "django"
-version = "5.2.16"
+version = "6.0.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asgiref" },
     { name = "sqlparse" },
     { name = "tzdata", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a9/26/889449d521ae508b26de715954faecd8bcf3f740affb81b2d146a83b42a5/django-5.2.16.tar.gz", hash = "sha256:59ea02020c3136fce14bef0bbece21a10a4febef5eed1c51c22ae468efa22200", size = 10890894, upload-time = "2026-07-07T13:52:17.005Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/89/55/664f24ff81c9ea19cb7dfc851afeae1f3c2390c7aee01d4ded68b5c1580d/django-6.0.7.tar.gz", hash = "sha256:2998503fc083124fb58037084bfa00de323c7c743f05f1b4284e77bff0ab8890", size = 10921299, upload-time = "2026-07-07T13:51:26.485Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4e/13/1e5e3e4c15dcecb04281b3cb2a46a4670e1cef131068e202f6040df19224/django-5.2.16-py3-none-any.whl", hash = "sha256:04f354bf9d807a86ad1a8392fe3808d362358a8eafc322848e0e43e59b24371d", size = 8311943, upload-time = "2026-07-07T13:52:11.223Z" },
+    { url = "https://files.pythonhosted.org/packages/ba/ec/1ce5334b6a2c52ce619c23a0be8d366a57a0e080ebb2d88266e5c849157c/django-6.0.7-py3-none-any.whl", hash = "sha256:a037427c2288443a8c02a1b02295a31c239663aa682bc50b1976afb7cf6a769e", size = 8373344, upload-time = "2026-07-07T13:51:20.007Z" },
 ]
 
 [[package]]
@@ -439,7 +439,7 @@ s3 = [
 
 [[package]]
 name = "django-stubs"
-version = "5.2.9"
+version = "6.0.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "django" },
@@ -447,9 +447,9 @@ dependencies = [
     { name = "types-pyyaml" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/9c/01/86c921e0e19c9fa7e705bf795998dbf55eb183e7be0342a3027dc1bcbc9f/django_stubs-5.2.9.tar.gz", hash = "sha256:c192257120b08785cfe6f2f1c91f1797aceae8e9daa689c336e52c91e8f6a493", size = 257970, upload-time = "2026-01-20T23:59:27.018Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/8a/90/087c6e424e705e05182e543ef6b366a59eb5c92ab008b0dbbba55f357a40/django_stubs-6.0.7.tar.gz", hash = "sha256:bc55431c0af745a64e39cf33a8d36c87dccbedeae2fe26fab47dd355270e8538", size = 282293, upload-time = "2026-07-14T10:08:27.122Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0d/05/4c9c419b7051eb4b350100b086be6df487f968ab672d3d370f8ccf7c3746/django_stubs-5.2.9-py3-none-any.whl", hash = "sha256:2317a7130afdaa76f6ff7f623650d7f3bf1b6c86a60f95840e14e6ec6de1a7cd", size = 508656, upload-time = "2026-01-20T23:59:25.12Z" },
+    { url = "https://files.pythonhosted.org/packages/02/86/230ae6056221b543d63f7710d73967fe1c6840693540e99ea3c54f45859c/django_stubs-6.0.7-py3-none-any.whl", hash = "sha256:7ed9a14c438e589272ca04e966dee82a4d1ff7ca5c2171bc986c50a0d03ec35b", size = 547460, upload-time = "2026-07-14T10:08:25.626Z" },
 ]
 
 [[package]]
@@ -1558,16 +1558,16 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "django", specifier = "~=5.2.0" },
+    { name = "django", specifier = "~=6.0.7" },
     { name = "django-cors-headers", specifier = ">=4.4.0" },
     { name = "django-filter", specifier = ">=24.3" },
     { name = "django-health-check", specifier = "~=4.0" },
     { name = "django-jet-reboot", specifier = ">=1.3.9" },
     { name = "django-redis", specifier = ">=6.0.0" },
-    { name = "django-storages", extras = ["s3"], specifier = ">=1.14.4" },
+    { name = "django-storages", extras = ["s3"], specifier = ">=1.14.6" },
     { name = "djangorestframework", specifier = ">=3.15.2" },
     { name = "drf-spectacular", specifier = ">=0.27.2" },
-    { name = "environs", extras = ["django"], specifier = ">=11.0.0" },
+    { name = "environs", extras = ["django"], specifier = ">=15.0.1" },
     { name = "feedparser", specifier = ">=6.0.11" },
     { name = "granian", specifier = ">=2.7.0" },
     { name = "graphene-django", specifier = ">=3.2.2" },
@@ -1584,12 +1584,12 @@ requires-dist = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "bandit", extras = ["toml"], specifier = ">=1.7.9" },
+    { name = "bandit", extras = ["toml"], specifier = ">=1.9.4" },
     { name = "commitizen", specifier = ">=4.0.0" },
     { name = "coverage", specifier = ">=7.6.1" },
     { name = "django-debug-toolbar", specifier = ">=4.4.6" },
     { name = "django-filter-stubs", specifier = ">=0.1.3" },
-    { name = "django-stubs", specifier = "~=5.2.9" },
+    { name = "django-stubs", specifier = "~=6.0.7" },
     { name = "peek-python", specifier = ">=25.0.7" },
     { name = "pyrefly", specifier = ">=0.60.1" },
     { name = "pytest", specifier = ">=8.3.3" },
