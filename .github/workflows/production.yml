@@ -34,7 +34,7 @@ jobs:
         with:
           repository: "TheSpaceDevs/TSD-Deployments"
           path: "deployments"
-          token: ${{ github.token }}
+          token: ${{ secrets.PAT }}
 
       - name: Helm 3
         uses: WyriHaximus/github-action-helm3@e3894d973c282349e3d41d3347767f2b2545b583
