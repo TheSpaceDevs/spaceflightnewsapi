@@ -1,9 +1,15 @@
 # CHANGELOG
 
 
+## v4.31.0-rc.3 (2026-07-26)
+
+
 ## v4.31.0-rc.2 (2026-07-25)
 
 ### Chores
+
+- Update GitHub Actions to use secrets for token
+  ([`90686fd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/90686fdc2ba0a1ee1a341da74ae30469480ceb8b))
 
 - Update GitHub Actions token to use github.token
   ([`7b0fccb`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7b0fccba71118d93079cb7547f832303fc4e1ad2))
