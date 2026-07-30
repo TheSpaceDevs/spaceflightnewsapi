@@ -1,21 +1,25 @@
 # CHANGELOG
 
 
-## v4.31.0-rc.3 (2026-07-26)
-
-
-## v4.31.0-rc.2 (2026-07-25)
+## v4.32.0 (2026-07-30)
 
 ### Chores
 
-- Update GitHub Actions to use secrets for token
-  ([`90686fd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/90686fdc2ba0a1ee1a341da74ae30469480ceb8b))
+- **deps**: Bump astral-sh/setup-uv from 8.3.2 to 9.0.0 in the package-updates group
+  ([#3818](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3818),
+  [`a6d248e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/a6d248e94a238d6ce7e1af7a63c612108ed59483))
 
-- Update GitHub Actions token to use github.token
-  ([`7b0fccb`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7b0fccba71118d93079cb7547f832303fc4e1ad2))
+- **deps**: Bump the package-updates group with 6 updates
+  ([#3819](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3819),
+  [`781b7de`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/781b7defb7982231eac7a84e0ace2141a1ac2e05))
+
+### Continuous Integration
+
+- Staging to main ([#3817](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3817),
+  [`4b9144e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/4b9144eae2c387d7e70a7faeda0d5c7f0ba57db9))
 
 
-## v4.31.0-rc.1 (2026-07-25)
+## v4.31.0 (2026-07-26)
 
 ### Chores
 
