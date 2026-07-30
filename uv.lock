@@ -222,7 +222,7 @@ wheels = [
 
 [[package]]
 name = "commitizen"
-version = "4.16.5"
+version = "4.17.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "argcomplete" },
@@ -238,9 +238,9 @@ dependencies = [
     { name = "termcolor" },
     { name = "tomlkit" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8e/de/b7ad6b48415760b3bb2e702218b9fc89ea376509ec88d04a281c33196f42/commitizen-4.16.5.tar.gz", hash = "sha256:a953394a8625ab6e3619d7e97ffc032cac8a13c5854a12010d0a9d415cdb80ca", size = 66779, upload-time = "2026-07-16T02:58:50.386Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/87/af/510e0659cf66dadddd769c1c955dc0b28a4685dd69bfd34e6e6ee35c7c41/commitizen-4.17.0.tar.gz", hash = "sha256:e5bcabed3474029cc8f5a5c62216130bc2999f7bc29a3b9884bcd426d7f35c5a", size = 67643, upload-time = "2026-07-29T09:17:19.924Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d2/e2/b412a27022502f5b96638f379c821e25668ae231d5501088a2773262ef4a/commitizen-4.16.5-py3-none-any.whl", hash = "sha256:cd80978a61bb3e0b18137da9e10d03edba0b9c184b9bc964dba8a31c42a7630c", size = 88932, upload-time = "2026-07-16T02:58:48.658Z" },
+    { url = "https://files.pythonhosted.org/packages/c5/a0/68f2683c1d736c20f48d8428a1db7486231f1b49928cf9cfaa9863b45998/commitizen-4.17.0-py3-none-any.whl", hash = "sha256:2e1842d12b7c29591bbeb2094d115aa47d10c6a92f5d6430bf24590434520726", size = 89566, upload-time = "2026-07-29T09:17:18.366Z" },
 ]
 
 [[package]]
@@ -387,15 +387,15 @@ wheels = [
 
 [[package]]
 name = "django-health-check"
-version = "4.4.3"
+version = "4.4.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "django" },
     { name = "dnspython" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/61/9b/1b48973dfeb13fe5bce8669a328a06d31b71e2b9ee28099b5a499ee4d5f3/django_health_check-4.4.3.tar.gz", hash = "sha256:a99fe9f13da26cf055d81e90f237ef3ad40a31f365b280812a590707854b8d2b", size = 21800, upload-time = "2026-06-23T09:42:09.157Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/46/d5/34eac70f0df0d67351692d77f46995ced3d55be09a842802e93d26abceaa/django_health_check-4.4.4.tar.gz", hash = "sha256:4d84f3b0e3015568023f111bc8b3ef5e5094556637e1e0f6202b2eca80c07b9b", size = 21923, upload-time = "2026-07-28T17:33:52.816Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0e/42/0497bb62bb6df5af67ea211a79f8ba158a3b4896b222f747833f5dd0e407/django_health_check-4.4.3-py3-none-any.whl", hash = "sha256:dfbb27e4c63e8e419a4852f0d9c1c49d6de342e1b00438144905761c2a1386a7", size = 26916, upload-time = "2026-06-23T09:42:07.72Z" },
+    { url = "https://files.pythonhosted.org/packages/76/e8/3bc8e4045c026d3496040dceb06265da3d049de1ad4fa082f9414b62ae73/django_health_check-4.4.4-py3-none-any.whl", hash = "sha256:22a4807e06bb60ba98bb35c7c5a625db1a845fc373de3cad6e9d675939dbfe4d", size = 27027, upload-time = "2026-07-28T17:33:51.477Z" },
 ]
 
 [[package]]
@@ -557,14 +557,23 @@ wheels = [
 
 [[package]]
 name = "feedparser"
-version = "6.0.12"
+version = "6.0.13"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "sgmllib3k" },
+    { name = "feedparser-sgmllib" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/dc/79/db7edb5e77d6dfbc54d7d9df72828be4318275b2e580549ff45a962f6461/feedparser-6.0.12.tar.gz", hash = "sha256:64f76ce90ae3e8ef5d1ede0f8d3b50ce26bcce71dd8ae5e82b1cd2d4a5f94228", size = 286579, upload-time = "2025-09-10T13:33:59.486Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ba/4d/5b2ec743bf789655efda6a75a482522568f65594579864e406425b78870f/feedparser-6.0.13.tar.gz", hash = "sha256:ceba9cd98a0a4bfc17e24e8ea47e649f194fbf881d417fd5bd0af2927a03c5c9", size = 286155, upload-time = "2026-07-28T12:42:20.402Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4e/eb/c96d64137e29ae17d83ad2552470bafe3a7a915e85434d9942077d7fd011/feedparser-6.0.12-py3-none-any.whl", hash = "sha256:6bbff10f5a52662c00a2e3f86a38928c37c48f77b3c511aedcd51de933549324", size = 81480, upload-time = "2025-09-10T13:33:58.022Z" },
+    { url = "https://files.pythonhosted.org/packages/df/6b/402c049864f7e1181e603b37b36690409ce5fd014417bf234724dbb95c87/feedparser-6.0.13-py3-none-any.whl", hash = "sha256:ff00fcd62a1bba943ad6dadb7e3139bc3e2d9e027859343283112d605e794e52", size = 80666, upload-time = "2026-07-28T12:42:19.169Z" },
+]
+
+[[package]]
+name = "feedparser-sgmllib"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c8/1b/dd83b36c2c260307fa0322be855a20a8ef8a52e54ee8c215773ba1a19186/feedparser_sgmllib-1.0.0.tar.gz", hash = "sha256:f73861ca2f6bb2798b2499fbab62d34bd27fd13379704a38ed616c67eb0a76a6", size = 9431, upload-time = "2026-07-27T12:40:47.649Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/91/57/a2a8e39270d8742b21e5a030b809573e35ab57400487f98bfcb6cca766ad/feedparser_sgmllib-1.0.0-py3-none-any.whl", hash = "sha256:d0d5daf29b3f315396d4d5a65b5fe28862d1bc4ea37dec826ccbf1021034a959", size = 10012, upload-time = "2026-07-27T12:40:46.451Z" },
 ]
 
 [[package]]
@@ -686,7 +695,7 @@ wheels = [
 
 [[package]]
 name = "harvester"
-version = "0.17.0"
+version = "0.18.0"
 source = { registry = "https://pypi.thespacedevs.com/simple/" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -697,9 +706,9 @@ dependencies = [
     { name = "requests" },
     { name = "selenium" },
 ]
-sdist = { url = "https://pypi.thespacedevs.com/packages/harvester-0.17.0.tar.gz", hash = "sha256:f840900d7d4134789a2c53b3b60eac8b7b0ef16c4d089577dd0630bee6669138" }
+sdist = { url = "https://pypi.thespacedevs.com/packages/harvester-0.18.0.tar.gz", hash = "sha256:53e3e21e11f1448d753742efc5770f7e1948385928d81270ef6d687bdd94274c" }
 wheels = [
-    { url = "https://pypi.thespacedevs.com/packages/harvester-0.17.0-py3-none-any.whl", hash = "sha256:c06c6011059856cbe77436d5922dd593949bad8c65bebeefad1e510e5ac430b3" },
+    { url = "https://pypi.thespacedevs.com/packages/harvester-0.18.0-py3-none-any.whl", hash = "sha256:3c7e2568e590ff5055d2ff51d954a8d8660ce3e09c572512203322ebf62f15ed" },
 ]
 
 [[package]]
@@ -1004,7 +1013,7 @@ wheels = [
 
 [[package]]
 name = "peek-python"
-version = "26.1.3"
+version = "26.1.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asttokens" },
@@ -1013,9 +1022,9 @@ dependencies = [
     { name = "six" },
     { name = "tomli" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ea/74/2f1225e8c42076a68c194e55d6e261a19c9841805fdb049f6c2b5b4f92c1/peek_python-26.1.3.tar.gz", hash = "sha256:f8cba001635212d1e075e33ffa55ff3fa198684e5eb695df44222f6517b00a6d", size = 56392, upload-time = "2026-06-07T14:37:11.101Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/8d/22/b909a1af92c0cda78aad7d4fbaf69408c6a45a6425282c07300db1da1417/peek_python-26.1.4.tar.gz", hash = "sha256:d26ff49d8be0657c50d0a21e8f084005a5a09a87972d08276df6b0df902e4e2c", size = 56525, upload-time = "2026-07-30T09:05:49.088Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/db/10/f53ef32cb2c2f3500887a450484de860406c6d1f5046bb95d26faecad6b1/peek_python-26.1.3-py3-none-any.whl", hash = "sha256:fafd8d989c5197afbd2b6e0afbb52b371424941a4fa1d98b2ec905d21f209144", size = 23485, upload-time = "2026-06-07T14:37:09.995Z" },
+    { url = "https://files.pythonhosted.org/packages/76/81/958f0cc3e053bdfcbb833416c4c59158f76526a1d6035dd29d4148dc92e5/peek_python-26.1.4-py3-none-any.whl", hash = "sha256:b47e7d3c542946a42d24aef54e9801043eda193468cc5dc913e887c56c0a032f", size = 23524, upload-time = "2026-07-30T09:05:47.904Z" },
 ]
 
 [[package]]
@@ -1326,11 +1335,11 @@ wheels = [
 
 [[package]]
 name = "redis"
-version = "8.0.1"
+version = "8.1.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/cc/c3/928b290c2c0ca99ab96eea5b4ff8f30be8112b075301a7d3ba214a3c8c12/redis-8.0.1.tar.gz", hash = "sha256:afc5a7a2f5a084f5b1880dec548dd45be17db7e43c82a30d84f952aefb05cfb0", size = 5114170, upload-time = "2026-06-23T14:52:37.728Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a8/99/604f0b666d4c616d891cf77ebb9db6bb21601344c051aebf1b72b9ff915f/redis-8.1.0.tar.gz", hash = "sha256:6e1a19beef9225c83efd689c7e6b7da2d5215b1f42cd13b7fc3714d0a09c7b25", size = 5254356, upload-time = "2026-07-30T08:51:00.269Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/fd/0a/c2345ebf1ebe70840ce3f6c6ee612f8fa749cfbd1b03069c53bf0c62aaad/redis-8.0.1-py3-none-any.whl", hash = "sha256:47daa35a058c23468d6437f17a8c76882cb316b838ef763036af99b96cedd743", size = 502406, upload-time = "2026-06-23T14:52:36.137Z" },
+    { url = "https://files.pythonhosted.org/packages/66/9d/c5731f6e3608663d4d3656fd8d3aecee8b509c3082818f5a13eae925baea/redis-8.1.0-py3-none-any.whl", hash = "sha256:a4fe1aac3d3b3cc791d4b3d5931c5a956045dc951ee74d1c913ee3ac4d2ee9fb", size = 560618, upload-time = "2026-07-30T08:50:58.497Z" },
 ]
 
 [[package]]
@@ -1477,12 +1486,6 @@ wheels = [
 ]
 
 [[package]]
-name = "sgmllib3k"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/9e/bd/3704a8c3e0942d711c1299ebf7b9091930adae6675d7c8f476a7ce48653c/sgmllib3k-1.0.0.tar.gz", hash = "sha256:7868fb1c8bfa764c1ac563d3cf369c381d1325d36124933a726f29fcdaa812e9", size = 5750, upload-time = "2010-08-24T14:33:52.445Z" }
-
-[[package]]
 name = "shellingham"
 version = "1.5.4"
 source = { registry = "https://pypi.org/simple" }
@@ -1511,7 +1514,7 @@ wheels = [
 
 [[package]]
 name = "snapy"
-version = "4.30.2"
+version = "4.31.0rc3"
 source = { virtual = "." }
 dependencies = [
     { name = "django" },
@@ -1561,23 +1564,23 @@ requires-dist = [
     { name = "django", specifier = "~=5.2.0" },
     { name = "django-cors-headers", specifier = ">=4.4.0" },
     { name = "django-filter", specifier = ">=24.3" },
-    { name = "django-health-check", specifier = "~=4.0" },
+    { name = "django-health-check", specifier = "~=4.4" },
     { name = "django-jet-reboot", specifier = ">=1.3.9" },
     { name = "django-redis", specifier = ">=6.0.0" },
     { name = "django-storages", extras = ["s3"], specifier = ">=1.14.6" },
     { name = "djangorestframework", specifier = ">=3.15.2" },
     { name = "drf-spectacular", specifier = ">=0.27.2" },
     { name = "environs", extras = ["django"], specifier = ">=15.0.1" },
-    { name = "feedparser", specifier = ">=6.0.11" },
+    { name = "feedparser", specifier = ">=6.0.13" },
     { name = "granian", specifier = ">=2.7.0" },
     { name = "graphene-django", specifier = ">=3.2.2" },
-    { name = "harvester", specifier = ">=0.17.0", index = "https://pypi.thespacedevs.com/simple/" },
+    { name = "harvester", specifier = ">=0.18.0", index = "https://pypi.thespacedevs.com/simple/" },
     { name = "hiredis", specifier = ">=3.1.0" },
     { name = "httpx", specifier = ">=0.27.2" },
     { name = "markdown", specifier = ">=3.7" },
     { name = "psycopg2-binary", specifier = ">=2.9.9" },
     { name = "pyyaml", specifier = ">=6.0.2" },
-    { name = "redis", specifier = ">=5.2.0" },
+    { name = "redis", specifier = ">=8.1.0" },
     { name = "sentry-sdk", specifier = ">=2.14.0" },
     { name = "uritemplate", specifier = ">=4.1.1" },
 ]
@@ -1585,12 +1588,12 @@ requires-dist = [
 [package.metadata.requires-dev]
 dev = [
     { name = "bandit", extras = ["toml"], specifier = ">=1.9.4" },
-    { name = "commitizen", specifier = ">=4.0.0" },
+    { name = "commitizen", specifier = ">=4.17.0" },
     { name = "coverage", specifier = ">=7.6.1" },
     { name = "django-debug-toolbar", specifier = ">=4.4.6" },
     { name = "django-filter-stubs", specifier = ">=0.1.3" },
     { name = "django-stubs", specifier = "~=5.2.9" },
-    { name = "peek-python", specifier = ">=25.0.7" },
+    { name = "peek-python", specifier = ">=26.1.4" },
     { name = "pyrefly", specifier = ">=0.60.1" },
     { name = "pytest", specifier = ">=8.3.3" },
     { name = "pytest-cov", specifier = ">=5.0.0" },
