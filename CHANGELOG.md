@@ -1,6 +1,23 @@
 # CHANGELOG
 
 
+## v4.33.0-rc.1 (2026-08-11)
+
+### Chores
+
+- **deps**: Bump gitpython from 3.1.55 to 3.1.58
+  ([#3823](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3823),
+  [`7b57dc8`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/7b57dc81fee55ae6cdc1f464de6b21dc2e4a1356))
+
+- **deps**: Bump the package-updates group across 1 directory with 15 updates
+  ([#3825](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3825),
+  [`6e7f4bd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6e7f4bd2613444e7915a414f40a42ebf086a6267))
+
+- **deps**: Bump the package-updates group across 1 directory with 3 updates
+  ([#3824](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3824),
+  [`f6f27ca`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/f6f27ca1254946f1ab6c90ca2f278173e5de17eb))
+
+
 ## v4.32.0 (2026-07-30)
 
 ### Chores
