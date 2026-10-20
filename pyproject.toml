@@ -20,7 +20,7 @@ dependencies = [
     "markdown>=3.11",
     "psycopg2-binary>=2.9.13",
     "pyyaml>=6.0.2",
-    "sentry-sdk>=2.71.0",
+    "sentry-sdk>=2.72.0",
     "uritemplate>=4.1.1",
     "harvester>=0.18.0",
     "graphene-django>=3.2.2",
@@ -44,8 +44,8 @@ dev = [
     "pytest-cov>=5.0.0",
     "pytest-django>=4.14.0",
     "python-semantic-release>=10.7.0",
-    "pyupgrade>=3.17.0",
-    "ruff>=0.16.10",
+    "pyupgrade>=3.22.0",
+    "ruff>=0.17.0",
 ]
 
 [tool.django-stubs]
