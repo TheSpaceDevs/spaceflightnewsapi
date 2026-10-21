@@ -31,6 +31,11 @@ ENV PYTHONUNBUFFERED=1
 ENV PATH="/app/.venv/bin:$PATH"
 ENV DJANGO_SETTINGS_MODULE=snapy.settings
 
+# Granian defaults to up to 512 threads per worker for WSGI. With persistent database connections (CONN_MAX_AGE) each
+# thread keeps its own connection, while the GIL keeps extra threads from adding throughput. Total connections are
+# GRANIAN_WORKERS x GRANIAN_BLOCKING_THREADS; keep that below the database's (or pool's) connection limit.
+ENV GRANIAN_BLOCKING_THREADS=8
+
 # Using the www-data user for security. This user is already present in the base image.
 ENV APP_USER=www-data
 

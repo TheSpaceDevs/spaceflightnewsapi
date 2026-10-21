@@ -127,7 +127,15 @@ WSGI_APPLICATION = "snapy.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {"default": env.dj_db_url("DATABASE_URL")}
+# Reuse connections across requests instead of opening a new one per request. Connections are per thread, so the
+# number of open connections follows Granian's blocking threads; set CONN_MAX_AGE=0 to go back to one per request.
+DATABASES = {
+    "default": env.dj_db_url(
+        "DATABASE_URL",
+        conn_max_age=env.int("CONN_MAX_AGE", 60),
+        conn_health_checks=True,
+    )
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
