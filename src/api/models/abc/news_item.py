@@ -25,6 +25,11 @@ class NewsItem(models.Model):
 
     class Meta:
         abstract = True
+        # Partial indexes matching the API's `exclude(is_deleted=True)` + `order_by(...)` list queries.
+        indexes = [
+            models.Index(fields=["-published_at"], name="%(class)s_published_idx", condition=models.Q(is_deleted=False)),
+            models.Index(fields=["-updated_at"], name="%(class)s_updated_idx", condition=models.Q(is_deleted=False)),
+        ]
 
     def __str__(self) -> str:
         return self.title
