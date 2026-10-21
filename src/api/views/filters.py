@@ -1,6 +1,9 @@
+import operator
+from functools import reduce
 from typing import Any
 
-from django.db.models import Q, QuerySet
+from django.db.models import Exists, OuterRef, Q, QuerySet
+from django.db.models.constants import LOOKUP_SEP
 from django_filters import (
     BaseInFilter,
     BooleanFilter,
@@ -12,6 +15,8 @@ from django_filters import (
     UUIDFilter,
 )
 from rest_framework import filters
+from rest_framework.request import Request
+from rest_framework.views import APIView
 
 
 class UUIDInFilter(BaseInFilter, UUIDFilter):
@@ -214,4 +219,41 @@ class DocsFilter(BaseFilter):
 
 
 class SearchFilter(filters.SearchFilter):
+    """DRF's search filter, but fields behind a foreign key are matched up front.
+
+    DRF ORs all search fields together. When one of them lives on a joined table (`news_site__name`), Postgres can't
+    combine the trigram indexes on title and summary and scans the whole table instead. Looking up the matching
+    related ids first turns that field into `news_site_id IN (...)`, which can be combined with the other indexes.
+    """
+
     search_description = "Search for documents with a specific phrase in the title or summary."
+
+    def filter_queryset(self, request: Request, queryset: QuerySet[Any], view: APIView) -> QuerySet[Any]:
+        search_fields = self.get_search_fields(view, request)
+        search_terms = self.get_search_terms(request)
+
+        if not search_fields or not search_terms:
+            return queryset
+
+        conditions = (
+            reduce(operator.or_, (self._search_condition(queryset, str(field), term) for field in search_fields))
+            for term in search_terms
+        )
+        filtered = queryset.filter(reduce(operator.and_, conditions))
+
+        # Remove duplicates caused by many-to-many search fields, same as DRF does.
+        if self.must_call_distinct(filtered, search_fields):
+            return queryset.filter(Exists(filtered.filter(pk=OuterRef("pk"))))
+        return filtered
+
+    def _search_condition(self, queryset: QuerySet[Any], search_field: str, term: str) -> Q:
+        relation, _, related_field = search_field.partition(LOOKUP_SEP)
+        if related_field and search_field[0] not in self.lookup_prefixes:
+            field = queryset.model._meta.get_field(relation)
+            if field.many_to_one and field.related_model:
+                related = field.related_model._default_manager.all()
+                lookup = self.construct_search(related_field, related)
+                ids = list(related.filter(**{lookup: term}).values_list("pk", flat=True))
+                return Q(**{f"{relation}__in": ids})
+
+        return Q(**{self.construct_search(search_field, queryset): term})
