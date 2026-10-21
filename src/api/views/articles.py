@@ -4,6 +4,8 @@ from rest_framework import viewsets
 
 from api.models import Article
 from api.models.author import Author
+from api.models.event import Event
+from api.models.launch import Launch
 from api.serializers import ArticleSerializer
 from api.views.filters import DocsFilter, SearchFilter
 
@@ -12,8 +14,8 @@ class ArticleViewSet(viewsets.ReadOnlyModelViewSet):  # type: ignore
     queryset = (
         Article.objects.exclude(is_deleted=True)
         .prefetch_related(
-            "launches",
-            "events",
+            Prefetch("launches", queryset=Launch.objects.select_related("provider")),
+            Prefetch("events", queryset=Event.objects.select_related("provider")),
             Prefetch("authors", queryset=Author.objects.select_related("socials")),
         )
         .select_related("news_site")
