@@ -1,6 +1,101 @@
 # CHANGELOG
 
 
+## v4.34.0 (2026-10-21)
+
+### Chores
+
+- **deps**: Bump certifi from 2026.7.22 to 2026.10.19
+  ([#3850](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3850),
+  [`8abbc37`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/8abbc3731c94033e3fc0935036fef0ef6087d4a1))
+
+- **deps**: Bump gitpython from 3.1.58 to 3.1.62
+  ([#3839](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3839),
+  [`99547dd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/99547dd1314897c99922f6ed9bc391238f507a20))
+
+- **deps**: Bump sqlparse from 0.5.5 to 0.6.0
+  ([#3826](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3826),
+  [`fc3c1d2`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/fc3c1d2122dc403a194b8a46ace799ab9a80b4d0))
+
+- **deps**: Bump the package-updates group across 1 directory with 2 updates
+  ([#3847](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3847),
+  [`df4fa38`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/df4fa38217d1eed16c0d2d687f4505762b102aec))
+
+- **deps**: Bump the package-updates group across 1 directory with 3 updates
+  ([#3849](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3849),
+  [`850c6f6`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/850c6f6b90f663bda5f74b7a989cf756b487887c))
+
+- **deps**: Bump the package-updates group across 1 directory with 3 updates
+  ([#3846](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3846),
+  [`2c2c5f2`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2c2c5f27920a0102fa5b30cef82446869a11f706))
+
+- **deps**: Bump the package-updates group across 1 directory with 3 updates
+  ([#3831](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3831),
+  [`5afaf5f`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/5afaf5f280140277af43d474c2131975480bb28b))
+
+- **deps**: Bump the package-updates group across 1 directory with 4 updates
+  ([#3835](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3835),
+  [`c66cbe1`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c66cbe1fcb74b06009d50f3e1a47b7a8a196ff9a))
+
+- **deps**: Bump the package-updates group across 1 directory with 7 updates
+  ([#3830](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3830),
+  [`97510fd`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/97510fdc70f04772d317a98d64f1e4d3de6e58d7))
+
+- **deps**: Bump the package-updates group with 2 updates
+  ([#3840](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3840),
+  [`21af1b7`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/21af1b7655a79c2dfde964b64427463327e04e4c))
+
+- **deps**: Bump the package-updates group with 3 updates
+  ([#3843](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3843),
+  [`c6d0cde`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c6d0cdec3c35f6642dcca9d1296ec7433db7ecd1))
+
+- **deps**: Bump the package-updates group with 3 updates
+  ([#3837](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3837),
+  [`c6ead07`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c6ead07537cda3acbf75ae6197512bdf82c16ec3))
+
+- **deps**: Bump the package-updates group with 6 updates
+  ([#3834](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3834),
+  [`6bdc1b8`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6bdc1b87ef8dbecb7615629a4389731c7b5f4115))
+
+- **deps**: Bump the package-updates group with 7 updates
+  ([#3836](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3836),
+  [`c92a037`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/c92a0371668c68a0db8b03fef24fc411dc7a0cfd))
+
+- **deps**: Bump the package-updates group with 8 updates
+  ([#3845](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3845),
+  [`e71f3fb`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/e71f3fb3150e08ddeaea1bae33fd48f72cef79b3))
+
+- **deps**: Bump the package-updates group with 8 updates
+  ([#3841](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3841),
+  [`8b4466e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/8b4466e8cf1173eced9391bbd77f80a34104b3f5))
+
+- **deps**: Bump urllib3 from 2.7.0 to 2.8.0
+  ([#3838](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3838),
+  [`d294b01`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d294b011af058664cb34dd71ace3ac3f48a0963c))
+
+### Features
+
+- Add partial indexes for published and updated
+  ([#3852](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3852),
+  [`107b087`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/107b0872c957688288b82d92307755491b0209c2))
+
+- Add partial indexes for published and updated timestamps
+  ([#3853](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3853),
+  [`2eea101`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/2eea1015fb9c92c4a94dbf2f4f594945f0f20e73))
+
+- Configure persistent database connections with connection max age
+  ([#3855](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3855),
+  [`6cc243b`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6cc243b7e3bbc2d554d874c98a95ee5d570bc20e))
+
+- Implement caching for pagination count to optimize query perf
+  ([#3854](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3854),
+  [`b8c7c41`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b8c7c418d2c34d765f1243accdea7142c0cc9fae))
+
+- Optimize query performance by adding prefetching
+  ([#3851](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3851),
+  [`e43109c`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/e43109c958bf7b8fc48d2d517967c8de0b2003ce))
+
+
 ## v4.33.0 (2026-08-11)
 
 ### Chores
