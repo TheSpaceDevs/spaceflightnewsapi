@@ -243,6 +243,8 @@ GRAPHENE = {
 
 if env.bool("ENABLE_CACHE", False):
     CACHES = {"default": env.dj_cache_url("CACHE_URL")}
+    # Keeps the keys of environments that share a cache server (e.g. staging and production) apart.
+    CACHES["default"]["KEY_PREFIX"] = env.str("CACHE_KEY_PREFIX", env.str("SENTRY_ENVIRONMENT", ""))
 
 DEBUG_TOOLBAR_PANELS = [
     "debug_toolbar.panels.versions.VersionsPanel",

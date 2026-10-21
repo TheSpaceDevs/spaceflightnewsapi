@@ -2,10 +2,17 @@ from random import randrange
 from uuid import uuid4
 
 import pytest
+from django.core.cache import cache
 
 from api.models import Article, Event, Launch, NewsSite, Provider, Report
 
 NUMBER_OF_NEWS_SITES = 20
+
+
+@pytest.fixture(autouse=True)
+def clear_cache() -> None:
+    """The database is rolled back after each test, but cached responses and counts would otherwise leak."""
+    cache.clear()
 
 
 @pytest.fixture
