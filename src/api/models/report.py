@@ -1,6 +1,8 @@
 from typing import Any
 
+from django.contrib.postgres.indexes import GinIndex, OpClass
 from django.db import models
+from django.db.models.functions import Upper
 
 from api.models.author import Author
 
@@ -10,7 +12,7 @@ class Report(models.Model):
     url = models.URLField()
     image_url = models.URLField()
     news_site = models.ForeignKey("NewsSite", on_delete=models.CASCADE)
-    summary = models.TextField(blank=True, db_index=True)
+    summary = models.TextField(blank=True)
     published_at = models.DateTimeField()
     updated_at = models.DateTimeField(auto_now=True)
     is_deleted = models.BooleanField(default=False)
@@ -22,6 +24,9 @@ class Report(models.Model):
         indexes = [
             models.Index(fields=["-published_at"], name="report_published_idx", condition=models.Q(is_deleted=False)),
             models.Index(fields=["-updated_at"], name="report_updated_idx", condition=models.Q(is_deleted=False)),
+            # Trigram indexes for `icontains` filters and search, which Django compiles to `UPPER(col) LIKE UPPER(...)`.
+            GinIndex(OpClass(Upper("title"), name="gin_trgm_ops"), name="report_title_trgm_idx"),
+            GinIndex(OpClass(Upper("summary"), name="gin_trgm_ops"), name="report_summary_trgm_idx"),
         ]
 
     def __str__(self) -> str:
