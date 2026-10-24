@@ -1,19 +1,41 @@
 """Custom admin views for the Spaceflight News API."""
 
+from typing import Any
+
 from django import forms
 from django.contrib import admin
 from django.contrib.admin.templatetags.admin_urls import admin_urlname
 from django.db.models import QuerySet
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import resolve_url
+from django.utils.encoding import smart_str
 from django.utils.html import format_html
 from django.utils.safestring import SafeString
 
 # ignore the type error as it seems there's no package for it
-from jet.filters import RelatedFieldAjaxListFilter  # type: ignore
+from jet.filters import RelatedFieldAjaxListFilter as JetRelatedFieldAjaxListFilter  # type: ignore
 
 from api.models import Article, Author, Blog, Event, Launch, NewsSite, Provider, Report, Socials
 from api.models.abc import NewsItem
+
+
+class RelatedFieldAjaxListFilter(JetRelatedFieldAjaxListFilter):
+    """Jet's related filter, fixed for Django 5, which passes the selected values as a list instead of a single value."""
+
+    def field_choices(self, field: Any, request: HttpRequest, model_admin: admin.ModelAdmin) -> list[tuple[Any, str]]:
+        selected = self.lookup_val
+        # Let Jet set up its autocomplete widget, but skip its lookup of the selection as that expects a single value.
+        self.lookup_val = None
+        try:
+            super().field_choices(field, request, model_admin)
+        finally:
+            self.lookup_val = selected
+
+        if selected is None:
+            return []
+
+        queryset = field.remote_field.model._default_manager.filter(pk__in=selected)
+        return [(item.pk, smart_str(item)) for item in queryset]
 
 
 class ArticleForm(forms.ModelForm):
