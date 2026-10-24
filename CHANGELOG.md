@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v4.34.1 (2026-10-24)
+
+### Bug Fixes
+
+- Handle list of items as of Django 5
+  ([#3856](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3856),
+  [`fd06e1a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/fd06e1a23d04b9fec882661fb9ae9084d906f624))
+
+
 ## v4.34.0 (2026-10-21)
 
 ### Chores
