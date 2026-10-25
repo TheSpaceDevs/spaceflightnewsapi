@@ -1,6 +1,26 @@
 # CHANGELOG
 
 
+## v4.35.0 (2026-10-25)
+
+### Chores
+
+- Add GraphQL depth limit ([#3861](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3861),
+  [`4519214`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/451921454a456a83d548082e71edf67836db6b16))
+
+- Update packages ([#3860](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3860),
+  [`b22bb27`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/b22bb27165ba9b0dce900ebfedb92d8b25846865))
+
+- **deps**: Bump gitpython from 3.1.62 to 3.2.1
+  ([#3858](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3858),
+  [`55f975a`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/55f975a79e15ac393d0f0839a9a77a52d0bcc443))
+
+### Performance Improvements
+
+- Importer indexes ([#3859](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3859),
+  [`0e6ae02`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/0e6ae022b177ed7a18b91475613ce984d3f2fd1b))
+
+
 ## v4.34.1 (2026-10-24)
 
 ### Bug Fixes
