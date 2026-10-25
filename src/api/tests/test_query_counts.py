@@ -21,7 +21,7 @@ def news_items_with_relations() -> None:
     socials = Socials.objects.create(name="Author socials")
     author = Author.objects.create(name="Author", socials=socials)
 
-    for model in (Article, Blog):
+    for offset, model in enumerate((Article, Blog)):
         for i in range(NUMBER_OF_ITEMS):
             # A new provider per relation makes sure every provider would be a separate query without prefetching.
             launch = Launch.objects.create(
@@ -30,7 +30,7 @@ def news_items_with_relations() -> None:
                 provider=Provider.objects.create(name=f"Launch provider {i}"),
             )
             event = Event.objects.create(
-                event_id=i,
+                event_id=offset * NUMBER_OF_ITEMS + i,
                 name=f"Event {i}",
                 provider=Provider.objects.create(name=f"Event provider {i}"),
             )

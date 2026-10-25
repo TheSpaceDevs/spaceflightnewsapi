@@ -7,6 +7,8 @@ class Launch(models.Model):
     launch_id = models.UUIDField(unique=True)
     name = models.CharField(max_length=250)
     provider = models.ForeignKey("Provider", on_delete=models.CASCADE)
+    # Launch Library 2's last update, used to only import what changed since the previous import.
+    last_updated = models.DateTimeField(null=True, blank=True)
 
     class Meta:
         verbose_name_plural = "Launches"

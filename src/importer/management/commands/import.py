@@ -9,13 +9,18 @@ class Command(BaseCommand):
         parser.add_argument("--launches", action="store_true", help="Fetch launches")
         parser.add_argument("--events", action="store_true", help="Fetch events")
         parser.add_argument("--news", action="store_true", help="Fetch news")
+        parser.add_argument(
+            "--full",
+            action="store_true",
+            help="Fetch all launches and events instead of only those updated since the previous import",
+        )
 
     def handle(self, *args: tuple[str], **options: dict[str, str | bool]) -> None:
         if options["news"]:
             fetch_news()
 
         if options["launches"]:
-            fetch_launches()
+            fetch_launches(full=bool(options["full"]))
 
         if options["events"]:
-            fetch_events()
+            fetch_events(full=bool(options["full"]))
