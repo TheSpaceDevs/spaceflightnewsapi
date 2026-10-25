@@ -9,7 +9,7 @@ from api.models.author import Author
 
 class Report(models.Model):
     title = models.CharField(max_length=250, db_index=True)
-    url = models.URLField()
+    url = models.URLField(db_index=True)
     image_url = models.URLField()
     news_site = models.ForeignKey("NewsSite", on_delete=models.CASCADE)
     summary = models.TextField(blank=True)

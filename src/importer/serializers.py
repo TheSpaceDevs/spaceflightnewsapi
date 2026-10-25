@@ -1,47 +1,29 @@
+from datetime import datetime
 from typing import TypedDict
+from uuid import UUID
 
 from rest_framework import serializers
 
-from api.models import Event, Launch
-
 
 class ValidatedLaunchDataDict(TypedDict):
-    id: str
+    id: UUID
     name: str
+    last_updated: datetime
 
 
-class LaunchLibraryLaunchSerializer(serializers.Serializer[Launch]):
+class LaunchLibraryLaunchSerializer(serializers.Serializer[ValidatedLaunchDataDict]):
     id = serializers.UUIDField()
     name = serializers.CharField()
-
-    def create(self, validated_data: ValidatedLaunchDataDict) -> Launch:
-        launch, _ = Launch.objects.update_or_create(
-            launch_id=validated_data["id"],
-            defaults={
-                "name": validated_data["name"],
-                "provider": self.context["provider"],
-            },
-        )
-
-        return launch
+    last_updated = serializers.DateTimeField()
 
 
 class ValidatedEventDataDict(TypedDict):
     id: int
     name: str
+    last_updated: datetime
 
 
-class LaunchLibraryEventSerializer(serializers.Serializer[Event]):
+class LaunchLibraryEventSerializer(serializers.Serializer[ValidatedEventDataDict]):
     id = serializers.IntegerField()
     name = serializers.CharField()
-
-    def create(self, validated_data: ValidatedEventDataDict) -> Event:
-        event, _ = Event.objects.update_or_create(
-            event_id=validated_data["id"],
-            defaults={
-                "name": validated_data["name"],
-                "provider": self.context["provider"],
-            },
-        )
-
-        return event
+    last_updated = serializers.DateTimeField()

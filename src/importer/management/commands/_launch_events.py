@@ -1,10 +1,12 @@
 from logging import INFO, WARN, basicConfig, getLogger
-from typing import TypedDict
+from typing import Any, TypedDict
 
 import httpx
 from django.conf import settings
+from django.db.models import Max
+from rest_framework import serializers
 
-from api.models import Provider
+from api.models import Event, Launch, Provider
 from importer.serializers import LaunchLibraryEventSerializer, LaunchLibraryLaunchSerializer
 
 LOGGER = getLogger(__name__)
@@ -14,10 +16,8 @@ basicConfig(level=INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(messa
 httpx_logger = getLogger("httpx")
 httpx_logger.setLevel(WARN)
 
-try:
-    provider = Provider.objects.get(name="Launch Library 2")
-except Provider.DoesNotExist:
-    raise ValueError("Launch Library 2 provider does not exist. Please create it before running this command.")
+# The maximum page size Launch Library 2 allows.
+PAGE_SIZE = 100
 
 
 class ClientOptions(TypedDict):
@@ -35,44 +35,75 @@ client_options: ClientOptions = {
 }
 
 
-def fetch_launches() -> None:
-    next_url = "/launches/"
-
-    with httpx.Client(base_url=client_options["base_url"], timeout=1440, headers=client_options["headers"]) as client:
-        while next_url:
-            LOGGER.info(f"Fetching launches from {next_url}")
-
-            response = client.get(url=next_url)
-            response.raise_for_status()
-
-            data = response.json()
-
-            for launch in data["results"]:
-                launch = LaunchLibraryLaunchSerializer(data=launch, context={"provider": provider})
-                launch.is_valid(raise_exception=True)
-                launch.save()
-
-            next_url = data["next"]
-
-        LOGGER.info("Finished fetching launches.")
+def _get_provider() -> Provider:
+    try:
+        return Provider.objects.get(name="Launch Library 2")
+    except Provider.DoesNotExist:
+        raise ValueError("Launch Library 2 provider does not exist. Please create it before running this command.")
 
 
-def fetch_events() -> None:
-    next_url = "/events/"
+def _import[M: (Launch, Event)](
+    client: httpx.Client,
+    endpoint: str,
+    model: type[M],
+    id_field: str,
+    serializer_class: type[serializers.Serializer[Any]],
+    full: bool,
+    params: dict[str, str],
+) -> None:
+    """Imports everything Launch Library 2 updated since the previous import, or everything when `full` is set.
 
-    with httpx.Client(base_url=client_options["base_url"], timeout=1400, headers=client_options["headers"]) as client:
-        while next_url:
-            LOGGER.info(f"Fetching events from {next_url}")
-            response = client.get(url=next_url)
-            response.raise_for_status()
+    Items are fetched oldest update first, so an import that stops halfway continues where it left off next time.
+    """
+    provider = _get_provider()
+    since = None if full else model.objects.filter(provider=provider).aggregate(Max("last_updated"))["last_updated__max"]
 
-            data = response.json()
+    query = {**params, "ordering": "last_updated", "limit": str(PAGE_SIZE)}
+    if since:
+        query["last_updated__gte"] = since.isoformat()
 
-            for event in data["results"]:
-                event = LaunchLibraryEventSerializer(data=event, context={"provider": provider})
-                event.is_valid(raise_exception=True)
-                event.save()
+    LOGGER.info(f"Fetching {endpoint} updated since {since.isoformat() if since else 'the beginning'}")
+    next_url: str | None = f"/{endpoint}/"
+    first_page = True
+    imported = 0
 
-            next_url = data["next"]
+    while next_url:
+        # The `next` link already contains the query parameters.
+        response = client.get(next_url, params=query if first_page else None)
+        first_page = False
+        response.raise_for_status()
+        data = response.json()
 
-        LOGGER.info("Finished fetching events.")
+        serializer = serializer_class(data=data["results"], many=True)
+        serializer.is_valid(raise_exception=True)
+
+        # Keyed by id, as an upsert can't contain the same item twice.
+        items = {
+            item["id"]: model(
+                **{id_field: item["id"]}, name=item["name"], last_updated=item["last_updated"], provider=provider
+            )
+            for item in serializer.validated_data
+        }
+        # One upsert per page instead of a SELECT and UPDATE/INSERT per item.
+        model.objects.bulk_create(
+            list(items.values()),
+            update_conflicts=True,
+            unique_fields=[id_field],
+            update_fields=["name", "provider", "last_updated"],
+        )
+
+        imported += len(items)
+        next_url = data["next"]
+
+    LOGGER.info(f"Finished fetching {endpoint}, imported {imported}.")
+
+
+def fetch_launches(client: httpx.Client | None = None, full: bool = False) -> None:
+    with client or httpx.Client(timeout=1440, **client_options) as client:
+        _import(client, "launches", Launch, "launch_id", LaunchLibraryLaunchSerializer, full, {"mode": "list"})
+
+
+def fetch_events(client: httpx.Client | None = None, full: bool = False) -> None:
+    # The list mode of events doesn't include `last_updated`, the normal mode does.
+    with client or httpx.Client(timeout=1440, **client_options) as client:
+        _import(client, "events", Event, "event_id", LaunchLibraryEventSerializer, full, {"mode": "normal"})
