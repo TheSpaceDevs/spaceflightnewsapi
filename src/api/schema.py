@@ -74,18 +74,21 @@ class ReportType(DjangoObjectType):
 class LaunchType(DjangoObjectType):
     class Meta:
         model = Launch
+        fields = ["id", "launch_id", "name", "last_updated"]
         interfaces = (relay.Node,)
 
 
 class EventType(DjangoObjectType):
     class Meta:
         model = Event
+        fields = ["id", "event_id", "name", "last_updated"]
         interfaces = (relay.Node,)
 
 
 class NewsSiteType(DjangoObjectType):
     class Meta:
         model = NewsSite
+        fields = ["id", "name"]
         interfaces = (relay.Node,)
 
 
