@@ -21,6 +21,7 @@ from django.conf import settings
 from django.contrib import admin
 from django.urls import include, re_path
 from django.views.decorators.csrf import csrf_exempt
+from graphene.validation import depth_limit_validator  # type: ignore
 from graphene_django.views import GraphQLView  # type: ignore
 from health_check.views import HealthCheckView
 
@@ -29,7 +30,10 @@ urlpatterns = [
     re_path(r"^v4/jet/dashboard/", include("jet.dashboard.urls", "jet-dashboard")),  # Django JET dashboard URLS
     re_path(r"^v4/jet/", include("jet.urls", "jet")),  # Django JET URLS
     # GraphQL URLs
-    re_path(r"^v4/graphql/", csrf_exempt(GraphQLView.as_view(graphiql=True))),
+    re_path(
+        r"^v4/graphql/",
+        csrf_exempt(GraphQLView.as_view(graphiql=True, validation_rules=[depth_limit_validator(max_depth=6)])),
+    ),
     # API URLs
     re_path(r"^v4/", include(("api.urls", "api"), namespace="v4")),
     # Non v4 URLs
