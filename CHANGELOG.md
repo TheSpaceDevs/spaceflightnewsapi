@@ -1,6 +1,20 @@
 # CHANGELOG
 
 
+## v4.36.0 (2026-10-26)
+
+### Bug Fixes
+
+- Add logging config and disable server side cursor
+  ([#3865](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3865),
+  [`6d8a8ae`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/6d8a8aeb7a3989a316aa3ac2e5a4c4d94673bc78))
+
+### Chores
+
+- Update harvester ([#3866](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3866),
+  [`246e34e`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/246e34ebc01e3c67dabbdd498938805f091b51ba))
+
+
 ## v4.35.1 (2026-10-26)
 
 ### Performance Improvements
