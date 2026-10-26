@@ -1,4 +1,4 @@
-"""Tests the cached count of the list endpoints' pagination."""
+"""Tests the list endpoints' pagination: the cached count and the maximum offset."""
 
 import pytest
 from django.db import connection
@@ -51,3 +51,31 @@ class TestCachedCount:
 
     def test_list(self) -> None:
         assert CustomLimitOffsetPagination().get_count([1, 2, 3]) == 3
+
+
+@pytest.mark.django_db
+class TestMaxOffset:
+    @pytest.fixture(autouse=True)
+    def small_max_offset(self, monkeypatch: pytest.MonkeyPatch) -> None:
+        monkeypatch.setattr(CustomLimitOffsetPagination, "max_offset", 20)
+
+    def test_max_offset_is_allowed(self, client: Client, articles: list[Article]) -> None:
+        response = client.get("/v4/articles/?limit=5&offset=20")
+
+        assert response.status_code == 200
+        assert len(response.json()["results"]) == 5
+
+    @pytest.mark.parametrize("endpoint", ["articles", "blogs", "reports"])
+    def test_larger_offset_is_rejected(self, client: Client, endpoint: str) -> None:
+        response = client.get(f"/v4/{endpoint}/?offset=21")
+
+        assert response.status_code == 400
+        assert "published_at_lt" in response.json()["offset"][0]
+
+    def test_next_link_stops_at_max_offset(self, client: Client, articles: list[Article]) -> None:
+        assert client.get("/v4/articles/?limit=5&offset=15").json()["next"].endswith("offset=20")
+        assert client.get("/v4/articles/?limit=5&offset=20").json()["next"] is None
+
+    def test_count_is_unchanged(self, client: Client, articles: list[Article]) -> None:
+        # The count still reflects all results, also those beyond the maximum offset.
+        assert client.get("/v4/articles/?limit=5&offset=20").json()["count"] > 25
