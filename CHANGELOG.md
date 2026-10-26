@@ -1,6 +1,18 @@
 # CHANGELOG
 
 
+## v4.35.1 (2026-10-26)
+
+### Performance Improvements
+
+- Add authors to prefetched queryset
+  ([#3862](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3862),
+  [`d459553`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/d4595535eedf5d4bde40362c00a787eabae7be2e))
+
+- Cap offset ([#3863](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3863),
+  [`13f3910`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/13f3910b8e45f149db4a831467397025c5f84954))
+
+
 ## v4.35.0 (2026-10-25)
 
 ### Chores
