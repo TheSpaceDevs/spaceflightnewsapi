@@ -9,7 +9,7 @@ from django.db.models import QuerySet
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import resolve_url
 from django.utils.encoding import smart_str
-from django.utils.html import format_html
+from django.utils.html import format_html, format_html_join
 from django.utils.safestring import SafeString
 
 # ignore the type error as it seems there's no package for it
@@ -105,7 +105,7 @@ class ArticleAdmin(admin.ModelAdmin):
 
     def get_queryset(self, request: HttpRequest) -> QuerySet:
         """Return the queryset with related fields prefetched."""
-        qs = super().get_queryset(request).select_related("news_site").prefetch_related("launches", "events")
+        qs = super().get_queryset(request).select_related("news_site").prefetch_related("launches", "events", "authors")
         return qs
 
     @staticmethod
@@ -137,13 +137,21 @@ class ArticleAdmin(admin.ModelAdmin):
     )
     def authors_formatted(obj: NewsItem) -> SafeString:
         """Returns the authors as a list of hyperlinks."""
+        # format_html escapes the names, which come from external feeds.
         authors_list = [
-            f'<a href="{resolve_url(admin_urlname(Author._meta, format_html("change")), author.id)}">{author.name}</a>'
+            format_html(
+                '<a href="{}">{}</a>',
+                resolve_url(admin_urlname(Author._meta, SafeString("change")), author.id),
+                author.name,
+            )
             for author in obj.authors.all()
         ]
-        string = [authors_list[i : i + 3] for i in range(0, len(authors_list), 3)]  # Group into lines of up to 3 authors
-        split_string = "<br>".join([", ".join(line) for line in string])  # Format each line and join with <br>
-        return format_html(split_string)
+        # Group into lines of up to 3 authors and join the lines with <br>
+        lines = (
+            format_html_join(", ", "{}", ((link,) for link in authors_list[i : i + 3]))
+            for i in range(0, len(authors_list), 3)
+        )
+        return format_html_join(SafeString("<br>"), "{}", ((line,) for line in lines))
 
     @staticmethod
     @admin.display(
@@ -157,7 +165,7 @@ class ArticleAdmin(admin.ModelAdmin):
         """Returns the number of launches assigned to the article."""
         count = obj.launches.count()
         if count == 0:
-            return format_html("")
+            return SafeString("")
         return format_html(
             '<div  title="{}" style="text-align:center;background:LawnGreen;color:black">{}</div >',
             "\n".join([launch.name for launch in obj.launches.all()]),
@@ -176,7 +184,7 @@ class ArticleAdmin(admin.ModelAdmin):
         """Returns the number of events assigned to the article."""
         count = obj.events.count()
         if count == 0:
-            return format_html("")
+            return SafeString("")
         return format_html(
             '<div  title="{}" style="text-align:center;background:PaleTurquoise;color:black">{}</div >',
             "\n".join([event.name for event in obj.events.all()]),
