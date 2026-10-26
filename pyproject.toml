@@ -4,7 +4,7 @@ version = "4.35.1"
 description = "Spaceflight News API (SNAPI) enables developers to add the latest spaceflight news to their apps."
 authors = [{ name = "Derk Weijers", email = "derk@weijers.xyz" }]
 readme = "README.md"
-requires-python = ">=3.13,<3.14"  # Pin to Python 3.13 for compatibility with Django 5.2
+requires-python = ">=3.13,<3.14" # Pin to Python 3.13 for compatibility with Django 5.2
 dependencies = [
     "django-cors-headers>=4.4.0",
     "django-filter>=26.2",
@@ -22,7 +22,7 @@ dependencies = [
     "pyyaml>=6.0.2",
     "sentry-sdk>=2.72.0",
     "uritemplate>=4.1.1",
-    "harvester>=0.18.0",
+    "harvester>=0.18.1",
     "graphene-django>=3.2.2",
     "redis>=8.1.0",
     "hiredis>=3.4.2",
