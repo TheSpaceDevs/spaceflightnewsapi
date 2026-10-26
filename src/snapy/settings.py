@@ -134,6 +134,10 @@ DATABASES = {
         "DATABASE_URL",
         conn_max_age=env.int("CONN_MAX_AGE", 60),
         conn_health_checks=True,
+        # Production connects through PgBouncer in transaction mode, which can run each statement on a different
+        # Postgres connection. A server-side cursor (used by `.iterator()`, e.g. for the admin's form choices) then
+        # isn't found when fetching from it: InvalidCursorName.
+        disable_server_side_cursors=env.bool("DISABLE_SERVER_SIDE_CURSORS", True),
     )
 }
 
@@ -237,6 +241,24 @@ SPECTACULAR_SETTINGS = {
 # LL Settings
 LL_URL = env.str("LL_URL", "https://lldev.thespacedevs.com/2.2.0")
 LL_TOKEN = env.str("LL_TOKEN", "")
+
+# Log to stdout, where the container logs pick it up next to Granian's access log. Without this, Django only sends
+# server errors to Sentry and the (unset) ADMINS, so the logs show a 500 without its traceback.
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "default": {"format": "[{asctime}] [{levelname}] {name}: {message}", "style": "{"},
+    },
+    "handlers": {
+        "console": {"class": "logging.StreamHandler", "stream": "ext://sys.stdout", "formatter": "default"},
+    },
+    "root": {"handlers": ["console"], "level": env.str("LOG_LEVEL", "INFO")},
+    "loggers": {
+        # Server errors with their traceback; 404s and other client errors would only add noise.
+        "django.request": {"level": "ERROR"},
+    },
+}
 
 HEALTH_CHECK = {
     "SUBSETS": {
