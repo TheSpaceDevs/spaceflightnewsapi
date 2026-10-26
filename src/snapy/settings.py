@@ -83,8 +83,11 @@ if DEBUG:
     INSTALLED_APPS.append("debug_toolbar")
 
 MIDDLEWARE = [
-    "django.middleware.cache.UpdateCacheMiddleware",
+    # Before the cache, so the CORS headers (and their `Vary: Origin`) are added after a response is cached and to every
+    # response served from the cache. As all origins are allowed, the response is the same for every origin.
     "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.cache.UpdateCacheMiddleware",
+    "snapy.middleware.NormalizeJSONAcceptMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -248,6 +251,9 @@ HEALTH_CHECK = {
 GRAPHENE = {
     "SCHEMA": "snapy.schema.schema",
 }
+
+# How long the cache middleware keeps responses, which is also sent to clients as `Cache-Control: max-age`.
+CACHE_MIDDLEWARE_SECONDS = env.int("CACHE_MIDDLEWARE_SECONDS", 600)
 
 if env.bool("ENABLE_CACHE", False):
     CACHES = {"default": env.dj_cache_url("CACHE_URL")}
