@@ -1,7 +1,9 @@
 import logging
 import time
-from functools import lru_cache
+from collections.abc import Callable
+from functools import lru_cache, partial
 
+from django.db import transaction
 from harvester import sources
 from harvester.schemas import ArticleSchema, BlogSchema, ReportSchema
 
@@ -109,20 +111,22 @@ def fetch_news() -> None:
     for source in sources:
         try:
             data = source.harvest()
-
-            if data.articles:
-                for article in data.articles:
-                    process_article(article=article)
-
-            if data.blogs:
-                for blog in data.blogs:
-                    process_blog(blog=blog)
-
-            if data.reports:
-                for report in data.reports:
-                    process_report(report=report)
-
         except Exception as e:
             logger.error(f"Error processing {source}: {e}")
+            continue
+
+        items: list[tuple[str, Callable[[], None]]] = [
+            *((str(article.url), partial(process_article, article)) for article in data.articles or []),
+            *((str(blog.url), partial(process_blog, blog)) for blog in data.blogs or []),
+            *((str(report.url), partial(process_report, report)) for report in data.reports or []),
+        ]
+        for url, process in items:
+            # One failing item shouldn't stop the rest of the source. The savepoint undoes a half-saved item (e.g.
+            # without its author) and keeps the connection usable after a database error.
+            try:
+                with transaction.atomic():
+                    process()
+            except Exception as e:
+                logger.error(f"Error processing {url} from {source}: {e}")
 
     logger.info(f"Finished fetching news in {time.time() - starttime} seconds")
