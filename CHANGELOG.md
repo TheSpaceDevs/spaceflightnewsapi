@@ -1,6 +1,20 @@
 # CHANGELOG
 
 
+## v4.37.0 (2026-10-27)
+
+### Bug Fixes
+
+- Long titles and urls ([#3868](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3868),
+  [`0b15044`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/0b1504470fc3f63562dc5807bb4e483ca8c6d594))
+
+### Chores
+
+- **deps**: Bump the package-updates group with 2 updates
+  ([#3867](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3867),
+  [`ad61060`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/ad6106054abbd5d9b545d48ec9174d12992f9515))
+
+
 ## v4.36.0 (2026-10-26)
 
 ### Bug Fixes
