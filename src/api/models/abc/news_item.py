@@ -11,8 +11,8 @@ from api.models.news_site import NewsSite
 
 
 class NewsItem(models.Model):
-    title = models.CharField(max_length=250, db_index=True)
-    url = models.URLField(unique=True)
+    title = models.CharField(max_length=500, db_index=True)
+    url = models.URLField(max_length=500, unique=True)
     image_url = models.URLField(max_length=500)
     news_site = models.ForeignKey(NewsSite, on_delete=models.CASCADE)
     summary = models.TextField()
