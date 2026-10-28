@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v4.37.1 (2026-10-28)
+
+### Bug Fixes
+
+- Make sure errors group correctly in Glitch
+  ([#3869](https://github.com/TheSpaceDevs/spaceflightnewsapi/pull/3869),
+  [`0984817`](https://github.com/TheSpaceDevs/spaceflightnewsapi/commit/09848178c548e89c5e133afef62b513d9ebcdd80))
+
+
 ## v4.37.0 (2026-10-27)
 
 ### Bug Fixes
