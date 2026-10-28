@@ -76,3 +76,30 @@ class TestFetchNews:
         errors = [record for record in caplog.records if record.levelname == "ERROR"]
         assert len(errors) == 1
         assert "https://spacedaily.com/too-long/" in errors[0].getMessage()
+        # GlitchTip groups logged errors by their message template, so the URL must not be part of it.
+        assert errors[0].msg == "Error processing %s from %s"
+        assert errors[0].exc_info is not None
+
+    def test_a_failing_source_is_logged_by_name(
+        self, news_site: NewsSite, monkeypatch: pytest.MonkeyPatch, caplog: Any
+    ) -> None:
+        class BrokenSource(FakeSource):
+            def harvest(self) -> HarvestResultSchema:
+                raise ValueError("feed changed")
+
+        monkeypatch.setattr(
+            _news_items,
+            "sources",
+            [BrokenSource([]), FakeSource([_article(news_site, "Other", "https://example.com/other/")])],
+        )
+
+        fetch_news()
+
+        assert Article.objects.get().title == "Other"
+        errors = [record for record in caplog.records if record.levelname == "ERROR"]
+        assert len(errors) == 1
+        # A stable template and the source's name, instead of an object repr with a memory address that differs in
+        # every cron job and made every run a new issue.
+        assert errors[0].msg == "Error harvesting %s"
+        assert errors[0].getMessage() == "Error harvesting BrokenSource"
+        assert errors[0].exc_info is not None
