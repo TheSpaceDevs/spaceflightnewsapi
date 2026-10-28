@@ -109,10 +109,14 @@ def fetch_news() -> None:
     starttime = time.time()
 
     for source in sources:
+        # GlitchTip groups logged errors by their message template, so the details go in as arguments. The source's
+        # class name instead of the object, whose memory address differs in every cron job and made each run a new
+        # issue. `logger.exception` includes the exception and its traceback.
+        source_name = type(source).__name__
         try:
             data = source.harvest()
-        except Exception as e:
-            logger.error(f"Error processing {source}: {e}")
+        except Exception:
+            logger.exception("Error harvesting %s", source_name)
             continue
 
         items: list[tuple[str, Callable[[], None]]] = [
@@ -126,7 +130,7 @@ def fetch_news() -> None:
             try:
                 with transaction.atomic():
                     process()
-            except Exception as e:
-                logger.error(f"Error processing {url} from {source}: {e}")
+            except Exception:
+                logger.exception("Error processing %s from %s", url, source_name)
 
     logger.info(f"Finished fetching news in {time.time() - starttime} seconds")
